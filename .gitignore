@@ -11,13 +11,23 @@ Thumbs.db
 .vscode/
 .idea/
 
-# ---- Raw input data (regenerate with: python scripts/download_data.py) ----
-# ~196 MB of GeneLab-processed tables downloaded from NASA OSDR; not versioned.
+# ---- Downloaded inputs ----
+# Regenerate with OSD-682-685-698-699-brain-spatial/scripts/download_data.py (~12 MB)
 data/
 
-# ---- Large, regenerable result tables (rebuild with export_results.py) ----
-# Full gene-level DE for every contrast: ~98 MB combined + 31 per-contrast files.
-# GitHub rejects files >100 MB; these are derived and easy to regenerate.
+# ---- Large, regenerable gene-level exports ----
+# Full per-contrast differential expression, ~145 MB across 28 files.
+# Rebuild with scripts/export_results.py.
 results/tables/csv/DE_*.csv
 
 # Kept in git: figures, summary tables, and the consolidated Excel workbook.
+
+# ---- Retired OSD-561/562 bulk RNA-seq project ----
+# Removed from this repository; still present in this working copy, and preserved
+# on the remote as branch backup/osd-561-562-main and tag osd-561-562-main-backup
+# (commit 81f83ef). Listed here so it is not re-added by `git add -A`.
+/Makefile
+/requirements.txt
+/scripts/
+/results/
+/config/
