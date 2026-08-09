@@ -1,0 +1,196 @@
+{
+  "description": "Multiplier applied to the deposited NanoString 'Log2' column so that positive values mean higher in the numerator recorded in common.PROVIDED_CONTRASTS. Resolved empirically against the Q3-normalised matrix by scripts/check_conventions.py.",
+  "signs": {
+    "GCvsFLT-SAL": 1,
+    "SALvsBuOE-GC": 1,
+    "SALvsBuOE-FLT": 1
+  },
+  "evidence": [
+    {
+      "region": "CA1",
+      "osd": "OSD-682",
+      "contrast": "GCvsFLT-SAL",
+      "dataset_name": "CA GCvsFLT SAL",
+      "stated_orientation": "FLT_SAL - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "CA1",
+      "osd": "OSD-682",
+      "contrast": "SALvsBuOE-GC",
+      "dataset_name": "CA SALvsTX GC",
+      "stated_orientation": "GC_BuOE - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "CA1",
+      "osd": "OSD-682",
+      "contrast": "SALvsBuOE-FLT",
+      "dataset_name": "CA SALvsTX Flight",
+      "stated_orientation": "FLT_BuOE - FLT_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "DG",
+      "osd": "OSD-685",
+      "contrast": "GCvsFLT-SAL",
+      "dataset_name": "DG GCvsFLT SAL",
+      "stated_orientation": "FLT_SAL - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "DG",
+      "osd": "OSD-685",
+      "contrast": "SALvsBuOE-GC",
+      "dataset_name": "DG SALvsTX GC",
+      "stated_orientation": "GC_BuOE - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "DG",
+      "osd": "OSD-685",
+      "contrast": "SALvsBuOE-FLT",
+      "dataset_name": "DG SALvsTX Flight",
+      "stated_orientation": "FLT_BuOE - FLT_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "FCtx",
+      "osd": "OSD-698",
+      "contrast": "GCvsFLT-SAL",
+      "dataset_name": "FCortex GCvsFLT SAL",
+      "stated_orientation": "FLT_SAL - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "FCtx",
+      "osd": "OSD-698",
+      "contrast": "SALvsBuOE-GC",
+      "dataset_name": "FCortex SALvsTX GC",
+      "stated_orientation": "GC_BuOE - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "FCtx",
+      "osd": "OSD-698",
+      "contrast": "SALvsBuOE-FLT",
+      "dataset_name": "FCortex SALvsTX Flight",
+      "stated_orientation": "FLT_BuOE - FLT_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "Ctx",
+      "osd": "OSD-699",
+      "contrast": "GCvsFLT-SAL",
+      "dataset_name": "Cortex GCvsFLT SAL",
+      "stated_orientation": "FLT_SAL - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "Ctx",
+      "osd": "OSD-699",
+      "contrast": "SALvsBuOE-GC",
+      "dataset_name": "Cortex SALvsTX GC",
+      "stated_orientation": "GC_BuOE - GC_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    },
+    {
+      "region": "Ctx",
+      "osd": "OSD-699",
+      "contrast": "SALvsBuOE-FLT",
+      "dataset_name": "Cortex SALvsTX Flight",
+      "stated_orientation": "FLT_BuOE - FLT_SAL",
+      "r_as_deposited": 1.0,
+      "r_negated": -1.0,
+      "resolved_sign": 1,
+      "slope_q3_vs_deposited": 1.0,
+      "n_shared_genes": 15782
+    }
+  ],
+  "coverage": [
+    {
+      "region": "CA1",
+      "n_q3_targets": 15783,
+      "n_de_targets": 15782,
+      "in_q3_not_in_de": "NegProbe-WTX",
+      "n_unique_padj_deposited": 101,
+      "n_unique_pvalue": 15780,
+      "min_padj_deposited": 0.0,
+      "n_padj_exactly_zero": 2027
+    },
+    {
+      "region": "DG",
+      "n_q3_targets": 15783,
+      "n_de_targets": 15782,
+      "in_q3_not_in_de": "NegProbe-WTX",
+      "n_unique_padj_deposited": 101,
+      "n_unique_pvalue": 15782,
+      "min_padj_deposited": 0.0,
+      "n_padj_exactly_zero": 2261
+    },
+    {
+      "region": "FCtx",
+      "n_q3_targets": 15783,
+      "n_de_targets": 15782,
+      "in_q3_not_in_de": "NegProbe-WTX",
+      "n_unique_padj_deposited": 100,
+      "n_unique_pvalue": 15782,
+      "min_padj_deposited": 0.0,
+      "n_padj_exactly_zero": 1871
+    },
+    {
+      "region": "Ctx",
+      "n_q3_targets": 15783,
+      "n_de_targets": 15782,
+      "in_q3_not_in_de": "NegProbe-WTX",
+      "n_unique_padj_deposited": 101,
+      "n_unique_pvalue": 15782,
+      "min_padj_deposited": 0.0,
+      "n_padj_exactly_zero": 1587
+    }
+  ]
+}

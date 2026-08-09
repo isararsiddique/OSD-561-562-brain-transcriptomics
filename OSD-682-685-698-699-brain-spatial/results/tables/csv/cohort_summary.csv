@@ -1,0 +1,6 @@
+osd,glds,region,region_short,n_roi,n_slides,n_targets,sex,strain,n_GC_SAL,n_GC_BuOE,n_FLT_SAL,n_FLT_BuOE,age_at_launch_wk,mission_duration_d
+OSD-682,GLDS-613,Cornu Ammonis 1,CA1,12,4,15782,male,C57BL/6,3,3,3,3,10,34
+OSD-685,GLDS-616,Dentate Gyrus,DG,12,4,15782,male,C57BL/6,3,3,3,3,10,34
+OSD-698,GLDS-627,Frontal Cortex,FCtx,12,4,15782,male,C57BL/6,3,3,3,3,10,34
+OSD-699,GLDS-628,Cerebral Cortex,Ctx,12,4,15782,male,C57BL/6,3,3,3,3,10,34
+all four,-,CA1 + DG + FCtx + Ctx,combined,48,4,15782,male,C57BL/6,12,12,12,12,,

@@ -1,0 +1,23 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Raw input data (regenerate with: python scripts/download_data.py) ----
+# ~196 MB of GeneLab-processed tables downloaded from NASA OSDR; not versioned.
+data/
+
+# ---- Large, regenerable result tables (rebuild with export_results.py) ----
+# Full gene-level DE for every contrast: ~98 MB combined + 31 per-contrast files.
+# GitHub rejects files >100 MB; these are derived and easy to regenerate.
+results/tables/csv/DE_*.csv
+
+# Kept in git: figures, summary tables, and the consolidated Excel workbook.

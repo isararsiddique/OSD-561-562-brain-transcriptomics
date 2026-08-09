@@ -1,0 +1,12 @@
+# Python 3.12  (tested on 3.12.13)
+# Pins match the sibling OSD-561/562 project so both analyses run on one stack.
+# Install:  uv venv --python 3.12 .venv && uv pip install -r requirements.txt
+# (or:      python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt)
+pandas==3.0.3
+numpy==2.5.1
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.0
+scipy==1.18.0
+adjustText==1.4.0
+openpyxl==3.1.5

@@ -1,0 +1,15 @@
+# Focus gene list for the CNS Injury EV manuscript.
+# One gene SYMBOL per line. Lines starting with '#' are ignored.
+# Replace the placeholders below with the group's actual gene list.
+#
+# Examples (EV / neuroinflammation-related placeholders — REPLACE THESE):
+Cd9
+Cd63
+Cd81
+Pdcd6ip
+Tsg101
+Nfkb1
+Il1b
+Tnf
+Gfap
+Aif1

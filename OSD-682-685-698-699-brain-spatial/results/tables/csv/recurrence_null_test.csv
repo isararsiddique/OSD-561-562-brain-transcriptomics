@@ -1,0 +1,4 @@
+contrast,contrast_label,criterion,n_recurring_2plus_regions,n_recurring_3plus_regions,null_mean_3plus,null_p95_3plus,permutation_p,n_permutations
+FLT_vs_GC_in_SAL,Flight vs Ground (saline),"nominal P<0.01, |log2FC|>=0.5",36,6,6.0,6.0,1.0,200
+FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE),"nominal P<0.01, |log2FC|>=0.5",33,1,1.0,1.0,1.0,200
+interaction,Flight x BuOE interaction,"nominal P<0.01, |log2FC|>=0.5",3,0,0.0,0.0,1.0,200

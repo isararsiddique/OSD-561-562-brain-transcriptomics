@@ -1,0 +1,10 @@
+category,n_analytes,n_on_panel,pct_on_panel
+Neuroinflammation / cytokine,32,17,53.1
+Neuronal / synaptic,21,20,95.2
+Coagulation / vascular,20,15,75.0
+Blood-brain barrier / endothelial,19,16,84.2
+Oxidative stress / metabolism,15,12,80.0
+Transcription / chromatin / other,15,8,53.3
+Glial / myelin,11,7,63.6
+Injury biomarker,9,9,100.0
+Inflammasome / pyroptosis,8,7,87.5

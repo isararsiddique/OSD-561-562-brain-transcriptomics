@@ -1,0 +1,178 @@
+{
+  "studies": {
+    "OSD-561": {
+      "label": "Cerebellum",
+      "glds": "GLDS-556",
+      "n_samples": 26,
+      "n_genes_measured": 26005,
+      "by_treatment": {
+        "Ground Control": 12,
+        "Space Flight": 14
+      },
+      "by_age": {
+        "OLD": 13,
+        "YNG": 13
+      },
+      "by_environment": {
+        "ISS-T": 15,
+        "LAR": 11
+      },
+      "pca_pc1_pct": 39.1,
+      "pca_pc2_pct": 16.5,
+      "n_spaceflight_contrasts": 2,
+      "degs": [
+        {
+          "contrast": "12wk | On Earth",
+          "genes_tested": 25967,
+          "up_in_flight": 4,
+          "down_in_flight": 2,
+          "total_DEG": 6
+        },
+        {
+          "contrast": "29wk | On Earth",
+          "genes_tested": 18423,
+          "up_in_flight": 0,
+          "down_in_flight": 2,
+          "total_DEG": 2
+        }
+      ]
+    },
+    "OSD-562": {
+      "label": "Hippocampus",
+      "glds": "GLDS-557",
+      "n_samples": 27,
+      "n_genes_measured": 26067,
+      "by_treatment": {
+        "Ground Control": 12,
+        "Space Flight": 15
+      },
+      "by_age": {
+        "OLD": 14,
+        "YNG": 13
+      },
+      "by_environment": {
+        "ISS-T": 15,
+        "LAR": 12
+      },
+      "pca_pc1_pct": 33.4,
+      "pca_pc2_pct": 19.1,
+      "n_spaceflight_contrasts": 3,
+      "degs": [
+        {
+          "contrast": "12wk | On Earth",
+          "genes_tested": 26038,
+          "up_in_flight": 0,
+          "down_in_flight": 2,
+          "total_DEG": 2
+        },
+        {
+          "contrast": "29wk | On Earth",
+          "genes_tested": 26038,
+          "up_in_flight": 0,
+          "down_in_flight": 1,
+          "total_DEG": 1
+        },
+        {
+          "contrast": "29wk | On ISS",
+          "genes_tested": 26038,
+          "up_in_flight": 2,
+          "down_in_flight": 0,
+          "total_DEG": 2
+        }
+      ]
+    }
+  },
+  "combined": {
+    "n_samples": 53,
+    "n_shared_genes": 24769,
+    "by_region": {
+      "Cb": 26,
+      "HPC": 27
+    },
+    "pca_pc1_pct": 49.7,
+    "pca_pc2_pct": 18.7
+  },
+  "focus_genes": [
+    "Cd9",
+    "Cd63",
+    "Cd81",
+    "Pdcd6ip",
+    "Tsg101",
+    "Nfkb1",
+    "Il1b",
+    "Tnf",
+    "Gfap",
+    "Aif1"
+  ],
+  "focus_highlights": [
+    {
+      "study": "OSD-562",
+      "contrast": "29wk | On ISS",
+      "gene": "Tnf",
+      "log2FC": 4.03,
+      "pvalue": 0.2235,
+      "padj": 1.0
+    },
+    {
+      "study": "OSD-561",
+      "contrast": "29wk | On Earth",
+      "gene": "Tnf",
+      "log2FC": -2.95,
+      "pvalue": 0.0135,
+      "padj": null
+    },
+    {
+      "study": "OSD-562",
+      "contrast": "12wk | On Earth",
+      "gene": "Tnf",
+      "log2FC": -2.05,
+      "pvalue": 0.2211,
+      "padj": 1.0
+    },
+    {
+      "study": "OSD-561",
+      "contrast": "29wk | On Earth",
+      "gene": "Il1b",
+      "log2FC": -1.92,
+      "pvalue": 0.1524,
+      "padj": null
+    },
+    {
+      "study": "OSD-561",
+      "contrast": "12wk | On Earth",
+      "gene": "Il1b",
+      "log2FC": 1.17,
+      "pvalue": 0.5095,
+      "padj": 1.0
+    },
+    {
+      "study": "OSD-562",
+      "contrast": "29wk | On ISS",
+      "gene": "Il1b",
+      "log2FC": 1.17,
+      "pvalue": 0.4658,
+      "padj": 1.0
+    },
+    {
+      "study": "OSD-561",
+      "contrast": "12wk | On Earth",
+      "gene": "Gfap",
+      "log2FC": 0.95,
+      "pvalue": 0.0613,
+      "padj": 1.0
+    },
+    {
+      "study": "OSD-562",
+      "contrast": "29wk | On ISS",
+      "gene": "Nfkb1",
+      "log2FC": 0.76,
+      "pvalue": 0.2185,
+      "padj": 1.0
+    }
+  ],
+  "thresholds": {
+    "FDR": 0.05,
+    "abs_log2FC": 1.0,
+    "pca_top_variable_genes": 2000
+  }
+}
