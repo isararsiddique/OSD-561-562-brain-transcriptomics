@@ -1,0 +1,32 @@
+study,region,category,label,factors_differ,num_group,den_group,genes_tested,up_in_num,down_in_num,total_DEG
+OSD-561,Cerebellum,Spaceflight,SF vs GC | 12wk · Earth,treatment,12 week & Space Flight & On Earth,12 week & Ground Control & On Earth,25967,4,2,6
+OSD-561,Cerebellum,Spaceflight,SF vs GC | 29wk · Earth,treatment,29 week & Space Flight & On Earth,29 week & Ground Control & On Earth,18423,0,2,2
+OSD-561,Cerebellum,Age,Old vs Young | GC · Earth,age,29 week & Ground Control & On Earth,12 week & Ground Control & On Earth,25967,4,0,4
+OSD-561,Cerebellum,Age,Old vs Young | SF · Earth,age,29 week & Space Flight & On Earth,12 week & Space Flight & On Earth,25967,2,0,2
+OSD-561,Cerebellum,Environment,ISS vs Earth | 12wk · SF,environment,12 week & Space Flight & On ISS,12 week & Space Flight & On Earth,17919,5,36,41
+OSD-561,Cerebellum,Confounded,12wk/GC/Earth  vs  12wk/SF/ISS,"treatment,environment",12 week & Ground Control & On Earth,12 week & Space Flight & On ISS,20435,1023,58,1081
+OSD-561,Cerebellum,Confounded,12wk/SF/ISS  vs  29wk/SF/Earth,"age,environment",12 week & Space Flight & On ISS,29 week & Space Flight & On Earth,19429,27,626,653
+OSD-561,Cerebellum,Confounded,12wk/SF/ISS  vs  29wk/GC/Earth,"age,treatment,environment",12 week & Space Flight & On ISS,29 week & Ground Control & On Earth,18423,10,498,508
+OSD-561,Cerebellum,Confounded,12wk/GC/Earth  vs  29wk/SF/Earth,"age,treatment",12 week & Ground Control & On Earth,29 week & Space Flight & On Earth,23951,4,7,11
+OSD-561,Cerebellum,Confounded,12wk/SF/Earth  vs  29wk/GC/Earth,"age,treatment",12 week & Space Flight & On Earth,29 week & Ground Control & On Earth,25967,0,1,1
+OSD-562,Hippocampus,Spaceflight,SF vs GC | 12wk · Earth,treatment,12 week & Space Flight & On Earth,12 week & Ground Control & On Earth,26038,0,2,2
+OSD-562,Hippocampus,Spaceflight,SF vs GC | 29wk · ISS,treatment,29 week & Space Flight & On ISS,29 week & Ground Control & On ISS,26038,2,0,2
+OSD-562,Hippocampus,Spaceflight,SF vs GC | 29wk · Earth,treatment,29 week & Space Flight & On Earth,29 week & Ground Control & On Earth,26038,0,1,1
+OSD-562,Hippocampus,Age,Old vs Young | SF · Earth,age,29 week & Space Flight & On Earth,12 week & Space Flight & On Earth,26038,1,1,2
+OSD-562,Hippocampus,Age,Old vs Young | GC · Earth,age,29 week & Ground Control & On Earth,12 week & Ground Control & On Earth,26038,0,0,0
+OSD-562,Hippocampus,Age,Old vs Young | SF · ISS,age,29 week & Space Flight & On ISS,12 week & Space Flight & On ISS,26038,0,0,0
+OSD-562,Hippocampus,Environment,ISS vs Earth | 29wk · SF,environment,29 week & Space Flight & On ISS,29 week & Space Flight & On Earth,16961,22,20,42
+OSD-562,Hippocampus,Environment,ISS vs Earth | 12wk · SF,environment,12 week & Space Flight & On ISS,12 week & Space Flight & On Earth,26038,3,0,3
+OSD-562,Hippocampus,Environment,ISS vs Earth | 29wk · GC,environment,29 week & Ground Control & On ISS,29 week & Ground Control & On Earth,26038,0,3,3
+OSD-562,Hippocampus,Confounded,12wk/SF/ISS  vs  29wk/SF/Earth,"age,environment",12 week & Space Flight & On ISS,29 week & Space Flight & On Earth,16458,24,24,48
+OSD-562,Hippocampus,Confounded,12wk/GC/Earth  vs  12wk/SF/ISS,"treatment,environment",12 week & Ground Control & On Earth,12 week & Space Flight & On ISS,17465,0,4,4
+OSD-562,Hippocampus,Confounded,12wk/GC/Earth  vs  29wk/SF/Earth,"age,treatment",12 week & Ground Control & On Earth,29 week & Space Flight & On Earth,26038,3,1,4
+OSD-562,Hippocampus,Confounded,12wk/SF/Earth  vs  29wk/SF/ISS,"age,environment",12 week & Space Flight & On Earth,29 week & Space Flight & On ISS,16961,0,4,4
+OSD-562,Hippocampus,Confounded,12wk/SF/Earth  vs  29wk/GC/ISS,"age,treatment,environment",12 week & Space Flight & On Earth,29 week & Ground Control & On ISS,26038,3,0,3
+OSD-562,Hippocampus,Confounded,12wk/SF/ISS  vs  29wk/GC/Earth,"age,treatment,environment",12 week & Space Flight & On ISS,29 week & Ground Control & On Earth,26038,3,0,3
+OSD-562,Hippocampus,Confounded,12wk/GC/Earth  vs  29wk/GC/ISS,"age,environment",12 week & Ground Control & On Earth,29 week & Ground Control & On ISS,26038,2,0,2
+OSD-562,Hippocampus,Confounded,12wk/SF/Earth  vs  29wk/GC/Earth,"age,treatment",12 week & Space Flight & On Earth,29 week & Ground Control & On Earth,26038,0,2,2
+OSD-562,Hippocampus,Confounded,29wk/GC/ISS  vs  29wk/SF/Earth,"treatment,environment",29 week & Ground Control & On ISS,29 week & Space Flight & On Earth,26038,0,2,2
+OSD-562,Hippocampus,Confounded,12wk/SF/ISS  vs  29wk/GC/ISS,"age,treatment",12 week & Space Flight & On ISS,29 week & Ground Control & On ISS,26038,1,0,1
+OSD-562,Hippocampus,Confounded,12wk/GC/Earth  vs  29wk/SF/ISS,"age,treatment,environment",12 week & Ground Control & On Earth,29 week & Space Flight & On ISS,20489,0,0,0
+OSD-562,Hippocampus,Confounded,29wk/GC/Earth  vs  29wk/SF/ISS,"treatment,environment",29 week & Ground Control & On Earth,29 week & Space Flight & On ISS,23005,0,0,0

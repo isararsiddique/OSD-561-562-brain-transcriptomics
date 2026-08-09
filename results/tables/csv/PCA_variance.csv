@@ -1,0 +1,4 @@
+pca_set,region,PC1_pct,PC2_pct
+OSD-561,Cerebellum,39.14,16.47
+OSD-562,Hippocampus,33.38,19.12
+Combined,Cb+HPC,49.68,18.65
