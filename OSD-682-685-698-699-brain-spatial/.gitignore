@@ -1,0 +1,15 @@
+# Downloaded inputs - regenerate with scripts/download_data.py (~12 MB)
+data/
+
+# Virtual environment
+.venv/
+
+# Large, regenerable gene-level exports
+results/tables/csv/DE_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store

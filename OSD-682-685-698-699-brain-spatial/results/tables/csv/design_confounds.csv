@@ -1,0 +1,4 @@
+issue,detail,n_levels_per_group,confounded,consequence
+group vs slide,FLT_BuOE=FLT_TX_2; FLT_SAL=FLT_SAL_2; GC_BuOE=GC_TX_2; GC_SAL=GC_SAL_2,1,True,"Each experimental group sits on its own GeoMx slide, so slide / batch effects cannot be separated from treatment effects."
+biological replication,CA=3; CT=3; DG=3; FCT=3,3,False,Three tissue sections (rep1-3) per group per region. Replication is at the section/ROI level; with one slide per group the effective independent unit is ambiguous.
+region is a within-section factor,"regions per (slide, rep): {4: 12}",4,False,"All four regions are sampled from the same sections, so cross-region comparisons are paired rather than independent."

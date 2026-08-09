@@ -1,0 +1,373 @@
+{
+  "project": "OSD-682/685/698/699 GeoMx DSP re-analysis",
+  "geo_series": "GSE239336",
+  "studies": [
+    {
+      "osd": "OSD-682",
+      "glds": "GLDS-613",
+      "region": "Cornu Ammonis 1",
+      "region_code": "CA",
+      "label": "CA1"
+    },
+    {
+      "osd": "OSD-685",
+      "glds": "GLDS-616",
+      "region": "Dentate Gyrus",
+      "region_code": "DG",
+      "label": "DG"
+    },
+    {
+      "osd": "OSD-698",
+      "glds": "GLDS-627",
+      "region": "Frontal Cortex",
+      "region_code": "FCT",
+      "label": "FCtx"
+    },
+    {
+      "osd": "OSD-699",
+      "glds": "GLDS-628",
+      "region": "Cerebral Cortex",
+      "region_code": "CT",
+      "label": "Ctx"
+    }
+  ],
+  "assay": "NanoString GeoMx Digital Spatial Profiling (spatial transcriptomics)",
+  "design": {
+    "factors": {
+      "Spaceflight": [
+        "GC",
+        "FLT"
+      ],
+      "Treatment": [
+        "SAL",
+        "BuOE"
+      ]
+    },
+    "n_per_cell": 3,
+    "n_roi_total": 48,
+    "n_slides": 4,
+    "n_targets": 15782,
+    "sex": "male",
+    "strain": "C57BL/6"
+  },
+  "qc": {
+    "raw_reads_millions_min": 3.76,
+    "raw_reads_millions_max": 40.2,
+    "raw_reads_millions_median": 13.83,
+    "seq_saturation_min": 81.7,
+    "seq_saturation_max": 96.2,
+    "align_rate_min": 0.9061,
+    "align_rate_max": 0.9658,
+    "nuclei_min": 140,
+    "nuclei_max": 640,
+    "q3_upper_quartile_identical_across_files": true
+  },
+  "structure": {
+    "pc1_variance_explained": 0.2909,
+    "pc2_variance_explained": 0.1517,
+    "median_variance_fraction": {
+      "Region": 0.1298,
+      "Spaceflight": 0.013,
+      "Treatment": 0.0097,
+      "Section (rep)": 0.0323
+    }
+  },
+  "deposited_statistics": {
+    "frac_adjusted_below_raw_min": 0.7676,
+    "frac_adjusted_below_raw_max": 0.7825,
+    "n_unique_adjusted_values_max": 101,
+    "deposited_significant_min": 1317,
+    "deposited_significant_max": 2361,
+    "recomputed_BH_significant_total": 0,
+    "best_recomputed_BH": 0.1293
+  },
+  "differential_expression": {
+    "fdr_cutoff": 0.05,
+    "lfc_cutoff": 1.0,
+    "n_contrasts_tested": 7,
+    "n_region_contrast_combinations": 28,
+    "total_fdr_significant_targets": 0,
+    "best_padj_across_everything": 0.0633,
+    "nominal_p001_obs_over_expected_min": 0.798,
+    "nominal_p001_obs_over_expected_max": 2.56
+  },
+  "sensitivity": {
+    "CA1": {
+      "median_se_log2": 0.2502,
+      "mde_log2FC_nominal": 0.799,
+      "mde_log2FC_genomewide": 3.074,
+      "mde_fold_change_genomewide": 8.42
+    },
+    "DG": {
+      "median_se_log2": 0.2229,
+      "mde_log2FC_nominal": 0.712,
+      "mde_log2FC_genomewide": 2.739,
+      "mde_fold_change_genomewide": 6.68
+    },
+    "FCtx": {
+      "median_se_log2": 0.2147,
+      "mde_log2FC_nominal": 0.686,
+      "mde_log2FC_genomewide": 2.638,
+      "mde_fold_change_genomewide": 6.22
+    },
+    "Ctx": {
+      "median_se_log2": 0.2087,
+      "mde_log2FC_nominal": 0.667,
+      "mde_log2FC_genomewide": 2.565,
+      "mde_fold_change_genomewide": 5.92
+    }
+  },
+  "buoe_attenuation": {
+    "CA1": {
+      "verdict": "attenuation supported (borderline)",
+      "rms_true_effect_saline": 0.1014,
+      "rms_true_effect_BuOE": 0.0809,
+      "msq_diff_saline_minus_BuOE": 0.00373,
+      "msq_diff_ci": [
+        0.00075,
+        0.00667
+      ],
+      "bootstrap_p": 0.0128,
+      "within_arm_variance_ratio_BuOE_over_saline": 1.191,
+      "verdict_under_pooled_variance": "amplification supported",
+      "verdict_depends_on_variance_assumption": true,
+      "n_interaction_targets_fdr05": 0
+    },
+    "DG": {
+      "verdict": "attenuation supported",
+      "rms_true_effect_saline": 0.119,
+      "rms_true_effect_BuOE": 0.0713,
+      "msq_diff_saline_minus_BuOE": 0.00909,
+      "msq_diff_ci": [
+        0.0066,
+        0.01166
+      ],
+      "bootstrap_p": 0.0,
+      "within_arm_variance_ratio_BuOE_over_saline": 1.419,
+      "verdict_under_pooled_variance": "amplification supported",
+      "verdict_depends_on_variance_assumption": true,
+      "n_interaction_targets_fdr05": 0
+    },
+    "FCtx": {
+      "verdict": "attenuation supported (borderline)",
+      "rms_true_effect_saline": 0.0812,
+      "rms_true_effect_BuOE": 0.0664,
+      "msq_diff_saline_minus_BuOE": 0.00218,
+      "msq_diff_ci": [
+        3e-05,
+        0.00437
+      ],
+      "bootstrap_p": 0.0474,
+      "within_arm_variance_ratio_BuOE_over_saline": 1.25,
+      "verdict_under_pooled_variance": "amplification supported",
+      "verdict_depends_on_variance_assumption": true,
+      "n_interaction_targets_fdr05": 0
+    },
+    "Ctx": {
+      "verdict": "amplification supported (borderline)",
+      "rms_true_effect_saline": 0.04,
+      "rms_true_effect_BuOE": 0.0643,
+      "msq_diff_saline_minus_BuOE": -0.00254,
+      "msq_diff_ci": [
+        -0.00448,
+        -0.00058
+      ],
+      "bootstrap_p": 0.0103999999999999,
+      "within_arm_variance_ratio_BuOE_over_saline": 1.091,
+      "verdict_under_pooled_variance": "amplification supported",
+      "verdict_depends_on_variance_assumption": true,
+      "n_interaction_targets_fdr05": 0
+    }
+  },
+  "cns_ev_target_panel": {
+    "n_analytes": 150,
+    "n_measurable": 111,
+    "n_ensid_corrections": 6,
+    "all_corrections_verified": true,
+    "corrections": [
+      {
+        "analyte": "APC-CC1",
+        "supplied": "ENSG00000135982",
+        "corrected_to": "ENSG00000134982",
+        "resolves_to": "APC",
+        "measured": true
+      },
+      {
+        "analyte": "Iba1",
+        "supplied": "ENSG00000153406",
+        "corrected_to": "ENSG00000204472",
+        "resolves_to": "AIF1",
+        "measured": false
+      },
+      {
+        "analyte": "Neurogranin",
+        "supplied": "ENSG00000101191",
+        "corrected_to": "ENSG00000154146",
+        "resolves_to": "NRGN",
+        "measured": true
+      },
+      {
+        "analyte": "PYCARD",
+        "supplied": "ENSG00000103483",
+        "corrected_to": "ENSG00000103490",
+        "resolves_to": "PYCARD",
+        "measured": true
+      },
+      {
+        "analyte": "SBDP (SNTF)",
+        "supplied": "ENSG00000077279",
+        "corrected_to": "ENSG00000197694",
+        "resolves_to": "SPTAN1",
+        "measured": true
+      },
+      {
+        "analyte": "Serum amyloid alpha (SAA)",
+        "supplied": "ENSG00000154803",
+        "corrected_to": "ENSG00000173432",
+        "resolves_to": "SAA1",
+        "measured": true
+      }
+    ],
+    "n_significant_panel_fdr": 8,
+    "significant": [
+      {
+        "analyte": "JUNB",
+        "gene": "Junb",
+        "region": "FCtx",
+        "contrast": "BuOE vs saline (flight)",
+        "log2FC": 1.238,
+        "padj_panel": 0.0053,
+        "padj_genomewide": 0.38
+      },
+      {
+        "analyte": "JUNB",
+        "gene": "Junb",
+        "region": "DG",
+        "contrast": "Flight x BuOE interaction",
+        "log2FC": -0.534,
+        "padj_panel": 0.0122,
+        "padj_genomewide": 0.527
+      },
+      {
+        "analyte": "JUNB",
+        "gene": "Junb",
+        "region": "FCtx",
+        "contrast": "Flight vs Ground (BuOE)",
+        "log2FC": 1.039,
+        "padj_panel": 0.0183,
+        "padj_genomewide": 0.378
+      },
+      {
+        "analyte": "JUNB",
+        "gene": "Junb",
+        "region": "FCtx",
+        "contrast": "Flight x BuOE interaction",
+        "log2FC": 0.72,
+        "padj_panel": 0.0211,
+        "padj_genomewide": 0.6
+      },
+      {
+        "analyte": "MMP12",
+        "gene": "Mmp12",
+        "region": "CA1",
+        "contrast": "Flight x BuOE interaction",
+        "log2FC": -0.453,
+        "padj_panel": 0.0315,
+        "padj_genomewide": 0.873
+      },
+      {
+        "analyte": "Neurogranin",
+        "gene": "Nrgn",
+        "region": "DG",
+        "contrast": "Flight vs Ground (saline)",
+        "log2FC": 0.64,
+        "padj_panel": 0.04,
+        "padj_genomewide": 0.315
+      },
+      {
+        "analyte": "JUNB",
+        "gene": "Junb",
+        "region": "DG",
+        "contrast": "Flight vs Ground (saline)",
+        "log2FC": 0.571,
+        "padj_panel": 0.04,
+        "padj_genomewide": 0.336
+      },
+      {
+        "analyte": "MMP12",
+        "gene": "Mmp12",
+        "region": "CA1",
+        "contrast": "Flight vs Ground (BuOE)",
+        "log2FC": -0.602,
+        "padj_panel": 0.048,
+        "padj_genomewide": 0.361
+      }
+    ],
+    "set_enrichment_significant": [
+      {
+        "region": "CA1",
+        "contrast": "Flight vs Ground (BuOE)",
+        "delta_mean_abs_t": 0.118,
+        "permutation_p": 0.01
+      },
+      {
+        "region": "CA1",
+        "contrast": "Spaceflight main effect",
+        "delta_mean_abs_t": 0.168,
+        "permutation_p": 0.036
+      },
+      {
+        "region": "DG",
+        "contrast": "Flight vs Ground (saline)",
+        "delta_mean_abs_t": 0.164,
+        "permutation_p": 0.026
+      },
+      {
+        "region": "DG",
+        "contrast": "BuOE vs saline (flight)",
+        "delta_mean_abs_t": 0.235,
+        "permutation_p": 0.004
+      },
+      {
+        "region": "DG",
+        "contrast": "Flight x BuOE interaction",
+        "delta_mean_abs_t": 0.192,
+        "permutation_p": 0.03
+      },
+      {
+        "region": "FCtx",
+        "contrast": "BuOE vs saline (flight)",
+        "delta_mean_abs_t": 0.189,
+        "permutation_p": 0.028
+      },
+      {
+        "region": "FCtx",
+        "contrast": "Treatment main effect",
+        "delta_mean_abs_t": 0.184,
+        "permutation_p": 0.012
+      }
+    ],
+    "categories_q_below_005": [
+      {
+        "region": "FCtx",
+        "contrast": "BuOE vs saline (flight)",
+        "category": "Blood-brain barrier / endothelial",
+        "mean_t": -0.995,
+        "q": 0.0284
+      },
+      {
+        "region": "FCtx",
+        "contrast": "BuOE vs saline (flight)",
+        "category": "Neuroinflammation / cytokine",
+        "mean_t": -0.581,
+        "q": 0.0284
+      }
+    ],
+    "attenuation_verdicts": {
+      "CA1": "inconclusive",
+      "DG": "inconclusive",
+      "FCtx": "inconclusive",
+      "Ctx": "inconclusive"
+    }
+  }
+}
