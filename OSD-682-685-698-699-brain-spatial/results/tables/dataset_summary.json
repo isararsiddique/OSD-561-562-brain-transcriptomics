@@ -179,53 +179,109 @@
       "n_interaction_targets_fdr05": 0
     }
   },
-  "cns_ev_target_panel": {
-    "n_analytes": 150,
-    "n_measurable": 111,
-    "n_ensid_corrections": 6,
-    "all_corrections_verified": true,
-    "corrections": [
+  "cns_target_panel": {
+    "n_analytes": 151,
+    "n_measurable": 112,
+    "panel_source": "CNS mRNA targets.csv (maintained by the project lead)",
+    "n_label_symbol_mismatches": 14,
+    "label_symbol_mismatches": [
       {
-        "analyte": "APC-CC1",
-        "supplied": "ENSG00000135982",
-        "corrected_to": "ENSG00000134982",
-        "resolves_to": "APC",
+        "analyte": "ALDH1",
+        "ensid": "ENSG00000165092",
+        "resolves_to": "ALDH1A1",
+        "mouse_ortholog": "Aldh1a1",
         "measured": true
       },
       {
-        "analyte": "Iba1",
-        "supplied": "ENSG00000153406",
-        "corrected_to": "ENSG00000204472",
-        "resolves_to": "AIF1",
+        "analyte": "Amyloid-beta",
+        "ensid": "ENSG00000142192",
+        "resolves_to": "APP",
+        "mouse_ortholog": "App",
+        "measured": true
+      },
+      {
+        "analyte": "GLT-1",
+        "ensid": "ENSG00000110436",
+        "resolves_to": "SLC1A2",
+        "mouse_ortholog": "Slc1a2",
+        "measured": true
+      },
+      {
+        "analyte": "HBA1",
+        "ensid": "ENSG00000188536",
+        "resolves_to": "HBA2",
+        "mouse_ortholog": "Hba-a1",
+        "measured": true
+      },
+      {
+        "analyte": "ICAM",
+        "ensid": "ENSG00000090339",
+        "resolves_to": "ICAM1",
+        "mouse_ortholog": "Icam1",
+        "measured": true
+      },
+      {
+        "analyte": "ICE",
+        "ensid": "ENSG00000137752",
+        "resolves_to": "CASP1",
+        "mouse_ortholog": "Casp1",
         "measured": false
       },
       {
+        "analyte": "IL-17",
+        "ensid": "ENSG00000112115",
+        "resolves_to": "IL17A",
+        "mouse_ortholog": "Il17a",
+        "measured": false
+      },
+      {
+        "analyte": "IL-1alpha",
+        "ensid": "ENSG00000115008",
+        "resolves_to": "IL1A",
+        "mouse_ortholog": "Il1a",
+        "measured": false
+      },
+      {
+        "analyte": "IL6RA",
+        "ensid": "ENSG00000160712",
+        "resolves_to": "IL6R",
+        "mouse_ortholog": "Il6ra",
+        "measured": true
+      },
+      {
+        "analyte": "Neurofilament Light (NfL)",
+        "ensid": "ENSG00000277586",
+        "resolves_to": "NEFL",
+        "mouse_ortholog": "Nefl",
+        "measured": true
+      },
+      {
         "analyte": "Neurogranin",
-        "supplied": "ENSG00000101191",
-        "corrected_to": "ENSG00000154146",
+        "ensid": "ENSG00000154146",
         "resolves_to": "NRGN",
+        "mouse_ortholog": "Nrgn",
         "measured": true
       },
       {
-        "analyte": "PYCARD",
-        "supplied": "ENSG00000103483",
-        "corrected_to": "ENSG00000103490",
-        "resolves_to": "PYCARD",
+        "analyte": "Tau",
+        "ensid": "ENSG00000186868",
+        "resolves_to": "MAPT",
+        "mouse_ortholog": "Mapt",
         "measured": true
       },
       {
-        "analyte": "SBDP (SNTF)",
-        "supplied": "ENSG00000077279",
-        "corrected_to": "ENSG00000197694",
-        "resolves_to": "SPTAN1",
+        "analyte": "TDP43",
+        "ensid": "ENSG00000120948",
+        "resolves_to": "TARDBP",
+        "mouse_ortholog": "Tardbp",
         "measured": true
       },
       {
-        "analyte": "Serum amyloid alpha (SAA)",
-        "supplied": "ENSG00000154803",
-        "corrected_to": "ENSG00000173432",
-        "resolves_to": "SAA1",
-        "measured": true
+        "analyte": "VCAM",
+        "ensid": "ENSG00000162692",
+        "resolves_to": "VCAM1",
+        "mouse_ortholog": "Vcam1",
+        "measured": false
       }
     ],
     "n_significant_panel_fdr": 8,
@@ -236,7 +292,7 @@
         "region": "FCtx",
         "contrast": "BuOE vs saline (flight)",
         "log2FC": 1.238,
-        "padj_panel": 0.0053,
+        "padj_panel": 0.0054,
         "padj_genomewide": 0.38
       },
       {
@@ -245,7 +301,7 @@
         "region": "DG",
         "contrast": "Flight x BuOE interaction",
         "log2FC": -0.534,
-        "padj_panel": 0.0122,
+        "padj_panel": 0.0123,
         "padj_genomewide": 0.527
       },
       {
@@ -254,7 +310,7 @@
         "region": "FCtx",
         "contrast": "Flight vs Ground (BuOE)",
         "log2FC": 1.039,
-        "padj_panel": 0.0183,
+        "padj_panel": 0.0185,
         "padj_genomewide": 0.378
       },
       {
@@ -263,7 +319,7 @@
         "region": "FCtx",
         "contrast": "Flight x BuOE interaction",
         "log2FC": 0.72,
-        "padj_panel": 0.0211,
+        "padj_panel": 0.0213,
         "padj_genomewide": 0.6
       },
       {
@@ -272,7 +328,7 @@
         "region": "CA1",
         "contrast": "Flight x BuOE interaction",
         "log2FC": -0.453,
-        "padj_panel": 0.0315,
+        "padj_panel": 0.0318,
         "padj_genomewide": 0.873
       },
       {
@@ -281,7 +337,7 @@
         "region": "DG",
         "contrast": "Flight vs Ground (saline)",
         "log2FC": 0.64,
-        "padj_panel": 0.04,
+        "padj_panel": 0.0404,
         "padj_genomewide": 0.315
       },
       {
@@ -290,7 +346,7 @@
         "region": "DG",
         "contrast": "Flight vs Ground (saline)",
         "log2FC": 0.571,
-        "padj_panel": 0.04,
+        "padj_panel": 0.0404,
         "padj_genomewide": 0.336
       },
       {
@@ -299,7 +355,7 @@
         "region": "CA1",
         "contrast": "Flight vs Ground (BuOE)",
         "log2FC": -0.602,
-        "padj_panel": 0.048,
+        "padj_panel": 0.0484,
         "padj_genomewide": 0.361
       }
     ],
@@ -307,19 +363,19 @@
       {
         "region": "CA1",
         "contrast": "Flight vs Ground (BuOE)",
-        "delta_mean_abs_t": 0.118,
+        "delta_mean_abs_t": 0.115,
         "permutation_p": 0.01
       },
       {
         "region": "CA1",
         "contrast": "Spaceflight main effect",
-        "delta_mean_abs_t": 0.168,
+        "delta_mean_abs_t": 0.159,
         "permutation_p": 0.036
       },
       {
         "region": "DG",
         "contrast": "Flight vs Ground (saline)",
-        "delta_mean_abs_t": 0.164,
+        "delta_mean_abs_t": 0.155,
         "permutation_p": 0.026
       },
       {
@@ -331,19 +387,19 @@
       {
         "region": "DG",
         "contrast": "Flight x BuOE interaction",
-        "delta_mean_abs_t": 0.192,
-        "permutation_p": 0.03
+        "delta_mean_abs_t": 0.183,
+        "permutation_p": 0.042
       },
       {
         "region": "FCtx",
         "contrast": "BuOE vs saline (flight)",
-        "delta_mean_abs_t": 0.189,
+        "delta_mean_abs_t": 0.187,
         "permutation_p": 0.028
       },
       {
         "region": "FCtx",
         "contrast": "Treatment main effect",
-        "delta_mean_abs_t": 0.184,
+        "delta_mean_abs_t": 0.176,
         "permutation_p": 0.012
       }
     ],
@@ -353,14 +409,14 @@
         "contrast": "BuOE vs saline (flight)",
         "category": "Blood-brain barrier / endothelial",
         "mean_t": -0.995,
-        "q": 0.0284
+        "q": 0.0316
       },
       {
         "region": "FCtx",
         "contrast": "BuOE vs saline (flight)",
         "category": "Neuroinflammation / cytokine",
         "mean_t": -0.581,
-        "q": 0.0284
+        "q": 0.0316
       }
     ],
     "attenuation_verdicts": {

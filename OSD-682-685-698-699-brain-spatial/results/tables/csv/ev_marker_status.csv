@@ -1,0 +1,4 @@
+ev_marker,ensid,human_symbol_ensembl,mouse_ortholog_symbol,in_cns_target_panel,geomx_target,measurable_on_geomx
+CD9,ENSG00000010278,CD9,Cd9,False,Cd9,True
+CD63,ENSG00000135404,CD63,Cd63,False,Cd63,True
+CD81,ENSG00000110651,CD81,Cd81,False,Cd81,True

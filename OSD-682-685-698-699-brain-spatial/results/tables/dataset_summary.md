@@ -76,35 +76,45 @@ At 80% power. Surviving multiple-testing control would have required roughly a s
 
 No individual target reaches FDR significance for the interaction term in any region, so this is an aggregate effect-size comparison, not a gene list. The BuOE arm carries 1.09–1.42× the within-arm variance of the saline arm, so the choice of variance estimate matters: the verdict changes for CA1, DG, FCtx, Ctx when a single pooled variance is assumed instead.
 
-## CNS / EV target panel
+## CNS target panel
 
-111 of 150 analytes in the project target list are measurable on this assay. Because the panel is pre-specified, FDR is controlled within it rather than across all 15,782 targets.
+112 of 151 analytes in the project target list are measurable on this assay. Because the panel is pre-specified, FDR is controlled within it rather than across all 15,782 targets.
 
-### Source-data corrections
+Panel source: `CNS mRNA targets.csv (maintained by the project lead)`. Every Ensembl ID was re-resolved against Ensembl and mapped to mouse via Compara; the audit trail is in `config/cns_targets_mapped.csv`.
 
-6 Ensembl IDs in the spreadsheet resolved to genes unrelated to their analyte label and were corrected (all verified against Ensembl):
+### Labels that differ from their Ensembl symbol (14)
 
-| Analyte | Supplied ENSID | Corrected to | Resolves to | Measured |
+All of these point at the intended gene — they are protein or assay names rather than gene symbols. Listed so the mapping is auditable.
+
+| Analyte | Ensembl ID | Resolves to | Mouse ortholog | Measured |
 |---|---|---|---|---|
-| APC-CC1 | `ENSG00000135982` | `ENSG00000134982` | APC | yes |
-| Iba1 | `ENSG00000153406` | `ENSG00000204472` | AIF1 | no |
-| Neurogranin | `ENSG00000101191` | `ENSG00000154146` | NRGN | yes |
-| PYCARD | `ENSG00000103483` | `ENSG00000103490` | PYCARD | yes |
-| SBDP (SNTF) | `ENSG00000077279` | `ENSG00000197694` | SPTAN1 | yes |
-| Serum amyloid alpha (SAA) | `ENSG00000154803` | `ENSG00000173432` | SAA1 | yes |
+| ALDH1 | `ENSG00000165092` | ALDH1A1 | *Aldh1a1* | yes |
+| Amyloid-beta | `ENSG00000142192` | APP | *App* | yes |
+| GLT-1 | `ENSG00000110436` | SLC1A2 | *Slc1a2* | yes |
+| HBA1 | `ENSG00000188536` | HBA2 | *Hba-a1* | yes |
+| ICAM | `ENSG00000090339` | ICAM1 | *Icam1* | yes |
+| ICE | `ENSG00000137752` | CASP1 | *Casp1* | no |
+| IL-17 | `ENSG00000112115` | IL17A | *Il17a* | no |
+| IL-1alpha | `ENSG00000115008` | IL1A | *Il1a* | no |
+| IL6RA | `ENSG00000160712` | IL6R | *Il6ra* | yes |
+| Neurofilament Light (NfL) | `ENSG00000277586` | NEFL | *Nefl* | yes |
+| Neurogranin | `ENSG00000154146` | NRGN | *Nrgn* | yes |
+| Tau | `ENSG00000186868` | MAPT | *Mapt* | yes |
+| TDP43 | `ENSG00000120948` | TARDBP | *Tardbp* | yes |
+| VCAM | `ENSG00000162692` | VCAM1 | *Vcam1* | no |
 
 ### Targets significant at BH < 0.05 within the panel (8)
 
 | Analyte | Gene | Region | Contrast | log2FC | Panel BH | Genome-wide BH |
 |---|---|---|---|---|---|---|
-| JUNB | *Junb* | FCtx | BuOE vs saline (flight) | +1.238 | 0.0053 | 0.38 |
-| JUNB | *Junb* | DG | Flight x BuOE interaction | -0.534 | 0.0122 | 0.53 |
-| JUNB | *Junb* | FCtx | Flight vs Ground (BuOE) | +1.039 | 0.0183 | 0.38 |
-| JUNB | *Junb* | FCtx | Flight x BuOE interaction | +0.720 | 0.0211 | 0.60 |
-| MMP12 | *Mmp12* | CA1 | Flight x BuOE interaction | -0.453 | 0.0315 | 0.87 |
-| Neurogranin | *Nrgn* | DG | Flight vs Ground (saline) | +0.640 | 0.0400 | 0.32 |
-| JUNB | *Junb* | DG | Flight vs Ground (saline) | +0.571 | 0.0400 | 0.34 |
-| MMP12 | *Mmp12* | CA1 | Flight vs Ground (BuOE) | -0.602 | 0.0480 | 0.36 |
+| JUNB | *Junb* | FCtx | BuOE vs saline (flight) | +1.238 | 0.0054 | 0.38 |
+| JUNB | *Junb* | DG | Flight x BuOE interaction | -0.534 | 0.0123 | 0.53 |
+| JUNB | *Junb* | FCtx | Flight vs Ground (BuOE) | +1.039 | 0.0185 | 0.38 |
+| JUNB | *Junb* | FCtx | Flight x BuOE interaction | +0.720 | 0.0213 | 0.60 |
+| MMP12 | *Mmp12* | CA1 | Flight x BuOE interaction | -0.453 | 0.0318 | 0.87 |
+| Neurogranin | *Nrgn* | DG | Flight vs Ground (saline) | +0.640 | 0.0404 | 0.32 |
+| JUNB | *Junb* | DG | Flight vs Ground (saline) | +0.571 | 0.0404 | 0.34 |
+| MMP12 | *Mmp12* | CA1 | Flight vs Ground (BuOE) | -0.602 | 0.0484 | 0.36 |
 
 The last two columns are the point of the panel-restricted analysis: none of these results is detectable transcriptome-wide.
 
@@ -112,20 +122,20 @@ The last two columns are the point of the panel-restricted analysis: none of the
 
 | Region | Contrast | Panel − background mean \|t\| | Permutation P |
 |---|---|---|---|
-| CA1 | Flight vs Ground (BuOE) | +0.118 | 0.010 |
-| CA1 | Spaceflight main effect | +0.168 | 0.036 |
-| DG | Flight vs Ground (saline) | +0.164 | 0.026 |
+| CA1 | Flight vs Ground (BuOE) | +0.115 | 0.010 |
+| CA1 | Spaceflight main effect | +0.159 | 0.036 |
+| DG | Flight vs Ground (saline) | +0.155 | 0.026 |
 | DG | BuOE vs saline (flight) | +0.235 | 0.004 |
-| DG | Flight x BuOE interaction | +0.192 | 0.030 |
-| FCtx | BuOE vs saline (flight) | +0.189 | 0.028 |
-| FCtx | Treatment main effect | +0.184 | 0.012 |
+| DG | Flight x BuOE interaction | +0.183 | 0.042 |
+| FCtx | BuOE vs saline (flight) | +0.187 | 0.028 |
+| FCtx | Treatment main effect | +0.176 | 0.012 |
 
 ### Functional categories moving coherently (q < 0.05)
 
 | Region | Contrast | Category | Mean t | q |
 |---|---|---|---|---|
-| FCtx | BuOE vs saline (flight) | Blood-brain barrier / endothelial | -0.995 | 0.0284 |
-| FCtx | BuOE vs saline (flight) | Neuroinflammation / cytokine | -0.581 | 0.0284 |
+| FCtx | BuOE vs saline (flight) | Blood-brain barrier / endothelial | -0.995 | 0.0316 |
+| FCtx | BuOE vs saline (flight) | Neuroinflammation / cytokine | -0.581 | 0.0316 |
 
-Panel-restricted BuOE attenuation: CA1 inconclusive; DG inconclusive; FCtx inconclusive; Ctx inconclusive. With only 111 targets the bootstrap interval is much wider than the transcriptome-wide version, so no region reaches a verdict.
+Panel-restricted BuOE attenuation: CA1 inconclusive; DG inconclusive; FCtx inconclusive; Ctx inconclusive. With only 112 targets the bootstrap interval is much wider than the transcriptome-wide version, so no region reaches a verdict.
 

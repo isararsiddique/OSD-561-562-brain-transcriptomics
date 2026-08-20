@@ -1,27 +1,22 @@
-# Spaceflight Transcriptomics of the Mouse Brain — OSD-561, 562, 682, 685, 698, 699
+# Spaceflight Transcriptomics of the Mouse Brain — OSD-561 & OSD-562
 
-Reproducible re-analyses of **six** NASA Open Science Data Repository (OSDR)
-datasets covering the mouse brain under spaceflight, sharing one CNS-injury /
-extracellular-vesicle (EV) mRNA target panel.
+A reproducible, full-data re-analysis of two NASA Open Science Data Repository
+(OSDR) bulk RNA-seq datasets from the RRRM-2 mission, focused on the cerebellum
+and hippocampus, using the project's CNS target panel.
 
-| Arm | Datasets | Assay | Regions | Analysis |
-|---|---|---|---|---|
-| **Bulk RNA-seq** | OSD-561, OSD-562 | GeneLab bulk RNA-seq (RRRM-2) | Cerebellum, hippocampus | this directory |
-| **Spatial** | OSD-682, OSD-685, OSD-698, OSD-699 | NanoString GeoMx DSP | CA1, dentate gyrus, frontal cortex, cerebral cortex | [`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial) |
+> **Scope — this README covers OSD-561 and OSD-562 only.** The
+> spatial-transcriptomics study (OSD-682, 685, 698, 699) is a **separate
+> analysis** with its own README in
+> [`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial).
+> The two studies are never pooled and their results are not compared here.
+> See [Separate spatial study](#separate-spatial-study-osd-682685698699).
 
-The shared target panel lives in
-[`config/cns_ev_targets_mouse_symbols.txt`](config/cns_ev_targets_mouse_symbols.txt)
-(147 mouse symbols) with its full mapping audit in
-[`config/cns_ev_targets_mapped.csv`](config/cns_ev_targets_mapped.csv). See
-[CNS / EV target panel](#cns--ev-target-panel) for the six source-data
-corrections it required, and
-[Companion spatial analysis](#companion-spatial-analysis-osd-682685698699) for
-the spatial findings.
-
-The two arms are deliberately kept as separate pipelines: they are different
-assays with different statistics, different power, and different data sources
-(OSDR hosts processed tables for the bulk datasets, but only raw FASTQ for the
-spatial ones, whose processed layer comes from GEO).
+> The shared target panel is in
+> [`config/cns_targets_mouse_symbols.txt`](config/cns_targets_mouse_symbols.txt)
+> (148 mouse symbols), with the mapping audit in
+> [`config/cns_targets_mapped.csv`](config/cns_targets_mapped.csv). It is a CNS
+> injury / neuroinflammation / neurovascular panel — **not** an EV panel. See
+> [CNS target panel](#cns-target-panel).
 
 > Every unique comparison in the differential-expression tables is analysed and
 > categorised (Spaceflight / Age / Environment / Confounded) — not just the
@@ -96,8 +91,8 @@ raw FASTQ/BAM (hundreds of GB) and **not** the spatial-transcriptomics layer.
 ├── requirements.txt              # pinned dependencies (Python 3.12)
 ├── config/
 │   ├── focus_genes.txt           # panel used for the figures currently in results/
-│   ├── cns_ev_targets_mouse_symbols.txt   # finalised CNS/EV panel, 147 mouse symbols
-│   └── cns_ev_targets_mapped.csv          # human ENSID -> mouse ortholog audit trail
+│   ├── cns_targets_mouse_symbols.txt   # finalised CNS panel, 147 mouse symbols
+│   └── cns_targets_mapped.csv          # human ENSID -> mouse ortholog audit trail
 ├── OSD-682-685-698-699-brain-spatial/     # companion GeoMx DSP analysis
 ├── scripts/
 │   ├── download_data.py          # fetch GeneLab tables from NASA OSDR
@@ -281,15 +276,15 @@ gitignored — run `export_results.py` to rebuild them.
 - The focus figures currently in `results/` were generated from the **placeholder**
   panel in `config/focus_genes.txt` (Cd9, Cd63, Cd81, Pdcd6ip, Tsg101, Nfkb1, Il1b,
   Tnf, Gfap, Aif1). The finalised panel is now available as
-  `config/cns_ev_targets_mouse_symbols.txt` — see
-  [CNS / EV target panel](#cns--ev-target-panel) for how to switch to it and what
+  `config/cns_targets_mouse_symbols.txt` — see
+  [CNS target panel](#cns-target-panel) for how to switch to it and what
   changes.
 - **Confounded** contrasts are included for completeness but are not directly
   interpretable because more than one factor differs.
 - The "On ISS" vs "On Earth" factor reflects the collection/housing condition as
   encoded by GeneLab; its biological interpretation should be made in context.
 
-## CNS / EV target panel
+## CNS target panel
 
 The finalised target list for the CNS-injury / EV manuscript — 150 analytes with
 human Ensembl gene IDs — has been mapped onto mouse gene symbols and is available
@@ -297,8 +292,8 @@ here:
 
 | File | Contents |
 |---|---|
-| [`config/cns_ev_targets_mouse_symbols.txt`](config/cns_ev_targets_mouse_symbols.txt) | 147 mouse symbols, one per line, ready to drop in as `focus_genes.txt` |
-| [`config/cns_ev_targets_mapped.csv`](config/cns_ev_targets_mapped.csv) | Full audit trail: analyte → ENSID → human symbol → mouse ortholog, with orthology type, functional category and corrections |
+| [`config/cns_targets_mouse_symbols.txt`](config/cns_targets_mouse_symbols.txt) | 148 mouse symbols, one per line, ready to drop in as `focus_genes.txt` |
+| [`config/cns_targets_mapped.csv`](config/cns_targets_mapped.csv) | Full audit trail: analyte → ENSID → human symbol → mouse ortholog, with orthology type, functional category and corrections |
 
 Mapping was done through the Ensembl REST API and Compara orthology rather than by
 title-casing symbols, because that shortcut breaks for this panel: human `CXCL8`
@@ -338,7 +333,7 @@ The figures and tables currently in `results/` were built from the placeholder
 panel, so they will not change until the pipeline is re-run:
 
 ```bash
-cp config/cns_ev_targets_mouse_symbols.txt config/focus_genes.txt
+cp config/cns_targets_mouse_symbols.txt config/focus_genes.txt
 make analyze panels tables summary
 ```
 
@@ -354,33 +349,21 @@ difference between zero findings and eight. See
 [`analyze_targets.py`](OSD-682-685-698-699-brain-spatial/scripts/analyze_targets.py)
 for the implementation.
 
-## Companion spatial analysis: OSD-682/685/698/699
+## Separate spatial study: OSD-682/685/698/699
 
-[`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial) is a
-self-contained pipeline for the spatial arm of the programme. Those four OSDR
-accessions are **one** NanoString GeoMx DSP experiment — CA1, dentate gyrus,
-frontal cortex and cerebral cortex — in a 2 × 2 factorial of spaceflight and the
-antioxidant BuOE (n = 3, 48 ROIs, 15,782 targets).
+The spatial-transcriptomics arm of the programme — OSD-682, OSD-685, OSD-698 and
+OSD-699 — is a **separate analysis** in
+[`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial), with
+its own methods, results and conclusions in
+[its own README](OSD-682-685-698-699-brain-spatial/README.md).
 
-Points that matter for this project too:
+The two are kept apart deliberately. They are different assays (GeneLab bulk
+RNA-seq here, NanoString GeoMx DSP there), with different sample sizes,
+different statistical power, different normalisation, and different data sources.
+Their results are not directly comparable and are not pooled anywhere. The only
+thing they share is the CNS target panel above.
 
-- **OSDR hosts only raw FASTQ for those four studies.** There are no
-  GeneLab-processed count or DE tables, so `download_data.py` there pulls the
-  processed layer from GEO [GSE239336](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239336)
-  instead. The OSD-561/562 approach cannot be pointed at them.
-- **The deposited adjusted p-values in that study are unusable**: smaller than the
-  raw p-values for 77% of targets and rounded to two decimals. Correct BH control
-  yields zero significant targets where the deposited column reports 1,317–2,361.
-  Worth checking any deposited FDR column before relying on it.
-- **Panel-restricted FDR found what the genome-wide scan could not**: JUNB
-  (frontal cortex and dentate gyrus), MMP12 (CA1) and neurogranin (dentate gyrus),
-  all with genome-wide adjusted p-values of 0.32–0.87.
-- **BuOE attenuation of the spaceflight response** is supported in the hippocampus
-  (clearest in dentate gyrus) and reversed in cerebral cortex — but the direction
-  flips entirely if a single pooled variance is assumed across treatment arms, so
-  the result is reported with that sensitivity attached.
-
-Full detail in [that project's README](OSD-682-685-698-699-brain-spatial/README.md).
+Nothing else in this README refers to that study.
 
 ## Reproducibility
 

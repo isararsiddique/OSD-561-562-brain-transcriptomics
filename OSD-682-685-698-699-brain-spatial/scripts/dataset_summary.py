@@ -150,22 +150,20 @@ def main() -> int:
         tenr = load("target_setenrichment.csv")
         tcat = load("target_category_summary.csv")
         tatt = load("target_attenuation.csv")
-        payload["cns_ev_target_panel"] = {
+        payload["cns_target_panel"] = {
             "n_analytes": int(len(tmap)),
             "n_measurable": int(tmap["on_geomx_panel"].sum()),
-            "n_ensid_corrections": int(tmap["ensid_corrected"].sum()),
-            "all_corrections_verified": bool(
-                tmap.loc[tmap["ensid_corrected"], "correction_verified"].all()
-            ),
-            "corrections": [
+            "panel_source": "CNS mRNA targets.csv (maintained by the project lead)",
+            "n_label_symbol_mismatches": int((~tmap["label_matches_ensembl"]).sum()),
+            "label_symbol_mismatches": [
                 {
                     "analyte": r["analyte"],
-                    "supplied": r["ensid_supplied"],
-                    "corrected_to": r["ensid"],
+                    "ensid": r["ensid"],
                     "resolves_to": r["human_symbol_ensembl"],
+                    "mouse_ortholog": r["mouse_ortholog_symbol"],
                     "measured": bool(r["on_geomx_panel"]),
                 }
-                for _, r in tmap[tmap["ensid_corrected"]].iterrows()
+                for _, r in tmap[~tmap["label_matches_ensembl"]].iterrows()
             ],
             "n_significant_panel_fdr": int(len(tsig)),
             "significant": [
@@ -353,29 +351,33 @@ def main() -> int:
         + "when a single pooled variance is assumed instead.\n"
     )
 
-    if "cns_ev_target_panel" in d:
-        t = d["cns_ev_target_panel"]
-        md.append("## CNS / EV target panel\n")
+    if "cns_target_panel" in d:
+        t = d["cns_target_panel"]
+        md.append("## CNS target panel\n")
         md.append(
             f"{t['n_measurable']} of {t['n_analytes']} analytes in the project target "
             f"list are measurable on this assay. Because the panel is pre-specified, "
             f"FDR is controlled within it rather than across all "
             f"{d['design']['n_targets']:,} targets.\n"
         )
-        if t["n_ensid_corrections"]:
+        md.append(
+            f"Panel source: `{t['panel_source']}`. Every Ensembl ID was re-resolved "
+            f"against Ensembl and mapped to mouse via Compara; the audit trail is in "
+            f"`config/cns_targets_mapped.csv`.\n"
+        )
+        if t["n_label_symbol_mismatches"]:
             md.append(
-                f"### Source-data corrections\n\n"
-                f"{t['n_ensid_corrections']} Ensembl IDs in the spreadsheet resolved to "
-                f"genes unrelated to their analyte label and were corrected "
-                f"(all {'verified' if t['all_corrections_verified'] else 'NOT fully verified'} "
-                f"against Ensembl):\n"
+                f"### Labels that differ from their Ensembl symbol "
+                f"({t['n_label_symbol_mismatches']})\n\n"
+                "All of these point at the intended gene — they are protein or assay "
+                "names rather than gene symbols. Listed so the mapping is auditable.\n"
             )
-            md.append("| Analyte | Supplied ENSID | Corrected to | Resolves to | Measured |")
+            md.append("| Analyte | Ensembl ID | Resolves to | Mouse ortholog | Measured |")
             md.append("|---|---|---|---|---|")
-            for c in t["corrections"]:
+            for c in t["label_symbol_mismatches"]:
                 md.append(
-                    f"| {c['analyte']} | `{c['supplied']}` | `{c['corrected_to']}` "
-                    f"| {c['resolves_to']} | {'yes' if c['measured'] else 'no'} |"
+                    f"| {c['analyte']} | `{c['ensid']}` | {c['resolves_to']} "
+                    f"| *{c['mouse_ortholog']}* | {'yes' if c['measured'] else 'no'} |"
                 )
             md.append("")
 
@@ -425,8 +427,8 @@ def main() -> int:
         md.append(
             "Panel-restricted BuOE attenuation: "
             + "; ".join(f"{k} {v}" for k, v in t["attenuation_verdicts"].items())
-            + ". With only 111 targets the bootstrap interval is much wider than the "
-            "transcriptome-wide version, so no region reaches a verdict.\n"
+            + f". With only {t['n_measurable']} targets the bootstrap interval is much "
+            "wider than the transcriptome-wide version, so no region reaches a verdict.\n"
         )
 
     (C.TAB_DIR / "dataset_summary.md").write_text("\n".join(md) + "\n")

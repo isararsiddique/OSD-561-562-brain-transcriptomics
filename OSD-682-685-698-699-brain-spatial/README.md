@@ -2,16 +2,24 @@
 
 A reproducible re-analysis of four NASA Open Science Data Repository (OSDR)
 accessions that together form a single NanoString GeoMx Digital Spatial Profiling
-experiment, centred on a pre-specified CNS-injury / extracellular-vesicle (EV)
-mRNA target panel.
+experiment, centred on the project's pre-specified CNS target panel.
 
 > The four accessions are **not** four experiments. They are four brain regions of
 > one GeoMx run: a 2 × 2 factorial of spaceflight and the antioxidant BuOE.
-> This repository analyses them as such, re-derives every statistic from the
+> This analysis treats them as such, re-derives every statistic from the
 > normalised counts, and reports what the design can and cannot support.
 
-Sibling project: [`../`](..) covers the bulk RNA-seq datasets OSD-561 and OSD-562.
-Both projects share the same CNS/EV target panel and the same dependency pins.
+> **Scope.** This README covers OSD-682/685/698/699 only. The bulk RNA-seq study
+> (OSD-561, OSD-562) is a **separate analysis** in [`../`](..) with its own
+> README. The two are never pooled and their results are not compared: different
+> assay, different sample size, different power, different normalisation. The only
+> thing they share is the target panel.
+
+> **The panel is not an EV panel.** It is a CNS injury / neuroinflammation /
+> neurovascular target set. The canonical extracellular-vesicle and exosome
+> markers CD9, CD63 and CD81 are *not* in it; they are reported separately as a
+> reference set. GeoMx measures tissue mRNA, which is not vesicle cargo, so
+> questions about exosome content need an EV-isolated dataset.
 
 ---
 
@@ -34,7 +42,7 @@ nominally, and ≥ 2.6–3.1 (a **6–8-fold change**) to survive correction acr
 15,782 targets. Brain tissue does not respond to these perturbations at that
 magnitude, so the empty genome-wide result reflects the design, not the biology.
 
-**3. Restricting to the pre-specified CNS/EV panel is what makes the data informative.**
+**3. Restricting to the pre-specified CNS panel is what makes the data informative.**
 Testing the 111 measurable panel members instead of 15,782 targets reduces the
 multiple-testing burden ~140-fold, and eight target × region × contrast results
 then reach BH < 0.05 — led by **JUNB**, with **MMP12** and **neurogranin (NRGN)**.
@@ -43,7 +51,7 @@ none is visible without the panel restriction. This is legitimate only because
 the panel was fixed in advance, from the project's target spreadsheet.
 
 <p align="center">
-  <img src="results/figures/panels/Figure7_CNS_EV_target_panel.png" alt="CNS/EV target panel results" width="880">
+  <img src="results/figures/panels/Figure7_CNS_target_panel.png" alt="CNS target panel results" width="880">
 </p>
 
 ---
@@ -143,7 +151,7 @@ comparable (`normalisation_check.csv`).
   but never used to call anything.
 - **Sensitivity.** Minimum detectable effect at 80% power from the realised
   standard errors, at nominal and genome-wide thresholds.
-- **Panel-restricted testing.** BH within the 111 measurable CNS/EV targets. Both
+- **Panel-restricted testing.** BH within the 111 measurable CNS targets. Both
   the panel-restricted and the genome-wide adjusted p-value are reported side by
   side for every target so the effect of the restriction is always visible.
 - **Set enrichment.** Whether the panel is more responsive than the rest of the
@@ -152,41 +160,49 @@ comparable (`normalisation_check.csv`).
   correlation between targets.
 - **Attenuation.** See below.
 
-### Mapping a human target list onto mouse data
+### Mapping the human target list onto mouse data
 
-The project target list is 150 human analytes with human Ensembl gene IDs; the
-data are mouse. `scripts/map_targets.py` resolves each ENSG to its current human
-symbol and then to its mouse ortholog through Ensembl Compara, keeping the
-orthology type. Title-casing human symbols would not have been safe — human
-`CXCL8` has no mouse ortholog at all, and several panel members differ in name
-between the genomes. **111 of 150** analytes are measurable on this assay;
-39 are not (no mouse ortholog, or not on the GeoMx panel). Every mapping decision
-is auditable in `config/cns_ev_targets_mapped.csv`.
+The panel is `CNS mRNA targets.csv` at the repository root, maintained by the
+project lead: **151 human analytes** with human Ensembl gene IDs. The data are
+mouse. `scripts/map_targets.py` resolves each ENSG to its current human symbol and
+then to its mouse ortholog through Ensembl Compara, keeping the orthology type.
+Title-casing human symbols would not be safe — human `CXCL8` has no mouse
+ortholog at all, and `CXCL2` and `CASZ1` also fail to resolve one-to-one.
 
-#### Corrections to the source spreadsheet
+**112 of 151** analytes are measurable on this assay; 39 are not, either because
+no mouse ortholog exists (3) or because the gene is not on the GeoMx panel (36).
+Every mapping decision is auditable in `config/cns_targets_mapped.csv`.
 
-Resolving the IDs surfaced six rows whose ENSG points to a gene unrelated to its
-label. Four of them are core CNS-injury biomarkers, so analysing them as supplied
-would have reported results for the wrong gene under a recognised biomarker name.
-Each was corrected to the intended gene and **verified against Ensembl**:
+Fourteen labels differ from their Ensembl symbol but point at the intended gene —
+`Amyloid-beta` → APP, `GLT-1` → SLC1A2, `ICE` → CASP1, `Tau` → MAPT,
+`TDP43` → TARDBP, `NfL` → NEFL, `Neurogranin` → NRGN, `ICAM`/`VCAM` →
+ICAM1/VCAM1, and similar. All are listed in the mapping table so the
+correspondence is explicit rather than assumed.
 
-| Analyte | Supplied ENSID | Resolves to | Corrected to | Resolves to | Measured |
-|---|---|---|---|---|---|
-| Iba1 | `ENSG00000153406` | NMRAL1 | `ENSG00000204472` | **AIF1** | no |
-| Neurogranin | `ENSG00000101191` | DIDO1 | `ENSG00000154146` | **NRGN** | yes |
-| SBDP (SNTF) | `ENSG00000077279` | DCX | `ENSG00000197694` | **SPTAN1** | yes |
-| Serum amyloid alpha (SAA) | `ENSG00000154803` | FLCN | `ENSG00000173432` | **SAA1** | yes |
-| APC-CC1 | `ENSG00000135982` | *(no gene)* | `ENSG00000134982` | **APC** | yes |
-| PYCARD | `ENSG00000103483` | *(no gene)* | `ENSG00000103490` | **PYCARD** | yes |
+#### Earlier corrections, now fixed at source
 
-The last two look like transposed digits. This is worth fixing at source: one of
-the eight panel-restricted findings below is neurogranin, which would have been
-missed entirely under the supplied ID.
+An earlier revision of the list contained six IDs pointing at genes unrelated to
+their label — Iba1 → NMRAL1, Neurogranin → DIDO1, SBDP (SNTF) → DCX,
+Serum amyloid A → FLCN, and two invalid IDs for APC and PYCARD that look like
+transposed digits. These were reported and **have been corrected in the source
+spreadsheet**; the current list resolves cleanly. Two consequences are worth
+recording, because they changed the results:
 
-A further 13 labels differ from their Ensembl symbol but point to the *right*
-gene and were left alone — `Amyloid-beta` → APP, `GLT-1` → SLC1A2, `ICE` → CASP1,
-`Tau` → MAPT, `TDP43` → TARDBP, `NfL` → NEFL, `ICAM`/`VCAM` → ICAM1/VCAM1, and so
-on. All are recorded in the mapping table.
+- **Neurogranin (NRGN)** is now one of the significant findings below. Under the
+  original ID it was DIDO1 and would have been missed entirely.
+- **DCX** was retained as a target in its own right rather than discarded, and
+  SPTAN1 was added separately as the intended SBDP gene. Both are analysed below.
+
+#### This is not an EV panel
+
+The canonical extracellular-vesicle and exosome markers **CD9, CD63 and CD81 are
+not in the target list**. All three are nonetheless measurable on this assay, so
+they are reported separately as a reference set
+(`results/tables/csv/ev_marker_results.csv`, figure `EV_markers_reference`).
+
+That separation is deliberate. GeoMx profiles mRNA in tissue, so tetraspanin
+transcript levels are not a measure of exosome abundance or of vesicle cargo.
+Addressing the EV question properly needs a dataset with isolated vesicles.
 
 ---
 
@@ -290,7 +306,7 @@ in dentate gyrus, and not in cerebral cortex. Two caveats are load-bearing:
 Effect magnitudes are small in absolute terms throughout: an RMS true effect of
 0.10–0.12 log2 units is a 7–9% expression change.
 
-### CNS / EV target panel
+### CNS target panel
 
 This is where the data becomes usable. Restricting to the pre-specified panel,
 eight results reach BH < 0.05 within the panel:
@@ -338,11 +354,43 @@ other way: neuronal/synaptic, glial/myelin and injury-biomarker categories all
 trend upward in CA1 and DG (Figure 7d).
 
 Panel-restricted attenuation testing is inconclusive in all four regions: with
-111 targets rather than 15,782 the bootstrap interval widens beyond a verdict.
+112 targets rather than 15,782 the bootstrap interval widens beyond a verdict.
 
-**These are exploratory findings from n = 3 with treatment confounded by slide.**
-They are the right candidates to carry into a targeted follow-up — JUNB, MMP12
-and neurogranin, in dentate gyrus and frontal cortex — not established effects.
+#### DCX and SPTAN1
+
+Both were added after the source-list corrections, so they are reported explicitly.
+
+- **DCX** (doublecortin, a marker of immature neurons and adult neurogenesis — of
+  direct interest given hippocampal neurogenesis is spaceflight-sensitive) is
+  measurable but **shows no detectable change**. Its strongest result anywhere is
+  the treatment main effect in dentate gyrus, log2FC = −0.32, P = 0.11, panel
+  BH = 0.82. That is a clean negative at this sample size, not evidence of absence:
+  the design could not have detected a change below roughly 1.6-fold nominally.
+- **SPTAN1** (α-II spectrin, the parent protein of the SBDP axonal-injury
+  fragments) rises modestly with spaceflight in dentate gyrus, log2FC = +0.22,
+  P = 0.013, but panel BH = 0.25 — nominal only.
+
+#### EV / exosome markers, as a reference set
+
+CD9, CD63 and CD81 are not in the target panel, but all three are measurable, so
+their behaviour is reported separately (figure `EV_markers_reference`).
+
+They sit above the negative-probe floor in every region, though only marginally in
+CA1 (0.75–0.94 log2 above background, i.e. below 2×) and most clearly in DG and
+Ctx (1.2–1.9 log2). Of 84 tests, 14 reach nominal P < 0.05, concentrated on a
+treatment effect in cortex: *Cd81* falls with BuOE in flight in Ctx
+(log2FC = −0.48, P = 0.0014) and on the treatment main effect there
+(−0.30, P = 0.003); *Cd63* moves the same way (−0.31, P = 0.021).
+
+Two cautions on those numbers. Adjustment within a three-gene set is weak
+multiplicity control, so treat them as nominal. More importantly, **tetraspanin
+mRNA in tissue is not a measure of exosome abundance or cargo** — this is a
+measurability and baseline check for a future EV-isolated dataset, not an EV
+result.
+
+**All of the above are exploratory findings from n = 3 with treatment confounded
+by slide.** JUNB, MMP12 and neurogranin — in dentate gyrus and frontal cortex —
+are the right candidates for a targeted follow-up, not established effects.
 
 ---
 
@@ -354,7 +402,7 @@ and neurogranin, in dentate gyrus and frontal cortex — not established effects
 ├── Makefile                          # one-command pipeline
 ├── requirements.txt                  # pinned, matches the OSD-561/562 project
 ├── config/
-│   ├── cns_ev_targets_mapped.csv     # human -> mouse mapping audit trail
+│   ├── cns_targets_mapped.csv     # human -> mouse mapping audit trail
 │   ├── focus_genes.txt               # generated: measurable mouse targets
 │   └── sign_convention.json          # generated: resolved log2 orientation
 ├── scripts/
@@ -444,7 +492,7 @@ gitignored.
   not independent replication.
 - **Nothing survives transcriptome-wide correction.** All gene-level findings here
   are either panel-restricted or explicitly labelled exploratory.
-- **Panel coverage is partial.** 111 of 150 analytes are measurable; notable
+- **Panel coverage is partial.** 112 of 151 analytes are measurable; notable
   absences include IL1B, IL6, TLR4, TGFB1, VCAM1, PECAM1, CASP1 and AIF1/Iba1.
   Their absence is an assay-content limitation, not a negative result.
 - **The panel-restricted analysis is only valid because the panel is

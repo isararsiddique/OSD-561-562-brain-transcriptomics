@@ -27,7 +27,7 @@ data:
 conventions:
 	$(PY) scripts/check_conventions.py
 
-## Map the CNS/EV target spreadsheet onto mouse GeoMx targets (needs network once)
+## Map the CNS target spreadsheet onto mouse GeoMx targets (needs network once)
 targets:
 	$(PY) scripts/map_targets.py
 

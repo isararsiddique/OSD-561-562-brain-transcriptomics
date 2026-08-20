@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deep analysis of the CNS / EV target panel across the four brain regions.
+"""Deep analysis of the CNS target panel across the four brain regions.
 
 The panel is a pre-specified hypothesis, which changes the statistics in a way
 that matters here.  The transcriptome-wide analysis in analyze_de.py has to
@@ -64,6 +64,7 @@ CATEGORY_ORDER = [
     "Blood-brain barrier / endothelial",
     "Coagulation / vascular",
     "Neuronal / synaptic",
+    "Neurogenesis / cytoskeletal",
     "Glial / myelin",
     "Injury biomarker",
     "Oxidative stress / metabolism",
@@ -75,15 +76,21 @@ CATEGORY_COLORS = {
     "Blood-brain barrier / endothelial": "#4C72B0",
     "Coagulation / vascular": "#6BA3D6",
     "Neuronal / synaptic": "#55A868",
+    "Neurogenesis / cytoskeletal": "#2E8B57",
     "Glial / myelin": "#8172B3",
     "Injury biomarker": "#937860",
     "Oxidative stress / metabolism": "#DA8BC3",
     "Transcription / chromatin / other": "#8C8C8C",
 }
 
+# Canonical EV / exosome markers. NOT part of the CNS target panel; analysed
+# separately because tissue mRNA is not EV cargo, and conflating the two would be
+# the same category error the panel name previously invited.
+EV_MARKERS = ("Cd9", "Cd63", "Cd81")
+
 
 def load_mapping() -> pd.DataFrame:
-    path = C.CONFIG / "cns_ev_targets_mapped.csv"
+    path = C.CONFIG / "cns_targets_mapped.csv"
     if not path.exists():
         raise SystemExit(
             f"missing {path.relative_to(C.ROOT)} -- run scripts/map_targets.py first"
@@ -359,7 +366,7 @@ def figures(mapping_full: pd.DataFrame, tstats: pd.DataFrame, enr: pd.DataFrame,
     ax.grid(axis="x", ls=":", lw=0.5, alpha=0.4)
     for i, (a, b) in enumerate(zip(cov["n"], cov["on_panel"])):
         ax.text(a + 0.4, i, f"{int(b)}/{int(a)}", va="center", fontsize=6.0)
-    ax.set_title("CNS / EV target panel coverage", pad=3)
+    ax.set_title("CNS target panel coverage", pad=3)
     P.panel_label(ax, "a", dx=-0.42)
 
     ax = axes[1]
@@ -639,9 +646,157 @@ def figures(mapping_full: pd.DataFrame, tstats: pd.DataFrame, enr: pd.DataFrame,
     P.save(fig, "Targets_top_expression")
 
 
+def ev_markers(long: pd.DataFrame, samples: pd.DataFrame) -> pd.DataFrame:
+    """Behaviour of Cd9 / Cd63 / Cd81 in tissue, reported separately.
+
+    These are the canonical EV and exosome markers. They are not in the CNS
+    target panel, and this assay measures tissue mRNA rather than vesicle cargo,
+    so this is a measurability and baseline check for a future EV dataset -- not
+    a readout of exosome content.
+    """
+    present = [g for g in EV_MARKERS if g in set(long["gene"])]
+    if not present:
+        return pd.DataFrame()
+    sub = long[long["gene"].isin(present)].copy()
+    sub = sub.rename(columns={"padj_BH": "padj_genomewide"})
+    sub["padj_ev_set"] = np.nan
+    for (region, contrast), idx in sub.groupby(["region_short", "contrast"]).groups.items():
+        sub.loc[idx, "padj_ev_set"] = C.bh_fdr(sub.loc[idx, "pvalue"].to_numpy())
+    sub["contrast_label"] = sub["contrast"].map(KEY_CONTRASTS)
+
+    # Absolute expression level, to show they are detected above background.
+    levels = []
+    for study in C.STUDIES:
+        log2, meta = C.load_expression(study.code, samples)
+        neg = float(log2.loc[NEG_PROBE].mean()) if NEG_PROBE in log2.index else np.nan
+        for g in present:
+            levels.append(
+                {
+                    "region_short": study.short,
+                    "gene": g,
+                    "mean_log2_q3": float(log2.loc[g].mean()),
+                    "negprobe_log2_q3": neg,
+                    "log2_above_background": float(log2.loc[g].mean()) - neg,
+                }
+            )
+    lv = pd.DataFrame(levels)
+    out = sub[
+        ["region_short", "contrast", "contrast_label", "gene", "log2FC", "se",
+         "pvalue", "padj_ev_set", "padj_genomewide"]
+    ].merge(lv, on=["region_short", "gene"], how="left")
+    return out.sort_values(["gene", "region_short", "contrast"])
+
+
+def ev_figure(ev: pd.DataFrame, samples: pd.DataFrame) -> None:
+    """Cd9 / Cd63 / Cd81: detection above background, and response by contrast."""
+    P.use_style()
+    import matplotlib.pyplot as plt
+
+    genes = sorted(ev["gene"].unique())
+    fig, axes = plt.subplots(1, 3, figsize=(11.6, 3.5),
+                             gridspec_kw={"width_ratios": [1, 1.05, 1.25]})
+
+    # (a) detection above the negative-probe floor
+    ax = axes[0]
+    det = ev.drop_duplicates(["region_short", "gene"])
+    x = np.arange(len(C.REGION_ORDER))
+    for gi, g in enumerate(genes):
+        vals = [
+            float(det[(det["region_short"] == r) & (det["gene"] == g)]
+                  ["log2_above_background"].iloc[0])
+            for r in C.REGION_ORDER
+        ]
+        ax.bar(x + (gi - 1) * 0.26, vals, width=0.26, label=g, lw=0)
+    ax.axhline(0, color="black", lw=0.8)
+    ax.axhline(1, color="#C44E52", ls="--", lw=0.8)
+    ax.text(len(C.REGION_ORDER) - 0.5, 1.03, "2$\\times$ background", fontsize=6,
+            ha="right", va="bottom", color="#C44E52")
+    ax.set_xticks(x)
+    ax.set_xticklabels(C.REGION_ORDER)
+    ax.set_ylabel("log$_2$ above NegProbe")
+    ax.legend(fontsize=6.5, ncols=3, columnspacing=0.8, handletextpad=0.3)
+    ax.grid(axis="y", ls=":", lw=0.5, alpha=0.4)
+    P.panel_label(ax, "a")
+    ax.set_title("Above background everywhere,\nbut only marginally in CA1", pad=3)
+
+    # (b) per-gene expression by group
+    ax = axes[1]
+    frames = []
+    for study in C.STUDIES:
+        log2, meta = C.load_expression(study.code, samples)
+        keep = [g for g in genes if g in log2.index]
+        sm = log2.loc[keep].T.reset_index(names="sample")
+        sm = meta[["sample", "region_short", "group"]].merge(sm, on="sample")
+        frames.append(sm.melt(id_vars=["sample", "region_short", "group"],
+                              var_name="gene", value_name="log2_q3"))
+    expr = pd.concat(frames, ignore_index=True)
+    for gi, g in enumerate(genes):
+        for grp_i, grp in enumerate(C.GROUPS):
+            vals = expr[(expr["gene"] == g) & (expr["group"] == grp)]["log2_q3"]
+            xs = np.full(len(vals), gi + (grp_i - 1.5) * 0.19)
+            ax.scatter(xs, vals, s=7, color=C.GROUP_COLORS[grp], lw=0.2,
+                       edgecolor="white",
+                       label=C.GROUP_LABELS[grp] if gi == 0 else None)
+            if len(vals):
+                ax.plot([gi + (grp_i - 1.5) * 0.19 - 0.07,
+                         gi + (grp_i - 1.5) * 0.19 + 0.07],
+                        [vals.mean()] * 2, color=C.GROUP_COLORS[grp], lw=1.2)
+    ax.set_xticks(range(len(genes)))
+    ax.set_xticklabels(genes, style="italic")
+    ax.set_ylabel("log$_2$ Q3 (all regions pooled)")
+    ax.legend(fontsize=5.6, ncols=2, columnspacing=0.7, handletextpad=0.25)
+    ax.grid(axis="y", ls=":", lw=0.5, alpha=0.4)
+    P.panel_label(ax, "b")
+    ax.set_title("Expression by treatment group", pad=3)
+
+    # (c) response heat map
+    ax = axes[2]
+    order = list(KEY_CONTRASTS)
+    labels = [KEY_CONTRASTS[c] for c in order]
+    rows_idx, ylabels = [], []
+    for g in genes:
+        for r in C.REGION_ORDER:
+            rows_idx.append((g, r))
+            ylabels.append(f"{g}  {r}")
+    mat = np.full((len(rows_idx), len(order)), np.nan)
+    pmat = np.full((len(rows_idx), len(order)), np.nan)
+    for i, (g, r) in enumerate(rows_idx):
+        for j, c in enumerate(order):
+            sel = ev[(ev["gene"] == g) & (ev["region_short"] == r) & (ev["contrast"] == c)]
+            if len(sel):
+                mat[i, j] = float(sel["log2FC"].iloc[0])
+                pmat[i, j] = float(sel["pvalue"].iloc[0])
+    vmax = float(np.nanpercentile(np.abs(mat), 98)) or 0.5
+    im = ax.imshow(mat, cmap="RdBu_r", vmin=-vmax, vmax=vmax, aspect="auto",
+                   interpolation="nearest")
+    for i in range(mat.shape[0]):
+        for j in range(mat.shape[1]):
+            if np.isfinite(pmat[i, j]) and pmat[i, j] < 0.05:
+                ax.text(j, i, "*", ha="center", va="center", fontsize=7)
+    ax.set_xticks(range(len(order)))
+    ax.set_xticklabels(labels, rotation=90, fontsize=5.4)
+    ax.set_yticks(range(len(ylabels)))
+    ax.set_yticklabels(ylabels, fontsize=5.2)
+    for b in (4, 8):
+        ax.axhline(b - 0.5, color="black", lw=0.7)
+    cb = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.03)
+    cb.set_label("log$_2$FC", fontsize=6.5)
+    cb.ax.tick_params(labelsize=6)
+    P.panel_label(ax, "c", dx=-0.30)
+    ax.set_title("* nominal $P$<0.05", pad=3)
+
+    fig.suptitle(
+        "EV / exosome markers in tissue — reference only; this assay measures "
+        "tissue mRNA, not vesicle cargo",
+        fontsize=7.8, y=1.03,
+    )
+    fig.tight_layout()
+    P.save(fig, "EV_markers_reference")
+
+
 def main() -> int:
     C.ensure_dirs()
-    mapping_full = pd.read_csv(C.CONFIG / "cns_ev_targets_mapped.csv")
+    mapping_full = pd.read_csv(C.CONFIG / "cns_targets_mapped.csv")
     mapping = load_mapping()
     print(f"Target panel: {len(mapping)} measurable targets of {len(mapping_full)} analytes")
 
@@ -673,7 +828,13 @@ def main() -> int:
     if len(rec):
         C.write_csv(rec, "target_recurrence.csv")
 
+    ev = ev_markers(pd.read_csv(de_path), samples)
+    if len(ev):
+        C.write_csv(ev, "ev_marker_results.csv")
+
     figures(mapping_full, tstats, enr, cats, att, samples)
+    if len(ev):
+        ev_figure(ev, samples)
 
     pd.set_option("display.width", 220)
     pd.set_option("display.max_columns", 60)
@@ -709,6 +870,40 @@ def main() -> int:
             r[["analyte", "gene", "category", "n_regions", "regions", "mean_log2FC",
                "min_pvalue", "consistent"]].to_string(index=False)
         )
+
+    print("\n=== DCX and SPTAN1 (newly added / corrected targets) ===")
+    newly = tstats[tstats["analyte"].isin(["DCX", "SPTAN1", "Neurogranin", "AIF1",
+                                          "SAA1", "PYCARD", "APC"])]
+    show = newly[newly["pvalue"] < 0.05]
+    if len(show):
+        print(
+            show[["analyte", "gene", "region_short", "contrast_label", "log2FC",
+                  "pvalue", "padj_panel"]].sort_values("pvalue").to_string(index=False)
+        )
+    else:
+        print("  none reach nominal P<0.05 in any region or contrast")
+    for a in ["DCX", "SPTAN1"]:
+        g = tstats[tstats["analyte"] == a]
+        if len(g):
+            best = g.loc[g["pvalue"].idxmin()]
+            print(f"  {a} strongest: {best['region_short']} {best['contrast_label']}, "
+                  f"log2FC={best['log2FC']:+.3f}, P={best['pvalue']:.4f}, "
+                  f"panel BH={best['padj_panel']:.3f}")
+
+    if len(ev):
+        print("\n=== EV / exosome markers Cd9, Cd63, Cd81 (tissue mRNA, NOT vesicle cargo) ===")
+        det = ev.drop_duplicates(["region_short", "gene"])[
+            ["region_short", "gene", "mean_log2_q3", "negprobe_log2_q3",
+             "log2_above_background"]
+        ]
+        print(det.to_string(index=False))
+        sig = ev[ev["pvalue"] < 0.05]
+        print(f"\n  EV-marker tests at nominal P<0.05: {len(sig)} of {len(ev)}")
+        if len(sig):
+            print(
+                sig[["gene", "region_short", "contrast_label", "log2FC", "pvalue",
+                     "padj_ev_set"]].to_string(index=False)
+            )
     return 0
 
 

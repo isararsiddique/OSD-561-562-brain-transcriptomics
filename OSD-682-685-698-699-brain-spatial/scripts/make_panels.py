@@ -499,7 +499,7 @@ def figure6(att: pd.DataFrame, long: pd.DataFrame) -> None:
 
 def figure7(tstats: pd.DataFrame, cats: pd.DataFrame, enr: pd.DataFrame,
             mapping: pd.DataFrame) -> None:
-    """CNS / EV target panel: coverage, panel-restricted hits, category pattern."""
+    """CNS target panel: coverage, panel-restricted hits, category pattern."""
     import matplotlib.pyplot as plt
 
     CATEGORY_ORDER = [
@@ -634,7 +634,7 @@ def figure7(tstats: pd.DataFrame, cats: pd.DataFrame, enr: pd.DataFrame,
     P.panel_label(ax, "f", dx=-0.95)
     ax.set_title("Panel vs transcriptome,\npermutation $P$", pad=3)
 
-    P.save(fig, "Figure7_CNS_EV_target_panel", C.PANEL_DIR)
+    P.save(fig, "Figure7_CNS_target_panel", C.PANEL_DIR)
 
 
 def main() -> int:

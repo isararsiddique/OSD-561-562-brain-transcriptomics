@@ -1,30 +1,30 @@
 analyte,gene,category,n_regions,regions,mean_log2FC,min_pvalue,min_padj_panel,consistent,contrast,contrast_label
-Neurogranin,Nrgn,Neuronal / synaptic,3,"DG,FCtx,Ctx",0.21833573233530815,0.0031847367142946,0.1178352584289002,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
-MBP,Mbp,Glial / myelin,3,"CA1,FCtx,Ctx",-0.570666881631607,0.0035006370698166,0.21955710321692043,True,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
-JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.37691114364271994,4.819743525148245e-05,0.005349915312914552,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
-MMP2,Mmp2,Blood-brain barrier / endothelial,2,"CA1,FCtx",-0.3939507384327977,0.026223531768082,0.3547503924742731,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
-CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,Ctx",-0.44104596285044023,0.0390767462568366,0.6153362499230112,True,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
-GRIN1,Grin1,Neuronal / synaptic,4,"CA1,DG,FCtx,Ctx",0.4220000583283672,0.0048700319264902,0.2702867719202061,True,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
-JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.27077766245784385,0.0001652928406077,0.0183475053074547,False,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
-PITX2,Pitx2,Transcription / chromatin / other,2,"CA1,Ctx",-0.004157806216699811,0.0169937372381249,0.40636698539174565,False,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
-MAP2,Map2,Neuronal / synaptic,2,"CA1,Ctx",-0.285141336048898,0.027976767423993,0.37244626263986513,True,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
-MBP,Mbp,Glial / myelin,3,"CA1,FCtx,Ctx",0.46461877263515544,0.0161974515036814,0.3371175454761056,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-GRIN1,Grin1,Neuronal / synaptic,3,"CA1,DG,FCtx",0.3822015952879078,0.0065018973954187,0.1437117187076165,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,DG",0.6168696037451596,0.0084251277475709,0.1437117187076165,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-Neurogranin,Nrgn,Neuronal / synaptic,2,"CA1,DG",0.5900844150888794,0.0005454114070131,0.0400291543047051,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-PLD1,Pld1,Oxidative stress / metabolism,2,"CA1,FCtx",0.4616088222581455,0.0171105091331612,0.4539319232911437,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-RGS7,Rgs7,Neuronal / synaptic,2,"DG,Ctx",0.13893018539705204,0.0141168880409238,0.1741082858380602,False,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.08504511405823306,0.0007212460235082,0.0400291543047051,False,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
-JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.09286627419980542,0.0001099890817464,0.0122087880738504,False,interaction,Flight x BuOE interaction
-RGS7,Rgs7,Neuronal / synaptic,2,"DG,Ctx",-0.090237176779409,0.0265658962234989,0.4579522271392055,False,interaction,Flight x BuOE interaction
-MBP,Mbp,Glial / myelin,2,"CA1,Ctx",-0.32598663183579546,0.0121513878416134,0.6744020252095437,True,interaction,Flight x BuOE interaction
-GRIN1,Grin1,Neuronal / synaptic,4,"CA1,DG,FCtx,Ctx",0.38735492677146605,0.0011327017640683,0.11624635768549967,True,spaceflight,Spaceflight main effect
-Amyloid-beta,App,Injury biomarker,3,"CA1,DG,FCtx",0.2991766322811534,0.0019633935940551,0.0726455629800387,True,spaceflight,Spaceflight main effect
-CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,DG",0.4145549538619304,0.0101173333859605,0.16628787110538723,True,spaceflight,Spaceflight main effect
-Neurogranin,Nrgn,Neuronal / synaptic,2,"CA1,DG",0.35112427529121293,0.0043778690949097,0.12148586738374419,True,spaceflight,Spaceflight main effect
-SOD1,Sod1,Oxidative stress / metabolism,2,"CA1,DG",0.3315465475863777,0.0074388397799597,0.18969082316532823,True,spaceflight,Spaceflight main effect
-GRIA1,Gria1,Neuronal / synaptic,2,"CA1,DG",0.24357224842318842,0.0217097151892372,0.18969082316532823,True,spaceflight,Spaceflight main effect
-SIRT1,Sirt1,Oxidative stress / metabolism,2,"CA1,FCtx",-0.40157198017948936,0.0267424010170745,0.3189253797859073,True,spaceflight,Spaceflight main effect
-RGS7,Rgs7,Neuronal / synaptic,2,"FCtx,Ctx",0.23796230079579916,0.0272871439195373,0.37014667326268175,True,treatment,Treatment main effect
-CAMK2A,Camk2a,Neuronal / synaptic,2,"DG,FCtx",0.1867122001718135,0.0322625534608182,0.2984286195125684,False,treatment,Treatment main effect
-MBP,Mbp,Glial / myelin,2,"FCtx,Ctx",-0.39308552633614746,0.0143066376081603,0.2204427393951118,True,treatment,Treatment main effect
+Neurogranin,Nrgn,Neuronal / synaptic,3,"DG,FCtx,Ctx",0.21833573233530815,0.0031847367142946,0.11889683733366507,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
+MBP,Mbp,Glial / myelin,3,"CA1,FCtx,Ctx",-0.570666881631607,0.0035006370698166,0.2215350951377936,True,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
+JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.37691114364271994,4.819743525148245e-05,0.005398112748166034,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
+MMP2,Mmp2,Blood-brain barrier / endothelial,2,"CA1,FCtx",-0.3939507384327977,0.026223531768082,0.35794634195602326,False,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
+CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,Ctx",-0.44104596285044023,0.0390767462568366,0.6208798197421375,True,BuOE_vs_SAL_in_FLT,BuOE vs saline (flight)
+GRIN1,Grin1,Neuronal / synaptic,4,"CA1,DG,FCtx,Ctx",0.4220000583283672,0.0048700319264902,0.2727217878834512,True,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
+JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.27077766245784385,0.0001652928406077,0.0185127981480624,False,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
+PITX2,Pitx2,Transcription / chromatin / other,2,"CA1,Ctx",-0.004157806216699811,0.0169937372381249,0.4100279492241038,False,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
+MAP2,Map2,Neuronal / synaptic,2,"CA1,Ctx",-0.285141336048898,0.027976767423993,0.37580163437535935,True,FLT_vs_GC_in_BuOE,Flight vs Ground (BuOE)
+MBP,Mbp,Glial / myelin,3,"CA1,FCtx,Ctx",0.46461877263515544,0.0161974515036814,0.3401546404803949,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+GRIN1,Grin1,Neuronal / synaptic,3,"CA1,DG,FCtx",0.3822015952879078,0.0065018973954187,0.1450064188761536,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,DG",0.6168696037451596,0.0084251277475709,0.1450064188761536,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+Neurogranin,Nrgn,Neuronal / synaptic,2,"CA1,DG",0.5900844150888794,0.0005454114070131,0.0403897773164592,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+PLD1,Pld1,Oxidative stress / metabolism,2,"CA1,FCtx",0.4616088222581455,0.0171105091331612,0.45802140007755043,True,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+RGS7,Rgs7,Neuronal / synaptic,2,"DG,Ctx",0.13893018539705204,0.0141168880409238,0.1756768289537184,False,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.08504511405823306,0.0007212460235082,0.0403897773164592,False,FLT_vs_GC_in_SAL,Flight vs Ground (saline)
+JUNB,Junb,Neuronal / synaptic,2,"DG,FCtx",0.09286627419980542,0.0001099890817464,0.012318777155596799,False,interaction,Flight x BuOE interaction
+RGS7,Rgs7,Neuronal / synaptic,2,"DG,Ctx",-0.090237176779409,0.0265658962234989,0.4620779228791984,False,interaction,Flight x BuOE interaction
+MBP,Mbp,Glial / myelin,2,"CA1,Ctx",-0.32598663183579546,0.0121513878416134,0.6804777191303504,True,interaction,Flight x BuOE interaction
+GRIN1,Grin1,Neuronal / synaptic,4,"CA1,DG,FCtx,Ctx",0.38735492677146605,0.0011327017640683,0.11729362216915282,True,spaceflight,Spaceflight main effect
+Amyloid-beta,App,Injury biomarker,3,"CA1,DG,FCtx",0.2991766322811534,0.0019633935940551,0.0733000275113904,True,spaceflight,Spaceflight main effect
+CAMK2B,Camk2b,Neuronal / synaptic,2,"CA1,DG",0.4145549538619304,0.0101173333859605,0.1677859600342646,True,spaceflight,Spaceflight main effect
+Neurogranin,Nrgn,Neuronal / synaptic,2,"CA1,DG",0.35112427529121293,0.0043778690949097,0.1225803346574716,True,spaceflight,Spaceflight main effect
+SOD1,Sod1,Oxidative stress / metabolism,2,"CA1,DG",0.3315465475863777,0.0074388397799597,0.19139974950015104,True,spaceflight,Spaceflight main effect
+GRIA1,Gria1,Neuronal / synaptic,2,"CA1,DG",0.24357224842318842,0.0217097151892372,0.19139974950015104,True,spaceflight,Spaceflight main effect
+SIRT1,Sirt1,Oxidative stress / metabolism,2,"CA1,FCtx",-0.40157198017948936,0.0267424010170745,0.3217985814056002,True,spaceflight,Spaceflight main effect
+RGS7,Rgs7,Neuronal / synaptic,2,"FCtx,Ctx",0.23796230079579916,0.0272871439195373,0.37348132797675987,True,treatment,Treatment main effect
+CAMK2A,Camk2a,Neuronal / synaptic,2,"DG,FCtx",0.1867122001718135,0.0322625534608182,0.30111716563430324,False,treatment,Treatment main effect
+MBP,Mbp,Glial / myelin,2,"FCtx,Ctx",-0.39308552633614746,0.0143066376081603,0.22242871002029296,True,treatment,Treatment main effect
