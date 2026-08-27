@@ -26,19 +26,31 @@ independent replication.
 
 Thirty-four days of spaceflight left the mouse brain in a state of **oxidative and
 metabolic stress with a regionally split neuronal response**. A cytoprotective
-programme — metallothionein, cold-shock RNA-binding proteins, superoxide dismutases
-— was elevated in every region sampled. Prostaglandin D2 synthase rose sharply,
-pointing at lipid-mediated neuroinflammation. In the **cortex**, activity-dependent
-immediate-early genes (*Arc*, *Fos*) fell markedly, consistent with reduced
+programme was elevated in every region sampled: metallothionein *Mt1* (+0.75 log2,
+all four regions, P = 0.0022), the cold-shock RNA-binding proteins *Rbm3* (+0.78,
+P = 2.4 × 10⁻⁵) and *Cirbp* (+0.67, P = 0.0027), and both superoxide dismutases
+(*Sod1* +0.43, P = 0.011; *Sod2* +0.44, P = 0.025). Prostaglandin D2 synthase rose
+sharply (*Ptgds* +1.61 across three regions, P = 1.7 × 10⁻⁴), pointing at
+lipid-mediated rather than cytokine-mediated neuroinflammation. In the **cortex**,
+activity-dependent immediate-early genes fell markedly — *Arc* −1.43 across three
+regions (P = 1.3 × 10⁻⁴) and *Fos* −0.77 (P = 0.013) — consistent with reduced
 neuronal activation. In the **hippocampus**, the opposite: postsynaptic and
-glutamatergic machinery (*Nrgn*, *Grin1*, *Gria1*, *Camk2b*, *Slc17a7*) rose as a
-coordinated set, alongside matrix metalloproteinases and *App*/*Mapt* in CA1 —
-a compensatory or excitotoxic-adjacent signature in the most vulnerable subfield.
-**BuOE did not simply blunt everything.** It suppressed the vascular, matrix and
-inflammasome arm, normalised the hippocampal synaptic overshoot, and in frontal
-cortex shifted the balance *toward* neuronal and neurogenic genes. The net effect
-was attenuation of the flight response in hippocampus — clearest in dentate gyrus
-— and the reverse in cerebral cortex.
+glutamatergic machinery rose as a coordinated set of 20 genes (dentate gyrus mean
+t = +1.22, P = 0.024; CA1 +0.71, P = 0.048), led by *Nrgn* (+0.64, panel
+BH = 0.040), *Camk2b* (+0.59), *Grin1* (+0.42) and *Gria1* (+0.38) — alongside
+matrix metalloproteinases (*Mmp2* +0.46, P = 0.0016) and *App* (+0.43) / *Mapt*
+(+0.44) in CA1, a compensatory or excitotoxic-adjacent signature in the most
+vulnerable subfield. **BuOE did not simply blunt everything.** It suppressed the
+vascular and inflammatory arm in frontal cortex (blood-brain-barrier category mean
+t = −1.00 and neuroinflammation −0.58, both q = 0.032) and the inflammasome in CA1
+(−0.93, P = 0.009); it normalised the hippocampal synaptic overshoot, reversing
+*Nrgn* (−0.48) and *Junb* (−0.48) in dentate gyrus with a significant Flight × BuOE
+interaction (*Junb* −0.53, panel BH = 0.012); and in frontal cortex it shifted the
+balance *toward* neuronal genes (mean t = +1.39, P = 0.007), where *Junb* rose
++1.24 (panel BH = 0.005) with an interaction of the **opposite sign** (+0.72, panel
+BH = 0.021). The net effect was attenuation of the flight response in hippocampus —
+clearest in dentate gyrus (bootstrap P < 0.001) — and the reverse in cerebral
+cortex (amplification, P = 0.010).
 
 ---
 
@@ -225,12 +237,16 @@ direction in two regions.
 
 ## Net effect, by region
 
-| Region | Flight response | BuOE effect | Attenuation verdict |
-|---|---|---|---|
-| **Dentate gyrus** | Strong synaptic + mitochondrial + neurogenesis ↑; coagulation ↓ | Reverses the synaptic overshoot | **Attenuation, P < 0.001** |
-| **CA1** | Synaptic ↑, MMPs ↑, App/Mapt ↑, injury markers ↑ | Suppresses inflammasome and MMPs | Attenuation, P = 0.013 |
-| **Frontal cortex** | Mixed; *Arc* ↓ | Suppresses BBB + inflammation, raises neuronal | Attenuation, P = 0.047 |
-| **Cerebral cortex** | *Arc*, *Fos* ↓; *Mobp* ↑ | Suppresses myelin genes | **Amplification**, P = 0.010 |
+RMS effect = noise-corrected root-mean-square spaceflight response across all
+15,782 targets, in log2 units. Δ = saline − BuOE mean squared effect; positive
+means the drug shrank the flight response.
+
+| Region | Flight response (key effect sizes) | BuOE effect | RMS saline → BuOE | Δ (95% CI) | Verdict |
+|---|---|---|---|---|---|
+| **Dentate gyrus** | Synaptic ↑ (mean t = +1.22), mitochondrial ↑, neurogenesis ↑ (+1.02), coagulation ↓ (−0.63) | Reverses the synaptic overshoot (*Nrgn* −0.48, *Junb* −0.48) | 0.119 → 0.071 | **+0.0091** (+0.0066, +0.0117) | **Attenuation, P < 0.001** |
+| **CA1** | Synaptic ↑ (+0.71), MMPs ↑ (*Mmp2* +0.46), *App*/*Mapt* ↑, injury markers ↑ (+0.95) | Suppresses inflammasome (−0.93) and *Mmp12* (−0.51) | 0.101 → 0.081 | +0.0037 (+0.0008, +0.0067) | Attenuation, P = 0.013 |
+| **Frontal cortex** | Mixed; *Arc* ↓, *Gpr17* −0.66, *Tspan2* +0.59 | Suppresses BBB (−1.00) + inflammation (−0.58), raises neuronal (+1.39) | 0.081 → 0.066 | +0.0022 (+0.0000, +0.0044) | Attenuation, P = 0.047 |
+| **Cerebral cortex** | *Arc* −1.57, *Fos* −0.77, *Mobp* +1.33 | Suppresses myelin genes (−1.05), *Cd81* −0.48 | 0.040 → 0.064 | **−0.0025** (−0.0045, −0.0006) | **Amplification**, P = 0.010 |
 
 The cortex result is the honest complication: BuOE does not help everywhere, and
 in cerebral cortex the flight response is larger under drug. Any framing that
@@ -241,31 +257,36 @@ data.
 
 ## The mechanistic hypothesis, stated as a testable chain
 
-1. Microgravity and radiation raise reactive oxygen species and alter metabolic
-   demand → *Mt1*, *Rbm3*, *Cirbp*, *Sod1/2* induced brain-wide **[B]**.
-2. Redox stress engages mitochondrial permeability machinery in the dentate gyrus
-   → *Ppif*, *Slc25a4*, ETC subunits up **[C]**.
-3. Lipid-mediated inflammation is initiated, plausibly meningeal → *Ptgds* up
-   across three regions **[B]**.
-4. Reduced sensorimotor and arousal input suppresses cortical activity → *Arc*,
-   *Fos* down **[B]**.
-5. Hippocampal circuits compensate by upregulating postsynaptic glutamatergic
-   machinery → *Nrgn*, *Grin1*, *Gria1*, *Camk2b* up as a set **[A]**.
-6. In CA1, MMP-mediated barrier remodelling proceeds alongside *App*/*Mapt*
-   elevation, the combination relevant to long-term risk **[C]**.
-7. BuOE, an SOD mimetic, intercepts step 1 → downstream suppression of the
-   inflammasome/MMP/NF-κB arm **[A]** and normalisation of the hippocampal
-   synaptic overshoot **[A]**, while producing a distinct, region-specific effect
-   in cortex **[A]**.
+| # | Link in the chain | Key genes and effect sizes (log2FC) | Statistic | Tier |
+|---|---|---|---|---|
+| 1 | Microgravity and radiation raise reactive oxygen species and alter metabolic demand | *Mt1* **+0.75** (4/4 regions), *Rbm3* **+0.78**, *Cirbp* **+0.67**, *Sod1* +0.43, *Sod2* +0.44 | P = 2.4 × 10⁻⁵ – 0.025 | **[B]** |
+| 2 | Redox stress engages mitochondrial permeability machinery in the dentate gyrus | *Ppif*, *Slc25a4*, *Atp5b* +0.55, *Cox6c* +0.31 | P = 6.3 × 10⁻⁵ – 2.1 × 10⁻⁴ | **[C]** |
+| 3 | Lipid-mediated inflammation is initiated, plausibly meningeal | *Ptgds* **+1.61** (3/4 regions) | P = 1.7 × 10⁻⁴ | **[B]** |
+| 4 | Reduced sensorimotor and arousal input suppresses cortical activity | *Arc* **−1.43** (3/4 regions), *Fos* −0.77, *S100b* −0.57 | P = 1.3 × 10⁻⁴ – 0.038 | **[B]** |
+| 5 | Hippocampal circuits compensate by upregulating postsynaptic glutamatergic machinery | *Nrgn* **+0.64**, *Camk2b* +0.59, *Grin1* +0.42, *Gria1* +0.38, *Slc17a7* +0.40 — 20 genes, DG mean t = **+1.22** | panel BH = 0.040; category P = 0.024 | **[A]** |
+| 6 | In CA1, MMP-mediated barrier remodelling proceeds alongside *App*/*Mapt* elevation | *Mmp2* **+0.46**, *Mmp12* +0.30, *App* +0.43, *Mapt* +0.44 | P = 0.0016 – 0.025 | **[C]** |
+| 7a | BuOE intercepts step 1 → suppresses the barrier / matrix / inflammasome arm | FCtx BBB mean t = **−1.00**, neuroinflammation **−0.58**; *Mmp2* −1.06, *Gsdmd* −0.38, *Rela* −0.42; CA1 inflammasome −0.93 | **q = 0.032**, q = 0.032; P = 0.009 | **[A]** |
+| 7b | → normalises the hippocampal synaptic overshoot | *Nrgn* **−0.48**, *Junb* **−0.48** (DG); interaction *Junb* **−0.53** | panel BH = 0.012 | **[A]** |
+| 7c | → shifts frontal cortex toward neuronal and neurogenic genes | *Junb* **+1.24**, *Nrgn* +0.68, *Cacna1c* +0.45, *Grin1* +0.42; neuronal mean t = **+1.39**; interaction **+0.72** | panel BH = **0.005**; P = 0.007; BH = 0.021 | **[A]** |
+
+The sign reversal between rows 7b and 7c is the same gene, *Junb*, in the same
+comparison, in two regions — the observation that most needs replicating.
 
 ### The single sentence for an abstract
 
-> Spaceflight induced a brain-wide oxidative-stress and prostaglandin response with
-> opposing regional neuronal signatures — suppressed activity-dependent
-> transcription in cortex and coordinated upregulation of postsynaptic glutamatergic
-> machinery in hippocampus — and the antioxidant BuOE attenuated the hippocampal
-> response while suppressing barrier and inflammasome programmes, with *JUNB*
-> emerging as a region-specific marker of the drug–flight interaction.
+> Spatial transcriptomic profiling of four brain regions after 34 days of
+> spaceflight (GeoMx DSP, 15,782 targets, n = 3 per group) revealed a brain-wide
+> oxidative-stress and prostaglandin response — *Mt1* +0.75 log2 in all four
+> regions (P = 0.0022), *Ptgds* +1.61 in three (P = 1.7 × 10⁻⁴) — accompanied by
+> opposing regional neuronal signatures: activity-dependent transcription fell in
+> cortex (*Arc* −1.43, P = 1.3 × 10⁻⁴) while postsynaptic glutamatergic machinery
+> rose coordinately in hippocampus (20 genes, dentate gyrus mean t = +1.22;
+> *Nrgn* +0.64, panel-restricted BH = 0.040). The antioxidant BuOE attenuated the
+> hippocampal response (dentate gyrus bootstrap P < 0.001) and suppressed
+> blood-brain-barrier and neuroinflammatory programmes in frontal cortex (both
+> q = 0.032), with *JUNB* emerging as a region-specific marker of the drug–flight
+> interaction, carrying opposite-signed interactions in frontal cortex (+0.72) and
+> dentate gyrus (−0.53).
 
 ---
 
