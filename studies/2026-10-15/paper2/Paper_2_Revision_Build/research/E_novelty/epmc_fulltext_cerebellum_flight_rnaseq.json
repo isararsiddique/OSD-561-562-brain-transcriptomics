@@ -1,0 +1,2400 @@
+{
+ "version": "6.9",
+ "hitCount": 63,
+ "request": {
+  "queryString": "(cerebellum OR cerebellar) AND (spaceflight OR \"International Space Station\") AND (\"RNA-seq\" OR \"RNA sequencing\" OR transcriptom*) AND (mice OR mouse)",
+  "resultType": "lite",
+  "cursorMark": "*",
+  "pageSize": 100,
+  "sort": "",
+  "synonym": false
+ },
+ "resultList": {
+  "result": [
+   {
+    "id": "42769920",
+    "source": "MED",
+    "pmid": "42769920",
+    "pmcid": "PMC13591619",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13591619"
+     ]
+    },
+    "doi": "10.3389/fpubh.2026.1926972",
+    "title": "Space radiation health risks to hematopoietic, neural, and gastrointestinal systems in astronauts.",
+    "authorString": "Zhang L, Yin Y, Li R, Wang G, Li L, Yu Y, Lu W.",
+    "journalTitle": "Front Public Health",
+    "journalVolume": "14",
+    "pubYear": "2026",
+    "journalIssn": "2296-2565",
+    "pageInfo": "1926972",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2026-09-07",
+    "firstIndexDate": "2026-09-23"
+   },
+   {
+    "id": "41096787",
+    "source": "MED",
+    "pmid": "41096787",
+    "pmcid": "PMC12524882",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12524882"
+     ]
+    },
+    "doi": "10.3390/ijms26199521",
+    "title": "Spaceflight and Ground-Based Microgravity Simulation Impact on Cognition and Brain Plasticity.",
+    "authorString": "Hao J, Chang J, Deng Y.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "19",
+    "journalVolume": "26",
+    "pubYear": "2025",
+    "journalIssn": "1422-0067",
+    "pageInfo": "9521",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 3,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-09-29",
+    "firstIndexDate": "2025-10-16"
+   },
+   {
+    "id": "41481712",
+    "source": "MED",
+    "pmid": "41481712",
+    "pmcid": "PMC12758520",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12758520"
+     ]
+    },
+    "doi": "10.1126/sciadv.adw7832",
+    "title": "Spaceflight alters molecular networks linked to diverse human diseases in a single cellular model.",
+    "authorString": "Al-Ahmadi W, Barnawi R, Hitti EG, Khabar KSA.",
+    "journalTitle": "Sci Adv",
+    "issue": "1",
+    "journalVolume": "12",
+    "pubYear": "2026",
+    "journalIssn": "2375-2548",
+    "pageInfo": "eadw7832",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "geo",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2026-01-02",
+    "firstIndexDate": "2026-01-04"
+   },
+   {
+    "id": "42112470",
+    "source": "MED",
+    "pmid": "42112470",
+    "pmcid": "PMC13154917",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13154917"
+     ]
+    },
+    "doi": "10.1002/smsc.70271",
+    "title": "Neuroprotective Effects of Cerium Oxide Nanoparticles During Spaceflight.",
+    "authorString": "Carmignani A, Marino A, Battaglini M, Di Leo N, Carrubba E, Balsamo M, Valentini G, Mascetti G, Perilli S, De Boni F, Marras S, Prato M, Genchi GG, Ciofani G.",
+    "journalTitle": "Small Sci",
+    "issue": "4",
+    "journalVolume": "6",
+    "pubYear": "2026",
+    "journalIssn": "2688-4046",
+    "pageInfo": "e70271",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2026-03-31",
+    "firstIndexDate": "2026-05-13"
+   },
+   {
+    "id": "42088055",
+    "source": "MED",
+    "pmid": "42088055",
+    "pmcid": "PMC13138232",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13138232"
+     ]
+    },
+    "doi": "10.1016/j.mmr.2026.100027",
+    "title": "The hierarchical stratum response system of organism to microgravity during spaceflight.",
+    "authorString": "Sun WJ, Du RK, Li YH, Zhong GH, Li JW, Liu ZZ, Yuan XX, Jin XY, Ling SK, Li YX.",
+    "journalTitle": "Mil Med Res",
+    "issue": "1",
+    "journalVolume": "13",
+    "pubYear": "2026",
+    "journalIssn": "2095-7467; 2054-9369; ",
+    "pageInfo": "100027",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2026-04-27",
+    "firstIndexDate": "2026-05-13"
+   },
+   {
+    "id": "41052978",
+    "source": "MED",
+    "pmid": "41052978",
+    "pmcid": "PMC12500946",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12500946"
+     ]
+    },
+    "doi": "10.1038/s41398-025-03538-6",
+    "title": "Multi-connectomics underpin emotional dysfunction in mouse exposed to simulated space composite environment.",
+    "authorString": "Liang R, Fang T, Wang L, Ren J, Meng L, Zhao M, Zheng C, Fan Q, Chen Y, Yang J, Ming D.",
+    "journalTitle": "Transl Psychiatry",
+    "issue": "1",
+    "journalVolume": "15",
+    "pubYear": "2025",
+    "journalIssn": "2158-3188",
+    "pageInfo": "359",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2025-10-06",
+    "firstIndexDate": "2025-10-07"
+   },
+   {
+    "id": "PMC13640016",
+    "source": "PMC",
+    "pmcid": "PMC13640016",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13640016"
+     ]
+    },
+    "title": "Ionizing radiation and Alzheimer\u2019s disease: epidemiology, mechanisms, and eCIRP-mediated tau pathology",
+    "authorString": "Brenner M, Sharma A, Wang P.",
+    "journalTitle": "Front Immunol",
+    "journalVolume": "17",
+    "journalIssn": "1664-3224",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2026-10-07",
+    "firstIndexDate": "2026-10-07"
+   },
+   {
+    "id": "41467178",
+    "source": "MED",
+    "pmid": "41467178",
+    "pmcid": "PMC12744240",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12744240"
+     ]
+    },
+    "doi": "10.1016/j.isci.2025.114066",
+    "title": "Effects of seasonal factors on brain function: Systematic review and future perspectives.",
+    "authorString": "Majumdar J, Rangaprakash D, Deshpande G.",
+    "journalTitle": "iScience",
+    "issue": "12",
+    "journalVolume": "28",
+    "pubYear": "2025",
+    "journalIssn": "2589-0042",
+    "pageInfo": "114066",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-11-20",
+    "firstIndexDate": "2026-01-02"
+   },
+   {
+    "id": "41909700",
+    "source": "MED",
+    "pmid": "41909700",
+    "pmcid": "PMC13018151",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13018151"
+     ]
+    },
+    "doi": "10.3389/fimmu.2026.1747589",
+    "title": "Organoid-microglia system for modeling the immune microenvironment of the brain and retina.",
+    "authorString": "Yu J, Tang B, Gu Z, Wang G, Liu A.",
+    "journalTitle": "Front Immunol",
+    "journalVolume": "17",
+    "pubYear": "2026",
+    "journalIssn": "1664-3224",
+    "pageInfo": "1747589",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2026-03-12",
+    "firstIndexDate": "2026-03-31"
+   },
+   {
+    "id": "36836946",
+    "source": "MED",
+    "pmid": "36836946",
+    "pmcid": "PMC9965490",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9965490"
+     ]
+    },
+    "doi": "10.3390/life13020588",
+    "title": "Addressing Spaceflight Biology through the Lens of a Histologist-Embryologist.",
+    "authorString": "Theotokis P, Manthou ME, Deftereou TE, Miliaras D, Meditskou S.",
+    "journalTitle": "Life (Basel)",
+    "issue": "2",
+    "journalVolume": "13",
+    "pubYear": "2023",
+    "journalIssn": "2075-1729",
+    "pageInfo": "588",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2023-02-20",
+    "firstIndexDate": "2023-02-26"
+   },
+   {
+    "id": "PMC9467582",
+    "source": "PMC",
+    "pmcid": "PMC9467582",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9467582"
+     ]
+    },
+    "title": "Prion 2022 Conference abstracts: pushing the boundaries",
+    "authorString": "Zerr I.",
+    "journalTitle": "Prion",
+    "issue": "1",
+    "journalVolume": "16",
+    "journalIssn": "1933-6896; 1933-690x; ",
+    "pageInfo": "95-253",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2026-10-12",
+    "firstIndexDate": "2026-10-12"
+   },
+   {
+    "id": "37763256",
+    "source": "MED",
+    "pmid": "37763256",
+    "pmcid": "PMC10532466",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10532466"
+     ]
+    },
+    "doi": "10.3390/life13091852",
+    "title": "Circuits and Biomarkers of the Central Nervous System Relating to Astronaut Performance: Summary Report for a NASA-Sponsored Technical Interchange Meeting.",
+    "authorString": "Alwood JS, Mulavara AP, Iyer J, Mhatre SD, Rosi S, Shelhamer M, Davis C, Jones CW, Mao XW, Desai RI, Whitmire AM, Williams TJ.",
+    "journalTitle": "Life (Basel)",
+    "issue": "9",
+    "journalVolume": "13",
+    "pubYear": "2023",
+    "journalIssn": "2075-1729",
+    "pageInfo": "1852",
+    "pubType": "other; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 5,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2023-08-31",
+    "firstIndexDate": "2023-09-29"
+   },
+   {
+    "id": "40059363",
+    "source": "MED",
+    "pmid": "40059363",
+    "pmcid": "PMC12631800",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12631800"
+     ]
+    },
+    "doi": "10.1667/rade-24-00033.1",
+    "title": "Radiation-induced Brain Injury and the Radiation Late Effects Cohort (RLEC) of Rhesus Macaques (Macaca mulatta).",
+    "authorString": "Johnson BJ, Andrews RN, Olson JD, Cline JM.",
+    "journalTitle": "Radiat Res",
+    "issue": "4",
+    "journalVolume": "204",
+    "pubYear": "2025",
+    "journalIssn": "0033-7587; 1938-5404; ",
+    "pageInfo": "369-383",
+    "pubType": "research-article; review; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 5,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-10-01",
+    "firstIndexDate": "2025-03-11"
+   },
+   {
+    "id": "35948598",
+    "source": "MED",
+    "pmid": "35948598",
+    "pmcid": "PMC9365836",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9365836"
+     ]
+    },
+    "doi": "10.1038/s41526-022-00217-4",
+    "title": "Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission.",
+    "authorString": "Holley JM, Stanbouly S, Pecaut MJ, Willey JS, Delp M, Mao XW.",
+    "journalTitle": "NPJ Microgravity",
+    "issue": "1",
+    "journalVolume": "8",
+    "pubYear": "2022",
+    "journalIssn": "2373-8065",
+    "pageInfo": "35",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 19,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+     "dbName": [
+      "EMBL"
+     ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2022-08-10",
+    "firstIndexDate": "2022-08-11"
+   },
+   {
+    "id": "31443374",
+    "source": "MED",
+    "pmid": "31443374",
+    "pmcid": "PMC6747492",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC6747492"
+     ]
+    },
+    "doi": "10.3390/ijms20174094",
+    "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae.",
+    "authorString": "Overbey EG, Paul AM, da Silveira WA, Tahimic CGT, Reinsch SS, Szewczyk N, Stanbouly S, Wang C, Galazka JM, Mao XW.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "17",
+    "journalVolume": "20",
+    "pubYear": "2019",
+    "journalIssn": "1422-0067",
+    "pageInfo": "E4094",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 26,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "reactome",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2019-08-22",
+    "firstIndexDate": "2019-08-24"
+   },
+   {
+    "id": "39411717",
+    "source": "MED",
+    "pmid": "39411717",
+    "pmcid": "PMC11473291",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC11473291"
+     ]
+    },
+    "doi": "10.3389/fimmu.2024.1422864",
+    "title": "\"Monitoring inflammatory, immune system mediators, and mitochondrial changes related to brain metabolism during space flight\".",
+    "authorString": "Tocci D, Ducai T, Stoute CAB, Hopkins G, Sabbir MG, Beheshti A, Albensi BC.",
+    "journalTitle": "Front Immunol",
+    "journalVolume": "15",
+    "pubYear": "2024",
+    "journalIssn": "1664-3224",
+    "pageInfo": "1422864",
+    "pubType": "research support, non-u.s. gov't; review-article; review; journal article; research support, n.i.h., extramural",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 8,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "dbgap",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2024-10-01",
+    "firstIndexDate": "2024-10-16"
+   },
+   {
+    "id": "39201265",
+    "source": "MED",
+    "pmid": "39201265",
+    "pmcid": "PMC11354602",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC11354602"
+     ]
+    },
+    "doi": "10.3390/ijms25168577",
+    "title": "Increased Homer Activity and NMJ Localization in the Vestibular Lesion <i>het<sup>-/-</sup></i> Mouse <i>soleus</i> Muscle.",
+    "authorString": "Trautmann G, Block K, Gutsmann M, Besnard S, Furlan S, Denise P, Volpe P, Blottner D, Salanova M.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "16",
+    "journalVolume": "25",
+    "pubYear": "2024",
+    "journalIssn": "1422-0067",
+    "pageInfo": "8577",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2024-08-06",
+    "firstIndexDate": "2024-09-01"
+   },
+   {
+    "id": "PMC11077711",
+    "source": "PMC",
+    "pmcid": "PMC11077711",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC11077711"
+     ]
+    },
+    "title": "Proceedings of the 101st Annual Meeting of The Physiological Society of Japan",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 2",
+    "journalVolume": "74",
+    "pubYear": "2024",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2024-01-01",
+    "firstIndexDate": "2024-05-12"
+   },
+   {
+    "id": "39709790",
+    "source": "MED",
+    "pmid": "39709790",
+    "pmcid": "PMC11733061",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC11733061"
+     ]
+    },
+    "doi": "10.1016/j.redox.2024.103464",
+    "title": "Model organisms for investigating the functional involvement of NRF2 in non-communicable diseases.",
+    "authorString": "Rojo AI, Buttari B, Cadenas S, Carlos AR, Cuadrado A, Falc\u00e3o AS, L\u00f3pez MG, Georgiev MI, Grochot-Przeczek A, Gumeni S, Jimenez-Villegas J, Horbanczuk JO, Konu O, Lastres-Becker I, Levonen AL, Maksimova V, Michaeloudes C, Mihaylova LV, Mickael ME, Milisav I, Miova B, Rada P, Santos M, Seabra MC, Strac DS, Tenreiro S, Trougakos IP, Dinkova-Kostova AT.",
+    "journalTitle": "Redox Biol",
+    "journalVolume": "79",
+    "pubYear": "2025",
+    "journalIssn": "2213-2317",
+    "pageInfo": "103464",
+    "pubType": "research support, non-u.s. gov't; review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 12,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "nct",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2024-12-16",
+    "firstIndexDate": "2024-12-23"
+   },
+   {
+    "id": "41044307",
+    "source": "MED",
+    "pmid": "41044307",
+    "pmcid": "PMC12494885",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12494885"
+     ]
+    },
+    "doi": "10.1038/s41531-025-01136-3",
+    "title": "Evaluating Parkinson's disease biomarkers in substantia nigra following sublethal \u03b3-radiation exposure in a large animal model.",
+    "authorString": "Murphy EK, Perl DP, Day RM, Iacono D.",
+    "journalTitle": "NPJ Parkinsons Dis",
+    "issue": "1",
+    "journalVolume": "11",
+    "pubYear": "2025",
+    "journalIssn": "2373-8057",
+    "pageInfo": "286",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 3,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2025-10-03",
+    "firstIndexDate": "2025-10-05"
+   },
+   {
+    "id": "34406885",
+    "source": "MED",
+    "pmid": "34406885",
+    "pmcid": "PMC8560412",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8560412"
+     ]
+    },
+    "doi": "10.1152/jn.00334.2021",
+    "title": "Highlights from the 30th Annual Meeting of the Society for the Neural Control of Movement.",
+    "authorString": "Russo M, Ozeri-Engelhard N, Hupfeld K, Nettekoven C, Thibault S, Sedaghat-Nejad E, Buchwald D, Xing D, Zobeiri O, Kilteni K, Albert ST, Ariani G.",
+    "journalTitle": "J Neurophysiol",
+    "issue": "4",
+    "journalVolume": "126",
+    "pubYear": "2021",
+    "journalIssn": "0022-3077; 1522-1598; ",
+    "pageInfo": "967-975",
+    "pubType": "editorial",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 6,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2021-08-18",
+    "firstIndexDate": "2021-08-19"
+   },
+   {
+    "id": "33902391",
+    "source": "MED",
+    "pmid": "33902391",
+    "pmcid": "PMC8274610",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8274610"
+     ]
+    },
+    "doi": "10.1080/26896583.2021.1885283",
+    "title": "The individual and combined effects of spaceflight radiation and microgravity on biologic systems and functional outcomes.",
+    "authorString": "Willey JS, Britten RA, Blaber E, Tahimic CGT, Chancellor J, Mortreux M, Sanford LD, Kubik AJ, Delp MD, Mao XW.",
+    "journalTitle": "J Environ Sci Health C Toxicol Carcinog",
+    "issue": "2",
+    "journalVolume": "39",
+    "pubYear": "2021",
+    "journalIssn": "2689-6583; 2689-6591; ",
+    "pageInfo": "129-179",
+    "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 35,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2021-01-01",
+    "firstIndexDate": "2021-04-28"
+   },
+   {
+    "id": "PMC10772079",
+    "source": "PMC",
+    "pmcid": "PMC10772079",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10772079"
+     ]
+    },
+    "title": "Abstracts from the 56th European Society of Human Genetics (ESHG) Conference: Oral Presentations",
+    "journalTitle": "Eur J Hum Genet",
+    "issue": "suppl 1",
+    "journalVolume": "32",
+    "pubYear": "2024",
+    "journalIssn": "1018-4813; 1476-5438; ",
+    "pageInfo": "3-90",
+    "pubType": "abstract",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "refsnp",
+      "omim"
+     ]
+    },
+    "firstPublicationDate": "2024-01-01",
+    "firstIndexDate": "2025-01-02"
+   },
+   {
+    "id": "33317046",
+    "source": "MED",
+    "pmid": "33317046",
+    "pmcid": "PMC7764784",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7764784"
+     ]
+    },
+    "doi": "10.3390/ijms21249373",
+    "title": "Influence of Microgravity on Apoptosis in Cells, Tissues, and Other Systems In Vivo and In Vitro.",
+    "authorString": "Prasad B, Grimm D, Strauch SM, Erzinger GS, Corydon TJ, Lebert M, Magnusson NE, Infanger M, Richter P, Kr\u00fcger M.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "24",
+    "journalVolume": "21",
+    "pubYear": "2020",
+    "journalIssn": "1422-0067",
+    "pageInfo": "E9373",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 69,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2020-12-09",
+    "firstIndexDate": "2020-12-24"
+   },
+   {
+    "id": "PMC10336391",
+    "source": "PMC",
+    "pmcid": "PMC10336391",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10336391"
+     ]
+    },
+    "title": "Featured Abstract",
+    "journalTitle": "J Extracell Vesicles",
+    "issue": "suppl 2",
+    "journalVolume": "12",
+    "pubYear": "2023",
+    "journalIssn": "2001-3078",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2023-07-01",
+    "firstIndexDate": "2023-08-04"
+   },
+   {
+    "id": "31226840",
+    "source": "MED",
+    "pmid": "31226840",
+    "pmcid": "PMC6627973",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC6627973"
+     ]
+    },
+    "doi": "10.3390/ijms20123019",
+    "title": "Reptiles in Space Missions: Results and Perspectives.",
+    "authorString": "Gulimova V, Proshchina A, Kharlamova A, Krivova Y, Barabanov V, Berdiev R, Asadchikov V, Buzmakov A, Zolotov D, Saveliev S.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "12",
+    "journalVolume": "20",
+    "pubYear": "2019",
+    "journalIssn": "1422-0067",
+    "pageInfo": "E3019",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 9,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2019-06-20",
+    "firstIndexDate": "2019-06-24"
+   },
+   {
+    "id": "35054493",
+    "source": "MED",
+    "pmid": "35054493",
+    "pmcid": "PMC8781937",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8781937"
+     ]
+    },
+    "doi": "10.3390/life12010100",
+    "title": "Cytoskeleton Markers in the Spinal Cord and Mechanoreceptors of Thick-Toed Geckos after Prolonged Space Flights.",
+    "authorString": "Proshchina A, Gulimova V, Kharlamova A, Krivova Y, Barabanov V, Saveliev S.",
+    "journalTitle": "Life (Basel)",
+    "issue": "1",
+    "journalVolume": "12",
+    "pubYear": "2022",
+    "journalIssn": "2075-1729",
+    "pageInfo": "100",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 4,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2022-01-11",
+    "firstIndexDate": "2022-01-24"
+   },
+   {
+    "id": "PMC11627200",
+    "source": "PMC",
+    "pmcid": "PMC11627200",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC11627200"
+     ]
+    },
+    "title": "Abstracts from the 57th European Society of Human Genetics (ESHG) Conference: Hybrid Posters",
+    "journalTitle": "Eur J Hum Genet",
+    "issue": "suppl 2",
+    "journalVolume": "32",
+    "pubYear": "2024",
+    "journalIssn": "1018-4813; 1476-5438; ",
+    "pageInfo": "1231-1841",
+    "pubType": "abstract",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "geo",
+      "gen",
+      "hPSCreg",
+      "cellosaurus",
+      "refsnp",
+      "omim",
+      "go",
+      "orphadata",
+      "igsr",
+      "uniprot",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2024-11-01",
+    "firstIndexDate": "2025-11-03"
+   },
+   {
+    "id": "37089489",
+    "source": "MED",
+    "pmid": "37089489",
+    "pmcid": "PMC10116417",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10116417"
+     ]
+    },
+    "doi": "10.3389/fpubh.2023.1063250",
+    "title": "Unraveling astrocyte behavior in the space brain: Radiation response of primary astrocytes.",
+    "authorString": "Roggan MD, Kronenberg J, Wollert E, Hoffmann S, Nisar H, Konda B, Diegeler S, Liemersdorf C, Hellweg CE.",
+    "journalTitle": "Front Public Health",
+    "journalVolume": "11",
+    "pubYear": "2023",
+    "journalIssn": "2296-2565",
+    "pageInfo": "1063250",
+    "pubType": "research support, non-u.s. gov't; research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 13,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+     "dbName": [
+      "EMBL"
+     ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "geo",
+      "ensembl",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2023-04-06",
+    "firstIndexDate": "2023-04-24"
+   },
+   {
+    "id": "40712147",
+    "source": "MED",
+    "pmid": "40712147",
+    "pmcid": "PMC12412588",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12412588"
+     ]
+    },
+    "doi": "10.1002/advs.202507317",
+    "title": "Bioprinted Organoids: An Innovative Engine in Biomedicine.",
+    "authorString": "Li Z, Li K, Zhang C, Zhao Y, Guo Y, He J, Chang S, Fang X, Liu K, Zhu P, Chen Z, Ruan C.",
+    "journalTitle": "Adv Sci (Weinh)",
+    "issue": "33",
+    "journalVolume": "12",
+    "pubYear": "2025",
+    "journalIssn": "2198-3844",
+    "pageInfo": "e07317",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 13,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-07-25",
+    "firstIndexDate": "2025-07-26"
+   },
+   {
+    "id": "42366021",
+    "source": "MED",
+    "pmid": "42366021",
+    "pmcid": "PMC13310587",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13310587"
+     ]
+    },
+    "doi": "10.1111/ene.70629",
+    "title": "ePoster.",
+    "journalTitle": "Eur J Neurol",
+    "journalVolume": "33 Suppl 1",
+    "pubYear": "2026",
+    "journalIssn": "1351-5101; 1468-1331; ",
+    "pageInfo": "e70629",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "refsnp",
+      "dbgap",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2026-06-01",
+    "firstIndexDate": "2026-07-02"
+   },
+   {
+    "id": "41593695",
+    "source": "MED",
+    "pmid": "41593695",
+    "pmcid": "PMC12838227",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12838227"
+     ]
+    },
+    "doi": "10.1186/s12987-025-00733-x",
+    "title": "Abstracts from Hydrocephalus World Congress 2025 : Toulouse, France. 5-8 September 2025.",
+    "journalTitle": "Fluids Barriers CNS",
+    "issue": "suppl 1",
+    "journalVolume": "22",
+    "pubYear": "2026",
+    "journalIssn": "2045-8118",
+    "pageInfo": "127",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "refsnp",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2026-01-27",
+    "firstIndexDate": "2026-01-28"
+   },
+   {
+    "id": "37937070",
+    "source": "MED",
+    "pmid": "37937070",
+    "pmcid": "PMC10626523",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10626523"
+     ]
+    },
+    "doi": "10.3389/fnins.2023.1289894",
+    "title": "The influence of physiological and pathological perturbations on blood-brain barrier function.",
+    "authorString": "Zhao N, Chung TD, Guo Z, Jamieson JJ, Liang L, Linville RM, Pessell AF, Wang L, Searson PC.",
+    "journalTitle": "Front Neurosci",
+    "journalVolume": "17",
+    "pubYear": "2023",
+    "journalIssn": "1662-4548; 1662-453x; ",
+    "pageInfo": "1289894",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 19,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2023-10-23",
+    "firstIndexDate": "2023-11-08"
+   },
+   {
+    "id": "40943658",
+    "source": "MED",
+    "pmid": "40943658",
+    "pmcid": "PMC12429070",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12429070"
+     ]
+    },
+    "doi": "10.3390/ijms26178740",
+    "title": "From Molecules to Models: miRNAs and Advanced Human Platforms of Neurodegeneration and Repair in Multiple Sclerosis.",
+    "authorString": "Mu\u00f1oz-San Mart\u00edn M, de la Guerra-Sasi\u00e1n L, G\u00e1rate G, Madera J, Gonz\u00e1lez-Su\u00e1rez A, Cavada-Bustamante NC, Gonz\u00e1lez-Quintanilla V, Dowling JK.",
+    "journalTitle": "Int J Mol Sci",
+    "issue": "17",
+    "journalVolume": "26",
+    "pubYear": "2025",
+    "journalIssn": "1422-0067",
+    "pageInfo": "8740",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-09-08",
+    "firstIndexDate": "2025-09-14"
+   },
+   {
+    "id": "41811100",
+    "source": "MED",
+    "pmid": "41811100",
+    "pmcid": "PMC13176544",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13176544"
+     ]
+    },
+    "doi": "10.1002/adhm.202504889",
+    "title": "Mapping the Cerebral Organoid Landscape: A Systematic Review of Preclinical 3D Models in Neuroscience.",
+    "authorString": "Wolfram A, Arnold V, Wolfram-Schauerte M, Moskalchuk A, Trust C, Vontz M, Scheurenbrand M, Sampath-Kumar V, Ahari S, Romero-Nieto C, Sevenich L.",
+    "journalTitle": "Adv Healthc Mater",
+    "issue": "18",
+    "journalVolume": "15",
+    "pubYear": "2026",
+    "journalIssn": "2192-2640; 2192-2659; ",
+    "pageInfo": "e04889",
+    "pubType": "systematic review; review-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2026-03-11",
+    "firstIndexDate": "2026-03-12"
+   },
+   {
+    "id": "PMC10837896",
+    "source": "PMC",
+    "pmcid": "PMC10837896",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10837896"
+     ]
+    },
+    "title": "Abstracts from Hydrocephalus 2023\u2014the fifteenth meeting of the Hydrocephalus Society",
+    "journalTitle": "Fluids Barriers CNS",
+    "issue": "suppl 2",
+    "journalVolume": "20",
+    "pubYear": "2023",
+    "journalIssn": "2045-8118",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2023-01-01",
+    "firstIndexDate": "2025-07-28"
+   },
+   {
+    "id": "PMC13224757",
+    "source": "PMC",
+    "pmcid": "PMC13224757",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC13224757"
+     ]
+    },
+    "title": "17th EUNOS Congress : Milan, Italy, 4\u20136 June, 2026Editors\u2019 Introduction",
+    "journalTitle": "Neuroophthalmology",
+    "issue": "suppl ",
+    "journalVolume": "50",
+    "journalIssn": "0165-8107; 1744-506x; ",
+    "pageInfo": "1-165",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2026-06-04",
+    "firstIndexDate": "2026-06-04"
+   },
+   {
+    "id": "35579103",
+    "source": "MED",
+    "pmid": "35579103",
+    "pmcid": "PMC9112195",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9112195"
+     ]
+    },
+    "doi": "10.1002/jev2.12224",
+    "title": "ISEV2022 Abstract Book.",
+    "journalTitle": "J Extracell Vesicles",
+    "journalVolume": "11 Suppl 1",
+    "pubYear": "2022",
+    "journalIssn": "2001-3078",
+    "pageInfo": "e12224",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "geo",
+      "gen",
+      "go",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2022-05-01",
+    "firstIndexDate": "2022-05-18"
+   },
+   {
+    "id": "34867479",
+    "source": "MED",
+    "pmid": "34867479",
+    "pmcid": "PMC8637850",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8637850"
+     ]
+    },
+    "doi": "10.3389/fphys.2021.770502",
+    "title": "Amifostine (WR-2721) Mitigates Cognitive Injury Induced by Heavy Ion Radiation in Male Mice and Alters Behavior and Brain Connectivity.",
+    "authorString": "Boutros SW, Zimmerman B, Nagy SC, Lee JS, Perez R, Raber J.",
+    "journalTitle": "Front Physiol",
+    "journalVolume": "12",
+    "pubYear": "2021",
+    "journalIssn": "1664-042x",
+    "pageInfo": "770502",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 16,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2021-11-16",
+    "firstIndexDate": "2021-12-15"
+   },
+   {
+    "id": "PMC8373421",
+    "source": "PMC",
+    "pmcid": "PMC8373421",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8373421"
+     ]
+    },
+    "title": "Proceedings of the Joint Meeting of the 126th Annual Meeting of The Japanese Association of Anatomists and the 98th Annual Meeting of The Physiological Society of Japan",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 1",
+    "journalVolume": "71",
+    "pubYear": "2021",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2021-01-01",
+    "firstIndexDate": "2021-08-21"
+   },
+   {
+    "id": "35272451",
+    "source": "MED",
+    "pmid": "35272451",
+    "pmcid": "PMC8992680",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8992680"
+     ]
+    },
+    "doi": "10.4081/ejtm.2022.10440",
+    "title": "The 2022 On-site Padua Days on Muscle and Mobility Medicine hosts the University of Florida Institute of Myology and the Wellstone Center, March 30 - April 3, 2022 at the University of Padua and Thermae of Euganean Hills, Padua, Italy: The collection of abstracts.",
+    "authorString": "Sweeney HL, Masiero S, Carraro U.",
+    "journalTitle": "Eur J Transl Myol",
+    "issue": "1",
+    "journalVolume": "32",
+    "pubYear": "2022",
+    "journalIssn": "2037-7452; 2037-7460; ",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 16,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "nct",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2022-03-10",
+    "firstIndexDate": "2022-03-12"
+   },
+   {
+    "id": "33013433",
+    "source": "MED",
+    "pmid": "33013433",
+    "pmcid": "PMC7461998",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7461998"
+     ]
+    },
+    "doi": "10.3389/fphys.2020.00939",
+    "title": "Serum Metabolomics Associating With Circulating MicroRNA Profiles Reveal the Role of miR-383-5p in Rat Hippocampus Under Simulated Microgravity.",
+    "authorString": "Zhang H, Chen J, Wang H, Lu X, Li K, Yang C, Wu F, Xu Z, Nie H, Ding B, Guo Z, Li Y, Wang J, Li Y, Dai Z.",
+    "journalTitle": "Front Physiol",
+    "journalVolume": "11",
+    "pubYear": "2020",
+    "journalIssn": "1664-042x",
+    "pageInfo": "939",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 9,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+     "dbName": [
+      "EMBL"
+     ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen"
+     ]
+    },
+    "firstPublicationDate": "2020-08-18",
+    "firstIndexDate": "2020-10-16"
+   },
+   {
+    "id": "34982365",
+    "source": "MED",
+    "pmid": "34982365",
+    "pmcid": "PMC8725635",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8725635"
+     ]
+    },
+    "doi": "10.1007/s11307-021-01693-y",
+    "title": "Proceedings of the World Molecular Imaging Congress 2021, October 5-8, 2021: General Abstracts.",
+    "journalTitle": "Mol Imaging Biol",
+    "issue": "suppl 2",
+    "journalVolume": "23",
+    "pubYear": "2021",
+    "journalIssn": "1536-1632; 1860-2002; ",
+    "pageInfo": "991-1738",
+    "pubType": "news",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2021-12-01",
+    "firstIndexDate": "2022-01-05"
+   },
+   {
+    "id": "28814614",
+    "source": "MED",
+    "pmid": "28814614",
+    "pmcid": "PMC6347102",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC6347102"
+     ]
+    },
+    "doi": "10.1152/physrev.00019.2016",
+    "title": "Role of Inactivity in Chronic Diseases: Evolutionary Insight and Pathophysiological Mechanisms.",
+    "authorString": "Booth FW, Roberts CK, Thyfault JP, Ruegsegger GN, Toedebusch RG.",
+    "journalTitle": "Physiol Rev",
+    "issue": "4",
+    "journalVolume": "97",
+    "pubYear": "2017",
+    "journalIssn": "0031-9333; 1522-1210; ",
+    "pageInfo": "1351-1402",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 443,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2017-10-01",
+    "firstIndexDate": "2017-08-18"
+   },
+   {
+    "id": "PMC7103908",
+    "source": "PMC",
+    "pmcid": "PMC7103908",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7103908"
+     ]
+    },
+    "title": "Symposia",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 1",
+    "journalVolume": "63",
+    "pubYear": "2013",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pageInfo": "S23-S112",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2013-01-01",
+    "firstIndexDate": "2020-04-02"
+   },
+   {
+    "id": "36107382",
+    "source": "MED",
+    "pmid": "36107382",
+    "pmcid": "PMC9476395",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9476395"
+     ]
+    },
+    "doi": "10.1007/s13105-022-00923-3",
+    "title": "Abstracts of the XL Congress of the Spanish Society of Physiological Sciences (SECF).",
+    "journalTitle": "J Physiol Biochem",
+    "pubYear": "2022",
+    "journalIssn": "1138-7548; 1877-8755; ",
+    "pageInfo": "1-99",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "refsnp",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2022-09-15",
+    "firstIndexDate": "2022-09-16"
+   },
+   {
+    "id": "31592543",
+    "source": "MED",
+    "pmid": "31592543",
+    "pmcid": "PMC7163613",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7163613"
+     ]
+    },
+    "doi": "10.1002/eji.201970400",
+    "title": "17th International Congress of Immunology, 19-23 October 2019, Beijing, China.",
+    "journalTitle": "Eur J Immunol",
+    "journalVolume": "49 Suppl 3",
+    "pubYear": "2019",
+    "journalIssn": "0014-2980; 1521-4141; ",
+    "pageInfo": "1-2223",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 9,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2019-10-01",
+    "firstIndexDate": "2019-10-09"
+   },
+   {
+    "id": "PMC8251645",
+    "source": "PMC",
+    "pmcid": "PMC8251645",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC8251645"
+     ]
+    },
+    "title": "Posters",
+    "journalTitle": "FEBS Open Bio",
+    "issue": "suppl 1",
+    "journalVolume": "11",
+    "pubYear": "2021",
+    "journalIssn": "2211-5463",
+    "pageInfo": "103-507",
+    "pubType": "abstract",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2021-07-01",
+    "firstIndexDate": "2021-07-12"
+   },
+   {
+    "id": "PMC7103898",
+    "source": "PMC",
+    "pmcid": "PMC7103898",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7103898"
+     ]
+    },
+    "title": "Symposium",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 1",
+    "journalVolume": "65",
+    "pubYear": "2015",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pageInfo": "S35-S105",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2015-01-01",
+    "firstIndexDate": "2020-04-02"
+   },
+   {
+    "id": "30712108",
+    "source": "MED",
+    "pmid": "30712108",
+    "pmcid": "PMC10722650",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10722650"
+     ]
+    },
+    "doi": "10.1007/bf03405811",
+    "title": "Poster Presentations : Day 2 March 29 (Wed), 15:40 - 16:40.",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 1",
+    "journalVolume": "67",
+    "pubYear": "2017",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pageInfo": "S115-S149",
+    "pubType": "abstract; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2017-01-01",
+    "firstIndexDate": "2019-02-08"
+   },
+   {
+    "id": "31024259",
+    "source": "MED",
+    "pmid": "31024259",
+    "pmcid": "PMC6465581",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC6465581"
+     ]
+    },
+    "doi": "10.3389/fncel.2019.00129",
+    "title": "Organs to Cells and Cells to Organoids: The Evolution of &lt;i&gt;in vitro&lt;/i&gt; Central Nervous System Modelling.",
+    "authorString": "Pacitti D, Privolizzi R, Bax BE.",
+    "journalTitle": "Front Cell Neurosci",
+    "journalVolume": "13",
+    "pubYear": "2019",
+    "journalIssn": "1662-5102",
+    "pageInfo": "129",
+    "pubType": "review-article; review; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 52,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2019-04-09",
+    "firstIndexDate": "2019-04-27"
+   },
+   {
+    "id": "PMC6265814",
+    "source": "PMC",
+    "pmcid": "PMC6265814",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC6265814"
+     ]
+    },
+    "title": "Vitamins and Minerals",
+    "journalTitle": "Curr Dev Nutr",
+    "issue": "11",
+    "journalVolume": "2",
+    "pubYear": "2018",
+    "journalIssn": "2475-2991",
+    "pubType": "meeting-report; meeting report",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "refsnp"
+     ]
+    },
+    "firstPublicationDate": "2018-06-28",
+    "firstIndexDate": "2019-03-28"
+   },
+   {
+    "id": "PMC7163844",
+    "source": "PMC",
+    "pmcid": "PMC7163844",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7163844"
+     ]
+    },
+    "title": "Literature review of baseline information to support the risk assessment of RNAi\u2010based GM plants",
+    "authorString": "Paces J, Nic M, Novotny T, Svoboda P.",
+    "journalTitle": "EFSA Supporting Publications",
+    "issue": "6",
+    "journalVolume": "14",
+    "pubYear": "2017",
+    "journalIssn": "2397-8325",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2017-06-01",
+    "firstIndexDate": "2020-04-19"
+   },
+   {
+    "id": "PMC12099168",
+    "source": "PMC",
+    "pmcid": "PMC12099168",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12099168"
+     ]
+    },
+    "title": "Oral Presentations",
+    "journalTitle": "Global Spine Journal",
+    "issue": "2 suppl",
+    "journalVolume": "15",
+    "pubYear": "2025",
+    "journalIssn": "2192-5682",
+    "pageInfo": "4S-215S",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2025-05-01",
+    "firstIndexDate": "2025-05-26"
+   },
+   {
+    "id": "40986224",
+    "source": "MED",
+    "pmid": "40986224",
+    "pmcid": "PMC12457634",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC12457634"
+     ]
+    },
+    "doi": "10.1007/s40520-025-03119-z",
+    "title": "World Congress on Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (WCO-IOF-ESCEO 2025).",
+    "journalTitle": "Aging Clin Exp Res",
+    "issue": "suppl 1",
+    "journalVolume": "37",
+    "pubYear": "2025",
+    "journalIssn": "1594-0667; 1720-8319; ",
+    "pageInfo": "279",
+    "pubType": "calendar; conference proceedings",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 3,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "refsnp",
+      "omim",
+      "nct",
+      "doi"
+     ]
+    },
+    "firstPublicationDate": "2025-09-23",
+    "firstIndexDate": "2025-09-25"
+   },
+   {
+    "id": "PMC7090633",
+    "source": "PMC",
+    "pmcid": "PMC7090633",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7090633"
+     ]
+    },
+    "title": "Abstractbook of the Joint Conference 2017 of the DGHM & VAAM: Microbiology and Infection",
+    "journalTitle": "Biospektrum (Heidelb)",
+    "issue": "suppl 1",
+    "journalVolume": "23",
+    "pubYear": "2017",
+    "journalIssn": "0947-0867; 1868-6249; ",
+    "pageInfo": "1-377",
+    "pubType": "abstract",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2017-01-01",
+    "firstIndexDate": "2020-03-26"
+   },
+   {
+    "id": "18704384",
+    "source": "MED",
+    "pmid": "18704384",
+    "pmcid": "PMC2651838",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC2651838"
+     ]
+    },
+    "doi": "10.1007/s00221-008-1523-5",
+    "title": "Effect of microgravity on gene expression in mouse brain.",
+    "authorString": "Frigeri A, Iacobas DA, Iacobas S, Nicchia GP, Desaphy JF, Camerino DC, Svelto M, Spray DC.",
+    "journalTitle": "Exp Brain Res",
+    "issue": "3",
+    "journalVolume": "191",
+    "pubYear": "2008",
+    "journalIssn": "0014-4819; 1432-1106; ",
+    "pageInfo": "289-300",
+    "pubType": "research support, non-u.s. gov't; research-article; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 46,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "Y",
+    "dbCrossReferenceList": {
+     "dbName": [
+      "ARXPR",
+      "EMBL"
+     ]
+    },
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "geo"
+     ]
+    },
+    "firstPublicationDate": "2008-08-14",
+    "firstIndexDate": "2010-09-22"
+   },
+   {
+    "id": "35712260",
+    "source": "MED",
+    "pmid": "35712260",
+    "pmcid": "PMC9196815",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC9196815"
+     ]
+    },
+    "doi": "10.1080/01658107.2022.2064188",
+    "title": "15th EUNOS Congress.",
+    "journalTitle": "Neuroophthalmology",
+    "issue": "suppl",
+    "journalVolume": "46",
+    "pubYear": "2022",
+    "journalIssn": "0165-8107; 1744-506x; ",
+    "pageInfo": "1-139",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "omim",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2022-06-11",
+    "firstIndexDate": "2022-06-18"
+   },
+   {
+    "id": "PMC10722647",
+    "source": "PMC",
+    "pmcid": "PMC10722647",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC10722647"
+     ]
+    },
+    "title": "Abstract",
+    "journalTitle": "J Physiol Sci",
+    "issue": "suppl 1",
+    "journalVolume": "59",
+    "pubYear": "2009",
+    "journalIssn": "1880-6546; 1880-6562; ",
+    "pageInfo": "440-541",
+    "pubType": "abstract",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2009-01-01",
+    "firstIndexDate": "2023-12-18"
+   },
+   {
+    "id": "30430435",
+    "source": "MED",
+    "pmid": "30430435",
+    "pmcid": "PMC7097593",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC7097593"
+     ]
+    },
+    "doi": "10.1007/s13361-018-2096-6",
+    "title": "A Focus Honoring Carol Robinson's Election to the National Academy of Sciences.",
+    "authorString": "Brodbelt JS, Russell DH.",
+    "journalTitle": "J Am Soc Mass Spectrom",
+    "issue": "1",
+    "journalVolume": "30",
+    "pubYear": "2019",
+    "journalIssn": "1044-0305; 1879-1123; ",
+    "pageInfo": "1-3",
+    "pubType": "news; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2019-01-01",
+    "firstIndexDate": "2018-11-16"
+   },
+   {
+    "id": "PMC5439753",
+    "source": "PMC",
+    "pmcid": "PMC5439753",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC5439753"
+     ]
+    },
+    "title": "translational science 2012 meeting abstracts",
+    "journalTitle": "Clin Transl Sci",
+    "issue": "2",
+    "journalVolume": "5",
+    "pubYear": "2012",
+    "journalIssn": "1752-8054; 1752-8062; ",
+    "pageInfo": "141-210",
+    "pubType": "abstract",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+     "accessionType": [
+      "gen",
+      "refsnp",
+      "nct"
+     ]
+    },
+    "firstPublicationDate": "2012-04-01",
+    "firstIndexDate": "2017-06-01"
+   },
+   {
+    "id": "PMC1949331",
+    "source": "PMC",
+    "pmcid": "PMC1949331",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC1949331"
+     ]
+    },
+    "title": "Abstracts for the 3rd International Congress on Stress Responses in Biology and Medicine and the 2nd International Congress of Stress Research, 2007",
+    "journalTitle": "Cell Stress Chaperones",
+    "issue": "2",
+    "journalVolume": "12",
+    "pubYear": "2007",
+    "journalIssn": "1355-8145; 1466-1268; ",
+    "pageInfo": "e1-e1",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2007-06-01",
+    "firstIndexDate": "2010-02-22"
+   },
+   {
+    "id": "24249043",
+    "source": "MED",
+    "pmid": "24249043",
+    "pmcid": "PMC3880474",
+    "fullTextIdList": {
+     "fullTextId": [
+      "PMC3880474"
+     ]
+    },
+    "doi": "10.1007/s13361-013-0772-0",
+    "title": "MALDI efficiency of metabolites quantitatively associated with their structural properties: a quantitative structure-property relationship (QSPR) approach.",
+    "authorString": "Yukihira D, Miura D, Fujimura Y, Umemura Y, Yamaguchi S, Funatsu S, Yamazaki M, Ohta T, Inoue H, Shindo M, Wariishi H.",
+    "journalTitle": "J Am Soc Mass Spectrom",
+    "issue": "1",
+    "journalVolume": "25",
+    "pubYear": "2014",
+    "journalIssn": "1044-0305; 1879-1123; ",
+    "pageInfo": "1-5",
+    "pubType": "news; research support, non-u.s. gov't; journal article",
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 12,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2013-11-19",
+    "firstIndexDate": "2013-11-21"
+   }
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "pdf_pages": 1,
+  "native_width_mm": 182.9999999999947,
+  "png_width_px": 4322,
+  "png_mode": "RGB",
+  "min_font_pt": 8,
+  "visual_inspection": "Final PDF rendered and inspected at 1600 px; titles, ticks, panel letters, labels, legends and error bars are readable with no clipping or overlap.",
+  "render": "results/figure_QA_render.png"
+}

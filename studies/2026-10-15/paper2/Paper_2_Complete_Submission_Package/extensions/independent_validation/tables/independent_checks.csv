@@ -1,0 +1,8 @@
+check,passed,detail
+All source SHA256 unchanged,True,12 inputs including frozen plan
+RRRM2 raw CSV reconstruction,True,All 5724 rows × 19 animals checked with independent dictionary boundary sums
+RR23 raw CSV reconstruction,True,All 5724 rows × 26 animals checked with independent dictionary boundary sums
+Fixed full-panel projection and profile correlation,True,All 1512 eligible events; every held-out animal score and rho reproduced
+Independent exact stratified score enumeration,True,"All 11,200 assignments reproduced directly; one-sided p=0.2525, two-sided p=0.5022321428571429"
+Secondary event p values and Holm family,True,"13 deterministic event exact nulls and all 1,512 Holm adjusted values independently reproduced"
+Saved bootstrap interval consistency,True,"All three percentile intervals reproduced from 2,000 saved animal draws"

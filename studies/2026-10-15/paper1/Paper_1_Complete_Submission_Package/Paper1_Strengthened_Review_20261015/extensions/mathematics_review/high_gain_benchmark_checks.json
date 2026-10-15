@@ -1,0 +1,12 @@
+{
+  "n_configurations": 16,
+  "n_repetitions": 1600,
+  "n_rows": 6400,
+  "all_64_configuration_method_cells_have_100_repetitions": true,
+  "maximum_bounded_gain": 2.0000000000000004,
+  "maximum_score_biology_relative_distortion": 0.0,
+  "minimum_learned_gain": 6.711963568711074,
+  "maximum_learned_gain": 12.572813879559085,
+  "independent_training_target": true,
+  "target_tuning": false
+}

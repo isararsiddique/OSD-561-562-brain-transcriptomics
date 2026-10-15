@@ -1,0 +1,4 @@
+contrast,family_genes,measured_genes,measured_events,joint_BH,joint_BY,primary_BY_genes_retaining_BY,primary_BY_genes_total,minimum_joint_BY_q
+FLT_minus_GC,1983,1724,2710,251,47,45,47,0.048256987825990624
+GC_minus_VIV,1983,1724,2710,23,0,0,0,0.07087745086942372
+FLT_minus_VIV,1983,1724,2710,30,0,0,0,0.05815585712362972

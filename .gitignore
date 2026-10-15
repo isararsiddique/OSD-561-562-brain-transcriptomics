@@ -21,3 +21,22 @@ data/
 results/tables/csv/DE_*.csv
 
 # Kept in git: figures, summary tables, and the consolidated Excel workbook.
+
+# Reproduction data and complete Zenodo archives remain local.
+.local-reproduction/
+studies/**/inputs/
+studies/**/datasets/
+studies/**/*.npz
+studies/**/*.gz
+studies/**/*.zip
+studies/**/*.tab
+studies/**/*.gtf
+studies/**/*.gff
+
+# Credentials are never part of an analysis release.
+*.pem
+*.key
+id_rsa
+id_ed25519
+.env
+.env.*

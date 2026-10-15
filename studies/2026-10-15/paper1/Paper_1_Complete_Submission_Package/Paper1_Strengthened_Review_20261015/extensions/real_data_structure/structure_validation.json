@@ -1,0 +1,10 @@
+{
+  "all_deposits_included": true,
+  "animal_region_rows": 126,
+  "PCA_eigenspectrum_and_reconstruction_independently_checked": true,
+  "input_checksums_checked": true,
+  "inference": "descriptive only",
+  "RNA_integrity_numbers": "Not present in the bundled metadata; count composition is not a substitute for RIN",
+  "font": "Arial",
+  "dpi": 600
+}

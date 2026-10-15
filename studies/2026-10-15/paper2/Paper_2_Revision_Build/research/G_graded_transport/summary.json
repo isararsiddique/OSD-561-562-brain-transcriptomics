@@ -1,0 +1,65 @@
+{
+ "results": [
+  {
+   "cohort": "RR10",
+   "direction": "FLT_minus_GC",
+   "n_clusters": 702,
+   "n_allocations": 252,
+   "spearman_rho": 0.051526919764451846,
+   "exact_p_one_sided": 0.376984126984127,
+   "null_rho_q975": 0.1932985789718717,
+   "null_rho_q025": -0.19329857897187172,
+   "top_decile_n": 74,
+   "top_minus_rest_pp": 0.5279590355557251,
+   "top_minus_rest_exact_p": 0.38492063492063494
+  },
+  {
+   "cohort": "RR10",
+   "direction": "FLT_minus_VIV",
+   "n_clusters": 702,
+   "n_allocations": 252,
+   "spearman_rho": 0.01823070634597689,
+   "exact_p_one_sided": 0.42857142857142855,
+   "null_rho_q975": 0.12778112838107647,
+   "null_rho_q025": -0.12778112838107653,
+   "top_decile_n": 71,
+   "top_minus_rest_pp": 0.7194606093618225,
+   "top_minus_rest_exact_p": 0.1349206349206349
+  },
+  {
+   "cohort": "RRRM2",
+   "direction": "FLT_minus_GC",
+   "n_clusters": 281,
+   "n_allocations": 11200,
+   "spearman_rho": 0.030410587436301664,
+   "exact_p_one_sided": 0.3261607142857143,
+   "null_rho_q975": 0.14576346125844394,
+   "null_rho_q025": -0.12646942507709702,
+   "top_decile_n": 29,
+   "top_minus_rest_pp": 1.3015507280355405,
+   "top_minus_rest_exact_p": 0.13875
+  },
+  {
+   "cohort": "RRRM2",
+   "direction": "FLT_minus_VIV",
+   "n_clusters": 281,
+   "n_allocations": 11200,
+   "spearman_rho": 0.06327061131324051,
+   "exact_p_one_sided": 0.1667857142857143,
+   "null_rho_q975": 0.12048528417181333,
+   "null_rho_q025": -0.12585751402738138,
+   "top_decile_n": 29,
+   "top_minus_rest_pp": -0.37461699244104185,
+   "top_minus_rest_exact_p": 0.7008035714285714
+  }
+ ],
+ "holm": [
+  0.9784821428571429,
+  0.9784821428571429,
+  0.9784821428571429,
+  0.6671428571428571
+ ],
+ "external_external_spearman_RR10_RRRM2": 0.11721453274012292,
+ "n_common": 270,
+ "note": "retrospective; exact allocation nulls; see PLAN_2026-10-15.md"
+}

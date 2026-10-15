@@ -1,0 +1,1217 @@
+[
+  {
+    "number": 1,
+    "title": "Source animals and technical quality",
+    "file": "supplementary_data/Supplementary_Data_01.zip",
+    "members": [
+      {
+        "file": "inputs/animal_metadata.csv",
+        "bytes": 40011,
+        "sha256": "e0acd6941df1fd8a53ec6631e25fcfa0bdc25a923897e91ea405a6d8ba5f6e3c"
+      },
+      {
+        "file": "inputs/junction_library_manifest.csv",
+        "bytes": 7849,
+        "sha256": "2bca64206ad19e3b0e79407bb5fae89490b45b87261674618f725e0d4ccd3f38"
+      },
+      {
+        "file": "results/animal_design.csv",
+        "bytes": 2630,
+        "sha256": "6a1fc40794e097f4e2ba6d816e575aab3eb2ae95cabb5c6dcb9446591ba222a1"
+      },
+      {
+        "file": "results/animal_qc.csv",
+        "bytes": 1713,
+        "sha256": "e5ec443168397e145141d7ec08b81f3063ce1b8fcfccf5a38303bfeee6f23000"
+      }
+    ],
+    "sha256": "8b8bf778dc9a1bf5e40437c5c50b420c597cd4b5dc20f6d36643e7939dd3ffb2"
+  },
+  {
+    "number": 2,
+    "title": "Complete binary measurement and test families",
+    "file": "supplementary_data/Supplementary_Data_02.zip",
+    "members": [
+      {
+        "file": "results/all26_animal_fractions.csv.gz",
+        "bytes": 820087,
+        "sha256": "d115cea6d670e2c138423171e936fb782d1ac3d05677db43bdca87138d6e637f"
+      },
+      {
+        "file": "results/exploratory_control_classification.csv.gz",
+        "bytes": 373304,
+        "sha256": "3d757fabf6ef53c72688ffd78586f2a43680f98beaa5ad6eea1e92754bb7d65b"
+      },
+      {
+        "file": "results/global_contrasts.csv",
+        "bytes": 547,
+        "sha256": "ec927e99f2dfa51f6466e1648560c48db853857c521fa5fafe12b4bfdbbbf0d8"
+      },
+      {
+        "file": "results/measurement_gates.csv.gz",
+        "bytes": 163190,
+        "sha256": "5b368dd86fcb2fd68cd2d892ca83e97ebc659d0df4cd711e62a7af345241a33c"
+      },
+      {
+        "file": "results/three_arm_event_results.csv.gz",
+        "bytes": 1231025,
+        "sha256": "3ce2483fd6fcc60338e20010b4a37f4db8d8bad3a354110a7bed834ff8d39686"
+      }
+    ],
+    "sha256": "7478a23be65c394e70c0a28010e28ab4e4563d4ea1d60c77eb068e8c038463d3"
+  },
+  {
+    "number": 3,
+    "title": "Complete gene omnibus and sensitivity families",
+    "file": "supplementary_data/Supplementary_Data_03.zip",
+    "members": [
+      {
+        "file": "extensions/gene_omnibus/results/arbitrary_dependence_corrected_genes.csv",
+        "bytes": 11517,
+        "sha256": "c3cd9341cbe23c9405951d8fbf6583e8182f122fd021dacc396cb5ec9e10ae3e"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/descriptive_all_gene_leave_one_out.csv.gz",
+        "bytes": 1573294,
+        "sha256": "8f9db1fa54b1b7b043a98867f39011e3fc42c127ee95de0bad693927dbeb58bc"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/descriptive_gene_leave_one_out_summary.csv",
+        "bytes": 291510,
+        "sha256": "83757e91a194b56a446a49500e71cfed536dd8b6e4aa47688cd0eaef1587ab53"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/discovery_summary.csv",
+        "bytes": 372,
+        "sha256": "b225c96273f36d27b1dbeccd1ddfcf1b98b37f7c7e7cfcb0116e78145f64fb94"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/dominance95_gene_omnibus_complete.csv.gz",
+        "bytes": 349782,
+        "sha256": "b22209543819d02b4ba350bee9c79e288c6a86d5b4198daa31ad07ef92b77f67"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/dominance95_sensitivity_summary.csv",
+        "bytes": 320,
+        "sha256": "25a5a0c07c97f0ebc7570bd2541ecb4e00661e0eb16e69c5989f8d8564798dcc"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/figure_source_events.csv",
+        "bytes": 1353,
+        "sha256": "ff089dd096ed79d34f8709c5f86f63ea3a0ac07e5e20cebd3e38fc0e73ddbf66"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/gene_event_universe.csv.gz",
+        "bytes": 155275,
+        "sha256": "43a7d2085bd1d500fd060acff6df59e01f3a907397269fe483869ea6225d32cd"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/gene_omnibus_complete.csv.gz",
+        "bytes": 447840,
+        "sha256": "05e245d09de05eda639db827bcd436324368deaeadee3cc2a534723b38de9e85"
+      },
+      {
+        "file": "extensions/gene_omnibus/results/primary_BY_gene_dominance95_followup.csv",
+        "bytes": 5355,
+        "sha256": "54f9366c9640e6d99621ae7a35048b6c16c3e879cb9cc6bb017267cbe51391c2"
+      }
+    ],
+    "sha256": "a6e952314ba15a157ad13c76ef2dc28cc8f8fa269f606db99e72d4dc23af1239"
+  },
+  {
+    "number": 4,
+    "title": "Complete multialternative primary tests and measurements",
+    "file": "supplementary_data/Supplementary_Data_04.zip",
+    "members": [
+      {
+        "file": "extensions/multiway_splicing/tables/BY_discoveries_full_family.csv",
+        "bytes": 15276,
+        "sha256": "11c441f9b77af3dd15ed2088ded1df002d51ee20af0610a63334521e85a21ffd"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/all_candidate_clusters.csv.gz",
+        "bytes": 329146,
+        "sha256": "2f05c0a350f8151f1c5b9f7cd08fc6c21200659fe12b32805c32bdcc53827d80"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/all_cluster_three_arm_composition_summaries.csv.gz",
+        "bytes": 401591,
+        "sha256": "35d9cd29887c659afc81e47d73b8d9455429b68ecf044966ece12dfad1601b37"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/all_cluster_three_arm_coverage_summaries.csv.gz",
+        "bytes": 91975,
+        "sha256": "aceaeab9a6fa564a307dcdc3df530bbd23e1fc16287331cd6b1a6b52cc3c8e28"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/alternative_group_mean_differences.csv.gz",
+        "bytes": 331856,
+        "sha256": "2ca73c3756444f342e95da1d2f6a4f0f13ca1e6226f451ec0114629354ffd8db"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/analysis_animals.csv",
+        "bytes": 1449,
+        "sha256": "e760cccc55dbb7511054ca429f7b8dfcc7b07e6ef6dd6db6dee4fb90aed4a5f1"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/animal_alternative_compositions.csv.gz",
+        "bytes": 931265,
+        "sha256": "67d5f2426b3654725cb6a5e02704a896e20721deffa5a1ebfe9e6d9b379e7f73"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/animal_cluster_coverage.csv.gz",
+        "bytes": 630552,
+        "sha256": "a6e53514e34193918820e643e84d521686528b7905b0076f52aaa4f1fa1c8332"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/equal_cluster_animal_kernel.csv",
+        "bytes": 13563,
+        "sha256": "4d8e4582e8036fdd9f0d15f19cd6344edb7b58764a269597007fa670341aa168"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/global_exact_null_distributions.csv.gz",
+        "bytes": 1986248,
+        "sha256": "5e49c2158903b44d2180847d009d2734f4b272ed417755300a11eadc921881ee"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/global_exact_results.csv",
+        "bytes": 480,
+        "sha256": "c9a01bf4545485aa96073da3fbeb4218cf7883647d2718238a634c55a51f69fd"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/global_sensitivity_results.csv",
+        "bytes": 1372,
+        "sha256": "cdfeda6b94efbcce472e9d67fb07414a210f7ec9ba4a10afc8a55d29a087dac1"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/independent_verification.csv",
+        "bytes": 2671,
+        "sha256": "93a3d664e432748e787797f771cc0fdb881e26d6baee7135ce6e998093daf451"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/junction_overlap.csv",
+        "bytes": 143686,
+        "sha256": "7894345166105b7acd653fff9c7ffa3d1d3af0e5e1a097681f1980a318857cff"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/kernel_principal_coordinates.csv",
+        "bytes": 1610,
+        "sha256": "487970643910faf5b754ee83c3460b1e19a9cf2683ba292a945c86e8782624c2"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/leave_one_animal_out_effects.csv",
+        "bytes": 3945,
+        "sha256": "1c262440221039847ef5d89824bdbca613926797ee5c450a358b29926c80ef1c"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/local_exact_results_complete.csv.gz",
+        "bytes": 299343,
+        "sha256": "a2c3d4f152eeedc4c12fd34066b881272af2a54ccea4558c381ed5c0aaaa7115"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/overlapping_cluster_pairs.csv",
+        "bytes": 5089,
+        "sha256": "b73a7b79203db80a585b0230502c9744198a8a7b8e33dbc51816cfff77dd3f4b"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/selected_cluster_definitions.csv",
+        "bytes": 128304,
+        "sha256": "9b0000c33afa08560b38f1343c642887b4bdb292a85a7fd332bf030d0f1738f0"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/selection_funnel.csv",
+        "bytes": 169,
+        "sha256": "f741d252127652e381632695f6514d69f4f0d796b47a11f3959fb3517b8f3de3"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/three_flight_vivarium_BY_clusters.csv",
+        "bytes": 1566,
+        "sha256": "a1b24328619d8343a569f3dc32325ab5f2e1a6e6251b225463a8d9b5781b0a70"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/three_flight_vivarium_clusters_all_arm_compositions.csv",
+        "bytes": 4249,
+        "sha256": "d71ac4943c98278594c9bf57e3dd1e2295dd134658dcb01eb15d7a1d808f64c1"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/three_flight_vivarium_clusters_animal_compositions.csv.gz",
+        "bytes": 3359,
+        "sha256": "1730857986789f5ee2e211df34eff50e6b2d84b09d3ed9eba0a91f708d9d7c6c"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/three_flight_vivarium_clusters_characterization.csv",
+        "bytes": 1361,
+        "sha256": "08b25786caeddfa5e21ab68b93c7abbe7eb2009486bac2f92b68a913432ab314"
+      },
+      {
+        "file": "extensions/multiway_splicing/tables/three_flight_vivarium_clusters_junction_coordinates.csv",
+        "bytes": 598,
+        "sha256": "531202ee3765b732c9469bce9fee12ad1b57d6ee8fc1a7999d39e55f56c828d7"
+      }
+    ],
+    "sha256": "f43803bbb618f2acaafab8412bf5951272c9afd4c47951fb192cc97a758be976"
+  },
+  {
+    "number": 5,
+    "title": "Relative abundance and equivalence conjunctions",
+    "file": "supplementary_data/Supplementary_Data_05.zip",
+    "members": [
+      {
+        "file": "extensions/abundance_integration/results/abundance_gene_universe.csv",
+        "bytes": 69820,
+        "sha256": "2afa6a3cc1d6912e9079d13e0a17fedd7f781b39f2aca0973b04b24aff358d2e"
+      },
+      {
+        "file": "extensions/abundance_integration/results/abundance_junction_complete.csv.gz",
+        "bytes": 1016313,
+        "sha256": "3f80dd55851e4547eb253bd7340dae4c7e58181233a3f974120293dbaf7978c8"
+      },
+      {
+        "file": "extensions/abundance_integration/results/animal_abundance_qc.csv",
+        "bytes": 1703,
+        "sha256": "6a58db71c17423f89df984fd761878280e4de8d3f62050dd7c3d396d7a3e7b03"
+      },
+      {
+        "file": "extensions/abundance_integration/results/figure_illustrative_genes.csv",
+        "bytes": 1770,
+        "sha256": "edb9c5db88db40b7f3266ec566f2b8bf1f54983a2c7b3b2e54ad310addd116f2"
+      },
+      {
+        "file": "extensions/abundance_integration/results/global_abundance_contrasts.csv",
+        "bytes": 484,
+        "sha256": "06dd108bd3759ec24776743079a03a223c4771e9418a4559bfb33cecab0c8071"
+      },
+      {
+        "file": "extensions/abundance_integration/results/log2_normalized_gene_counts.csv.gz",
+        "bytes": 447952,
+        "sha256": "e6efdbe1e3488ba59ed469188968021a157f3f5c411df4707271b2e530a90ac8"
+      }
+    ],
+    "sha256": "0ed8728078a73dda4754036f0e00c31b17921a67f8923db98af00924f0c51039"
+  },
+  {
+    "number": 6,
+    "title": "Binary independent-mission transport",
+    "file": "supplementary_data/Supplementary_Data_06.zip",
+    "members": [
+      {
+        "file": "extensions/independent_validation/tables/RR23_animal_metadata.csv",
+        "bytes": 1517,
+        "sha256": "bfb889555bc69c979b4b3f05a2accd463481a36d5f9c2cdd43e6765b73794185"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_all26_fractions.csv.gz",
+        "bytes": 504097,
+        "sha256": "cc98cacf1138ff98f0baa1b9e87cc7ccbf00195a0dd55c8a3768f0fa91cdbaa0"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_all26_pair_counts.csv.gz",
+        "bytes": 264422,
+        "sha256": "dc06f18cd586d4daf00cf8f0f08d1dc24b7ea97224a1cc15782482289c5e05f8"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_all26_pair_dominance.csv.gz",
+        "bytes": 198116,
+        "sha256": "f8d2405398e5544f10bc9c03db145493255ed458b014743141dc522d7e929111"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_animal_inclusion_decisions.csv",
+        "bytes": 41266,
+        "sha256": "d51d6885d0c840ca919b7ba51b775208e035f9d02fa343870cbf872e0f652247"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_exact_score_null.csv.gz",
+        "bytes": 141957,
+        "sha256": "18314c3cd275d5a1ca8ccf813070ccb56c17e75e0f98e26c3d768e68fee15850"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_heldout_animal_scores.csv",
+        "bytes": 1759,
+        "sha256": "ec14e8983c3adb975795a8859ef7feb5056e7646897d600be8371afa8e94efb5"
+      },
+      {
+        "file": "extensions/independent_validation/tables/RRRM2_stratum_design.csv",
+        "bytes": 162,
+        "sha256": "4cd83cbffba59310d637678036c5c4542cc711f87c9d9ff94bd3b1b3ef1d84c4"
+      },
+      {
+        "file": "extensions/independent_validation/tables/animal_bootstrap_draws.csv.gz",
+        "bytes": 49045,
+        "sha256": "6a463f6dc9bfd6056a1d0eea0eed3a99572218e98c7111dfa805199921dd6a79"
+      },
+      {
+        "file": "extensions/independent_validation/tables/artifact_manifest_sha256.csv",
+        "bytes": 4479,
+        "sha256": "f022601fea0b5e516355b69cd8d9313ae0c10b55011c0cf582064e6ec5dc6934"
+      },
+      {
+        "file": "extensions/independent_validation/tables/complete_common_panel_effects.csv.gz",
+        "bytes": 98655,
+        "sha256": "8ebca34fff6c49baa2fc5578a1ede3ebefd285e39020199a900d170a586f86b0"
+      },
+      {
+        "file": "extensions/independent_validation/tables/complete_feature_mapping_and_gates.csv.gz",
+        "bytes": 331892,
+        "sha256": "783b4fbd1f04144215972d4d8f3151d419165e86e6b0491f580ed135db0a8e11"
+      },
+      {
+        "file": "extensions/independent_validation/tables/descriptive_stratum_score_effects.csv",
+        "bytes": 349,
+        "sha256": "7d82cc6636e3f4c7f6eb0c9232f19ac68e3871c081d66f287ca5312fe7269571"
+      },
+      {
+        "file": "extensions/independent_validation/tables/independent_checks.csv",
+        "bytes": 846,
+        "sha256": "9e56454c59a426068fdb420893df18ee1622ac606d43554a83131134fc6b16ab"
+      },
+      {
+        "file": "extensions/independent_validation/tables/input_manifest_sha256.csv",
+        "bytes": 2325,
+        "sha256": "708a84860963094ad87d7890075d169195c3073b874fddc9c540db001f813743"
+      },
+      {
+        "file": "extensions/independent_validation/tables/measurement_sensitivities.csv",
+        "bytes": 580,
+        "sha256": "a9648c1b3b0ad7e93788921785c5dde6c7ae675ac6946b034067d5b017055408"
+      },
+      {
+        "file": "extensions/independent_validation/tables/measurement_transport_counts.csv",
+        "bytes": 144,
+        "sha256": "3a660843be06cc99dfe734e106abecefa9689fad661f1a5ba6c8c7857166a6f8"
+      }
+    ],
+    "sha256": "71f4d55f30a4bb1c76636c89df67fbe70748e0add4227e638ff0e57c57c52b89"
+  },
+  {
+    "number": 7,
+    "title": "Fixed-family robustness and bootstrap intervals",
+    "file": "supplementary_data/Supplementary_Data_07.zip",
+    "members": [
+      {
+        "file": "extensions/multiway_robustness/results/LOO_crosscheck.csv",
+        "bytes": 2435,
+        "sha256": "f55c7c8aa4a74e94f77e8d3ee81949f283419a7ef73356cb09a7aa46095bf9cc"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/Tcaf1_bootstrap_intervals.csv",
+        "bytes": 602,
+        "sha256": "381b33052113bb79f3b7078286b1c2a335b34f3877eb78e633fd82136f213c35"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/Tcaf1_thinning_results_all20.csv",
+        "bytes": 3489,
+        "sha256": "019d9420c94e26af973dc2e3eafa04b9777b0c2caca40e218a835e146235c120"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/all_alternative_signed_bootstrap_intervals.csv.gz",
+        "bytes": 342497,
+        "sha256": "b1a26379b144cd0b9e707a67f4a12d232e5ec6fe56776558df66f3f5cfbaa6db"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/all_cluster_animal_bootstrap_intervals.csv.gz",
+        "bytes": 156985,
+        "sha256": "bb123d17f36a2ec731ec8cf8869da9eef6720bfba2a697bf1af02312ad459921"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/all_cluster_group_dispersion.csv.gz",
+        "bytes": 44106,
+        "sha256": "fd1aba968440e93e1a2c69df180dd747e389a9f8e5398d7c1b3b6e6df2927881"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/all_thinning_family_summaries.csv",
+        "bytes": 2619,
+        "sha256": "feebd941c12f0d65d2e709edfdd5f598efbd75fd75cdf90df728a078eaf14273"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/dispersion_and_studentization_diagnostics.csv",
+        "bytes": 859,
+        "sha256": "9c22012ca923713099c7a25fd45eb74dc4a5a24eef6dffaaf4a5b87d0ca355b4"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/frozen_input_links.csv",
+        "bytes": 947,
+        "sha256": "b9f649da991bc2ed8b2306c86cfb9b36e028ab9c41673e875ae6356a8a6819c7"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/global_animal_bootstrap_intervals.csv",
+        "bytes": 496,
+        "sha256": "403ec265a9c096162e0c131e9c5110ec5a2d2aa1ffff8232634159395a612598"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/global_dominance95.csv",
+        "bytes": 475,
+        "sha256": "3a489eeaef04579d2f7ed991444f376e3e8e72cc4c0e5c9482ab9d18731cd0b3"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/global_thinning_all_replicates.csv",
+        "bytes": 3393,
+        "sha256": "9886708c90aa58d8e56d2de0240d640797ad3ac381f4f290828eb6872b6dae10"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/independent_verification.csv",
+        "bytes": 9228,
+        "sha256": "b8b124e99c9dde68db257fd770c9325495c4a6c558c762fc7beb9b30d1be68fc"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/local_dominance95_complete_fixed_family.csv.gz",
+        "bytes": 107270,
+        "sha256": "9b8c3c8c9df3f7d89e1839445225ff4c858692689dcafa586e1aefdf626920d0"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/local_thinning_complete_fixed_families.csv.gz",
+        "bytes": 1032885,
+        "sha256": "619e3310d03cac0546caa45c5680d7da0b619c208bc1c64a19df74c2aea46ffa"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/original_43_BY_tests.csv",
+        "bytes": 15276,
+        "sha256": "eeeacff00f51609c517d8a53dd4f53e47b9dec941bf2aa1e02f79ef0813f6a22"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/original_hit_retention_by_contrast.csv",
+        "bytes": 171,
+        "sha256": "f6e89556d235efe74bd9c03ddef67f31910d59b1c624a1a319bc099328732c1a"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/original_hit_stability_summary.csv",
+        "bytes": 4346,
+        "sha256": "58a37ab7bcad3867fc4410fa6296e71511a0a5c73742975502db4b902ece1d89"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/original_hit_thinning_tracking_complete.csv",
+        "bytes": 71320,
+        "sha256": "44d0dd05061f9b00018cfd509bc7a6c0f94ecb16dd6e9feb46823cf6384711cc"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/original_three_FV_stability.csv",
+        "bytes": 560,
+        "sha256": "58eb4ee5fdb5a2af205246c703e6676253ff62cc8b10fa45cd948e28656a08fe"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/pooled_group_dispersion.csv",
+        "bytes": 310,
+        "sha256": "52ab6508d14c941151e84383f89212e56d643061c909ecac32a4c45dd685be58"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/thinned_count_manifest.csv",
+        "bytes": 2310,
+        "sha256": "d4b27919cd9e82f26a885c3906220f49d451202b2e04c33cbd43d086d1054676"
+      },
+      {
+        "file": "extensions/multiway_robustness/results/thinning_measurement_gates.csv.gz",
+        "bytes": 111682,
+        "sha256": "534a23a1c2b90afec4f00b1f052abbc6dfad517706632050dfd504a71157d203"
+      }
+    ],
+    "sha256": "bb516a8791ff8e115657ca43c5a4e033ea0b673660cd3c4788d391343a762fb4"
+  },
+  {
+    "number": 8,
+    "title": "Multialternative independent-mission transport",
+    "file": "supplementary_data/Supplementary_Data_08.zip",
+    "members": [
+      {
+        "file": "extensions/multiway_transport/tables/RR23_all_cluster_all_boundary_counts.csv.gz",
+        "bytes": 41979,
+        "sha256": "2ae568ed05594238b083bbeff2a23ac7299e69999e3302e9694fcaa77443bda4"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_all_cluster_dominance.csv.gz",
+        "bytes": 46648,
+        "sha256": "d2665d11e48c7e5ca44979df11b4ec067b37776145818c7fbcbcacfb3c4ec02c"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_all_cluster_selected_counts.csv.gz",
+        "bytes": 42025,
+        "sha256": "05f984af9ca26fc7a80d43af6081c3a5065f9e189ec0e224ce8d9aed24d5e9ea"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_all_frozen_alternative_counts.csv.gz",
+        "bytes": 126359,
+        "sha256": "5511c0a60840c5c94bc53980edbd8396903016a19f19f2f0840fc5e3cf59a8af"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_all_frozen_alternative_fractions.csv.gz",
+        "bytes": 431730,
+        "sha256": "30d920aabcd085163927dd86c4362d7a8216dc6b1dcb385761b371cba4c62cc8"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_animals.csv",
+        "bytes": 1108,
+        "sha256": "694383383a08cf0459122cc35a817189b50ac2e6833cf644c890feb7b76c3742"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RR23_frozen_training_vectors.csv.gz",
+        "bytes": 136975,
+        "sha256": "d579adabbcf84aafdd7809bcba90f694491df05385e73b68f4b0a161f210658c"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_all_cluster_all_boundary_counts.csv.gz",
+        "bytes": 31278,
+        "sha256": "8172b309c446c60c84a159c54afdcacfba239a937828b853e9d41cf4a6e7f24c"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_all_cluster_dominance.csv.gz",
+        "bytes": 30031,
+        "sha256": "6905cbacb90daf989bf6b01f0c33d5e162e3c6767f9d433ec988dc6edb79e61f"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_all_cluster_selected_counts.csv.gz",
+        "bytes": 31192,
+        "sha256": "95196bfe9f7647b110e1b286da249f07a59923a88197bbf598a15862b42dd04c"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_all_frozen_alternative_counts.csv.gz",
+        "bytes": 93422,
+        "sha256": "e732b9ee057f19af532db6690d076b48bc1f433f34a3cd9a96364ee858cb83a4"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_all_frozen_alternative_fractions.csv.gz",
+        "bytes": 260331,
+        "sha256": "62ef7659e3d3f07a0d4c7b306058597422497400299aa12e9ec6762d6b490b5c"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_cluster_directional_scores.csv.gz",
+        "bytes": 57100,
+        "sha256": "747ded5bc129cb854fcfd4cb2973219e5fdd08db1d6ce4a1fbfc063f178c1ddd"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_complete_animal_decisions.csv",
+        "bytes": 40669,
+        "sha256": "ca857b80d10635e19a7bb336717152a849a1cf4f37979eefc739f13e939d5f06"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_equal_cluster_animal_scores.csv",
+        "bytes": 1745,
+        "sha256": "45658217ce7b5d9b356206d46f1e306c1d53faad675d071432e607936b986ccd"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/RRRM2_stratified_design.csv",
+        "bytes": 156,
+        "sha256": "74faaa35da4bbf401d4dff88ef09147d900863d40e7b12823fa81a3d779a12ef"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/Tcaf1_all_frozen_alternative_mean_contrasts.csv",
+        "bytes": 1027,
+        "sha256": "4b75148e1564aa1aef9ecc348df76d734a58192bc10a135c04c5df9972cbf828"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/Tcaf1_all_measurable_alternatives_and_animals.csv",
+        "bytes": 15134,
+        "sha256": "ad2d284e2b61f31469cd3f5a66b2da9a10cee1b0cf7f513014f807f62acd3308"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/Tcaf1_measurement_and_complete_family_result.csv",
+        "bytes": 1189,
+        "sha256": "1f2cf75727a8f4eac23b60cfea64e501dbb4d1ce7864e2c21e0ad705cc8c4aef"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/all_3376_alternative_group_composition_summaries.csv.gz",
+        "bytes": 238692,
+        "sha256": "14e661db0aedc410a0b7db29167f023e108f20f153252d576ee91a2fe9a2d926"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/all_923_cluster_directional_results.csv",
+        "bytes": 276134,
+        "sha256": "56bbd21a0107e29c93f997b6db087d659e05a880db7091756c9f5c012f768aaf"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/all_923_cluster_measurement_gates.csv",
+        "bytes": 188791,
+        "sha256": "02ed83b5f773ba50faeb35174ba885af55ad1cbd0bb71687ce47dfc56d5e461e"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/animal_bootstrap_global_draws.csv.gz",
+        "bytes": 52026,
+        "sha256": "afb3fef9374d804c1e41c2ee4c4195a9f94ae38d93c77af34db777bcad67f021"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/binary_multiway_measurement_transport_comparison.csv",
+        "bytes": 216,
+        "sha256": "2573b6fa5c1c117d337fef037bb81cc02e4e6c41b94ef049e2461432e04b314d"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/descriptive_stratum_effects.csv",
+        "bytes": 336,
+        "sha256": "f3694efa966fb6fd469515e8e86e0c24debeb91e7ef8f8d9fe393efd200305a1"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/exact_global_null_all_11200.csv.gz",
+        "bytes": 138941,
+        "sha256": "3a850f23efc25a6dcd2304e6c9a08dcc08ba5c79486face616a9faef5ec9d1e8"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/frozen_alternative_membership.csv",
+        "bytes": 189241,
+        "sha256": "c49cd4dc00b9849ab2667bcb8f0dfc1ad9ae73be8ea12f55fbfc7cf65018ab75"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/independent_numerical_checks.csv",
+        "bytes": 1731,
+        "sha256": "462dea3a0a5b990129c3f7911aa9da0e890630c4116be2ea0fd0f243bcb259fe"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/measurement_sensitivities.csv",
+        "bytes": 359,
+        "sha256": "f45eac97f955f45b63453ebf64bc3ddb8deead76303e7801a83c1d1214ae58d2"
+      },
+      {
+        "file": "extensions/multiway_transport/tables/source_hashes_before_after.csv",
+        "bytes": 2657,
+        "sha256": "45cc3adc99a0b4c1977808db5e26ddbfd77cb8b5f825cfc1bffecc0f3ab0f83f"
+      }
+    ],
+    "sha256": "62e11f66eb93465e8f9def20879be60c24da865073b2735b1493717feb8412b9"
+  },
+  {
+    "number": 9,
+    "title": "Exact transcript architecture and candidate context",
+    "file": "supplementary_data/Supplementary_Data_09.zip",
+    "members": [
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_GTF_features.csv",
+        "bytes": 20102,
+        "sha256": "959ce20010ec3eafdf5b662103709a9513b9b6c51827692d37fbd044774a4d95"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_all26_alternative_read_support.csv",
+        "bytes": 8502,
+        "sha256": "fa1016a964ddbeaab3e1395a5f7dc06c6e0d46a0f21143036641ee85fed97f1f"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_all26_long_short_intron_support.csv",
+        "bytes": 2122,
+        "sha256": "d67122cb328b7db5ef8b0be8ce260736540142fe1f31a7ab413bff267a2b4986"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_all_annotated_intron_read_counts.csv.gz",
+        "bytes": 1993,
+        "sha256": "908dd487e5bfaf8f3f9935f60d97ae18dda4764c64c8c3128f75b46e8593ba61"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_coding_first_exon_and_UTR_coordinates.csv",
+        "bytes": 342,
+        "sha256": "da47d90e1812a2a24815cee9374956a322c72ee535c0653c04d523348cf57e35"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_companion_junction_all26_support.csv",
+        "bytes": 1194,
+        "sha256": "b8260911147719c09098313d2c0be857c693c8ae2549b30e6cee91459f4aa8e2"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_complete_exact_membership_with_spans.csv",
+        "bytes": 1435,
+        "sha256": "a6698b92785e951731272aa070226c9cff9355b97a0bd828dbcb671f1746a600"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_descriptive_fraction_coverage_relation.csv",
+        "bytes": 565,
+        "sha256": "0a02af5ff6926ba60251b0d110af77351613b4e4dec5e75f99d75bf9c332cdd4"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_group_read_support_summary.csv",
+        "bytes": 268,
+        "sha256": "77eaf59fd3e1de8e4a886538c65f2b3c8799f9dadd8ba1b2d0eae2ad2e551aa5"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_measured_junction_transcripts.csv",
+        "bytes": 1385,
+        "sha256": "b8f8c6c3828f6d39fe575b3fe56c188e19db37e24b36873660bde8c9d5f5011a"
+      },
+      {
+        "file": "extensions/transcript_context/tables/Tcaf1_transcript_CDS_UTR_summary.csv",
+        "bytes": 1597,
+        "sha256": "2114fcccfe86715e125a822e84929bfd90f738c77ae8dde46e547c27fbcef173"
+      },
+      {
+        "file": "extensions/transcript_context/tables/all1983_gene_annotation_audit.csv",
+        "bytes": 76204,
+        "sha256": "db2ac036ba96538fef8ac19329ac13303569bdf1a81ebbb90534c5d2b37cfa62"
+      },
+      {
+        "file": "extensions/transcript_context/tables/all3239_binary_gene_event_annotation_audit.csv.gz",
+        "bytes": 87389,
+        "sha256": "baf905a7878e11482ecf467fdc248b4ba1e6ad8dd08ef525f1637fb0b51add23"
+      },
+      {
+        "file": "extensions/transcript_context/tables/all41_corrected_cluster_annotation_audit.csv",
+        "bytes": 7906,
+        "sha256": "4ca5443a87d0467f442a707f78ebce9fc2ed55d1a2a6963a6e59295fbdca30fb"
+      },
+      {
+        "file": "extensions/transcript_context/tables/all47_corrected_gene_annotation_audit.csv",
+        "bytes": 1828,
+        "sha256": "ecaf3a2b74a12e81f5624336bba60bf8af51b4923fe84c08cb3311ea10c0c07e"
+      },
+      {
+        "file": "extensions/transcript_context/tables/all923_cluster_annotation_audit.csv",
+        "bytes": 176723,
+        "sha256": "886ea15a1298fad58aa202c7f1e09c43f4ecfe9eea8bfdd1c108a409af8dd45f"
+      },
+      {
+        "file": "extensions/transcript_context/tables/derived_input_snapshot_byte_check.csv",
+        "bytes": 1062,
+        "sha256": "9632db9ea65a4b53d534801e302f3629049ae3cfa6b5162854eeec0f898336ca"
+      },
+      {
+        "file": "extensions/transcript_context/tables/independent_verification.csv",
+        "bytes": 1545,
+        "sha256": "c2aff0b2d6314a20d7b62c2a4f4e972972a3b81ee7c2d53682f678cb23aed397"
+      },
+      {
+        "file": "extensions/transcript_context/tables/junction_transcript_memberships.csv.gz",
+        "bytes": 396629,
+        "sha256": "a241f408781f1652061d9172af523ec5970e215a936242cc58e0d787337ba396"
+      },
+      {
+        "file": "extensions/transcript_context/tables/multiway_junction_exact_match_status.csv",
+        "bytes": 145356,
+        "sha256": "b93afbcdb7193c2dad4f748d0f2d33893c4f73bbea9dff2ebe884ad9d18dc54e"
+      },
+      {
+        "file": "extensions/transcript_context/tables/transcript_context_universe.csv.gz",
+        "bytes": 810310,
+        "sha256": "2a887c9fcbbafce4eb629c39560ecbb869d7a94a9e3005b1020e4c801aaa4207"
+      },
+      {
+        "file": "extensions/transcript_context/tables/unnamed_gene_identity_audit.csv",
+        "bytes": 179,
+        "sha256": "0833d138a3b163db6509cb74dbdba8c631368acf25f7f435070f3bf214cc3872"
+      }
+    ],
+    "sha256": "9e0a62dd8924262c12916ab67ae835fff45b3d9767054833df68973aa30c2b61"
+  },
+  {
+    "number": 10,
+    "title": "Figure source index and full captions",
+    "file": "supplementary_data/Supplementary_Data_10.zip",
+    "members": [
+      {
+        "file": "figures/npj/figure_registry.json",
+        "bytes": 20429,
+        "sha256": "4c3cf9a07b1702bce3d1c62ba2fb875e0f58db03118f2bd306c7dff1ea0b7f21"
+      }
+    ],
+    "sha256": "2e1f93c8cbc2218cefa6d977a6d7b216ca7164e69aae418aae719319e57f62f9"
+  },
+  {
+    "number": 11,
+    "title": "Complementary read splits and effect stability",
+    "file": "supplementary_data/Supplementary_Data_11.zip",
+    "members": [
+      {
+        "file": "extensions/effect_stability/results/BY_resolution_envelopes.csv",
+        "bytes": 2964,
+        "sha256": "676d12e38af1a5cc1ff9db396c04a6d37c46911f694071d24fb7131e1178b2eb"
+      },
+      {
+        "file": "extensions/effect_stability/results/Tcaf1_all10_complementary_pairs.csv",
+        "bytes": 4288,
+        "sha256": "8eac0c9674c9a1276b777ad75c9bfb69f4f97682c2dc432c26461fa9bf2b5eaf"
+      },
+      {
+        "file": "extensions/effect_stability/results/Tcaf1_all20_halves_native_effects.csv",
+        "bytes": 8536,
+        "sha256": "6c90ba64487c520fb9b3ee94908b8327bcf4b9a10ba2623bc662b876f85820ef"
+      },
+      {
+        "file": "extensions/effect_stability/results/Tcaf1_all_animal_omissions.csv",
+        "bytes": 7985,
+        "sha256": "e003c6827363935fed19282254b75eae81bda8c3bcbf82a056626a905ba8a818"
+      },
+      {
+        "file": "extensions/effect_stability/results/all_animal_leave_one_out_native_effects.csv.gz",
+        "bytes": 2556799,
+        "sha256": "fbd467d0279483ab1f0c15b8cf01c8baaa5c52134a3287afa4453a340caf4122"
+      },
+      {
+        "file": "extensions/effect_stability/results/all_complementary_half_concordance.csv.gz",
+        "bytes": 1488214,
+        "sha256": "c8b64574bcd305932688cab932cae380f72c7ef8cc9eb72480ade3551a45f66b"
+      },
+      {
+        "file": "extensions/effect_stability/results/all_frozen_effect_vectors_split_metrics.csv.gz",
+        "bytes": 2951700,
+        "sha256": "5fb8397f8d0aac456c59f5992026061f82636e85e06227ae8ef98499f6b0af68"
+      },
+      {
+        "file": "extensions/effect_stability/results/all_read_split_measurement_gates.csv.gz",
+        "bytes": 213594,
+        "sha256": "4c49b7040315c581df71eb0b5baecab42aaac40a07578a2613fcdb581e0da05d"
+      },
+      {
+        "file": "extensions/effect_stability/results/complement_B_global_exact.csv",
+        "bytes": 3401,
+        "sha256": "52c49f762b8e3cb3df888fb0ee7ae886061c698a4514de7ff333055d474703a8"
+      },
+      {
+        "file": "extensions/effect_stability/results/complement_B_local_exact_full_families.csv.gz",
+        "bytes": 1033781,
+        "sha256": "500fc9204f8028e0ed8961da1781e543d35f69ab2025aa211afdf1a3cd27f190"
+      },
+      {
+        "file": "extensions/effect_stability/results/complete_ordered_pvalue_curves.csv.gz",
+        "bytes": 903765,
+        "sha256": "51da29368f6673ebcd89601d4e55d673c3060ad4080fec6f00907a181fc7f7cb"
+      },
+      {
+        "file": "extensions/effect_stability/results/effect_stability_summary.csv",
+        "bytes": 3093,
+        "sha256": "547d7fccca56dd13b3a36610e1adabb8a6c83cc4c5d5b087c78454c53798cab7"
+      }
+    ],
+    "sha256": "54b46f19993d3c1e46caada3db0f398ee023506de8c670272532e84951c9607a"
+  },
+  {
+    "number": 12,
+    "title": "Count-model complete inference and fitting diagnostics",
+    "file": "supplementary_data/Supplementary_Data_12.zip",
+    "members": [
+      {
+        "file": "extensions/count_model_benchmark/results/DM_dominance95_complete.csv.gz",
+        "bytes": 109965,
+        "sha256": "339944c8dd793e025aadc073c3ca867eadedcaa463818bf02d133937316458cb"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/DM_thinning_complete_frozen_families.csv.gz",
+        "bytes": 1038360,
+        "sha256": "0f907fc22a916c56ecf1661ef068b8ee07b5df182391d484e5f0e4685de46106"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/Tcaf1_all10_thinning_comparison.csv",
+        "bytes": 4499,
+        "sha256": "152990887f950a594f5665c9e3f6ab8438bc5b628f572f7e3155935a389dee4d"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/Tcaf1_full_model_comparison.csv",
+        "bytes": 1738,
+        "sha256": "be6baed86a6b2d89ffad17fb75c3cfe8b3cda19ea35da3a93539581036f0d7d6"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/all20_DM_BY_positive_tests.csv",
+        "bytes": 5270,
+        "sha256": "e1396bf28c910cd0782f00e8c10eca89732c41f70d933302f5b0123828412572"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/all20_DM_BY_tests_with_original_annotation.csv",
+        "bytes": 8195,
+        "sha256": "108e6cce02a75f001b428c9cbd1c9020131a8c35c6e7f5e165925c6bb8aa3c12"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/all_fitted_alpha.csv.gz",
+        "bytes": 856508,
+        "sha256": "b94604b673f2f1d6d5d22358df9fcd0b2fd9db5a1bf7b6dbb3d22bc983b4cba4"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/all_global_results.csv",
+        "bytes": 3631,
+        "sha256": "6ae3e04dc52954f6cb1b31732a210756e4ca2b1e3f787e1a3ce3e4005797c325"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/all_model_fit_diagnostics.csv.gz",
+        "bytes": 728688,
+        "sha256": "36e6b78106cfbbbf1dc08ea8e0d8335e50949e11149f5c5818502d24ac79b7f7"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/exact_resolution_and_BY_threshold_audit.csv",
+        "bytes": 1361,
+        "sha256": "69eb040e814477be29689ea8abf2775065109886f04e092250f5c742a7484483"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/fit_diagnostic_summary.csv",
+        "bytes": 929,
+        "sha256": "ff2eeeccc5cdd345255f80ff1c183f5980ad05e975c3b9818e627c70ceabc9fd"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/full_global_exact_null.csv.gz",
+        "bytes": 2306151,
+        "sha256": "0591f6e8ec7f05ed684858de08a3960febc1625b786becfb6c8976f3ce3497fc"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/full_model_comparison_complete.csv.gz",
+        "bytes": 419203,
+        "sha256": "dcf131a79000796a34f3ee778ca265c3fa8f2294dc3964481cd37863dab19196"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/global_thinning_summary.csv",
+        "bytes": 226,
+        "sha256": "2f0a76d51c6c2d532117a53632f47eedd4b44846578a0fd180e91e84eaa56690"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/independent_selected_exact_checks.csv",
+        "bytes": 4369,
+        "sha256": "e27a8d64c9ddc583fb914a891458c1bed93c8e56213da4e2b5973f94227fa80b"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/independent_verification.csv",
+        "bytes": 16398,
+        "sha256": "edef596dde72a81fb94dc0421a572bb487c01c525ad13b9673eb479f8ef6e171"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/model_concordance_summary.csv",
+        "bytes": 574,
+        "sha256": "e2abee1c42b938e7696ba6ab6c3b698d122c643cd7bd87e94e56a8d12f52f025"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/original43_DM_thinning_tracking.csv",
+        "bytes": 71659,
+        "sha256": "4456d89dd773779b5b8e7eeaa52c761a51f2f59c7772c31f5af2c566218d3c16"
+      },
+      {
+        "file": "extensions/count_model_benchmark/results/thinning_family_summary.csv",
+        "bytes": 661,
+        "sha256": "a4706503effddf52f29013a8f81442567bcba874c0fe0105a86472e8662f6158"
+      }
+    ],
+    "sha256": "025bad58c2d7117917d1588357eb2864d53d5ad7c2619689b336ce75701b8216"
+  },
+  {
+    "number": 13,
+    "title": "Identification bounds and measured technical covariates",
+    "file": "supplementary_data/Supplementary_Data_13.zip",
+    "members": [
+      {
+        "file": "extensions/confounding_sensitivity/results/QC_adjustment_sensitivity.csv",
+        "bytes": 5953,
+        "sha256": "f8ada6064e97cffbe33f4b41493ee70e2f66b22a3d5e8c07d14c98ac6ed46b7b"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/QC_bootstrap_complete.csv.gz",
+        "bytes": 6865515,
+        "sha256": "025c62f43f783eb06372e608111a97c7bd7f32ab2d11b3568a8d023ea3e49679"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/QC_contrast_linear_weights.csv",
+        "bytes": 18993,
+        "sha256": "84afc50a17a9cd07d000562c87432f018d87c7fb1dab5fda378031dde1fe0ca2"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/animal_design.csv",
+        "bytes": 1910,
+        "sha256": "f4293364f0558c56dfa46312124a37fe0e383e25a92c4558e900cdb2f2654b2d"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/animal_qc_reconstructed.csv",
+        "bytes": 2430,
+        "sha256": "759bc9a3349729167d49a4e02910eb893c7431e176d45fdb611c605418694de6"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/bias_bound_sensitivity_curves.csv",
+        "bytes": 38408,
+        "sha256": "cc4b48216396b0868b7b7f02a66568bd812313193b1c79c1d63ea049bf2c4277"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/bias_tipping_points.csv",
+        "bytes": 632,
+        "sha256": "5b7888483bfb2a9e4c198c09a673675ff41d9b1ccbbf7563eedcfeb60ed3c349"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/binary_RMS_pp_Ustat_gram.csv",
+        "bytes": 191,
+        "sha256": "598a727622cfd240bb71d45696cd76d0eb91e0b6023c406a262ef69e79dff876"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/binary_RMS_pp_animal_kernel.csv",
+        "bytes": 13277,
+        "sha256": "2ff13196cbaa011204a85bd41cb255dd7958266ff42e6424e0b2459f72e979b8"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/binary_RMS_pp_centroid_gram.csv",
+        "bytes": 191,
+        "sha256": "ccefe692ab089d93acf918c14b9140e70a504c6aeb00d3d36ad6e7c483ca3cf4"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/comparator_geometry.csv",
+        "bytes": 5009,
+        "sha256": "a842520629fc53cfd76bd82b17d378e9b50220b7235c37f04f74babfb966023d"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/comparator_geometry_bootstrap.csv.gz",
+        "bytes": 2667353,
+        "sha256": "fe91bf72ff7a12d2dc6ba66d7e6c0ec1a00a635c734b6c17151f6f3c8fa74130"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/identical_fitted_values.csv",
+        "bytes": 635,
+        "sha256": "c36497207ee6f722d1260dc9e7e76421d3bc913b2bd2ca4c2a00c4964d1b3eba"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/identification_nullspace.csv",
+        "bytes": 162,
+        "sha256": "2d2ff1db2f253c707ad748827120bfadf0a824c54ac228478ae777271b7efd61"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/independent_verification.csv",
+        "bytes": 4926,
+        "sha256": "06445e12d99eb53de65dcac29825522f49e12304ed5c4818f81914ccb4752e0b"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/input_manifest.csv",
+        "bytes": 923,
+        "sha256": "742e064e79e5e7a4ac7128855c535de497f85fd6151ac6de330bdfe27de0afcd"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/multiway_Hellinger_Ustat_gram.csv",
+        "bytes": 198,
+        "sha256": "16359b5612948ee716c9884ab4a4f3237cc6a73f1af0113f312719584d14760e"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/multiway_Hellinger_animal_kernel.csv",
+        "bytes": 13934,
+        "sha256": "a8d20d20c2e1cb6be21100beba55022ffcbde077e66475f0708b953979a9ebf0"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/multiway_Hellinger_centroid_gram.csv",
+        "bytes": 198,
+        "sha256": "bdca3a94d25f34b8bf130a9719cfee81dbf8f0b8beb75c8f0a22f9c1b7afc180"
+      },
+      {
+        "file": "extensions/confounding_sensitivity/results/qc_by_group.csv",
+        "bytes": 714,
+        "sha256": "8540b49469419dbcc0bbe1aec668542be673b2501b3f7a142c92c2c82fce8229"
+      }
+    ],
+    "sha256": "0217ec76441c03803787a1342f41bb8dd3bd12e6b38ee2b15d0e79b6aa85cac1"
+  },
+  {
+    "number": 14,
+    "title": "Comparator-specific external transport including RR10",
+    "file": "supplementary_data/Supplementary_Data_14.zip",
+    "members": [
+      {
+        "file": "extensions/comparator_transport/results/RR10_all923_measurement_gates.csv",
+        "bytes": 39520,
+        "sha256": "e4c9122cbcf70414bbaa01f08afed77164c8a6b0590330520e68e2d5e4db4021"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RR10_allocation_design.csv",
+        "bytes": 56,
+        "sha256": "8a70aa4a4353ce2e5212269c0d980df4b031d0800e6faf0a0e9a0687af596db8"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RR10_included_animals.csv",
+        "bytes": 17681,
+        "sha256": "ee1b97fd10dd8e2cb08ad3394ea09624d3878ab01716f6e9433c42807fce5477"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RR23_only_frozen_directions.csv.gz",
+        "bytes": 279458,
+        "sha256": "d142db9ddda9fa6d0887016a8a7f5d8eb1cfe40d206c0cbacd7557bf561a4f25"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RRRM2_all923_measurement_gates.csv",
+        "bytes": 37461,
+        "sha256": "227dda21185c3b386e7fbcb79a1a1e0a581e921c676c5a46ad8957be2f65b883"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RRRM2_allocation_design.csv",
+        "bytes": 142,
+        "sha256": "f5d3f8a90172445ba31f4e4607b38f52588e98e5b4354ab845637bb87d995813"
+      },
+      {
+        "file": "extensions/comparator_transport/results/RRRM2_included_animals.csv",
+        "bytes": 30676,
+        "sha256": "5dfe6604d23620368bc7b299d2878e5d5e6ffa06cdfb8fd1caf1ebebbd41f3ee"
+      },
+      {
+        "file": "extensions/comparator_transport/results/Tcaf1_all_comparators_and_cohorts.csv",
+        "bytes": 603,
+        "sha256": "b8ac776469a447961fbce6451d7930bf36bdeb7d86d98818497ddaf8eab96179"
+      },
+      {
+        "file": "extensions/comparator_transport/results/Tcaf1_conditional_intervals.csv",
+        "bytes": 464,
+        "sha256": "45ab7764e7f989b2aee95e11c3b960330ac22ad554fcafdcf4988357fa33dfd9"
+      },
+      {
+        "file": "extensions/comparator_transport/results/all3692_local_directional_tests.csv.gz",
+        "bytes": 59172,
+        "sha256": "89cdfc357858c345b6059268efe7d4499dd12bdd48fd4dc6ff256beef778aa1c"
+      },
+      {
+        "file": "extensions/comparator_transport/results/all_animal_scores.csv",
+        "bytes": 12687,
+        "sha256": "efec3931fb48bf8c2ecc51968452e2f5f9737bab2b5c69dd486bf3cdb1ac4bd5"
+      },
+      {
+        "file": "extensions/comparator_transport/results/all_bootstrap_draws.csv.gz",
+        "bytes": 711315,
+        "sha256": "79f29971606b92997b97b4c1f75bf4007530e5572cc6372dedc2da9c6084fbdc"
+      },
+      {
+        "file": "extensions/comparator_transport/results/all_comparator_global_transport.csv",
+        "bytes": 1824,
+        "sha256": "2fade7be4507e625b5446adb1caea6e53d4c9a44a984d881eb78dd65a5d76482"
+      },
+      {
+        "file": "extensions/comparator_transport/results/all_exact_global_nulls.csv.gz",
+        "bytes": 587000,
+        "sha256": "649c9d913c626839feb58915091eda8ed178002e6f361f887c6c8a484149d87a"
+      },
+      {
+        "file": "extensions/comparator_transport/results/common_both_validation_panel.csv",
+        "bytes": 22517,
+        "sha256": "5635fcafa08ec46a7ed3b4b57c8fcab259238c2de8b06f99639a831a0ccedc29"
+      },
+      {
+        "file": "extensions/comparator_transport/results/frozen_input_hashes.csv",
+        "bytes": 1154,
+        "sha256": "5ef42d2d68695ab95cfc172fa3835084ce84d2f0ffc8a238e5004f6b9bdefdf0"
+      }
+    ],
+    "sha256": "37731511b51669cb747b1813f95418807321ae2f5c7c37c21b78e66ef7e236c7"
+  },
+  {
+    "number": 15,
+    "title": "Cohort eligibility and RR10 provenance",
+    "file": "supplementary_data/Supplementary_Data_15.zip",
+    "members": [
+      {
+        "file": "extensions/cohort_search/tables/FILE_MANIFEST.csv",
+        "bytes": 9857,
+        "sha256": "fbf8859e0bc0a089f6d33eeb4f7778446fa976c681b0e2b7431ecfcc403bf037"
+      },
+      {
+        "file": "extensions/cohort_search/tables/RR10_download_provenance.csv",
+        "bytes": 5545,
+        "sha256": "54a008713e3c13a2b81a1042d37f81d3875c1e877cb763a8008c2685f8c0b7bb"
+      },
+      {
+        "file": "extensions/cohort_search/tables/RR10_matrix_checks.csv",
+        "bytes": 1385,
+        "sha256": "10da5065eaf4f7783265c1ffde93d014fd9952227c9a7f6f1da1afd8e1ef6d54"
+      },
+      {
+        "file": "extensions/cohort_search/tables/candidate_protocol_evidence.csv",
+        "bytes": 80044,
+        "sha256": "581bb95cbb4a367993102fd8cc05688cebbd2f20c166dd0aec395bb04aad5c35"
+      },
+      {
+        "file": "extensions/cohort_search/tables/complete_accession_decisions.csv",
+        "bytes": 136013,
+        "sha256": "7949bd58a651b4cf625969ef5de4b41abe9b109fd532b423b6dc9d182463b16c"
+      },
+      {
+        "file": "extensions/cohort_search/tables/complete_literature_title_abstract_screen.csv",
+        "bytes": 115238,
+        "sha256": "def5a8f13534d73ff07e7ae48092834727893bf8188c9ebed7cbc3902607c236"
+      },
+      {
+        "file": "extensions/cohort_search/tables/literature_supplement_retrieval_log.csv",
+        "bytes": 1427,
+        "sha256": "eff8258ed9ef2541bd48facdf5a8e4c314bc416cede394e335f5a9859ab2cb1b"
+      },
+      {
+        "file": "extensions/cohort_search/tables/retrieval_log.csv",
+        "bytes": 10869,
+        "sha256": "c038cbbdb651b1ad1b05dd591e78d592fb7884b15c3ae99131b26c8a1dad46f9"
+      },
+      {
+        "file": "extensions/cohort_search/tables/search_return_counts.csv",
+        "bytes": 140,
+        "sha256": "45038b50482fda75f08a111107ca48b65c69c64e748ddfa63cd13cf4e0cc35e4"
+      }
+    ],
+    "sha256": "34e5225a8fc0a9249d489d9062ddd93c6f5a94686938efe7598fc3cc1849c981"
+  }
+]

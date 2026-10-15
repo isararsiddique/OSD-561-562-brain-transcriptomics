@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "22cb5696d589d097ad968d648d156e2ed7b725f7eeb86db72364491cfd8a8ebd",
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "method": "All 12 pages rendered with pdftoppm at 100 dpi and individually visually inspected at original resolution. Tables, figure labels, captions, body text and footer checked.",
+  "findings": "No clipping, overlaps, missing glyphs, split captions or blank content pages observed.",
+  "checked_at_utc": "2026-10-14T18:11:08.238269+00:00"
+}

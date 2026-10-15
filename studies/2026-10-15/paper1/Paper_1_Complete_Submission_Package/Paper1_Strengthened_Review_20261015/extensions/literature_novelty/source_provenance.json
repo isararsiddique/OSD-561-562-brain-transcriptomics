@@ -1,0 +1,178 @@
+[
+  {
+    "name": "masarapu_publisher",
+    "url": "https://www.nature.com/articles/s41467-024-48916-8",
+    "retrieved_date": "2026-10-15",
+    "sha256": "5656b9486ad2ef73255c6e71381a63abe452672b2652c772a0025a1ab9cf4dce",
+    "bytes": 607855,
+    "ok": true
+  },
+  {
+    "name": "collection_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9701605/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "b733e0d91dbb410d423388167f143da0989651581ad6d19924ab5d88c5b13b9b",
+    "bytes": 244336,
+    "ok": true
+  },
+  {
+    "name": "holley_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9365836/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "c8a6645c542c92ae463ff9d457d1a42737ee7710578d16d32db47d32050724fd",
+    "bytes": 180200,
+    "ok": true
+  },
+  {
+    "name": "marsh_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11645269/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "3f3fccf9bc0e462c2376f75b855a4aa584313c491387ea59539f7d8b4b6cb542",
+    "bytes": 265786,
+    "ok": true
+  },
+  {
+    "name": "dachet_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7988150/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "23d5df551f5bed8792bde2d822ef2b5784faa9d0a23454fd8b3ca0aa03923e62",
+    "bytes": 103805,
+    "ok": true
+  },
+  {
+    "name": "nygaard_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4679072/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "3f91106f08a59ca297d4a54eff9eda9e4db87ed1a02f663a55c41d6a5c70fca6",
+    "bytes": 107738,
+    "ok": true
+  },
+  {
+    "name": "batch_causal_fulltext",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12319767/fullTextXML",
+    "retrieved_date": "2026-10-15",
+    "sha256": "75ca1bb76c3f08b556fb63ff2b17c010191f29d2ff87b0fb1f0c8399932a772f",
+    "bytes": 195211,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_s41467-024-48916-8",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-024-48916-8",
+    "retrieved_date": "2026-10-15",
+    "sha256": "24c1696b0ea03a08bc333cbf80a7e8b78c58a2e0fef48758d4bbfeacf0110827",
+    "bytes": 36791,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1016_j.crmeth.2022.100325",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.crmeth.2022.100325",
+    "retrieved_date": "2026-10-15",
+    "sha256": "75af849190ea62ee97ce48ab84de5e5539d1397609aa39a87fcfa8b4049bf1b3",
+    "bytes": 48146,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_s41526-022-00217-4",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41526-022-00217-4",
+    "retrieved_date": "2026-10-15",
+    "sha256": "27c3344c44bc5cf104c2ad2246bc98d4fa5680500f1589a0e033dbe4d3ee913a",
+    "bytes": 39389,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_s41593-022-01022-8",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41593-022-01022-8",
+    "retrieved_date": "2026-10-15",
+    "sha256": "48f3ee719202954e4ec4de7cd0023ff3d1e5ec1780d077a45f5522b83b1c565f",
+    "bytes": 40883,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_s41598-021-85801-6",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41598-021-85801-6",
+    "retrieved_date": "2026-10-15",
+    "sha256": "e7a83f630e4c0b9fccf1cb24b992cf4206bc8230cf33fd8fe7f136c67289a1e9",
+    "bytes": 27983,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1093_biostatistics_kxv027",
+    "url": "https://api.crossref.org/works/10.1093%2Fbiostatistics%2Fkxv027",
+    "retrieved_date": "2026-10-15",
+    "sha256": "192cd6b1fac4eaff23e2f2a45c0639661fc6284ac4c35d096c23c612f4a77385",
+    "bytes": 9139,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1093_biostatistics_kxr034",
+    "url": "https://api.crossref.org/works/10.1093%2Fbiostatistics%2Fkxr034",
+    "retrieved_date": "2026-10-15",
+    "sha256": "27dc08097ac4e036534265573f94e196135e21b17ed14aa71080e074bc2f5813",
+    "bytes": 7719,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_nbt.2931",
+    "url": "https://api.crossref.org/works/10.1038%2Fnbt.2931",
+    "retrieved_date": "2026-10-15",
+    "sha256": "0324179bb54514307a5e2a14baf420bb2e7b726d3f35f5aa8bbf3f507a3e1664",
+    "bytes": 16956,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1371_journal.pgen.0030161",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.pgen.0030161",
+    "retrieved_date": "2026-10-15",
+    "sha256": "ddeb7c211ecf1a925b5b36482dd0ec89186930be0b13d3e4313f3ad7a0f6b4f0",
+    "bytes": 13299,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1016_j.neuron.2018.04.001",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.neuron.2018.04.001",
+    "retrieved_date": "2026-10-15",
+    "sha256": "e051f05a08908223287918d70d4c89d1140b564c1402955cf56c768d690b8fca",
+    "bytes": 37204,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_nrg.2016.150",
+    "url": "https://api.crossref.org/works/10.1038%2Fnrg.2016.150",
+    "retrieved_date": "2026-10-15",
+    "sha256": "3c737c0a75e736f7a2c240ee72ebaf4350fc6dca71bae601e1d89d6066a4e366",
+    "bytes": 74233,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1016_j.jgg.2019.08.002",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.jgg.2019.08.002",
+    "retrieved_date": "2026-10-15",
+    "sha256": "010be3d935b6ffaf242cf8c245cade4c5a9cd332954165457d65255df9dead1d",
+    "bytes": 13553,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1162_imag_a_00458",
+    "url": "https://api.crossref.org/works/10.1162%2Fimag_a_00458",
+    "retrieved_date": "2026-10-15",
+    "sha256": "b430bab2cae2f30b9c93ba100c054f5f6331e0072f41243c4f24c07087ca59b3",
+    "bytes": 29802,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.3390_cells14060417",
+    "url": "https://api.crossref.org/works/10.3390%2Fcells14060417",
+    "retrieved_date": "2026-10-15",
+    "sha256": "b2c21b5678edb7e04e9a11d69bef34a136ee0a63a0e9a1b4fe491324a49d0f17",
+    "bytes": 35932,
+    "ok": true
+  },
+  {
+    "name": "crossref_10.1038_s41467-026-68737-1",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-68737-1",
+    "retrieved_date": "2026-10-15",
+    "sha256": "2651d0a87a6a3f2361757aefc17498159418767b99ee8ef8652647379e893b11",
+    "bytes": 37437,
+    "ok": true
+  }
+]

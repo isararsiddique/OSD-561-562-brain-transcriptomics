@@ -1,0 +1,16 @@
+test_bounded_operator_dense_svd_and_sensor_null_effect (test_statistics.StatisticalChecks.test_bounded_operator_dense_svd_and_sensor_null_effect) ... ok
+test_cluster_sandwich_matches_full_matrix_calculation (test_statistics.StatisticalChecks.test_cluster_sandwich_matches_full_matrix_calculation) ... ok
+test_core_manifest_and_both_estimators_collapse_same_libraries (test_statistics.StatisticalChecks.test_core_manifest_and_both_estimators_collapse_same_libraries) ... ok
+test_exact_fit_nonzero_effect_is_not_zero_statistic (test_statistics.StatisticalChecks.test_exact_fit_nonzero_effect_is_not_zero_statistic) ... ok
+test_expression_projection_projects_beta_but_not_t (test_statistics.StatisticalChecks.test_expression_projection_projects_beta_but_not_t) ... ok
+test_fwl_matches_full_design_lstsq_with_rank_deficient_nuisance (test_statistics.StatisticalChecks.test_fwl_matches_full_design_lstsq_with_rank_deficient_nuisance) ... ok
+test_permutation_p_values_have_correct_finite_resolution (test_statistics.StatisticalChecks.test_permutation_p_values_have_correct_finite_resolution) ... ok
+test_permutations_keep_regions_together_and_preserve_age_counts (test_statistics.StatisticalChecks.test_permutations_keep_regions_together_and_preserve_age_counts) ... ok
+test_rejects_nonfinite_expression_and_nuisance (test_statistics.StatisticalChecks.test_rejects_nonfinite_expression_and_nuisance) ... ok
+test_score_operator_is_oblique_and_removes_sensor_score (test_statistics.StatisticalChecks.test_score_operator_is_oblique_and_removes_sensor_score) ... ok
+test_unidentifiable_contrast_errors_instead_of_zero_effect (test_statistics.StatisticalChecks.test_unidentifiable_contrast_errors_instead_of_zero_effect) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.355s
+
+OK

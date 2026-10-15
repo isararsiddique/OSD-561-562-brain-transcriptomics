@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "source_file": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/DOWNLOAD_PACKAGES_2026/Paper_2_Complete_Submission_Package/extensions/gene_omnibus/results/gene_omnibus_complete.csv.gz",
+    "source_sha256": "05e245d09de05eda639db827bcd436324368deaeadee3cc2a534723b38de9e85",
+    "rows": 5949,
+    "contrasts": [
+      "FLT_minus_GC",
+      "FLT_minus_VIV",
+      "GC_minus_VIV"
+    ]
+  },
+  "background": {
+    "n_measured_gene_ids": 1983,
+    "n_without_gene_symbol_dropped": 3,
+    "n_background_symbols": 1980,
+    "definition": "all genes with >=1 analysed junction cluster in the Paper 2 gene-level omnibus (the MEASURED universe, not the genome)"
+  },
+  "sets": {
+    "FLT_GC_BY": {
+      "n": 47,
+      "n_rows": 47,
+      "definition": "q_BY_joint_3G <= 0.05 in FLT_minus_GC"
+    },
+    "FLT_GC_top100": {
+      "contrast": "FLT_minus_GC",
+      "requested_n": 100,
+      "p_cutoff_inclusive": 0.0001645413410119,
+      "realised_n_genes": 106,
+      "realised_n_rows": 106,
+      "n_tied_at_cutoff": 12,
+      "tie_rule": "all genes with p_exact <= p of the n-th ranked gene are kept",
+      "n": 106
+    },
+    "GC_VIV_top100": {
+      "contrast": "GC_minus_VIV",
+      "requested_n": 100,
+      "p_cutoff_inclusive": 0.0103661044837515,
+      "realised_n_genes": 100,
+      "realised_n_rows": 100,
+      "n_tied_at_cutoff": 1,
+      "tie_rule": "all genes with p_exact <= p of the n-th ranked gene are kept",
+      "n": 100
+    }
+  },
+  "overlaps": {
+    "BY_in_FLT_top": 47,
+    "FLT_top_in_GC_VIV_top": 40,
+    "BY_in_GC_VIV_top": 21
+  }
+}

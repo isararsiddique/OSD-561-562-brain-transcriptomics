@@ -1,0 +1,23 @@
+{
+  "contrasts": {
+    "hippocampus": [
+      "OSD562_hippocampus_FLT_vs_GC_within_ISS_T",
+      "OSD562_hippocampus_FLT_vs_GC_within_LAR",
+      "OSD564_FLT_vs_GC"
+    ],
+    "cerebellum": [
+      "OSD561_cerebellum_FLT_vs_GC_within_ISS_T",
+      "OSD561_cerebellum_FLT_vs_GC_within_LAR",
+      "OSD563_FLT_vs_GC"
+    ],
+    "left_cerebral_hemisphere": [
+      "OSD613_FLT_vs_GC",
+      "OSD612_FLT_vs_GC"
+    ]
+  },
+  "number_of_tests": 54989,
+  "family": "All region-gene replication tests together",
+  "inference": "max of valid two-sided component Wald p values; discordant signs or missing values are conservative gates",
+  "dependence": "max-p validity does not require independence of component contrasts; BH standard dependence assumptions, BY arbitrary dependence",
+  "limitations": "Exploratory post-audit screen; shared estimated dispersion/age parameters are not independent biological replication. Source cohorts and collection protocols differ. No undiscovered validated gene is claimed from ranking alone."
+}

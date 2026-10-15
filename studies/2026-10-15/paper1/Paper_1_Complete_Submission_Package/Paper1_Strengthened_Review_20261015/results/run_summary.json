@@ -1,0 +1,24 @@
+{
+  "python": "3.12.13",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "seed": 561562,
+  "bootstrap": 200,
+  "datasets": [
+    "525",
+    "561",
+    "562",
+    "613",
+    "563",
+    "564",
+    "612"
+  ],
+  "n_libraries": 129,
+  "n_unique_source_animals": 83,
+  "core_561_562_libraries": 53,
+  "core_561_562_animals": 29,
+  "location_conflict_libraries": 7,
+  "location_conflict_animals": 6,
+  "status": "exploratory revision; unresolved metadata and external validation remain"
+}

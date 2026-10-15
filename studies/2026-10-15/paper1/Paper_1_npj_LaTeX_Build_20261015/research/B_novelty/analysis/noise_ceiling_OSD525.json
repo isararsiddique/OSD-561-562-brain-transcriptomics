@@ -1,0 +1,16 @@
+{
+ "n_HGC": 9,
+ "n_VGC": 8,
+ "n_genes": 19300,
+ "signal_energy_S": 385.7580467453341,
+ "noise_energy_train": 1634.9094662938974,
+ "noise_energy_test": 2972.562665988903,
+ "signal_to_noise_test": 0.12977288962115163,
+ "expected_cosine_if_identical_loading_analytic": 0.1480834351652073,
+ "observed_random_split_cosine_mean": 0.15178060576043956,
+ "observed_q025_q975": [
+  -0.20918431621193936,
+  0.354574682539385
+ ],
+ "note": "whole-genome HGC minus VGC contrast; splits drawn here, not the package's exact 200"
+}

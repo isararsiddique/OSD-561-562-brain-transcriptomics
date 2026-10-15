@@ -1,0 +1,112 @@
+{
+ "all923": {
+  "n_clusters": 923,
+  "split_half_q025_median_q975": [
+   4.171919659277808,
+   5.301443002164735,
+   6.12239514299245
+  ],
+  "split_half_frac_positive": 1.0,
+  "lopo_q025_median_q975": [
+   2.3451548540552754,
+   5.727056154840269,
+   8.249542176475167
+  ],
+  "lopo_frac_positive": 1.0,
+  "permuted_reference_median_q025_median_q975": [
+   -0.6823698253511907,
+   0.03547622996106665,
+   2.218951722331814
+  ],
+  "internal_vs_permuted_exceedance": 0.0,
+  "GC_VIV_same_date_split_q025_median_q975": [
+   1.2330288332740695,
+   2.188167954459829,
+   2.787349609260086
+  ],
+  "GC_VIV_frac_positive": 1.0,
+  "GC_VIV_over_FLT_GC_internal_median": 0.4127495011389042,
+  "pooled_perm_split_frac_ge_internal_median": 9e-05,
+  "pooled_perm_split_q975": 2.4057095582823145
+ },
+ "RR10": {
+  "n_clusters": 702,
+  "split_half_q025_median_q975": [
+   4.389547839857506,
+   5.5757955490665285,
+   6.514103231838224
+  ],
+  "split_half_frac_positive": 1.0,
+  "lopo_q025_median_q975": [
+   2.5963405994575814,
+   5.81314174593575,
+   8.479794857593484
+  ],
+  "lopo_frac_positive": 1.0,
+  "permuted_reference_median_q025_median_q975": [
+   -0.7793175493309153,
+   0.03770480794917327,
+   2.3911018461256894
+  ],
+  "internal_vs_permuted_exceedance": 0.0,
+  "external_effect_pp": 0.4357855708235356,
+  "external_CI95": [
+   -1.0133281820600992,
+   2.0329407216480413
+  ],
+  "external_over_internal_split_median": 0.07815666248675358,
+  "internal_split_frac_at_or_below_external": 0.0,
+  "GC_VIV_same_date_split_q025_median_q975": [
+   1.1878175555037918,
+   2.277581750073842,
+   2.9509273947190517
+  ],
+  "GC_VIV_frac_positive": 1.0,
+  "GC_VIV_over_FLT_GC_internal_median": 0.4084765537099263,
+  "pooled_perm_split_frac_ge_internal_median": 8e-05,
+  "pooled_perm_split_q975": 2.587906545547196,
+  "external_point_over_internal_median": 0.07815666248675358
+ },
+ "RRRM2": {
+  "n_clusters": 281,
+  "split_half_q025_median_q975": [
+   3.7905917889429843,
+   5.01636874228087,
+   6.07258852971475
+  ],
+  "split_half_frac_positive": 1.0,
+  "lopo_q025_median_q975": [
+   1.8684980303562062,
+   5.255619680631368,
+   7.536002773474201
+  ],
+  "lopo_frac_positive": 1.0,
+  "permuted_reference_median_q025_median_q975": [
+   -0.9293057370436274,
+   0.02618720696213601,
+   2.322491241279197
+  ],
+  "internal_vs_permuted_exceedance": 0.0,
+  "external_effect_pp": -0.2770039111124249,
+  "external_CI95": [
+   -0.963537297424919,
+   0.3777645855145792
+  ],
+  "external_over_internal_split_median": -0.055220005813702455,
+  "internal_split_frac_at_or_below_external": 0.0,
+  "GC_VIV_same_date_split_q025_median_q975": [
+   0.3535285304061824,
+   1.639243418686676,
+   2.473217908998055
+  ],
+  "GC_VIV_frac_positive": 0.991609977324263,
+  "GC_VIV_over_FLT_GC_internal_median": 0.32677889184464853,
+  "pooled_perm_split_frac_ge_internal_median": 0.00023,
+  "pooled_perm_split_q975": 2.535535382923626,
+  "external_point_over_internal_median": -0.055220005813702455
+ },
+ "n_GC_VIV_splits": 8820,
+ "n_split_half": 15876,
+ "n_lopo": 81,
+ "n_permutations": 2000
+}

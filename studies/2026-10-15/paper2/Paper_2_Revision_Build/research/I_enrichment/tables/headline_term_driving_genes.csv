@@ -1,0 +1,4 @@
+gene_set,source,native,name,intersection_size,term_size,driving_genes
+FLT_GC_BY,GO:BP,GO:0006413,translational initiation,4,10,Eif2a;Eif4a2;Eif4h;Rps6kb1
+FLT_GC_BY,GO:MF,GO:0003743,translation initiation factor activity,3,6,Eif2a;Eif4a2;Eif4h
+FLT_GC_BY,GO:CC,GO:0005739,mitochondrion,13,214,Ank2;Csde1;Dap3;Huwe1;Nbr1;Ndufa5;Opa1;Osgepl1;Ptcd3;Rps6kb1;Stxbp1;Tomm6;Trim27

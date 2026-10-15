@@ -1,0 +1,11 @@
+{
+ "status":"Exploratory matched-grid computational amendment, fixed before its outer performance is computed",
+ "grid":[null,10,1,0.1,0.01],
+ "outer_splits":"All362 original ground holdouts plus all64 preselected external leave-one-unit-out holdouts; identical to strengthened methods",
+ "methods":["matched_grid_ridge_CV","matched_grid_gain2_clipped_ridge_CV"],
+ "comparison":"Previously completed spectral_constrained_ridge_CV uses the identical grid, preprocessing, inner leave-one-training-unit-out allocation, target features and MSE weights",
+ "selection":"Each comparator minimizes its own inner SSE over the matched candidates; clipping is applied separately inside every fold for every candidate",
+ "fixed_alpha_check":"For the first outer training set in each of seven deposits and allfour nonzero grid alphas, compare full raw-coefficient objectives and feasibility against the certified convex solution",
+ "outputs":"Separate matched-grid tables; no existing strengthened outputs are altered",
+ "inference":"Paired split differences are descriptive with overlapping-split quantiles; no independent split-level confidence intervals or claim of uniform dominance"
+}

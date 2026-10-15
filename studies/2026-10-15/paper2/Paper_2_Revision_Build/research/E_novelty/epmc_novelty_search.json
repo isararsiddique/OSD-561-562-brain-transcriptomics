@@ -1,0 +1,2704 @@
+{
+ "Q1_cerebellum_spaceflight_transcriptome": {
+  "query": "(cerebellum OR cerebellar) AND (spaceflight OR \"space flight\" OR microgravity) AND (RNA-seq OR transcriptom* OR \"gene expression\")",
+  "hitCount": 229,
+  "top": [
+   {
+    "title": "Lack of exercise is a major cause of chronic diseases.",
+    "year": "2012",
+    "journal": "Compr Physiol",
+    "doi": "10.1002/cphy.c110025",
+    "pmid": "23798298",
+    "src": "MED"
+   },
+   {
+    "title": "Role of Inactivity in Chronic Diseases: Evolutionary Insight and Pathophysiological Mechanisms.",
+    "year": "2017",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00019.2016",
+    "pmid": "28814614",
+    "src": "MED"
+   },
+   {
+    "title": "Epigenetic regulation in metabolic diseases: mechanisms and advances in clinical study.",
+    "year": "2023",
+    "journal": "Signal Transduct Target Ther",
+    "doi": "10.1038/s41392-023-01333-7",
+    "pmid": "36864020",
+    "src": "MED"
+   },
+   {
+    "title": "Roles of mechanosensitive channel Piezo1/2 proteins in skeleton and other tissues.",
+    "year": "2021",
+    "journal": "Bone Res",
+    "doi": "10.1038/s41413-021-00168-8",
+    "pmid": "34667178",
+    "src": "MED"
+   },
+   {
+    "title": "An evidence-based update on the pharmacological activities and possible molecular targets of Lycium barbarum polysaccharides.",
+    "year": "2015",
+    "journal": "Drug Des Devel Ther",
+    "doi": "10.2147/dddt.s72892",
+    "pmid": "25552899",
+    "src": "MED"
+   },
+   {
+    "title": "Organoid technology in disease modelling, drug development, personalized treatment and regeneration medicine.",
+    "year": "2018",
+    "journal": "Exp Hematol Oncol",
+    "doi": "10.1186/s40164-018-0122-9",
+    "pmid": "30534474",
+    "src": "MED"
+   },
+   {
+    "title": "Protecting against vascular disease in brain.",
+    "year": "2011",
+    "journal": "Am J Physiol Heart Circ Physiol",
+    "doi": "10.1152/ajpheart.01310.2010",
+    "pmid": "21335467",
+    "src": "MED"
+   },
+   {
+    "title": "Magnetic field effects in biology from the perspective of the radical pair mechanism.",
+    "year": "2022",
+    "journal": "J R Soc Interface",
+    "doi": "10.1098/rsif.2022.0325",
+    "pmid": "35919980",
+    "src": "MED"
+   },
+   {
+    "title": "Clinical Endocannabinoid Deficiency Reconsidered: Current Research Supports the Theory in Migraine, Fibromyalgia, Irritable Bowel, and Other Treatment-Resistant Syndromes.",
+    "year": "2016",
+    "journal": "Cannabis Cannabinoid Res",
+    "doi": "10.1089/can.2016.0009",
+    "pmid": "28861491",
+    "src": "MED"
+   },
+   {
+    "title": "Current Strategies to Enhance Adipose Stem Cell Function: An Update.",
+    "year": "2019",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms20153827",
+    "pmid": "31387282",
+    "src": "MED"
+   },
+   {
+    "title": "FNDC5/Irisin System in Neuroinflammation and Neurodegenerative Diseases: Update and Novel Perspective.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms22041605",
+    "pmid": "33562601",
+    "src": "MED"
+   },
+   {
+    "title": "Motion Sickness: Current Knowledge and Recent Advance.",
+    "year": "2016",
+    "journal": "CNS Neurosci Ther",
+    "doi": "10.1111/cns.12468",
+    "pmid": "26452639",
+    "src": "MED"
+   },
+   {
+    "title": "Development of vestibular afferent projections into the hindbrain and their central targets.",
+    "year": "2003",
+    "journal": "Brain Res Bull",
+    "doi": "10.1016/s0361-9230(03)00054-6",
+    "pmid": "12787869",
+    "src": "MED"
+   },
+   {
+    "title": "Influence of Microgravity on Apoptosis in Cells, Tissues, and Other Systems In Vivo and In Vitro.",
+    "year": "2020",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms21249373",
+    "pmid": "33317046",
+    "src": "MED"
+   },
+   {
+    "title": "Ammonium ion binding to DNA G-quadruplexes: do electrospray mass spectra faithfully reflect the solution-phase species?",
+    "year": "2013",
+    "journal": "J Am Soc Mass Spectrom",
+    "doi": "10.1007/s13361-012-0499-3",
+    "pmid": "23132414",
+    "src": "MED"
+   },
+   {
+    "title": "Spatio-temporal dynamics enhance cellular diversity, neuronal function and further maturation of human cerebral organoids.",
+    "year": "2023",
+    "journal": "Commun Biol",
+    "doi": "10.1038/s42003-023-04547-1",
+    "pmid": "36788328",
+    "src": "MED"
+   },
+   {
+    "title": "Behavioral effects of space radiation: A comprehensive review of animal studies.",
+    "year": "2019",
+    "journal": "Life Sci Space Res (Amst)",
+    "doi": "10.1016/j.lssr.2019.02.004",
+    "pmid": "31101151",
+    "src": "MED"
+   },
+   {
+    "title": "The development of vestibular system and related functions in mammals: impact of gravity.",
+    "year": "2014",
+    "journal": "Front Integr Neurosci",
+    "doi": "10.3389/fnint.2014.00011",
+    "pmid": "24570658",
+    "src": "MED"
+   },
+   {
+    "title": "The Regulatory Effects of mTOR Complexes in the Differentiation and Function of CD4<sup>+</sup> T Cell Subsets.",
+    "year": "2020",
+    "journal": "J Immunol Res",
+    "doi": "10.1155/2020/3406032",
+    "pmid": "32377533",
+    "src": "MED"
+   },
+   {
+    "title": "A New Vision for Therapeutic Hypothermia in the Era of Targeted Temperature Management: A Speculative Synthesis.",
+    "year": "2019",
+    "journal": "Ther Hypothermia Temp Manag",
+    "doi": "10.1089/ther.2019.0001",
+    "pmid": "30802174",
+    "src": "MED"
+   },
+   {
+    "title": "Organs to Cells and Cells to Organoids: The Evolution of &lt;i&gt;in vitro&lt;/i&gt; Central Nervous System Modelling.",
+    "year": "2019",
+    "journal": "Front Cell Neurosci",
+    "doi": "10.3389/fncel.2019.00129",
+    "pmid": "31024259",
+    "src": "MED"
+   },
+   {
+    "title": "Projection neurons of the vestibulo-sympathetic reflex pathway.",
+    "year": "2014",
+    "journal": "J Comp Neurol",
+    "doi": "10.1002/cne.23517",
+    "pmid": "24323841",
+    "src": "MED"
+   },
+   {
+    "title": "Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days.",
+    "year": "2012",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0040112",
+    "pmid": "22808101",
+    "src": "MED"
+   },
+   {
+    "title": "A neuroscience approach to optimizing brain resources for human performance in extreme environments.",
+    "year": "2009",
+    "journal": "Neurosci Biobehav Rev",
+    "doi": "10.1016/j.neubiorev.2009.05.003",
+    "pmid": "19447132",
+    "src": "MED"
+   },
+   {
+    "title": "The 2022 Lady Estelle Wolfson lectureship on neurofilaments.",
+    "year": "2022",
+    "journal": "J Neurochem",
+    "doi": "10.1111/jnc.15682",
+    "pmid": "35950263",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q2_splicing_spaceflight_any": {
+  "query": "(\"alternative splicing\" OR \"splice junction\" OR \"splicing\") AND (spaceflight OR \"space flight\" OR \"International Space Station\")",
+  "hitCount": 333,
+  "top": [
+   {
+    "title": "Nanopore sequencing technology, bioinformatics and applications.",
+    "year": "2021",
+    "journal": "Nat Biotechnol",
+    "doi": "10.1038/s41587-021-01108-x",
+    "pmid": "34750572",
+    "src": "MED"
+   },
+   {
+    "title": "Cellular senescence and senolytics: the path to the clinic.",
+    "year": "2022",
+    "journal": "Nat Med",
+    "doi": "10.1038/s41591-022-01923-y",
+    "pmid": "35953721",
+    "src": "MED"
+   },
+   {
+    "title": "Chemistry, structure\u00a0and function of approved oligonucleotide therapeutics.",
+    "year": "2023",
+    "journal": "Nucleic Acids Res",
+    "doi": "10.1093/nar/gkad067",
+    "pmid": "36881759",
+    "src": "MED"
+   },
+   {
+    "title": "Receptor activator of nuclear factor kappaB ligand and osteoprotegerin regulation of bone remodeling in health and disease.",
+    "year": "2008",
+    "journal": "Endocr Rev",
+    "doi": "10.1210/er.2007-0014",
+    "pmid": "18057140",
+    "src": "MED"
+   },
+   {
+    "title": "Herpesviruses: latency and reactivation - viral strategies and host response.",
+    "year": "2013",
+    "journal": "J Oral Microbiol",
+    "doi": "10.3402/jom.v5i0.22766",
+    "pmid": "24167660",
+    "src": "MED"
+   },
+   {
+    "title": "The complete genome sequence of Cupriavidus metallidurans strain CH34, a master survivalist in harsh and anthropogenic environments.",
+    "year": "2010",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0010433",
+    "pmid": "20463976",
+    "src": "MED"
+   },
+   {
+    "title": "Chronic herpesvirus reactivation occurs in aging.",
+    "year": "2007",
+    "journal": "Exp Gerontol",
+    "doi": "10.1016/j.exger.2007.01.005",
+    "pmid": "17337145",
+    "src": "MED"
+   },
+   {
+    "title": "Cold-inducible proteins CIRP and RBM3, a unique couple with activities far beyond the cold.",
+    "year": "2016",
+    "journal": "Cell Mol Life Sci",
+    "doi": "10.1007/s00018-016-2253-7",
+    "pmid": "27147467",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of spaceflight on murine skeletal muscle gene expression.",
+    "year": "2009",
+    "journal": "J Appl Physiol (1985)",
+    "doi": "10.1152/japplphysiol.90780.2008",
+    "pmid": "19074574",
+    "src": "MED"
+   },
+   {
+    "title": "Taurine: the appeal of a safe amino acid for skeletal muscle disorders.",
+    "year": "2015",
+    "journal": "J Transl Med",
+    "doi": "10.1186/s12967-015-0610-1",
+    "pmid": "26208967",
+    "src": "MED"
+   },
+   {
+    "title": "Metabolic Pathways of the Warburg Effect in Health and Disease: Perspectives of Choice, Chain or Chance.",
+    "year": "2017",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms18122755",
+    "pmid": "29257069",
+    "src": "MED"
+   },
+   {
+    "title": "Secondary immunodeficiencies, including HIV infection.",
+    "year": "2010",
+    "journal": "J Allergy Clin Immunol",
+    "doi": "10.1016/j.jaci.2009.08.040",
+    "pmid": "20042227",
+    "src": "MED"
+   },
+   {
+    "title": "A systematic framework for understanding the microbiome in human health and disease: from basic principles to clinical translation.",
+    "year": "2024",
+    "journal": "Signal Transduct Target Ther",
+    "doi": "10.1038/s41392-024-01946-6",
+    "pmid": "39307902",
+    "src": "MED"
+   },
+   {
+    "title": "MuRF1/TRIM63, Master Regulator of Muscle Mass.",
+    "year": "2020",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms21186663",
+    "pmid": "32933049",
+    "src": "MED"
+   },
+   {
+    "title": "Myosin heavy chain isoforms regulate muscle function but not myofibril assembly.",
+    "year": "1996",
+    "journal": "EMBO J",
+    "doi": "10.1002/j.1460-2075.1996.tb00822.x",
+    "pmid": "8887536",
+    "src": "MED"
+   },
+   {
+    "title": "MicroRNA in myogenesis and muscle atrophy.",
+    "year": "2013",
+    "journal": "Curr Opin Clin Nutr Metab Care",
+    "doi": "10.1097/mco.0b013e32835f81b9",
+    "pmid": "23449000",
+    "src": "MED"
+   },
+   {
+    "title": "Clonal hematopoiesis: Mutation-specific adaptation to environmental change.",
+    "year": "2022",
+    "journal": "Cell Stem Cell",
+    "doi": "10.1016/j.stem.2022.05.006",
+    "pmid": "35659875",
+    "src": "MED"
+   },
+   {
+    "title": "<i>Moving through the Stressed Genome</i>: Emerging Regulatory Roles for Transposons in Plant Stress Response.",
+    "year": "2016",
+    "journal": "Front Plant Sci",
+    "doi": "10.3389/fpls.2016.01448",
+    "pmid": "27777577",
+    "src": "MED"
+   },
+   {
+    "title": "G protein-coupled receptor 56 regulates mechanical overload-induced muscle hypertrophy.",
+    "year": "2014",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.1417898111",
+    "pmid": "25336758",
+    "src": "MED"
+   },
+   {
+    "title": "Freeze-fracture and immunogold analysis of aquaporin-4 (AQP4) square arrays, with models of AQP4 lattice assembly.",
+    "year": "2004",
+    "journal": "Neuroscience",
+    "doi": "10.1016/j.neuroscience.2004.06.076",
+    "pmid": "15561408",
+    "src": "MED"
+   },
+   {
+    "title": "Genetics of the musculoskeletal system: a pleiotropic approach.",
+    "year": "2008",
+    "journal": "J Bone Miner Res",
+    "doi": "10.1359/jbmr.080218",
+    "pmid": "18269309",
+    "src": "MED"
+   },
+   {
+    "title": "Applications of long-read sequencing to Mendelian genetics.",
+    "year": "2023",
+    "journal": "Genome Med",
+    "doi": "10.1186/s13073-023-01194-3",
+    "pmid": "37316925",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight and simulated microgravity suppresses macrophage development via altered RAS/ERK/NF\u03baB and metabolic pathways.",
+    "year": "2021",
+    "journal": "Cell Mol Immunol",
+    "doi": "10.1038/s41423-019-0346-6",
+    "pmid": "31900461",
+    "src": "MED"
+   },
+   {
+    "title": "Pan-genome analyses of model fungal species.",
+    "year": "2019",
+    "journal": "Microb Genom",
+    "doi": "10.1099/mgen.0.000243",
+    "pmid": "30714895",
+    "src": "MED"
+   },
+   {
+    "title": "Evidence for pleiotropic factors in genetics of the musculoskeletal system.",
+    "year": "2010",
+    "journal": "Bone",
+    "doi": "10.1016/j.bone.2010.01.382",
+    "pmid": "20149904",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q3_splicing_brain_spaceflight": {
+  "query": "(\"alternative splicing\" OR splicing OR \"splice junction\") AND (brain OR cerebell* OR hippocamp* OR neuron*) AND (spaceflight OR microgravity OR \"hindlimb unloading\")",
+  "hitCount": 291,
+  "top": [
+   {
+    "title": "Nanopore sequencing technology, bioinformatics and applications.",
+    "year": "2021",
+    "journal": "Nat Biotechnol",
+    "doi": "10.1038/s41587-021-01108-x",
+    "pmid": "34750572",
+    "src": "MED"
+   },
+   {
+    "title": "Receptor activator of nuclear factor kappaB ligand and osteoprotegerin regulation of bone remodeling in health and disease.",
+    "year": "2008",
+    "journal": "Endocr Rev",
+    "doi": "10.1210/er.2007-0014",
+    "pmid": "18057140",
+    "src": "MED"
+   },
+   {
+    "title": "Epigenetic regulation in metabolic diseases: mechanisms and advances in clinical study.",
+    "year": "2023",
+    "journal": "Signal Transduct Target Ther",
+    "doi": "10.1038/s41392-023-01333-7",
+    "pmid": "36864020",
+    "src": "MED"
+   },
+   {
+    "title": "Mitochondrial Quality Control and Muscle Mass Maintenance.",
+    "year": "2015",
+    "journal": "Front Physiol",
+    "doi": "10.3389/fphys.2015.00422",
+    "pmid": "26793123",
+    "src": "MED"
+   },
+   {
+    "title": "Revisiting the matricellular concept.",
+    "year": "2014",
+    "journal": "Matrix Biol",
+    "doi": "10.1016/j.matbio.2014.07.005",
+    "pmid": "25064829",
+    "src": "MED"
+   },
+   {
+    "title": "Role of <i>O</i>-Linked <i>N</i>-Acetylglucosamine Protein Modification in Cellular (Patho)Physiology.",
+    "year": "2021",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00043.2019",
+    "pmid": "32730113",
+    "src": "MED"
+   },
+   {
+    "title": "Growth Hormone(s), Testosterone, Insulin-Like Growth Factors, and Cortisol: Roles and Integration for Cellular Development and Growth With Exercise.",
+    "year": "2020",
+    "journal": "Front Endocrinol (Lausanne)",
+    "doi": "10.3389/fendo.2020.00033",
+    "pmid": "32158429",
+    "src": "MED"
+   },
+   {
+    "title": "An ocular glymphatic clearance system removes \u03b2-amyloid from the rodent eye.",
+    "year": "2020",
+    "journal": "Sci Transl Med",
+    "doi": "10.1126/scitranslmed.aaw3210",
+    "pmid": "32213628",
+    "src": "MED"
+   },
+   {
+    "title": "The role of peripheral nerve fibers and their neurotransmitters in cartilage and bone physiology and pathophysiology.",
+    "year": "2014",
+    "journal": "Arthritis Res Ther",
+    "doi": "10.1186/s13075-014-0485-1",
+    "pmid": "25789373",
+    "src": "MED"
+   },
+   {
+    "title": "Cold-inducible proteins CIRP and RBM3, a unique couple with activities far beyond the cold.",
+    "year": "2016",
+    "journal": "Cell Mol Life Sci",
+    "doi": "10.1007/s00018-016-2253-7",
+    "pmid": "27147467",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of spaceflight on murine skeletal muscle gene expression.",
+    "year": "2009",
+    "journal": "J Appl Physiol (1985)",
+    "doi": "10.1152/japplphysiol.90780.2008",
+    "pmid": "19074574",
+    "src": "MED"
+   },
+   {
+    "title": "Taurine: the appeal of a safe amino acid for skeletal muscle disorders.",
+    "year": "2015",
+    "journal": "J Transl Med",
+    "doi": "10.1186/s12967-015-0610-1",
+    "pmid": "26208967",
+    "src": "MED"
+   },
+   {
+    "title": "Metabolic Pathways of the Warburg Effect in Health and Disease: Perspectives of Choice, Chain or Chance.",
+    "year": "2017",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms18122755",
+    "pmid": "29257069",
+    "src": "MED"
+   },
+   {
+    "title": "A systematic framework for understanding the microbiome in human health and disease: from basic principles to clinical translation.",
+    "year": "2024",
+    "journal": "Signal Transduct Target Ther",
+    "doi": "10.1038/s41392-024-01946-6",
+    "pmid": "39307902",
+    "src": "MED"
+   },
+   {
+    "title": "Role of IGF-I signaling in muscle bone interactions.",
+    "year": "2015",
+    "journal": "Bone",
+    "doi": "10.1016/j.bone.2015.04.036",
+    "pmid": "26453498",
+    "src": "MED"
+   },
+   {
+    "title": "MuRF1/TRIM63, Master Regulator of Muscle Mass.",
+    "year": "2020",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms21186663",
+    "pmid": "32933049",
+    "src": "MED"
+   },
+   {
+    "title": "MicroRNA in myogenesis and muscle atrophy.",
+    "year": "2013",
+    "journal": "Curr Opin Clin Nutr Metab Care",
+    "doi": "10.1097/mco.0b013e32835f81b9",
+    "pmid": "23449000",
+    "src": "MED"
+   },
+   {
+    "title": "Extracellular Matrix Cues Regulate Mechanosensing and Mechanotransduction of Cancer Cells.",
+    "year": "2024",
+    "journal": "Cells",
+    "doi": "10.3390/cells13010096",
+    "pmid": "38201302",
+    "src": "MED"
+   },
+   {
+    "title": "The functional role of calcineurin in hypertrophy, regeneration, and disorders of skeletal muscle.",
+    "year": "2010",
+    "journal": "J Biomed Biotechnol",
+    "doi": "10.1155/2010/721219",
+    "pmid": "20379369",
+    "src": "MED"
+   },
+   {
+    "title": "Neuro-bone tissue engineering: emerging mechanisms, potential strategies, and current challenges.",
+    "year": "2023",
+    "journal": "Bone Res",
+    "doi": "10.1038/s41413-023-00302-8",
+    "pmid": "38123549",
+    "src": "MED"
+   },
+   {
+    "title": "GDNF synthesis, signaling, and retrograde transport in motor neurons.",
+    "year": "2020",
+    "journal": "Cell Tissue Res",
+    "doi": "10.1007/s00441-020-03287-6",
+    "pmid": "32897420",
+    "src": "MED"
+   },
+   {
+    "title": "Long noncoding RNAs: a missing link in osteoporosis.",
+    "year": "2019",
+    "journal": "Bone Res",
+    "doi": "10.1038/s41413-019-0048-9",
+    "pmid": "30937214",
+    "src": "MED"
+   },
+   {
+    "title": "Endoplasmic Reticulum Unfolded Protein Response, Aging and Exercise: An Update.",
+    "year": "2018",
+    "journal": "Front Physiol",
+    "doi": "10.3389/fphys.2018.01744",
+    "pmid": "30568599",
+    "src": "MED"
+   },
+   {
+    "title": "Periostin function in communication with extracellular matrices.",
+    "year": "2018",
+    "journal": "J Cell Commun Signal",
+    "doi": "10.1007/s12079-017-0422-6",
+    "pmid": "29086200",
+    "src": "MED"
+   },
+   {
+    "title": "The therapeutic potential of IGF-I in skeletal muscle repair.",
+    "year": "2013",
+    "journal": "Trends Endocrinol Metab",
+    "doi": "10.1016/j.tem.2013.03.004",
+    "pmid": "23628587",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q4_vivarium_vs_habitat_control": {
+  "query": "(\"vivarium control\" OR \"vivarium controls\") AND (\"ground control\" OR habitat) AND (spaceflight OR \"Rodent Research\")",
+  "hitCount": 51,
+  "top": [
+   {
+    "title": "Mice in Bion-M 1 space mission: training and selection.",
+    "year": "2014",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0104830",
+    "pmid": "25133741",
+    "src": "MED"
+   },
+   {
+    "title": "Bone turnover in wild type and pleiotrophin-transgenic mice housed for three months in the International Space Station (ISS).",
+    "year": "2012",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0033179",
+    "pmid": "22438896",
+    "src": "MED"
+   },
+   {
+    "title": "Impact of Spaceflight and Artificial Gravity on the Mouse Retina: Biochemical and Proteomic Analysis.",
+    "year": "2018",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms19092546",
+    "pmid": "30154332",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of long-term space flight on erythrocytes and oxidative stress of rodents.",
+    "year": "2012",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0032361",
+    "pmid": "22412864",
+    "src": "MED"
+   },
+   {
+    "title": "The Mice Drawer System (MDS) experiment and the space endurance record-breaking mice.",
+    "year": "2012",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0032243",
+    "pmid": "22666312",
+    "src": "MED"
+   },
+   {
+    "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+    "year": "2017",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0174174",
+    "pmid": "28542224",
+    "src": "MED"
+   },
+   {
+    "title": "Validation of a New Rodent Experimental System to Investigate Consequences of Long Duration Space Habitation.",
+    "year": "2020",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-020-58898-4",
+    "pmid": "32047211",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice.",
+    "year": "2015",
+    "journal": "J Appl Physiol (1985)",
+    "doi": "10.1152/japplphysiol.00976.2014",
+    "pmid": "25593287",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight and hind limb unloading induces an arthritic phenotype in knee articular cartilage and menisci of rodents.",
+    "year": "2021",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-021-90010-2",
+    "pmid": "34006989",
+    "src": "MED"
+   },
+   {
+    "title": "The effects of spaceflight microgravity on the musculoskeletal system of humans and animals, with an emphasis on exercise as a countermeasure: a systematic scoping review.",
+    "year": "2021",
+    "journal": "Physiol Res",
+    "doi": "10.33549/physiolres.934550",
+    "pmid": "33992043",
+    "src": "MED"
+   },
+   {
+    "title": "Articular cartilage and sternal fibrocartilage respond differently to extended microgravity.",
+    "year": "2019",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-019-0063-6",
+    "pmid": "30793021",
+    "src": "MED"
+   },
+   {
+    "title": "Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study.",
+    "year": "2018",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-018-22613-1",
+    "pmid": "29520055",
+    "src": "MED"
+   },
+   {
+    "title": "Orbital spaceflight during pregnancy shapes function of mammalian vestibular system.",
+    "year": "2008",
+    "journal": "Behav Neurosci",
+    "doi": "10.1037/0735-7044.122.1.224",
+    "pmid": "18298265",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of spaceflight aboard the International Space Station on mouse estrous cycle and ovarian gene expression.",
+    "year": "2021",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-021-00139-7",
+    "pmid": "33712627",
+    "src": "MED"
+   },
+   {
+    "title": "Exposure to microgravity for 30 days onboard Bion M1 caused muscle atrophy and impaired regeneration in murine femoral Quadriceps.",
+    "year": "2018",
+    "journal": "Life Sci Space Res (Amst)",
+    "doi": "10.1016/j.lssr.2017.08.005",
+    "pmid": "29475516",
+    "src": "MED"
+   },
+   {
+    "title": "The impact of long-term exposure to space environment on adult mammalian organisms: a study on mouse thyroid and testis.",
+    "year": "2012",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0035418",
+    "pmid": "22558148",
+    "src": "MED"
+   },
+   {
+    "title": "Specific host metabolite and gut microbiome alterations are associated with bone loss during spaceflight.",
+    "year": "2023",
+    "journal": "Cell Rep",
+    "doi": "10.1016/j.celrep.2023.112299",
+    "pmid": "37080202",
+    "src": "MED"
+   },
+   {
+    "title": "Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations.",
+    "year": "2019",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-019-44696-0",
+    "pmid": "31160660",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight induces changes in gene expression profiles linked to insulin and estrogen.",
+    "year": "2024",
+    "journal": "Commun Biol",
+    "doi": "10.1038/s42003-023-05213-2",
+    "pmid": "38862620",
+    "src": "MED"
+   },
+   {
+    "title": "Evaluation of rodent spaceflight in the NASA animal enclosure module for an extended operational period (up to 35 days).",
+    "year": "2016",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/npjmgrav.2016.2",
+    "pmid": "28725722",
+    "src": "MED"
+   },
+   {
+    "title": "Characterizing SERCA Function in Murine Skeletal Muscles after 35-37 Days of Spaceflight.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms222111764",
+    "pmid": "34769190",
+    "src": "MED"
+   },
+   {
+    "title": "Mammalian and Invertebrate Models as Complementary Tools for Gaining Mechanistic Insight on Muscle Responses to Spaceflight.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms22179470",
+    "pmid": "34502375",
+    "src": "MED"
+   },
+   {
+    "title": "Bone health in spacefaring rodents and primates: systematic review and meta-analysis.",
+    "year": "2021",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-021-00147-7",
+    "pmid": "34075059",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of space flight on sperm function and integrity: A systematic review.",
+    "year": "2022",
+    "journal": "Front Physiol",
+    "doi": "10.3389/fphys.2022.904375",
+    "pmid": "36035496",
+    "src": "MED"
+   },
+   {
+    "title": "Dietary intervention of mice using an improved Multiple Artificial-gravity Research System (MARS) under artificial 1\u2009&lt;i&gt;g&lt;/i&gt;.",
+    "year": "2019",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-019-0077-0",
+    "pmid": "31312718",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q5_RR23_OSD525": {
+  "query": "(\"Rodent Research-23\" OR \"RR-23\" OR \"OSD-525\" OR \"GLDS-525\")",
+  "hitCount": 431,
+  "top": [
+   {
+    "title": "The Challenges of Tumor Mutational Burden as an Immunotherapy Biomarker.",
+    "year": "2021",
+    "journal": "Cancer Cell",
+    "doi": "10.1016/j.ccell.2020.10.001",
+    "pmid": "33125859",
+    "src": "MED"
+   },
+   {
+    "title": "A study of the quality of life and cost-utility of renal transplantation.",
+    "year": "1996",
+    "journal": "Kidney Int",
+    "doi": "10.1038/ki.1996.307",
+    "pmid": "8807593",
+    "src": "MED"
+   },
+   {
+    "title": "Menarche, menopause, and breast cancer risk: individual participant meta-analysis, including 118 964 women with breast cancer from 117 epidemiological studies.",
+    "year": "2012",
+    "journal": "Lancet Oncol",
+    "doi": "10.1016/s1470-2045(12)70425-4",
+    "pmid": "23084519",
+    "src": "MED"
+   },
+   {
+    "title": "2013 Annual Report of the American Association of Poison Control Centers' National Poison Data System (NPDS): 31st Annual Report.",
+    "year": "2014",
+    "journal": "Clin Toxicol (Phila)",
+    "doi": "10.3109/15563650.2014.987397",
+    "pmid": "25559822",
+    "src": "MED"
+   },
+   {
+    "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: a Systematic Review.",
+    "year": "2020",
+    "journal": "J Gen Intern Med",
+    "doi": "10.1007/s11606-019-05364-1",
+    "pmid": "31848865",
+    "src": "MED"
+   },
+   {
+    "title": "Effects of 5' regulatory-region polymorphisms on paraoxonase-gene (PON1) expression.",
+    "year": "2001",
+    "journal": "Am J Hum Genet",
+    "doi": "10.1086/320600",
+    "pmid": "11335891",
+    "src": "MED"
+   },
+   {
+    "title": "Non-invasive ventilation for the management of acute hypercapnic respiratory failure due to exacerbation of chronic obstructive pulmonary disease.",
+    "year": "2017",
+    "journal": "Cochrane Database Syst Rev",
+    "doi": "10.1002/14651858.cd004104.pub4",
+    "pmid": "28702957",
+    "src": "MED"
+   },
+   {
+    "title": "Extensive cortical remyelination in patients with chronic multiple sclerosis.",
+    "year": "2007",
+    "journal": "Brain Pathol",
+    "doi": "10.1111/j.1750-3639.2006.00043.x",
+    "pmid": "17388943",
+    "src": "MED"
+   },
+   {
+    "title": "Predictors of progression in Barrett's esophagus III: baseline flow cytometric variables.",
+    "year": "2001",
+    "journal": "Am J Gastroenterol",
+    "doi": "10.1111/j.1572-0241.2001.05261.x",
+    "pmid": "11721752",
+    "src": "MED"
+   },
+   {
+    "title": "TRPV1 and TRPA1 mediate peripheral nitric oxide-induced nociception in mice.",
+    "year": "2009",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0007596",
+    "pmid": "19893614",
+    "src": "MED"
+   },
+   {
+    "title": "Genes expressed in the brain define three distinct neuronal nicotinic acetylcholine receptors.",
+    "year": "1988",
+    "journal": "EMBO J",
+    "doi": "10.1002/j.1460-2075.1988.tb02852.x",
+    "pmid": "3267226",
+    "src": "MED"
+   },
+   {
+    "title": "Changes and correlates of screen time in adults and children during the COVID-19 pandemic: A systematic review and meta-analysis.",
+    "year": "2022",
+    "journal": "EClinicalMedicine",
+    "doi": "10.1016/j.eclinm.2022.101452",
+    "pmid": "35615691",
+    "src": "MED"
+   },
+   {
+    "title": "Dissociation of mnemonic and perceptual processes during spatial and nonspatial working memory using fMRI.",
+    "year": "1998",
+    "journal": "Hum Brain Mapp",
+    "doi": "10.1002/(sici)1097-0193(1998)6:1<14::aid-hbm2>3.0.co;2-o",
+    "pmid": "9673660",
+    "src": "MED"
+   },
+   {
+    "title": "The Context-Dependence of Mutations: A Linkage of Formalisms.",
+    "year": "2016",
+    "journal": "PLoS Comput Biol",
+    "doi": "10.1371/journal.pcbi.1004771",
+    "pmid": "27337695",
+    "src": "MED"
+   },
+   {
+    "title": "Impact of a Biomarker-Based Strategy on Oncology Drug Development: A Meta-analysis of Clinical Trials Leading to FDA Approval.",
+    "year": "2015",
+    "journal": "J Natl Cancer Inst",
+    "doi": "10.1093/jnci/djv253",
+    "pmid": "26378224",
+    "src": "MED"
+   },
+   {
+    "title": "Clozapine versus other atypical antipsychotics for schizophrenia.",
+    "year": "2010",
+    "journal": "Cochrane Database Syst Rev",
+    "doi": "10.1002/14651858.cd006633.pub2",
+    "pmid": "21069690",
+    "src": "MED"
+   },
+   {
+    "title": "Acupuncture for treating fibromyalgia.",
+    "year": "2013",
+    "journal": "Cochrane Database Syst Rev",
+    "doi": "10.1002/14651858.cd007070.pub2",
+    "pmid": "23728665",
+    "src": "MED"
+   },
+   {
+    "title": "Efficacy and safety of non-invasive ventilation in the treatment of acute cardiogenic pulmonary edema--a systematic review and meta-analysis.",
+    "year": "2006",
+    "journal": "Crit Care",
+    "doi": "10.1186/cc4905",
+    "pmid": "16646987",
+    "src": "MED"
+   },
+   {
+    "title": "Likelihood-based random-effects meta-analysis with few studies: empirical and simulation studies.",
+    "year": "2019",
+    "journal": "BMC Med Res Methodol",
+    "doi": "10.1186/s12874-018-0618-3",
+    "pmid": "30634920",
+    "src": "MED"
+   },
+   {
+    "title": "Neoadjuvant treatment of pancreatic adenocarcinoma: a systematic review and meta-analysis of 5520 patients.",
+    "year": "2017",
+    "journal": "World J Surg Oncol",
+    "doi": "10.1186/s12957-017-1240-2",
+    "pmid": "29017581",
+    "src": "MED"
+   },
+   {
+    "title": "Genetic and biochemical dissection of a HisKA domain identifies residues required exclusively for kinase and phosphatase activities.",
+    "year": "2012",
+    "journal": "PLoS Genet",
+    "doi": "10.1371/journal.pgen.1003084",
+    "pmid": "23226719",
+    "src": "MED"
+   },
+   {
+    "title": "Analysis of cyanobacterial toxins by hydrophilic interaction liquid chromatography-mass spectrometry.",
+    "year": "2004",
+    "journal": "J Chromatogr A",
+    "doi": "10.1016/j.chroma.2003.11.083",
+    "pmid": "14969289",
+    "src": "MED"
+   },
+   {
+    "title": "Meta-Analysis of Potassium Intake and the Risk of Stroke.",
+    "year": "2016",
+    "journal": "J Am Heart Assoc",
+    "doi": "10.1161/jaha.116.004210",
+    "pmid": "27792643",
+    "src": "MED"
+   },
+   {
+    "title": "B cells and monocytes from patients with active multiple sclerosis exhibit increased surface expression of both HERV-H Env and HERV-W Env, accompanied by increased seroreactivity.",
+    "year": "2009",
+    "journal": "Retrovirology",
+    "doi": "10.1186/1742-4690-6-104",
+    "pmid": "19917105",
+    "src": "MED"
+   },
+   {
+    "title": "VraT/YvqF is required for methicillin resistance and activation of the VraSR regulon in Staphylococcus aureus.",
+    "year": "2013",
+    "journal": "Antimicrob Agents Chemother",
+    "doi": "10.1128/aac.01651-12",
+    "pmid": "23070169",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q6_RRRM2_OSD561": {
+  "query": "(\"RRRM-2\" OR \"RRRM2\" OR \"Rodent Research Reference Mission-2\" OR \"OSD-561\" OR \"GLDS-561\")",
+  "hitCount": 8,
+  "top": [
+   {
+    "title": "Remodeling of the metabolome during early frog development.",
+    "year": "2011",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0016881",
+    "pmid": "21347444",
+    "src": "MED"
+   },
+   {
+    "title": "Locus specific epigenetic modalities of random allelic expression imbalance.",
+    "year": "2021",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-021-25630-3",
+    "pmid": "34504093",
+    "src": "MED"
+   },
+   {
+    "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight.",
+    "year": "2022",
+    "journal": "Cell Rep Methods",
+    "doi": "10.1016/j.crmeth.2022.100325",
+    "pmid": "36452864",
+    "src": "MED"
+   },
+   {
+    "title": "A Non-Coding RNA Network Involved in KSHV Tumorigenesis.",
+    "year": "2021",
+    "journal": "Front Oncol",
+    "doi": "10.3389/fonc.2021.687629",
+    "pmid": "34222014",
+    "src": "MED"
+   },
+   {
+    "title": "Regulation of urokinase expression at the posttranscription level by lung epithelial cells.",
+    "year": "2012",
+    "journal": "Biochemistry",
+    "doi": "10.1021/bi201293x",
+    "pmid": "22166006",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight Is Associated with an Age-Conserved Kidney Transcriptomic Signature Linked to Inflammation, Tubular Channelopathy, and Senescence",
+    "year": "2026",
+    "journal": null,
+    "doi": "10.20944/preprints202609.2442.v1",
+    "pmid": null,
+    "src": "PPR"
+   },
+   {
+    "title": "CAP1-Mediated m6A modification of RRM2 suppresses tumor-associated M2 macrophage polarization and colorectal cancer growth.",
+    "year": "2026",
+    "journal": "Cell Mol Life Sci",
+    "doi": "10.1007/s00018-025-06031-x",
+    "pmid": "41483049",
+    "src": "MED"
+   },
+   {
+    "title": "Genomic Analysis of Cardiovascular Diseases Utilizing Space Omics and Medical Atlas.",
+    "year": "2025",
+    "journal": "Genes (Basel)",
+    "doi": "10.3390/genes16090996",
+    "pmid": "41009942",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q7_RR10_OSD563": {
+  "query": "(\"Rodent Research-10\" OR \"RR-10\" OR \"OSD-563\" OR \"GLDS-563\")",
+  "hitCount": 2425,
+  "top": [
+   {
+    "title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+    "year": "2021",
+    "journal": "MMWR Recomm Rep",
+    "doi": "10.15585/mmwr.rr7004a1",
+    "pmid": "34292926",
+    "src": "MED"
+   },
+   {
+    "title": "2007 Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Health Care Settings.",
+    "year": "2007",
+    "journal": "Am J Infect Control",
+    "doi": "10.1016/j.ajic.2007.10.007",
+    "pmid": "18068815",
+    "src": "MED"
+   },
+   {
+    "title": "Global burden of childhood pneumonia and diarrhoea.",
+    "year": "2013",
+    "journal": "Lancet",
+    "doi": "10.1016/s0140-6736(13)60222-6",
+    "pmid": "23582727",
+    "src": "MED"
+   },
+   {
+    "title": "Sexually transmitted diseases treatment guidelines, 2015.",
+    "year": "2015",
+    "journal": "MMWR Recomm Rep",
+    "doi": "10.1016/j.annemergmed.2011.04.006",
+    "pmid": "26042815",
+    "src": "MED"
+   },
+   {
+    "title": "Disease networks. Uncovering disease-disease relationships through the incomplete interactome.",
+    "year": "2015",
+    "journal": "Science",
+    "doi": "10.1126/science.1257601",
+    "pmid": "25700523",
+    "src": "MED"
+   },
+   {
+    "title": "Detection of ectopic B-cell follicles with germinal centers in the meninges of patients with secondary progressive multiple sclerosis.",
+    "year": "2004",
+    "journal": "Brain Pathol",
+    "doi": "10.1111/j.1750-3639.2004.tb00049.x",
+    "pmid": "15193029",
+    "src": "MED"
+   },
+   {
+    "title": "A study of the quality of life and cost-utility of renal transplantation.",
+    "year": "1996",
+    "journal": "Kidney Int",
+    "doi": "10.1038/ki.1996.307",
+    "pmid": "8807593",
+    "src": "MED"
+   },
+   {
+    "title": "TRP channel activation by reversible covalent modification.",
+    "year": "2006",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.0609598103",
+    "pmid": "17164327",
+    "src": "MED"
+   },
+   {
+    "title": "Prevention and control of influenza with vaccines: recommendations of the Advisory Committee on Immunization Practices (ACIP), 2010.",
+    "year": "2010",
+    "journal": "MMWR Recomm Rep",
+    "doi": null,
+    "pmid": "20689501",
+    "src": "MED"
+   },
+   {
+    "title": "Vitamin D and multiple health outcomes: umbrella review of systematic reviews and meta-analyses of observational studies and randomised trials.",
+    "year": "2014",
+    "journal": "BMJ",
+    "doi": "10.1136/bmj.g2035",
+    "pmid": "24690624",
+    "src": "MED"
+   },
+   {
+    "title": "4-Hydroxynonenal, an endogenous aldehyde, causes pain and neurogenic inflammation through activation of the irritant receptor TRPA1.",
+    "year": "2007",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.0705923104",
+    "pmid": "17684094",
+    "src": "MED"
+   },
+   {
+    "title": "Adjuvant endocrine therapy for women with hormone receptor-positive breast cancer: american society of clinical oncology clinical practice guideline focused update.",
+    "year": "2014",
+    "journal": "J Clin Oncol",
+    "doi": "10.1200/jco.2013.54.2258",
+    "pmid": "24868023",
+    "src": "MED"
+   },
+   {
+    "title": "T2 quantification for improved detection of myocardial edema.",
+    "year": "2009",
+    "journal": "J Cardiovasc Magn Reson",
+    "doi": "10.1186/1532-429x-11-56",
+    "pmid": "20042111",
+    "src": "MED"
+   },
+   {
+    "title": "A unification of mediation and interaction: a 4-way decomposition.",
+    "year": "2014",
+    "journal": "Epidemiology",
+    "doi": "10.1097/ede.0000000000000121",
+    "pmid": "25000145",
+    "src": "MED"
+   },
+   {
+    "title": "Cancer immunotherapies targeting the PD-1 signaling pathway.",
+    "year": "2017",
+    "journal": "J Biomed Sci",
+    "doi": "10.1186/s12929-017-0329-9",
+    "pmid": "28376884",
+    "src": "MED"
+   },
+   {
+    "title": "Theory of excitation-contraction coupling in cardiac muscle.",
+    "year": "1992",
+    "journal": "Biophys J",
+    "doi": "10.1016/s0006-3495(92)81615-6",
+    "pmid": "1330031",
+    "src": "MED"
+   },
+   {
+    "title": "Trpv1 reporter mice reveal highly restricted brain distribution and functional expression in arteriolar smooth muscle cells.",
+    "year": "2011",
+    "journal": "J Neurosci",
+    "doi": "10.1523/jneurosci.6451-10.2011",
+    "pmid": "21451044",
+    "src": "MED"
+   },
+   {
+    "title": "Double dissociation of basolateral and central amygdala lesions on the general and outcome-specific forms of pavlovian-instrumental transfer.",
+    "year": "2005",
+    "journal": "J Neurosci",
+    "doi": "10.1523/jneurosci.4507-04.2005",
+    "pmid": "15673677",
+    "src": "MED"
+   },
+   {
+    "title": "Time spent in outdoor activities in relation to myopia prevention and control: a meta-analysis and systematic review.",
+    "year": "2017",
+    "journal": "Acta Ophthalmol",
+    "doi": "10.1111/aos.13403",
+    "pmid": "28251836",
+    "src": "MED"
+   },
+   {
+    "title": "The role of the nucleus accumbens in instrumental conditioning: Evidence of a functional dissociation between accumbens core and shell.",
+    "year": "2001",
+    "journal": "J Neurosci",
+    "doi": "10.1523/jneurosci.21-09-03251.2001",
+    "pmid": "11312310",
+    "src": "MED"
+   },
+   {
+    "title": "Antithrombotic and thrombolytic therapy for valvular disease: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.",
+    "year": "2012",
+    "journal": "Chest",
+    "doi": "10.1378/chest.11-2305",
+    "pmid": "22315272",
+    "src": "MED"
+   },
+   {
+    "title": "Evolution, substrate specificity and subfamily classification of glycoside hydrolase family 5 (GH5).",
+    "year": "2012",
+    "journal": "BMC Evol Biol",
+    "doi": "10.1186/1471-2148-12-186",
+    "pmid": "22992189",
+    "src": "MED"
+   },
+   {
+    "title": "Treatment effects in the presence of unmeasured confounding: dealing with observations in the tails of the propensity score distribution--a simulation study.",
+    "year": "2010",
+    "journal": "Am J Epidemiol",
+    "doi": "10.1093/aje/kwq198",
+    "pmid": "20716704",
+    "src": "MED"
+   },
+   {
+    "title": "Molecular mechanisms of microcystin toxicity in animal cells.",
+    "year": "2010",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms11010268",
+    "pmid": "20162015",
+    "src": "MED"
+   },
+   {
+    "title": "Molecular basis of infrared detection by snakes.",
+    "year": "2010",
+    "journal": "Nature",
+    "doi": "10.1038/nature08943",
+    "pmid": "20228791",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q8_transportability_omics": {
+  "query": "(transportability OR \"external validity\" OR \"transport\") AND (spaceflight OR \"space omics\" OR GeneLab)",
+  "hitCount": 1918,
+  "top": [
+   {
+    "title": "Lack of exercise is a major cause of chronic diseases.",
+    "year": "2012",
+    "journal": "Compr Physiol",
+    "doi": "10.1002/cphy.c110025",
+    "pmid": "23798298",
+    "src": "MED"
+   },
+   {
+    "title": "Resistance of Bacillus endospores to extreme terrestrial and extraterrestrial environments.",
+    "year": "2000",
+    "journal": "Microbiol Mol Biol Rev",
+    "doi": "10.1128/mmbr.64.3.548-572.2000",
+    "pmid": "10974126",
+    "src": "MED"
+   },
+   {
+    "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight.",
+    "year": "2019",
+    "journal": "Science",
+    "doi": "10.1126/science.aau8650",
+    "pmid": "30975860",
+    "src": "MED"
+   },
+   {
+    "title": "Oral microbiomes: more and more importance in oral cavity and whole body.",
+    "year": "2018",
+    "journal": "Protein Cell",
+    "doi": "10.1007/s13238-018-0548-1",
+    "pmid": "29736705",
+    "src": "MED"
+   },
+   {
+    "title": "SKN-1/Nrf, stress responses, and aging in Caenorhabditis elegans.",
+    "year": "2015",
+    "journal": "Free Radic Biol Med",
+    "doi": "10.1016/j.freeradbiomed.2015.06.008",
+    "pmid": "26232625",
+    "src": "MED"
+   },
+   {
+    "title": "Role of Inactivity in Chronic Diseases: Evolutionary Insight and Pathophysiological Mechanisms.",
+    "year": "2017",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00019.2016",
+    "pmid": "28814614",
+    "src": "MED"
+   },
+   {
+    "title": "Deep sequencing analysis of small noncoding RNA and mRNA targets of the global post-transcriptional regulator, Hfq.",
+    "year": "2008",
+    "journal": "PLoS Genet",
+    "doi": "10.1371/journal.pgen.1000163",
+    "pmid": "18725932",
+    "src": "MED"
+   },
+   {
+    "title": "Artificial intelligence: A powerful paradigm for scientific research.",
+    "year": "2021",
+    "journal": "Innovation (Camb)",
+    "doi": "10.1016/j.xinn.2021.100179",
+    "pmid": "34877560",
+    "src": "MED"
+   },
+   {
+    "title": "Diffusion Tensor Image Analysis ALong the Perivascular Space (DTI-ALPS): Revisiting the Meaning and Significance of the Method.",
+    "year": "2024",
+    "journal": "Magn Reson Med Sci",
+    "doi": "10.2463/mrms.rev.2023-0175",
+    "pmid": "38569866",
+    "src": "MED"
+   },
+   {
+    "title": "Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact.",
+    "year": "2020",
+    "journal": "Cell",
+    "doi": "10.1016/j.cell.2020.11.002",
+    "pmid": "33242417",
+    "src": "MED"
+   },
+   {
+    "title": "Space microbiology.",
+    "year": "2010",
+    "journal": "Microbiol Mol Biol Rev",
+    "doi": "10.1128/mmbr.00016-09",
+    "pmid": "20197502",
+    "src": "MED"
+   },
+   {
+    "title": "Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression.",
+    "year": "2020",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-020-14457-z",
+    "pmid": "32041960",
+    "src": "MED"
+   },
+   {
+    "title": "Heterogeneous photochemistry in the atmosphere.",
+    "year": "2015",
+    "journal": "Chem Rev",
+    "doi": "10.1021/cr500648z",
+    "pmid": "25775235",
+    "src": "MED"
+   },
+   {
+    "title": "Ground-based facilities for simulation of microgravity: organism-specific recommendations for their use, and recommended terminology.",
+    "year": "2013",
+    "journal": "Astrobiology",
+    "doi": "10.1089/ast.2012.0876",
+    "pmid": "23252378",
+    "src": "MED"
+   },
+   {
+    "title": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration.",
+    "year": "2020",
+    "journal": "Cell",
+    "doi": "10.1016/j.cell.2020.10.050",
+    "pmid": "33242416",
+    "src": "MED"
+   },
+   {
+    "title": "Irisin prevents and restores bone loss and muscle atrophy in hind-limb suspended mice.",
+    "year": "2017",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-017-02557-8",
+    "pmid": "28588307",
+    "src": "MED"
+   },
+   {
+    "title": "Nanopore DNA Sequencing and Genome Assembly on the International Space Station.",
+    "year": "2017",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-017-18364-0",
+    "pmid": "29269933",
+    "src": "MED"
+   },
+   {
+    "title": "Human Pathophysiological Adaptations to the Space Environment.",
+    "year": "2017",
+    "journal": "Front Physiol",
+    "doi": "10.3389/fphys.2017.00547",
+    "pmid": "28824446",
+    "src": "MED"
+   },
+   {
+    "title": "Microbial responses to microgravity and other low-shear environments.",
+    "year": "2004",
+    "journal": "Microbiol Mol Biol Rev",
+    "doi": "10.1128/mmbr.68.2.345-361.2004",
+    "pmid": "15187188",
+    "src": "MED"
+   },
+   {
+    "title": "The complete genome sequence of Cupriavidus metallidurans strain CH34, a master survivalist in harsh and anthropogenic environments.",
+    "year": "2010",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0010433",
+    "pmid": "20463976",
+    "src": "MED"
+   },
+   {
+    "title": "Impact of inactivity and exercise on the vasculature in humans.",
+    "year": "2010",
+    "journal": "Eur J Appl Physiol",
+    "doi": "10.1007/s00421-009-1260-x",
+    "pmid": "19943061",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight associated neuro-ocular syndrome (SANS) and the neuro-ophthalmologic effects of microgravity: a review and an update.",
+    "year": "2020",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-020-0097-9",
+    "pmid": "32047839",
+    "src": "MED"
+   },
+   {
+    "title": "Red risks for a journey to the red planet: The highest priority human health risks for a mission to Mars.",
+    "year": "2020",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-020-00124-6",
+    "pmid": "33298950",
+    "src": "MED"
+   },
+   {
+    "title": "Alterations in adaptive immunity persist during long-duration spaceflight.",
+    "year": "2015",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/npjmgrav.2015.13",
+    "pmid": "28725716",
+    "src": "MED"
+   },
+   {
+    "title": "Anemia in critical illness: insights into etiology, consequences, and management.",
+    "year": "2012",
+    "journal": "Am J Respir Crit Care Med",
+    "doi": "10.1164/rccm.201110-1915ci",
+    "pmid": "22281832",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q9_permutation_minimum_p_FDR_attainable": {
+  "query": "(\"minimum achievable p\" OR \"minimum attainable p\" OR \"smallest possible p\" OR \"attainable p-value\") AND (\"false discovery rate\" OR \"multiple testing\")",
+  "hitCount": 68,
+  "top": [
+   {
+    "title": "g:Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update).",
+    "year": "2019",
+    "journal": "Nucleic Acids Res",
+    "doi": "10.1093/nar/gkz369",
+    "pmid": "31066453",
+    "src": "MED"
+   },
+   {
+    "title": "Experimental design and analysis and their reporting: new guidance for publication in BJP.",
+    "year": "2015",
+    "journal": "Br J Pharmacol",
+    "doi": "10.1111/bph.12856",
+    "pmid": "26114403",
+    "src": "MED"
+   },
+   {
+    "title": "Prevalence of sexual dimorphism in mammalian phenotypic traits.",
+    "year": "2017",
+    "journal": "Nat Commun",
+    "doi": "10.1038/ncomms15475",
+    "pmid": "28650954",
+    "src": "MED"
+   },
+   {
+    "title": "Parental relatedness through time revealed by runs of homozygosity in ancient DNA.",
+    "year": "2021",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-021-25289-w",
+    "pmid": "34521843",
+    "src": "MED"
+   },
+   {
+    "title": "A probiotic modulates the microbiome and immunity in multiple sclerosis.",
+    "year": "2018",
+    "journal": "Ann Neurol",
+    "doi": "10.1002/ana.25244",
+    "pmid": "29679417",
+    "src": "MED"
+   },
+   {
+    "title": "Analysis of gene expression in Parkinson's disease: possible involvement of neurotrophic support and axon guidance in dopaminergic cell death.",
+    "year": "2009",
+    "journal": "Brain Pathol",
+    "doi": "10.1111/j.1750-3639.2008.00171.x",
+    "pmid": "18462474",
+    "src": "MED"
+   },
+   {
+    "title": "Statistical limitations in functional neuroimaging. II. Signal detection and statistical inference.",
+    "year": "1999",
+    "journal": "Philos Trans R Soc Lond B Biol Sci",
+    "doi": "10.1098/rstb.1999.0478",
+    "pmid": "10466150",
+    "src": "MED"
+   },
+   {
+    "title": "Detecting rare variant associations by identity-by-descent mapping in case-control studies.",
+    "year": "2012",
+    "journal": "Genetics",
+    "doi": "10.1534/genetics.111.136937",
+    "pmid": "22267498",
+    "src": "MED"
+   },
+   {
+    "title": "Information mapping with pattern classifiers: a comparative study.",
+    "year": "2011",
+    "journal": "Neuroimage",
+    "doi": "10.1016/j.neuroimage.2010.05.026",
+    "pmid": "20488249",
+    "src": "MED"
+   },
+   {
+    "title": "Multiple testing correction over contrasts for brain imaging.",
+    "year": "2020",
+    "journal": "Neuroimage",
+    "doi": "10.1016/j.neuroimage.2020.116760",
+    "pmid": "32201328",
+    "src": "MED"
+   },
+   {
+    "title": "Systematic discovery of complex insertions and deletions in human cancers.",
+    "year": "2016",
+    "journal": "Nat Med",
+    "doi": "10.1038/nm.4002",
+    "pmid": "26657142",
+    "src": "MED"
+   },
+   {
+    "title": "The translational landscape of fission-yeast meiosis and sporulation.",
+    "year": "2014",
+    "journal": "Nat Struct Mol Biol",
+    "doi": "10.1038/nsmb.2843",
+    "pmid": "24929437",
+    "src": "MED"
+   },
+   {
+    "title": "P-Value Precision and Reproducibility.",
+    "year": "2011",
+    "journal": "Am Stat",
+    "doi": "10.1198/tas.2011.10129",
+    "pmid": "22690019",
+    "src": "MED"
+   },
+   {
+    "title": "Idiopathic Pulmonary Fibrosis Is Associated with Common Genetic Variants and Limited Rare Variants.",
+    "year": "2023",
+    "journal": "Am J Respir Crit Care Med",
+    "doi": "10.1164/rccm.202207-1331oc",
+    "pmid": "36602845",
+    "src": "MED"
+   },
+   {
+    "title": "Variant association tools for quality control and analysis of large-scale sequence and genotyping array data.",
+    "year": "2014",
+    "journal": "Am J Hum Genet",
+    "doi": "10.1016/j.ajhg.2014.04.004",
+    "pmid": "24791902",
+    "src": "MED"
+   },
+   {
+    "title": "DNA methylation profiles and their relationship with cytogenetic status in adult acute myeloid leukemia.",
+    "year": "2010",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0012197",
+    "pmid": "20808941",
+    "src": "MED"
+   },
+   {
+    "title": "Rare genetic variation in mitochondrial pathways influences the risk for Parkinson's disease.",
+    "year": "2018",
+    "journal": "Mov Disord",
+    "doi": "10.1002/mds.64",
+    "pmid": "30256453",
+    "src": "MED"
+   },
+   {
+    "title": "When possible, report a Fisher-exact <i>P</i> value and display its underlying null randomization distribution.",
+    "year": "2020",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.1915454117",
+    "pmid": "32703808",
+    "src": "MED"
+   },
+   {
+    "title": "Human CRY1 variants associate with attention deficit/hyperactivity disorder.",
+    "year": "2020",
+    "journal": "J Clin Invest",
+    "doi": "10.1172/jci135500",
+    "pmid": "32538895",
+    "src": "MED"
+   },
+   {
+    "title": "Defining the RBPome of primary T helper cells to elucidate higher-order Roquin-mediated mRNA regulation.",
+    "year": "2021",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-021-25345-5",
+    "pmid": "34471108",
+    "src": "MED"
+   },
+   {
+    "title": "Waves of Change: Brain Sensitivity to Differential, not Absolute, Stimulus Intensity is Conserved Across Humans and Rats.",
+    "year": "2021",
+    "journal": "Cereb Cortex",
+    "doi": "10.1093/cercor/bhaa267",
+    "pmid": "33026425",
+    "src": "MED"
+   },
+   {
+    "title": "Hypoxia-induced inflammation: Profiling the first 24-hour posthypoxic plasma and central nervous system changes.",
+    "year": "2021",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0246681",
+    "pmid": "33661927",
+    "src": "MED"
+   },
+   {
+    "title": "Occipital-temporal cortical tuning to semantic and affective features of natural images predicts associated behavioral responses.",
+    "year": "2024",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-024-49073-8",
+    "pmid": "38982092",
+    "src": "MED"
+   },
+   {
+    "title": "Rare variants of small effect size in neuronal excitability genes influence clinical outcome in Japanese cases of SCN1A truncation-positive Dravet syndrome.",
+    "year": "2017",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0180485",
+    "pmid": "28686619",
+    "src": "MED"
+   },
+   {
+    "title": "Investigating the Endo-Lysosomal System in Major Neurocognitive Disorders Due to Alzheimer's Disease, Frontotemporal Lobar Degeneration and Lewy Body Disease: Evidence for SORL1 as a Cross-Disease Gene.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms222413633",
+    "pmid": "34948429",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q10_permutation_small_sample_FDR_impossible": {
+  "query": "(permutation OR \"exact test\") AND (\"small sample\" OR \"few replicates\") AND (\"false discovery rate\" OR Benjamini) AND (granularity OR discreteness OR \"discrete p-values\")",
+  "hitCount": 311,
+  "top": [
+   {
+    "title": "Moderated estimation of fold change and  dispersion for RNA-seq data with DESeq2.",
+    "year": "2014",
+    "journal": "Genome Biol",
+    "doi": "10.1186/s13059-014-0550-8",
+    "pmid": "25516281",
+    "src": "MED"
+   },
+   {
+    "title": "Permutation inference for the general linear model.",
+    "year": "2014",
+    "journal": "Neuroimage",
+    "doi": "10.1016/j.neuroimage.2014.01.060",
+    "pmid": "24530839",
+    "src": "MED"
+   },
+   {
+    "title": "Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies.",
+    "year": "2019",
+    "journal": "Lancet Neurol",
+    "doi": "10.1016/s1474-4422(19)30320-5",
+    "pmid": "31701892",
+    "src": "MED"
+   },
+   {
+    "title": "An atlas of healthy and injured cell states and niches in the human kidney.",
+    "year": "2023",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-023-05769-3",
+    "pmid": "37468583",
+    "src": "MED"
+   },
+   {
+    "title": "SINCERA: A Pipeline for Single-Cell RNA-Seq Profiling Analysis.",
+    "year": "2015",
+    "journal": "PLoS Comput Biol",
+    "doi": "10.1371/journal.pcbi.1004575",
+    "pmid": "26600239",
+    "src": "MED"
+   },
+   {
+    "title": "Non-parametric combination and related permutation tests for neuroimaging.",
+    "year": "2016",
+    "journal": "Hum Brain Mapp",
+    "doi": "10.1002/hbm.23115",
+    "pmid": "26848101",
+    "src": "MED"
+   },
+   {
+    "title": "Genomics, convergent neuroscience and progress in understanding autism spectrum disorder.",
+    "year": "2022",
+    "journal": "Nat Rev Neurosci",
+    "doi": "10.1038/s41583-022-00576-7",
+    "pmid": "35440779",
+    "src": "MED"
+   },
+   {
+    "title": "A comprehensive single-cell map of T cell exhaustion-associated immune environments in human breast cancer.",
+    "year": "2023",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-022-35238-w",
+    "pmid": "36609566",
+    "src": "MED"
+   },
+   {
+    "title": "Evolution of immune and stromal cell states and ecotypes during gastric adenocarcinoma progression.",
+    "year": "2023",
+    "journal": "Cancer Cell",
+    "doi": "10.1016/j.ccell.2023.06.005",
+    "pmid": "37419119",
+    "src": "MED"
+   },
+   {
+    "title": "Identification and analysis of splicing quantitative trait loci across multiple tissues in the human genome.",
+    "year": "2021",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-020-20578-2",
+    "pmid": "33526779",
+    "src": "MED"
+   },
+   {
+    "title": "Patterns of host genome-wide gene transcript abundance in the peripheral blood of patients with acute dengue hemorrhagic fever.",
+    "year": "2007",
+    "journal": "J Infect Dis",
+    "doi": "10.1086/512162",
+    "pmid": "17357045",
+    "src": "MED"
+   },
+   {
+    "title": "Single-Cell Profiling of Ebola Virus Disease In\u00a0Vivo Reveals Viral and Host Dynamics.",
+    "year": "2020",
+    "journal": "Cell",
+    "doi": "10.1016/j.cell.2020.10.002",
+    "pmid": "33159858",
+    "src": "MED"
+   },
+   {
+    "title": "Ancestry-driven recalibration of tumor mutational burden and disparate clinical outcomes in response to immune checkpoint inhibitors.",
+    "year": "2022",
+    "journal": "Cancer Cell",
+    "doi": "10.1016/j.ccell.2022.08.022",
+    "pmid": "36179682",
+    "src": "MED"
+   },
+   {
+    "title": "Stability of gut enterotypes in Korean monozygotic twins and their association with biomarkers and diet.",
+    "year": "2014",
+    "journal": "Sci Rep",
+    "doi": "10.1038/srep07348",
+    "pmid": "25482875",
+    "src": "MED"
+   },
+   {
+    "title": "Biopsy and blood-based molecular biomarker of inflammation in IBD.",
+    "year": "2023",
+    "journal": "Gut",
+    "doi": "10.1136/gutjnl-2021-326451",
+    "pmid": "36109152",
+    "src": "MED"
+   },
+   {
+    "title": "Artificial intelligence and machine learning approaches using gene expression and variant data for personalized medicine.",
+    "year": "2022",
+    "journal": "Brief Bioinform",
+    "doi": "10.1093/bib/bbac191",
+    "pmid": "35595537",
+    "src": "MED"
+   },
+   {
+    "title": "Comparative study of gene set enrichment methods.",
+    "year": "2009",
+    "journal": "BMC Bioinformatics",
+    "doi": "10.1186/1471-2105-10-275",
+    "pmid": "19725948",
+    "src": "MED"
+   },
+   {
+    "title": "Discrete False-Discovery Rate Improves Identification of Differentially Abundant Microbes.",
+    "year": "2017",
+    "journal": "mSystems",
+    "doi": "10.1128/msystems.00092-17",
+    "pmid": "29181446",
+    "src": "MED"
+   },
+   {
+    "title": "Mitochondrial DNA haplogroup D4a is a marker for extreme longevity in Japan.",
+    "year": "2008",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0002421",
+    "pmid": "18545700",
+    "src": "MED"
+   },
+   {
+    "title": "Genetic Ancestry Correlates with Somatic Differences in a Real-World Clinical Cancer Sequencing Cohort.",
+    "year": "2022",
+    "journal": "Cancer Discov",
+    "doi": "10.1158/2159-8290.cd-22-0312",
+    "pmid": "36048199",
+    "src": "MED"
+   },
+   {
+    "title": "Sex differences in the functional topography of association networks in youth.",
+    "year": "2022",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.2110416119",
+    "pmid": "35939696",
+    "src": "MED"
+   },
+   {
+    "title": "The structural connectome of the human brain in agenesis of the corpus callosum.",
+    "year": "2013",
+    "journal": "Neuroimage",
+    "doi": "10.1016/j.neuroimage.2012.12.031",
+    "pmid": "23268782",
+    "src": "MED"
+   },
+   {
+    "title": "fNIRS Evidence for Recognizably Different Positive Emotions.",
+    "year": "2019",
+    "journal": "Front Hum Neurosci",
+    "doi": "10.3389/fnhum.2019.00120",
+    "pmid": "31024278",
+    "src": "MED"
+   },
+   {
+    "title": "Comprehensive Comparison of Methods for Isolation of Extracellular Vesicles from Human Plasma.",
+    "year": "2025",
+    "journal": "J Proteome Res",
+    "doi": "10.1021/acs.jproteome.5c00149",
+    "pmid": "40356199",
+    "src": "MED"
+   },
+   {
+    "title": "Accelerated MRI-predicted brain ageing and its associations with cardiometabolic and brain disorders.",
+    "year": "2020",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-020-76518-z",
+    "pmid": "33203906",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q11_cross_mission_replication_mouse": {
+  "query": "(spaceflight OR \"Rodent Research\") AND (mouse OR mice) AND (\"cross-mission\" OR \"multiple missions\" OR \"independent missions\") AND (replicat* OR reproducib* OR consistency)",
+  "hitCount": 16,
+  "top": [
+   {
+    "title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank.",
+    "year": "2024",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-024-07639-y",
+    "pmid": "38862028",
+    "src": "MED"
+   },
+   {
+    "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver.",
+    "year": "2019",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-019-55869-2",
+    "pmid": "31844325",
+    "src": "MED"
+   },
+   {
+    "title": "Molecular and physiological changes in the SpaceX Inspiration4 civilian crew.",
+    "year": "2024",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-024-07648-x",
+    "pmid": "38862026",
+    "src": "MED"
+   },
+   {
+    "title": "Genomic Changes Driven by Radiation-Induced DNA Damage and Microgravity in Human Cells.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms221910507",
+    "pmid": "34638848",
+    "src": "MED"
+   },
+   {
+    "title": "Evaluating biomarkers to model cancer risk post cosmic ray exposure.",
+    "year": "2016",
+    "journal": "Life Sci Space Res (Amst)",
+    "doi": "10.1016/j.lssr.2016.05.004",
+    "pmid": "27345199",
+    "src": "MED"
+   },
+   {
+    "title": "NASA open science data repository: open science for life in space.",
+    "year": "2025",
+    "journal": "Nucleic Acids Res",
+    "doi": "10.1093/nar/gkae1116",
+    "pmid": "39558178",
+    "src": "MED"
+   },
+   {
+    "title": "Microbiology of human spaceflight: microbial responses to mechanical forces that impact health and habitat sustainability.",
+    "year": "2024",
+    "journal": "Microbiol Mol Biol Rev",
+    "doi": "10.1128/mmbr.00144-23",
+    "pmid": "39158275",
+    "src": "MED"
+   },
+   {
+    "title": "How the adaptation of the human microbiome to harsh space environment can determine the chances of success for a space mission to Mars and beyond.",
+    "year": "2023",
+    "journal": "Front Microbiol",
+    "doi": "10.3389/fmicb.2023.1237564",
+    "pmid": "38390219",
+    "src": "MED"
+   },
+   {
+    "title": "Induced Torpor as a Countermeasure for Low Dose Radiation Exposure in a Zebrafish Model.",
+    "year": "2021",
+    "journal": "Cells",
+    "doi": "10.3390/cells10040906",
+    "pmid": "33920039",
+    "src": "MED"
+   },
+   {
+    "title": "Blood flow restriction training in microgravity: a review of multisystem physiological benefits and implementation challenges for long-duration space missions.",
+    "year": "2025",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-025-00515-7",
+    "pmid": "40774988",
+    "src": "MED"
+   },
+   {
+    "title": "Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology.",
+    "year": "2024",
+    "journal": "Commun Med (Lond)",
+    "doi": "10.1038/s43856-024-00532-9",
+    "pmid": "38862781",
+    "src": "MED"
+   },
+   {
+    "title": "Craniofacial Bones and Teeth in Spacefarers: Systematic Review and Meta-analysis.",
+    "year": "2023",
+    "journal": "JDR Clin Trans Res",
+    "doi": "10.1177/23800844221084985",
+    "pmid": "35311413",
+    "src": "MED"
+   },
+   {
+    "title": "A systematic review of microgravity on reproductive systems: Implications for space biology and human health.",
+    "year": "2026",
+    "journal": "iScience",
+    "doi": "10.1016/j.isci.2026.114663",
+    "pmid": "41675042",
+    "src": "MED"
+   },
+   {
+    "title": "Integrative transcriptomics identifies an 18-gene candidate blood-accessible biomarker panel for longitudinal monitoring of spaceflight-induced muscle atrophy",
+    "year": "2026",
+    "journal": "PLoS One",
+    "doi": null,
+    "pmid": null,
+    "src": "PMC"
+   },
+   {
+    "title": "ibSLS as a biobank for democratizing access to multi-omics data and biospecimens from spaceflight research.",
+    "year": "2026",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-026-76349-y",
+    "pmid": "42624845",
+    "src": "MED"
+   },
+   {
+    "title": "ASTROREPOMICS: A curated transcriptomic database for reproductive biology in space.",
+    "year": "2026",
+    "journal": "iScience",
+    "doi": "10.1016/j.isci.2026.115309",
+    "pmid": "41940322",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q12_GeneLab_reanalysis_confound_dissection_date": {
+  "query": "(spaceflight OR GeneLab) AND (\"dissection\" OR \"euthanasia\" OR \"collection date\" OR \"batch\") AND (confound*) AND (transcriptom* OR RNA-seq)",
+  "hitCount": 73,
+  "top": [
+   {
+    "title": "Single-cell RNA-sequencing of differentiating iPS cells reveals dynamic genetic effects on gene expression.",
+    "year": "2020",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-020-14457-z",
+    "pmid": "32041960",
+    "src": "MED"
+   },
+   {
+    "title": "Multi-Omics Profiling for Health.",
+    "year": "2023",
+    "journal": "Mol Cell Proteomics",
+    "doi": "10.1016/j.mcpro.2023.100561",
+    "pmid": "37119971",
+    "src": "MED"
+   },
+   {
+    "title": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight.",
+    "year": "2019",
+    "journal": "Microbiome",
+    "doi": "10.1186/s40168-019-0724-4",
+    "pmid": "31399081",
+    "src": "MED"
+   },
+   {
+    "title": "Tissue-Engineered Skeletal Muscle Models to Study Muscle Function, Plasticity, and Disease.",
+    "year": "2021",
+    "journal": "Front Physiol",
+    "doi": "10.3389/fphys.2021.619710",
+    "pmid": "33716768",
+    "src": "MED"
+   },
+   {
+    "title": "State of Knowledge on Molecular Adaptations to Exercise in Humans: Historical Perspectives and Future Directions.",
+    "year": "2022",
+    "journal": "Compr Physiol",
+    "doi": "10.1002/cphy.c200033",
+    "pmid": "35578962",
+    "src": "MED"
+   },
+   {
+    "title": "Organs to Cells and Cells to Organoids: The Evolution of &lt;i&gt;in vitro&lt;/i&gt; Central Nervous System Modelling.",
+    "year": "2019",
+    "journal": "Front Cell Neurosci",
+    "doi": "10.3389/fncel.2019.00129",
+    "pmid": "31024259",
+    "src": "MED"
+   },
+   {
+    "title": "NASA GeneLab RNA-seq consensus pipeline: standardized processing of short-read RNA-seq data.",
+    "year": "2021",
+    "journal": "iScience",
+    "doi": "10.1016/j.isci.2021.102361",
+    "pmid": "33870146",
+    "src": "MED"
+   },
+   {
+    "title": "A New Era for Space Life Science: International Standards for Space Omics Processing.",
+    "year": "2020",
+    "journal": "Patterns (N Y)",
+    "doi": "10.1016/j.patter.2020.100148",
+    "pmid": "33336201",
+    "src": "MED"
+   },
+   {
+    "title": "Transcriptome analysis of gravitational effects on mouse skeletal muscles under microgravity and artificial 1 g onboard environment.",
+    "year": "2021",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-021-88392-4",
+    "pmid": "33911096",
+    "src": "MED"
+   },
+   {
+    "title": "Meta-analysis of the space flight and microgravity response of the Arabidopsis plant transcriptome.",
+    "year": "2023",
+    "journal": "NPJ Microgravity",
+    "doi": "10.1038/s41526-023-00247-6",
+    "pmid": "36941263",
+    "src": "MED"
+   },
+   {
+    "title": "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models.",
+    "year": "2020",
+    "journal": "Cancers (Basel)",
+    "doi": "10.3390/cancers12020381",
+    "pmid": "32045996",
+    "src": "MED"
+   },
+   {
+    "title": "Evaluating biomarkers to model cancer risk post cosmic ray exposure.",
+    "year": "2016",
+    "journal": "Life Sci Space Res (Amst)",
+    "doi": "10.1016/j.lssr.2016.05.004",
+    "pmid": "27345199",
+    "src": "MED"
+   },
+   {
+    "title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of <i>FYN</i> Through Reactive Oxygen Species.",
+    "year": "2019",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms20030661",
+    "pmid": "30717456",
+    "src": "MED"
+   },
+   {
+    "title": "Mammalian and Invertebrate Models as Complementary Tools for Gaining Mechanistic Insight on Muscle Responses to Spaceflight.",
+    "year": "2021",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms22179470",
+    "pmid": "34502375",
+    "src": "MED"
+   },
+   {
+    "title": "Sex differences in radiation research.",
+    "year": "2024",
+    "journal": "Int J Radiat Biol",
+    "doi": "10.1080/09553002.2023.2283089",
+    "pmid": "37991728",
+    "src": "MED"
+   },
+   {
+    "title": "Impact of diet on human nutrition, immune response, gut microbiome, and cognition in an isolated and confined mission environment.",
+    "year": "2022",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-022-21927-5",
+    "pmid": "36522361",
+    "src": "MED"
+   },
+   {
+    "title": "Highly effective batch effect correction method for RNA-seq count data.",
+    "year": "2025",
+    "journal": "Comput Struct Biotechnol J",
+    "doi": "10.1016/j.csbj.2024.12.010",
+    "pmid": "39802213",
+    "src": "MED"
+   },
+   {
+    "title": "The 2022 On-site Padua Days on Muscle and Mobility Medicine hosts the University of Florida Institute of Myology and the Wellstone Center, March 30 - April 3, 2022 at the University of Padua and Thermae of Euganean Hills, Padua, Italy: The collection of abstracts.",
+    "year": "2022",
+    "journal": "Eur J Transl Myol",
+    "doi": "10.4081/ejtm.2022.10440",
+    "pmid": "35272451",
+    "src": "MED"
+   },
+   {
+    "title": "The Effects of Combined Exposure to Simulated Microgravity, Ionizing Radiation, and Cortisol on the <i>In Vitro</i> Wound Healing Process.",
+    "year": "2023",
+    "journal": "Cells",
+    "doi": "10.3390/cells12020246",
+    "pmid": "36672184",
+    "src": "MED"
+   },
+   {
+    "title": "Diaphragm muscle: a pump that can not fail.",
+    "year": "2025",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00043.2024",
+    "pmid": "40643074",
+    "src": "MED"
+   },
+   {
+    "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight.",
+    "year": "2022",
+    "journal": "Cell Rep Methods",
+    "doi": "10.1016/j.crmeth.2022.100325",
+    "pmid": "36452864",
+    "src": "MED"
+   },
+   {
+    "title": "Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases.",
+    "year": "2021",
+    "journal": "Life (Basel)",
+    "doi": "10.3390/life11010042",
+    "pmid": "33445483",
+    "src": "MED"
+   },
+   {
+    "title": "Lifetime Evaluation of Left Ventricular Structure and Function in Male C57BL/6J Mice after Gamma and Space-Type Radiation Exposure.",
+    "year": "2023",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms24065451",
+    "pmid": "36982525",
+    "src": "MED"
+   },
+   {
+    "title": "RNAseq Analysis of Rodent Spaceflight Experiments Is Confounded by Sample Collection Techniques.",
+    "year": "2020",
+    "journal": "iScience",
+    "doi": "10.1016/j.isci.2020.101733",
+    "pmid": "33376967",
+    "src": "MED"
+   },
+   {
+    "title": "Microbiology of human spaceflight: microbial responses to mechanical forces that impact health and habitat sustainability.",
+    "year": "2024",
+    "journal": "Microbiol Mol Biol Rev",
+    "doi": "10.1128/mmbr.00144-23",
+    "pmid": "39158275",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q13_junction_counts_STAR_SJ_reuse_spaceflight": {
+  "query": "(\"SJ.out.tab\" OR \"junction counts\" OR \"junction reads\") AND (spaceflight OR GeneLab OR OSDR)",
+  "hitCount": 2,
+  "top": [
+   {
+    "title": "Nanobioreactor detection of space-associated hematopoietic stem and progenitor cell aging.",
+    "year": "2025",
+    "journal": "Cell Stem Cell",
+    "doi": "10.1016/j.stem.2025.07.013",
+    "pmid": "40912236",
+    "src": "MED"
+   },
+   {
+    "title": "Alternative splicing diversifies the skeletal muscle transcriptome during prolonged spaceflight.",
+    "year": "2022",
+    "journal": "Skelet Muscle",
+    "doi": "10.1186/s13395-022-00294-9",
+    "pmid": "35642060",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q14_tcaf1": {
+  "query": "(Tcaf1 OR \"TRPM8 channel-associated factor 1\" OR FAM115A)",
+  "hitCount": 217,
+  "top": [
+   {
+    "title": "Cell cycle regulation: p53-p21-RB signaling.",
+    "year": "2022",
+    "journal": "Cell Death Differ",
+    "doi": "10.1038/s41418-022-00988-z",
+    "pmid": "35361964",
+    "src": "MED"
+   },
+   {
+    "title": "Confronting false discoveries in single-cell differential expression.",
+    "year": "2021",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-021-25960-2",
+    "pmid": "34584091",
+    "src": "MED"
+   },
+   {
+    "title": "Camphor activates and strongly desensitizes the transient receptor potential vanilloid subtype 1 channel in a vanilloid-independent mechanism.",
+    "year": "2005",
+    "journal": "J Neurosci",
+    "doi": "10.1523/jneurosci.2574-05.2005",
+    "pmid": "16192383",
+    "src": "MED"
+   },
+   {
+    "title": "Demyelination causes adult CNS progenitors to revert to an immature state and express immune cues that support their migration.",
+    "year": "2015",
+    "journal": "J Neurosci",
+    "doi": "10.1523/jneurosci.0849-14.2015",
+    "pmid": "25568099",
+    "src": "MED"
+   },
+   {
+    "title": "Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data.",
+    "year": "2014",
+    "journal": "Circ Res",
+    "doi": "10.1161/circresaha.115.304458",
+    "pmid": "25205790",
+    "src": "MED"
+   },
+   {
+    "title": "Transcriptome analysis highlights the conserved difference between embryonic and postnatal-derived alveolar macrophages.",
+    "year": "2015",
+    "journal": "Blood",
+    "doi": "10.1182/blood-2015-01-624809",
+    "pmid": "26232173",
+    "src": "MED"
+   },
+   {
+    "title": "The evolution and population diversity of human-specific segmental duplications.",
+    "year": "2017",
+    "journal": "Nat Ecol Evol",
+    "doi": "10.1038/s41559-016-0069",
+    "pmid": "28580430",
+    "src": "MED"
+   },
+   {
+    "title": "Role of DNA Methylation in the Resistance to Therapy in Solid Tumors.",
+    "year": "2020",
+    "journal": "Front Oncol",
+    "doi": "10.3389/fonc.2020.01152",
+    "pmid": "32850327",
+    "src": "MED"
+   },
+   {
+    "title": "DREAM and RB cooperate to induce gene repression and cell-cycle arrest in response to p53 activation.",
+    "year": "2019",
+    "journal": "Nucleic Acids Res",
+    "doi": "10.1093/nar/gkz635",
+    "pmid": "31400114",
+    "src": "MED"
+   },
+   {
+    "title": "Biological overlap of attention-deficit/hyperactivity disorder and autism spectrum disorder: evidence from copy number variants.",
+    "year": "2014",
+    "journal": "J Am Acad Child Adolesc Psychiatry",
+    "doi": "10.1016/j.jaac.2014.03.004",
+    "pmid": "24954825",
+    "src": "MED"
+   },
+   {
+    "title": "Ubiquitin-Activated Interaction Traps (UBAITs) identify E3 ligase binding partners.",
+    "year": "2015",
+    "journal": "EMBO Rep",
+    "doi": "10.15252/embr.201540620",
+    "pmid": "26508657",
+    "src": "MED"
+   },
+   {
+    "title": "Loss of heterozygosity in 7q myeloid disorders: clinical associations and genomic pathogenesis.",
+    "year": "2012",
+    "journal": "Blood",
+    "doi": "10.1182/blood-2011-12-397620",
+    "pmid": "22553315",
+    "src": "MED"
+   },
+   {
+    "title": "A comprehensive single-cell breast tumor atlas defines epithelial and immune heterogeneity and interactions predicting anti-PD-1 therapy response.",
+    "year": "2024",
+    "journal": "Cell Rep Med",
+    "doi": "10.1016/j.xcrm.2024.101511",
+    "pmid": "38614094",
+    "src": "MED"
+   },
+   {
+    "title": "TRP channel-associated factors are a novel protein family that regulates TRPM8 trafficking and activity.",
+    "year": "2015",
+    "journal": "J Cell Biol",
+    "doi": "10.1083/jcb.201402076",
+    "pmid": "25559186",
+    "src": "MED"
+   },
+   {
+    "title": "Calcium Permeable Channels in Cancer Hallmarks.",
+    "year": "2020",
+    "journal": "Front Pharmacol",
+    "doi": "10.3389/fphar.2020.00968",
+    "pmid": "32733237",
+    "src": "MED"
+   },
+   {
+    "title": "Burden analysis of rare microdeletions suggests a strong impact of neurodevelopmental genes in genetic generalised epilepsies.",
+    "year": "2015",
+    "journal": "PLoS Genet",
+    "doi": "10.1371/journal.pgen.1005226",
+    "pmid": "25950944",
+    "src": "MED"
+   },
+   {
+    "title": "Gene expression signatures of neuroendocrine prostate cancer and primary small cell prostatic carcinoma.",
+    "year": "2017",
+    "journal": "BMC Cancer",
+    "doi": "10.1186/s12885-017-3729-z",
+    "pmid": "29132337",
+    "src": "MED"
+   },
+   {
+    "title": "Aberrant DNA Methylation in Acute Myeloid Leukemia and Its Clinical Implications.",
+    "year": "2019",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms20184576",
+    "pmid": "31527484",
+    "src": "MED"
+   },
+   {
+    "title": "Roles of TRPM8 Ion Channels in Cancer: Proliferation, Survival, and Invasion.",
+    "year": "2015",
+    "journal": "Cancers (Basel)",
+    "doi": "10.3390/cancers7040882",
+    "pmid": "26512697",
+    "src": "MED"
+   },
+   {
+    "title": "Prediction of molecular mimicry candidates in human pathogenic bacteria.",
+    "year": "2013",
+    "journal": "Virulence",
+    "doi": "10.4161/viru.25180",
+    "pmid": "23715053",
+    "src": "MED"
+   },
+   {
+    "title": "A genome-wide CRISPR-Cas9 knockout screen identifies essential and growth-restricting genes in human trophoblast stem cells.",
+    "year": "2022",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-022-30207-9",
+    "pmid": "35538076",
+    "src": "MED"
+   },
+   {
+    "title": "The Role of TRP Channels in the Metastatic Cascade.",
+    "year": "2018",
+    "journal": "Pharmaceuticals (Basel)",
+    "doi": "10.3390/ph11020048",
+    "pmid": "29772843",
+    "src": "MED"
+   },
+   {
+    "title": "Deciphering DNA methylation signatures of pancreatic cancer and pancreatitis.",
+    "year": "2019",
+    "journal": "Clin Epigenetics",
+    "doi": "10.1186/s13148-019-0728-8",
+    "pmid": "31492175",
+    "src": "MED"
+   },
+   {
+    "title": "Secreted retrovirus-like GAG-domain-containing protein PEG10 is regulated by UBE3A and is involved in Angelman syndrome pathophysiology.",
+    "year": "2021",
+    "journal": "Cell Rep Med",
+    "doi": "10.1016/j.xcrm.2021.100360",
+    "pmid": "34467244",
+    "src": "MED"
+   },
+   {
+    "title": "The endogenous and reactive depression subtypes revisited: integrative animal and human studies implicate multiple distinct molecular mechanisms underlying major depressive disorder.",
+    "year": "2014",
+    "journal": "BMC Med",
+    "doi": "10.1186/1741-7015-12-73",
+    "pmid": "24886127",
+    "src": "MED"
+   }
+  ]
+ },
+ "Q15_female_mice_brain_spaceflight": {
+  "query": "(female) AND (mice OR mouse) AND (brain OR cerebell*) AND (spaceflight OR \"International Space Station\") AND (transcriptom* OR RNA-seq)",
+  "hitCount": 182,
+  "top": [
+   {
+    "title": "Cellular senescence and senolytics: the path to the clinic.",
+    "year": "2022",
+    "journal": "Nat Med",
+    "doi": "10.1038/s41591-022-01923-y",
+    "pmid": "35953721",
+    "src": "MED"
+   },
+   {
+    "title": "Role of Inactivity in Chronic Diseases: Evolutionary Insight and Pathophysiological Mechanisms.",
+    "year": "2017",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00019.2016",
+    "pmid": "28814614",
+    "src": "MED"
+   },
+   {
+    "title": "Evolutionary constraint and innovation across hundreds of placental mammals.",
+    "year": "2023",
+    "journal": "Science",
+    "doi": "10.1126/science.abn3943",
+    "pmid": "37104599",
+    "src": "MED"
+   },
+   {
+    "title": "Space Radiation: The Number One Risk to Astronaut Health beyond Low Earth Orbit.",
+    "year": "2014",
+    "journal": "Life (Basel)",
+    "doi": "10.3390/life4030491",
+    "pmid": "25370382",
+    "src": "MED"
+   },
+   {
+    "title": "Breast cancer and circadian disruption from electric lighting in the modern world.",
+    "year": "2014",
+    "journal": "CA Cancer J Clin",
+    "doi": "10.3322/caac.21218",
+    "pmid": "24604162",
+    "src": "MED"
+   },
+   {
+    "title": "Interactions between Muscle and Bone-Where Physics Meets Biology.",
+    "year": "2020",
+    "journal": "Biomolecules",
+    "doi": "10.3390/biom10030432",
+    "pmid": "32164381",
+    "src": "MED"
+   },
+   {
+    "title": "A systematic framework for understanding the microbiome in human health and disease: from basic principles to clinical translation.",
+    "year": "2024",
+    "journal": "Signal Transduct Target Ther",
+    "doi": "10.1038/s41392-024-01946-6",
+    "pmid": "39307902",
+    "src": "MED"
+   },
+   {
+    "title": "Induction of a torpor-like hypothermic and hypometabolic state in rodents by ultrasound.",
+    "year": "2023",
+    "journal": "Nat Metab",
+    "doi": "10.1038/s42255-023-00804-z",
+    "pmid": "37231250",
+    "src": "MED"
+   },
+   {
+    "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility.",
+    "year": "2015",
+    "journal": "Infect Drug Resist",
+    "doi": "10.2147/idr.s67275",
+    "pmid": "26251622",
+    "src": "MED"
+   },
+   {
+    "title": "Biological Effects of Space Radiation and Development of Effective Countermeasures.",
+    "year": "2014",
+    "journal": "Life Sci Space Res (Amst)",
+    "doi": "10.1016/j.lssr.2014.02.004",
+    "pmid": "25258703",
+    "src": "MED"
+   },
+   {
+    "title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank.",
+    "year": "2024",
+    "journal": "Nature",
+    "doi": "10.1038/s41586-024-07639-y",
+    "pmid": "38862028",
+    "src": "MED"
+   },
+   {
+    "title": "Emerging roles of SIRT1 activator, SRT2104, in disease treatment.",
+    "year": "2024",
+    "journal": "Sci Rep",
+    "doi": "10.1038/s41598-024-55923-8",
+    "pmid": "38448466",
+    "src": "MED"
+   },
+   {
+    "title": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver.",
+    "year": "2016",
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0152877",
+    "pmid": "27097220",
+    "src": "MED"
+   },
+   {
+    "title": "Circadian clocks of the kidney: function, mechanism, and regulation.",
+    "year": "2022",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00045.2021",
+    "pmid": "35575250",
+    "src": "MED"
+   },
+   {
+    "title": "Influence of Microgravity on Apoptosis in Cells, Tissues, and Other Systems In Vivo and In Vitro.",
+    "year": "2020",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms21249373",
+    "pmid": "33317046",
+    "src": "MED"
+   },
+   {
+    "title": "Healthy offspring from freeze-dried mouse spermatozoa held on the International Space Station for 9 months.",
+    "year": "2017",
+    "journal": "Proc Natl Acad Sci U S A",
+    "doi": "10.1073/pnas.1701425114",
+    "pmid": "28533361",
+    "src": "MED"
+   },
+   {
+    "title": "New Perspectives on the Importance of Cell-Free DNA Biology.",
+    "year": "2022",
+    "journal": "Diagnostics (Basel)",
+    "doi": "10.3390/diagnostics12092147",
+    "pmid": "36140548",
+    "src": "MED"
+   },
+   {
+    "title": "Complex physiology and clinical implications of time-restricted eating.",
+    "year": "2022",
+    "journal": "Physiol Rev",
+    "doi": "10.1152/physrev.00006.2022",
+    "pmid": "35834774",
+    "src": "MED"
+   },
+   {
+    "title": "Current Concepts in Pharmacometabolomics, Biomarker Discovery, and Precision Medicine.",
+    "year": "2020",
+    "journal": "Metabolites",
+    "doi": "10.3390/metabo10040129",
+    "pmid": "32230776",
+    "src": "MED"
+   },
+   {
+    "title": "Melatonin is a potential drug for the prevention of bone loss during space flight.",
+    "year": "2019",
+    "journal": "J Pineal Res",
+    "doi": "10.1111/jpi.12594",
+    "pmid": "31286565",
+    "src": "MED"
+   },
+   {
+    "title": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development.",
+    "year": "2020",
+    "journal": "Cell Rep",
+    "doi": "10.1016/j.celrep.2020.108448",
+    "pmid": "33242410",
+    "src": "MED"
+   },
+   {
+    "title": "The central nervous system (CNS)-independent anti-bone-resorptive activity of muscle contraction and the underlying molecular and cellular signatures.",
+    "year": "2013",
+    "journal": "J Biol Chem",
+    "doi": "10.1074/jbc.m113.454892",
+    "pmid": "23530032",
+    "src": "MED"
+   },
+   {
+    "title": "Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight.",
+    "year": "2024",
+    "journal": "Nat Commun",
+    "doi": "10.1038/s41467-024-49211-2",
+    "pmid": "38862516",
+    "src": "MED"
+   },
+   {
+    "title": "The Fight against Cancer by Microgravity: The Multicellular Spheroid as a Metastasis Model.",
+    "year": "2022",
+    "journal": "Int J Mol Sci",
+    "doi": "10.3390/ijms23063073",
+    "pmid": "35328492",
+    "src": "MED"
+   },
+   {
+    "title": "Radiation dose rate effects: what is new and what is needed?",
+    "year": "2022",
+    "journal": "Radiat Environ Biophys",
+    "doi": "10.1007/s00411-022-00996-0",
+    "pmid": "36241855",
+    "src": "MED"
+   }
+  ]
+ },
+ "_meta": {
+  "date_utc": "2026-10-15T02:30:12Z",
+  "service": "Europe PMC REST search, lite, sorted by citations, top 25"
+ }
+}

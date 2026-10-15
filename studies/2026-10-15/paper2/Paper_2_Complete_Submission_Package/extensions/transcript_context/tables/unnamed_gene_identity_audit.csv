@@ -1,0 +1,4 @@
+gene_id,gene_symbol,measured_events,all_event_annotations_match,primary_BY_gene
+ENSMUSG00000121470,,2,True,False
+ENSMUSG00000121502,,1,True,False
+ENSMUSG00000121596,,1,True,False

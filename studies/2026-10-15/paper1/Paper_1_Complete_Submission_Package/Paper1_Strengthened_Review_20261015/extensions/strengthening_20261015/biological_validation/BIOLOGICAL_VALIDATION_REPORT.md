@@ -1,0 +1,45 @@
+# Biological robustness and independent context validation
+
+15 October 2026. This explicitly exploratory extension estimates every frozen endpoint and retains failures and unsupported designs. It adds design-selected public count data from RR-3 and three Earth brain experiments; it does not treat Earth radiation or unloading as replication of spaceflight.
+
+The concrete new result is **limited marker dependence of the full hippocampal Circadian candidate**, accompanied by a strict limit on cross-context biological generalization. Its coefficient is negative at both ages and under an equal-age saturated contrast. It remains supported under the original additive-age specification in the complete new BH family. Separate-age, equal-age and marker-adjusted results do not all retain corrected support, and no result passes the BY sensitivity.
+
+## Core Circadian robustness
+
+The full hippocampal additive-age interaction is -0.405322 log2, with 2,000-animal-bootstrap interval [-0.596730, -0.217000], approximate restricted wild p=0.000760, complete new BH q=0.036169, and BY q=0.272403. Partial R2 for the interaction conditional on other design terms is 0.3212; this is an in-sample descriptive proportion, not a causal exposure fraction or out-of-sample prediction score.
+
+Adding the fixed erythroid-associated marker score changes the coefficient to -0.397987, an absolute change of 0.007335 and 1.81% attenuation. Marker partial residual R2 is 0.000523. The adjusted wild p=0.006810 and BH q=0.115001 lose corrected support because uncertainty increases. This demonstrates weak dependence on this particular seven-marker score in this model; it cannot rule out other cell-composition changes, contamination or collection-linked biology, and is not causal mediation.
+
+The equal-age contrast, computed from a saturated age-by-exposure-by-collection design without assuming a common age slope, is -0.408543 [-0.606185, -0.214585], p=0.001720, BH q=0.056276. The two age-specific estimates remain negative, but their direct difference is unsupported. Metadata exclusions empty the older cerebellar flight ISS-terminal cell and leave one older hippocampal animal in that cell. Older/equal-age saturated uncertainty is therefore unavailable in those sensitivities. No procedure reconstructs the missing support.
+
+All one-animal and one-gene omissions are exported for every regular estimand and endpoint where an effect is identifiable, with rank failures retained. The full hippocampal Circadian coefficient and its equal-age counterpart retain negative directions under every omission. These are descriptive dependence checks, not an additional confirmatory discovery family.
+
+## External contexts and inference limits
+
+OSD-352 has only three flight and three ground animals in bulk Brain. All eight inherited panels are retained; none passes the full new correction. Its Circadian flight-minus-ground estimate is 0.022592 [-0.109044, 0.175631], p=0.841670, q=0.973411. Brain is not equated to any original regional anatomy. RIN ranges are entirely separated between exposure groups, and the complete RIN-adjustment sensitivity has very wide uncertainty. This external comparison cannot establish absence of a flight effect or independent hippocampal replication.
+
+OSD-202 supplies 40 independent animals in a radiation × unloading × one/four-month collection design. The smallest cell has two animals. All time-specific effects, equal-time contrasts, late-minus-early differences and sequencing-lane sensitivities are retained. Time, changing animal age and collection are inseparable. Lanes partly align with design cells, and lane adjustment produces unit-leverage cases with unavailable uncertainty.
+
+OSD-374 contains eight disjoint two-animal hippocampal pools. OSD-611 contains twelve two-animal pools, with member identities unavailable. NASA's SampleTable retains ten OSD-611 pools: three sham, five lower-dose Si28 and two higher-dose Si28. The primary analysis uses those ten; the all-twelve sensitivity is explicit and preserves the unknown omission reason. Each dose-versus-sham and higher-versus-lower comparison is retained. Pools are the independent expression units and are never counted as separate donor animals. No new Earth panel or marker endpoint passes the full new BH family.
+
+Same-anatomy flight comparisons use an additional common retained-gene panel definition. Every component is exported, and direction screens require consistent signs plus support in every component. No panel passes the complete-family direction screen. There is no justified pooled causal meta-analysis across these nonexchangeable mission-duration, collection, sex/strain and anatomical contexts. Regions and repeated source animals are not independent mission replications.
+
+## Completeness and independent verification
+
+There are 1,488 effect/screen rows and 1,047 finite probabilities in one complete exploratory BH/BY family. 30 rows pass BH and 0 pass BY. These include correlated sensitivity versions of the same data and must not be reported as independent biological discoveries. Unavailable probabilities remain unavailable. No new favorable gene subset or panel was selected.
+
+The independent verifier passed 1337 checks, including reconstruction from raw processed source counts, an alternative geometric-ratio normalization calculation, direct group/dense-regression effects, matrix HC3 sandwich uncertainty, independently constructed restricted-null wild draws for the main and equal-age Circadian effects, SciPy BH/BY reference corrections and source hashes. This establishes internal numerical consistency, not biological causality.
+
+Bootstraps and wild inference hold the normalized expression matrix fixed. They propagate animal sampling and model uncertainty conditional on that preprocessing, not re-estimation of the normalization reference or unknown collection variables. Joint normalization/anchor resampling is addressed separately in the original analysis.
+
+## Reproduction and outputs
+
+Run prepare_external_metadata.py, run_biological_validation.py, verify_biological_validation.py and build_biological_report.py using a scientific environment with NumPy, pandas, SciPy, matplotlib and Pillow and BLAS thread limits of one. The execution in this workspace used the bundled Python with PYTHONPATH=/tmp/p1_completion_py; that temporary path is not a required dependency of the scripts. Their source-data manifest uses paths relative to the analysis root, so the whole analysis directory can be moved. The external acquisition folder and seven original inputs are dependencies. run_configuration.json stores the 99,999 wild draws, 2,000 bootstraps and fixed seed. source_hashes.json and external_source_hashes.json record input provenance. No manuscript or sealed package is edited by these scripts.
+
+Full outputs are all_biological_effects.csv, endpoint_availability.csv, all_animal_endpoint_scores.csv, design_cell_support.csv, all_animal_omissions.csv, all_gene_omissions.csv, all_omission_summaries.csv, harmonized_flight_panel_effects.csv, harmonized_panel_direction_screen.csv and all_cross_context_effect_differences.csv. Source IDs, unavailable effects, missing panel genes, metadata support and every unfavorable result are retained.
+
+## Figure legends
+
+Figure biological robustness. (a,b) Circadian flight-by-collection estimates in hippocampus and cerebellum under additive age, each age separately and equal-age averaging, before and after fixed erythroid-score adjustment. Lines are stratified whole-animal percentile-bootstrap intervals. (c) Additional residual variance associated with the seven-marker score after the original complete design, for all eight panels. (d) Maximum relative coefficient change from every one-animal or one-gene omission in the full additive-age design; these dependence summaries are not confidence intervals. The marker covariate cannot identify contamination, cell fractions or causal mediation. All tests and sensitivity failures share the complete new family.
+
+Figure external biological context. (a) All eight panels in independent RR-3 bulk Brain (three flight and three ground animals); complete RIN sensitivities remain in tables. (b) All eight panel radiation-by-unloading interactions in the Earth brain factorial experiment at each collection time and their equal-time average. (c) All eight panels in Earth hippocampal radiation contexts, using pooled libraries as independent units; Si28 displays the NASA-retained primary pools. (d) Direction consistency of common-gene panels across every original same-anatomy flight context; mixed signs and unsupported intersections are retained. Direction consistency is not replicated significance: no screen passes the complete family. Earth perturbations and bulk Brain are not treated as hippocampal/cerebellar flight replication. Lines are bootstrap intervals; all results, dose comparisons, technical sensitivities and unavailable uncertainties remain in the complete tables.

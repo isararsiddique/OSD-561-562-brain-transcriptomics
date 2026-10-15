@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "checks_passed": 28,
+  "checks": [
+    {
+      "check": "all frozen input sizes and SHA256 hashes match",
+      "status": "PASS"
+    },
+    {
+      "check": "26 distinct animal sources; 9 flight, 9 habitat, 8 vivarium",
+      "status": "PASS"
+    },
+    {
+      "check": "29 official-MD5-matching libraries collapse to 26 samples",
+      "status": "PASS"
+    },
+    {
+      "check": "every collapsed animal count total matches its source-library sum",
+      "status": "PASS"
+    },
+    {
+      "check": "all saved fractions equal independent raw-count ratios",
+      "status": "PASS"
+    },
+    {
+      "check": "pooled measurement gates require all 26 animals",
+      "status": "PASS"
+    },
+    {
+      "check": "all first junctions sort before their paired alternatives",
+      "status": "PASS"
+    },
+    {
+      "check": "both donor and acceptor boundaries follow saved coordinates",
+      "status": "PASS"
+    },
+    {
+      "check": "event multiplicity retains all definitions in all three contrasts",
+      "status": "PASS"
+    },
+    {
+      "check": "joint BH matches an independent SciPy implementation",
+      "status": "PASS"
+    },
+    {
+      "check": "joint BY matches an independent SciPy implementation",
+      "status": "PASS"
+    },
+    {
+      "check": "unmeasured events retain p=1 in correction family",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_GC: four exact event p values match separate subset enumeration",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_GC: exact global p and squared distance match independent scalar calculation",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_GC: exact label space agrees with group sizes",
+      "status": "PASS"
+    },
+    {
+      "check": "GC_minus_VIV: four exact event p values match separate subset enumeration",
+      "status": "PASS"
+    },
+    {
+      "check": "GC_minus_VIV: exact global p and squared distance match independent scalar calculation",
+      "status": "PASS"
+    },
+    {
+      "check": "GC_minus_VIV: exact label space agrees with group sizes",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_VIV: four exact event p values match separate subset enumeration",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_VIV: exact global p and squared distance match independent scalar calculation",
+      "status": "PASS"
+    },
+    {
+      "check": "FLT_minus_VIV: exact label space agrees with group sizes",
+      "status": "PASS"
+    },
+    {
+      "check": "global Holm values agree with a separately sorted calculation",
+      "status": "PASS"
+    },
+    {
+      "check": "flight date is aliased while both ground groups share a date",
+      "status": "PASS"
+    },
+    {
+      "check": "126 control partitions contain disjoint 4/5 biological samples",
+      "status": "PASS"
+    },
+    {
+      "check": "all 10 thinning replicates report every global comparison",
+      "status": "PASS"
+    },
+    {
+      "check": "animal QC depth joins are aligned by sample ID",
+      "status": "PASS"
+    },
+    {
+      "check": "summary matches observed family and global discovery counts",
+      "status": "PASS"
+    },
+    {
+      "check": "correlated-feature exact null controls nominal rejection frequency",
+      "status": "PASS"
+    }
+  ],
+  "limitation": "Arithmetic, source provenance and randomization checks do not establish causality, functional injury, full isoform identity or cross-launch replication."
+}

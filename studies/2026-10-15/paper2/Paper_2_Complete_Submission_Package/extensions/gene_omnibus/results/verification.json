@@ -1,0 +1,211 @@
+{
+  "checks_passed": 31,
+  "checks": [
+    {
+      "name": "Input hashes match manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unique gene universe selected without outcome significance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Complete three-contrast family and unsuccessful tests retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every gene occurs once per contrast",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Event count matches whole pooled observable gene universe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Joint BH matches independent manual adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Joint BY matches independent manual adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SciPy BH and BY separately reproduce saved results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 3567 single-event gene tests reproduce independently fitted event p values",
+      "passed": true,
+      "detail": {
+        "verification_only_event_result_sha256": "3ce2483fd6fcc60338e20010b4a37f4db8d8bad3a354110a7bed834ff8d39686"
+      }
+    },
+    {
+      "name": "FLT_minus_GC: all exact allocations enumerated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_GC: within-family adjustments independent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_GC ENSMUSG00000027346: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 3,
+        "p": 4.113533525298231e-05,
+        "exceedances": 2
+      }
+    },
+    {
+      "name": "FLT_minus_GC ENSMUSG00000028649: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 12,
+        "p": 0.0004936240230357877,
+        "exceedances": 24
+      }
+    },
+    {
+      "name": "FLT_minus_GC ENSMUSG00000066057: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.17634718222953516,
+        "exceedances": 8574
+      }
+    },
+    {
+      "name": "FLT_minus_GC ENSMUSG00000042831: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.9988893459481695,
+        "exceedances": 48566
+      }
+    },
+    {
+      "name": "FLT_minus_VIV: all exact allocations enumerated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_VIV: within-family adjustments independent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_VIV ENSMUSG00000039782: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 3,
+        "p": 8.227067050596462e-05,
+        "exceedances": 2
+      }
+    },
+    {
+      "name": "FLT_minus_VIV ENSMUSG00000028649: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 12,
+        "p": 0.0667215137803373,
+        "exceedances": 1622
+      }
+    },
+    {
+      "name": "FLT_minus_VIV ENSMUSG00000021037: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.36248457424928016,
+        "exceedances": 8812
+      }
+    },
+    {
+      "name": "FLT_minus_VIV ENSMUSG00000003279: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.9997120526532292,
+        "exceedances": 24303
+      }
+    },
+    {
+      "name": "GC_minus_VIV: all exact allocations enumerated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GC_minus_VIV: within-family adjustments independent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GC_minus_VIV ENSMUSG00000052917: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.00012340600575894693,
+        "exceedances": 3
+      }
+    },
+    {
+      "name": "GC_minus_VIV ENSMUSG00000028649: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 12,
+        "p": 0.07449609214315096,
+        "exceedances": 1811
+      }
+    },
+    {
+      "name": "GC_minus_VIV ENSMUSG00000098912: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 0.34273961332784864,
+        "exceedances": 8332
+      }
+    },
+    {
+      "name": "GC_minus_VIV ENSMUSG00000037674: independent direct vector allocation",
+      "passed": true,
+      "detail": {
+        "events": 1,
+        "p": 1.0,
+        "exceedances": 24310
+      }
+    },
+    {
+      "name": "Duplicating all correlated event coordinates preserves omnibus p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Uniform scaling preserves exact p",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Constant animal vectors yield p=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Collection-date alias disclosed and not adjusted away",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "analysis_result_sha256": "05e245d09de05eda639db827bcd436324368deaeadee3cc2a534723b38de9e85"
+}

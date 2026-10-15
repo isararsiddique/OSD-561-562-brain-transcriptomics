@@ -1,0 +1,127 @@
+[
+  {
+    "relative_path": "inputs/provenance.json",
+    "bytes": 11711,
+    "SHA256": "69cd27a81cb799ce8c47efc809bdd4f1f7bdc58d98f0dacfbae1c6d2eb5b0697"
+  },
+  {
+    "relative_path": "inputs/upstream_count_provenance.json",
+    "bytes": 1591,
+    "SHA256": "0b7fbbc536938fe812a5fe20fc3cdb3e97daad2a10668840c05e2a7db971d3d9"
+  },
+  {
+    "relative_path": "inputs/gene_annotation.csv.gz",
+    "bytes": 468984,
+    "SHA256": "9ea160bccfb9d370e769d2972751533d85a0393d0c65041c6946f249ce57a5d4"
+  },
+  {
+    "relative_path": "inputs/upstream_OSD-561_STAR.csv.gz",
+    "bytes": 1220601,
+    "SHA256": "40fb7d433c45565568b04f96bee296bf46241accbb5c932a38592c491588365a"
+  },
+  {
+    "relative_path": "inputs/upstream_OSD-562_STAR.csv.gz",
+    "bytes": 1266126,
+    "SHA256": "ef12fb8543703585acf0e2c8bff5f79fe15f6a26df6812b845fc1de1b031a468"
+  },
+  {
+    "relative_path": "results/regional_gene_replication.csv.gz",
+    "bytes": 3922374,
+    "SHA256": "ad2dfb53490dcf9ff3011eb29a1f4668a17b317b7bed4834b197f2b3daba2462"
+  },
+  {
+    "relative_path": "extensions/flight_collection_interaction/gene_flight_collection_interactions_exploratory.csv.gz",
+    "bytes": 8090655,
+    "SHA256": "9fb0eee561046b32ed7466e30f9a5f114cbe51871a69648a6bf5afdeb744b65a"
+  },
+  {
+    "relative_path": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv",
+    "bytes": 11207,
+    "SHA256": "6993a60499622f9f37b7457e00cffb3e1f3adda672424c99880bdd92a62cd60a"
+  },
+  {
+    "relative_path": "extensions/ground_holdout/holdout_summary.csv",
+    "bytes": 10703,
+    "SHA256": "bc8640c59f443a79afe3a20470033ba65adaaf0c0fc16b9321a6b8ab981b860f"
+  },
+  {
+    "relative_path": "extensions/ground_holdout/holdout_split_results.csv",
+    "bytes": 475693,
+    "SHA256": "69ca0b933d8dd3267fcfafa6def6d3d3d0a5422a128297ac652660767989e165"
+  },
+  {
+    "relative_path": "extensions/ground_holdout/split_animal_roles.csv",
+    "bytes": 211643,
+    "SHA256": "e6bdeee9d2ca9a29b3d2c804360eef458ef7bc4dcb87577675dd02089a9e022a"
+  },
+  {
+    "relative_path": "inputs/OSD-525_counts.csv.gz",
+    "bytes": 1452786,
+    "SHA256": "75334d0a66ea399644f68fbf588eece26dc3d2750d231853d620017da93747fd"
+  },
+  {
+    "relative_path": "inputs/OSD-525_metadata.csv.gz",
+    "bytes": 1994,
+    "SHA256": "0ad58bced101b6a67c5e5112729d1da5fd54fe4f0647c4642546538c48ec4ead"
+  },
+  {
+    "relative_path": "inputs/OSD-561_counts.csv.gz",
+    "bytes": 1220601,
+    "SHA256": "40fb7d433c45565568b04f96bee296bf46241accbb5c932a38592c491588365a"
+  },
+  {
+    "relative_path": "inputs/OSD-561_metadata.csv.gz",
+    "bytes": 2245,
+    "SHA256": "1dedc6cb6486c614dd1ad7fc95d6055fca2de4e96333ab33f4f8ca6c96b49313"
+  },
+  {
+    "relative_path": "inputs/OSD-562_counts.csv.gz",
+    "bytes": 1266126,
+    "SHA256": "ef12fb8543703585acf0e2c8bff5f79fe15f6a26df6812b845fc1de1b031a468"
+  },
+  {
+    "relative_path": "inputs/OSD-562_metadata.csv.gz",
+    "bytes": 2285,
+    "SHA256": "905c84ebadcf33ddf5c1592099b3c6025400feca78bd7c986e391138fffbb63d"
+  },
+  {
+    "relative_path": "inputs/OSD-613_counts.csv.gz",
+    "bytes": 1034365,
+    "SHA256": "763ac399f8bb202a886d9ad263080b346da1bc82896355982d1d7441ac12cd67"
+  },
+  {
+    "relative_path": "inputs/OSD-613_metadata.csv.gz",
+    "bytes": 1444,
+    "SHA256": "5f9c369db38861576aa85b9ec8fe891f038c9db5a019ab193e7ace84d4e0c252"
+  },
+  {
+    "relative_path": "inputs/OSD-563_counts.csv.gz",
+    "bytes": 647161,
+    "SHA256": "14c29ce916ca0c2191a1304af23928170943b5210a9680a3fd6d5b6af16d6b99"
+  },
+  {
+    "relative_path": "inputs/OSD-563_metadata.csv.gz",
+    "bytes": 1560,
+    "SHA256": "aaeb6f6704f2d748c8e0ccd676b46a667e4b04e6132b8d3d1995558e3541e1e1"
+  },
+  {
+    "relative_path": "inputs/OSD-564_counts.csv.gz",
+    "bytes": 644156,
+    "SHA256": "a03c0ed47ce2aef129438e51093876ef80f7d967fa561cf48bcc14f1e5d994b7"
+  },
+  {
+    "relative_path": "inputs/OSD-564_metadata.csv.gz",
+    "bytes": 1578,
+    "SHA256": "2bcda4ffe6e0055c71cb1e649eb58ddaae148b3c6251bae2657567345dcf9f03"
+  },
+  {
+    "relative_path": "inputs/OSD-612_counts.csv.gz",
+    "bytes": 617514,
+    "SHA256": "144673cfe1eaec1b883b626dbb31017f205bdca60781016f95a9a3a9a96056f4"
+  },
+  {
+    "relative_path": "inputs/OSD-612_metadata.csv.gz",
+    "bytes": 1364,
+    "SHA256": "b4bcbb39ca82dc850ef886f07ff3bf6e03777df6b9955084b986474b98848e10"
+  }
+]

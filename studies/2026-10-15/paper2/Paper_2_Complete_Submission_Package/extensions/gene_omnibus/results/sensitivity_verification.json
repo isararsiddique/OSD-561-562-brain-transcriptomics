@@ -1,0 +1,97 @@
+{
+  "checks_passed": 18,
+  "checks": [
+    {
+      "name": "95% universe is label-invariant measurement restriction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Original 5949-test family retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All unmeasured genes retained at p=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent manual BH/BY reproduce sensitivity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_GC Hnrnpa2b1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_GC Rps6kb1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_VIV Hnrnpa2b1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FLT_minus_VIV Rps6kb1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GC_minus_VIV Hnrnpa2b1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GC_minus_VIV Rps6kb1: direct sensitivity allocation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 1983 genes under all 18 animal omissions retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No leave-one-out p or q values computed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000055720/RR23_Cb_FLT_F3: independent pandas means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000031540/RR23_Cb_GC_G3: independent pandas means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000021668/RR23_Cb_FLT_F1_techrep1: independent pandas means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000033014/RR23_Cb_FLT_F6: independent pandas means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000027200/RR23_Cb_FLT_F1_techrep1: independent pandas means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "LOO ENSMUSG00000042831/RR23_Cb_GC_G6: independent pandas means",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "sensitivity_result_sha256": "b22209543819d02b4ba350bee9c79e288c6a86d5b4198daa31ad07ef92b77f67",
+  "loo_result_sha256": "8f9db1fa54b1b7b043a98867f39011e3fc42c127ee95de0bad693927dbeb58bc"
+}

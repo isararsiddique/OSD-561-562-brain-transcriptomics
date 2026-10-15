@@ -1,0 +1,20 @@
+{
+  "query": "TITLE_ABS:(spaceflight OR microgravity) AND TITLE_ABS:(brain OR cerebellum) AND TITLE_ABS:(splicing OR \"RNA processing\")",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%28spaceflight+OR+microgravity%29+AND+TITLE_ABS%3A%28brain+OR+cerebellum%29+AND+TITLE_ABS%3A%28splicing+OR+%22RNA+processing%22%29&format=json&resultType=core&pageSize=100",
+  "retrieved_date": "2026-10-15",
+  "response": {
+    "version": "6.9",
+    "hitCount": 0,
+    "request": {
+      "queryString": "TITLE_ABS:(spaceflight OR microgravity) AND TITLE_ABS:(brain OR cerebellum) AND TITLE_ABS:(splicing OR \"RNA processing\")",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 100,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": []
+    }
+  }
+}

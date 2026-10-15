@@ -1,0 +1,16 @@
+[
+  {
+    "file": "GLDS-556_rna_seq_software_versions_GLbulkRNAseq.md",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-561/download?source=datamanager&file=GLDS-556_rna_seq_software_versions_GLbulkRNAseq.md",
+    "md5": "aa54fe939847da96e78f67516f8cbe5a",
+    "publisher_md5_matches": true,
+    "sha256": "221694bf64d0c550b615ada76419f1adac8bd24809c73c73d937b60311130b4a"
+  },
+  {
+    "file": "GLDS-556_rna_seq_processing_info_GLbulkRNAseq.zip",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-561/download?source=datamanager&file=GLDS-556_rna_seq_processing_info_GLbulkRNAseq.zip",
+    "md5": "20cfa13c2d336f0d4dde6773793243db",
+    "publisher_md5_matches": true,
+    "sha256": "c499d62e4f9214a10a7fab145df3d796dd1abcdb5703bc3ba5339cd42de626ff"
+  }
+]

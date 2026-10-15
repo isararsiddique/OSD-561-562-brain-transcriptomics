@@ -1,0 +1,10 @@
+{
+  "portable_layout_check_passed": true,
+  "layout": "beta/extensions/independent_validation; --base ../..",
+  "external_source_repository_needed": false,
+  "frozen_RRRM2_inputs_inside_extension": true,
+  "required_beta_files": 5,
+  "complete_summary_identical": true,
+  "independent_checks_passed_in_copied_layout": true,
+  "temporary_copy_removed": true
+}

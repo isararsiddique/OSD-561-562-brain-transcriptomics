@@ -1,0 +1,1089 @@
+{
+  "doi": "10.1038/s41467-024-48988-6",
+  "url": "https://api.crossref.org/works/10.1038%2Fs41467-024-48988-6",
+  "retrieved_date": "2026-10-15",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T15:35:55Z",
+        "timestamp": 1787240155758,
+        "version": "build-2736575974"
+      },
+      "reference-count": 51,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2024-05-30T00:00:00Z",
+            "timestamp": 1717027200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2024-05-30T00:00:00Z",
+            "timestamp": 1717027200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000002",
+          "name": "U.S. Department of Health & Human Services | National Institutes of Health",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "R01GM098535"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM098535"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "U.S. Department of Health & Human Services | National Institutes of Health",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "R01CA193318"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01CA193318"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "U.S. Department of Health & Human Services | National Institutes of Health"
+        },
+        {
+          "DOI": "10.13039/100000048",
+          "name": "American Cancer Society",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "RSG-13-212-01-DMC"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RSG-13-212-01-DMC"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000048",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100011912",
+          "name": "WUSTL | Washington University School of Medicine in St. Louis",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "5124"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5124"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100011912",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "82272984"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "82272984"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Nat Commun"
+      ],
+      "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    The protection of the replication fork structure under stress conditions is essential for genome maintenance and cancer prevention. A key signaling pathway for fork protection involves TRPV2-mediated Ca\n                    <jats:sup>2+</jats:sup>\n                    release from the ER, which is triggered after the generation of cytosolic DNA and the activation of cGAS/STING. This results in CaMKK2/AMPK activation and subsequent Exo1 phosphorylation, which prevent aberrant fork processing, thereby ensuring genome stability. However, it remains poorly understood how the TRPV2 channel is activated by the presence of cytosolic DNA. Here, through a genome-wide CRISPR-based screen, we identify TRPM8 channel-associated factor 1 (TCAF1) as a key factor promoting TRPV2-mediated Ca\n                    <jats:sup>2+</jats:sup>\n                    release under replication stress or other conditions that activate cGAS/STING. Mechanistically, TCAF1 assists Ca\n                    <jats:sup>2+</jats:sup>\n                    release by facilitating the dissociation of STING from TRPV2, thereby relieving TRPV2 repression. Consistent with this function, TCAF1 is required for fork protection, chromosomal stability, and cell survival after replication stress.\n                  </jats:p>",
+      "DOI": "10.1038/s41467-024-48988-6",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            30
+          ]
+        ],
+        "date-time": "2024-05-30T08:02:09Z",
+        "timestamp": 1717056129000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "title": [
+        "TCAF1 promotes TRPV2-mediated Ca2+ release in response to cytosolic DNA to protect stressed replication forks"
+      ],
+      "prefix": "10.1038",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Lingzhen",
+          "family": "Kong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8992-2380",
+          "authenticated-orcid": false,
+          "given": "Chen",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abigael",
+          "family": "Cheruiyot",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0121-4990",
+          "authenticated-orcid": false,
+          "given": "Jiayi",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-2860-030X",
+          "authenticated-orcid": false,
+          "given": "Yichan",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-8814-4530",
+          "authenticated-orcid": false,
+          "given": "Sydney",
+          "family": "Hwang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0691-9267",
+          "authenticated-orcid": false,
+          "given": "Daniel",
+          "family": "Foust",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ning",
+          "family": "Tsao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Wilkerson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5453-5914",
+          "authenticated-orcid": false,
+          "given": "Nima",
+          "family": "Mosammaparast",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6753-8513",
+          "authenticated-orcid": false,
+          "given": "Michael B.",
+          "family": "Major",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1200-3116",
+          "authenticated-orcid": false,
+          "given": "David W.",
+          "family": "Piston",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2146-2453",
+          "authenticated-orcid": false,
+          "given": "Shan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9719-8791",
+          "authenticated-orcid": false,
+          "given": "Zhongsheng",
+          "family": "You",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "48988_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "2",
+          "DOI": "10.1038/ncb2897",
+          "volume": "16",
+          "author": "MK Zeman",
+          "year": "2014",
+          "unstructured": "Zeman, M. K. & Cimprich, K. A. Causes and consequences of replication stress. Nat. Cell Biol. 16, 2\u20139 (2014).",
+          "journal-title": "Nat. Cell Biol."
+        },
+        {
+          "key": "48988_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "644",
+          "DOI": "10.1016/j.cell.2017.01.002",
+          "volume": "168",
+          "author": "A Tubbs",
+          "year": "2017",
+          "unstructured": "Tubbs, A. & Nussenzweig, A. Endogenous DNA Damage as a Source of Genomic Instability in Cancer. Cell 168, 644\u2013656 (2017).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "48988_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "6",
+          "DOI": "10.1038/s41568-022-00518-6",
+          "volume": "23",
+          "author": "E Cybulla",
+          "year": "2023",
+          "unstructured": "Cybulla, E. & Vindigni, A. Leveraging the replication stress response to optimize cancer therapy. Nat. Rev. Cancer 23, 6\u201324 (2023).",
+          "journal-title": "Nat. Rev. Cancer"
+        },
+        {
+          "key": "48988_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "633",
+          "DOI": "10.1038/s41580-020-0257-5",
+          "volume": "21",
+          "author": "M Berti",
+          "year": "2020",
+          "unstructured": "Berti, M., Cortez, D. & Lopes, M. The plasticity of DNA replication forks in response to clinically relevant genotoxic stress. Nat. Rev. Mol. Cell Biol. 21, 633\u2013651 (2020).",
+          "journal-title": "Nat. Rev. Mol. Cell Biol."
+        },
+        {
+          "key": "48988_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "7224",
+          "DOI": "10.1093/nar/gkab344",
+          "volume": "49",
+          "author": "T Thakar",
+          "year": "2021",
+          "unstructured": "Thakar, T. & Moldovan, G. L. The emerging determinants of replication fork stability. Nucleic Acids Res 49, 7224\u20137238 (2021).",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "48988_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "106",
+          "DOI": "10.1016/j.ccr.2012.05.015",
+          "volume": "22",
+          "author": "K Schlacher",
+          "year": "2012",
+          "unstructured": "Schlacher, K., Wu, H. & Jasin, M. A distinct replication fork protection pathway connects Fanconi anemia tumor suppressors to RAD51-BRCA1/2. Cancer Cell 22, 106\u2013116 (2012).",
+          "journal-title": "Cancer Cell"
+        },
+        {
+          "key": "48988_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "529",
+          "DOI": "10.1016/j.cell.2011.03.041",
+          "volume": "145",
+          "author": "K Schlacher",
+          "year": "2011",
+          "unstructured": "Schlacher, K. et al. Double-strand break repair-independent role for BRCA2 in blocking stalled replication fork degradation by MRE11. Cell 145, 529\u2013542 (2011).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "48988_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "462",
+          "DOI": "10.1016/j.molcel.2015.06.007",
+          "volume": "59",
+          "author": "MR Higgs",
+          "year": "2015",
+          "unstructured": "Higgs, M. R. et al. BOD1L Is Required to Suppress Deleterious Resection of Stressed Replication Forks. Mol. Cell 59, 462\u2013477 (2015).",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "48988_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "538",
+          "DOI": "10.1016/j.celrep.2018.06.061",
+          "volume": "24",
+          "author": "KP Bhat",
+          "year": "2018",
+          "unstructured": "Bhat, K. P. et al. RADX Modulates RAD51 Activity to Control Replication Fork Protection. Cell Rep. 24, 538\u2013545 (2018).",
+          "journal-title": "Cell Rep."
+        },
+        {
+          "key": "48988_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "1540",
+          "DOI": "10.4161/cc.28476",
+          "volume": "13",
+          "author": "KK Karanja",
+          "year": "2014",
+          "unstructured": "Karanja, K. K., Lee, E. H., Hendrickson, E. A. & Campbell, J. L. Preventing over-resection by DNA2 helicase/nuclease suppresses repair defects in Fanconi anemia cells. Cell cycle 13, 1540\u20131550 (2014).",
+          "journal-title": "Cell cycle"
+        },
+        {
+          "key": "48988_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "1096",
+          "DOI": "10.1083/jcb.201809012",
+          "volume": "218",
+          "author": "K Rickman",
+          "year": "2019",
+          "unstructured": "Rickman, K. & Smogorzewska, A. Advances in understanding DNA processing and protection at stalled replication forks. J. Cell Biol. 218, 1096\u20131107 (2019).",
+          "journal-title": "J. Cell Biol."
+        },
+        {
+          "key": "48988_CR12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2022.102215",
+          "volume": "298",
+          "author": "Z Yang",
+          "year": "2022",
+          "unstructured": "Yang, Z. et al. Context-dependent pro- and anti-resection roles of ZKSCAN3 in the regulation of fork processing during replication stress. J. Biol. Chem. 298, 102215 (2022).",
+          "journal-title": "J. Biol. Chem."
+        },
+        {
+          "key": "48988_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "153",
+          "DOI": "10.1016/j.molcel.2004.11.032",
+          "volume": "17",
+          "author": "C Cotta-Ramusino",
+          "year": "2005",
+          "unstructured": "Cotta-Ramusino, C. et al. Exo1 processes stalled replication forks and counteracts fork reversal in checkpoint-defective cells. Mol. Cell 17, 153\u2013159 (2005).",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "48988_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "1816",
+          "DOI": "10.1101/gad.477208",
+          "volume": "22",
+          "author": "M Segurado",
+          "year": "2008",
+          "unstructured": "Segurado, M. & Diffley, J. F. Separate roles for the DNA damage checkpoint protein kinases in stabilizing DNA replication forks. Genes Dev. 22, 1816\u20131827 (2008).",
+          "journal-title": "Genes Dev."
+        },
+        {
+          "key": "48988_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "511",
+          "DOI": "10.1093/nar/gkm1052",
+          "volume": "36",
+          "author": "M El-Shemerly",
+          "year": "2008",
+          "unstructured": "El-Shemerly, M., Hess, D., Pyakurel, A. K., Moselhy, S. & Ferrari, S. ATR-dependent pathways control hEXO1 stability in response to stalled forks. Nucleic acids Res. 36, 511\u2013519 (2008).",
+          "journal-title": "Nucleic acids Res."
+        },
+        {
+          "key": "48988_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "622",
+          "DOI": "10.1038/nrm.2017.67",
+          "volume": "18",
+          "author": "JC Saldivar",
+          "year": "2017",
+          "unstructured": "Saldivar, J. C., Cortez, D. & Cimprich, K. A. The essential kinase ATR: ensuring faithful duplication of a challenging genome. Nat. Rev. Mol. Cell Biol. 18, 622\u2013636 (2017).",
+          "journal-title": "Nat. Rev. Mol. Cell Biol."
+        },
+        {
+          "key": "48988_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yazinski, S. A. & Zou, L. Functions, Regulation, and Therapeutic Implications of the ATR Checkpoint Pathway. Annu. Rev. Genet. 50, 155\u2013173 (2016).",
+          "DOI": "10.1146/annurev-genet-121415-121658"
+        },
+        {
+          "key": "48988_CR18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2023.112792",
+          "volume": "42",
+          "author": "W Leung",
+          "year": "2023",
+          "unstructured": "Leung, W. et al. ATR protects ongoing and newly assembled DNA replication forks through distinct mechanisms. Cell Rep. 42, 112792 (2023).",
+          "journal-title": "Cell Rep."
+        },
+        {
+          "key": "48988_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "1123",
+          "DOI": "10.1016/j.molcel.2019.04.003",
+          "volume": "74",
+          "author": "S Li",
+          "year": "2019",
+          "unstructured": "Li, S. et al. Ca(2+)-Stimulated AMPK-Dependent Phosphorylation of Exo1 Protects Stressed Replication Forks from Aberrant Resection. Mol. Cell 74, 1123\u20131137.e1126 (2019).",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "48988_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "556",
+          "DOI": "10.1016/j.molcel.2022.12.034",
+          "volume": "83",
+          "author": "S Li",
+          "year": "2023",
+          "unstructured": "Li, S. et al. Cytosolic DNA sensing by cGAS/STING promotes TRPV2-mediated Ca(2+) release to protect stressed replication forks. Mol. Cell 83, 556\u2013573.e557 (2023).",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "48988_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "786",
+          "DOI": "10.1126/science.1232458",
+          "volume": "339",
+          "author": "L Sun",
+          "year": "2013",
+          "unstructured": "Sun, L., Wu, J., Du, F., Chen, X. & Chen, Z. J. Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway. Science 339, 786\u2013791 (2013).",
+          "journal-title": "Science"
+        },
+        {
+          "key": "48988_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "1094",
+          "DOI": "10.1016/j.cell.2013.04.046",
+          "volume": "153",
+          "author": "P Gao",
+          "year": "2013",
+          "unstructured": "Gao, P. et al. Cyclic [G(2\u2019,5\u2019)pA(3\u2019,5\u2019)p] is the metazoan second messenger produced by DNA-activated cyclic GMP-AMP synthase. Cell 153, 1094\u20131107 (2013).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "48988_CR23",
+          "doi-asserted-by": "publisher",
+          "first-page": "380",
+          "DOI": "10.1038/nature12306",
+          "volume": "498",
+          "author": "A Ablasser",
+          "year": "2013",
+          "unstructured": "Ablasser, A. et al. cGAS produces a 2\u2019-5\u2019-linked cyclic dinucleotide second messenger that activates STING. Nature 498, 380\u2013384 (2013).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "48988_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "11579",
+          "DOI": "10.1074/jbc.M111.336032",
+          "volume": "287",
+          "author": "L Racioppi",
+          "year": "2012",
+          "unstructured": "Racioppi, L., Noeldner, P. K., Lin, F., Arvai, S. & Means, A. R. Calcium/calmodulin-dependent protein kinase kinase 2 regulates macrophage-mediated inflammatory responses. J. Biol. Chem. 287, 11579\u201311591 (2012).",
+          "journal-title": "J. Biol. Chem."
+        },
+        {
+          "key": "48988_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "9",
+          "DOI": "10.1016/j.cmet.2005.05.009",
+          "volume": "2",
+          "author": "SA Hawley",
+          "year": "2005",
+          "unstructured": "Hawley, S. A. et al. Calmodulin-dependent protein kinase kinase-beta is an alternative upstream kinase for AMP-activated protein kinase. Cell Metab. 2, 9\u201319 (2005).",
+          "journal-title": "Cell Metab."
+        },
+        {
+          "key": "48988_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "29060",
+          "DOI": "10.1074/jbc.M503824200",
+          "volume": "280",
+          "author": "RL Hurley",
+          "year": "2005",
+          "unstructured": "Hurley, R. L. et al. The Ca2+/calmodulin-dependent protein kinase kinases are AMP-activated protein kinase kinases. J. Biol. Chem. 280, 29060\u201329066 (2005).",
+          "journal-title": "J. Biol. Chem."
+        },
+        {
+          "key": "48988_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "21",
+          "DOI": "10.1016/j.cmet.2005.06.005",
+          "volume": "2",
+          "author": "A Woods",
+          "year": "2005",
+          "unstructured": "Woods, A. et al. Ca2+/calmodulin-dependent protein kinase kinase-beta acts upstream of AMP-activated protein kinase in mammalian cells. Cell Metab. 2, 21\u201333 (2005).",
+          "journal-title": "Cell Metab."
+        },
+        {
+          "key": "48988_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "12300",
+          "DOI": "10.1074/jbc.M115.644005",
+          "volume": "290",
+          "author": "X Chen",
+          "year": "2015",
+          "unstructured": "Chen, X. et al. 14-3-3 proteins restrain the exo1 nuclease to prevent overresection. J. Biol. Chem. 290, 12300\u201312312 (2015).",
+          "journal-title": "J. Biol. Chem."
+        },
+        {
+          "key": "48988_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "89",
+          "DOI": "10.1083/jcb.201402076",
+          "volume": "208",
+          "author": "D Gkika",
+          "year": "2015",
+          "unstructured": "Gkika, D. et al. TRP channel-associated factors are a novel protein family that regulates TRPM8 trafficking and activity. J. Cell Biol. 208, 89\u2013107 (2015).",
+          "journal-title": "J. Cell Biol."
+        },
+        {
+          "key": "48988_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "783",
+          "DOI": "10.1038/nmeth.3047",
+          "volume": "11",
+          "author": "NE Sanjana",
+          "year": "2014",
+          "unstructured": "Sanjana, N. E., Shalem, O. & Zhang, F. Improved vectors and genome-wide libraries for CRISPR screening. Nat. Methods 11, 783\u2013784 (2014).",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "48988_CR31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0554-4",
+          "volume": "15",
+          "author": "W Li",
+          "year": "2014",
+          "unstructured": "Li, W. et al. MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens. Genome Biol. 15, 554 (2014).",
+          "journal-title": "Genome Biol."
+        },
+        {
+          "key": "48988_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "55",
+          "DOI": "10.1016/bs.mie.2017.03.019",
+          "volume": "591",
+          "author": "A Quinet",
+          "year": "2017",
+          "unstructured": "Quinet, A., Carvajal-Maldonado, D., Lemacon, D. & Vindigni, A. DNA Fiber Analysis: Mind the Gap! Methods Enzymol. 591, 55\u201382 (2017).",
+          "journal-title": "Methods Enzymol."
+        },
+        {
+          "key": "48988_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "568",
+          "DOI": "10.1016/j.molcel.2018.09.014",
+          "volume": "72",
+          "author": "S Przetocka",
+          "year": "2018",
+          "unstructured": "Przetocka, S. et al. CtIP-Mediated Fork Protection Synergizes with BRCA1 to Suppress Genomic Instability upon DNA Replication Stress. Mol. Cell 72, 568\u2013582.e566 (2018).",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "48988_CR34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-01180-5",
+          "volume": "8",
+          "author": "D Lemacon",
+          "year": "2017",
+          "unstructured": "Lemacon, D. et al. MRE11 and EXO1 nucleases degrade reversed forks and elicit MUS81-dependent fork rescue in BRCA2-deficient cells. Nat. Commun. 8, 860 (2017).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "48988_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "545",
+          "DOI": "10.1083/jcb.201406100",
+          "volume": "208",
+          "author": "S Thangavel",
+          "year": "2015",
+          "unstructured": "Thangavel, S. et al. DNA2 drives processing and restart of reversed replication forks in human cells. J. cell Biol. 208, 545\u2013562 (2015).",
+          "journal-title": "J. cell Biol."
+        },
+        {
+          "key": "48988_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "9144",
+          "DOI": "10.1093/nar/gkad624",
+          "volume": "51",
+          "author": "W Liu",
+          "year": "2023",
+          "unstructured": "Liu, W. et al. FANCD2 and RAD51 recombinase directly inhibit DNA2 nuclease at stalled replication forks and FANCD2 acts as a novel RAD51 mediator in strand exchange to promote genome stability. Nucleic Acids Res 51, 9144\u20139165 (2023).",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "48988_CR37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32756-5",
+          "volume": "13",
+          "author": "A Dhoonmoon",
+          "year": "2022",
+          "unstructured": "Dhoonmoon, A., Nicolae, C. M. & Moldovan, G. L. The KU-PARP14 axis differentially regulates DNA resection at stalled replication forks by MRE11 and EXO1. Nat. Commun. 13, 5063 (2022).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "48988_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "1154",
+          "DOI": "10.1038/s41556-022-00950-8",
+          "volume": "24",
+          "author": "A Emam",
+          "year": "2022",
+          "unstructured": "Emam, A. et al. Stalled replication fork protection limits cGAS-STING and P-body-dependent innate immune signalling. Nat. Cell Biol. 24, 1154\u20131164 (2022).",
+          "journal-title": "Nat. Cell Biol."
+        },
+        {
+          "key": "48988_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "295",
+          "DOI": "10.1038/nature12354",
+          "volume": "499",
+          "author": "TW Chen",
+          "year": "2013",
+          "unstructured": "Chen, T. W. et al. Ultrasensitive fluorescent proteins for imaging neuronal activity. Nature 499, 295\u2013300 (2013).",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "48988_CR40",
+          "doi-asserted-by": "publisher",
+          "first-page": "e0139273",
+          "DOI": "10.1371/journal.pone.0139273",
+          "volume": "10",
+          "author": "MJ Henderson",
+          "year": "2015",
+          "unstructured": "Henderson, M. J. et al. A Low Affinity GCaMP3 Variant (GCaMPer) for Imaging the Endoplasmic Reticulum Calcium Store. PLoS One 10, e0139273 (2015).",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "48988_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "824",
+          "DOI": "10.1093/hmg/ddn408",
+          "volume": "18",
+          "author": "Y Iwata",
+          "year": "2009",
+          "unstructured": "Iwata, Y., Katanosaka, Y., Arai, Y., Shigekawa, M. & Wakabayashi, S. Dominant-negative inhibition of Ca2+ influx via TRPV2 ameliorates muscular dystrophy in animal models. Hum. Mol. Genet 18, 824\u2013834 (2009).",
+          "journal-title": "Hum. Mol. Genet"
+        },
+        {
+          "key": "48988_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "675",
+          "DOI": "10.1016/j.immuni.2018.03.017",
+          "volume": "48",
+          "author": "C Wang",
+          "year": "2018",
+          "unstructured": "Wang, C. et al. Manganese Increases the Sensitivity of the cGAS-STING Pathway for Double-Stranded DNA and Is Required for the Host Defense against DNA Viruses. Immunity 48, 675\u2013687.e677 (2018).",
+          "journal-title": "Immunity"
+        },
+        {
+          "key": "48988_CR43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2020.108053",
+          "volume": "32",
+          "author": "Z Zhao",
+          "year": "2020",
+          "unstructured": "Zhao, Z. et al. Mn(2+) Directly Activates cGAS and Structural Analysis Suggests Mn(2+) Induces a Noncanonical Catalytic Synthesis of 2'3\u2019-cGAMP. Cell Rep. 32, 108053 (2020).",
+          "journal-title": "Cell Rep."
+        },
+        {
+          "key": "48988_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "670",
+          "DOI": "10.1016/j.cell.2016.11.037",
+          "volume": "168",
+          "author": "AW Lambert",
+          "year": "2017",
+          "unstructured": "Lambert, A. W., Pattabiraman, D. R. & Weinberg, R. A. Emerging Biological Principles of Metastasis. Cell 168, 670\u2013691 (2017).",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "48988_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "537",
+          "DOI": "10.1158/2159-8290.CD-17-1461",
+          "volume": "8",
+          "author": "P Kotsantis",
+          "year": "2018",
+          "unstructured": "Kotsantis, P., Petermann, E. & Boulton, S. J. Mechanisms of Oncogene-Induced Replication Stress: Jigsaw Falling into Place. Cancer Discov. 8, 537\u2013555 (2018).",
+          "journal-title": "Cancer Discov."
+        },
+        {
+          "key": "48988_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "38",
+          "DOI": "10.1038/s41573-022-00558-5",
+          "volume": "22",
+          "author": "A da Costa",
+          "year": "2023",
+          "unstructured": "da Costa, A., Chowdhury, D., Shapiro, G. I., D\u2019Andrea, A. D. & Konstantinopoulos, P. A. Targeting replication stress in cancer therapy. Nat. Rev. Drug Discov. 22, 38\u201358 (2023).",
+          "journal-title": "Nat. Rev. Drug Discov."
+        },
+        {
+          "key": "48988_CR47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-25435-4",
+          "volume": "12",
+          "author": "P Hsieh",
+          "year": "2021",
+          "unstructured": "Hsieh, P. et al. Evidence for opposing selective forces operating on human-specific duplicated TCAF genes in Neanderthals and humans. Nat. Commun. 12, 5118 (2021).",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "48988_CR48",
+          "doi-asserted-by": "publisher",
+          "first-page": "4499",
+          "DOI": "10.1158/0008-5472.CAN-20-4016",
+          "volume": "81",
+          "author": "A Cheruiyot",
+          "year": "2021",
+          "unstructured": "Cheruiyot, A. et al. Nonsense-Mediated RNA Decay Is a Unique Vulnerability of Cancer Cells Harboring SF3B1 or U2AF1 Mutations. Cancer Res 81, 4499\u20134513 (2021).",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "48988_CR49",
+          "doi-asserted-by": "publisher",
+          "first-page": "307",
+          "DOI": "10.1007/978-1-4939-9500-4_21",
+          "volume": "1999",
+          "author": "S Dhar",
+          "year": "2019",
+          "unstructured": "Dhar, S., Datta, A., Banerjee, T. & Brosh, R. M. Jr. Single-Molecule DNA Fiber Analyses to Characterize Replication Fork Dynamics in Living Cells. Methods Mol. Biol. 1999, 307\u2013318 (2019).",
+          "journal-title": "Methods Mol. Biol."
+        },
+        {
+          "key": "48988_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "417",
+          "DOI": "10.1038/nsmb.2258",
+          "volume": "19",
+          "author": "A Ray Chaudhuri",
+          "year": "2012",
+          "unstructured": "Ray Chaudhuri, A. et al. Topoisomerase I poisoning results in PARP-mediated replication fork reversal. Nat. Struct. Mol. Biol. 19, 417\u2013423 (2012).",
+          "journal-title": "Nat. Struct. Mol. Biol."
+        },
+        {
+          "key": "48988_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "9325",
+          "DOI": "10.1093/nar/gkt672",
+          "volume": "41",
+          "author": "X Chen",
+          "year": "2013",
+          "unstructured": "Chen, X., Paudyal, S. C., Chin, R. I. & You, Z. PCNA promotes processive DNA end resection by Exo1. Nucleic acids Res. 41, 9325\u20139338 (2013).",
+          "journal-title": "Nucleic acids Res."
+        }
+      ],
+      "container-title": [
+        "Nature Communications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.nature.com/articles/s41467-024-48988-6.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41467-024-48988-6",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://www.nature.com/articles/s41467-024-48988-6.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            30
+          ]
+        ],
+        "date-time": "2024-05-30T09:03:49Z",
+        "timestamp": 1717059829000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41467-024-48988-6"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            30
+          ]
+        ]
+      },
+      "references-count": 51,
+      "journal-issue": {
+        "issue": "1",
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "48988"
+      ],
+      "URL": "https://doi.org/10.1038/s41467-024-48988-6",
+      "relation": {},
+      "ISSN": [
+        "2041-1723"
+      ],
+      "issn-type": [
+        {
+          "value": "2041-1723",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            30
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "19 September 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 May 2024",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "30 May 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ],
+      "article-number": "4609"
+    }
+  }
+}

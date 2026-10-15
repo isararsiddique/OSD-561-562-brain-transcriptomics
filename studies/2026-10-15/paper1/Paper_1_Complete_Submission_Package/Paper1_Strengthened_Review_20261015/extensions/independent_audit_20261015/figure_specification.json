@@ -1,0 +1,23 @@
+{
+  "figure_inches": [
+    7.5,
+    6.6
+  ],
+  "PNG_pixels": [
+    4500,
+    3960
+  ],
+  "PNG_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "Arial_present_in_SVG": true,
+  "SVG_has_editable_text": true,
+  "SVG_has_no_embedded_raster": true,
+  "panel_mapping": {
+    "a": "Cerebellum Sensor31 exact refitted-label null",
+    "b": "Hippocampus Sensor31 exact refitted-label null",
+    "c": "Training-expression-tertile prediction MSE ratios across three settings",
+    "d": "Full-data Circadian age-specific/equal-age saturated effects, HC3 normal intervals"
+  }
+}

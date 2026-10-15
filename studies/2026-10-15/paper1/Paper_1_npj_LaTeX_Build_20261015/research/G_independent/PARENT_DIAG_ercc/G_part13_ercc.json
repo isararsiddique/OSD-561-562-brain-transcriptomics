@@ -1,0 +1,450 @@
+{
+ "part1_dominance": [
+  {
+   "region": "CB",
+   "panel": "rPRG",
+   "effect": 0.503319380776398,
+   "p_exact": 0.01,
+   "n_assign": 200,
+   "n_genes": 19,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "CB",
+   "panel": "dPRG",
+   "effect": 0.13600825509064512,
+   "p_exact": 0.44,
+   "n_assign": 200,
+   "n_genes": 13,
+   "q_BH24": 0.4854545454545454
+  },
+  {
+   "region": "CB",
+   "panel": "SRG",
+   "effect": -0.44340065100028103,
+   "p_exact": 0.16,
+   "n_assign": 200,
+   "n_genes": 13,
+   "q_BH24": 0.2475
+  },
+  {
+   "region": "CB",
+   "panel": "HSP",
+   "effect": 0.21041626196515298,
+   "p_exact": 0.19,
+   "n_assign": 200,
+   "n_genes": 11,
+   "q_BH24": 0.26823529411764707
+  },
+  {
+   "region": "CB",
+   "panel": "Glia_Complement",
+   "effect": -0.3135097981481723,
+   "p_exact": 0.155,
+   "n_assign": 200,
+   "n_genes": 18,
+   "q_BH24": 0.2475
+  },
+  {
+   "region": "CB",
+   "panel": "BBB_Endothelium",
+   "effect": -0.04804743277960331,
+   "p_exact": 0.865,
+   "n_assign": 200,
+   "n_genes": 18,
+   "q_BH24": 0.9026086956521738
+  },
+  {
+   "region": "CB",
+   "panel": "Circadian",
+   "effect": 0.09107397499342809,
+   "p_exact": 0.425,
+   "n_assign": 200,
+   "n_genes": 12,
+   "q_BH24": 0.4854545454545454
+  },
+  {
+   "region": "CB",
+   "panel": "Sensor31",
+   "effect": 0.3959215705456088,
+   "p_exact": 0.025,
+   "n_assign": 200,
+   "n_genes": 30,
+   "q_BH24": 0.06000000000000001
+  },
+  {
+   "region": "HPC",
+   "panel": "rPRG",
+   "effect": 0.8366027606726026,
+   "p_exact": 0.015,
+   "n_assign": 400,
+   "n_genes": 20,
+   "q_BH24": 0.04190476190476191
+  },
+  {
+   "region": "HPC",
+   "panel": "dPRG",
+   "effect": 0.13266253560592242,
+   "p_exact": 0.445,
+   "n_assign": 400,
+   "n_genes": 13,
+   "q_BH24": 0.4854545454545454
+  },
+  {
+   "region": "HPC",
+   "panel": "SRG",
+   "effect": 0.38537369722169323,
+   "p_exact": 0.01,
+   "n_assign": 400,
+   "n_genes": 13,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "HPC",
+   "panel": "HSP",
+   "effect": 0.35126192749594115,
+   "p_exact": 0.01,
+   "n_assign": 400,
+   "n_genes": 11,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "HPC",
+   "panel": "Glia_Complement",
+   "effect": -0.22315524116099006,
+   "p_exact": 0.165,
+   "n_assign": 400,
+   "n_genes": 18,
+   "q_BH24": 0.2475
+  },
+  {
+   "region": "HPC",
+   "panel": "BBB_Endothelium",
+   "effect": -0.3590395369902035,
+   "p_exact": 0.055,
+   "n_assign": 400,
+   "n_genes": 18,
+   "q_BH24": 0.11
+  },
+  {
+   "region": "HPC",
+   "panel": "Circadian",
+   "effect": 0.24722364388988924,
+   "p_exact": 0.01,
+   "n_assign": 400,
+   "n_genes": 12,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "HPC",
+   "panel": "Sensor31",
+   "effect": 0.6643850456744321,
+   "p_exact": 0.01,
+   "n_assign": 400,
+   "n_genes": 31,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "POOLED",
+   "panel": "rPRG",
+   "effect": 0.6619930043234064,
+   "p_exact": 0.004285714285714286,
+   "n_assign": 700,
+   "n_genes": 19,
+   "q_BH24": 0.03428571428571429
+  },
+  {
+   "region": "POOLED",
+   "panel": "dPRG",
+   "effect": 0.13221182825974917,
+   "p_exact": 0.3842857142857143,
+   "n_assign": 700,
+   "n_genes": 13,
+   "q_BH24": 0.48541353383458646
+  },
+  {
+   "region": "POOLED",
+   "panel": "SRG",
+   "effect": -0.02192197904891493,
+   "p_exact": 0.9142857142857143,
+   "n_assign": 700,
+   "n_genes": 13,
+   "q_BH24": 0.9142857142857143
+  },
+  {
+   "region": "POOLED",
+   "panel": "HSP",
+   "effect": 0.2806508873625222,
+   "p_exact": 0.02857142857142857,
+   "n_assign": 700,
+   "n_genes": 11,
+   "q_BH24": 0.06233766233766234
+  },
+  {
+   "region": "POOLED",
+   "panel": "Glia_Complement",
+   "effect": -0.26171036549275695,
+   "p_exact": 0.11285714285714285,
+   "n_assign": 700,
+   "n_genes": 18,
+   "q_BH24": 0.20835164835164832
+  },
+  {
+   "region": "POOLED",
+   "panel": "BBB_Endothelium",
+   "effect": -0.2112625896082928,
+   "p_exact": 0.31142857142857144,
+   "n_assign": 700,
+   "n_genes": 18,
+   "q_BH24": 0.4152380952380953
+  },
+  {
+   "region": "POOLED",
+   "panel": "Circadian",
+   "effect": 0.17401595362840278,
+   "p_exact": 0.015714285714285715,
+   "n_assign": 700,
+   "n_genes": 12,
+   "q_BH24": 0.04190476190476191
+  },
+  {
+   "region": "POOLED",
+   "panel": "Sensor31",
+   "effect": 0.5221675614377487,
+   "p_exact": 0.007142857142857143,
+   "n_assign": 700,
+   "n_genes": 30,
+   "q_BH24": 0.03428571428571429
+  }
+ ],
+ "part1_rRPG_contrasts": [
+  {
+   "region": "CB",
+   "contrast": "P_G",
+   "effect": 0.7043748904430419,
+   "p_exact": 0.005,
+   "n_assign": 400,
+   "n_genes": 19
+  },
+  {
+   "region": "CB",
+   "contrast": "F_L",
+   "effect": 0.1884896736208229,
+   "p_exact": 0.38,
+   "n_assign": 200,
+   "n_genes": 19
+  },
+  {
+   "region": "CB",
+   "contrast": "F_I",
+   "effect": -0.20597546062947575,
+   "p_exact": 0.3556122448979592,
+   "n_assign": 1960,
+   "n_genes": 19
+  },
+  {
+   "region": "CB",
+   "contrast": "P_F",
+   "effect": 0.3322029474002142,
+   "p_exact": 0.20952380952380953,
+   "n_assign": 735,
+   "n_genes": 19
+  },
+  {
+   "region": "HPC",
+   "contrast": "P_G",
+   "effect": 1.1179887998591782,
+   "p_exact": 0.01,
+   "n_assign": 400,
+   "n_genes": 20
+  },
+  {
+   "region": "HPC",
+   "contrast": "F_L",
+   "effect": 0.28138603918657257,
+   "p_exact": 0.06,
+   "n_assign": 400,
+   "n_genes": 20
+  },
+  {
+   "region": "HPC",
+   "contrast": "F_I",
+   "effect": 0.1644827810658058,
+   "p_exact": 0.4933673469387755,
+   "n_assign": 1960,
+   "n_genes": 20
+  },
+  {
+   "region": "HPC",
+   "contrast": "P_F",
+   "effect": 1.0044871471554158,
+   "p_exact": 0.0005102040816326531,
+   "n_assign": 1960,
+   "n_genes": 20
+  },
+  {
+   "region": "POOLED",
+   "contrast": "P_G",
+   "effect": 0.8885027215992096,
+   "p_exact": 0.0014285714285714286,
+   "n_assign": 700,
+   "n_genes": 19
+  },
+  {
+   "region": "POOLED",
+   "contrast": "F_L",
+   "effect": 0.23454941455418843,
+   "p_exact": 0.115,
+   "n_assign": 400,
+   "n_genes": 19
+  },
+  {
+   "region": "POOLED",
+   "contrast": "F_I",
+   "effect": -0.02677511879570718,
+   "p_exact": 0.8859126984126984,
+   "n_assign": 7056,
+   "n_genes": 19
+  },
+  {
+   "region": "POOLED",
+   "contrast": "P_F",
+   "effect": 0.6558342358572162,
+   "p_exact": 0.004464285714285714,
+   "n_assign": 3136,
+   "n_genes": 19
+  }
+ ],
+ "part3": {
+  "S1_Hrvatin2018_ERG_up": {
+   "n_listed": 269,
+   "primary_all_listed_ids": {
+    "n_ids": 276,
+    "n_pass_pooled": 268,
+    "P_G": {
+     "effect": 0.0046598763815272224,
+     "p_exact": 0.9614285714285714,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": -0.01500324594016118,
+     "p_exact": 0.9328571428571428,
+     "n_assign": 700
+    }
+   },
+   "sens_single_id_only": {
+    "n_ids": 259,
+    "n_pass_pooled": 255,
+    "P_G": {
+     "effect": -0.0013719426906903577,
+     "p_exact": 0.99,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": -0.022199195085354107,
+     "p_exact": 0.8757142857142857,
+     "n_assign": 700
+    }
+   }
+  },
+  "S2_Hrvatin2018_LRG_only": {
+   "n_listed": 152,
+   "primary_all_listed_ids": {
+    "n_ids": 153,
+    "n_pass_pooled": 150,
+    "P_G": {
+     "effect": -0.06660069836822383,
+     "p_exact": 0.4042857142857143,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": -0.07003248840162703,
+     "p_exact": 0.45,
+     "n_assign": 700
+    }
+   },
+   "sens_single_id_only": {
+    "n_ids": 149,
+    "n_pass_pooled": 146,
+    "P_G": {
+     "effect": -0.06301063404563081,
+     "p_exact": 0.45571428571428574,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": -0.06428247673118878,
+     "p_exact": 0.5,
+     "n_assign": 700
+    }
+   }
+  },
+  "S3_Marsh2022_exAM_allCNS": {
+   "n_listed": 19,
+   "primary_exact_symbol": {
+    "n_ids": 15,
+    "n_pass_pooled": 14,
+    "P_G": {
+     "effect": 0.5771482253430077,
+     "p_exact": 0.011428571428571429,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": 0.4652231230457469,
+     "p_exact": 0.03142857142857143,
+     "n_assign": 700
+    }
+   }
+  },
+  "S4_Marsh2022_exAM_myeloid": {
+   "n_listed": 25,
+   "primary_exact_symbol": {
+    "n_ids": 21,
+    "n_pass_pooled": 18,
+    "P_G": {
+     "effect": 0.36581590086792315,
+     "p_exact": 0.011428571428571429,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": 0.28978160270474557,
+     "p_exact": 0.02142857142857143,
+     "n_assign": 700
+    }
+   }
+  },
+  "S5_vandenBrink2017_dissociation": {
+   "n_listed": 140,
+   "primary_exact_symbol": {
+    "n_ids": 137,
+    "n_pass_pooled": 131,
+    "P_G": {
+     "effect": 0.04873322573665554,
+     "p_exact": 0.5385714285714286,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": 0.01974984787144729,
+     "p_exact": 0.8242857142857143,
+     "n_assign": 700
+    }
+   }
+  },
+  "S6_Wu2017_IEG": {
+   "n_listed": 139,
+   "primary_exact_symbol": {
+    "n_ids": 137,
+    "n_pass_pooled": 110,
+    "P_G": {
+     "effect": 0.12521377603749742,
+     "p_exact": 0.14714285714285713,
+     "n_assign": 700
+    },
+    "DOM": {
+     "effect": 0.07327885188156603,
+     "p_exact": 0.4257142857142857,
+     "n_assign": 700
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "\"OSD-525\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"GLDS-525\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"OSD-561\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"GLDS-561\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"OSD-563\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"GLDS-563\"": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"RR-23\" AND (cerebellum OR cerebellar)": {
+  "hitCount": 16,
+  "hits": [
+   [
+    "2025",
+    "MRI diagnosis of a juvenile leukoencephalopathy with vanishing white matter: A rare case report from Morocco and literature review.",
+    "10.1016/j.radcr.2024.10.085"
+   ],
+   [
+    "2024",
+    "Metabolic cardiomyopathy associated with a compound heterozygous variant in NAD(P)HX dehydratase: a case report and literature review.",
+    "10.21037/tp-24-476"
+   ],
+   [
+    "2024",
+    "Impact of analytic decisions on test-retest reliability of individual and group estimates in functional magnetic resonance imaging: A multiverse analysis using the monetary incentive delay task.",
+    "10.1162/imag_a_00262"
+   ],
+   [
+    "2014",
+    "Store-operated calcium entry in neuroglia.",
+    "10.1007/s12264-013-1343-x"
+   ],
+   [
+    "2021",
+    "Platelets in Multiple Sclerosis: Early and Central Mediators of Inflammation and Neurodegeneration and Attractive Targets for Molecular Imaging and Site-Directed Therapy.",
+    "10.3389/fimmu.2021.620963"
+   ],
+   [
+    "2017",
+    "Review of acute ischaemic stroke in Pakistan: progress in management and future perspectives.",
+    "10.1136/svn-2016-000041"
+   ],
+   [
+    "2025",
+    "Virtual reality for multiple sclerosis rehabilitation.",
+    "10.1002/14651858.cd013834.pub2"
+   ],
+   [
+    "2018",
+    "Is there a link between inflammation and fatigue in multiple sclerosis?",
+    "10.2147/jir.s167199"
+   ],
+   [
+    "1988",
+    "Genes expressed in the brain define three distinct neuronal nicotinic acetylcholine receptors.",
+    "10.1002/j.1460-2075.1988.tb02852.x"
+   ],
+   [
+    "2024",
+    "Abstracts from the 2024 Annual Meeting of the Society of General Internal Medicine",
+    null
+   ],
+   [
+    "2022",
+    "Abstracts from the 2022 Annual Meeting of the Society of General Internal Medicine",
+    null
+   ],
+   [
+    "2014",
+    "2013 Annual Report of the American Association of Poison Control Centers' National Poison Data System (NPDS): 31st Annual Report.",
+    "10.3109/15563650.2014.987397"
+   ],
+   [
+    "2008",
+    "Abstracts from the 31st Annual Meeting of the Society of General Internal Medicine. April 9-12, 2008. Pittsburgh, Pennsylvania, USA.",
+    "10.1007/s11606-008-0556-6"
+   ],
+   [
+    "1891",
+    null,
+    null
+   ],
+   [
+    "1994",
+    "7th European Congress on Intensive Care Medicine Innsbruck, June 14\u201317, 1994 East and West\u2014A Common Future",
+    null
+   ],
+   [
+    "2012",
+    "17th Congress of the European Hematology Association, Amsterdam, The Netherlands, June 14\u201317, 2012",
+    null
+   ]
+  ]
+ },
+ "\"RRRM-2\" AND (cerebellum OR cerebellar)": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "\"RR-10\" AND (cerebellum OR cerebellar) AND (spaceflight OR \"space station\")": {
+  "hitCount": 0,
+  "hits": []
+ },
+ "(cerebellum OR cerebellar) AND (spaceflight OR \"International Space Station\") AND (\"RNA-seq\" OR \"RNA sequencing\" OR transcriptom*) AND (mice OR mouse)": {
+  "hitCount": 63,
+  "hits": [
+   [
+    "2026",
+    "Space radiation health risks to hematopoietic, neural, and gastrointestinal systems in astronauts.",
+    "10.3389/fpubh.2026.1926972"
+   ],
+   [
+    "2025",
+    "Spaceflight and Ground-Based Microgravity Simulation Impact on Cognition and Brain Plasticity.",
+    "10.3390/ijms26199521"
+   ],
+   [
+    "2026",
+    "Spaceflight alters molecular networks linked to diverse human diseases in a single cellular model.",
+    "10.1126/sciadv.adw7832"
+   ],
+   [
+    "2026",
+    "Neuroprotective Effects of Cerium Oxide Nanoparticles During Spaceflight.",
+    "10.1002/smsc.70271"
+   ],
+   [
+    "2026",
+    "The hierarchical stratum response system of organism to microgravity during spaceflight.",
+    "10.1016/j.mmr.2026.100027"
+   ],
+   [
+    "2025",
+    "Multi-connectomics underpin emotional dysfunction in mouse exposed to simulated space composite environment.",
+    "10.1038/s41398-025-03538-6"
+   ],
+   [
+    null,
+    "Ionizing radiation and Alzheimer\u2019s disease: epidemiology, mechanisms, and eCIRP-mediated tau pathology",
+    null
+   ],
+   [
+    "2025",
+    "Effects of seasonal factors on brain function: Systematic review and future perspectives.",
+    "10.1016/j.isci.2025.114066"
+   ],
+   [
+    "2026",
+    "Organoid-microglia system for modeling the immune microenvironment of the brain and retina.",
+    "10.3389/fimmu.2026.1747589"
+   ],
+   [
+    "2023",
+    "Addressing Spaceflight Biology through the Lens of a Histologist-Embryologist.",
+    "10.3390/life13020588"
+   ],
+   [
+    null,
+    "Prion 2022 Conference abstracts: pushing the boundaries",
+    null
+   ],
+   [
+    "2023",
+    "Circuits and Biomarkers of the Central Nervous System Relating to Astronaut Performance: Summary Report for a NASA-Sponsored Technical Interchange Meeting.",
+    "10.3390/life13091852"
+   ],
+   [
+    "2025",
+    "Radiation-induced Brain Injury and the Radiation Late Effects Cohort (RLEC) of Rhesus Macaques (Macaca mulatta).",
+    "10.1667/rade-24-00033.1"
+   ],
+   [
+    "2022",
+    "Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission.",
+    "10.1038/s41526-022-00217-4"
+   ],
+   [
+    "2019",
+    "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae.",
+    "10.3390/ijms20174094"
+   ],
+   [
+    "2024",
+    "\"Monitoring inflammatory, immune system mediators, and mitochondrial changes related to brain metabolism during space flight\".",
+    "10.3389/fimmu.2024.1422864"
+   ],
+   [
+    "2024",
+    "Increased Homer Activity and NMJ Localization in the Vestibular Lesion <i>het<sup>-/-</sup></i> Mouse <i>soleus</i> Muscle.",
+    "10.3390/ijms25168577"
+   ],
+   [
+    "2024",
+    "Proceedings of the 101st Annual Meeting of The Physiological Society of Japan",
+    null
+   ],
+   [
+    "2025",
+    "Model organisms for investigating the functional involvement of NRF2 in non-communicable diseases.",
+    "10.1016/j.redox.2024.103464"
+   ],
+   [
+    "2025",
+    "Evaluating Parkinson's disease biomarkers in substantia nigra following sublethal \u03b3-radiation exposure in a large animal model.",
+    "10.1038/s41531-025-01136-3"
+   ],
+   [
+    "2021",
+    "Highlights from the 30th Annual Meeting of the Society for the Neural Control of Movement.",
+    "10.1152/jn.00334.2021"
+   ],
+   [
+    "2021",
+    "The individual and combined effects of spaceflight radiation and microgravity on biologic systems and functional outcomes.",
+    "10.1080/26896583.2021.1885283"
+   ],
+   [
+    "2024",
+    "Abstracts from the 56th European Society of Human Genetics (ESHG) Conference: Oral Presentations",
+    null
+   ],
+   [
+    "2020",
+    "Influence of Microgravity on Apoptosis in Cells, Tissues, and Other Systems In Vivo and In Vitro.",
+    "10.3390/ijms21249373"
+   ],
+   [
+    "2023",
+    "Featured Abstract",
+    null
+   ],
+   [
+    "2019",
+    "Reptiles in Space Missions: Results and Perspectives.",
+    "10.3390/ijms20123019"
+   ],
+   [
+    "2022",
+    "Cytoskeleton Markers in the Spinal Cord and Mechanoreceptors of Thick-Toed Geckos after Prolonged Space Flights.",
+    "10.3390/life12010100"
+   ],
+   [
+    "2024",
+    "Abstracts from the 57th European Society of Human Genetics (ESHG) Conference: Hybrid Posters",
+    null
+   ],
+   [
+    "2023",
+    "Unraveling astrocyte behavior in the space brain: Radiation response of primary astrocytes.",
+    "10.3389/fpubh.2023.1063250"
+   ],
+   [
+    "2025",
+    "Bioprinted Organoids: An Innovative Engine in Biomedicine.",
+    "10.1002/advs.202507317"
+   ],
+   [
+    "2026",
+    "ePoster.",
+    "10.1111/ene.70629"
+   ],
+   [
+    "2026",
+    "Abstracts from Hydrocephalus World Congress 2025 : Toulouse, France. 5-8 September 2025.",
+    "10.1186/s12987-025-00733-x"
+   ],
+   [
+    "2023",
+    "The influence of physiological and pathological perturbations on blood-brain barrier function.",
+    "10.3389/fnins.2023.1289894"
+   ],
+   [
+    "2025",
+    "From Molecules to Models: miRNAs and Advanced Human Platforms of Neurodegeneration and Repair in Multiple Sclerosis.",
+    "10.3390/ijms26178740"
+   ],
+   [
+    "2026",
+    "Mapping the Cerebral Organoid Landscape: A Systematic Review of Preclinical 3D Models in Neuroscience.",
+    "10.1002/adhm.202504889"
+   ],
+   [
+    "2023",
+    "Abstracts from Hydrocephalus 2023\u2014the fifteenth meeting of the Hydrocephalus Society",
+    null
+   ],
+   [
+    null,
+    "17th EUNOS Congress : Milan, Italy, 4\u20136 June, 2026Editors\u2019 Introduction",
+    null
+   ],
+   [
+    "2022",
+    "ISEV2022 Abstract Book.",
+    "10.1002/jev2.12224"
+   ],
+   [
+    "2021",
+    "Amifostine (WR-2721) Mitigates Cognitive Injury Induced by Heavy Ion Radiation in Male Mice and Alters Behavior and Brain Connectivity.",
+    "10.3389/fphys.2021.770502"
+   ],
+   [
+    "2021",
+    "Proceedings of the Joint Meeting of the 126th Annual Meeting of The Japanese Association of Anatomists and the 98th Annual Meeting of The Physiological Society of Japan",
+    null
+   ]
+  ]
+ }
+}

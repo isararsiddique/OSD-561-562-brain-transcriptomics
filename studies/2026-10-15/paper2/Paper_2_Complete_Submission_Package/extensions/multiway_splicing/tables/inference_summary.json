@@ -1,0 +1,18 @@
+{
+  "n_clusters": 923,
+  "n_local_tests": 2769,
+  "n_local_BH_full": 207,
+  "n_local_BY_full": 43,
+  "n_unique_BY_clusters": 41,
+  "n_primary_Holm_positive": 3,
+  "primary_kernel_min_eigenvalue": 0.009847688588858088,
+  "primary_kernel_max_diagonal_error": 3.774758283725532e-15,
+  "pcoa_variance_fraction": [
+    0.11426937860041872,
+    0.07119703837755689
+  ],
+  "tie_tolerance": 1e-12,
+  "n_dom95_clusters": 607,
+  "n_mapped_clusters": 290,
+  "n_mapped_genes": 256
+}

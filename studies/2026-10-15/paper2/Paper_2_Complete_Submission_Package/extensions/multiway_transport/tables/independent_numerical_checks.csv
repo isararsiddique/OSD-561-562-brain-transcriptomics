@@ -1,0 +1,11 @@
+check,passed,detail
+Frozen input and retrospective-plan SHA256,True,All 15 original input snapshots and the dated plan unchanged
+RR23 complete counts/compositions/boundary dominance,True,"Independently read 805,562 nonnegative unique raw junction rows in chunks; checked all 923 clusters and 3,376 alternative occurrences"
+RRRM2 complete counts/compositions/boundary dominance,True,"Independently read 668,237 nonnegative unique raw junction rows in chunks; checked all 923 clusters and 3,376 alternative occurrences"
+"Distinct animals, inclusion and all measurement decisions",True,19 held-out animals; entire ISS_T_29 exclusion; all 923 family members retained with failed-gate p=1
+RR23-only unit directions and every held-out projection,True,"All 923 unit vectors, every 19-animal measurable projection and complete equal-cluster score independently reproduced"
+Independent complete global exact allocations,True,"All 11,200 direct stratified combinations; one-sided p=0.73625, absolute two-sided p=0.521875; every local effect checked"
+"Local exact tests, all three corrections and resolution bound",True,"17 row-order-selected local exact p values; all 923 BH/BY/Holm values; Holm05 unattainable under 11,200 assignments"
+Whole-animal conditional and two-cohort bootstrap,True,"Verified cell multiplicities, every common-cluster effect in 2,000 draws, both global draw series and percentile intervals"
+Complete descriptive alternative-level mean contrasts,True,Every frozen RR23 group mean and common-panel RRRM2 route-age-weighted native component mean/difference independently reproduced
+All full-family conclusions retained,True,281 common clusters; no significance subset; all family corrections and failed gates retained

@@ -1,0 +1,20 @@
+{
+  "query": "(TCAF1 OR FAM115A OR \"TRPM8 channel associated factor 1\") AND (spaceflight OR microgravity)",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TCAF1+OR+FAM115A+OR+%22TRPM8+channel+associated+factor+1%22%29+AND+%28spaceflight+OR+microgravity%29&format=json&resultType=core&pageSize=100",
+  "retrieved_date": "2026-10-15",
+  "response": {
+    "version": "6.9",
+    "hitCount": 0,
+    "request": {
+      "queryString": "(TCAF1 OR FAM115A OR \"TRPM8 channel associated factor 1\") AND (spaceflight OR microgravity)",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 100,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": []
+    }
+  }
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "type": "title",
+    "text": "Supplementary information"
+  },
+  {
+    "type": "paragraph",
+    "text": "Ground collection scores reveal limits of transcriptomic correction in mouse spaceflight brain"
+  },
+  {
+    "type": "paragraph",
+    "text": "Isarar Siddique, Raiyan Siddique, Arshi Niyaz, Jamyang Ugyen Tshomo, Atish Raza"
+  },
+  {
+    "type": "heading",
+    "text": "Supplementary results",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "The independent audit supplies all 18 exact-label tests, both 400-assignment null tables, 64 saturated-age estimands, per-animal and expression-tertile prediction diagnostics, source checks and the fixed exploratory protocol under extensions/independent_audit_20261015/. No saturated-age test survives its BH family. Cerebellar original-score prediction worsens on average in each training-expression tertile (MSE ratios 1.096, 1.090 and 1.065), as does RR-23 (1.045, 1.008 and 1.025); individual animals remain heterogeneous."
+  },
+  {
+    "type": "heading",
+    "text": "Ground holdout and all deposit structure extensions",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "All 81 age-balanced holdouts in each RRRM-2 region and 200 prespecified RR-23 splits completed. Training-only filtering and geometric-mean normalization references were applied to held-out animals. Nested leave-one-training-animal-out selection refitted every estimated preprocessing step. The 362 splits overlap and use 30 unique ground source animals, including shared core regional animals.\n\nAge-stratified sensor discrimination was 1.000 in every core split and mean 0.964 in RR-23. This is a strong within-resource collection-cohort association; it does not establish a transportable clinical classifier, artifact causality or an independent population validation. Mean whole-genome discrimination was 0.796 in cerebellum, 1.000 in hippocampus and 0.714 in RR-23. Mean training–test whole-genome effect-vector cosine was 0.228, 0.521 and 0.165 respectively, below sensor-vector cosines 0.683, 0.843 and 0.813.\n\nOriginal score loading prediction of outside-sensor held-out expression had mean MSE ratios to the training-fitted intercept/age baseline of 1.091 in cerebellum and 1.035 in RR-23, indicating worse prediction despite strong sensor discrimination. All method/deposit results, including hippocampal improvements, are in the full summary. Bounded and training-CV shrinkage effects are retained; they are sensitivity methods and do not demonstrate biological recovery. Genome projection is excluded from the disjoint-sensor prediction comparison because it uses outside genes in its own score.\n\nThe independent verifier passed 1,533 checks. It rebuilt first/last splits in each deposit directly from source count tables, independently checked normalization using sorted ratio geometric medians, perturbed held-out counts to verify training-reference independence, used dense regression to recompute loadings and effects, and verified nested-CV minimizers. Largest factor discrepancy was about 1.3e-15. Split quantiles are robustness ranges, not confidence intervals based on 362 independent observations.\n\nThe concrete contribution is a real-data dissociation between reliable collection-score discrimination and transfer of genome-wide regression loadings. It strengthens the simulation failure analysis without overclaiming a biological mechanism or universally successful correction."
+  },
+  {
+    "type": "paragraph",
+    "text": "All seven deposits were examined using gene-assigned count totals, detected genes, mitochondrial count composition and top-2,000-variable-gene PCA. These are descriptive diagnostics, not evidence of mitochondrial injury, RNA integrity or a causal collection mechanism. PC fractions and conditional multivariate condition R² are exported for every deposit. Age is represented in the nuisance design where available, and repeated regions remain distinct observations rather than independent mission replicates. The bundled metadata contain no RNA-integrity-number measurement."
+  },
+  {
+    "type": "heading",
+    "text": "Electronic results and software index",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Each region used all collapsed source animals (26 cerebellum; 27 hippocampus) and the full model intercept + age29 + flight + ISS-T + flight×ISS-T. The direct interaction is (FLT-GC in ISS-T) minus (FLT-GC in LAR). Panel uncertainties use 4,000 stratified whole-animal bootstraps and 499,999 HC3-studentized restricted-model wild draws. All 32 region × panel × sensitivity tests share one BH family.\n\n1 panel tests passed BH q ≤ 0.05 (minimum q=0.02682). hippocampus Circadian: interaction -0.405 log2, 95% animal-bootstrap interval [-0.591, -0.215], approximate p=0.000838, q=0.02682. cerebellum Circadian: interaction -0.288 log2, 95% animal-bootstrap interval [-0.563, -0.002], approximate p=0.09422, q=0.8133. cerebellum rPRG: interaction -0.388 log2, 95% animal-bootstrap interval [-0.842, +0.064], approximate p=0.1687, q=0.8133. hippocampus SRG: interaction +0.159 log2, 95% animal-bootstrap interval [-0.006, +0.324], approximate p=0.1771, q=0.8133. \n\nActual integer counts were refitted in PyDESeq2 with the same explicit five-column design and numeric interaction contrast [0,0,0,0,1]. The complete exploratory gene family contains 72,023 evaluable interaction tests across both regions and sensitivities; 756 passed BH q ≤ 0.05. Cook-filtered unavailable p-values remain unavailable. No favorable post hoc gene family was selected.\n\nMetadata sensitivity excludes any animal with a location disagreement in either regional deposit. This removes all older FLT ISS-T animals from cerebellum and leaves one in hippocampus, reducing the support for an age-adjusted interaction. The coefficient assumes a common additive age effect and cannot resolve age-dependent interactions in the empty design cell. Differences between strata are estimated directly; significance in one stratum and nonsignificance in another are not evidence for interaction. Biological interpretation remains observational, and an interaction cannot isolate microgravity from collection history or other cohort-linked factors."
+  },
+  {
+    "type": "paragraph",
+    "text": "The primary hippocampal Circadian interaction is -0.405 log2 (95% animal-bootstrap interval -0.591 to -0.215; approximate wild p=0.000838; complete 32-test BH q=0.026816). The Monte Carlo 95% interval for the wild exceedance probability is [0.000758,0.000920]. The count-model mean for the same retained panel genes is -0.367 log2. The metadata sensitivity retains the negative direction (-0.460) but does not pass correction (q=0.786); only one older FLT ISS-T animal remains. This is a qualified cohort-dependent expression candidate, not a robust flight-clock mechanism.\n\nPrimary gene-model discoveries number 109 in cerebellum and 7 in hippocampus under the original global gene family. Respectively 90 and 2 retain global q ≤ 0.05 after exclusions. The much larger exclusion-only cerebellar set is not promoted: that sensitivity has no older FLT ISS-T animals and depends on additive-age extrapolation. The complete candidate table retains every primary discovery, including sensitivity failures.\n\nHbb-bt and Hbb-bs are supported count-model interactions in full primary cerebellum and keep their direction and global significance after exclusion. Both are beta-globin transcripts; together with the fixed markers Hba-a1, Hba-a2, Alas2, Slc4a1 and Gypa, they motivate a blood/erythroid-associated composition interpretation as one possibility. All seven markers are retained in both regions and their availability, animal distributions, and existing global gene-model inference are exported. Their interaction point estimates are all negative in each primary region, although most do not pass the original global FDR. No new marker-set significance test or favorable FDR family was created. Marker expression cannot prove blood contamination, assign a cell source, or quantify blood fraction; hemoglobin-associated expression and collection-linked biology can also contribute. Correlations use target-omitted marker scores and separately remove the entire full design to avoid simple self-correlation or between-cell means.\n\nDbp, a circadian output transcription factor, has a negative cerebellar gene interaction passing the original global FDR in full and excluded data. Its hippocampal primary gene q is just above 0.05; a significant aggregate Circadian panel does not imply that every clock gene is individually significant. Other supported primary hippocampal gene candidates include Ccbe1 and Dmkn, which retain direction and original global significance after exclusion; these heterogeneous candidates do not establish a shared neuronal mechanism. All gene inference remains exploratory NB Wald inference; the cohort comparison bundles collection history and other factors and cannot identify microgravity specifically."
+  },
+  {
+    "type": "paragraph",
+    "text": "Machine-readable tables are the complete supplementary results. They retain all contrasts, sensitivities, omitted or unavailable probabilities, and every simulation repetition. The index below maps key scientific components to files relative to the analysis workspace. Large gene-level and repetition tables are supplied electronically instead of rendered as thousands of PDF pages."
+  },
+  {
+    "type": "table",
+    "title": "Supplementary Table S1. Electronic table and code index.",
+    "headers": [
+      "Component",
+      "Files"
+    ],
+    "rows": [
+      [
+        "Direct flight by collection interactions and complete gene outputs",
+        "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv; gene_flight_collection_interactions_exploratory.csv.gz; numeric_model_validation.json; age_support_by_design_cell.csv"
+      ],
+      [
+        "Composition context and omission checks",
+        "extensions/flight_collection_interaction/fixed_blood_marker_descriptive_correlations.csv; all_primary_NB_FDR_candidates_with_sensitivity.csv; leave_one_animal_out_panel_interactions.csv; leave_one_gene_out_panel_interactions.csv"
+      ],
+      [
+        "Training-only ground holdouts and nested CV",
+        "extensions/ground_holdout/holdout_split_results.csv; holdout_summary.csv; nested_training_cv.csv; verification_report.json"
+      ],
+      [
+        "All-deposit count diagnostics and PCA",
+        "extensions/real_data_structure/animal_count_qc.csv; animal_pca_scores.csv; condition_structure_R2.csv; structure_validation.json"
+      ],
+      [
+        "Sample identities and animal accounting",
+        "results/sample_manifest.csv; results/animal_region_manifest.csv; results/dataset_accounting.csv"
+      ],
+      [
+        "Metadata conflict records and RFID verification",
+        "results/metadata_conflicts.csv; results/source_identity_crosscheck.csv"
+      ],
+      [
+        "Panel definitions and availability",
+        "results/panel_definitions.csv; results/panel_availability.csv"
+      ],
+      [
+        "Primary/sensitivity panel and gradient tests",
+        "results/panel_results.csv; results/gradient_results.csv; results/contrast_manifest.csv"
+      ],
+      [
+        "Count-model regional fits and full gene tests",
+        "results/count_models/; results/count_model_gene_results.csv.gz"
+      ],
+      [
+        "Count-model panel agreement",
+        "results/count_model_panel_comparison.csv; results/count_model_fit_diagnostics.json"
+      ],
+      [
+        "All paired interactions and animal effects",
+        "extensions/paired_biology/paired_panel_interactions.csv; paired_animal_panel_scores.csv"
+      ],
+      [
+        "Paired omissions and validation",
+        "extensions/paired_biology/leave_one_gene_out_panel_effects.csv; leave_one_animal_out_effects.csv; paired_validation.json"
+      ],
+      [
+        "Regional reproducibility and ranked exploratory candidates",
+        "results/regional_gene_replication.csv.gz; regional_gene_replication_summary.csv; regional_gene_replication_ranked_candidates.csv"
+      ],
+      [
+        "Every anchor/target sensitivity",
+        "results/ground_anchor_sensitivity.csv; ground_anchor_panel_sensitivity.csv; operator_geometry.csv"
+      ],
+      [
+        "Disjoint RR-23 partitions",
+        "results/OSD525_disjoint_anchor_partitions.csv"
+      ],
+      [
+        "Joint anchor/normalization/target uncertainty",
+        "results/joint_bootstrap_repetitions.csv; joint_bootstrap_summary.csv"
+      ],
+      [
+        "Primary mechanism simulations",
+        "results/known_truth_benchmark_config.json; known_truth_benchmark_repetitions.csv; known_truth_benchmark_summary.csv"
+      ],
+      [
+        "High-gain amendment",
+        "extensions/mathematics_review/high_gain_benchmark_config.json; high_gain_benchmark_repetitions.csv; high_gain_benchmark_summary.csv"
+      ],
+      [
+        "Independent mathematical verification",
+        "extensions/mathematics_review/independent_operator_test_results.json; fixed_sensor_noise_inflation_results.json"
+      ],
+      [
+        "Primary source and ethics records",
+        "results/manuscript_sources.json; inputs/reference_metadata/; inputs/osd_*_public_metadata.json"
+      ],
+      [
+        "Scientific code and tests",
+        "scripts/; tests/; extensions/paired_biology/run_paired_biology.py; extensions/mathematics_review/*.py"
+      ],
+      [
+        "Figure source and captions",
+        "publication_figures/*.svg; publication_figures/*.png; results/publication_figure_manifest.json. Intermediate sources: figures/."
+      ],
+      [
+        "Manuscript number provenance",
+        "results/manuscript_numeric_lookups.csv; results/manuscript_content.json; results/supplement_content.json"
+      ],
+      [
+        "Journal structure and independent audit",
+        "scripts/finalize_for_journal.py; extensions/independent_audit_20261015/; extensions/journal_audit_20261015/"
+      ]
+    ]
+  },
+  {
+    "type": "figure",
+    "filename": "figureS1_cross_cohort_gene_screen",
+    "caption": "Supplementary Figure 1. Conservative regional gene reproducibility screen. A candidate must have the same effect direction in every constituent contrast and finite component Wald p values; its intersection–union p value is the maximum component p. Discordant or unavailable effects receive p=1. All 54,989 region–gene combinations enter one global BH and BY family. No gene survives either correction. Component comparisons come from the same negative-binomial fits and can share samples; concordant direction alone is not replication evidence. Ranked nominal candidates are explicitly exploratory.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figureS1_cross_cohort_gene_screen"
+  },
+  {
+    "type": "figure",
+    "filename": "figureS2_all_deposit_structure",
+    "source_filename": "extensions/real_data_structure/figureS2_all_deposit_structure",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "caption": "Supplementary Figure 2. Count-derived QC and expression structure across all seven deposits. (a–g) PCA of the top 2,000 variable log-expression genes in each deposit; axes give variance fractions. Groups use deposited exposure/cohort design labels; older core animals are squares and location conflicts are outlined. (h) Descriptive multivariate condition partial R² after age terms where available. (i) Mitochondrial gene-count fractions for every collapsed animal–region observation. These fractions use gene-assigned counts and are not measures of RNA integrity, mitochondrial injury or causal exposure effects. PCA and R² are descriptive; no discovery family is inferred from them."
+  },
+  {
+    "type": "figure",
+    "filename": "figureS3_flight_collection_interaction",
+    "source_filename": "extensions/flight_collection_interaction/figure_flight_collection_interaction",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "caption": "Supplementary Figure 3. Direct within-region flight by collection interactions. (a,b) Panel interaction estimates and stratified animal-bootstrap intervals for each region; the asterisk marks the one panel passing the complete 32-test BH family. (c) Gene coefficient agreement between normalized-log and count models. (d) Whole-animal age support in each design cell. The highlighted full-data interaction has wild p=0.000838 and q=0.026816; metadata-excluded q=0.786. The 499,999 restricted wild draws are approximate inference, and omitted effects are descriptive stability checks. Exclusions leave one older FLT ISS-T animal in hippocampus and none in cerebellum. A common additive age effect does not resolve interactions in an empty design cell."
+  },
+  {
+    "type": "figure",
+    "filename": "figureS4_fixed_blood_marker_context",
+    "source_filename": "extensions/flight_collection_interaction/figure_fixed_blood_marker_context",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "caption": "Supplementary Figure 4. Fixed erythroid-associated marker context. (a,b) Fixed marker-score distributions for every primary animal in each region; lines show group medians. (c) All seven count-model marker interaction coefficients with Wald intervals; asterisks refer to the existing complete gene family. (d) Marker-score versus Circadian-panel residual association after full-design adjustment. Target-omitted correlations for individual marker transcripts are supplied in the tables. No new marker significance family was selected. Beta-globin interactions motivate a possible composition contribution but do not establish blood contamination, a cell source, or an erythroid fraction. The complete tables retain markers failing the global family and all metadata sensitivities."
+  },
+  {
+    "type": "figure",
+    "filename": "figureS5_independent_ground_and_age_validation",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "extensions/independent_audit_20261015/independent_audit_panel",
+    "caption": "Supplementary Figure 5. Independent finite-sample and prediction robustness. (a,b) Refitted age-restricted label null distributions and observed Sensor31 AUC in each core region. All 400 assignments enter each exact test; all 18 panel/comparator tests enter BH and BY adjustment. (c) Outside-sensor original-score prediction error by training-expression tertile across all held-out animals. Points are means and bars are 2.5th–97.5th overlapping-split ranges, not independent-sample confidence limits. Ratios compare prediction with the training-fitted intercept/age baseline. (d) Saturated-age regional Circadian estimates with HC3 normal intervals. No estimate passes BH across all 64 saturated estimands. Exact collection association does not establish causal nuisance or biological recovery."
+  }
+]

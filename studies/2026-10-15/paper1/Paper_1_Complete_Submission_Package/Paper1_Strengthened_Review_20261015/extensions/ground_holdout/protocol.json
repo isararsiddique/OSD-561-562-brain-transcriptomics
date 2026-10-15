@@ -1,0 +1,25 @@
+{
+  "label": "Ground-only animal holdout; exploratory stability and prediction analysis",
+  "seed_OSD525": 52520261015,
+  "OSD561_OSD562": "All 81 splits: hold out one of three animals from each age\u00d7collection cell; train8/test4",
+  "OSD525": "200 distinct splits sampled without replacement from all 4704 holdouts; train6HGC+5VGC/test3HGC+3VGC",
+  "gene_filter": "Canonical ENSMUSG and training mean count >=10",
+  "normalization": "Training-positive genes geometric means; target size factor relative to that training reference using nonzero target entries",
+  "no_flight_data": true,
+  "outer_test_animals_disjoint": true,
+  "training_target_reference_independent": true,
+  "shrinkage_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "shrinkage_tuning": "Nested leave-one-ground-training-animal-out, redoing filtering, normalization, nuisance and sensor fitting each fold; minimize outside-sensor squared prediction error",
+  "prediction_target": "Held-out expression after subtracting training-fitted intercept and age; sensor score is an available held-out predictor",
+  "prediction_baseline": "Training-fitted intercept and age only",
+  "score_auc": "Within-age positive-negative pair discrimination; one-sided orientation fixed by positive training contrast",
+  "uncertainty": "Split distribution quantiles are robustness ranges, not independent-sample confidence intervals; repeated splits overlap and OSD561/562 share many animals",
+  "interpretation": "Held-out association and loading generalization within ground collections; no biological validation or proof of true nuisance removal",
+  "figure_font": "Arial"
+}

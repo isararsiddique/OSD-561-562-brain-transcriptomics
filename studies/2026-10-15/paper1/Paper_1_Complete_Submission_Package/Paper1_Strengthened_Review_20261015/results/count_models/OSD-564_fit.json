@@ -1,0 +1,20 @@
+{
+  "accession": "OSD-564",
+  "design": "~ condition",
+  "n_animals": 10,
+  "n_genes": 19862,
+  "condition_counts": {
+    "FLT": 5,
+    "GC": 5
+  },
+  "n_contrasts": 1,
+  "pydeseq2_version": "0.5.4",
+  "size_factor_min": 0.40230446590730645,
+  "size_factor_max": 2.1875317234862246,
+  "n_finite_dispersions": 19862,
+  "fit_type": "parametric",
+  "independent_filter": false,
+  "cooks_filter": true,
+  "coefficient_shrinkage": false,
+  "python": "3.12.13"
+}

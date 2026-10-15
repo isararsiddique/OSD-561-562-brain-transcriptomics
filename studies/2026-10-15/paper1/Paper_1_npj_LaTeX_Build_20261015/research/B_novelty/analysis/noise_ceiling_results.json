@@ -1,0 +1,82 @@
+{
+ "OSD-561": {
+  "n_genes": 18152,
+  "n_rPRG_genes_found": 19,
+  "n_Sensor31_genes_found": 30,
+  "rPRG_ground_protocol_effect_mean_log2": 0.6961995601503255,
+  "whole_genome": {
+   "signal_energy_S": 2128.6762968745625,
+   "noise_energy_train": 5556.658670572291,
+   "noise_energy_test": 11113.317341144582,
+   "signal_to_noise_test": 0.19154283383896656,
+   "observed_split_cosine_mean": 0.22439871379475484,
+   "observed_split_cosine_q025_q975": [
+    -6.433971414487652e-06,
+    0.3667025212690384
+   ],
+   "expected_cosine_if_identical_loading_analytic": 0.21100927060193317,
+   "expected_cosine_if_identical_loading_simulated_mean": 0.21115035190320752,
+   "expected_cosine_sim_q025_q975": [
+    0.18619726057748584,
+    0.23563375567286815
+   ]
+  },
+  "Sensor31": {
+   "signal_energy_S": 14.328216667877674,
+   "noise_energy_train": 5.098735380875955,
+   "noise_energy_test": 10.19747076175191,
+   "signal_to_noise_test": 1.4050755332017355,
+   "observed_split_cosine_mean": 0.6864705932284086,
+   "observed_split_cosine_q025_q975": [
+    0.4789034649027204,
+    0.8156662211368775
+   ],
+   "expected_cosine_if_identical_loading_analytic": 0.6564160804272177,
+   "expected_cosine_if_identical_loading_simulated_mean": 0.6609033083373319,
+   "expected_cosine_sim_q025_q975": [
+    0.34246061514243215,
+    0.8450285839105252
+   ]
+  }
+ },
+ "OSD-562": {
+  "n_genes": 17775,
+  "n_rPRG_genes_found": 20,
+  "n_Sensor31_genes_found": 31,
+  "rPRG_ground_protocol_effect_mean_log2": 1.1272230255966171,
+  "whole_genome": {
+   "signal_energy_S": 4081.319101326383,
+   "noise_energy_train": 2782.943605941312,
+   "noise_energy_test": 5565.887211882624,
+   "signal_to_noise_test": 0.733273770372703,
+   "observed_split_cosine_mean": 0.5194038758833679,
+   "observed_split_cosine_q025_q975": [
+    0.2844787635042207,
+    0.6372382772801375
+   ],
+   "expected_cosine_if_identical_loading_analytic": 0.501536818199478,
+   "expected_cosine_if_identical_loading_simulated_mean": 0.5006397769385152,
+   "expected_cosine_sim_q025_q975": [
+    0.4799676696203085,
+    0.5209615985789747
+   ]
+  },
+  "Sensor31": {
+   "signal_energy_S": 38.59279157468874,
+   "noise_energy_train": 5.851137160457068,
+   "noise_energy_test": 11.702274320914135,
+   "signal_to_noise_test": 3.2978881298070633,
+   "observed_split_cosine_mean": 0.8431529741687066,
+   "observed_split_cosine_q025_q975": [
+    0.6018963844162891,
+    0.9610000330323212
+   ],
+   "expected_cosine_if_identical_loading_analytic": 0.8162764780668429,
+   "expected_cosine_if_identical_loading_simulated_mean": 0.8234049940629927,
+   "expected_cosine_sim_q025_q975": [
+    0.6329845652332564,
+    0.9323343126319408
+   ]
+  }
+ }
+}

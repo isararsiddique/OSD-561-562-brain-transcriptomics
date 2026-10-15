@@ -1,0 +1,1146 @@
+[
+ {
+  "id": "a.libs.OSD-525",
+  "claim": "OSD-525 libraries",
+  "expected": 29,
+  "recomputed": 29,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-525",
+  "claim": "OSD-525 animal-region columns",
+  "expected": 26,
+  "recomputed": 26,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-525",
+  "claim": "OSD-525 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 19308,
+  "recomputed": 19308,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-561",
+  "claim": "OSD-561 libraries",
+  "expected": 26,
+  "recomputed": 26,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-561",
+  "claim": "OSD-561 animal-region columns",
+  "expected": 26,
+  "recomputed": 26,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-561",
+  "claim": "OSD-561 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 18199,
+  "recomputed": 18199,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-562",
+  "claim": "OSD-562 libraries",
+  "expected": 27,
+  "recomputed": 27,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-562",
+  "claim": "OSD-562 animal-region columns",
+  "expected": 27,
+  "recomputed": 27,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-562",
+  "claim": "OSD-562 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 17838,
+  "recomputed": 17838,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-613",
+  "claim": "OSD-613 libraries",
+  "expected": 18,
+  "recomputed": 18,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-613",
+  "claim": "OSD-613 animal-region columns",
+  "expected": 18,
+  "recomputed": 18,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-613",
+  "claim": "OSD-613 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 19959,
+  "recomputed": 19959,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-563",
+  "claim": "OSD-563 libraries",
+  "expected": 10,
+  "recomputed": 10,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-563",
+  "claim": "OSD-563 animal-region columns",
+  "expected": 10,
+  "recomputed": 10,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-563",
+  "claim": "OSD-563 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 20045,
+  "recomputed": 20045,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-564",
+  "claim": "OSD-564 libraries",
+  "expected": 10,
+  "recomputed": 10,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-564",
+  "claim": "OSD-564 animal-region columns",
+  "expected": 10,
+  "recomputed": 10,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-564",
+  "claim": "OSD-564 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 19862,
+  "recomputed": 19862,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libs.OSD-612",
+  "claim": "OSD-612 libraries",
+  "expected": 9,
+  "recomputed": 9,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.cols.OSD-612",
+  "claim": "OSD-612 animal-region columns",
+  "expected": 9,
+  "recomputed": 9,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.genes.OSD-612",
+  "claim": "OSD-612 genes retained (canonical ENSMUSG, mean>=10)",
+  "expected": 20655,
+  "recomputed": 20655,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.libraries",
+  "claim": "Seven count matrices contain 129 libraries",
+  "expected": 129,
+  "recomputed": 129,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.columns",
+  "claim": "126 animal-region columns",
+  "expected": 126,
+  "recomputed": 126,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.animals",
+  "claim": "83 distinct animals across RRRM-2, RR-10 and RR-23",
+  "expected": 83,
+  "recomputed": 83,
+  "status": "MATCH",
+  "note": "distinct Source Name per mission: RR-23 26, RRRM-2 47, RR-10 10"
+ },
+ {
+  "id": "a.pairs_rrrm2",
+  "claim": "24 animals contributed both cerebellum and hippocampus",
+  "expected": 24,
+  "recomputed": 24,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.rrrm2_union",
+  "claim": "OSD-561/562 represent 29 animals",
+  "expected": 29,
+  "recomputed": 29,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.pairs_rr10",
+  "claim": "OSD-563/564 provide ten matched pairs",
+  "expected": 10,
+  "recomputed": 10,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.612_subset",
+  "claim": "OSD-612 contains nine of that RR-10 cohort's animals",
+  "expected": "9, subset",
+  "recomputed": "9, subset=True",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.613_other",
+  "claim": "OSD-613 contained 18 other RRRM-2 animals",
+  "expected": 18,
+  "recomputed": 18,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.rr23",
+  "claim": "RR-23: 29 libraries, 26 animals: 9 FLT, 9 HGC, 8 VGC; 3 technical replicates summed",
+  "expected": "29/26/9/9/8/3",
+  "recomputed": "29/26/9/9/8/3",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.conflicts",
+  "claim": "Seven location entries from six core animals disagreed with Source Name cohort",
+  "expected": "7 / 6",
+  "recomputed": "7 / 6",
+  "status": "MATCH",
+  "note": "conflict animals: RRRM-2_FL_ISS_10, RRRM-2_FL_ISS_12, RRRM-2_FL_ISS_13, RRRM-2_FL_ISS_15, RRRM-2_FL_ISS_18, RRRM-2_HGC_ISS_20"
+ },
+ {
+  "id": "a.old_flt_isst_after_exclusion.OSD-561",
+  "claim": "OSD-561 older FLT ISS-T animals left after excluding conflict animals",
+  "expected": 0,
+  "recomputed": 0,
+  "status": "MATCH",
+  "note": "4 older FLT ISS-T before exclusion"
+ },
+ {
+  "id": "a.old_flt_isst_after_exclusion.OSD-562",
+  "claim": "OSD-562 older FLT ISS-T animals left after excluding conflict animals",
+  "expected": 1,
+  "recomputed": 1,
+  "status": "MATCH",
+  "note": "5 older FLT ISS-T before exclusion"
+ },
+ {
+  "id": "a.paired_old_flt_isst",
+  "claim": "Metadata exclusion removed all four older FLT ISS-T paired animals",
+  "expected": 4,
+  "recomputed": "4 paired, 4 of them conflict animals",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "a.ground_unique",
+  "claim": "362 splits use 30 unique ground animals",
+  "expected": 30,
+  "recomputed": 30,
+  "status": "MATCH",
+  "note": "RRRM-2 GC 13 + RR-23 HGC/VGC 17"
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-561",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "15.309",
+  "recomputed": "15.309 (||A||2=15.309, w.gamma=1.000000, genes 18199/18199, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-562",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "13.888",
+  "recomputed": "13.888 (||A||2=13.888, w.gamma=1.000000, genes 17027/17027, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-563",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "14.944",
+  "recomputed": "14.944 (||A||2=14.944, w.gamma=1.000000, genes 18048/18048, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-564",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "14.595",
+  "recomputed": "14.595 (||A||2=14.595, w.gamma=1.000000, genes 17702/17702, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-612",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "14.906",
+  "recomputed": "14.906 (||A||2=14.906, w.gamma=1.000000, genes 18022/18022, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-613",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "14.609",
+  "recomputed": "14.609 (||A||2=14.609, w.gamma=1.000000, genes 17646/17646, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-561->OSD-525",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "14.172",
+  "recomputed": "14.172 (||A||2=14.172, w.gamma=1.000000, genes 17379/17379, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-561",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.549",
+  "recomputed": "11.549 (||A||2=11.549, w.gamma=1.000000, genes 17027/17027, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-562",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.305",
+  "recomputed": "11.305 (||A||2=11.305, w.gamma=1.000000, genes 17838/17838, sensors 31/31)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-563",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.022",
+  "recomputed": "11.022 (||A||2=11.022, w.gamma=1.000000, genes 17401/17401, sensors 31/31)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-564",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.252",
+  "recomputed": "11.252 (||A||2=11.252, w.gamma=1.000000, genes 17759/17759, sensors 31/31)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-612",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.210",
+  "recomputed": "11.210 (||A||2=11.210, w.gamma=1.000000, genes 17695/17695, sensors 31/31)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-613",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.199",
+  "recomputed": "11.199 (||A||2=11.199, w.gamma=1.000000, genes 17740/17740, sensors 31/31)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-562->OSD-525",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "11.384",
+  "recomputed": "11.384 (||A||2=11.384, w.gamma=1.000000, genes 16667/16667, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.gain.OSD-525->OSD-525",
+  "claim": "score-operator spectral gain ||gamma||",
+  "expected": "8.129",
+  "recomputed": "8.129 (||A||2=8.129, w.gamma=1.000000, genes 19308/19308, sensors 30/30)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.range",
+  "claim": "learned spectral gains ranged from 8.129 to 15.309 across all 15 geometries",
+  "expected": "8.129-15.309",
+  "recomputed": "8.129-15.309 (n=15)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "c.bounded_561",
+  "claim": "bounded loading at L=2 has norm 2 and keeps w.gamma=1 (OSD-561 anchor)",
+  "expected": "2, 1",
+  "recomputed": "2.000000000000, 1.000000000000",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.auc.OSD-561",
+  "claim": "OSD-561 mean age-stratified sensor AUC over 81 splits",
+  "expected": "1.000",
+  "recomputed": "1.000 (min 1.000; 81 splits; 30 sensors)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.cos.OSD-561",
+  "claim": "OSD-561 mean training-test whole-genome contrast cosine",
+  "expected": "0.228",
+  "recomputed": "0.2277 (max per-split |diff| vs package 1.7e-16)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.mse.OSD-561",
+  "claim": "OSD-561 original-score outside-sensor MSE ratio",
+  "expected": "1.091",
+  "recomputed": "1.0909 (max per-split |diff| 4.4e-16)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.energy.OSD-561",
+  "claim": "OSD-561 mean held-out outside-sensor contrast energy removal (%)",
+  "expected": "-23.26",
+  "recomputed": "-23.26",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.wauc.OSD-561",
+  "claim": "OSD-561 mean whole-genome AUC (Supplement)",
+  "expected": "0.796",
+  "recomputed": "0.796",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.scos.OSD-561",
+  "claim": "OSD-561 mean sensor-vector cosine (Supplement)",
+  "expected": "0.683",
+  "recomputed": "0.683",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.auc.OSD-562",
+  "claim": "OSD-562 mean age-stratified sensor AUC over 81 splits",
+  "expected": "1.000",
+  "recomputed": "1.000 (min 1.000; 81 splits; 31 sensors)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.cos.OSD-562",
+  "claim": "OSD-562 mean training-test whole-genome contrast cosine",
+  "expected": "0.521",
+  "recomputed": "0.5214 (max per-split |diff| vs package 1.7e-16)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.mse.OSD-562",
+  "claim": "OSD-562 original-score outside-sensor MSE ratio",
+  "expected": "0.962",
+  "recomputed": "0.9619 (max per-split |diff| 4.4e-16)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.energy.OSD-562",
+  "claim": "OSD-562 mean held-out outside-sensor contrast energy removal (%)",
+  "expected": "16.85",
+  "recomputed": "16.85",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.wauc.OSD-562",
+  "claim": "OSD-562 mean whole-genome AUC (Supplement)",
+  "expected": "1.000",
+  "recomputed": "1.000",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "d.scos.OSD-562",
+  "claim": "OSD-562 mean sensor-vector cosine (Supplement)",
+  "expected": "0.843",
+  "recomputed": "0.843",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.n_tests",
+  "claim": "54,989 region-gene combinations",
+  "expected": 54989,
+  "recomputed": 54989,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.survivors",
+  "claim": "no gene survived global BH or BY",
+  "expected": "0 / 0",
+  "recomputed": "0 / 0 (min BH q=0.652)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.hippocampus",
+  "claim": "hippocampus: direction-concordant genes / nominal max-p<0.05",
+  "expected": "5001 / 0",
+  "recomputed": "5001 / 0 (n=17759, min max-p=7.60e-02)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.cerebellum",
+  "claim": "cerebellum: direction-concordant genes / nominal max-p<0.05",
+  "expected": "5047 / 3",
+  "recomputed": "5047 / 3 (n=18048, min max-p=2.18e-02)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.left_cerebral_hemisphere",
+  "claim": "left_cerebral_hemisphere: direction-concordant genes / nominal max-p<0.05",
+  "expected": "9884 / 554",
+  "recomputed": "9884 / 554 (n=19182, min max-p=1.45e-05)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "e.ols_left_hemisphere",
+  "claim": "Estimator sensitivity (NEW): IU screen with own log-expression OLS t tests, left hemisphere (OSD-613 + OSD-612)",
+  "expected": "package NB screen: 9,884 concordant, 554 nominal, 0 BH",
+  "recomputed": "9865 concordant, 399 nominal, 0 BH within region (n=19182)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "f.size_factors",
+  "claim": "PyDESeq2 size-factor range (OSD-561 fit json)",
+  "expected": "0.1646-2.5803",
+  "recomputed": "0.1646-2.5803",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "f.Hbb-bt",
+  "claim": "cerebellar Hbb-bt flight x collection interaction (NB, log2)",
+  "expected": "-3.495 (global q=0.000197)",
+  "recomputed": "NB -3.495 (SE 0.668, Wald p=1.69e-07, own CR dispersion 0.331); own OLS log2 -3.654",
+  "status": "MATCH",
+  "note": "independent NB MLE with gene-wise Cox-Reid dispersion (no empirical-Bayes shrinkage); q not recomputed (needs all 72,023 fits)"
+ },
+ {
+  "id": "f.Hbb-bs",
+  "claim": "cerebellar Hbb-bs flight x collection interaction (NB, log2)",
+  "expected": "-3.009 (global q=0.001406)",
+  "recomputed": "NB -3.009 (SE 0.650, Wald p=3.63e-06, own CR dispersion 0.313); own OLS log2 -3.112",
+  "status": "MATCH",
+  "note": "independent NB MLE with gene-wise Cox-Reid dispersion (no empirical-Bayes shrinkage); q not recomputed (needs all 72,023 fits)"
+ },
+ {
+  "id": "g.estimate",
+  "claim": "hippocampal Circadian panel interaction (log2)",
+  "expected": "-0.405",
+  "recomputed": "-0.4053 (12 genes, 27 animals)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "g.interval",
+  "claim": "95% stratified animal-bootstrap interval -0.591 to -0.215 (4,000 draws)",
+  "expected": "-0.591 to -0.215",
+  "recomputed": "-0.595 to -0.216 (4000 usable draws, own seed)",
+  "status": "DIRECTION",
+  "note": "Monte Carlo interval; exact equality not expected"
+ },
+ {
+  "id": "g.wild_p",
+  "claim": "restricted-model HC3 wild bootstrap p (499,999 draws)",
+  "expected": "0.000838",
+  "recomputed": "0.000762 (HC3 t=-3.343)",
+  "status": "DIRECTION",
+  "note": "Monte Carlo p; package MC 95% interval 0.000758-0.000920"
+ },
+ {
+  "id": "g.exclusion",
+  "claim": "metadata-exclusion hippocampal Circadian interaction",
+  "expected": "-0.460",
+  "recomputed": "-0.4597 (21 animals)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "g.loo_animal",
+  "claim": "one-animal omission range -0.459 to -0.365",
+  "expected": "-0.459 to -0.365",
+  "recomputed": "-0.459 to -0.365",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "g.loo_gene",
+  "claim": "one-gene omission range -0.452 to -0.360",
+  "expected": "-0.452 to -0.360",
+  "recomputed": "-0.452 to -0.360",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "g.cells",
+  "claim": "hippocampal design-cell sizes (flight, cohort, age)",
+  "expected": "n/a",
+  "recomputed": "{\"FLT|ISS_T|12\": 4, \"FLT|ISS_T|29\": 5, \"FLT|LAR|12\": 3, \"FLT|LAR|29\": 3, \"GC|ISS_T|12\": 3, \"GC|ISS_T|29\": 3, \"GC|LAR|12\": 3, \"GC|LAR|29\": 3}",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "h.OSD-202",
+  "claim": "OSD-202 count columns / columns in NASA SampleTable / pool size",
+  "expected": "see Table 2",
+  "recomputed": "40 / 40 / 1",
+  "status": "INFO",
+  "note": "SampleTable rows 40"
+ },
+ {
+  "id": "h.OSD-352",
+  "claim": "OSD-352 count columns / columns in NASA SampleTable / pool size",
+  "expected": "see Table 2",
+  "recomputed": "6 / 6 / 1",
+  "status": "INFO",
+  "note": "SampleTable rows 6"
+ },
+ {
+  "id": "h.OSD-374",
+  "claim": "OSD-374 count columns / columns in NASA SampleTable / pool size",
+  "expected": "see Table 2",
+  "recomputed": "8 / 8 / 2",
+  "status": "INFO",
+  "note": "SampleTable rows 8"
+ },
+ {
+  "id": "h.OSD-611",
+  "claim": "OSD-611 count columns / columns in NASA SampleTable / pool size",
+  "expected": "see Table 2",
+  "recomputed": "12 / 10 / 2",
+  "status": "INFO",
+  "note": "SampleTable rows 10"
+ },
+ {
+  "id": "h.total_columns",
+  "claim": "66 acquired count columns",
+  "expected": 66,
+  "recomputed": 66,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "h.units",
+  "claim": "64 primary units = 46 individual + 18 pooled",
+  "expected": "64 = 46 + 18",
+  "recomputed": "64 = 46 + 18",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "i.OSD-561",
+  "claim": "OSD-561 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9878; 0.9884; 78/81",
+  "recomputed": "0.9878; 0.9884; 78/81; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 81"
+ },
+ {
+  "id": "i.OSD-562",
+  "claim": "OSD-562 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9484; 0.9492; 81/81",
+  "recomputed": "0.9484; 0.9492; 81/81; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 81"
+ },
+ {
+  "id": "i.OSD-525",
+  "claim": "OSD-525 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9628; 0.9628; 200/200",
+  "recomputed": "0.9628; 0.9628; 200/200; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 200"
+ },
+ {
+  "id": "i.OSD-202",
+  "claim": "OSD-202 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9284; 0.9080; 37/40",
+  "recomputed": "0.9284; 0.9080; 37/40; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 40"
+ },
+ {
+  "id": "i.OSD-352",
+  "claim": "OSD-352 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9857; 0.9843; 5/6",
+  "recomputed": "0.9857; 0.9843; 5/6; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 6"
+ },
+ {
+  "id": "i.OSD-374",
+  "claim": "OSD-374 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9501; 0.9744; 8/8",
+  "recomputed": "0.9501; 0.9744; 8/8; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 8"
+ },
+ {
+  "id": "i.OSD-611",
+  "claim": "OSD-611 constrained mean MSE ratio; pooled SSE ratio; improved holdouts",
+  "expected": "0.9719; 0.9836; 9/10",
+  "recomputed": "0.9719; 0.9836; 9/10; max gain 2.000000",
+  "status": "MATCH",
+  "note": "per-row MSE_ratio==SSE ratio: True; n rows 10"
+ },
+ {
+  "id": "i.range_original",
+  "claim": "mean held-out error reduction 1.2-5.2% (original settings)",
+  "expected": "1.2-5.2",
+  "recomputed": "1.22-5.16",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "i.range_external",
+  "claim": "mean held-out error reduction 1.4-7.2% (external)",
+  "expected": "1.4-7.2",
+  "recomputed": "1.43-7.16",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "i.external_units",
+  "claim": "external holdouts = 64 animal/pool units",
+  "expected": 64,
+  "recomputed": 64,
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "i.OSD-202.ridge_CV",
+  "claim": "OSD-202 ridge_CV mean MSE ratio (paper: ridge OSD-202 0.8028; original score OSD-374 0.7344)",
+  "expected": "see text",
+  "recomputed": "0.8028; mean gain 30.65",
+  "status": "INFO",
+  "note": ""
+ },
+ {
+  "id": "i.OSD-202.original_score",
+  "claim": "OSD-202 original_score mean MSE ratio (paper: ridge OSD-202 0.8028; original score OSD-374 0.7344)",
+  "expected": "see text",
+  "recomputed": "0.9577; mean gain 17.23",
+  "status": "INFO",
+  "note": ""
+ },
+ {
+  "id": "i.OSD-374.ridge_CV",
+  "claim": "OSD-374 ridge_CV mean MSE ratio (paper: ridge OSD-202 0.8028; original score OSD-374 0.7344)",
+  "expected": "see text",
+  "recomputed": "0.7879; mean gain 22.53",
+  "status": "INFO",
+  "note": ""
+ },
+ {
+  "id": "i.OSD-374.original_score",
+  "claim": "OSD-374 original_score mean MSE ratio (paper: ridge OSD-202 0.8028; original score OSD-374 0.7344)",
+  "expected": "see text",
+  "recomputed": "0.7344; mean gain 32.02",
+  "status": "INFO",
+  "note": ""
+ },
+ {
+  "id": "k.gain_null.OSD-561",
+  "claim": "NEW: Sensor31 gain vs 500 random 30-gene sensors (OSD-561 anchor, own universe)",
+  "expected": "n/a",
+  "recomputed": "Sensor31 15.31; random median 23.06 (2.5-97.5%: 15.48-38.55); fraction random >= Sensor31: 0.978; isotropic fixed-w expectation (G=18199, r=10) 47.7",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "k.gain_null.OSD-562",
+  "claim": "NEW: Sensor31 gain vs 500 random 31-gene sensors (OSD-562 anchor, own universe)",
+  "expected": "n/a",
+  "recomputed": "Sensor31 11.30; random median 22.45 (2.5-97.5%: 15.50-32.13); fraction random >= Sensor31: 1.000; isotropic fixed-w expectation (G=17838, r=10) 47.2",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "k.gain_null.OSD-525",
+  "claim": "NEW: Sensor31 gain vs 500 random 30-gene sensors (OSD-525 anchor, own universe)",
+  "expected": "n/a",
+  "recomputed": "Sensor31 8.13; random median 20.83 (2.5-97.5%: 10.69-34.86); fraction random >= Sensor31: 0.996; isotropic fixed-w expectation (G=19308, r=16) 37.1",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "j.OSD-352",
+  "claim": "OSD-352 nested gain-2 constrained regression, own implementation from raw STAR counts + SampleTable",
+  "expected": "0.9857 (package 6 rows; alphas ['0.01', '0.1', '0.1', '0.1', '0.01', '0.01'])",
+  "recomputed": "mean MSE ratio 0.9857; improved 5/6; max gain 2.000000; alphas [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]; max |sorted diff| 1.7e-06",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "j.OSD-374",
+  "claim": "OSD-374 nested gain-2 constrained regression, own implementation from raw STAR counts + SampleTable",
+  "expected": "0.9501 (package 8 rows; alphas ['10.0', '10.0', '10.0', '10.0', '10.0', '10.0', '10.0', '10.0'])",
+  "recomputed": "mean MSE ratio 0.9501; improved 8/8; max gain 2.000000; alphas [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]; max |sorted diff| 6.5e-06",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "j.OSD-611",
+  "claim": "OSD-611 nested gain-2 constrained regression, own implementation from raw STAR counts + SampleTable",
+  "expected": "0.9719 (package 10 rows; alphas ['0.01', '0.01', '0.1', '1.0', '10.0', '0.01', '0.01', '1.0', '0.01', '0.01'])",
+  "recomputed": "mean MSE ratio 0.9719; improved 9/10; max gain 2.000000; alphas [0.01, 0.01, 0.01, 1.0, 10.0, 0.01, 0.01, 1.0, 0.01, 0.01]; max |sorted diff| 4.8e-05",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "j.OSD-202",
+  "claim": "OSD-202 nested gain-2 constrained regression, own implementation from raw STAR counts + SampleTable",
+  "expected": "0.9284 (package 40 rows; alphas ['0.01', '0.1', '1.0', '0.1', '0.1', '0.01', '0.01', '0.01', '0.01', '0.1', '0.1', '0.01', '0.1', '0.01', '0.1', '0.1', '0.1', '0.01', '0.01', '0.1', '0.1', '0.01', '0.1', '0.1', '0.01', '0.01', '0.1', '0.1', '0.01', '0.01', '0.1', '0.1', '0.1', '0.01', '0.1', '0.1', '0.01', '0.01', '0.01', '0.1'])",
+  "recomputed": "mean MSE ratio 0.9284; improved 37/40; max gain 2.000000; alphas [0.01, 0.01, 1.0, 0.1, 0.1, 0.01, 0.01, 0.01, 0.01, 0.1, 0.1, 0.01, 0.1, 0.1, 0.1, 0.1, 0.01, 0.01, 0.1, 0.1, 0.1, 0.01, 0.01, 0.01, 0.01, 0.01, 0.1, 0.01, 0.01, 0.01, 0.1, 0.1, 0.1, 0.01, 0.1, 0.1, 0.01, 0.01, 0.01, 0.01]; max |sorted diff| 2.0e-05",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-561",
+  "claim": "NEW: OSD-561 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9878; clipped 0.9896; unbounded ridge 0.9400 (mean gain 29.0); constrained-minus-clipped mean -0.0018, constrained better in 56/81 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-562",
+  "claim": "NEW: OSD-562 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9484; clipped 0.9628; unbounded ridge 0.8664 (mean gain 18.6); constrained-minus-clipped mean -0.0145, constrained better in 81/81 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-525",
+  "claim": "NEW: OSD-525 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9628; clipped 0.9675; unbounded ridge 0.9037 (mean gain 12.0); constrained-minus-clipped mean -0.0046, constrained better in 185/200 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-202",
+  "claim": "NEW: OSD-202 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9284; clipped 0.9510; unbounded ridge 0.8028 (mean gain 30.6); constrained-minus-clipped mean -0.0226, constrained better in 34/40 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-352",
+  "claim": "NEW: OSD-352 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9857; clipped 0.9936; unbounded ridge 1.0088 (mean gain 5.7); constrained-minus-clipped mean -0.0079, constrained better in 6/6 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-374",
+  "claim": "NEW: OSD-374 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9501; clipped 0.9606; unbounded ridge 0.7044 (mean gain 29.9); constrained-minus-clipped mean -0.0105, constrained better in 7/8 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "l.OSD-611",
+  "claim": "NEW: OSD-611 constrained vs matched clipped ridge vs unbounded ridge (mean MSE ratio)",
+  "expected": "n/a",
+  "recomputed": "constrained 0.9719; clipped 0.9738; unbounded ridge 0.9709 (mean gain 27.1); constrained-minus-clipped mean -0.0020, constrained better in 3/10 holdouts",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.all_17_design_contrasts",
+  "claim": "All 17 primary design contrasts x 8 panels (136 rows) in panel_results.csv",
+  "expected": "package panel_results.csv (design_cohort)",
+  "recomputed": "max |d effect|=1.78e-15; max |d p|=1.11e-16",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.new.rprg_design_ladder",
+  "claim": "NEW: rPRG effect across contrasts ordered by which protocol factors differ",
+  "expected": "n/a",
+  "recomputed": "RRRM2_pooled_GC_ISST_vs_LAR +0.889 (p=0.00143); RRRM2_pooled_FLT_vs_GC_within_ISS_T -0.027 (p=0.886); RRRM2_pooled_FLT_vs_GC_within_LAR +0.235 (p=0.115); OSD613_FLT_vs_GC +0.019 (p=0.925); OSD563_FLT_vs_GC +0.204 (p=0.651); OSD564_FLT_vs_GC -0.047 (p=0.802); OSD612_FLT_vs_GC +0.046 (p=0.929); OSD525_FLT_vs_HGC -0.399 (p=0.00103); OSD525_HGC_vs_VGC +0.641 (p=0.000329)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.all_panel_rows",
+  "claim": "All 80 package design-cohort panel rows for these contrasts (effect, exact p)",
+  "expected": "package panel_results.csv",
+  "recomputed": "max |d effect|=1.55e-15, max |d p|=1.11e-16, assignments equal=True",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.RRRM2_pooled_GC_ISST_vs_LAR.rPRG",
+  "claim": "RRRM2_pooled_GC_ISST_vs_LAR rPRG effect (p)",
+  "expected": "0.889 (p=0.001429)",
+  "recomputed": "0.8885 (p=0.001429, 700 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD561_cerebellum_GC_ISST_vs_LAR.rPRG",
+  "claim": "OSD561_cerebellum_GC_ISST_vs_LAR rPRG effect (p)",
+  "expected": "0.704 (p=0.005)",
+  "recomputed": "0.7044 (p=0.005000, 400 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD562_hippocampus_GC_ISST_vs_LAR.rPRG",
+  "claim": "OSD562_hippocampus_GC_ISST_vs_LAR rPRG effect (p)",
+  "expected": "1.118 (p=0.010)",
+  "recomputed": "1.1180 (p=0.010000, 400 assignments, 20 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.RRRM2_pooled_FLT_ISST_vs_LAR.rPRG",
+  "claim": "RRRM2_pooled_FLT_ISST_vs_LAR rPRG effect (p)",
+  "expected": "0.656 (p=None)",
+  "recomputed": "0.6558 (p=0.004464, 3136 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.RRRM2_pooled_FLT_ISST_vs_LAR.HSP",
+  "claim": "RRRM2_pooled_FLT_ISST_vs_LAR HSP effect (p)",
+  "expected": "0.400 (p=None)",
+  "recomputed": "0.4005 (p=0.004145, 3136 assignments, 11 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD561_cerebellum_FLT_ISST_vs_LAR.rPRG",
+  "claim": "OSD561_cerebellum_FLT_ISST_vs_LAR rPRG effect (p)",
+  "expected": "0.332 (p=0.21)",
+  "recomputed": "0.3322 (p=0.209524, 735 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD562_hippocampus_FLT_ISST_vs_LAR.rPRG",
+  "claim": "OSD562_hippocampus_FLT_ISST_vs_LAR rPRG effect (p)",
+  "expected": "1.004 (p=0.0005)",
+  "recomputed": "1.0045 (p=0.000510, 1960 assignments, 20 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD562_hippocampus_FLT_ISST_vs_LAR.SRG",
+  "claim": "OSD562_hippocampus_FLT_ISST_vs_LAR SRG effect (p)",
+  "expected": "0.629 (p=None)",
+  "recomputed": "0.6294 (p=0.000510, 1960 assignments, 13 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD561_cerebellum_FLT_vs_GC_within_ISS_T.rPRG",
+  "claim": "OSD561_cerebellum_FLT_vs_GC_within_ISS_T rPRG effect (p)",
+  "expected": "-0.206 (p=0.36)",
+  "recomputed": "-0.2060 (p=0.355612, 1960 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD562_hippocampus_FLT_vs_GC_within_ISS_T.rPRG",
+  "claim": "OSD562_hippocampus_FLT_vs_GC_within_ISS_T rPRG effect (p)",
+  "expected": "0.164 (p=0.49)",
+  "recomputed": "0.1645 (p=0.493367, 1960 assignments, 20 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD561_cerebellum_FLT_vs_GC_within_LAR.rPRG",
+  "claim": "OSD561_cerebellum_FLT_vs_GC_within_LAR rPRG effect (p)",
+  "expected": "0.188 (p=0.38)",
+  "recomputed": "0.1885 (p=0.380000, 200 assignments, 19 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.OSD562_hippocampus_FLT_vs_GC_within_LAR.rPRG",
+  "claim": "OSD562_hippocampus_FLT_vs_GC_within_LAR rPRG effect (p)",
+  "expected": "0.281 (p=0.06)",
+  "recomputed": "0.2814 (p=0.060000, 400 assignments, 20 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.RRRM2_pooled_GC_ISST_vs_LAR.SRG",
+  "claim": "RRRM2_pooled_GC_ISST_vs_LAR SRG effect (p)",
+  "expected": "0.032 (p=None)",
+  "recomputed": "0.0318 (p=0.837143, 700 assignments, 13 genes)",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "b.pooled_gc_rprg_boot",
+  "claim": "pooled GC ISS-T-LAR rPRG 95% animal-bootstrap interval 0.595-1.183 (1,000 draws)",
+  "expected": "0.595-1.183",
+  "recomputed": "0.571-1.198",
+  "status": "DIRECTION",
+  "note": "own seed 20261015; Monte Carlo interval, exact equality not expected"
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_ISS_T.rPRG",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_ISS_T rPRG",
+  "expected": "n/a",
+  "recomputed": "-0.0268 (exact p=0.8859, 7056 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_ISS_T.HSP",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_ISS_T HSP",
+  "expected": "n/a",
+  "recomputed": "0.1233 (exact p=0.2683, 7056 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_ISS_T.SRG",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_ISS_T SRG",
+  "expected": "n/a",
+  "recomputed": "0.3381 (exact p=0.0269, 7056 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_LAR.rPRG",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_LAR rPRG",
+  "expected": "n/a",
+  "recomputed": "0.2345 (exact p=0.1150, 400 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_LAR.HSP",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_LAR HSP",
+  "expected": "n/a",
+  "recomputed": "0.0646 (exact p=0.0750, 400 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.RRRM2_pooled_FLT_vs_GC_within_LAR.SRG",
+  "claim": "NEW (no package row): RRRM2_pooled_FLT_vs_GC_within_LAR SRG",
+  "expected": "n/a",
+  "recomputed": "0.0870 (exact p=0.3200, 400 assignments)",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.boot.RRRM2_pooled_FLT_vs_GC_within_LAR",
+  "claim": "NEW: RRRM2_pooled_FLT_vs_GC_within_LAR 95% whole-animal bootstrap (2,000 draws within label x age)",
+  "expected": "n/a",
+  "recomputed": "rPRG +0.235 [+0.023, +0.435]; HSP +0.065 [+0.016, +0.117]; SRG +0.087 [-0.044, +0.216]",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.boot.RRRM2_pooled_FLT_vs_GC_within_ISS_T",
+  "claim": "NEW: RRRM2_pooled_FLT_vs_GC_within_ISS_T 95% whole-animal bootstrap (2,000 draws within label x age)",
+  "expected": "n/a",
+  "recomputed": "rPRG -0.027 [-0.341, +0.285]; HSP +0.123 [-0.059, +0.310]; SRG +0.338 [+0.089, +0.590]",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.boot.RRRM2_pooled_GC_ISST_vs_LAR",
+  "claim": "NEW: RRRM2_pooled_GC_ISST_vs_LAR 95% whole-animal bootstrap (2,000 draws within label x age)",
+  "expected": "n/a",
+  "recomputed": "rPRG +0.889 [+0.576, +1.214]; HSP +0.332 [+0.183, +0.470]; SRG +0.032 [-0.211, +0.261]",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "b.new.protocol_vs_flight_rPRG",
+  "claim": "NEW: pooled rPRG ground protocol effect vs matched flight effects",
+  "expected": "n/a",
+  "recomputed": "GC ISS-T-LAR +0.889; FLT-GC within ISS-T -0.027; within LAR +0.235",
+  "status": "NEW",
+  "note": ""
+ },
+ {
+  "id": "m.OSD-561",
+  "claim": "OSD-561 nested gain-2 constrained regression over 81 ground holdouts, own implementation from raw counts",
+  "expected": "0.9878",
+  "recomputed": "mean MSE ratio 0.9878; improved 78/81; max |sorted diff| vs package 1.6e-05",
+  "status": "MATCH",
+  "note": ""
+ },
+ {
+  "id": "m.OSD-562",
+  "claim": "OSD-562 nested gain-2 constrained regression over 81 ground holdouts, own implementation from raw counts",
+  "expected": "0.9484",
+  "recomputed": "mean MSE ratio 0.9484; improved 81/81; max |sorted diff| vs package 3.0e-05",
+  "status": "MATCH",
+  "note": ""
+ }
+]

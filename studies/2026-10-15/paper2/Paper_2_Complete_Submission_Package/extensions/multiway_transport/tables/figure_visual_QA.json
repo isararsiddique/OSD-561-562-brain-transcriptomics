@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "figure_pdf_sha256": "c6636d1bbea7f9c0473a3e6e1afc04f56b2818b22aece5b2924d3ddff1e94e50",
+  "pages_inspected": [
+    1
+  ],
+  "panels_inspected": [
+    "a) measurement transport",
+    "b) every common-cluster directional effect",
+    "c) fixed-direction and two-cohort animal-bootstrap uncertainty",
+    "d) all 19 held-out animals"
+  ],
+  "inspection_render": "tmp/figure_qa/proof_final.png",
+  "inspection_render_dpi": 150,
+  "observations": [
+    "All panels, labels, tick marks, legends, minus signs and zero-reference lines inspected at full render resolution.",
+    "No clipped or overlapping text; long panel a) category label fitted onto two lines.",
+    "Blue FLT and orange GC encodings match manuscript palette.",
+    "White background; no overall figure title or footer inside canvas.",
+    "Actual PNG is 4,322 by 3,850 pixels: one-pixel width truncation by the raster renderer; the PDF page preserves exact 183 by 163 mm size."
+  ],
+  "limitations": [
+    "Scatterplot overplotting reflects all 281 measurable clusters; complete per-cluster values are preserved in tables.",
+    "Figure annotations are 8 pt at final journal size; vector PDF/SVG allow magnification."
+  ],
+  "figure_format": {
+    "width_mm": 183,
+    "height_mm": 163,
+    "dpi_png": 600,
+    "font_family": "Arial",
+    "minimum_text_font_points": 8.0,
+    "configured_minimum_line_points": 1,
+    "lowercase_bold_panel_labels": [
+      "a)",
+      "b)",
+      "c)",
+      "d)"
+    ],
+    "figure_title_inside_canvas": false,
+    "footer_inside_canvas": false,
+    "PDF_SVG_vector": true,
+    "PNG_expected_pixels": [
+      4323,
+      3850
+    ]
+  },
+  "actual_png_pixels": [
+    4322,
+    3850
+  ],
+  "caption_word_count": 248,
+  "PDF_embedded_true_type_font": true,
+  "PDF_base_fonts": [
+    "GOFYPY+Arial-BoldMT",
+    "GOFYPY+ArialMT"
+  ],
+  "export_paths": [
+    "figures/Figure_Multiway_Transport.pdf",
+    "figures/Figure_Multiway_Transport.png",
+    "figures/Figure_Multiway_Transport.svg"
+  ]
+}

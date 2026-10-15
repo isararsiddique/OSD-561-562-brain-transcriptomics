@@ -1,5 +1,7 @@
 # Spaceflight Transcriptomics of the Mouse Brain — OSD-561 & OSD-562
 
+**Latest two-study analysis release (15 October 2026):** [collection protocol, correction gain and cerebellar junction transport](studies/2026-10-15/README.md). Separate study guides explain what was done, how the analyses work, how to reproduce them and what the results support. The release includes complete source scripts, methods, small results and figures, NASA dataset links and checksummed provenance. Input datasets and large generated outputs remain in the study archives. Zenodo DOIs are reserved, with publication pending at release preparation. The historical OSD-561/562 analysis below is preserved; use the new guides for the current papers.
+
 A reproducible, full-data re-analysis of two NASA Open Science Data Repository
 (OSDR) bulk RNA-seq datasets from the RRRM-2 mission, focused on the cerebellum
 and hippocampus, using the project's CNS target panel.

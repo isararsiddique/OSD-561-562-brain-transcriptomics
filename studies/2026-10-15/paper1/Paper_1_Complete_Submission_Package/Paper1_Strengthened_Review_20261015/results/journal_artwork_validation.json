@@ -1,0 +1,233 @@
+[
+  {
+    "filename": "GRAPHICAL_ABSTRACT.svg",
+    "raised_strokes": 0,
+    "width": 4140,
+    "height": 2760,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  },
+  {
+    "filename": "figure10_disjoint_anchor_partitions.svg",
+    "raised_strokes": 0,
+    "width": 5882,
+    "height": 2644,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.023939980421174,
+    "minimum_print_stroke_points": 1.006511769473884
+  },
+  {
+    "filename": "figure11_known_truth_validation.svg",
+    "raised_strokes": 0,
+    "width": 6948,
+    "height": 5146,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.043848497205499,
+    "minimum_print_stroke_points": 1.0010122574300175
+  },
+  {
+    "filename": "figure12_high_gain_domain_shift.svg",
+    "raised_strokes": 0,
+    "width": 7270,
+    "height": 5894,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.029440456363387,
+    "minimum_print_stroke_points": 1.0022563973900398
+  },
+  {
+    "filename": "figure13_count_comparator_benchmark.svg",
+    "raised_strokes": 0,
+    "width": 4140,
+    "height": 3870,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  },
+  {
+    "filename": "figure1_sample_accounting_and_panel_effects.svg",
+    "raised_strokes": 0,
+    "width": 5886,
+    "height": 2703,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.018588096184876,
+    "minimum_print_stroke_points": 1.0058404366266993
+  },
+  {
+    "filename": "figure2_cross_cohort_panel_effects.svg",
+    "raised_strokes": 0,
+    "width": 5579,
+    "height": 3787,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.014317496712014,
+    "minimum_print_stroke_points": 1.0017896870890017
+  },
+  {
+    "filename": "figure3_count_model_and_biology.svg",
+    "raised_strokes": 0,
+    "width": 6952,
+    "height": 2868,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.039956314798825,
+    "minimum_print_stroke_points": 1.0005278969527427
+  },
+  {
+    "filename": "figure4_paired_regional_interactions.svg",
+    "raised_strokes": 0,
+    "width": 7267,
+    "height": 6130,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.03324683069824,
+    "minimum_print_stroke_points": 1.0027315192928299
+  },
+  {
+    "filename": "figure5_bounded_operator_and_joint_uncertainty.svg",
+    "raised_strokes": 0,
+    "width": 7549,
+    "height": 3228,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.007064826544859,
+    "minimum_print_stroke_points": 1.0036252488066502
+  },
+  {
+    "filename": "figure6_ground_holdout.svg",
+    "raised_strokes": 0,
+    "width": 4570,
+    "height": 3970,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.062589113863558,
+    "minimum_print_stroke_points": 1.0055588670099493
+  },
+  {
+    "filename": "figure7_constrained_prediction.svg",
+    "raised_strokes": 0,
+    "width": 4140,
+    "height": 3270,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  },
+  {
+    "filename": "figure8_external_prediction.svg",
+    "raised_strokes": 0,
+    "width": 4140,
+    "height": 3240,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  },
+  {
+    "filename": "figure9_ground_anchor_transfer.svg",
+    "raised_strokes": 0,
+    "width": 6088,
+    "height": 4862,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.024060420787334,
+    "minimum_print_stroke_points": 1.0064075782004454
+  },
+  {
+    "filename": "figureS1_cross_cohort_gene_screen.svg",
+    "raised_strokes": 0,
+    "width": 6309,
+    "height": 2688,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.005167264570053,
+    "minimum_print_stroke_points": 1.0039267143272281
+  },
+  {
+    "filename": "figureS2_all_deposit_structure.svg",
+    "raised_strokes": 0,
+    "width": 7870,
+    "height": 7270,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.048542845510976,
+    "minimum_print_stroke_points": 1.0047527343088865
+  },
+  {
+    "filename": "figureS3_flight_collection_interaction.svg",
+    "raised_strokes": 0,
+    "width": 8470,
+    "height": 6670,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.016060456226896,
+    "minimum_print_stroke_points": 1.002007557028362
+  },
+  {
+    "filename": "figureS4_fixed_blood_marker_context.svg",
+    "raised_strokes": 0,
+    "width": 8470,
+    "height": 6670,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.016060456226896,
+    "minimum_print_stroke_points": 1.002007557028362
+  },
+  {
+    "filename": "figureS5_independent_ground_and_age_validation.svg",
+    "raised_strokes": 0,
+    "width": 4500,
+    "height": 3960,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8.004,
+    "minimum_print_stroke_points": 1.0028000000000001
+  },
+  {
+    "filename": "figureS6_biological_robustness.svg",
+    "raised_strokes": 70,
+    "width": 4140,
+    "height": 3780,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  },
+  {
+    "filename": "figureS7_external_biological_context.svg",
+    "raised_strokes": 78,
+    "width": 4140,
+    "height": 3840,
+    "density": 600,
+    "colourspace": "srgb",
+    "intended_width_inches": 6.9,
+    "minimum_print_font_points": 8,
+    "minimum_print_stroke_points": 1
+  }
+]

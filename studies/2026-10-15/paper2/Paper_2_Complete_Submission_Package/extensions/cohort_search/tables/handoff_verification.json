@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_PUBLISHER_METADATA_CHECKSUM_EXCEPTION",
+  "frozen_plan_hash_unchanged": true,
+  "star_files_md5_matched": 10,
+  "count_matrix_shape": [
+    590325,
+    10
+  ],
+  "sample_order_identity_and_5_plus_5_design_verified": true,
+  "stored_independent_reconstruction_totals_match": true,
+  "matrix_and_metadata_hashes_match": true,
+  "processing_zip_md5_matches": true,
+  "ten_STAR_commands_two_pass_and_GRCm39_verified": true,
+  "protocol_STAR2711b_Ensembl112_verified": true,
+  "software_versions_checksum_exception_retained": true,
+  "complete_accession_decisions": 73,
+  "complete_date_bounded_title_abstract_decisions": 60
+}

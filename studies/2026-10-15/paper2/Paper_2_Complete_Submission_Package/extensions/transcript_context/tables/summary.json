@@ -1,0 +1,51 @@
+{
+  "junctions_required_by_full_observable_universe": 8825,
+  "exact_transcript_matched_junctions": 7626,
+  "unique_multiway_junctions": 3248,
+  "multiway_junctions_without_exact_transcript_match": 1199,
+  "clusters": 923,
+  "corrected_clusters": 41,
+  "clusters_with_every_alternative_exactly_matched": 293,
+  "corrected_clusters_with_every_alternative_exactly_matched": 22,
+  "all_cluster_annotation_intersections_match": true,
+  "mapped_clusters": 290,
+  "corrected_clusters_mapped": 22,
+  "mapped_clusters_with_multigene_alternative": 7,
+  "all_binary_annotations_match": true,
+  "binary_gene_events": 3239,
+  "genes": 1983,
+  "corrected_genes": 47,
+  "genes_with_blank_symbol": 3,
+  "Tcaf1_group_support": [
+    {
+      "group": "FLT",
+      "n": 9,
+      "minimum_selected_reads": 80.0,
+      "median_selected_reads": 124.0,
+      "mean_long_fraction": 0.7813224853414517,
+      "mean_long_vs_short_conditional": 0.9265032133737695
+    },
+    {
+      "group": "GC",
+      "n": 9,
+      "minimum_selected_reads": 79.0,
+      "median_selected_reads": 126.0,
+      "mean_long_fraction": 0.6172340554642823,
+      "mean_long_vs_short_conditional": 0.8635173014757244
+    },
+    {
+      "group": "VIV",
+      "n": 8,
+      "minimum_selected_reads": 105.0,
+      "median_selected_reads": 134.5,
+      "mean_long_fraction": 0.6586609998854076,
+      "mean_long_vs_short_conditional": 0.9026895944294491
+    }
+  ],
+  "Tcaf1_companion_junction": "6:2:42686572:42686892",
+  "Tcaf1_companion_available_animals": 26,
+  "Tcaf1_companion_min_reads": 20,
+  "Tcaf1_companion_max_reads": 169,
+  "no_long_read_or_protein_data": true,
+  "reference_names_and_release_match_publisher": true
+}

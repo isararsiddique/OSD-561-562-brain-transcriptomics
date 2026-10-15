@@ -1,0 +1,11 @@
+# Ground holdout results and interpretation
+
+All 81 age-balanced holdouts in each RRRM-2 region and 200 prespecified RR-23 splits completed. Training-only filtering and geometric-mean normalization references were applied to held-out animals. Nested leave-one-training-animal-out selection refitted every estimated preprocessing step. The 362 splits overlap and use 30 unique ground source animals, including shared core regional animals.
+
+Age-stratified sensor discrimination was 1.000 in every core split and mean 0.964 in RR-23. This is a strong within-resource collection-cohort association; it does not establish a transportable clinical classifier, artifact causality or an independent population validation. Mean whole-genome discrimination was 0.796 in cerebellum, 1.000 in hippocampus and 0.714 in RR-23. Mean training–test whole-genome effect-vector cosine was 0.228, 0.521 and 0.165 respectively, below sensor-vector cosines 0.683, 0.843 and 0.813.
+
+Original score loading prediction of outside-sensor held-out expression had mean MSE ratios to the training-fitted intercept/age baseline of 1.091 in cerebellum and 1.035 in RR-23, indicating worse prediction despite strong sensor discrimination. All method/deposit results, including hippocampal improvements, are in the full summary. Bounded and training-CV shrinkage effects are retained; they are sensitivity methods and do not demonstrate biological recovery. Genome projection is excluded from the disjoint-sensor prediction comparison because it uses outside genes in its own score.
+
+The independent verifier passed 1,533 checks. It rebuilt first/last splits in each deposit directly from source count tables, independently checked normalization using sorted ratio geometric medians, perturbed held-out counts to verify training-reference independence, used dense regression to recompute loadings and effects, and verified nested-CV minimizers. Largest factor discrepancy was about 1.3e-15. Split quantiles are robustness ranges, not confidence intervals based on 362 independent observations.
+
+The concrete contribution is a real-data dissociation between reliable collection-score discrimination and transfer of genome-wide regression loadings. It strengthens the simulation failure analysis without overclaiming a biological mechanism or universally successful correction.

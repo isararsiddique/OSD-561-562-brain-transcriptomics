@@ -1,0 +1,342 @@
+accession,estimand,sensitivity,cell,n_animals
+OSD-561,FLT_minus_GC_ISS_T,all_animals,"('FLT', '12')",5
+OSD-561,FLT_minus_GC_ISS_T,all_animals,"('FLT', '29')",4
+OSD-561,FLT_minus_GC_ISS_T,all_animals,"('GC', '12')",3
+OSD-561,FLT_minus_GC_ISS_T,all_animals,"('GC', '29')",3
+OSD-561,FLT_minus_GC_LAR,all_animals,"('FLT', '12')",2
+OSD-561,FLT_minus_GC_LAR,all_animals,"('FLT', '29')",3
+OSD-561,FLT_minus_GC_LAR,all_animals,"('GC', '12')",3
+OSD-561,FLT_minus_GC_LAR,all_animals,"('GC', '29')",3
+OSD-561,additive_age_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-561,additive_age_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-561,additive_age_interaction,all_animals,"('12', 'FLT', 'LAR')",2
+OSD-561,additive_age_interaction,all_animals,"('12', 'FLT', 'ISS_T')",5
+OSD-561,additive_age_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-561,additive_age_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-561,additive_age_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-561,additive_age_interaction,all_animals,"('29', 'FLT', 'ISS_T')",4
+OSD-561,age12_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-561,age12_interaction,all_animals,"('12', 'FLT', 'LAR')",2
+OSD-561,age12_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-561,age12_interaction,all_animals,"('12', 'FLT', 'ISS_T')",5
+OSD-561,age29_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-561,age29_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-561,age29_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-561,age29_interaction,all_animals,"('29', 'FLT', 'ISS_T')",4
+OSD-561,equal_age_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-561,equal_age_interaction,all_animals,"('12', 'FLT', 'LAR')",2
+OSD-561,equal_age_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-561,equal_age_interaction,all_animals,"('12', 'FLT', 'ISS_T')",5
+OSD-561,equal_age_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-561,equal_age_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-561,equal_age_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-561,equal_age_interaction,all_animals,"('29', 'FLT', 'ISS_T')",4
+OSD-561,age29_minus_age12_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,all_animals,"('12', 'FLT', 'LAR')",2
+OSD-561,age29_minus_age12_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-561,age29_minus_age12_interaction,all_animals,"('12', 'FLT', 'ISS_T')",5
+OSD-561,age29_minus_age12_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-561,age29_minus_age12_interaction,all_animals,"('29', 'FLT', 'ISS_T')",4
+OSD-561,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('FLT', '12')",4
+OSD-561,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('GC', '12')",3
+OSD-561,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('GC', '29')",2
+OSD-561,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('FLT', '12')",2
+OSD-561,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('FLT', '29')",3
+OSD-561,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('GC', '12')",3
+OSD-561,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('GC', '29')",3
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",2
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",4
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-561,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",0
+OSD-561,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-561,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",2
+OSD-561,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-561,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",4
+OSD-561,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-561,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-561,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-561,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",0
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",2
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",4
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-561,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",0
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",2
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",4
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-561,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",0
+OSD-562,FLT_minus_GC_ISS_T,all_animals,"('FLT', '12')",4
+OSD-562,FLT_minus_GC_ISS_T,all_animals,"('FLT', '29')",5
+OSD-562,FLT_minus_GC_ISS_T,all_animals,"('GC', '12')",3
+OSD-562,FLT_minus_GC_ISS_T,all_animals,"('GC', '29')",3
+OSD-562,FLT_minus_GC_LAR,all_animals,"('FLT', '12')",3
+OSD-562,FLT_minus_GC_LAR,all_animals,"('FLT', '29')",3
+OSD-562,FLT_minus_GC_LAR,all_animals,"('GC', '12')",3
+OSD-562,FLT_minus_GC_LAR,all_animals,"('GC', '29')",3
+OSD-562,additive_age_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-562,additive_age_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-562,additive_age_interaction,all_animals,"('12', 'FLT', 'LAR')",3
+OSD-562,additive_age_interaction,all_animals,"('12', 'FLT', 'ISS_T')",4
+OSD-562,additive_age_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-562,additive_age_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-562,additive_age_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-562,additive_age_interaction,all_animals,"('29', 'FLT', 'ISS_T')",5
+OSD-562,age12_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-562,age12_interaction,all_animals,"('12', 'FLT', 'LAR')",3
+OSD-562,age12_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-562,age12_interaction,all_animals,"('12', 'FLT', 'ISS_T')",4
+OSD-562,age29_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-562,age29_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-562,age29_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-562,age29_interaction,all_animals,"('29', 'FLT', 'ISS_T')",5
+OSD-562,equal_age_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-562,equal_age_interaction,all_animals,"('12', 'FLT', 'LAR')",3
+OSD-562,equal_age_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-562,equal_age_interaction,all_animals,"('12', 'FLT', 'ISS_T')",4
+OSD-562,equal_age_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-562,equal_age_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-562,equal_age_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-562,equal_age_interaction,all_animals,"('29', 'FLT', 'ISS_T')",5
+OSD-562,age29_minus_age12_interaction,all_animals,"('12', 'GC', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('12', 'FLT', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('12', 'GC', 'ISS_T')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('12', 'FLT', 'ISS_T')",4
+OSD-562,age29_minus_age12_interaction,all_animals,"('29', 'GC', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('29', 'FLT', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('29', 'GC', 'ISS_T')",3
+OSD-562,age29_minus_age12_interaction,all_animals,"('29', 'FLT', 'ISS_T')",5
+OSD-562,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('FLT', '12')",3
+OSD-562,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('FLT', '29')",1
+OSD-562,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('GC', '12')",3
+OSD-562,FLT_minus_GC_ISS_T,exclude_any_region_metadata_conflict,"('GC', '29')",2
+OSD-562,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('FLT', '12')",3
+OSD-562,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('FLT', '29')",3
+OSD-562,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('GC', '12')",3
+OSD-562,FLT_minus_GC_LAR,exclude_any_region_metadata_conflict,"('GC', '29')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-562,additive_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",1
+OSD-562,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-562,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",3
+OSD-562,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-562,age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",3
+OSD-562,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-562,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-562,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-562,age29_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",1
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-562,equal_age_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",1
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'GC', 'ISS_T')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('12', 'FLT', 'ISS_T')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'LAR')",3
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'GC', 'ISS_T')",2
+OSD-562,age29_minus_age12_interaction,exclude_any_region_metadata_conflict,"('29', 'FLT', 'ISS_T')",1
+OSD-563,FLT_minus_GC,all_animals,"('FLT', 'single age')",5
+OSD-563,FLT_minus_GC,all_animals,"('GC', 'single age')",5
+OSD-564,FLT_minus_GC,all_animals,"('FLT', 'single age')",5
+OSD-564,FLT_minus_GC,all_animals,"('GC', 'single age')",5
+OSD-612,FLT_minus_GC,all_animals,"('FLT', 'single age')",4
+OSD-612,FLT_minus_GC,all_animals,"('GC', 'single age')",5
+OSD-613,FLT_minus_GC,all_animals,"('FLT', '12')",4
+OSD-613,FLT_minus_GC,all_animals,"('FLT', '29')",5
+OSD-613,FLT_minus_GC,all_animals,"('GC', '12')",5
+OSD-613,FLT_minus_GC,all_animals,"('GC', '29')",4
+OSD-525,FLT_minus_HGC,all_animals,"('FLT', 'single age')",9
+OSD-525,FLT_minus_HGC,all_animals,"('HGC', 'single age')",9
+OSD-525,FLT_minus_VGC,all_animals,"('FLT', 'single age')",9
+OSD-525,FLT_minus_VGC,all_animals,"('VGC', 'single age')",8
+OSD-202,radiation_at_normal_loading_month1,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_month1,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month1,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_month1,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_month1,all_animals,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_month1,all_animals,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_month1,all_animals,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_month1,all_animals,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_month1,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_month1,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_month1,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_month1,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_month4,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_month4,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_month4,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_at_normal_loading_month4,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_month4,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_month4,lane_adjusted,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_month4,all_animals,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_month4,all_animals,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_month4,all_animals,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_month4,all_animals,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_month4,lane_adjusted,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_month4,lane_adjusted,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_month4,lane_adjusted,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_month4,lane_adjusted,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_month4,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_month4,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_month4,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_month4,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_month4,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_month4,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_month4,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_month4,lane_adjusted,"('4', 1, 1)",4
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_equal_time,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_equal_time,lane_adjusted,"('4', 1, 1)",4
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_at_normal_loading_month4_minus_month1,lane_adjusted,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_equal_time,all_animals,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_equal_time,lane_adjusted,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,all_animals,"('4', 1, 1)",4
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('4', 0, 0)",4
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('4', 0, 1)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('4', 1, 0)",6
+OSD-202,unloading_without_radiation_month4_minus_month1,lane_adjusted,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_equal_time,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_equal_time,lane_adjusted,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,all_animals,"('4', 1, 1)",4
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('1', 0, 0)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('1', 0, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('1', 1, 0)",2
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('1', 1, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('4', 0, 0)",4
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('4', 0, 1)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('4', 1, 0)",6
+OSD-202,radiation_by_unloading_month4_minus_month1,lane_adjusted,"('4', 1, 1)",4
+OSD-352,FLT_minus_GC,all_animals,"('FLT', 'single age')",3
+OSD-352,FLT_minus_GC,all_animals,"('GC', 'single age')",3
+OSD-352,FLT_minus_GC,RIN_adjusted_no_exposure_overlap,"('FLT', 'single age')",3
+OSD-352,FLT_minus_GC,RIN_adjusted_no_exposure_overlap,"('GC', 'single age')",3
+OSD-374,dose1.0_minus_dose0.0,all_deposited_pools,0.0,4
+OSD-374,dose1.0_minus_dose0.0,all_deposited_pools,1.0,4
+OSD-611,dose0.3_minus_dose0.0,NASA_sampletable_primary,0.0,3
+OSD-611,dose0.3_minus_dose0.0,NASA_sampletable_primary,0.3,5
+OSD-611,dose0.3_minus_dose0.0,NASA_sampletable_primary,0.6,2
+OSD-611,dose0.6_minus_dose0.0,NASA_sampletable_primary,0.0,3
+OSD-611,dose0.6_minus_dose0.0,NASA_sampletable_primary,0.3,5
+OSD-611,dose0.6_minus_dose0.0,NASA_sampletable_primary,0.6,2
+OSD-611,dose0.6_minus_dose0.3,NASA_sampletable_primary,0.0,3
+OSD-611,dose0.6_minus_dose0.3,NASA_sampletable_primary,0.3,5
+OSD-611,dose0.6_minus_dose0.3,NASA_sampletable_primary,0.6,2
+OSD-611,dose0.3_minus_dose0.0,all_deposited_pools_sensitivity,0.0,4
+OSD-611,dose0.3_minus_dose0.0,all_deposited_pools_sensitivity,0.3,5
+OSD-611,dose0.3_minus_dose0.0,all_deposited_pools_sensitivity,0.6,3
+OSD-611,dose0.6_minus_dose0.0,all_deposited_pools_sensitivity,0.0,4
+OSD-611,dose0.6_minus_dose0.0,all_deposited_pools_sensitivity,0.3,5
+OSD-611,dose0.6_minus_dose0.0,all_deposited_pools_sensitivity,0.6,3
+OSD-611,dose0.6_minus_dose0.3,all_deposited_pools_sensitivity,0.0,4
+OSD-611,dose0.6_minus_dose0.3,all_deposited_pools_sensitivity,0.3,5
+OSD-611,dose0.6_minus_dose0.3,all_deposited_pools_sensitivity,0.6,3

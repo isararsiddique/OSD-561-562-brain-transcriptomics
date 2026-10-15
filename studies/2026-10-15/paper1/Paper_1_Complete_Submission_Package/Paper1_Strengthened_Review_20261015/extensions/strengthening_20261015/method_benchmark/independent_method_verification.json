@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "n_checks": 369,
+  "n_failed": 0,
+  "max_PLS2_vs_sklearn_prediction_error": 8.695617215837004e-06,
+  "seed": 901531
+}

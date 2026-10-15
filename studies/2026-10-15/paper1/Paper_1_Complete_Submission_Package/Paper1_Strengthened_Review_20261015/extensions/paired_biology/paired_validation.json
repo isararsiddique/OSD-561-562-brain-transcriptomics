@@ -1,0 +1,74 @@
+{
+  "checks": [
+    "Input checksums verified by inherited checker",
+    "Unique matched animals: RRRM-2 24; RR-10 10",
+    "All eight panels included in every planned contrast and sensitivity",
+    "All 104 panel p-values finite and complete-family BH recomputed",
+    "525 exact age-restricted FLT cohort assignments conserve age-specific label counts",
+    "SRG FLT cohort effect and exact p independently recomputed with per-assignment least squares",
+    "HC3 covariance checked against direct sandwich; singleton uncertainty checked unavailable",
+    "PNG inspected visually; 600 dpi metadata confirmed",
+    "All 88 label-permutation panel tests use full enumeration, including 105,000 assignments for the pooled flight contrast; 16 triple-interaction panel tests retain approximate wild inference"
+  ],
+  "strongest_panel_p_independent": 0.0019047619047619048,
+  "figure_pixels": [
+    10263,
+    7267
+  ],
+  "figure_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "SRG_leave_one_out_ranges": {
+    "RRRM2_region_by_cohort_FLT": {
+      "animal_omission_range": [
+        0.6506513497561666,
+        0.8376861905697907
+      ],
+      "gene_omission_range": [
+        0.7028249838746476,
+        0.8486550836724536
+      ]
+    },
+    "RRRM2_region_by_cohort_GC": {
+      "animal_omission_range": [
+        0.7966140897322268,
+        1.128222936668643
+      ],
+      "gene_omission_range": [
+        0.7662570671043671,
+        1.089564449457994
+      ]
+    },
+    "RRRM2_region_by_flight_ISST": {
+      "animal_omission_range": [
+        -0.3425153081100455,
+        -0.0414221283862168
+      ],
+      "gene_omission_range": [
+        -0.3285355392100871,
+        -0.1069000175458858
+      ]
+    },
+    "RRRM2_region_by_flight_LAR": {
+      "animal_omission_range": [
+        -0.1420325758778285,
+        0.1460246279227291
+      ],
+      "gene_omission_range": [
+        -0.1343477792243677,
+        0.0222390999708267
+      ]
+    },
+    "RR10_region_by_flight": {
+      "animal_omission_range": [
+        -0.4732900709075156,
+        0.0935803677240225
+      ],
+      "gene_omission_range": [
+        -0.2976477897295529,
+        -0.1325372710141359
+      ]
+    }
+  }
+}

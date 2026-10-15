@@ -1,0 +1,130 @@
+{
+  "method": "Exact animal-vector gene omnibus pairwise contrast",
+  "selection": "All26 pooled measurement gate and unique intron annotation; no event significance",
+  "genes": 1983,
+  "events": 3239,
+  "animals": 26,
+  "joint_test_family": 5949,
+  "seed": null,
+  "numerical_tie_tolerance_squared_fraction": 1e-14,
+  "input_sha256": {
+    "inputs/primary_all26_event_definitions.csv.gz": "bd87d1dc365698ec7ce05eae094f11382d52e8628e0cb4c082810fb2f74b9468",
+    "results/measurement_gates.csv.gz": "5b368dd86fcb2fd68cd2d892ca83e97ebc659d0df4cd711e62a7af345241a33c",
+    "results/all26_animal_fractions.csv.gz": "d115cea6d670e2c138423171e936fb782d1ac3d05677db43bdca87138d6e637f",
+    "inputs/animal_metadata.csv": "e0acd6941df1fd8a53ec6631e25fcfa0bdc25a923897e91ea405a6d8ba5f6e3c"
+  },
+  "analysis_script_sha256": "976bd32d09e8f077a38bd2b51994101c07b1c60eb48033f24aff73afe16aa6d1",
+  "limitations": [
+    "Flight and collection date perfectly aliased.",
+    "Pairwise labels assumed exchangeable under the measured-association null.",
+    "Measured local junction fractions are not complete isoforms or gene expression.",
+    "Multi-event gene tests average correlated local-choice effects without independence assumptions.",
+    "Gene/event annotation and measurement filters define a restricted observable gene universe.",
+    "New analyses are retrospective, not preregistered."
+  ],
+  "summary": [
+    {
+      "contrast": "FLT_minus_GC",
+      "tested_genes": 1983,
+      "measured_events": 3239,
+      "joint_BH_q_lt_0_05": 294,
+      "joint_BY_q_lt_0_05": 47,
+      "within_BH_q_lt_0_05": 431,
+      "within_BY_q_lt_0_05": 163,
+      "minimum_joint_BY_q": 0.048256987825990624,
+      "median_gene_rms_pp": 3.2416007665129087
+    },
+    {
+      "contrast": "GC_minus_VIV",
+      "tested_genes": 1983,
+      "measured_events": 3239,
+      "joint_BH_q_lt_0_05": 35,
+      "joint_BY_q_lt_0_05": 0,
+      "within_BH_q_lt_0_05": 0,
+      "within_BY_q_lt_0_05": 0,
+      "minimum_joint_BY_q": 0.0673686661729176,
+      "median_gene_rms_pp": 2.465228770320959
+    },
+    {
+      "contrast": "FLT_minus_VIV",
+      "tested_genes": 1983,
+      "measured_events": 3239,
+      "joint_BH_q_lt_0_05": 35,
+      "joint_BY_q_lt_0_05": 0,
+      "within_BH_q_lt_0_05": 6,
+      "within_BY_q_lt_0_05": 0,
+      "minimum_joint_BY_q": 0.05531898604442827,
+      "median_gene_rms_pp": 2.389810223272285
+    }
+  ],
+  "dominance95_sensitivity": {
+    "selection": "Stricter all26 label-invariant dominance; original 1983-gene family held fixed",
+    "zero_event_genes": "p=1 retained in joint 5949-test correction",
+    "summary": [
+      {
+        "contrast": "FLT_minus_GC",
+        "family_genes": 1983,
+        "measured_genes": 1724,
+        "measured_events": 2710,
+        "joint_BH": 251,
+        "joint_BY": 47,
+        "primary_BY_genes_retaining_BY": 45,
+        "primary_BY_genes_total": 47,
+        "minimum_joint_BY_q": 0.048256987825990624
+      },
+      {
+        "contrast": "GC_minus_VIV",
+        "family_genes": 1983,
+        "measured_genes": 1724,
+        "measured_events": 2710,
+        "joint_BH": 23,
+        "joint_BY": 0,
+        "primary_BY_genes_retaining_BY": 0,
+        "primary_BY_genes_total": 0,
+        "minimum_joint_BY_q": 0.07087745086942372
+      },
+      {
+        "contrast": "FLT_minus_VIV",
+        "family_genes": 1983,
+        "measured_genes": 1724,
+        "measured_events": 2710,
+        "joint_BH": 30,
+        "joint_BY": 0,
+        "primary_BY_genes_retaining_BY": 0,
+        "primary_BY_genes_total": 0,
+        "minimum_joint_BY_q": 0.05815585712362972
+      }
+    ],
+    "script_sha256": "d9ed51501e73fec1c8a46945fb57f77081727be5c9167b525bfaadd1b5580929"
+  },
+  "artifact_sha256": {
+    "results/gene_omnibus_complete.csv.gz": "05e245d09de05eda639db827bcd436324368deaeadee3cc2a534723b38de9e85",
+    "results/arbitrary_dependence_corrected_genes.csv": "c3cd9341cbe23c9405951d8fbf6583e8182f122fd021dacc396cb5ec9e10ae3e",
+    "results/discovery_summary.csv": "b225c96273f36d27b1dbeccd1ddfcf1b98b37f7c7e7cfcb0116e78145f64fb94",
+    "results/verification.json": "aeacbbe21652a6df4efb43ab8bf0be5182bc220baeaa4094cceca65e1919a85e",
+    "results/figure_source_events.csv": "ff089dd096ed79d34f8709c5f86f63ea3a0ac07e5e20cebd3e38fc0e73ddbf66",
+    "figures/Figure_Gene_Omnibus.png": "fcb592214e6bfe6c8c1643ad920ead1f7d8646a1a17755b8bf0fc2b1a9205012",
+    "figures/Figure_Gene_Omnibus.pdf": "d696201801d1ac045f3b6d0507ea47eaecb043594005ad3f7d2f8902ad201bb1",
+    "figures/Figure_Gene_Omnibus.svg": "511dceabf3368209dc358bb4b5c93fa698883ca23712f39857fddf94ba946bc8",
+    "figures/Figure_Gene_Omnibus_caption.txt": "5f50f765971100eb4c5c1c1d8085ae46be659e97e7fc84a28c5257a66e146eab",
+    "REPORT.md": "7332625888b2f9cb87557dc94103f5f885ac7c72f54e86d8e5748bd4074db120",
+    "results/dominance95_gene_omnibus_complete.csv.gz": "b22209543819d02b4ba350bee9c79e288c6a86d5b4198daa31ad07ef92b77f67",
+    "results/dominance95_sensitivity_summary.csv": "25a5a0c07c97f0ebc7570bd2541ecb4e00661e0eb16e69c5989f8d8564798dcc",
+    "results/primary_BY_gene_dominance95_followup.csv": "54f9366c9640e6d99621ae7a35048b6c16c3e879cb9cc6bb017267cbe51391c2",
+    "results/descriptive_all_gene_leave_one_out.csv.gz": "8f9db1fa54b1b7b043a98867f39011e3fc42c127ee95de0bad693927dbeb58bc",
+    "results/descriptive_gene_leave_one_out_summary.csv": "83757e91a194b56a446a49500e71cfed536dd8b6e4aa47688cd0eaef1587ab53",
+    "results/descriptive_leave_one_out_summary.json": "0726156fc0b45906fc34ddb8da9be664a659ae05efaec495774cd7eb2715d6fb",
+    "results/sensitivity_verification.json": "ba22fb3a491c71634f62434249f4cb6bb67e5a3034dd03b5b8da1d5fc8ff1948",
+    "HISTORY.md": "6da912ecc3b2a1e9607487b82cdbfc9fb7f9399e21ab20865d5f7b264618170b"
+  },
+  "extension_script_sha256": {
+    "analyse_gene_omnibus.py": "976bd32d09e8f077a38bd2b51994101c07b1c60eb48033f24aff73afe16aa6d1",
+    "build_figure_report.py": "75f696409033b109517bd03a0a07915145217d5f1c48aa831a3efd4f823fdc88",
+    "descriptive_leave_one_out.py": "6e34a114f84a1360d39fe3c35b41323323b9cb626fe1d096cd1877dbf1ac123c",
+    "reproduce.py": "a5c64a57b4a292c78fd1f243be2be7a6344a0c4f978f944d144ecb3af785c6c0",
+    "sensitivity_dominance95.py": "d9ed51501e73fec1c8a46945fb57f77081727be5c9167b525bfaadd1b5580929",
+    "verify_gene_omnibus.py": "29f469accd2bc45822fee01723d5b1482d23a1e7b33cf03519280b948c92e0b9",
+    "verify_sensitivities.py": "7a32afd252ce53dc588f952e19914f4f391aa8bb839b88e397e29a27aa2e6d92"
+  },
+  "checks_passed_primary_and_sensitivity": 49
+}

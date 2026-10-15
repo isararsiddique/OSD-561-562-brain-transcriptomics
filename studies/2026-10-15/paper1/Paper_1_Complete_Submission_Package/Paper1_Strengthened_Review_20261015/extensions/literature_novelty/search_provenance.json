@@ -1,0 +1,92 @@
+[
+  {
+    "name": "masarapu_2024",
+    "query": "DOI:10.1038/s41467-024-48916-8",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-024-48916-8&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "586f1ebd7ec557a23e8a4fc4a771b6b05d025841eb52f9029c454df693c4804a",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "collection_2022",
+    "query": "DOI:10.1016/j.crmeth.2022.100325",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.crmeth.2022.100325&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "47fbd688bb509cc4b4cc36f6d74fda5a7dfabd6073fd94a8ccffd1e010daeacf",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "holley_2022",
+    "query": "DOI:10.1038/s41526-022-00217-4",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41526-022-00217-4&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "4bf9005c0246d88fe471534088666072f26d4ecb27f13148874a214b4f197d3b",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "marsh_2022",
+    "query": "DOI:10.1038/s41593-022-01022-8",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41593-022-01022-8&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "5259ee9fc921af9024249a964d4d4512d433172eaab8a8b238199864a2afe330",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "dachet_2021",
+    "query": "DOI:10.1038/s41598-021-85801-6",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-021-85801-6&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "e2797c1200ab342d65b49ce6162b12be2b40b9c7459c4ef58bb076cda0df6358",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "space_brain_circadian",
+    "query": "(spaceflight OR \"space flight\") AND (brain OR hippocamp*) AND circadian",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28spaceflight+OR+%22space+flight%22%29+AND+%28brain+OR+hippocamp%2A%29+AND+circadian&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "8e810a1356983d41ac9918bf63140a83dab16b0ad9dce5cbbb30573c8850cb34",
+    "hit_count": 604,
+    "records_returned": 100
+  },
+  {
+    "name": "mouse_space_brain",
+    "query": "(spaceflight OR \"space flight\") AND (mouse OR mice) AND (brain OR hippocamp*) FIRST_PDATE:[2020-01-01 TO 2026-10-15]",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28spaceflight+OR+%22space+flight%22%29+AND+%28mouse+OR+mice%29+AND+%28brain+OR+hippocamp%2A%29+FIRST_PDATE%3A%5B2020-01-01+TO+2026-10-15%5D&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "581b9e725a330fbf9180a1022333af155e0d97d4ae854bca1f90effb0a18ee40",
+    "hit_count": 913,
+    "records_returned": 100
+  },
+  {
+    "name": "batch_confidence",
+    "query": "TITLE_ABS:(\"batch effects\") AND TITLE_ABS:(\"exaggerated confidence\")",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%28%22batch+effects%22%29+AND+TITLE_ABS%3A%28%22exaggerated+confidence%22%29&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "3e6506482579793ab4a443af616b2c5d39f001f60f6ea19f90703f8429b9ebea",
+    "hit_count": 1,
+    "records_returned": 1
+  },
+  {
+    "name": "batch_confounding",
+    "query": "TITLE_ABS:(\"batch effect\") AND TITLE_ABS:(confounding)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%28%22batch+effect%22%29+AND+TITLE_ABS%3A%28confounding%29&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "a7e933f0fad6ac7c68b7424dd8ea01b5d470f11a59685119c6fb009dd102dc7f",
+    "hit_count": 40,
+    "records_returned": 40
+  },
+  {
+    "name": "ground_control_space",
+    "query": "(spaceflight OR \"space flight\") AND (\"ground control\" OR \"habitat control\") AND (transcriptomic OR transcriptome)",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28spaceflight+OR+%22space+flight%22%29+AND+%28%22ground+control%22+OR+%22habitat+control%22%29+AND+%28transcriptomic+OR+transcriptome%29&format=json&resultType=core&pageSize=100",
+    "retrieved_date": "2026-10-15",
+    "sha256": "78fc834ce780333ee740fe2292f07af633033c7d9588b73faa827ba7ce4a65b0",
+    "hit_count": 318,
+    "records_returned": 100
+  }
+]

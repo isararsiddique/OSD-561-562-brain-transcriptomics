@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "n_outer_rows": 852,
+  "n_outer_holdouts": 426,
+  "n_fixed_alpha_checks": 28,
+  "all_fixed_alpha_dominance_verified": true,
+  "max_fixed_alpha_convex_minus_clipped_objective": -36.72100707297636,
+  "max_objective_reconstruction_error": 6.366462912410498e-12,
+  "elapsed_seconds": 63.274518966674805,
+  "protocol_sha256": "310b02bad3241c94b92f190c915efe4950d178dc1012ed90c14a0699b054bfef"
+}

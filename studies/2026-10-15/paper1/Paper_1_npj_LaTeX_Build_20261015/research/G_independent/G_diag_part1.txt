@@ -1,0 +1,70 @@
+== primary: 2/10 effects match at 3 dp
+reg con           panel  effect  paper      p  paper_p
+ CB DOM            rPRG  0.5036  0.503 0.0100      NaN
+ CB DOM             HSP  0.2107    NaN 0.2000     0.19
+ CB DOM Glia_Complement -0.3132 -0.314 0.1550      NaN
+ CB P_G            rPRG  0.7035  0.704 0.0050      NaN
+ CB F_L            rPRG  0.1874  0.188 0.3800      NaN
+ CB F_I            rPRG -0.2037 -0.206 0.3592      NaN
+ CB P_F            rPRG  0.3345  0.332 0.2068      NaN
+ CB DOM            dPRG  0.1363    NaN 0.4450     0.44
+HPC F_L            rPRG  0.2817  0.281 0.0600      NaN
+HPC F_I            rPRG  0.1653  0.164 0.4908      NaN
+HPC P_F            rPRG  1.0054  1.004 0.0005      NaN
+HPC DOM            rPRG  0.8367  0.837 0.0150      NaN
+== geo1: 3/10 effects match at 3 dp
+reg con           panel  effect  paper      p  paper_p
+ CB DOM            rPRG  0.5036  0.503 0.0100      NaN
+ CB DOM             HSP  0.2107    NaN 0.2000     0.19
+ CB DOM Glia_Complement -0.3133 -0.314 0.1550      NaN
+ CB P_G            rPRG  0.7036  0.704 0.0050      NaN
+ CB F_L            rPRG  0.1876  0.188 0.3800      NaN
+ CB F_I            rPRG -0.2037 -0.206 0.3592      NaN
+ CB P_F            rPRG  0.3344  0.332 0.2068      NaN
+ CB DOM            dPRG  0.1364    NaN 0.4450     0.44
+HPC F_L            rPRG  0.2817  0.281 0.0600      NaN
+HPC F_I            rPRG  0.1655  0.164 0.4908      NaN
+HPC P_F            rPRG  1.0055  1.004 0.0005      NaN
+HPC DOM            rPRG  0.8367  0.837 0.0150      NaN
+== sf_prefilter: 2/10 effects match at 3 dp
+reg con           panel  effect  paper      p  paper_p
+ CB DOM            rPRG  0.5031  0.503 0.0100      NaN
+ CB DOM             HSP  0.2102    NaN 0.2050     0.19
+ CB DOM Glia_Complement -0.3137 -0.314 0.1550      NaN
+ CB P_G            rPRG  0.7011  0.704 0.0050      NaN
+ CB F_L            rPRG  0.1857  0.188 0.3800      NaN
+ CB F_I            rPRG -0.1997 -0.206 0.3673      NaN
+ CB P_F            rPRG  0.3375  0.332 0.2027      NaN
+ CB DOM            dPRG  0.1358    NaN 0.4450     0.44
+HPC F_L            rPRG  0.2820  0.281 0.0600      NaN
+HPC F_I            rPRG  0.1651  0.164 0.4918      NaN
+HPC P_F            rPRG  1.0048  1.004 0.0005      NaN
+HPC DOM            rPRG  0.8363  0.837 0.0150      NaN
+== sf_prefilter_geo1: 2/10 effects match at 3 dp
+reg con           panel  effect  paper      p  paper_p
+ CB DOM            rPRG  0.5031  0.503 0.0100      NaN
+ CB DOM             HSP  0.2102    NaN 0.2050     0.19
+ CB DOM Glia_Complement -0.3139 -0.314 0.1550      NaN
+ CB P_G            rPRG  0.7012  0.704 0.0050      NaN
+ CB F_L            rPRG  0.1859  0.188 0.3800      NaN
+ CB F_I            rPRG -0.1998 -0.206 0.3673      NaN
+ CB P_F            rPRG  0.3375  0.332 0.2027      NaN
+ CB DOM            dPRG  0.1358    NaN 0.4450     0.44
+HPC F_L            rPRG  0.2820  0.281 0.0600      NaN
+HPC F_I            rPRG  0.1652  0.164 0.4918      NaN
+HPC P_F            rPRG  1.0049  1.004 0.0005      NaN
+HPC DOM            rPRG  0.8362  0.837 0.0150      NaN
+== per_contrast_subset: 1/10 effects match at 3 dp
+reg con           panel  effect  paper      p  paper_p
+ CB DOM            rPRG  0.4969  0.503 0.0150      NaN
+ CB DOM             HSP  0.2049    NaN 0.2150     0.19
+ CB DOM Glia_Complement -0.3135 -0.314 0.1750      NaN
+ CB P_G            rPRG  0.6958  0.704 0.0050      NaN
+ CB F_L            rPRG  0.2114  0.188 0.2700      NaN
+ CB F_I            rPRG -0.2120 -0.206 0.3429      NaN
+ CB P_F            rPRG  0.3535  0.332 0.1891      NaN
+ CB DOM            dPRG  0.1278    NaN 0.4500     0.44
+HPC F_L            rPRG  0.3015  0.281 0.0550      NaN
+HPC F_I            rPRG  0.1587  0.164 0.5005      NaN
+HPC P_F            rPRG  1.0096  1.004 0.0005      NaN
+HPC DOM            rPRG  0.8472  0.837 0.0150      NaN

@@ -1,0 +1,73 @@
+1. Afshinnekoo, E. et al. Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration. Cell 183, 1162–1184 (2020). https://doi.org/10.1016/j.cell.2020.10.050
+2. Gebre, S. G. et al. NASA open science data repository: open science for life in space. Nucleic Acids Res. 53, D1697–D1710 (2025). https://doi.org/10.1093/nar/gkae1116
+3. Overbey, E. G. et al. NASA GeneLab RNA-seq consensus pipeline: Standardized processing of short-read RNA-seq data. iScience 24, 102361 (2021). https://doi.org/10.1016/j.isci.2021.102361
+4. Tyssowski, K. M. et al. Different Neuronal Activity Patterns Induce Different Gene Expression Programs. Neuron 98, 530–546.e11 (2018). https://doi.org/10.1016/j.neuron.2018.04.001
+5. Tullai, J. W. et al. Immediate-Early and Delayed Primary Response Genes Are Distinct in Function and Genomic Architecture. J. Biol. Chem. 282, 23981–23995 (2007). https://doi.org/10.1074/jbc.M702044200
+6. Marsh, S. E. et al. Dissection of artifactual and confounding glial signatures by single-cell sequencing of mouse and human brain. Nat. Neurosci. 25, 306–316 (2022). https://doi.org/10.1038/s41593-022-01022-8
+7. Overbey, E. G. et al. Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight. Cell Rep. Methods 2, 100325 (2022). https://doi.org/10.1016/j.crmeth.2022.100325
+8. Holley, J. M. et al. Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission. npj Microgravity 8, 35 (2022). https://doi.org/10.1038/s41526-022-00217-4
+9. Mao, X. W. et al. Spaceflight induces oxidative damage to blood-brain barrier integrity in a mouse model. FASEB J. 34, 15516–15530 (2020). https://doi.org/10.1096/fj.202001754R
+10. Masarapu, Y. et al. Spatially resolved multiomics on the neuronal effects induced by spaceflight in mice. Nat. Commun. 15, 4778 (2024). https://doi.org/10.1038/s41467-024-48916-8
+11. Grandke, F. et al. MiRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways. Nat. Commun. 17, 1387 (2026). https://doi.org/10.1038/s41467-026-68737-1
+12. Roy, U. et al. Effects of Space Flight on Inflammasome Activation in the Brain of Mice. Cells 14, 417 (2025). https://doi.org/10.3390/cells14060417
+13. Leek, J. T. et al. Tackling the widespread and critical impact of batch effects in high-throughput data. Nat. Rev. Genet. 11, 733–739 (2010). https://doi.org/10.1038/nrg2825
+14. Nygaard, V., Rødland, E. A. & Hovig, E. Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses. Biostatistics 17, 29–39 (2016). https://doi.org/10.1093/biostatistics/kxv027
+15. Leek, J. T. & Storey, J. D. Capturing Heterogeneity in Gene Expression Studies by Surrogate Variable Analysis. PLoS Genet. 3, e161 (2007). https://doi.org/10.1371/journal.pgen.0030161
+16. Risso, D., Ngai, J., Speed, T. P. & Dudoit, S. Normalization of RNA-seq data using factor analysis of control genes or samples. Nat. Biotechnol. 32, 896–902 (2014). https://doi.org/10.1038/nbt.2931
+17. Gagnon-Bartsch, J. A. & Speed, T. P. Using control genes to correct for unwanted variation in microarray data. Biostatistics 13, 539–552 (2012). https://doi.org/10.1093/biostatistics/kxr034
+18. Hoerl, A. E. & Kennard, R. W. Ridge Regression: Biased Estimation for Nonorthogonal Problems. Technometrics 12, 55–67 (1970). https://doi.org/10.1080/00401706.1970.10488634
+19. Wold, S., Sjöström, M. & Eriksson, L. PLS-regression: a basic tool of chemometrics. Chemometr. Intell. Lab. Syst. 58, 109–130 (2001). https://doi.org/10.1016/S0169-7439(01)00155-1
+20. Boyd, S. & Vandenberghe, L. Convex Optimization. (Cambridge University Press, 2004). https://doi.org/10.1017/CBO9780511804441
+21. Beck, A. & Teboulle, M. A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems. SIAM J. Imaging Sci. 2, 183–202 (2009). https://doi.org/10.1137/080716542
+22. Johnson, W. E., Li, C. & Rabinovic, A. Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics 8, 118–127 (2007). https://doi.org/10.1093/biostatistics/kxj037
+23. Winkler, A. M., Ridgway, G. R., Webster, M. A., Smith, S. M. & Nichols, T. E. Permutation inference for the general linear model. NeuroImage 92, 381–397 (2014). https://doi.org/10.1016/j.neuroimage.2014.01.060
+24. Benjamini, Y. & Hochberg, Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J. R. Stat. Soc. B 57, 289–300 (1995). https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
+25. Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550 (2014). https://doi.org/10.1186/s13059-014-0550-8
+26. Muzellec, B., Teleńczuk, M., Cabeli, V. & Andreux, M. PyDESeq2: a python package for bulk RNA-seq differential expression analysis. Bioinformatics 39, btad547 (2023). https://doi.org/10.1093/bioinformatics/btad547
+27. Morris, T. P., White, I. R. & Crowther, M. J. Using simulation studies to evaluate statistical methods. Stat. Med. 38, 2074–2102 (2019). https://doi.org/10.1002/sim.8086
+28. Garrett-Bakelman, F. E. et al. The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science 364, eaau8650 (2019). https://doi.org/10.1126/science.aau8650
+29. Overbey, E. G. et al. The Space Omics and Medical Atlas (SOMA) and international astronaut biobank. Nature 632, 1145–1154 (2024). https://doi.org/10.1038/s41586-024-07639-y
+30. da Silveira, W. A. et al. Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact. Cell 183, 1185–1201.e20 (2020). https://doi.org/10.1016/j.cell.2020.11.002
+31. Choi, S. Y. et al. Validation of a New Rodent Experimental System to Investigate Consequences of Long Duration Space Habitation. Sci. Rep. 10, 2336 (2020). https://doi.org/10.1038/s41598-020-58898-4
+32. Lai Polo, S.-H. et al. RNAseq Analysis of Rodent Spaceflight Experiments Is Confounded by Sample Collection Techniques. iScience 23, 101733 (2020). https://doi.org/10.1016/j.isci.2020.101733
+33. Ronca, A. E. et al. Behavior of mice aboard the International Space Station. Sci. Rep. 9, 4717 (2019). https://doi.org/10.1038/s41598-019-40789-y
+34. Roberts, D. R. et al. Effects of Spaceflight on Astronaut Brain Structure as Indicated on MRI. N. Engl. J. Med. 377, 1746–1753 (2017). https://doi.org/10.1056/NEJMoa1705129
+35. Staib-Lasarzik, I. et al. Anesthesia for Euthanasia Influences mRNA Expression in Healthy Mice and after Traumatic Brain Injury. J. Neurotrauma 31, 1664–1671 (2014). https://doi.org/10.1089/neu.2013.3243
+36. Hamaya, Y., Takeda, T., Dohi, S., Nakashima, S. & Nozawa, Y. The Effects of Pentobarbital, Isoflurane, and Propofol on Immediate-Early Gene Expression in the Vital Organs of the Rat. Anesth. Analg. 90, 1177–1183 (2000). https://doi.org/10.1097/00000539-200005000-00034
+37. Bunting, K. M., Nalloor, R. I. & Vazdarjanova, A. Influence of Isoflurane on Immediate-Early Gene Expression. Front. Behav. Neurosci. 9, 363 (2016). https://doi.org/10.3389/fnbeh.2015.00363
+38. Davoudian, P. A., Shao, L.-X. & Kwan, A. C. Shared and Distinct Brain Regions Targeted for Immediate Early Gene Expression by Ketamine and Psilocybin. ACS Chem. Neurosci. 14, 468–480 (2023). https://doi.org/10.1021/acschemneuro.2c00637
+39. Overmyer, K. A., Thonusin, C., Qi, N. R., Burant, C. F. & Evans, C. R. Impact of Anesthesia and Euthanasia on Metabolomics of Mammalian Tissues: Studies in a C57BL/6J Mouse Model. PLoS ONE 10, e0117232 (2015). https://doi.org/10.1371/journal.pone.0117232
+40. Chakkingal Bhaskaran, B. et al. The forgotten variable? Does the euthanasia method and sample storage condition influence an organisms transcriptome – a gene expression analysis on multiple tissues in pigs. BMC Genomics 24, 769 (2023). https://doi.org/10.1186/s12864-023-09794-4
+41. van den Brink, S. C. et al. Single-cell sequencing reveals dissociation-induced gene expression in tissue subpopulations. Nat. Methods 14, 935–936 (2017). https://doi.org/10.1038/nmeth.4437
+42. Wu, Y. E., Pan, L., Zuo, Y., Li, X. & Hong, W. Detecting Activated Cell Populations Using Single-Cell RNA-Seq. Neuron 96, 313–329.e6 (2017). https://doi.org/10.1016/j.neuron.2017.09.026
+43. Lacar, B. et al. Nuclear RNA-seq of single neurons reveals molecular signatures of activation. Nat. Commun. 7, 11022 (2016). https://doi.org/10.1038/ncomms11022
+44. Hrvatin, S. et al. Single-cell analysis of experience-dependent transcriptomic states in the mouse visual cortex. Nat. Neurosci. 21, 120–129 (2018). https://doi.org/10.1038/s41593-017-0029-5
+45. Ferreira, P. G. et al. The effects of death and post-mortem cold ischemia on human tissue transcriptomes. Nat. Commun. 9, 490 (2018). https://doi.org/10.1038/s41467-017-02772-x
+46. Dachet, F. et al. Selective time-dependent changes in activity and cell-specific gene expression in human postmortem brain. Sci. Rep. 11, 6078 (2021). https://doi.org/10.1038/s41598-021-85801-6
+47. Yap, E.-L. & Greenberg, M. E. Activity-Regulated Transcription: Bridging the Gap between Neural Activity and Behavior. Neuron 100, 330–348 (2018). https://doi.org/10.1016/j.neuron.2018.10.013
+48. Saha, R. N. et al. Rapid activity-induced transcription of Arc and other IEGs relies on poised RNA polymerase II. Nat. Neurosci. 14, 848–856 (2011). https://doi.org/10.1038/nn.2839
+49. Zhang, Y., Parmigiani, G. & Johnson, W. E. ComBat-seq: batch effect adjustment for RNA-seq count data. NAR Genom. Bioinform. 2, lqaa078 (2020). https://doi.org/10.1093/nargab/lqaa078
+50. Molania, R. et al. Removing unwanted variation from large-scale RNA sequencing data with PRPS. Nat. Biotechnol. 41, 82–95 (2023). https://doi.org/10.1038/s41587-022-01440-w
+51. Wang, J., Zhao, Q., Hastie, T. & Owen, A. B. Confounder adjustment in multiple hypothesis testing. Ann. Stat. 45, 1863–1894 (2017). https://doi.org/10.1214/16-AOS1511
+52. Gerstner, J. R. et al. Removal of unwanted variation reveals novel patterns of gene expression linked to sleep homeostasis in murine cortex. BMC Genomics 17, 727 (2016). https://doi.org/10.1186/s12864-016-3065-8
+53. Zindler, T., Frieling, H., Neyazi, A., Bleich, S. & Friedel, E. Simulating ComBat: how batch correction can lead to the systematic introduction of false positive results in DNA methylation microarray studies. BMC Bioinformatics 21, 271 (2020). https://doi.org/10.1186/s12859-020-03559-6
+54. Peixoto, L. et al. How data analysis affects power, reproducibility and biological insight of RNA-seq studies in complex datasets. Nucleic Acids Res. 43, 7664–7674 (2015). https://doi.org/10.1093/nar/gkv736
+55. Leek, J. T. svaseq: removing batch effects and other unwanted noise from sequencing data. Nucleic Acids Res. 42, e161 (2014). https://doi.org/10.1093/nar/gku864
+56. Fortin, J.-P. et al. Harmonization of cortical thickness measurements across scanners and sites. NeuroImage 167, 104–120 (2018). https://doi.org/10.1016/j.neuroimage.2017.11.024
+57. Varma, S. & Simon, R. Bias in error estimation when using cross-validation for model selection. BMC Bioinformatics 7, 91 (2006). https://doi.org/10.1186/1471-2105-7-91
+58. Ambroise, C. & McLachlan, G. J. Selection bias in gene extraction on the basis of microarray gene-expression data. Proc. Natl Acad. Sci. USA 99, 6562–6566 (2002). https://doi.org/10.1073/pnas.102102699
+59. Benjamini, Y. & Yekutieli, D. The control of the false discovery rate in multiple testing under dependency. Ann. Stat. 29, 1165–1188 (2001). https://doi.org/10.1214/aos/1013699998
+60. Lazic, S. E., Clarke-Williams, C. J. & Munafò, M. R. What exactly is ‘N’ in cell culture and animal experiments? PLoS Biol. 16, e2005282 (2018). https://doi.org/10.1371/journal.pbio.2005282
+61. Percie du Sert, N. et al. The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research. PLoS Biol. 18, e3000410 (2020). https://doi.org/10.1371/journal.pbio.3000410
+62. Button, K. S. et al. Power failure: why small sample size undermines the reliability of neuroscience. Nat. Rev. Neurosci. 14, 365–376 (2013). https://doi.org/10.1038/nrn3475
+63. Phipson, B. & Smyth, G. K. Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn. Stat. Appl. Genet. Mol. Biol. 9, 39 (2010). https://doi.org/10.2202/1544-6115.1585
+64. Efron, B. Bootstrap Methods: Another Look at the Jackknife. Ann. Stat. 7, 1–26 (1979). https://doi.org/10.1214/aos/1176344552
+65. Szyld, D. B. The many proofs of an identity on the norm of oblique projections. Numer. Algorithms 42, 309–323 (2006). https://doi.org/10.1007/s11075-006-9046-2
+66. Frank, M. & Wolfe, P. An algorithm for quadratic programming. Nav. Res. Logist. Q. 3, 95–110 (1956). https://doi.org/10.1002/nav.3800030109
+67. Izenman, A. J. Reduced-rank regression for the multivariate linear model. J. Multivar. Anal. 5, 248–264 (1975). https://doi.org/10.1016/0047-259X(75)90042-1
+68. O’Donoghue, B. & Candès, E. Adaptive Restart for Accelerated Gradient Schemes. Found. Comput. Math. 15, 715–732 (2015). https://doi.org/10.1007/s10208-013-9150-3
+69. Zhang, R., Lahens, N. F., Ballance, H. I., Hughes, M. E. & Hogenesch, J. B. A circadian gene expression atlas in mammals: Implications for biology and medicine. Proc. Natl Acad. Sci. USA 111, 16219–16224 (2014). https://doi.org/10.1073/pnas.1408886111
+70. Takahashi, J. S. Transcriptional architecture of the mammalian circadian clock. Nat. Rev. Genet. 18, 164–179 (2017). https://doi.org/10.1038/nrg.2016.150
+71. Biagioli, M. et al. Unexpected expression of α- and β-globin in mesencephalic dopaminergic neurons and glial cells. Proc. Natl Acad. Sci. USA 106, 15454–15459 (2009). https://doi.org/10.1073/pnas.0813216106
+72. Nakao, S.-I. et al. High-dose ketamine does not induce c-Fos protein expression in rat hippocampus. Neurosci. Lett. 151, 33–36 (1993). https://doi.org/10.1016/0304-3940(93)90038-M
+73. Jaggi, M. Revisiting Frank-Wolfe: Projection-Free Sparse Convex Optimization. Proc. Mach. Learn. Res. 28, 427–435 (2013). https://proceedings.mlr.press/v28/jaggi13.html

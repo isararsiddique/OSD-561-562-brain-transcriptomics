@@ -1,0 +1,21 @@
+{
+  "width_mm": 183,
+  "height_mm": 163,
+  "dpi_png": 600,
+  "font_family": "Arial",
+  "minimum_text_font_points": 8.0,
+  "configured_minimum_line_points": 1,
+  "lowercase_bold_panel_labels": [
+    "a)",
+    "b)",
+    "c)",
+    "d)"
+  ],
+  "figure_title_inside_canvas": false,
+  "footer_inside_canvas": false,
+  "PDF_SVG_vector": true,
+  "PNG_expected_pixels": [
+    4323,
+    3850
+  ]
+}

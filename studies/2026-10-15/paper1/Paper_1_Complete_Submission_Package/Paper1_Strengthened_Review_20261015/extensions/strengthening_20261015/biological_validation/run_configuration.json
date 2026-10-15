@@ -1,0 +1,65 @@
+{
+  "seed": 20261015561562,
+  "wild": 99999,
+  "bootstrap": 2000,
+  "n_effect_rows": 1488,
+  "n_finite_p": 1047,
+  "checks": [
+    {
+      "check": "OSD-561 independent normalization",
+      "passed": true,
+      "max_error": 7.105427357601002e-15
+    },
+    {
+      "check": "OSD-562 independent normalization",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "OSD-563 independent normalization",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "OSD-564 independent normalization",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "OSD-612 independent normalization",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "OSD-613 independent normalization",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "OSD-525 independent normalization",
+      "passed": true,
+      "max_error": 7.105427357601002e-15
+    },
+    {
+      "check": "OSD-202 independent normalization",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "check": "OSD-352 independent normalization",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "check": "OSD-374 independent normalization",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "check": "OSD-611 independent normalization",
+      "passed": true,
+      "max_error": 0.0
+    }
+  ],
+  "warning": "Exploratory observational inference; no biological cell fractions or causal mediation"
+}

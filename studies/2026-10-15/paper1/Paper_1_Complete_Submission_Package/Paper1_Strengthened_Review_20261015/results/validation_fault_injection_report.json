@@ -1,0 +1,21 @@
+{
+  "all_probes_rejected": true,
+  "probes": [
+    {
+      "probe": "BH corruption",
+      "rejected": true,
+      "errors": [
+        "panel_results.csv: independent BH recomputation",
+        "Manuscript numeric provenance panel_results.csv/q_BH_all_tests_in_family/{\"contrast\": \"RRRM2_pooled_GC_ISST_vs_LAR\", \"panel\": \"rPRG\", \"sensitivity\": \"design_cohort\"}"
+      ]
+    },
+    {
+      "probe": "Unrendered fabricated claim",
+      "rejected": true,
+      "errors": [
+        "MANUSCRIPT_COMPLETE: rendered text block 5"
+      ]
+    }
+  ],
+  "files_restored": true
+}

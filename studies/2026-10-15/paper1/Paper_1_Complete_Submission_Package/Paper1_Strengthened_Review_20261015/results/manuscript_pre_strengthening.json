@@ -1,0 +1,1182 @@
+[
+  {
+    "type": "title",
+    "text": "Ground collection scores reveal limits of transcriptomic correction in mouse spaceflight brain"
+  },
+  {
+    "type": "paragraph",
+    "text": "Isarar Siddique, Raiyan Siddique, Arshi Niyaz, Jamyang Ugyen Tshomo, Atish Raza"
+  },
+  {
+    "type": "paragraph",
+    "text": "Convolity AI Lab, Lucknow, India"
+  },
+  {
+    "type": "paragraph",
+    "text": "Correspondence: Isarar Siddique, isarar@convolity.com. ORCID: 0009-0005-2305-9579."
+  },
+  {
+    "type": "heading",
+    "text": "Abstract",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Collection conditions can overlap biological responses in brain transcriptomics. We reanalysed seven NASA deposits containing 129 libraries and 83 animals using animal-restricted inference, paired regional tests and count models. Ground collection-score discrimination reproduced in both core regions; refitted label enumeration gave exact p=0.005 and BY q=0.039 across 18 tests. Across 362 overlapping ground holdouts with training-only preprocessing, original loadings worsened outside-sensor prediction by 9.1% in cerebellum and 3.5% in RR-23. Ground-derived subtraction was an oblique projection with spectral gain 8.13–15.31. A closest-loading constraint bounded amplification while retaining score removal. In 2,600 simulated datasets, bounding moderated instability under changed coupling but could leave substantial nuisance. No paired panel or cross-cohort gene test survived correction. These results distinguish reproducible collection signatures from transferable correction and motivate explicit stability validation."
+  },
+  {
+    "type": "paragraph",
+    "text": "Keywords: spaceflight; brain transcriptomics; collection confounding; oblique projection; paired analysis; reproducibility; negative-binomial models."
+  },
+  {
+    "type": "heading",
+    "text": "Introduction",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Spaceflight combines altered gravity, radiation, constrained housing, handling and return-related stress with differences in sample collection and preservation. Transcriptomic studies provide unusually rich access to these responses, but their interpretation depends on whether experimental contrasts distinguish the exposure of interest from the way tissue was obtained. Reviews of spaceflight biology identify oxidative stress, mitochondrial regulation, immune responses and neuronal adaptation as recurring themes [1]. NASA's Open Science Data Repository (OSDR) and consensus RNA-seq processing make comparative analyses possible [2,3]. Standardized computational processing, however, cannot by itself make distinct collection cohorts exchangeable or turn multiple tissues from one animal into independent exposure replicates."
+  },
+  {
+    "type": "paragraph",
+    "text": "Brain tissue is particularly vulnerable to an ambiguity between in vivo regulation and changes associated with collection. Neuronal activity can induce distinct rapid and secondary gene-expression programs [4,5], while tissue processing can generate artifactual or confounding glial signatures [6]. Sample collection during spaceflight introduces additional logistical constraints that affect the suitability of material for single-cell and spatial assays [7]. These observations motivate response-panel diagnostics, but they do not justify assigning a molecular time since euthanasia from a cross-sectional bulk RNA-seq profile. Nor does a reduction in glial or endothelial transcript abundance directly measure neuroinflammation or blood–brain barrier permeability."
+  },
+  {
+    "type": "paragraph",
+    "text": "Previous mouse studies reported spaceflight-associated expression changes and oxidative injury in brain tissue [8,9]. Spatial and single-nucleus multiomics in RR-3 localized responses to regions and cell populations, and showed limited concordance with bulk expression from the same mice [10]. That comparison is valuable biological context, but shared animals do not provide independent confirmation of an expression-correction algorithm. Differences among strains, sex, mission duration, handling, anatomical material and normalization also complicate a universal cross-mission signature. Bulk panels can reveal consistent associations while remaining unable to separate cell abundance from within-cell regulation."
+  },
+  {
+    "type": "paragraph",
+    "text": "Recent small-RNA analysis across 686 mouse samples from 13 organs reported predominantly age-independent spaceflight responses [11]. A protein-level RR-1 study reported decreased brain inflammasome activation, with no significant flight–ground differences in the assayed cytokines [12]. These findings further caution against assigning one inflammatory direction across missions or equating bulk transcriptional markers with functional immune activation. Neither study validates the ground-derived correction evaluated here."
+  },
+  {
+    "type": "paragraph",
+    "text": "The statistical difficulty is broader than spaceflight. Unwanted variation can dominate high-dimensional expression, and adjustments that preserve a chosen group contrast can exaggerate downstream confidence [13,14]. Surrogate-variable and control-gene methods illustrate how auxiliary information can help model nuisance structure [15,16,17]. Their success depends on what the auxiliary variation represents and whether its relationship to target expression transfers. A ground-associated response is not automatically a valid negative control for flight biology. When biology and nuisance share a response direction, subtraction can remove either or both."
+  },
+  {
+    "type": "paragraph",
+    "text": "We therefore framed the study around identifiability and stability rather than maximizing the number of significant genes. We audited sample identities across seven bulk brain deposits, re-estimated collection and exposure contrasts with animal-level inference, and tested regional interactions using genuinely paired cerebellum–hippocampus animals. We fitted negative-binomial models directly to integer counts as a separate estimator check and screened for directionally reproducible regional effects across cohorts. Finally, we analysed the geometry of two ground-derived transformations, constructed a gain-bounded score operator, and challenged all methods with known-truth and high-gain simulations. The mathematical construction uses standard projection and constrained least-squares geometry; the contribution is its explicit application, audit and failure analysis in these brain datasets. This study tests whether a correction can be numerically controlled without confusing sensor removal with biological recovery."
+  },
+  {
+    "type": "heading",
+    "text": "Results",
+    "level": 1
+  },
+  {
+    "type": "heading",
+    "text": "Sample identity defines the available evidence",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The seven count matrices contained 129 libraries. Summing technical libraries within Source Name animal and deposit produced 126 animal–region columns and 83 distinct animals across RRRM-2, RR-10 and RR-23 (Table 1). OSD-561 and OSD-562 contained 26 and 27 libraries, respectively, representing 29 animals in total rather than 53 independent animals (Fig. 1). Twenty-four animals contributed both cerebellum and hippocampus. OSD-563 and OSD-564 provided ten additional matched pairs from RR-10, whose left-hemisphere deposit OSD-612 contained nine of that cohort's animals. OSD-613 contained 18 other RRRM-2 animals. Anatomical deposits thus represent additional observations and comparison contexts, not seven independent missions."
+  },
+  {
+    "type": "paragraph",
+    "text": "RR-23 cerebellum data contained 29 libraries from 26 animals: nine flight, nine habitat ground controls (HGC) and eight vivarium ground controls (VGC). Three technical replicates were retained by count summation. The Source Name identities agreed with deposited RFID mappings across regions. Independently retrieved NASA STAR count files for the two core deposits matched the bundled gene identifiers, sample identifiers and every numerical count. This verification establishes the origin of the processed inputs; it does not repeat raw-read alignment or establish the correctness of every deposited experimental field."
+  },
+  {
+    "type": "paragraph",
+    "text": "Seven location entries from six core animals disagreed with the collection cohort inferred from Source Name. We retained these observations in the primary analysis and added exclusion sensitivities that removed every region of each affected animal. Source Name denotes a cohort designation; ground controls assigned to the ISS-terminal cohort were ground animals. Exclusion changed age support, so its loss of significance cannot be interpreted as proof that the full effect was caused by erroneous records. The conflicts remain a specific limitation of the deposited metadata, with both representations exported for review."
+  },
+  {
+    "type": "paragraph",
+    "text": "Count-derived diagnostics and principal-component analyses include every animal–region observation from all seven deposits (Supplementary Fig. 2). Condition-associated multivariate partial R² varied from 0.073 to 0.265. These descriptive differences confirm substantial heterogeneity in expression structure; they do not measure a causal exposure fraction. Deposited RNA-integrity numbers were unavailable, and mitochondrial gene-count fractions are reported as composition measures rather than replacements for sequence-level quality or RNA integrity."
+  },
+  {
+    "type": "heading",
+    "text": "Ground collection cohorts share response programs with flight contrasts",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Pooled ground ISS-terminal (ISS-T) minus live-animal-return (LAR) comparisons showed a rapid primary-response panel effect of 0.889 log2 (95% animal-bootstrap interval 0.595–1.183; exact permutation p=0.001429; BH q=0.019). Ground secondary-response gene (SRG) effects were small (0.032, q=0.938). The rapid-minus-secondary panel gradient was 0.857 log2 (p=0.005714; q=0.041 across 29 gradient tests). This is evidence of collection-cohort-associated expression in unflown animals, not a clock or a causal estimate of a collection artifact."
+  },
+  {
+    "type": "paragraph",
+    "text": "Pooled flight ISS-T minus LAR comparisons also showed rapid-response (0.656, q=0.034) and heat-shock (0.400, q=0.034) effects. In hippocampus, the flight cohort SRG effect was 0.629 log2 (q=0.012), contradicting a uniform account in which secondary-response expression remains unchanged. These comparisons combine flight duration, Earth recovery and collection context: ISS-T animals spent 55–58 days on orbit, while LAR animals returned after 32 days and recovered for 24 days. Their difference cannot identify a single kinetic mechanism."
+  },
+  {
+    "type": "paragraph",
+    "text": "All 17 primary design contrasts and 12 metadata sensitivities entered one 232-test panel family; the gradient analyses formed a separate 29-test family (Fig. 2; Supplementary Data). Eight inherited exploratory panels were retained, including the overlapping Sensor31 union. Panel overlap means these tests are not independent. Complete enumeration of whole-animal labels respected the stated age blocks and preserved all regional observations of an animal together. Small p values are conditional on exchangeability within those blocks and do not eliminate unmeasured collection confounding. No primary glia/complement panel comparison supported a multiplicity-adjusted universal inflammatory pattern."
+  },
+  {
+    "type": "heading",
+    "text": "Count models support estimator agreement, with a qualified hippocampal candidate",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Seven PyDESeq2 fits on collapsed integer counts yielded 15 regional contrasts and 120 panel comparisons. Panel mean-effect directions agreed in 111/120 cases; the Pearson correlation of panel mean effects was 0.968 (Fig. 3a). This agreement indicates that the principal response associations were not solely consequences of the log-expression linear estimator. It is not a second biological sample or validation of an expression transform. Cook-filtered gene probabilities, unshrunk coefficients, dispersions and model configurations are retained, including unavailable probabilities."
+  },
+  {
+    "type": "paragraph",
+    "text": "Within hippocampal ISS-T animals, the flight-minus-ground SRG panel effect was 0.238 log2 (p=0.001020; q=0.017). After removing metadata-conflict animals, the estimate remained positive (0.226), but q increased to 0.129. The full circadian effect was -0.325 log2 (q=0.057); the exclusion estimate was -0.384 (q=0.209). Fig. 3b displays the complete-family probabilities and intervals. These candidates justify collection-controlled follow-up; they do not establish a robust hippocampus-specific flight mechanism."
+  },
+  {
+    "type": "heading",
+    "text": "A direct flight by collection interaction identifies a qualified circadian candidate",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "An additional exploratory analysis tested the difference in flight-minus-ground effects between ISS-T and LAR directly, adjusting for age, within each core region (Supplementary Fig. 3). The hippocampal Circadian panel interaction was -0.405 log2 (95% stratified animal-bootstrap interval -0.591 to -0.215; restricted-model wild p=0.000838; BH q=0.026816 across the complete, separately declared 32-test interaction family). With 499,999 wild draws, the Monte Carlo interval for the exceedance probability was 0.000758–0.000920. The count-model panel mean agreed in direction (-0.367). This is a direct interaction estimate, rather than a comparison of significance in two strata."
+  },
+  {
+    "type": "paragraph",
+    "text": "Every one-animal and one-gene omission retained a negative full-data hippocampal Circadian interaction, ranging from −0.459 to −0.365 and −0.452 to −0.360 log2, respectively. Metadata exclusions also retained the negative coefficient (-0.460), but corrected support was lost (q=0.786). Only one older FLT ISS-T animal remained in hippocampus and none in cerebellum. The additive-age model cannot identify age-dependent interactions in an empty cell. Thus the candidate has effect-direction and estimator support, with an important limitation in metadata and design support; it is not evidence of a causal flight clock."
+  },
+  {
+    "type": "paragraph",
+    "text": "Four additional integer-count interaction fits yielded 72,023 evaluable gene tests across both regions and metadata sensitivities, corrected as one complete exploratory family. Primary fits identified 109 cerebellar and seven hippocampal genes; 90 and two, respectively, also retained global q≤0.05 after exclusion. Cerebellar Hbb-bt and Hbb-bs interactions were −3.495 and −3.009 log2 (global q=0.000197 and 0.001406) and remained supported after exclusion. All seven available fixed erythroid-associated marker point estimates were negative in each primary region, although most individual markers did not pass the original global family. This pattern motivates a possible composition contribution (Supplementary Fig. 4); it neither proves blood contamination nor identifies a cell source or blood fraction. Target-omitted marker correlations after full-design adjustment were supplied to avoid simple self-correlation. These within-cohort interaction candidates are distinct from the cross-cohort reproducibility screen below."
+  },
+  {
+    "type": "heading",
+    "text": "Pairing and reproducibility tests constrain biological claims",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "We subtracted each paired animal's cerebellar panel expression from its hippocampal expression, then compared these regional differences across exposure and collection cohorts (Fig. 4). This directly tests a regional interaction instead of inferring specificity from significance in one region and nonsignificance in another. None of 104 paired panel tests passed BH q≤0.05; the minimum q was 0.198. The strongest nominal SRG regional ISS-T-minus-LAR effect in flight animals was +0.758 log2 (p=0.001905; q=0.198). Regional flight effects for SRG were −0.203 in ISS-T, −0.018 in LAR and −0.246 in RR-10, all q≥0.906. The approximate region-by-flight-by-collection interaction was −0.223, with restricted-model wild-bootstrap p=0.531 and q=0.906."
+  },
+  {
+    "type": "paragraph",
+    "text": "Metadata exclusion removed all four older FLT ISS-T paired animals. Its ISS-T flight sensitivity consequently relied on younger-animal exposure support and only 20 age-restricted assignments. Unit leverage for the remaining older GC animal made some approximate HC3 gene uncertainties undefined; these were exported as unavailable rather than replaced with significant values. Leave-one-gene and leave-one-animal effects provide additional descriptive sensitivity outputs. The negative corrected tests limit regional claims but do not establish equivalence or the absence of biologically meaningful flight effects."
+  },
+  {
+    "type": "paragraph",
+    "text": "A conservative cross-cohort gene screen required matching directions and support in every constituent regional contrast. Cerebellum and hippocampus each used RRRM-2 ISS-T, RRRM-2 LAR and RR-10 exposure contrasts; the left hemisphere used RRRM-2 and RR-10. Intersection–union probabilities were the maximum component Wald p, with discordant or unavailable effects assigned p=1. Across 54,989 region–gene combinations, no gene survived global BH or BY correction (Supplementary Fig. 1). Direction concordance alone was frequent: 5,047 cerebellar, 5,001 hippocampal and 9,884 left-hemisphere genes. Nominal max-p<0.05 counts were three, zero and 554, respectively. This distinction prevents the ranked candidate list from becoming a claim of newly validated flight-response genes."
+  },
+  {
+    "type": "paragraph",
+    "text": "The independent saturated-age analysis retained negative hippocampal Circadian interactions at both ages (−0.510 log2 at 12 weeks and −0.307 at 29 weeks), with an equal-age estimate of −0.409. This agrees in direction with the additive-age estimate, but the equal-age BH q was 0.113 across all 64 saturated estimands and no result survived that family. Sparse metadata-excluded age cells remain a limitation. This is model-direction robustness, not additional corrected biological significance."
+  },
+  {
+    "type": "heading",
+    "text": "Score removal is an oblique projection with potentially large gain",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Let Y be a gene-by-sample normalized expression matrix and Y₀ its residual after nuisance-design adjustment. A unit ground-contrast direction v defines the genome-wide projection. A unit sensor-weight vector w is obtained by restricting the ground contrast to Sensor31; s=wᵀY₀ is its ground score, and γ is the genome-wide regression loading. The two transforms are:"
+  },
+  {
+    "type": "equation",
+    "text": "Aₚ = I − vvᵀ;     s = wᵀY₀;     γ = Y₀sᵀ/(ssᵀ);     Aₛ = I − γwᵀ.    (1)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Because wᵀγ=1, the score operator is idempotent and removes the weighted sensor score. It is generally oblique rather than orthogonal. Writing γ=w+h with h perpendicular to w gives, for at least two genes:"
+  },
+  {
+    "type": "equation",
+    "text": "Aₛ² = Aₛ;     wᵀAₛ = 0;     ‖Aₛ‖₂ = ‖γ‖₂ = √(1 + ‖h‖₂²).    (2)"
+  },
+  {
+    "type": "paragraph",
+    "text": "A score can therefore vanish while other expression directions are amplified. The learned spectral gains ranged from 8.129 to 15.309 across all 15 aligned anchor–target geometries (Fig. 5a). The norm is a worst-direction amplification limit, not the observed gain of every gene or contrast. It depends on the retained gene universe and expression metric. Conditional OLS t statistics must be refitted after transforming expression; projecting an existing t-statistic vector does not generally give the transformed t statistics."
+  },
+  {
+    "type": "paragraph",
+    "text": "To constrain this amplification, we fixed a gain cap L=2 before the bounded sensitivity analysis and shrank only the perpendicular component of the loading:"
+  },
+  {
+    "type": "equation",
+    "text": "c = min{1, √(L²−1)/‖h‖₂};     γᴸ = w + ch;     Aᴸ = I − γᴸwᵀ.    (3)"
+  },
+  {
+    "type": "paragraph",
+    "text": "When h=0, c is defined as one. The loading γᴸ is the unique closest vector to γ under wᵀγᴸ=1 and ‖γᴸ‖₂≤L. Hence the operator retains score removal and idempotence while limiting spectral gain to L. The result follows by projecting h onto a Euclidean ball in the hyperplane perpendicular to w (Methods). For any positive-semidefinite covariance Σ and biological vector b:"
+  },
+  {
+    "type": "equation",
+    "text": "λmax(AᴸΣAᴸᵀ) ≤ L²λmax(Σ);     ‖Aᴸb−b‖₂ ≤ L|wᵀb|.    (4)"
+  },
+  {
+    "type": "paragraph",
+    "text": "At L=2 this permits up to fourfold directional variance, so it is not a variance-contraction theorem. Every sensor-orthogonal biological vector is preserved exactly, including effects supported entirely outside the sensors. A biological effect with a nonzero weighted sensor score is altered. Sensor-score cancellation is also distinct from eliminating each sensor gene or reducing aggregate sensor effect energy. Dense independent numerical tests checked these identities and bounds in 100 geometries, with maximum error about 1.1×10⁻¹⁴."
+  },
+  {
+    "type": "heading",
+    "text": "Collection-score discrimination does not guarantee loading transfer",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "To test real-data generalization with independent preprocessing, we exhaustively held out one of three animals from each age-by-ground-collection cell in the core regions (81 splits per region; eight training and four test animals). RR-23 used 200 prespecified distinct splits with six HGC plus five VGC in training and three of each in testing. Every split refiltered genes and estimated its geometric-mean normalization reference using training counts only. Held-out size factors used that reference. The 362 splits overlap, and the two regions share many source animals; together they use 30 unique ground animals rather than 362 independent validation units (Fig. 6)."
+  },
+  {
+    "type": "paragraph",
+    "text": "OSD-561 had mean age-stratified sensor AUC 1.000, whereas the mean training–test whole-genome contrast cosine was 0.228. Original score loading prediction of held-out outside-sensor residual expression had a mean MSE ratio of 1.091 relative to the training-fitted intercept/age baseline. Mean held-out outside-sensor contrast energy removal was -23.26%. These are full split-distribution summaries, with no independent-sample confidence claim."
+  },
+  {
+    "type": "paragraph",
+    "text": "OSD-562 had mean age-stratified sensor AUC 1.000, whereas the mean training–test whole-genome contrast cosine was 0.521. Original score loading prediction of held-out outside-sensor residual expression had a mean MSE ratio of 0.962 relative to the training-fitted intercept/age baseline. Mean held-out outside-sensor contrast energy removal was 16.85%. These are full split-distribution summaries, with no independent-sample confidence claim."
+  },
+  {
+    "type": "paragraph",
+    "text": "OSD-525 had mean age-stratified sensor AUC 0.964, whereas the mean training–test whole-genome contrast cosine was 0.165. Original score loading prediction of held-out outside-sensor residual expression had a mean MSE ratio of 1.035 relative to the training-fitted intercept/age baseline. Mean held-out outside-sensor contrast energy removal was -17.04%. These are full split-distribution summaries, with no independent-sample confidence claim."
+  },
+  {
+    "type": "paragraph",
+    "text": "The core sensor achieved AUC one in every held-out split. Nevertheless, original score prediction was worse than the nuisance-only baseline in cerebellum and RR-23 on average; hippocampal prediction improved. Bounded and nested-training-CV shrinkage results were retained for all deposits. The latter chose among correction strengths 0, 0.25, 0.5, 0.75 and 1 using training-only leave-one-animal-out prediction, refitting preprocessing and loadings within every inner fold. Projection was excluded from the disjoint-sensor prediction comparison because its score includes outside-sensor response genes. Independent direct-count verification passed 1,533 checks, including target perturbation tests of reference independence and dense loading/prediction recalculations. Reliable within-resource collection discrimination therefore did not establish genome-wide nuisance loading transfer or biological recovery."
+  },
+  {
+    "type": "paragraph",
+    "text": "An additional exploratory finite-sample test rebuilt supervised panel weights and training-only preprocessing under all 400 age-restricted ground-cohort label assignments per core region. The statistic aggregated all 81 balanced holdouts once for each assignment, avoiding split-level independence. Sensor31 retained AUC 1 in both regions (exact p=0.005, BH q=0.01125 and BY q=0.03932 across all 18 inherited panel/comparator-by-region tests; Supplementary Fig. 5). Shared regional animals and observational exchangeability still limit independent replication and causality. The result is not Sensor31-specific: rPRG also reached AUC 1 in both regions. The collection association survives this dependence sensitivity; it does not validate transfer of correction loadings."
+  },
+  {
+    "type": "heading",
+    "text": "Real-data attenuation is heterogeneous and uncertain",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "For the matched hippocampal flight ISS-T-minus-LAR comparison, genome-wide projection removed 45.93% of outside-sensor squared coefficient energy. Original score subtraction removed 36.33% outside and 94.00% in Sensor31. Bounded score removed 16.30% outside and 90.53% in the sensor (Figs. 5 and 7). These are transformations of an observed contrast, not estimates of the proportion of false discoveries."
+  },
+  {
+    "type": "paragraph",
+    "text": "The matched cerebellar score transform increased outside-sensor energy by 7.17%. Transferring the hippocampal anchor to RR-23 increased outside-sensor energy by 66.41%; the bounded transfer instead removed 0.55%. The RR-23 within-deposit comparison removed 36.37% outside with original score and 17.18% with bounded score. That anchor and target share nine HGC animals, and the HGC-versus-VGC contrast includes different handling and harvest dates. It is not an unconfounded reference or an independent validation."
+  },
+  {
+    "type": "paragraph",
+    "text": "The joint 500-bootstrap intervals for original score outside-sensor energy removal were OSD-561: -42.91% to 8.70%; OSD-562: -22.52% to 41.53%; OSD-525: -11.56% to 48.83%. Normalization, anchor and target were refitted, with shared RR-23 HGC sampled once for both roles (Fig. 5c). Intervals condition on the initial gene universe and available observational strata; they do not incorporate unknown collection variables or identify true biological energy. All three original-score intervals crossed zero."
+  },
+  {
+    "type": "paragraph",
+    "text": "The 126 RR-23 partitions trained on four HGC plus all eight VGC animals and evaluated flight against the other five HGC animals. Across three transforms there were 378 partition rows (Fig. 8; full bounded results in the supplement). Training and evaluation animals were disjoint within a partition, but the partitions overlapped and all reused one cohort. Furthermore, real-data normalization was jointly estimated within each deposit before splitting; independent-preprocessing claims for real data are therefore reserved for the ground-only holdout extension. The partition exercise assesses sensitivity to ground-animal selection rather than providing 126 independent replications. The λ statistic is retained only as conditional test-statistic dispersion."
+  },
+  {
+    "type": "heading",
+    "text": "Known-truth experiments separate preservation from recovery",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The primary Gaussian benchmark used five fully retained scenarios with 200 independent datasets each, 1,200 genes, 24 ground-training samples and 24 distinct target samples. Seven methods produced 7,000 rows, including partial-score and oracle-ground references; four operational methods are shown in Fig. 9. The oracle-ground reference knows the training nuisance direction and is not a target oracle under changed coupling. All parameters and repetitions were saved. Biological false-discovery proportion (FDP) compares conditional OLS/BH discoveries with the original biological coefficient vector; residual nuisance can create a true transformed mean difference at a biologically null gene. The metric is therefore not a proof of conditional statistical FDR failure or universal biological FDR control."
+  },
+  {
+    "type": "paragraph",
+    "text": "In the nuisance-only scenario, mean biological effect RMSE was 0.475 for raw effects, 0.431 for projection, 0.446 for score and 0.437 for bounded score. Biological FDP remained 0.175, 0.205 and 0.185 after the three corrections. With sensor-orthogonal biological effects, power was low: 0.036, 0.048 and 0.043. The correction does not turn a small noisy experiment into a high-power discovery study."
+  },
+  {
+    "type": "paragraph",
+    "text": "When biology overlapped nuisance, score RMSE increased to 0.514 versus raw 0.473. Under changed target coupling, score and bounded-score RMSE were 0.616 and 0.597, compared with raw 0.475; biological FDP rose to 0.797 and 0.789. These failures are integral results. Energy retention for a known biological vector is not sufficient to establish accurate recovery of the observed confounded contrast."
+  },
+  {
+    "type": "paragraph",
+    "text": "The primary benchmark's learned gain was about 2.14, below the real-data range. An explicitly exploratory amendment therefore tested 16 combinations of true gain 8 or 12, training size 24 or 96, target size 24 or 48, and unchanged or reversed outside-sensor coupling, with 100 independent repetitions each (Fig. 10). Learned gains ranged 6.712–12.573; bounded gain remained at most two within floating-point tolerance. Both score operators preserved the known sensor-orthogonal biological vector exactly. Under unchanged coupling, equally weighted descriptive RMSE across settings was 1.648 raw, 0.388 projection, 0.401 score and 1.377 bounded score. Under reversed coupling the corresponding values were 1.633, 0.502, 3.093 and 1.889. Bounding moderated the original score's amplification under reversal, but substantial biological FDP remained and nuisance removal deteriorated when true nuisance required a gain far above two."
+  },
+  {
+    "type": "paragraph",
+    "text": "An explanatory fixed-sensor isotropic-noise calculation further shows how high dimensionality can inflate an estimated loading even when its population gain is one. With residual sample rank r>2 and G genes, the expected squared loading norm is one plus (G−1)/(r−2). An independent 1,000-repetition check with G=1,200 and r=23 gave mean squared gain 59.141 versus the theoretical 58.095. This special case does not give the exact sampling law of the present adaptive, correlated estimator. It identifies a reason to report gain and training sample size, rather than treating a fitted loading as known."
+  },
+  {
+    "type": "heading",
+    "text": "Discussion",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "The strongest conclusion is an operational distinction between collection-cohort association, correction stability and biological recovery. Ground animals exhibit a rapid-response cohort gradient, showing that a relevant expression pattern can exist without flight. The same pattern may also carry genuine exposure-dependent biology. A correction learned from it can remove a weighted score algebraically, yet amplify other directions or discard overlapping biology. The real datasets and independent simulations expose each link in this argument; no step permits the removed energy to be interpreted as the fraction of artifacts eliminated."
+  },
+  {
+    "type": "paragraph",
+    "text": "The bounded construction offers a transparent safeguard with a precise limit. Its closest-loading interpretation, score-null preservation and covariance bound are useful because they are verifiable independently of the desired results. They do not select the scientifically correct nuisance direction. The high-gain amendment demonstrates the price of that guarantee: when nuisance is diffuse and genuinely requires large oblique gain, an aggressive cap leaves it behind. Under changed coupling the cap reduces the original score's instability but still fails to restore reliable biology. Thus the bounded result should be reported alongside raw and orthogonal-projection effects, not promoted as a universally superior replacement for established normalization or unwanted-variation methods [15,16,17]."
+  },
+  {
+    "type": "paragraph",
+    "text": "The held-out-ground experiment adds a concrete real-data counterexample to interpreting sensor success as global correction success. Training-only references and sensors classified the core ground cohorts correctly in every balanced holdout, yet genome-wide loading prediction worsened on average in two of three settings. Thus this failure is not solely an artificial Gaussian domain-shift construction. The high-dimensional loading can be unreliable even when its selected score is highly repeatable. The available 30 ground animals and overlapping splits support a within-resource robustness result; they do not establish performance in a new mission or randomized collection experiment."
+  },
+  {
+    "type": "paragraph",
+    "text": "A practical analysis can predeclare the sensor set and cap, report the gene universe and learned gain, quantify ground-animal selection sensitivity, and retain negative transfer results. It should refit statistics after each expression transformation and propagate estimated normalization and anchor uncertainty. A ground-only diagnostic can detect numerical instability, but cannot determine whether the shared direction represents collection, biological exposure, or both. Held-out ground samples help assess stability within a collection process; they do not establish transfer to a different flight, recovery or tissue context. The joint bootstrap improves uncertainty accounting while remaining conditional on the observed strata and fixed retained genes."
+  },
+  {
+    "type": "paragraph",
+    "text": "The biological evidence deserves equally careful treatment. The hippocampal SRG association is supported in the full ISS-T comparison but loses corrected support under exclusions that materially change age representation. The paired tests do not demonstrate regional specificity. The cross-cohort screen identifies no corrected reproducible gene, despite many same-direction estimates. These outcomes do not invalidate prior evidence of neuronal or vascular responses [8,9,10], whose assays and experimental contexts differ. They delimit what this processed bulk resource can establish. An absence of corrected discoveries is especially compatible with small sample sizes, heterogeneous exposure and incomplete harmonization; it is not a demonstration of biological equivalence."
+  },
+  {
+    "type": "paragraph",
+    "text": "The direct Circadian interaction adds a focused, testable biological candidate: the flight–ground difference depends on collection cohort in the full hippocampal data. Its direction survives omission checks and count-model estimation, but exclusion sensitivity loses corrected support as age-cell representation collapses. Circadian output and erythroid-associated interactions should therefore guide matched-collection and cell-composition follow-up, without being promoted as a new causal clock or universal neuronal response. The strong beta-globin associations may reflect composition or collection-linked biology; the present counts cannot distinguish these explanations."
+  },
+  {
+    "type": "paragraph",
+    "text": "Interpretation also depends on the panel definitions. They were inherited before this extension, overlap and contain genes with multiple functions. Rapid, delayed and secondary labels are mechanistic hypotheses informed by prior response studies [4,5], not validated temporal bins in these mice. Missing genes are reported rather than substituted by favorable aliases. Glial and endothelial panels summarize bulk transcript abundance, which can change through tissue composition, within-cell expression or normalization. Claims about inflammasome activation, specific glial states or barrier permeability require orthogonal cell-resolved, protein or functional measurements. This manuscript does not use those panel names as assay substitutes."
+  },
+  {
+    "type": "paragraph",
+    "text": "Several limitations remain material. The study uses deposited processed counts and does not re-align raw reads or re-assess every library's sequence-level quality. Sex and strain differ among cohorts. ISS-T versus LAR combines exposure duration and recovery; RR-23 ground comparisons differ in handling and harvest date. Location metadata conflicts are unresolved. Label-permutation inference depends on exchangeability rather than randomized collection assignment, while CR1 and HC3 gene-level approximations can be fragile with few animals or high leverage. Conditional probabilities after estimated transformations are not calibrated discoveries about unobserved biological effects. The Gaussian benchmarks isolate mechanisms but do not simulate every count, dispersion, zero or cell-composition feature of RNA-seq. The high-gain configurations were added after inspecting the primary benchmark and are labelled exploratory."
+  },
+  {
+    "type": "paragraph",
+    "text": "Future experimental validation should cross exposure with matched collection and preservation protocols, include sufficient independent animals at both ages, and retain paired anatomical sampling. A collection time course could evaluate the proposed response panels directly; cell-resolved and functional assays could then test whether the hippocampal candidates reflect neuronal regulation or composition. Algorithms should be challenged with negative controls justified independently of the exposure, and with nuisance–biology overlap and coupling changes specified before testing. Such designs address the missing identifiability more directly than adding post hoc significant gene sets to the same observational matrices."
+  },
+  {
+    "type": "paragraph",
+    "text": "Taken together, these analyses provide a reproducible framework for auditing correction in spaceflight brain transcriptomics. The defensible advance is a measured diagnosis of transfer failure and a proven amplification constraint, accompanied by paired and cross-cohort limits on biological claims. Stronger causal conclusions require collection-controlled data; the available evidence already supports reporting when a correction fails, rather than treating numerical attenuation as a successful recovery of biology."
+  },
+  {
+    "type": "heading",
+    "text": "Methods",
+    "level": 1
+  },
+  {
+    "type": "heading",
+    "text": "Data, identity and preprocessing",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Public processed STAR count matrices and deposited metadata were assembled for OSD-525, OSD-561, OSD-562, OSD-563, OSD-564, OSD-612 and OSD-613 [18,19,20,21,22,23,24]. A matched RSEM matrix was used for OSD-525 estimator sensitivity. No new animals or laboratory experiments were used. Checksums, source URLs, retrieved metadata snapshots and the independent core STAR verification are supplied. Source Name was the primary animal identifier and was crosschecked against RFID. Technical libraries within animal and deposit were summed before filtering or inference. Cross-region pairing required exact source identity, and all regional records of a metadata-conflict animal were removed together in the exclusion sensitivity."
+  },
+  {
+    "type": "paragraph",
+    "text": "Within each deposit, canonical ENSMUSG identifiers with mean raw count≥10 were retained. Median-ratio factors used genes positive in every sample: each sample's median log ratio to the across-sample geometric mean was exponentiated. Expression was log₂(count/size factor+1). Gene symbols were mapped using the bundled Ensembl release 112 annotation; aliases were not silently substituted. Deposits were normalized separately, and pooled analyses aligned intersecting genes while including tissue and age nuisance terms. The initial gene universe remained fixed for the joint bootstrap. These preprocessing choices make effect sizes relative normalized bulk-expression measures."
+  },
+  {
+    "type": "heading",
+    "text": "Contrast inference and multiplicity",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Linear contrasts used an intercept and available age terms; pooled core contrasts also adjusted for tissue. Singular-value decomposition identified the nuisance rank. Frisch–Waugh–Lovell residualization yielded the exposure/cohort coefficient. Gene uncertainties used animal-cluster CR1 sandwich estimates and t probabilities with cluster-count-minus-one degrees of freedom, exported as exploratory. Panel effects were mean constituent gene coefficients. Exact label permutations were restricted by the stated age blocks, preserved positive group counts and kept repeated regions of each animal together. The empirical probability included the observed assignment; the Monte Carlo plus-one alternative exists in code but was not needed for the current primary panel contrasts [25]."
+  },
+  {
+    "type": "paragraph",
+    "text": "Primary panel intervals used 1,000 animal bootstraps within group and age, retaining all regional records of each selected animal and holding normalized expression fixed. All 232 panel probabilities across primary contrasts and sensitivities were corrected together using BH [26]. The rapid-minus-secondary gradient formed a separate 29-test family. BH relies on appropriate dependence conditions; the overlapping panels and observational exchangeability assumptions limit universal guarantees. Ground-anchor conditional panel probabilities formed a separate sensitivity family and are not reported as corrected biological discoveries. Simulation and gene-screen families are stated separately below."
+  },
+  {
+    "type": "heading",
+    "text": "Negative-binomial robustness and regional reproducibility",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "PyDESeq2 0.5.4 fitted seven per-deposit count models [27,28]. The two core regional models used age plus a four-level flight-by-cohort condition; OSD-613 used age plus exposure, OSD-525 used three exposure/control groups, and RR-10 used exposure. Models used integer collapsed counts, parametric dispersion trends and Cook-refitting/filtering, with independent filtering disabled and no coefficient shrinkage. Fifteen regional contrast outputs were compared with corresponding linear panel means. Counts were not pooled across anatomical deposits in these models. Direction agreement and coefficient correlation are descriptive estimator checks; panel means of gene Wald coefficients do not constitute a new inferential panel test."
+  },
+  {
+    "type": "paragraph",
+    "text": "The reproducibility screen aligned genes across each region's listed exposure contrasts and used the maximum finite two-sided Wald p value as the intersection–union probability. Nonconcordant signs or unavailable effects received p=1. Component independence is not required by the maximum-p intersection–union construction, provided component probabilities are valid. All 54,989 tests formed one global BH family; BY sensitivity multiplied BH q values by the family harmonic sum for arbitrary dependence. Shared fitted dispersion and age parameters do not provide independent biological replication. Ranked candidates remain exploratory even when individual component probabilities are small."
+  },
+  {
+    "type": "heading",
+    "text": "Paired regional analysis",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "For 24 RRRM-2 and ten RR-10 matched animals, each panel's hippocampal mean log-expression minus cerebellar mean was the animal-level outcome. Regional exposure contrasts used age-restricted complete label enumeration; pooled RRRM-2 flight labels additionally respected collection cohort. Regional cohort contrasts were tested within flight or ground groups. The approximate three-way coefficient used additive age and flight-by-cohort terms, with HC3 studentization and 9,999 restricted-model Rademacher wild draws. All 104 panel tests, including metadata sensitivities, formed one BH family. Percentile intervals used 2,000 resamples within exposure, cohort and age. Gene-level HC3 outputs were flagged unavailable at unit leverage. The paired program separately verified its sandwich estimate, exact permutation probabilities and family correction."
+  },
+  {
+    "type": "heading",
+    "text": "Within-region flight by collection interaction",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "This extension used all core animals and the conflict-animal exclusions in each region. The full design was intercept, age29, flight, ISS-T and flight×ISS-T. The numeric contrast (0,0,0,0,1) estimates (FLT−GC in ISS-T)−(FLT−GC in LAR). Eight inherited panels in two regions and two sensitivities formed one additional exploratory 32-test BH family. Intervals used 4,000 stratified whole-animal bootstraps; approximate probabilities used 499,999 restricted-model Rademacher wild draws with HC3 studentization. Monte Carlo exceedance intervals, all animal/gene omission effects and age-cell support are supplied. Four PyDESeq2 fits used the identical five-column design and unshrunk numeric interaction contrast. The 72,023 evaluable gene probabilities were corrected together; Cook-filtered unavailable probabilities remained unavailable. An independent four-group parameterization verified the difference-in-differences, sandwich and Wald calculations; unstable non-significant gene-fit discrepancies are disclosed. Seven fixed erythroid markers were assessed descriptively using the existing gene family, without a new favorable gene-set significance test. Residual marker correlations removed the entire design and omitted each target transcript from its marker score."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Independent finite-sample and age-model robustness"
+  },
+  {
+    "type": "paragraph",
+    "text": "The post hoc audit fixed the eight inherited panels plus the whole-genome comparator in each core region before executing 18 tests. All 400 assignments preserve three positive labels among six animals in each age block. Each assignment repeats all 81 train-eight/test-four balanced splits; filtering, geometric-mean references and supervised contrast weights are refitted from training animals. Label-independent training-reference calculations are cached by animal training set, giving 225 distinct training sets per region. Mean within-age held-out pair discrimination is recomputed for every assignment, and the exact upper-tail proportion includes the observed assignment. BH and arbitrary-dependence BY adjustments include all 18 tests. No flight labels or held-out outcomes select a panel or tuning parameter. Separately, all eight panels in both regions are estimated from full age-by-flight-by-collection cell means and a saturated eight-column model. The 64 age-specific, equal-age and age-difference HC3 normal estimands form a separate exploratory BH family. Empty metadata-excluded cells remain unavailable. Saved-count reconstructions also decompose prediction error and report every training-expression tertile and animal, without treating overlapping holdouts as independent observations."
+  },
+  {
+    "type": "heading",
+    "text": "Ground anchors, transfer and resampling",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Core ground anchors used GC ISS-T versus GC LAR, adjusted for age. RR-23 used HGC versus VGC. The sensor consisted of the rPRG-plus-HSP union, with available genes reported per aligned universe. The ground coefficient defined v and the restricted unit weight w; residual ground scores defined γ as in Eq. 1. Operators were applied to normalized expression, after gene alignment, before refitting the target contrast. All 15 applications retained raw, orthogonal-projection, original-score and bounded-score outputs. The gain cap L=2 was a fixed diagnostic choice, not tuned to significance or biological accuracy. Its construction and limitations are proved in Methods."
+  },
+  {
+    "type": "paragraph",
+    "text": "For sensor or outside-sensor set S, energy removal compared the squared raw coefficient β with the refitted transformed coefficient β*. Negative reductions mean amplification and were retained:"
+  },
+  {
+    "type": "equation",
+    "text": "Energy removal(S) = 100[1 − Σg∈S(β*g)² / Σg∈Sβg²].    (5)"
+  },
+  {
+    "type": "paragraph",
+    "text": "Ground-only uncertainty used 200 stratified animal bootstraps with a fixed target and fixed normalization. Three matched applications additionally used 500 joint stratified bootstraps, relearning normalization, anchor and target, with shared OSD-525 HGC selected once for both roles. RR-23 partitions exhaustively chose four of nine HGC for training, used the remaining five for evaluation and included all eight VGC in every anchor. Shared normalization before partitioning and reuse across partitions are explicitly disclosed. λ was median χ²₁-equivalent conditional OLS probability divided by the χ²₁ median; it is a dispersion diagnostic."
+  },
+  {
+    "type": "heading",
+    "text": "Ground-only prediction validation",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Ground holdouts used training-only canonical-gene mean-count filtering and normalization references. Target factors were median log ratios to positive training-gene geometric means, using nonzero target entries. Ground score orientation was fixed by the positive training cohort. Age-stratified AUC counted held-out positive–negative pair orderings within age. Outside-sensor prediction compared the loading times the held-out sensor residual score with held-out expression residualized using training-fitted intercept and age. The baseline used those nuisance means alone. Nested ground-training leave-one-out selection used the five fixed strengths and fully refitted filtering, normalization, nuisance and sensor estimation. No flight data or outer held-out errors selected the shrinkage. Reported split quantiles are overlapping-split robustness ranges, not sample-independent confidence limits. Verification reconstructed six first/last cases directly from source counts and checked all allocations and training-CV minimizers."
+  },
+  {
+    "type": "heading",
+    "text": "Simulation design and mathematical verification",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The primary benchmark generated five scenarios with 200 independent repetitions each, following explicit aims, data-generating mechanisms, estimands, methods and performance measures [29]. Each dataset contained 1,200 genes, 31 sensors, 151 nuisance-support genes, 24 ground and 24 independent target samples, heteroskedastic Gaussian gene noise and five signed correlated factors. Sixty sensor-disjoint biological effects had magnitude 0.8; the overlapping scenario instead included nuisance-aligned biology. Target nuisance coupling was either maintained or altered. No method was selected using target biological truth. The seven retained methods were raw, genome projection, score, bounded score, half-score, oracle-ground projection and oracle-ground score."
+  },
+  {
+    "type": "paragraph",
+    "text": "Metrics included coefficient RMSE against the true biological vector, power, biological FDP, known-vector energy retention and spectral gain. Gene calls used conditional OLS probabilities with BH within each simulated method/dataset. FDP was zero when no calls occurred; power and retention were unavailable when no biological effect existed. Summary files provide repetition dispersion and Monte Carlo standard errors; figure uncertainty is ±1.96 standard errors of the mean. The high-gain amendment used all 16 combinations of gain, training size, target size and coupling reversal, with 100 independent repetitions each. Its exact configuration and results were retained, including failures. Independent dense-matrix numerical tests checked production transformations against SVD, covariance and constrained-loading calculations; the fixed-sensor noise calculation had a separate 1,000-repetition verification."
+  },
+  {
+    "type": "heading",
+    "text": "Statistics and reproducibility",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The significance threshold is 0.05. Primary panel contrasts, gradients, gene Wald tests, paired contrasts and wild interaction tests are two-sided; their exact probabilities and complete multiplicity families are reported. The independent collection-classification test uses an upper-tail AUC statistic with orientation learned exclusively from training labels. Its label assignments, rather than overlapping splits, define the null enumeration. Reanalysis sample sizes are fixed by the deposited animals. Error bars identify animal-bootstrap percentiles, approximate HC3 intervals or Monte Carlo mean uncertainty as appropriate; no post hoc significance threshold or sample-size extension was selected to obtain a favorable result."
+  },
+  {
+    "type": "paragraph",
+    "text": "All analyses were exploratory reanalyses, with no prospective animal sample-size calculation, randomized allocation or investigator blinding. No post hoc power calculation was used to declare absence of effects. Counts, full contrast manifests, unavailable-value flags, tested families and algorithm failures are supplied rather than selected discovery-only tables. Scientific software used Python 3.12.13, NumPy 2.5.3, pandas 3.0.5, SciPy 1.18.1 and PyDESeq2 0.5.4; reproducible seeds and complete configurations are recorded. Substantial AI assistance through OpenAI Codex was used to audit metadata and code, develop mathematical and computational analyses, retrieve source records, draft text and prepare figures. Authors are responsible for reviewing scientific interpretation, code and final wording; AI systems are not authors. Source citations were checked against DOI metadata and, for key interpretations, primary full text."
+  },
+  {
+    "type": "heading",
+    "text": "Projection geometry and its scope",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Let G≥2 and w be unit length. The loading estimate satisfies wᵀγ=1 because s=wᵀY₀ and γ=Y₀sᵀ/(ssᵀ). The denominator must be positive. With A=I−γwᵀ, A²=I−2γwᵀ+γ(wᵀγ)wᵀ=A. Its range is w-perpendicular and kernel is the span of γ. This projection is orthogonal only for γ=w. Write h=γ−w, so wᵀh=0. In the orthonormal basis w,h/‖h‖, its nontrivial block has rows (0,0) and (−‖h‖,1). Its nonzero block singular value is √(1+‖h‖²); G−2 additional singular values are one, and the last is zero. For G=1, the operator is zero, so the stated norm equality needs the dimension qualification."
+  },
+  {
+    "type": "paragraph",
+    "text": "A sensor-score identity does not imply gene-wise removal. For w=(1,0,0)ᵀ, γ=(1,2,3)ᵀ and β=(1,0,0)ᵀ, Aβ=(0,−2,−3)ᵀ. The first coordinate score is removed while the two-coordinate sensor-set energy can increase. If w is supported on sensor set S and O is its nonempty complement, ‖PᴼA‖₂=√(1+‖γᴼ‖²). Outside-sensor amplification is possible even when wᵀAY=0. A genome-wide orthogonal projection has norm one, but it can still remove a biological component aligned with its fitted direction."
+  },
+  {
+    "type": "heading",
+    "text": "Closest-loading gain constraint",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "For L≥1, constrain g by wᵀg=1 and ‖g‖≤L. Every admissible g has form w+k with k perpendicular to w and ‖k‖≤√(L²−1). Minimizing ‖g−γ‖² reduces to projecting h onto this closed Euclidean ball. Strict convexity gives the unique solution k=c h, with c=min(1,√(L²−1)/‖h‖), using c=1 if h=0. Therefore the bounded loading retains the sensor identity, idempotence and closest-loading interpretation, with spectral gain at most L. At L=1 it becomes I−wwᵀ and leaves all outside-sensor coordinates unchanged. This standard constrained geometry is applied as a sensitivity safeguard; L=2 has not been estimated as biologically optimal."
+  },
+  {
+    "type": "paragraph",
+    "text": "For positive-semidefinite Σ, any unit x satisfies xᵀAᴸΣAᴸᵀx≤λmax(Σ)‖Aᴸᵀx‖²≤L²λmax(Σ). For any biological vector b, Aᴸb−b=−γᴸ(wᵀb), giving the norm bound in Eq. 4. Every b with wᵀb=0 is preserved exactly, but its recovery from observed data also depends on remaining nuisance and sampling noise. Energy may increase despite distorted direction; neither energy retention nor score cancellation is a truth criterion."
+  },
+  {
+    "type": "equation",
+    "text": "If β = b + δu, then Aᴸβ − b = −γᴸ(wᵀb) + δ[u − γᴸ(wᵀu)].    (6)"
+  },
+  {
+    "type": "paragraph",
+    "text": "The first term is biological distortion; the second is residual nuisance. Ground associations alone cannot identify their separation. If u=(wᵀu)γ is exactly transferable nuisance, the bounded operator leaves Aᴸu=(wᵀu)(1−c)h. Thus reducing gain can deliberately sacrifice nuisance removal even under perfect transfer. The observed high-gain unchanged-coupling failures are consistent with this identity."
+  },
+  {
+    "type": "heading",
+    "text": "High-dimensional loading uncertainty under fixed sensors",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "For an explanatory special case, assume fixed w selected independently of data, isotropic independent Gaussian residual expression and residual sample rank r. Rotate gene space to w=e₁. Then score squared length follows χ²ᵣ and, conditional on the score, each of G−1 perpendicular loading coordinates has variance 1/(sᵀs). The perpendicular squared loading is the ratio of independent chi-squared variables with G−1 and r degrees of freedom. Its expectation and variance are:"
+  },
+  {
+    "type": "equation",
+    "text": "E‖γ̂‖² = 1 + (G−1)/(r−2),  r>2;    (7)"
+  },
+  {
+    "type": "equation",
+    "text": "Var(‖γ̂‖²) = 2(G−1)(G+r−3)/[(r−2)²(r−4)],  r>4.    (8)"
+  },
+  {
+    "type": "paragraph",
+    "text": "The 1,000-repetition independent check used G=1,200, N=24 and an intercept (r=23). The theoretical mean was 58.0952 and observed mean 59.1409, within 1.77 theoretical Monte Carlo standard errors. This explains a possible finite-sample high-dimensional gain mechanism but does not specify the law of the present adaptive w, correlated expression or heteroskedastic ground estimator. The saved script and test result identify every assumption."
+  },
+  {
+    "type": "heading",
+    "text": "Complete simulation configurations and performance definitions",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The oracle label in the original configuration means the true ground nuisance, including under changed target coupling. It is an upper-information reference about the ground mechanism and is not uniformly best or a target truth oracle. For independent target Gaussian errors with a correct sample design and a fixed independently trained operator, marginal conditional OLS gene tests can remain valid despite induced cross-gene dependence. Biological false calls use the original b as truth; residual nuisance can therefore make the transformed conditional null false at a biological-null gene. Empirical biological FDP cannot be interpreted as a theorem of biological FDR control. General signed dependence also does not guarantee classical BH validity under all configurations."
+  },
+  {
+    "type": "paragraph",
+    "text": "Each performance mean is computed over the full retained repetitions. RMSE is the square root of mean squared error between the estimated coefficient and the true biological effect; outside-sensor RMSE restricts the calculation to the complement. Power is the called fraction of nonzero b entries; biological FDP is the called fraction with b=0, assigned zero when no genes are called. Known-vector energy retention is ‖Ab‖²/‖b‖² and is unavailable when b=0. Summary lower/upper95 columns in the primary simulation file are empirical repetition percentiles, not confidence limits for the mean; figure bars instead use 1.96 times the explicitly supplied Monte Carlo standard error. Full oracle and half-score results remain in the tables."
+  },
+  {
+    "type": "paragraph",
+    "text": "All 16 high-gain configurations and 100 repetitions per configuration were retained. The amendment followed recognition that primary simulated gains were smaller than real gains; it is not a preregistered confirmatory benchmark. Both score operators exactly preserved b supported outside the sensors, while observed biological effect recovery still depended on nuisance transfer. This distinction remains visible in the table and figure, including unchanged-coupling failure of the bounded method."
+  },
+  {
+    "type": "heading",
+    "text": "Pairing, support and approximate interactions",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Source Name matching identified 24 cerebellum–hippocampus pairs in RRRM-2 (OSD-561/562; 24 of 29 distinct animals across the two deposits) and 10 pairs in RR-10 (OSD-563/564). For each animal, the mean panel expression in cerebellum was subtracted from that in hippocampus after per-deposit median-ratio normalization and log2 transformation. Eight inherited exploratory panels were tested for regional flight and ISS-T/LAR collection-cohort contrasts using animal-level label permutations restricted by age; the pooled RRRM-2 flight test additionally restricted exchange within collection cohort. The region × flight × collection-cohort coefficient used an additive-age model and approximate HC3-studentized restricted-model wild bootstrap. All 104 panel tests, including metadata-exclusion sensitivities and the approximate interactions, entered one BH family.\n\nNo panel test survived BH correction (minimum q = 0.198). SRG regional flight effects were -0.203 in ISS-T, -0.018 in LAR, and -0.246 in RR-10 on the normalized log2 scale (q = 0.906, 0.969, and 0.906, respectively). Descriptive SRG ISS-T-minus-LAR regional cohort effects were larger in both FLT (+0.758; permutation p = 0.0019, q = 0.198) and GC (+0.969; p = 0.020, q = 0.520). The approximate SRG three-way coefficient was -0.223 (wild-bootstrap p = 0.531, q = 0.906). These observations motivate further study of regional collection-cohort differences but do not support a multiplicity-adjusted biological discovery or establish an absence of flight effects.\n\nExcluding six animals with location metadata disagreement in either region did not produce a significant panel result. This exclusion removed all four older FLT ISS-T animals; consequently, the ISS-T flight sensitivity is supported only by younger animals and has just 20 age-restricted assignments. Its approximate gene-level HC3 uncertainties are undefined because the remaining older GC animal has unit leverage, and those uncertainties are explicitly exported as unavailable. Percentile intervals use 2,000 animal bootstraps within exposure × cohort × age strata; the three-way test uses 9,999 wild draws. Effects describe relative bulk expression on separately normalized deposit scales and cannot identify causal flight responses, absolute tissue abundance, or cell-type-specific regulation."
+  },
+  {
+    "type": "paragraph",
+    "text": "Regional differences use independently normalized deposit scales and do not measure absolute tissue abundance. The analysis takes exact animal matches before forming regional differences, and it does not treat significance in one separate region as a test of between-region specificity. Leave-one-gene outputs measure dependence of a panel mean on constituents; leave-one-animal outputs measure effect sensitivity, without generating a new confirmatory discovery family. Every paired gene test is labelled exploratory. The three-way interaction is approximate wild-bootstrap inference with an additive age specification and cannot recover unsupported age-by-exposure cells."
+  },
+  {
+    "type": "heading",
+    "text": "Sample reporting and remaining assumptions",
+    "level": 2
+  },
+  {
+    "type": "heading",
+    "text": "Reproduction order",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Create a Python 3.12 environment and install requirements.txt. Limit BLAS threads with OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1 and VECLIB_MAXIMUM_THREADS=1. The README supplies the ordered scientific reconstruction commands, including forced count-model refitting and all retained robustness analyses. After analysis, run scripts/prepare_manuscript_sources.py, scripts/build_draft.py --figures-only, scripts/build_extended_figures.py, scripts/refine_panel_layouts.py, scripts/build_graphical_abstract.py, scripts/prepare_final_content.py, scripts/finalize_for_journal.py and scripts/build_final_documents.py, in that order. The graphical overview is optional. Regenerate equations with scripts/render_equations.cjs using Node, mathjax-full 3.2.2 and sharp when their sources change. Run scripts/refine_journal_artwork.cjs before building Word files. Render the Word files to PDF and page images using LibreOffice and render_docx.py. Finally run the unit tests, scripts/validate_revision.py and scripts/validate_fault_injections.py. Full reconstruction retains every test and failed method; cached count fits are distinct from forced refitting. A sealed file manifest must be rebuilt after reviewed changes."
+  },
+  {
+    "type": "paragraph",
+    "text": "The content builder maps numerical claims to unique rows in machine-readable result files; the final validator independently checks those lookups and core test families. Passing these computational checks certifies internal consistency, not biological causality or journal acceptance. The public archive identifier and all-author final approval are separate release steps. No external submission is performed by the software."
+  },
+  {
+    "type": "heading",
+    "text": "Data availability",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Source data are publicly accessible through NASA OSDR under OSD-525, OSD-561, OSD-562, OSD-563, OSD-564, OSD-612 and OSD-613 [18,19,20,21,22,23,24]. The accompanying review package contains the exact processed inputs used here, retrieved metadata snapshots, checksums, full derived tables and figure sources. No controlled-access human data were used. A permanent public archive for this revision has not yet been created; its identifier must be inserted before publication. The analysis does not claim that the original data were generated by the manuscript authors."
+  },
+  {
+    "type": "heading",
+    "text": "Code availability",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Executable Python scripts, dependency specifications, tests, full simulation configurations and a file-verification manifest accompany the manuscript. The README states the complete reproduction order and distinguishes cached count-model reuse from forced refitting. A versioned public code release and permanent archive identifier remain a submission preparation step; no nonexistent repository or DOI is supplied."
+  },
+  {
+    "type": "heading",
+    "text": "Ethics statement",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "This study reanalysed public mouse data and involved no new animal procedures. The deposited Animal Husbandry protocols for all seven included studies state approval by the NASA Flight Institutional Animal Care and Use Committee and compliance with the Guide for the Care and Use of Laboratory Animals [18,19,20,21,22,23,24]. OSD-525 identifies Protocol number RR-23. Numeric protocol identifiers were not available in the retrieved descriptions for the other included deposits. Source statements are retained in the metadata snapshots; this secondary analysis does not invent a new institutional approval or exemption."
+  },
+  {
+    "type": "heading",
+    "text": "Author contributions",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "I.S. (Isarar Siddique): Conceptualization, Methodology, Software, Data curation, Supervision, Resources, Project administration, Formal analysis, Validation, Visualization, Funding acquisition, Investigation, Writing – original draft, Writing – review & editing."
+  },
+  {
+    "type": "paragraph",
+    "text": "R.S. (Raiyan Siddique): Investigation, Software, Data curation, Formal analysis, Validation, Writing – review & editing."
+  },
+  {
+    "type": "paragraph",
+    "text": "A.N. (Arshi Niyaz): Formal analysis, Validation, Visualization, Project administration, Writing – review & editing, Writing – original draft."
+  },
+  {
+    "type": "paragraph",
+    "text": "J.U.T. (Jamyang Ugyen Tshomo): Writing – original draft, Project administration, Software, Formal analysis, Methodology, Resources, Visualization, Validation."
+  },
+  {
+    "type": "paragraph",
+    "text": "A.R. (Atish Raza): Writing – review & editing, Resources, Project administration, Formal analysis, Validation, Data curation."
+  },
+  {
+    "type": "heading",
+    "text": "Competing interests",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "The authors declare no competing interests."
+  },
+  {
+    "type": "heading",
+    "text": "Acknowledgements",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "We acknowledge the investigators and NASA OSDR/GeneLab teams who generated, curated and made the source data available. This acknowledgement does not imply their endorsement of the present reanalysis. This research received no external funding."
+  },
+  {
+    "type": "heading",
+    "text": "References",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "1. Afshinnekoo, E. et al. Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration. Cell 183, 1162-1184 (2020). https://doi.org/10.1016/j.cell.2020.10.050",
+    "_order": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "2. Gebre, S.G. et al. NASA open science data repository: open science for life in space. Nucleic Acids Research 53, D1697-D1710 (2025). https://doi.org/10.1093/nar/gkae1116",
+    "_order": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "3. Overbey, E.G. et al. NASA GeneLab RNA-seq consensus pipeline: Standardized processing of short-read RNA-seq data. iScience 24, 102361 (2021). https://doi.org/10.1016/j.isci.2021.102361",
+    "_order": 3
+  },
+  {
+    "type": "paragraph",
+    "text": "4. Tyssowski, K.M. et al. Different Neuronal Activity Patterns Induce Different Gene Expression Programs. Neuron 98, 530-546.e11 (2018). https://doi.org/10.1016/j.neuron.2018.04.001",
+    "_order": 4
+  },
+  {
+    "type": "paragraph",
+    "text": "5. Tullai, J.W. et al. Immediate-Early and Delayed Primary Response Genes Are Distinct in Function and Genomic Architecture. Journal of Biological Chemistry 282, 23981-23995 (2007). https://doi.org/10.1074/jbc.M702044200",
+    "_order": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "6. Marsh, S.E. et al. Dissection of artifactual and confounding glial signatures by single-cell sequencing of mouse and human brain. Nature Neuroscience 25, 306-316 (2022). https://doi.org/10.1038/s41593-022-01022-8",
+    "_order": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "7. Overbey, E.G. et al. Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight. Cell Reports Methods 2, 100325 (2022). https://doi.org/10.1016/j.crmeth.2022.100325",
+    "_order": 7
+  },
+  {
+    "type": "paragraph",
+    "text": "8. Holley, J.M. et al. Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission. npj Microgravity 8, 35 (2022). https://doi.org/10.1038/s41526-022-00217-4",
+    "_order": 8
+  },
+  {
+    "type": "paragraph",
+    "text": "9. Mao, X.W. et al. Spaceflight induces oxidative damage to blood‐brain barrier integrity in a mouse model. The FASEB Journal 34, 15516-15530 (2020). https://doi.org/10.1096/fj.202001754r",
+    "_order": 9
+  },
+  {
+    "type": "paragraph",
+    "text": "10. Masarapu, Y. et al. Spatially resolved multiomics on the neuronal effects induced by spaceflight in mice. Nature Communications 15, 4778 (2024). https://doi.org/10.1038/s41467-024-48916-8",
+    "_order": 10
+  },
+  {
+    "type": "paragraph",
+    "text": "11. Grandke, F. et al. MiRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways. Nature Communications 17, 1387 (2026). https://doi.org/10.1038/s41467-026-68737-1",
+    "_order": 11
+  },
+  {
+    "type": "paragraph",
+    "text": "12. Roy, U. et al. Effects of Space Flight on Inflammasome Activation in the Brain of Mice. Cells 14, 417 (2025). https://doi.org/10.3390/cells14060417",
+    "_order": 12
+  },
+  {
+    "type": "paragraph",
+    "text": "13. Leek, J.T. et al. Tackling the widespread and critical impact of batch effects in high-throughput data. Nature Reviews Genetics 11, 733-739 (2010). https://doi.org/10.1038/nrg2825",
+    "_order": 13
+  },
+  {
+    "type": "paragraph",
+    "text": "14. Nygaard, V., Rødland, E.A., Hovig, E. Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses. Biostatistics 17, 29-39 (2016). https://doi.org/10.1093/biostatistics/kxv027",
+    "_order": 14
+  },
+  {
+    "type": "paragraph",
+    "text": "15. Leek, J.T., Storey, J.D. Capturing Heterogeneity in Gene Expression Studies by Surrogate Variable Analysis. PLoS Genetics 3, e161 (2007). https://doi.org/10.1371/journal.pgen.0030161",
+    "_order": 15
+  },
+  {
+    "type": "paragraph",
+    "text": "16. Risso, D., Ngai, J., Speed, T.P., Dudoit, S. Normalization of RNA-seq data using factor analysis of control genes or samples. Nature Biotechnology 32, 896-902 (2014). https://doi.org/10.1038/nbt.2931",
+    "_order": 16
+  },
+  {
+    "type": "paragraph",
+    "text": "17. Gagnon-Bartsch, J.A., Speed, T.P. Using control genes to correct for unwanted variation in microarray data. Biostatistics 13, 539-552 (2012). https://doi.org/10.1093/biostatistics/kxr034",
+    "_order": 17
+  },
+  {
+    "type": "paragraph",
+    "text": "18. NASA Open Science Data Repository. Transcriptional profiling of cerebellums from mice flown on the RR-23 mission. OSD-525. https://osdr.nasa.gov/bio/repo/data/studies/OSD-525 Dataset DOI: https://doi.org/10.26030/3r5e-6b84. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 18
+  },
+  {
+    "type": "paragraph",
+    "text": "19. NASA Open Science Data Repository. Bulk RNA sequencing and spatially resolved transcriptional profiling of cerebellums from mice flown on the RRRM-2 mission. OSD-561. https://osdr.nasa.gov/bio/repo/data/studies/OSD-561. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 19
+  },
+  {
+    "type": "paragraph",
+    "text": "20. NASA Open Science Data Repository. Bulk RNA sequencing and spatially resolved transcriptional profiling of hippocampi from mice flown on the RRRM-2 mission. OSD-562. https://osdr.nasa.gov/bio/repo/data/studies/OSD-562. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 20
+  },
+  {
+    "type": "paragraph",
+    "text": "21. NASA Open Science Data Repository. Bulk RNA sequencing and spatially resolved transcriptional profiling of cerebellums from mice flown on the RR-10 mission. OSD-563. https://osdr.nasa.gov/bio/repo/data/studies/OSD-563. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 21
+  },
+  {
+    "type": "paragraph",
+    "text": "22. NASA Open Science Data Repository. Bulk RNA sequencing and spatially resolved transcriptional profiling of hippocampi from mice flown on the RR-10 mission. OSD-564. https://osdr.nasa.gov/bio/repo/data/studies/OSD-564. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 22
+  },
+  {
+    "type": "paragraph",
+    "text": "23. NASA Open Science Data Repository. Bulk RNA sequencing and single nuclei transcriptomics and epigenomics of brain tissue from mice flown on the RR-10 mission. OSD-612. https://osdr.nasa.gov/bio/repo/data/studies/OSD-612 Dataset DOI: https://doi.org/10.26030/66jw-j748. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 23
+  },
+  {
+    "type": "paragraph",
+    "text": "24. NASA Open Science Data Repository. Bulk RNA sequencing and single nuclei transcriptomics and epigenomics of brain tissue from mice flown on the RRRM-2 mission. OSD-613. https://osdr.nasa.gov/bio/repo/data/studies/OSD-613. Retrieved metadata snapshots and count provenance accompany this study.",
+    "_order": 24
+  },
+  {
+    "type": "paragraph",
+    "text": "25. Winkler, A.M., Ridgway, G.R., Webster, M.A., Smith, S.M., Nichols, T.E. Permutation inference for the general linear model. NeuroImage 92, 381-397 (2014). https://doi.org/10.1016/j.neuroimage.2014.01.060",
+    "_order": 25
+  },
+  {
+    "type": "paragraph",
+    "text": "26. Benjamini, Y., Hochberg, Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. Journal of the Royal Statistical Society Series B: Statistical Methodology 57, 289-300 (1995). https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+    "_order": 26
+  },
+  {
+    "type": "paragraph",
+    "text": "27. Love, M.I., Huber, W., Anders, S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology 15, 550 (2014). https://doi.org/10.1186/s13059-014-0550-8",
+    "_order": 27
+  },
+  {
+    "type": "paragraph",
+    "text": "28. Muzellec, B., Teleńczuk, M., Cabeli, V., Andreux, M. PyDESeq2: a python package for bulk RNA-seq differential expression analysis. Bioinformatics 39, btad547 (2023). https://doi.org/10.1093/bioinformatics/btad547",
+    "_order": 28
+  },
+  {
+    "type": "paragraph",
+    "text": "29. Morris, T.P., White, I.R., Crowther, M.J. Using simulation studies to evaluate statistical methods. Statistics in Medicine 38, 2074-2102 (2019). https://doi.org/10.1002/sim.8086",
+    "_order": 29
+  },
+  {
+    "type": "heading",
+    "text": "Figures",
+    "level": 1
+  },
+  {
+    "type": "table",
+    "title": "Table 1. Processed-input accounting. Animal counts cannot be added across regions to obtain independent animals.",
+    "headers": [
+      "Deposit",
+      "Cohort",
+      "Tissue",
+      "Libraries",
+      "Animal–region columns",
+      "Genes retained"
+    ],
+    "rows": [
+      [
+        "OSD-525",
+        "RR-23",
+        "cerebellum",
+        "29",
+        "26",
+        "19308"
+      ],
+      [
+        "OSD-561",
+        "RRRM-2",
+        "cerebellum",
+        "26",
+        "26",
+        "18199"
+      ],
+      [
+        "OSD-562",
+        "RRRM-2",
+        "hippocampus",
+        "27",
+        "27",
+        "17838"
+      ],
+      [
+        "OSD-613",
+        "RRRM-2",
+        "left cerebral hemisphere",
+        "18",
+        "18",
+        "19959"
+      ],
+      [
+        "OSD-563",
+        "RR-10",
+        "cerebellum",
+        "10",
+        "10",
+        "20045"
+      ],
+      [
+        "OSD-564",
+        "RR-10",
+        "hippocampus",
+        "10",
+        "10",
+        "19862"
+      ],
+      [
+        "OSD-612",
+        "RR-10",
+        "left cerebral hemisphere",
+        "9",
+        "9",
+        "20655"
+      ]
+    ]
+  },
+  {
+    "type": "table",
+    "title": "Table 2. Primary mechanism benchmark configuration.",
+    "headers": [
+      "Parameter",
+      "Value"
+    ],
+    "rows": [
+      [
+        "seed",
+        "20261014"
+      ],
+      [
+        "scenarios",
+        "[\"pure_null\", \"confounded_no_biology\", \"orthogonal_biology\", \"overlapping_biology\", \"changed_coupling\"]"
+      ],
+      [
+        "methods",
+        "[\"raw\", \"projection\", \"score\", \"bounded_score\", \"half_score\", \"oracle_projection\", \"oracle_score\"]"
+      ],
+      [
+        "repetitions",
+        "200"
+      ],
+      [
+        "genes",
+        "1200"
+      ],
+      [
+        "ground_samples",
+        "24"
+      ],
+      [
+        "target_samples",
+        "24"
+      ],
+      [
+        "sensor_genes",
+        "31"
+      ],
+      [
+        "nuisance_support_genes",
+        "151"
+      ],
+      [
+        "disjoint_biology_genes",
+        "60"
+      ],
+      [
+        "biological_effect_disjoint",
+        "0.8"
+      ],
+      [
+        "overlapping_biology_nuisance_multiplier",
+        "0.5"
+      ],
+      [
+        "ground_cohort_nuisance_difference",
+        "1.5"
+      ],
+      [
+        "target_cohort_nuisance_difference",
+        "1.0"
+      ],
+      [
+        "latent_nuisance_sd",
+        "0.4"
+      ],
+      [
+        "noise_sd_range",
+        "[0.65, 1.15]"
+      ],
+      [
+        "additional_latent_noise_factors",
+        "5"
+      ],
+      [
+        "gene_loading_sd",
+        "0.12"
+      ],
+      [
+        "probability_interpretation",
+        "Biological false calls compare conditional OLS/BH calls with simulated biological effects, not with the full confounded group mean."
+      ],
+      [
+        "limitation",
+        "Gaussian mechanism stress tests are not external experimental validation or a realistic complete RNA-seq simulator."
+      ]
+    ]
+  },
+  {
+    "type": "table",
+    "title": "Table 3. Exploratory high-gain amendment configuration.",
+    "headers": [
+      "Parameter",
+      "Value"
+    ],
+    "rows": [
+      [
+        "label",
+        "Exploratory amended high-gain Gaussian stress benchmark"
+      ],
+      [
+        "seed",
+        "86761014"
+      ],
+      [
+        "repetitions_per_configuration",
+        "100"
+      ],
+      [
+        "genes",
+        "1200"
+      ],
+      [
+        "sensor_genes",
+        "31"
+      ],
+      [
+        "diffuse_coupling_genes",
+        "1120"
+      ],
+      [
+        "true_score_spectral_gain",
+        "[8.0, 12.0]"
+      ],
+      [
+        "training_samples",
+        "[24, 96]"
+      ],
+      [
+        "target_samples",
+        "[24, 48]"
+      ],
+      [
+        "coupling",
+        "[\"unchanged\", \"flipped\"]"
+      ],
+      [
+        "ground_nuisance_group_difference",
+        "1.5"
+      ],
+      [
+        "target_nuisance_group_difference",
+        "1.0"
+      ],
+      [
+        "latent_nuisance_sd",
+        "0.4"
+      ],
+      [
+        "biological_genes",
+        "60"
+      ],
+      [
+        "absolute_biological_effect",
+        "0.8"
+      ],
+      [
+        "biological_sensor_score",
+        "0.0"
+      ],
+      [
+        "gene_noise_sd_range",
+        "[0.65, 1.15]"
+      ],
+      [
+        "latent_noise_factors",
+        "5"
+      ],
+      [
+        "latent_noise_gene_loading_sd",
+        "0.12"
+      ],
+      [
+        "methods",
+        "[\"raw\", \"projection\", \"score\", \"bounded_score\"]"
+      ],
+      [
+        "bounded_max_gain",
+        "2.0"
+      ],
+      [
+        "shared_training_target_samples",
+        "0"
+      ],
+      [
+        "target_tuning",
+        "False"
+      ],
+      [
+        "flipped_definition",
+        "Every outside-sensor nuisance loading reverses sign; sensor loadings stay fixed."
+      ],
+      [
+        "hypothesis_interpretation",
+        "FDP compares conditional gene-wise OLS/BH calls to original biological effects; it is a recovery diagnostic rather than formal biological FDR control."
+      ],
+      [
+        "amendment_reason",
+        "Root Gaussian benchmark typical learned gain ≈2.15 is far below real score gain ≈8–15; this amendment tests higher diffuse coupling."
+      ],
+      [
+        "limitation",
+        "Deliberate Gaussian stress models, not external biological validation or a complete RNA-seq simulation."
+      ]
+    ]
+  },
+  {
+    "type": "table",
+    "title": "Table 4. Reporting summary for secondary computational research.",
+    "headers": [
+      "Item",
+      "Statement"
+    ],
+    "rows": [
+      [
+        "Experimental unit",
+        "Source Name animal; technical libraries summed; paired regions retained together."
+      ],
+      [
+        "Sample size",
+        "129 libraries; 126 animal–region columns; 83 animals; 24 core and 10 RR-10 paired animals. No new animal sample-size calculation."
+      ],
+      [
+        "Inclusion/exclusion",
+        "Canonical genes, mean raw count≥10; primary retains deposited animals; explicit conflict-animal exclusions and finite/identifiable model checks."
+      ],
+      [
+        "Randomization/blinding",
+        "No new allocation or blinding. Labels reconstructed from deposited records; permutations are conditional inferential procedures."
+      ],
+      [
+        "Sex/strain",
+        "RRRM-2 female C57BL/6NTac; RR-10 analysed B6129SF2/J WT; RR-23 male C57BL/6J. Metadata retained."
+      ],
+      [
+        "Technical validation",
+        "Core NASA counts independently compared; RFID identity checks; statistical reference tests; paired validation; dense mathematical tests."
+      ],
+      [
+        "Uncertainty",
+        "Conditional panel bootstrap; anchor-only bootstrap; joint fixed-universe bootstrap; paired bootstrap/wild draws; simulation Monte Carlo error."
+      ],
+      [
+        "Ethics",
+        "Source deposited protocols state NASA Flight IACUC approval; RR-23 identifier available; no new animal procedures."
+      ],
+      [
+        "Data/code",
+        "Exact processed inputs, scripts, configurations and complete outputs bundled. Permanent public revision archive remains to be established."
+      ],
+      [
+        "Scope",
+        "Exploratory observational reanalysis; no universally validated correction, kinetic clock, independent replication of all deposits or causal inflammatory claim."
+      ]
+    ]
+  },
+  {
+    "type": "figure",
+    "filename": "figure1_sample_accounting_and_panel_effects",
+    "caption": "Figure 1. Sample accounting and response-panel effects. (a) The cerebellum and hippocampus matrices contain 53 region libraries from 29 Source Name animals. (b) Points are mean gene-level log2 effects; bars are 95% percentile intervals from 1,000 animal bootstraps within label and age. All regions of a sampled animal remain together. Panel labels are inherited exploratory gene sets, not measured transcriptional time windows. Intervals are conditional on normalization and cohort exchangeability.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure1_sample_accounting_and_panel_effects"
+  },
+  {
+    "type": "figure",
+    "filename": "figure2_cross_cohort_panel_effects",
+    "caption": "Figure 2. Panel effects before ground-derived transformation across 17 primary design contrasts. Numbers show mean log2 effects; an asterisk denotes BH q < 0.05 across all 232 panel tests, including metadata sensitivities. Positive effects follow the numerator in each row. Cb, cerebellum; Hip, hippocampus; HGC, habitat ground control; VGC, vivarium control. OSD-563, OSD-564 and OSD-612 are three regions of one RR-10 animal cohort, not independent missions. Glial and endothelial transcript abundance does not directly measure inflammation or barrier permeability. Six displayed panels are selected from the eight tested; all tests remain in the supplied tables. Age and, for pooled core contrasts, tissue nuisance adjustment are retained.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure2_cross_cohort_panel_effects"
+  },
+  {
+    "type": "figure",
+    "filename": "figure3_count_model_and_biology",
+    "caption": "Figure 3. Count-model robustness and biological candidate sensitivity. (a) The 120 panel comparisons summarize 15 regional contrasts fitted using PyDESeq2; agreement is analytical robustness on the same observations, not independent replication. (b) Full and metadata-excluded hippocampal ISS-T flight contrasts for SRG and circadian panels. Circles are log-expression effects with 1,000-animal-bootstrap percentile intervals; hollow diamonds show mean unshrunk negative-binomial effects for the full data. q values use the complete 232-test panel family. Exclusions remove the older FLT ISS-T support; the full SRG result does not establish a region-specific mechanism.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure5_count_model_and_biology"
+  },
+  {
+    "type": "figure",
+    "filename": "figure4_paired_regional_interactions",
+    "caption": "Figure 4. Paired regional interactions. (a) Source Name matching identifies 24 RRRM-2 and 10 RR-10 cerebellum–hippocampus animal pairs. (b) All eight panel effects in primary regional contrasts; no test has q≤0.05 across the complete 104-test family, including sensitivities. (c) Individual SRG hippocampus-minus-cerebellum scores; outlined points identify metadata conflicts. (d) SRG regional flight coefficients with 2,000-animal-bootstrap percentile intervals and complete-family q values. The approximate three-way interaction uses 9,999 restricted-model wild draws. Metadata exclusion removes all older FLT ISS-T animals, reducing the sensitivity to younger-animal exposure support.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure8_paired_regional_interactions"
+  },
+  {
+    "type": "figure",
+    "filename": "figure5_bounded_operator_and_joint_uncertainty",
+    "caption": "Figure 5. Bounded score geometry and joint uncertainty. (a) Unbounded score gain for all 15 aligned anchor–target geometries; the bounded operator has gain at most two. (b) Observed sensor-panel effect-energy removal for matched hippocampal recovery and the RR-23 shared-HGC comparison. (c) Observed outside-sensor energy removal and 500-bootstrap percentile intervals, refitting normalization, anchor and target on each resample. Shared RR-23 HGC animals are sampled once for both roles. Intervals remain conditional on the fixed initially retained gene universe and observational sampling assumptions; zero crossings and negative reductions are shown. A point estimate may lie outside a biased percentile interval. Energy removal does not measure biological recovery.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure7_bounded_operator_and_joint_uncertainty"
+  },
+  {
+    "type": "figure",
+    "filename": "figure6_ground_holdout",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "caption": "Figure 6. Ground-only prediction and correction holdouts. (a) Within-age sensor and whole-genome AUC; (b) outside-sensor expression prediction error relative to a training-fitted intercept/age baseline; (c) training loading gain; (d) held-out outside-sensor collection-contrast energy removal. Points are split medians and lines are 2.5th–97.5th split quantiles, not independent-sample confidence intervals. Core regions use all 81 age-balanced holdouts each; RR-23 uses 200 prespecified distinct splits. Filtering, normalization references, nuisance means and scores use training data only. Five nested-CV strengths are selected only within training animals. The 362 splits overlap and involve 30 unique ground source animals. Projection is excluded from disjoint-sensor prediction because it uses response genes in its score. Reliable sensor discrimination does not establish biological recovery.",
+    "source_filename": "figure10_ground_holdout"
+  },
+  {
+    "type": "figure",
+    "filename": "figure7_ground_anchor_transfer",
+    "caption": "Figure 7. Ground-anchor sensitivity and transfer. Dots show the observed change in squared contrast coefficients outside the Sensor31 genes after genome-expression projection or ground-calibrated score subtraction. Lines show 95% percentile ranges from 200 ground-animal bootstraps within age and cohort, conditional on normalized counts and a fixed target. These ranges describe anchor uncertainty, not complete sampling intervals or calibrated gene-level inference. The within-OSD-525 evaluation shares nine HGC animals with its anchor and is displayed as such. Negative reductions are retained. Removing expression variation is not proof of removing confounding.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure3_ground_anchor_transfer"
+  },
+  {
+    "type": "figure",
+    "filename": "figure8_disjoint_anchor_partitions",
+    "caption": "Figure 8. RR-23 disjoint-anchor partitions. Each of 126 partitions trains on four of nine HGC animals plus the same eight VGC animals, then evaluates the nine FLT animals against the remaining five HGC animals. Training and evaluation animals are disjoint within a partition. Partitions reuse the same cohort and do not constitute 126 independent validations. (a) Removing sensor effect energy does not ensure a reduction outside the sensor. (b) λ is derived from conditional OLS t probabilities and is a dispersion diagnostic, not a measure of biological truth or empirical false-positive rate.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure4_disjoint_anchor_partitions"
+  },
+  {
+    "type": "figure",
+    "filename": "figure9_known_truth_validation",
+    "caption": "Figure 9. Independent training–target Gaussian mechanism benchmark. Five scenarios each contain 200 independently generated datasets (1,000 datasets; 7,000 method rows including additional oracle-ground and partial-correction references in the supplement). Four operational methods are shown without target tuning. Translucent violins show the full repetition distributions where variable; points and bars are means ±1.96 Monte Carlo standard errors, not real-data confidence intervals. Biological FDP compares discoveries with the original biological coefficient vector and therefore differs from conditional statistical FDR under residual nuisance. Power and biological energy retention are undefined when no biological effects exist. Failure under overlapping biology or changed coupling is retained. The simulator is not a complete RNA-seq generative model. Panels show (a) effect RMSE, (b) biological FDP, (c) power and (d) known biological-vector energy retention.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure6_known_truth_validation"
+  },
+  {
+    "type": "figure",
+    "filename": "figure10_high_gain_domain_shift",
+    "caption": "Figure 10. Exploratory high-gain stress benchmark. All 16 combinations of true gain (8 or 12), training size (24 or 96), target size (24 or 48) and unchanged or flipped outside-sensor nuisance coupling are shown. Each uses 100 independent repetitions (1,600 datasets; 6,400 method rows). Known biology is supported outside Sensor31 and is preserved exactly by both score operators. Error bars are ±1.96 Monte Carlo standard errors. Bounding reduces worst score amplification under coupling reversal but leaves substantial nuisance, including under unchanged coupling; neither norm control nor exact sensor-null preservation establishes accurate biological recovery. Panels (a,c) show unchanged-coupling RMSE and biological FDP; (b,d) show their flipped-coupling counterparts. Translucent violins show the full 100-repetition distributions where variable; points are means.",
+    "png_dpi": 600,
+    "vector_format": "SVG",
+    "source_filename": "figure9_high_gain_domain_shift"
+  }
+]

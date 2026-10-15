@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "review_date": "2026-10-15",
+  "sealed_files": 684,
+  "all_sealed_sha256_match": true,
+  "manifest_sha256": "69ef726c3c27ddd5cd5a41572e9f53194e758e70aad9d65810a10216c338ed3a",
+  "preseal_computational_checks": 1858,
+  "portable_checks_including_sealed_files": 2542,
+  "statistical_unit_tests_passed": 11,
+  "all_rendered_pages_visually_reviewed": true,
+  "main_pages": 44,
+  "supplement_pages": 11,
+  "main_figures": 13,
+  "supplement_figures": 7,
+  "numbered_supplementary_data_tables": 50,
+  "mutable_files_excluded_from_seal": [
+    "PACKAGE_FILE_MANIFEST.json",
+    "PACKAGE_VERIFICATION.json",
+    "results/validation_report.json"
+  ],
+  "submission_ready": false,
+  "release_items_remaining": [
+    "All five authors must review and approve the final manuscript, contributions and related-manuscript disclosure.",
+    "Create a permanent public data/code revision archive and insert its verified identifier.",
+    "Complete journal portal reporting-summary/editorial-checklist fields and disclose the overlapping Paper 2."
+  ]
+}

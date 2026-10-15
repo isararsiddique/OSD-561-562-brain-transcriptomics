@@ -1,0 +1,222 @@
+[
+  {
+    "accession": "OSD-202",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-202_meta.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-202/raw_sources/OSD-202_meta.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/meta/202",
+    "sha256": "cd05741df1501f58bf66d9dab4d41a380c3b8ed6b45f22ac285a0064d2dba942",
+    "bytes": 928692,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:48:59.762374+00:00"
+  },
+  {
+    "accession": "OSD-202",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-202_files.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-202/raw_sources/OSD-202_files.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/files/202",
+    "sha256": "d23f0aace25359bb9ba8234afbddf45d72ec683f5ae3bded5a955eab189ec8f7",
+    "bytes": 356879,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:48:59.763480+00:00"
+  },
+  {
+    "accession": "OSD-202",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-202/OSD-202_metadata_OSD-202-ISA.zip",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-202/raw_sources/OSD-202_metadata_OSD-202-ISA.zip",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-202/download?source=datamanager&file=OSD-202_metadata_OSD-202-ISA.zip",
+    "sha256": "7238934b431538cfea68d6168ec132c977c7102ac4a89a4811f773c4c1c8e00e",
+    "bytes": 274625,
+    "expected_nasa_bytes": 274625,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:48:59.767988+00:00"
+  },
+  {
+    "accession": "OSD-202",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-202/GLDS-202_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-202/raw_sources/GLDS-202_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-202/download?source=datamanager&file=GLDS-202_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "sha256": "47920444daff2b62659a6433e852d09a1057ca539664f3bf65c76ce579256b22",
+    "bytes": 3869,
+    "expected_nasa_bytes": 3869,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:48:59.768551+00:00"
+  },
+  {
+    "accession": "OSD-202",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-202/GLDS-202_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-202/raw_sources/GLDS-202_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-202/download?source=datamanager&file=GLDS-202_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "sha256": "e761f3d7b09b52bfa6e6b680ab8857fce91bc3efcc09d0a32a2c06efb6113514",
+    "bytes": 6918248,
+    "expected_nasa_bytes": 6918248,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:48:59.773469+00:00"
+  },
+  {
+    "accession": "OSD-352",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-352_meta.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-352/raw_sources/OSD-352_meta.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/meta/352",
+    "sha256": "1a02f93c2d5a260cbc582eb5a6967cf4671d46a542c48d2e23b917c2796350bb",
+    "bytes": 290110,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:00.876175+00:00"
+  },
+  {
+    "accession": "OSD-352",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-352_files.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-352/raw_sources/OSD-352_files.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/files/352",
+    "sha256": "04b521e013313e908e88f57510630b683f80a5734c6b73333e76eb1687612701",
+    "bytes": 103298,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:00.876659+00:00"
+  },
+  {
+    "accession": "OSD-352",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-352/OSD-352_metadata_OSD-352-ISA.zip",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-352/raw_sources/OSD-352_metadata_OSD-352-ISA.zip",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=OSD-352_metadata_OSD-352-ISA.zip",
+    "sha256": "d34bc0bafde1ac5d053d8e8c775a73fd12ad976928c8d53350c1feee548155c4",
+    "bytes": 118913,
+    "expected_nasa_bytes": 118913,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:00.879230+00:00"
+  },
+  {
+    "accession": "OSD-352",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-352/GLDS-352_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-352/raw_sources/GLDS-352_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "sha256": "283bf29f1d6f6d3cc3768915feea503b9dc7570f9c97d6d55d518c6583c48533",
+    "bytes": 2119775,
+    "expected_nasa_bytes": 2119775,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:00.881333+00:00"
+  },
+  {
+    "accession": "OSD-352",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-352/GLDS-352_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-352/raw_sources/GLDS-352_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "sha256": "88fee3b3c6e6ff2ede455b4b43b7cbf3a478a733b28c579b9559fe0a81cdef54",
+    "bytes": 210,
+    "expected_nasa_bytes": 210,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:00.882123+00:00"
+  },
+  {
+    "accession": "OSD-374",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-374_meta.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-374/raw_sources/OSD-374_meta.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/meta/374",
+    "sha256": "86a6f0f3005b12a622899c3e67270c0a9552a4a51d733742b895b88aac7ca172",
+    "bytes": 175842,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.143733+00:00"
+  },
+  {
+    "accession": "OSD-374",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-374_files.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-374/raw_sources/OSD-374_files.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/files/374",
+    "sha256": "033527e3d2b23831d7d717c15ccc8c01715db40304b491e79a1a3d5b82b828ff",
+    "bytes": 70353,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.144248+00:00"
+  },
+  {
+    "accession": "OSD-374",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-374/OSD-374_metadata_OSD-374-ISA.zip",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-374/raw_sources/OSD-374_metadata_OSD-374-ISA.zip",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-374/download?source=datamanager&file=OSD-374_metadata_OSD-374-ISA.zip",
+    "sha256": "eeb107c88aa506643eb14c6393a781b2109bc715fba3455d7238bd454303b701",
+    "bytes": 89339,
+    "expected_nasa_bytes": 89339,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.145777+00:00"
+  },
+  {
+    "accession": "OSD-374",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-374/GLDS-374_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-374/raw_sources/GLDS-374_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-374/download?source=datamanager&file=GLDS-374_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "sha256": "1ae749ab40b05e99a742682cae60c17320f3de1f79bde2dd79bb9b17ae394313",
+    "bytes": 322,
+    "expected_nasa_bytes": 322,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.146174+00:00"
+  },
+  {
+    "accession": "OSD-374",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-374/GLDS-374_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-374/raw_sources/GLDS-374_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-374/download?source=datamanager&file=GLDS-374_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "sha256": "435e8139698a5cb6cbf46ca92d1484838f04a194359a9f3a69c78d41113f6e83",
+    "bytes": 2403945,
+    "expected_nasa_bytes": 2403945,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.148533+00:00"
+  },
+  {
+    "accession": "OSD-611",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-611_meta.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-611/raw_sources/OSD-611_meta.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/meta/611",
+    "sha256": "ec45f96c50422a0660449efd96931c2c07967b132464a7be0771a4884170d2b4",
+    "bytes": 232999,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.443800+00:00"
+  },
+  {
+    "accession": "OSD-611",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/metadata/OSD-611_files.json",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-611/raw_sources/OSD-611_files.json",
+    "url": "https://osdr.nasa.gov/osdr/data/osd/files/611",
+    "sha256": "587af0c53d962e144771fbe0b7064e91478d8f26e90429ebe99aca52f4d5ea93",
+    "bytes": 99046,
+    "expected_nasa_bytes": null,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.444282+00:00"
+  },
+  {
+    "accession": "OSD-611",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-611/OSD-611_metadata_OSD-611-ISA.zip",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-611/raw_sources/OSD-611_metadata_OSD-611-ISA.zip",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-611/download?source=datamanager&file=OSD-611_metadata_OSD-611-ISA.zip",
+    "sha256": "0aedcf13dfadc656ecc5857dbe9a411422c5144594aa526103a138e5409621a7",
+    "bytes": 82277,
+    "expected_nasa_bytes": 82277,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.445828+00:00"
+  },
+  {
+    "accession": "OSD-611",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-611/GLDS-592_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-611/raw_sources/GLDS-592_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-611/download?source=datamanager&file=GLDS-592_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "sha256": "b9408d44c931b9bc6d63c99217d6e34ea01610addd7fea99b36836d196efdbab",
+    "bytes": 2830478,
+    "expected_nasa_bytes": 2830478,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.448467+00:00"
+  },
+  {
+    "accession": "OSD-611",
+    "source_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/brain_integrative_2026/data/OSD-611/GLDS-592_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "copied_path": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015/extensions/strengthening_20261015/external_data/OSD-611/raw_sources/GLDS-592_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-611/download?source=datamanager&file=GLDS-592_rna_seq_SampleTable_GLbulkRNAseq.csv",
+    "sha256": "53f5a4659c3cf9cf3671d978c276a7cd075af97f72fba1dbfac2e1a0f4b4ffca",
+    "bytes": 550,
+    "expected_nasa_bytes": 550,
+    "mode": "local NASA source file copied without numeric transformation",
+    "recorded_utc": "2026-10-15T00:49:01.449107+00:00"
+  }
+]

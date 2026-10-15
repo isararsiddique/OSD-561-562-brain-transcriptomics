@@ -1,0 +1,14 @@
+{
+  "n_clusters": 923,
+  "full_local_family": 2769,
+  "n_original_BY_tests": 43,
+  "paired_read_splits": 10,
+  "complement_B_BY_calls": 104,
+  "complement_B_Holm_global_positive": 30,
+  "effect_metric_rows": 55380,
+  "paired_metric_rows": 27690,
+  "animal_influence_rows": 47996,
+  "counts_are_disjoint_halves_of_same_animals": true,
+  "new_biological_replication": false,
+  "plan_sha256": "0bc3c75d41134df37025b9f95dfb2c630a74ed24569ea40cbea5b3cbc0bdadcd"
+}

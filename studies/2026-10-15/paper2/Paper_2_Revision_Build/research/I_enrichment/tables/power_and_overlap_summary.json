@@ -1,0 +1,116 @@
+{
+  "background_n": 1980,
+  "celltype_power": {
+    "n_tests": 102,
+    "n_classes_where_no_overlap_could_ever_reach_p05": 0,
+    "median_min_detectable_odds_ratio": 4.722516368612894,
+    "by_gene_set": {
+      "FLT_GC_BY": {
+        "min_detectable_OR_range": [
+          3.23008290564548,
+          41.55913978494624
+        ],
+        "median": 4.077014335145823
+      },
+      "FLT_GC_top100": {
+        "min_detectable_OR_range": [
+          2.3344916384846885,
+          89.68899521531101
+        ],
+        "median": 2.7798081315669254
+      },
+      "GC_VIV_top100": {
+        "min_detectable_OR_range": [
+          2.2073592653668315,
+          95.45685279187818
+        ],
+        "median": 2.9679144385026737
+      }
+    }
+  },
+  "set_overlap_descriptive": {
+    "FLT_top_vs_GCVIV_top": {
+      "n_a": 106,
+      "n_b": 100,
+      "overlap": 40,
+      "expected_overlap_if_independent": 5.353535353535354,
+      "odds_ratio": 18.32323232323232,
+      "p_one_sided_NOT_A_VALID_TEST": 7.49411797212279e-28,
+      "caveat": "FLT-GC and GC-VIV share the ground-control arm, so the two rankings are positively dependent under the null; this p value is reported for transparency and must not be read as evidence of a shared biological programme.",
+      "shared_genes": [
+        "Ccdc82",
+        "Cdk11b",
+        "Dap3",
+        "Dcun1d2",
+        "Edrf1",
+        "Eif4h",
+        "Fyttd1",
+        "Gpx8",
+        "Hnrnpa1",
+        "Hnrnpa2b1",
+        "Hnrnpk",
+        "Huwe1",
+        "Kdm1a",
+        "Ktn1",
+        "Lrch2",
+        "Marchf7",
+        "Mff",
+        "Mia2",
+        "Mrpl15",
+        "Nae1",
+        "Nbr1",
+        "Ndrg3",
+        "Olfm1",
+        "Ppp3ca",
+        "Ptcd3",
+        "Rbm7",
+        "Rian",
+        "Rif1",
+        "Rps6kb1",
+        "Senp7",
+        "Sfpq",
+        "Stxbp1",
+        "Tma7",
+        "Tomm6",
+        "Ttc14",
+        "U2af1",
+        "Ubp1",
+        "Usp47",
+        "Zfand5",
+        "Zmynd11"
+      ]
+    },
+    "FLT_BY_vs_GCVIV_top": {
+      "n_a": 47,
+      "n_b": 100,
+      "overlap": 21,
+      "expected_overlap_if_independent": 2.3737373737373737,
+      "odds_ratio": 18.95520934761441,
+      "p_one_sided_NOT_A_VALID_TEST": 3.074634269378209e-16,
+      "caveat": "FLT-GC and GC-VIV share the ground-control arm, so the two rankings are positively dependent under the null; this p value is reported for transparency and must not be read as evidence of a shared biological programme.",
+      "shared_genes": [
+        "Ccdc82",
+        "Dap3",
+        "Eif4h",
+        "Hnrnpa2b1",
+        "Huwe1",
+        "Kdm1a",
+        "Ktn1",
+        "Lrch2",
+        "Marchf7",
+        "Mia2",
+        "Nbr1",
+        "Ndrg3",
+        "Olfm1",
+        "Ptcd3",
+        "Rian",
+        "Rps6kb1",
+        "Senp7",
+        "Stxbp1",
+        "Tma7",
+        "Tomm6",
+        "Ubp1"
+      ]
+    }
+  }
+}

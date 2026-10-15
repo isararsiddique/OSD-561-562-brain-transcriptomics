@@ -1,0 +1,11 @@
+accession,assignment_id,check,max_absolute_difference,passed
+OSD-561,0,full_regression_81_splits_vs_cached_Gram_null,0.0,True
+OSD-561,123,full_regression_81_splits_vs_cached_Gram_null,1.1102230246251565e-16,True
+OSD-561,399,full_regression_81_splits_vs_cached_Gram_null,0.0,True
+OSD-561,-1,all_400_label_complement_invariance,0.0,True
+OSD-561,-1,conditional_null_mean_AUC_half_all_9_scores,0.0,True
+OSD-562,0,full_regression_81_splits_vs_cached_Gram_null,0.0,True
+OSD-562,123,full_regression_81_splits_vs_cached_Gram_null,5.551115123125783e-17,True
+OSD-562,399,full_regression_81_splits_vs_cached_Gram_null,0.0,True
+OSD-562,-1,all_400_label_complement_invariance,0.0,True
+OSD-562,-1,conditional_null_mean_AUC_half_all_9_scores,0.0,True

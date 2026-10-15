@@ -1,0 +1,1044 @@
+{
+  "passed": true,
+  "n_checks": 157,
+  "failed": [],
+  "summary": {
+    "hippocampal_Circadian": {
+      "interaction_log2": -0.4053217543476278,
+      "bootstrap_lower95": -0.5906508340068556,
+      "bootstrap_upper95": -0.2150820067276088,
+      "p_wild_approximate": 0.000838,
+      "q_BH_complete_panel_family": 0.026816,
+      "p_Monte_Carlo_lower95": 0.0007577980826083,
+      "p_Monte_Carlo_upper95": 0.0009200792460869,
+      "mean_NB_interaction_log2": -0.3671466975888031
+    },
+    "hippocampal_Circadian_exclusions": {
+      "interaction_log2": -0.4597050319949303,
+      "q_BH_complete_panel_family": 0.786272
+    },
+    "leave_one_animal_out_panel_interactions.csv": {
+      "minimum": -0.4586530354997966,
+      "maximum": -0.3646706411512225,
+      "n": 27
+    },
+    "leave_one_gene_out_panel_interactions.csv": {
+      "minimum": -0.4524396003709968,
+      "maximum": -0.3600396415623171,
+      "n": 12
+    },
+    "cerebellar_globins": [
+      {
+        "gene_symbol": "Hbb-bt",
+        "log2FoldChange": -3.4950988078296854,
+        "q_BH_complete_gene_interaction_family": 0.0001974250388145,
+        "q_BH_complete_gene_interaction_family_metadata_exclusion": 7.462034692545134e-07
+      },
+      {
+        "gene_symbol": "Hbb-bs",
+        "log2FoldChange": -3.0094575785847546,
+        "q_BH_complete_gene_interaction_family": 0.001405800747894,
+        "q_BH_complete_gene_interaction_family_metadata_exclusion": 0.0006158705449016
+      }
+    ],
+    "holdout_score": [
+      {
+        "accession": "OSD-561",
+        "n_splits": 81,
+        "sensor_age_stratified_AUC": 1.0,
+        "whole_genome_age_stratified_AUC": 0.7962962962962963,
+        "train_test_contrast_cosine": 0.2277000111550689,
+        "outside_prediction_MSE_ratio_to_nuisance_only": 1.09090205074573,
+        "heldout_outside_effect_energy_removed_pct": -23.258041592364485,
+        "prediction_change_pct": 9.09020507457301
+      },
+      {
+        "accession": "OSD-562",
+        "n_splits": 81,
+        "sensor_age_stratified_AUC": 1.0,
+        "whole_genome_age_stratified_AUC": 1.0,
+        "train_test_contrast_cosine": 0.5214090869167609,
+        "outside_prediction_MSE_ratio_to_nuisance_only": 0.9618905817832089,
+        "heldout_outside_effect_energy_removed_pct": 16.851639081573943,
+        "prediction_change_pct": -3.8109418216791147
+      },
+      {
+        "accession": "OSD-525",
+        "n_splits": 200,
+        "sensor_age_stratified_AUC": 0.9638888888888888,
+        "whole_genome_age_stratified_AUC": 0.7144444444444444,
+        "train_test_contrast_cosine": 0.1651838268807202,
+        "outside_prediction_MSE_ratio_to_nuisance_only": 1.0348805057186292,
+        "heldout_outside_effect_energy_removed_pct": -17.044689369780198,
+        "prediction_change_pct": 3.488050571862922
+      }
+    ],
+    "real_score_gain": [
+      8.129052114991278,
+      15.30938443955772
+    ],
+    "score_outside_joint_intervals": [
+      {
+        "accession": "OSD-561",
+        "point_estimate": -7.1700730263306145,
+        "bootstrap_lower95": -42.90625348199185,
+        "bootstrap_upper95": 8.697233329018982
+      },
+      {
+        "accession": "OSD-562",
+        "point_estimate": 36.33410778637206,
+        "bootstrap_lower95": -22.52108166806753,
+        "bootstrap_upper95": 41.53162401476095
+      },
+      {
+        "accession": "OSD-525",
+        "point_estimate": 36.36946380866228,
+        "bootstrap_lower95": -11.55738885638739,
+        "bootstrap_upper95": 48.82737622104079
+      }
+    ],
+    "figure_panel_inventory": [
+      {
+        "figure": "figure1_sample_accounting_and_panel_effects",
+        "labels": [
+          "a",
+          "b"
+        ],
+        "caption": "Figure 1. Sample accounting and response-panel effects. (a) The cerebellum and hippocampus matrices contain 53 region libraries from 29 Source Name animals. (b) Points are mean gene-level log2 effects; bars are 95% percentile intervals from 1,000 animal bootstraps within label and age. All regions of a sampled animal remain together. Panel labels are inherited exploratory gene sets, not measured transcriptional time windows. Intervals are conditional on normalization and cohort exchangeability."
+      },
+      {
+        "figure": "figure2_cross_cohort_panel_effects",
+        "labels": [],
+        "caption": "Figure 2. Unadjusted panel effects across 17 primary design contrasts. Numbers show mean log2 effects; an asterisk denotes BH q < 0.05 across all 232 panel tests, including metadata sensitivities. Positive effects follow the numerator in each row. Cb, cerebellum; Hip, hippocampus; HGC, habitat ground control; VGC, vivarium control. OSD-563, OSD-564 and OSD-612 are three regions of one RR-10 animal cohort, not independent missions. Glial and endothelial transcript abundance does not directly measure inflammation or barrier permeability. Six displayed panels are selected from the eight tested; all tests remain in the supplied tables."
+      },
+      {
+        "figure": "figure3_count_model_and_biology",
+        "labels": [
+          "a",
+          "b"
+        ],
+        "caption": "Figure 3. Count-model robustness and biological candidate sensitivity. (a) The 120 panel comparisons summarize 15 regional contrasts fitted using PyDESeq2; agreement is analytical robustness on the same observations, not independent replication. (b) Full and metadata-excluded hippocampal ISS-T flight contrasts for SRG and circadian panels. Circles are log-expression effects with 1,000-animal-bootstrap percentile intervals; hollow diamonds show mean unshrunk negative-binomial effects for the full data. q values use the complete 232-test panel family. Exclusions remove the older FLT ISS-T support; the full SRG result does not establish a region-specific mechanism."
+      },
+      {
+        "figure": "figure4_paired_regional_interactions",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Figure 4. Paired regional interactions. (a) Source Name matching identifies 24 RRRM-2 and 10 RR-10 cerebellum\u2013hippocampus animal pairs. (b) All eight panel effects in primary regional contrasts; no test has q\u22640.05 across the complete 104-test family, including sensitivities. (c) Individual SRG hippocampus-minus-cerebellum scores; outlined points identify metadata conflicts. (d) SRG regional flight coefficients with 2,000-animal-bootstrap percentile intervals and complete-family q values. The approximate three-way interaction uses 9,999 restricted-model wild draws. Metadata exclusion removes all older FLT ISS-T animals, reducing the sensitivity to younger-animal exposure support."
+      },
+      {
+        "figure": "figure5_bounded_operator_and_joint_uncertainty",
+        "labels": [
+          "a",
+          "b",
+          "c"
+        ],
+        "caption": "Figure 5. Bounded score geometry and joint uncertainty. (a) Unbounded score gain for all 15 aligned anchor\u2013target geometries; the bounded operator has gain at most two. (b) Observed sensor-panel effect-energy removal for matched hippocampal recovery and the RR-23 shared-HGC comparison. (c) Observed outside-sensor energy removal and 500-bootstrap percentile intervals, refitting normalization, anchor and target on each resample. Shared RR-23 HGC animals are sampled once for both roles. Intervals remain conditional on the fixed initially retained gene universe and observational sampling assumptions; zero crossings and negative reductions are shown. A point estimate may lie outside a biased percentile interval. Energy removal does not measure biological recovery."
+      },
+      {
+        "figure": "figure6_ground_holdout",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Figure 6. Ground-only prediction and correction holdouts. (a) Within-age sensor and whole-genome AUC; (b) outside-sensor expression prediction error relative to a training-fitted intercept/age baseline; (c) training loading gain; (d) held-out outside-sensor collection-contrast energy removal. Points are split medians and lines are 2.5th\u201397.5th split quantiles, not independent-sample confidence intervals. Core regions use all 81 age-balanced holdouts each; RR-23 uses 200 prespecified distinct splits. Filtering, normalization references, nuisance means and scores use training data only. Five nested-CV strengths are selected only within training animals. The 362 splits overlap and involve 30 unique ground source animals. Projection is excluded from disjoint-sensor prediction because it uses response genes in its score. Reliable sensor discrimination does not establish biological recovery."
+      },
+      {
+        "figure": "figure7_ground_anchor_transfer",
+        "labels": [],
+        "caption": "Figure 7. Ground-anchor sensitivity and transfer. Dots show the observed change in squared contrast coefficients outside the Sensor31 genes after genome-expression projection or ground-calibrated score subtraction. Lines show 95% percentile ranges from 200 ground-animal bootstraps within age and cohort, conditional on normalized counts and a fixed target. These ranges describe anchor uncertainty, not complete sampling intervals or calibrated gene-level inference. The within-OSD-525 evaluation shares nine HGC animals with its anchor and is displayed as such. Negative reductions are retained. Removing expression variation is not proof of removing confounding."
+      },
+      {
+        "figure": "figure8_disjoint_anchor_partitions",
+        "labels": [
+          "a",
+          "b"
+        ],
+        "caption": "Figure 8. RR-23 disjoint-anchor partitions. Each of 126 partitions trains on four of nine HGC animals plus the same eight VGC animals, then evaluates the nine FLT animals against the remaining five HGC animals. Training and evaluation animals are disjoint within a partition. Partitions reuse the same cohort and do not constitute 126 independent validations. (a) Removing sensor effect energy does not ensure a reduction outside the sensor. (b) \u03bb is derived from conditional OLS t probabilities and is a dispersion diagnostic, not a measure of biological truth or empirical false-positive rate."
+      },
+      {
+        "figure": "figure9_known_truth_validation",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Figure 9. Independent training\u2013target Gaussian mechanism benchmark. Five scenarios each contain 200 independently generated datasets (1,000 datasets; 7,000 method rows including additional oracle-ground and partial-correction references in the supplement). Four operational methods are shown without target tuning. Bars are \u00b11.96 Monte Carlo standard errors of the mean, not real-data confidence intervals. Biological FDP compares discoveries with the original biological coefficient vector and therefore differs from conditional statistical FDR under residual nuisance. Power and biological energy retention are undefined when no biological effects exist. Failure under overlapping biology or changed coupling is retained. The simulator is not a complete RNA-seq generative model. Panels show (a) effect RMSE, (b) biological FDP, (c) power and (d) known biological-vector energy retention."
+      },
+      {
+        "figure": "figure10_high_gain_domain_shift",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Figure 10. Exploratory high-gain stress benchmark. All 16 combinations of true gain (8 or 12), training size (24 or 96), target size (24 or 48) and unchanged or flipped outside-sensor nuisance coupling are shown. Each uses 100 independent repetitions (1,600 datasets; 6,400 method rows). Known biology is supported outside Sensor31 and is preserved exactly by both score operators. Error bars are \u00b11.96 Monte Carlo standard errors. Bounding reduces worst score amplification under coupling reversal but leaves substantial nuisance, including under unchanged coupling; neither norm control nor exact sensor-null preservation establishes accurate biological recovery. Panels (a,c) show unchanged-coupling RMSE and biological FDP; (b,d) show their flipped-coupling counterparts."
+      },
+      {
+        "figure": "figureS1_cross_cohort_gene_screen",
+        "labels": [
+          "a",
+          "b"
+        ],
+        "caption": "Supplementary Figure 1. Conservative regional gene reproducibility screen. A candidate must have the same effect direction in every constituent contrast and finite component Wald p values; its intersection\u2013union p value is the maximum component p. Discordant or unavailable effects receive p=1. All 54,989 region\u2013gene combinations enter one global BH and BY family. No gene survives either correction. Component comparisons come from the same negative-binomial fits and can share samples; concordant direction alone is not replication evidence. Ranked nominal candidates are explicitly exploratory."
+      },
+      {
+        "figure": "figureS2_all_deposit_structure",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "caption": "Supplementary Figure 2. Count-derived QC and expression structure across all seven deposits. (a\u2013g) PCA of the top 2,000 variable log-expression genes in each deposit; axes give variance fractions. Groups use deposited exposure/cohort design labels; older core animals are squares and location conflicts are outlined. (h) Descriptive multivariate condition partial R\u00b2 after age terms where available. (i) Mitochondrial gene-count fractions for every collapsed animal\u2013region observation. These fractions use gene-assigned counts and are not measures of RNA integrity, mitochondrial injury or causal exposure effects. PCA and R\u00b2 are descriptive; no discovery family is inferred from them."
+      },
+      {
+        "figure": "figureS3_flight_collection_interaction",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Supplementary Figure 3. Direct within-region flight by collection interactions. (a,b) Panel interaction estimates and stratified animal-bootstrap intervals for each region; the asterisk marks the one panel passing the complete 32-test BH family. (c) Gene coefficient agreement between normalized-log and count models. (d) Whole-animal age support in each design cell. The highlighted full-data interaction has wild p=0.000838 and q=0.026816; metadata-excluded q=0.786. The 499,999 restricted wild draws are approximate inference, and omitted effects are descriptive stability checks. Exclusions leave one older FLT ISS-T animal in hippocampus and none in cerebellum. A common additive age effect does not resolve interactions in an empty design cell."
+      },
+      {
+        "figure": "figureS4_fixed_blood_marker_context",
+        "labels": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "caption": "Supplementary Figure 4. Fixed erythroid-associated marker context. (a,b) Fixed marker-score distributions for every primary animal in each region; lines show group medians. (c) All seven count-model marker interaction coefficients with Wald intervals; asterisks refer to the existing complete gene family. (d) Marker-score versus Circadian-panel residual association after full-design adjustment. Target-omitted correlations for individual marker transcripts are supplied in the tables. No new marker significance family was selected. Beta-globin interactions motivate a possible composition contribution but do not establish blood contamination, a cell source, or an erythroid fraction. The complete tables retain markers failing the global family and all metadata sensitivities."
+      }
+    ],
+    "obsolete_publication_PNGs": [
+      "figure6_ground_anchor_transfer",
+      "figure7_disjoint_anchor_partitions",
+      "figure8_known_truth_validation",
+      "figure9_high_gain_domain_shift"
+    ]
+  },
+  "checks": [
+    {
+      "name": "129 libraries and 126 collapsed observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "83 source animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "29 core animals and 24 paired core animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10 RR-10 paired animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7 location entries from 6 animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/panel_results.csv finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/panel_results.csv independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/gradient_results.csv finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/gradient_results.csv independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/paired_biology/paired_panel_interactions.csv finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/paired_biology/paired_panel_interactions.csv independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/regional_gene_replication.csv.gz finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "results/regional_gene_replication.csv.gz independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/flight_collection_interaction/gene_flight_collection_interactions_exploratory.csv.gz finite family size",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "extensions/flight_collection_interaction/gene_flight_collection_interactions_exploratory.csv.gz independent BH",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Circadian direct difference-in-differences",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One interaction panel passes the full family",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Wild resolution and 499999 draws",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every full-data Circadian leave_one_animal_out_panel_interactions.csv effect negative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every full-data Circadian leave_one_gene_out_panel_interactions.csv effect negative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All primary discoveries retained, 109/7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "90/2 original-global discoveries persist after exclusions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "362 unique overlapping splits, 30 unique source animals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Core sensor AUC 1 in every split",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-561 holdout independent means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-561 per-split MSE ratio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-562 holdout independent means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-562 per-split MSE ratio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-525 holdout independent means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "OSD-525 per-split MSE ratio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "15 real geometries; gain equals loading norm and bounded gain <= 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All original-score joint outside intervals cross zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recorded manuscript lookup 0",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 1",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 2",
+      "passed": true,
+      "detail": "results/panel_results.csv / bootstrap_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 3",
+      "passed": true,
+      "detail": "results/panel_results.csv / bootstrap_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 4",
+      "passed": true,
+      "detail": "results/panel_results.csv / p_animal_permutation"
+    },
+    {
+      "name": "Recorded manuscript lookup 5",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 6",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 7",
+      "passed": true,
+      "detail": "results/gradient_results.csv / rPRG_minus_SRG_mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 8",
+      "passed": true,
+      "detail": "results/gradient_results.csv / p_animal_permutation"
+    },
+    {
+      "name": "Recorded manuscript lookup 9",
+      "passed": true,
+      "detail": "results/gradient_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 10",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 11",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 12",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 13",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 14",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 15",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 16",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 17",
+      "passed": true,
+      "detail": "results/panel_results.csv / p_animal_permutation"
+    },
+    {
+      "name": "Recorded manuscript lookup 18",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 19",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 20",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 21",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 22",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 23",
+      "passed": true,
+      "detail": "results/panel_results.csv / mean_log2_effect"
+    },
+    {
+      "name": "Recorded manuscript lookup 24",
+      "passed": true,
+      "detail": "results/panel_results.csv / q_BH_all_tests_in_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 25",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / interaction_log2"
+    },
+    {
+      "name": "Recorded manuscript lookup 26",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / bootstrap_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 27",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / bootstrap_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 28",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / p_wild_approximate"
+    },
+    {
+      "name": "Recorded manuscript lookup 29",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / q_BH_complete_panel_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 30",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / p_Monte_Carlo_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 31",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / p_Monte_Carlo_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 32",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / mean_NB_interaction_log2"
+    },
+    {
+      "name": "Recorded manuscript lookup 33",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / interaction_log2"
+    },
+    {
+      "name": "Recorded manuscript lookup 34",
+      "passed": true,
+      "detail": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv / q_BH_complete_panel_family"
+    },
+    {
+      "name": "Recorded manuscript lookup 35",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / sensor_age_stratified_AUC_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 36",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / train_test_contrast_cosine_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 37",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / outside_prediction_MSE_ratio_to_nuisance_only_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 38",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / heldout_outside_effect_energy_removed_pct_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 39",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / sensor_age_stratified_AUC_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 40",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / train_test_contrast_cosine_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 41",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / outside_prediction_MSE_ratio_to_nuisance_only_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 42",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / heldout_outside_effect_energy_removed_pct_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 43",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / sensor_age_stratified_AUC_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 44",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / train_test_contrast_cosine_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 45",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / outside_prediction_MSE_ratio_to_nuisance_only_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 46",
+      "passed": true,
+      "detail": "extensions/ground_holdout/holdout_summary.csv / heldout_outside_effect_energy_removed_pct_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 47",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 48",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 49",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 50",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 51",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 52",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 53",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 54",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 55",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 56",
+      "passed": true,
+      "detail": "results/ground_anchor_sensitivity.csv / outside_sensor_effect_energy_removed_pct"
+    },
+    {
+      "name": "Recorded manuscript lookup 57",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 58",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 59",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 60",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 61",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_lower95"
+    },
+    {
+      "name": "Recorded manuscript lookup 62",
+      "passed": true,
+      "detail": "results/joint_bootstrap_summary.csv / bootstrap_upper95"
+    },
+    {
+      "name": "Recorded manuscript lookup 63",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 64",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 65",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 66",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 67",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_false_discovery_proportion_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 68",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_false_discovery_proportion_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 69",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_false_discovery_proportion_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 70",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / power_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 71",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / power_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 72",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / power_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 73",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 74",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 75",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 76",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 77",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_effect_RMSE_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 78",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_false_discovery_proportion_mean"
+    },
+    {
+      "name": "Recorded manuscript lookup 79",
+      "passed": true,
+      "detail": "results/known_truth_benchmark_summary.csv / biological_false_discovery_proportion_mean"
+    },
+    {
+      "name": "Final figure order is 1-10 then S1-S4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure1_sample_accounting_and_panel_effects PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure1_sample_accounting_and_panel_effects caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure1_sample_accounting_and_panel_effects caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure2_cross_cohort_panel_effects PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure2_cross_cohort_panel_effects caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure2_cross_cohort_panel_effects caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure3_count_model_and_biology PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure3_count_model_and_biology caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure3_count_model_and_biology caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure4_paired_regional_interactions PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure4_paired_regional_interactions caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure4_paired_regional_interactions caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure5_bounded_operator_and_joint_uncertainty PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure5_bounded_operator_and_joint_uncertainty caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure5_bounded_operator_and_joint_uncertainty caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure6_ground_holdout PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure6_ground_holdout caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure6_ground_holdout caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure7_ground_anchor_transfer PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure7_ground_anchor_transfer caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure7_ground_anchor_transfer caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure8_disjoint_anchor_partitions PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure8_disjoint_anchor_partitions caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure8_disjoint_anchor_partitions caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure9_known_truth_validation PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure9_known_truth_validation caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure9_known_truth_validation caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure10_high_gain_domain_shift PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure10_high_gain_domain_shift caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figure10_high_gain_domain_shift caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS1_cross_cohort_gene_screen PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS1_cross_cohort_gene_screen caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS1_cross_cohort_gene_screen caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS2_all_deposit_structure PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS2_all_deposit_structure caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS2_all_deposit_structure caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS3_flight_collection_interaction PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS3_flight_collection_interaction caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS3_flight_collection_interaction caption <=350 words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS4_fixed_blood_marker_context PNG >=599dpi and editable Arial SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS4_fixed_blood_marker_context caption number",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "figureS4_fixed_blood_marker_context caption <=350 words",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "input_snapshot_sha256": {
+    "results/sample_manifest.csv": "c858c442d09577c3f7160ff1619d6b0aed0180546e16917d9167cb6fa58dd363",
+    "results/animal_region_manifest.csv": "121277cce30feed1c9399e382cb2f9845256f32c04a40b2b6df780254f70bd89",
+    "results/panel_results.csv": "1391aca219fe7730ee1e8fe1e1ba87c47069dc9e424fadf180bc4f1a2ce86d1a",
+    "results/gradient_results.csv": "dd3956946407ae151777e259293f39e64862f81583c4c116c4edd8387dbc489d",
+    "extensions/paired_biology/paired_panel_interactions.csv": "feb469685c483df2d8b6e81a5169d2a09bd6c064598f5cd3de93455e1bc9ed07",
+    "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv": "6993a60499622f9f37b7457e00cffb3e1f3adda672424c99880bdd92a62cd60a",
+    "results/regional_gene_replication.csv.gz": "ad2dfb53490dcf9ff3011eb29a1f4668a17b317b7bed4834b197f2b3daba2462",
+    "extensions/flight_collection_interaction/gene_flight_collection_interactions_exploratory.csv.gz": "9fb0eee561046b32ed7466e30f9a5f114cbe51871a69648a6bf5afdeb744b65a",
+    "extensions/flight_collection_interaction/leave_one_animal_out_panel_interactions.csv": "e8d37ac41b9631a8048ba6c1ad1e88276f09d275eb625bc77e613c5cb11be1d4",
+    "extensions/flight_collection_interaction/leave_one_gene_out_panel_interactions.csv": "5a7822228b088d147d99ff093c6fe7cb03e433f67430630ed5fccc0650283283",
+    "extensions/flight_collection_interaction/all_primary_NB_FDR_candidates_with_sensitivity.csv": "6fbcf20b8dc64878257540906fd4da08cd12956e126a1d63c7e0542d81d2ce88",
+    "extensions/ground_holdout/holdout_summary.csv": "bc8640c59f443a79afe3a20470033ba65adaaf0c0fc16b9321a6b8ab981b860f",
+    "extensions/ground_holdout/holdout_split_results.csv": "69ca0b933d8dd3267fcfafa6def6d3d3d0a5422a128297ac652660767989e165",
+    "extensions/ground_holdout/split_animal_roles.csv": "e6bdeee9d2ca9a29b3d2c804360eef458ef7bc4dcb87577675dd02089a9e022a",
+    "results/operator_geometry.csv": "5c96939952795bb2a04a0ddc54dc4543044a6e9ab8c0d8ea21027f4b9889a0cb",
+    "results/joint_bootstrap_summary.csv": "280dbe97828334100d7172c47e2ec2217bb50c928eba94defd6a711427ba4a5d",
+    "results/manuscript_numeric_lookups.csv": "7cea40ed8b3407bfdc495bc40124bc839f10669c158b961ac58bab2c2357ecc4",
+    "results/ground_anchor_sensitivity.csv": "482e736af50d1a5f2ac994ce638a6e18b7dcbf886372b6c4cecba45751074055",
+    "results/known_truth_benchmark_summary.csv": "43e6a7920ecea52aaf3dd86596fa788d3735dda437200c791769f276045c045a"
+  },
+  "scope": "Independent read-only saved-result and figure-index audit; no raw-read refitting or render QA."
+}

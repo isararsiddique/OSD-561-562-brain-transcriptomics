@@ -1,0 +1,47 @@
+{
+  "seed": 56156215,
+  "n_bootstraps_requested": 2000,
+  "n_wild_bootstrap_draws": 9999,
+  "dataset_pairing": [
+    {
+      "cb_accession": "OSD-561",
+      "hip_accession": "OSD-562",
+      "n_cb_animals": 26,
+      "n_hip_animals": 27,
+      "n_pairs": 24,
+      "unmatched_cb": [
+        "RRRM-2_FL_ISS_09",
+        "RRRM-2_HGC_ISS_14"
+      ],
+      "unmatched_hip": [
+        "RRRM-2_FL_ISS_11",
+        "RRRM-2_FL_LAR_06",
+        "RRRM-2_HGC_ISS_12"
+      ],
+      "n_common_filtered_genes": 17027
+    },
+    {
+      "cb_accession": "OSD-563",
+      "hip_accession": "OSD-564",
+      "n_cb_animals": 10,
+      "n_hip_animals": 10,
+      "n_pairs": 10,
+      "unmatched_cb": [],
+      "unmatched_hip": [],
+      "n_common_filtered_genes": 18928
+    }
+  ],
+  "n_panel_tests": 104,
+  "n_significant_panel_tests_BH05": 0,
+  "n_gene_interaction_tests": 223252,
+  "n_gene_tests_with_undefined_HC3": 17027,
+  "n_evaluable_gene_HC3_tests": 206225,
+  "n_exploratory_gene_tests_BH05": 0,
+  "normalization": "Per-deposit positive-gene median-ratio; log2(normalized counts + 1); common filtered gene universe per pair",
+  "panel_status": "Inherited exploratory gene panels, not externally validated ground truth",
+  "inference": "Animal-restricted label exchangeability tests; triple interaction uses approximate fixed-design wild bootstrap",
+  "metadata_sensitivity": "Exclude an animal if either region disagrees with Source Name-derived location; 6 RRRM-2 animals excluded, including all 4 older FLT ISS-T animals. The sensitivity ISS-T flight coefficient is supported only by the younger age stratum; its gene-level HC3 SEs are undefined due to the single older GC animal.",
+  "scale_limitation": "Effects compare relative bulk expression on separately normalized deposit scales; they do not estimate absolute tissue abundance, cell-type-specific regulation, or causal flight effects.",
+  "significant_panels": [],
+  "python": "3.12.13"
+}

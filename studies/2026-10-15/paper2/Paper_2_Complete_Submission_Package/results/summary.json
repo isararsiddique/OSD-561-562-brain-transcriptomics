@@ -1,0 +1,39 @@
+{
+  "status": "retrospective three-arm extension executed with all26 label-invariant features",
+  "animals": 26,
+  "source_libraries": 29,
+  "feature_definitions": 5724,
+  "common_measured_events": 5249,
+  "dominance95_events": 4316,
+  "primary_global_significant_Holm05": 3,
+  "event_family": 17172,
+  "event_discoveries": {
+    "FLT_minus_GC": {
+      "measured": 5249,
+      "q05_joint3M": 451,
+      "q05_joint_and5pp": 400,
+      "q05_BY_joint": 0,
+      "q05_within": 740
+    },
+    "FLT_minus_VIV": {
+      "measured": 5249,
+      "q05_joint3M": 43,
+      "q05_joint_and5pp": 34,
+      "q05_BY_joint": 0,
+      "q05_within": 0
+    },
+    "GC_minus_VIV": {
+      "measured": 5249,
+      "q05_joint3M": 38,
+      "q05_joint_and5pp": 35,
+      "q05_BY_joint": 0,
+      "q05_within": 0
+    }
+  },
+  "exploratory_control_criterion_q05": 0,
+  "collection_date_confounded_with_flight": true,
+  "no_causal_flight_identification": true,
+  "prior_FLT_GC_deltas_independently_reproduced": true,
+  "prior_definition_overlap_checked": 5116,
+  "seed": 20261014
+}

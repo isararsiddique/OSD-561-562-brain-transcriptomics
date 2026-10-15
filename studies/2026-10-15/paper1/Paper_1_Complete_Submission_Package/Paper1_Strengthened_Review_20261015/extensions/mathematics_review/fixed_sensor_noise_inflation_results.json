@@ -1,0 +1,16 @@
+{
+  "seed": 231200,
+  "genes": 1200,
+  "samples": 24,
+  "residual_rank": 23,
+  "repetitions": 1000,
+  "fixed_sensor_description": "Unit first-coordinate sensor, fixed before data generation",
+  "population_gamma_l2_norm": 1.0,
+  "theoretical_mean_estimated_gain_squared": 58.095238095238095,
+  "empirical_mean_estimated_gain_squared": 59.140870812165225,
+  "theoretical_mc_se": 0.5908924072734273,
+  "empirical_mc_se": 0.5958665783095071,
+  "mean_agreement_standard_errors": 1.7695822522953462,
+  "within_five_theoretical_standard_errors": true,
+  "limitation": "The expectation assumes fixed w independent of the Gaussian data. A sensor estimated from ground contrasts has a different sampling law."
+}

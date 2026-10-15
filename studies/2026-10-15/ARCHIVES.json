@@ -1,0 +1,16 @@
+{
+  "paper1": {
+    "filename": "Paper1_Analysis_Code_and_Results_Zenodo_20261015.zip",
+    "sha256": "cd53287920a8e6820188c485a4b4fb28b109817e81981257650bdc5e0c1bbc34",
+    "record_id": "23388691",
+    "doi": "10.5281/zenodo.23388691",
+    "status": "Zenodo draft; upload in progress, DOI reserved but not yet registered"
+  },
+  "paper2": {
+    "filename": "Paper2_Data_Code_Results_20261015.zip",
+    "sha256": "311967bf70ab232f80786d762d2cd9f60d8e4dd2fb1477348df3cd42dc4e1731",
+    "record_id": "23387329",
+    "doi": "10.5281/zenodo.23387329",
+    "status": "Zenodo draft; upload in progress, DOI reserved but not yet registered"
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "CB":{
+  "A_expected_cos_whole":0.2017975011,
+  "A_SNR_whole_mean":0.3890612485,
+  "A_SNR_whole_median":0.378150101,
+  "A_expected_cos_sensor":0.6568395247,
+  "A_SNR_sensor_mean":3.057202549,
+  "A_SNR_sensor_median":2.9096645255
+ },
+ "HPC":{
+  "A_expected_cos_whole":0.5144982842,
+  "A_SNR_whole_mean":1.5847305587,
+  "A_SNR_whole_median":1.5730648438,
+  "A_expected_cos_sensor":0.8239589474,
+  "A_SNR_sensor_mean":9.2345696795,
+  "A_SNR_sensor_median":5.6590328639
+ },
+ "RR23":{
+  "A_expected_cos_whole":0.1762023643,
+  "A_SNR_whole_mean":0.3145777266,
+  "A_SNR_whole_median":0.2741161465,
+  "A_expected_cos_sensor":0.7672282206,
+  "A_SNR_sensor_mean":5.4195869675,
+  "A_SNR_sensor_median":4.8009473656,
+  "B_observed_cos_whole_depositfilter":0.1989654665
+ }
+}

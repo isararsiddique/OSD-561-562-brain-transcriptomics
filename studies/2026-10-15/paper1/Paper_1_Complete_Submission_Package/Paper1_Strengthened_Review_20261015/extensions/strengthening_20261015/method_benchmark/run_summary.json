@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "n_checks": 4706,
+  "n_failed": 0,
+  "n_splits": 362,
+  "n_method_rows": 3258,
+  "elapsed_seconds": 37.510982036590576,
+  "cache_hits": 550,
+  "cache_misses": 3308,
+  "protocol_sha256": "20a2e87b83eee673fc7986f516d96f33e7f6bd6eac20404d14a31e0a087a2d39",
+  "factorization_snapshots": [
+    "OSD-561_representative_factorization.npz",
+    "OSD-562_representative_factorization.npz",
+    "OSD-525_representative_factorization.npz"
+  ],
+  "source_root": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_strengthening_20261015",
+  "max_existing_result_discrepancy": 8.881784197001252e-16,
+  "exploratory": true
+}

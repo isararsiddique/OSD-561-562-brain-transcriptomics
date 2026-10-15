@@ -1,0 +1,287 @@
+{
+  "all_pages_reviewed": true,
+  "review_date": "2026-10-15",
+  "documents": {
+    "MANUSCRIPT_COMPLETE": {
+      "pdf_sha256": "bbf212941f574b28edfe363bd5127c1660c7183f7d2feb7fed91e39e02ab7b5a",
+      "pages": 44,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "final_changed_pages_visually_rechecked": [
+        18,
+        19,
+        21,
+        22,
+        31
+      ],
+      "unchanged_body_pixel_matches_to_reviewed_pages": [
+        {
+          "final_page": 1,
+          "reviewed_release_page": 1
+        },
+        {
+          "final_page": 2,
+          "reviewed_release_page": 2
+        },
+        {
+          "final_page": 3,
+          "reviewed_release_page": 3
+        },
+        {
+          "final_page": 4,
+          "reviewed_release_page": 4
+        },
+        {
+          "final_page": 5,
+          "reviewed_release_page": 5
+        },
+        {
+          "final_page": 6,
+          "reviewed_release_page": 6
+        },
+        {
+          "final_page": 7,
+          "reviewed_release_page": 7
+        },
+        {
+          "final_page": 8,
+          "reviewed_release_page": 8
+        },
+        {
+          "final_page": 9,
+          "reviewed_release_page": 9
+        },
+        {
+          "final_page": 10,
+          "reviewed_release_page": 10
+        },
+        {
+          "final_page": 11,
+          "reviewed_release_page": 11
+        },
+        {
+          "final_page": 12,
+          "reviewed_release_page": 12
+        },
+        {
+          "final_page": 13,
+          "reviewed_release_page": 13
+        },
+        {
+          "final_page": 14,
+          "reviewed_release_page": 14
+        },
+        {
+          "final_page": 15,
+          "reviewed_release_page": 15
+        },
+        {
+          "final_page": 16,
+          "reviewed_release_page": 16
+        },
+        {
+          "final_page": 17,
+          "reviewed_release_page": 17
+        },
+        {
+          "final_page": 20,
+          "reviewed_release_page": 20
+        },
+        {
+          "final_page": 23,
+          "reviewed_release_page": 23
+        },
+        {
+          "final_page": 24,
+          "reviewed_release_page": 24
+        },
+        {
+          "final_page": 25,
+          "reviewed_release_page": 25
+        },
+        {
+          "final_page": 26,
+          "reviewed_release_page": 26
+        },
+        {
+          "final_page": 27,
+          "reviewed_release_page": 27
+        },
+        {
+          "final_page": 28,
+          "reviewed_release_page": 28
+        },
+        {
+          "final_page": 29,
+          "reviewed_release_page": 29
+        },
+        {
+          "final_page": 30,
+          "reviewed_release_page": 30
+        },
+        {
+          "final_page": 32,
+          "reviewed_release_page": 33
+        },
+        {
+          "final_page": 33,
+          "reviewed_release_page": 34
+        },
+        {
+          "final_page": 34,
+          "reviewed_release_page": 35
+        },
+        {
+          "final_page": 35,
+          "reviewed_release_page": 36
+        },
+        {
+          "final_page": 36,
+          "reviewed_release_page": 37
+        },
+        {
+          "final_page": 37,
+          "reviewed_release_page": 38
+        },
+        {
+          "final_page": 38,
+          "reviewed_release_page": 39
+        },
+        {
+          "final_page": 39,
+          "reviewed_release_page": 40
+        },
+        {
+          "final_page": 40,
+          "reviewed_release_page": 41
+        },
+        {
+          "final_page": 41,
+          "reviewed_release_page": 42
+        },
+        {
+          "final_page": 42,
+          "reviewed_release_page": 43
+        },
+        {
+          "final_page": 43,
+          "reviewed_release_page": 44
+        },
+        {
+          "final_page": 44,
+          "reviewed_release_page": 45
+        }
+      ]
+    },
+    "SUPPLEMENTARY_INFORMATION": {
+      "pdf_sha256": "4d3648e09766e71bc5f332a15d81cfbc119b18d9165d834678af3e78b33370ec",
+      "pages": 11,
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "final_changed_pages_visually_rechecked": [],
+      "unchanged_body_pixel_matches_to_reviewed_pages": [
+        {
+          "final_page": 1,
+          "reviewed_release_page": 1
+        },
+        {
+          "final_page": 2,
+          "reviewed_release_page": 2
+        },
+        {
+          "final_page": 3,
+          "reviewed_release_page": 3
+        },
+        {
+          "final_page": 4,
+          "reviewed_release_page": 4
+        },
+        {
+          "final_page": 5,
+          "reviewed_release_page": 5
+        },
+        {
+          "final_page": 6,
+          "reviewed_release_page": 6
+        },
+        {
+          "final_page": 7,
+          "reviewed_release_page": 7
+        },
+        {
+          "final_page": 8,
+          "reviewed_release_page": 8
+        },
+        {
+          "final_page": 9,
+          "reviewed_release_page": 9
+        },
+        {
+          "final_page": 10,
+          "reviewed_release_page": 10
+        },
+        {
+          "final_page": 11,
+          "reviewed_release_page": 11
+        }
+      ]
+    }
+  },
+  "graphical_overview_visually_reviewed": true,
+  "scope": "Every manuscript and supplementary page was visually inspected for legible equations, text, tables, axes, labels and caption placement. Following final equation renumbering and table compaction, all changed page bodies were re-inspected; remaining page bodies were verified pixel-identical to inspected pages (excluding the footer page number). Final manuscript has 44 pages and Supplementary Information 11. No clipped labels, overlapping text or separated figure captions were observed."
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "status": "exploratory prospective computational amendment after earlier benchmark; not preregistration",
+  "algorithm": "Exact convex gain-constrained ridge, distinct from clipping unconstrained ridge coefficients",
+  "objective": "||Y-SC||F^2/(2n)+alpha*||D C||F^2/2 subject ||C||2<=sqrt(3)",
+  "hyperparameters": [
+    null,
+    10.0,
+    1.0,
+    0.1,
+    0.01
+  ],
+  "gain_cap": 2,
+  "optimality_gap_relative_tolerance": 1e-07,
+  "outer_original": "All362 previously specified ground holdouts",
+  "outer_independent": "Leave one independent unit out in all design-selected OSD202,352,374,611; use NASA SampleTable retained units",
+  "independent_unit": "202/352 animals;374/611 two-animal pools. No pool member is a separate replicate.",
+  "nuisance": "202 intercept,time4months,unloading; other independent datasets intercept; original age specification unchanged",
+  "label_for_original_score": "352 flight;202/374/611 radiation vs sham. These are exposure-associated predictors, not established nuisance signatures.",
+  "nested": "Every filter, normalization reference, scaling, regression, and hyperparameter choice uses inner-training units only",
+  "evaluation": "All nine original comparators plus exact constrained ridge in independent data; fixed original outputs retained",
+  "inference": "Outer split and repeated-unit distributions are descriptive, not independent split-level confidence intervals",
+  "biological_scope": "Independent-cohort prediction tests algorithm behavior. Predicting expression is not validation of removing genuine exposure biology."
+}

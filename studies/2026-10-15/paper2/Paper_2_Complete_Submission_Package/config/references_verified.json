@@ -1,0 +1,1646 @@
+[
+  {
+    "citation_key": "Berrios2021",
+    "doi": "10.1093/nar/gkaa887",
+    "title": "NASA GeneLab: interfaces for the exploration of space omics data",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4312-9552",
+        "authenticated-orcid": false,
+        "given": "Daniel C",
+        "family": "Berrios",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "USRA/NASA Ames Research Center, Moffett Field, CA\u00a094035, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Galazka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Ames Research Center, Moffett Field, CA\u00a094035, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kirill",
+        "family": "Grigorev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Weill Cornell Medicine, New York, NY 10065, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samrawit",
+        "family": "Gebre",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "KBR/NASA Ames Research Center, Moffett Field, CA\u00a094035, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sylvain\u00a0V",
+        "family": "Costes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NASA Ames Research Center, Moffett Field, CA\u00a094035, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nucleic Acids Research",
+    "year": 2021,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.1093/nar/gkaa887",
+    "year_verification": "Crossref published-print, falling back to published"
+  },
+  {
+    "citation_key": "Love2014",
+    "doi": "10.1186/s13059-014-0550-8",
+    "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+    "authors": [
+      {
+        "given": "Michael I",
+        "family": "Love",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Huber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simon",
+        "family": "Anders",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Genome Biology",
+    "year": 2014,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.1186/s13059-014-0550-8"
+  },
+  {
+    "citation_key": "Benjamini1995",
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+    "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+    "authors": [
+      {
+        "given": "Yoav",
+        "family": "Benjamini",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University , Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yosef",
+        "family": "Hochberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University , Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+    "year": 1995,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+  },
+  {
+    "citation_key": "Masarapu2024",
+    "doi": "10.1038/s41467-024-48916-8",
+    "title": "Spatially resolved multiomics on the neuronal effects induced by spaceflight in mice",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3267-2085",
+        "authenticated-orcid": false,
+        "given": "Yuvarani",
+        "family": "Masarapu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3306-1806",
+        "authenticated-orcid": false,
+        "given": "Egle",
+        "family": "Cekanaviciute",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zaneta",
+        "family": "Andrusivova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6849-6220",
+        "authenticated-orcid": false,
+        "given": "Jakub O.",
+        "family": "Westholm",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2224-7090",
+        "authenticated-orcid": false,
+        "given": "\u00c5sa",
+        "family": "Bj\u00f6rklund",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3264-6028",
+        "authenticated-orcid": false,
+        "given": "Robin",
+        "family": "Fallegger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1004-3923",
+        "authenticated-orcid": false,
+        "given": "Pau",
+        "family": "Badia-i-Mompel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3724-9294",
+        "authenticated-orcid": false,
+        "given": "Valery",
+        "family": "Boyko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shubha",
+        "family": "Vasisht",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amanda",
+        "family": "Saravia-Butler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samrawit",
+        "family": "Gebre",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8664-7531",
+        "authenticated-orcid": false,
+        "given": "Enik\u0151",
+        "family": "L\u00e1z\u00e1r",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marta",
+        "family": "Graziano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2649-7225",
+        "authenticated-orcid": false,
+        "given": "Sol\u00e8ne",
+        "family": "Frapard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0060-7753",
+        "authenticated-orcid": false,
+        "given": "Robert G.",
+        "family": "Hinshaw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1065-4107",
+        "authenticated-orcid": false,
+        "given": "Olaf",
+        "family": "Bergmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3302-4610",
+        "authenticated-orcid": false,
+        "given": "Deanne M.",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7480-8278",
+        "authenticated-orcid": false,
+        "given": "Douglas C.",
+        "family": "Wallace",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christer",
+        "family": "Sylv\u00e9n",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5665-4781",
+        "authenticated-orcid": false,
+        "given": "Konstantinos",
+        "family": "Meletis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8552-8976",
+        "authenticated-orcid": false,
+        "given": "Julio",
+        "family": "Saez-Rodriguez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4153-0249",
+        "authenticated-orcid": false,
+        "given": "Jonathan M.",
+        "family": "Galazka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8542-2389",
+        "authenticated-orcid": false,
+        "given": "Sylvain V.",
+        "family": "Costes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0738-1574",
+        "authenticated-orcid": false,
+        "given": "Stefania",
+        "family": "Giacomello",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nature Communications",
+    "year": 2024,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.1038/s41467-024-48916-8"
+  },
+  {
+    "citation_key": "Kremsky2023",
+    "doi": "10.3390/ijms241713569",
+    "title": "Spaceflight-Induced Gene Expression Profiles in the Mouse Brain Are Attenuated by Treatment with the Antioxidant BuOE",
+    "authors": [
+      {
+        "given": "Isaac",
+        "family": "Kremsky",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          },
+          {
+            "name": "Center for Genomics, Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samir",
+        "family": "Ali",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4297-0078",
+        "authenticated-orcid": false,
+        "given": "Seta",
+        "family": "Stanbouly",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Holley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen",
+        "family": "Justinen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2915-9686",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Pecaut",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Crapo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medicine, Division of Pulmonary, Critical Care & Sleep Medicine, National Jewish Health, University of Colorado Denver, Denver, CO 80206, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4508-8689",
+        "authenticated-orcid": false,
+        "given": "Xiaowen",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Basic Sciences, Division of Biomedical Engineering Sciences (BMES), Loma Linda University School of Medicine, Loma Linda, CA 92350, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2023,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.3390/ijms241713569"
+  },
+  {
+    "citation_key": "Overbey2021",
+    "doi": "10.1016/j.isci.2021.102361",
+    "title": "NASA GeneLab RNA-seq consensus pipeline: Standardized processing of short-read RNA-seq data",
+    "authors": [
+      {
+        "given": "Eliah G.",
+        "family": "Overbey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amanda M.",
+        "family": "Saravia-Butler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhe",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5534-6904",
+        "authenticated-orcid": false,
+        "given": "Komal S.",
+        "family": "Rathi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Homer",
+        "family": "Fogle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Willian A.",
+        "family": "da Silveira",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard J.",
+        "family": "Barker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph J.",
+        "family": "Bass",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Afshin",
+        "family": "Beheshti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4312-9552",
+        "authenticated-orcid": false,
+        "given": "Daniel C.",
+        "family": "Berrios",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elizabeth A.",
+        "family": "Blaber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3306-1806",
+        "authenticated-orcid": false,
+        "given": "Egle",
+        "family": "Cekanaviciute",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Helio A.",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laurence B.",
+        "family": "Davin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0117-7444",
+        "authenticated-orcid": false,
+        "given": "Kathleen M.",
+        "family": "Fisch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8963-4856",
+        "authenticated-orcid": false,
+        "given": "Samrawit G.",
+        "family": "Gebre",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Geniza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rachel",
+        "family": "Gilbert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9597-6839",
+        "authenticated-orcid": false,
+        "given": "Simon",
+        "family": "Gilroy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4558-0400",
+        "authenticated-orcid": false,
+        "given": "Gary",
+        "family": "Hardiman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ra\u00fal",
+        "family": "Herranz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yared H.",
+        "family": "Kidane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Colin P.S.",
+        "family": "Kruse",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7750-9145",
+        "authenticated-orcid": false,
+        "given": "Michael D.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ted",
+        "family": "Liefeld",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Norman G.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Tyson",
+        "family": "McDonald",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Meller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tejaswini",
+        "family": "Mishra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Imara Y.",
+        "family": "Perera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shayoni",
+        "family": "Ray",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6484-7521",
+        "authenticated-orcid": false,
+        "given": "Sigrid S.",
+        "family": "Reinsch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6548-9658",
+        "authenticated-orcid": false,
+        "given": "Sara Brin",
+        "family": "Rosenthal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3247-6260",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Strong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4425-9746",
+        "authenticated-orcid": false,
+        "given": "Nathaniel J.",
+        "family": "Szewczyk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Candice G.T.",
+        "family": "Tahimic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3302-4610",
+        "authenticated-orcid": false,
+        "given": "Deanne M.",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joshua P.",
+        "family": "Vandenbrink",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7398-8545",
+        "authenticated-orcid": false,
+        "given": "Alicia",
+        "family": "Villacampa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8484-4352",
+        "authenticated-orcid": false,
+        "given": "Silvio",
+        "family": "Weging",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1177-707X",
+        "authenticated-orcid": false,
+        "given": "Chris",
+        "family": "Wolverton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7874-0509",
+        "authenticated-orcid": false,
+        "given": "Sarah E.",
+        "family": "Wyatt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luis",
+        "family": "Zea",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8542-2389",
+        "authenticated-orcid": false,
+        "given": "Sylvain V.",
+        "family": "Costes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4153-0249",
+        "authenticated-orcid": false,
+        "given": "Jonathan M.",
+        "family": "Galazka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "iScience",
+    "year": 2021,
+    "verification": "Crossref live metadata; bibliographic verification only",
+    "url": "https://doi.org/10.1016/j.isci.2021.102361"
+  },
+  {
+    "citation_key": "Li2018",
+    "doi": "10.1038/s41588-017-0004-9",
+    "title": "Annotation-free quantification of RNA splicing using LeafCutter",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0736-251X",
+        "authenticated-orcid": false,
+        "given": "Yang I.",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7408-146X",
+        "authenticated-orcid": false,
+        "given": "David A.",
+        "family": "Knowles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jack",
+        "family": "Humphrey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alvaro N.",
+        "family": "Barbeira",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Scott P.",
+        "family": "Dickinson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0333-5685",
+        "authenticated-orcid": false,
+        "given": "Hae Kyung",
+        "family": "Im",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan K.",
+        "family": "Pritchard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nature Genetics",
+    "year": 2018,
+    "verification": "Crossref live metadata on 2026-10-14; bibliographic check only",
+    "url": "https://doi.org/10.1038/s41588-017-0004-9",
+    "year_verification": "Crossref published-print, falling back to published"
+  },
+  {
+    "citation_key": "Shen2014",
+    "doi": "10.1073/pnas.1419161111",
+    "title": "rMATS: Robust and flexible detection of differential alternative splicing from replicate RNA-Seq data",
+    "authors": [
+      {
+        "given": "Shihao",
+        "family": "Shen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Departments of aMicrobiology, Immunology, &amp; Molecular Genetics and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juw Won",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of aMicrobiology, Immunology, &amp; Molecular Genetics and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9230-2169",
+        "authenticated-orcid": false,
+        "given": "Zhi-xiang",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of aMicrobiology, Immunology, &amp; Molecular Genetics and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lan",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of aMicrobiology, Immunology, &amp; Molecular Genetics and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael D.",
+        "family": "Henry",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of bMolecular Physiology and Biophysics and"
+          },
+          {
+            "name": "Pathology, University of Iowa, Iowa City, IA 52242"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying Nian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Statistics, University of California, Los Angeles, CA 90095; and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qing",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Statistics, University of California, Los Angeles, CA 90095; and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departments of aMicrobiology, Immunology, &amp; Molecular Genetics and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": 2014,
+    "verification": "Crossref live metadata on 2026-10-14; bibliographic check only",
+    "url": "https://doi.org/10.1073/pnas.1419161111"
+  },
+  {
+    "citation_key": "SkeletalSplicing2022",
+    "doi": "10.1186/s13395-022-00294-9",
+    "title": "Alternative splicing diversifies the skeletal muscle transcriptome during prolonged spaceflight",
+    "authors": [
+      {
+        "given": "Mason",
+        "family": "Henrich",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pin",
+        "family": "Ha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanyuan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kang",
+        "family": "Ting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Louis",
+        "family": "Stodieck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chia",
+        "family": "Soo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John S.",
+        "family": "Adams",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rene",
+        "family": "Chun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Skeletal Muscle",
+    "year": 2022,
+    "verification": "Crossref live metadata on 2026-10-14; bibliographic check only",
+    "url": "https://doi.org/10.1186/s13395-022-00294-9"
+  },
+  {
+    "citation_key": "BenjaminiYekutieli2001",
+    "doi": "10.1214/aos/1013699998",
+    "title": "The control of the false discovery rate in multiple testing under dependency",
+    "authors": [
+      {
+        "given": "Yoav",
+        "family": "Benjamini",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Yekutieli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "The Annals of Statistics",
+    "year": 2001,
+    "verification": "Crossref live metadata on 2026-10-14; bibliographic check only",
+    "url": "https://doi.org/10.1214/aos/1013699998"
+  }
+]

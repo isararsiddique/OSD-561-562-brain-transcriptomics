@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "verification_date": "2026-10-15",
+  "scope": "Integrity of the Zenodo analysis-only derivative; original scientific checks were not rerun.",
+  "source_archive_sha256": "63bda57c58f4b3cdfd205f3d5bb1251394b8c1f3714f213d7f472d6d1ff8309a",
+  "sealed_files": 678,
+  "all_sealed_sha256_match": true,
+  "manifest_sha256": "49981eb46bf460fced2b0e4a9128a40c2a1a00b355cd7c8e5de902f17f9ec928",
+  "analysis_files_unchanged": true,
+  "omitted_superseded_publication_documents": [
+    "MANUSCRIPT_COMPLETE.md",
+    "MANUSCRIPT_COMPLETE.docx",
+    "MANUSCRIPT_COMPLETE.pdf",
+    "SUPPLEMENTARY_INFORMATION.md",
+    "SUPPLEMENTARY_INFORMATION.docx",
+    "SUPPLEMENTARY_INFORMATION.pdf",
+    "COVER_LETTER_DRAFT.md"
+  ],
+  "historical_verification": "ORIGINAL_PACKAGE_VERIFICATION.json"
+}

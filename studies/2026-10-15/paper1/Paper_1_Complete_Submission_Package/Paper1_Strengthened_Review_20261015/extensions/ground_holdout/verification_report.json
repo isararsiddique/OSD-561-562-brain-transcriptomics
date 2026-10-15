@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "n_checks": 1533,
+  "n_failed": 0,
+  "failures": [],
+  "independently_recomputed_cases": [
+    {
+      "accession": "OSD-561",
+      "split_id": 0,
+      "n_genes": 17945,
+      "n_training": 8,
+      "n_test": 4,
+      "normalization_factor_max_discrepancy": 8.881784197001252e-16
+    },
+    {
+      "accession": "OSD-561",
+      "split_id": 80,
+      "n_genes": 18202,
+      "n_training": 8,
+      "n_test": 4,
+      "normalization_factor_max_discrepancy": 1.3322676295501878e-15
+    },
+    {
+      "accession": "OSD-562",
+      "split_id": 0,
+      "n_genes": 17771,
+      "n_training": 8,
+      "n_test": 4,
+      "normalization_factor_max_discrepancy": 1.3322676295501878e-15
+    },
+    {
+      "accession": "OSD-562",
+      "split_id": 80,
+      "n_genes": 17729,
+      "n_training": 8,
+      "n_test": 4,
+      "normalization_factor_max_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "accession": "OSD-525",
+      "split_id": 0,
+      "n_genes": 19026,
+      "n_training": 11,
+      "n_test": 6,
+      "normalization_factor_max_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "accession": "OSD-525",
+      "split_id": 199,
+      "n_genes": 19368,
+      "n_training": 11,
+      "n_test": 6,
+      "normalization_factor_max_discrepancy": 1.1102230246251565e-15
+    }
+  ],
+  "unique_source_animals_all_regions": 30,
+  "unique_source_animals_per_accession": {
+    "OSD-525": 17,
+    "OSD-561": 12,
+    "OSD-562": 12
+  },
+  "scope": "Source-count collapse; split disjointness/allocation; normalization factors; dense coefficient estimates and prediction errors; inner CV argmin. Numerical verification does not prove biological validity."
+}

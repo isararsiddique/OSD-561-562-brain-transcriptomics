@@ -1,0 +1,9 @@
+# Preserve archived scientific files byte-for-byte, including their CSV line endings.
+studies/2026-10-15/paper1/** -text -whitespace
+studies/2026-10-15/paper2/** -text -whitespace
+
+# Newly written study guides use normal text and whitespace checks.
+studies/2026-10-15/paper1/README.md text whitespace
+studies/2026-10-15/paper1/METHODS_AND_WORKFLOW.md text whitespace
+studies/2026-10-15/paper2/README.md text whitespace
+studies/2026-10-15/paper2/METHODS_AND_WORKFLOW.md text whitespace

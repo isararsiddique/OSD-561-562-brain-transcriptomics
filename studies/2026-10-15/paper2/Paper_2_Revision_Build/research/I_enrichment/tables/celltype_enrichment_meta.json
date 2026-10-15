@@ -1,0 +1,56 @@
+{
+  "marker_source": {
+    "citation": "Kozareva V. et al. A transcriptomic atlas of mouse cerebellar cortex comprehensively defines cell types. Nature 598, 214-219 (2021).",
+    "doi": "10.1038/s41586-021-03220-z",
+    "table": "Supplementary Table 2 (sheet Supplementary_Table2), Highly differentially expressed genes across all clusters",
+    "file": "41586_2021_3220_MOESM4_ESM.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-021-03220-z/MediaObjects/41586_2021_3220_MOESM4_ESM.xlsx"
+  },
+  "marker_rule": {
+    "filter": "padj <= 0.05 and logFC > 0 in the published table",
+    "top_per_subtype_by_logFC": 200,
+    "n_subtypes": 46,
+    "n_classes": 17
+  },
+  "background_n": 1980,
+  "marker_sizes_in_background": {
+    "Astrocyte": 47,
+    "Bergmann glia": 44,
+    "Choroid plexus": 12,
+    "Endothelial/mural": 54,
+    "Ependymal": 2,
+    "Fibroblast": 25,
+    "Golgi": 57,
+    "Granule": 79,
+    "MLI1": 60,
+    "MLI2": 56,
+    "Macrophage": 22,
+    "Microglia": 27,
+    "OPC": 93,
+    "Oligodendrocyte": 78,
+    "PLI": 66,
+    "Purkinje": 78,
+    "Unipolar brush": 64
+  },
+  "class_unique_marker_sizes_in_background": {
+    "Astrocyte": 7,
+    "Bergmann glia": 7,
+    "Choroid plexus": 4,
+    "Endothelial/mural": 22,
+    "Ependymal": 2,
+    "Fibroblast": 5,
+    "Golgi": 5,
+    "Granule": 28,
+    "MLI1": 4,
+    "MLI2": 4,
+    "Macrophage": 7,
+    "Microglia": 9,
+    "OPC": 29,
+    "Oligodendrocyte": 24,
+    "PLI": 4,
+    "Purkinje": 34,
+    "Unipolar brush": 9
+  },
+  "test": "one-sided Fisher exact (over-representation), BH across classes within each gene set; universe = measured genes",
+  "n_significant_BH_05": 0
+}

@@ -1,0 +1,4685 @@
+cell_class,gene,in_measured_background,class_unique
+Astrocyte,4930402H24Rik,False,False
+Astrocyte,4930448N21Rik,False,False
+Astrocyte,4930578G10Rik,False,False
+Astrocyte,9430041J12Rik,False,True
+Astrocyte,9630028H03Rik,False,False
+Astrocyte,A330033J07Rik,False,True
+Astrocyte,Abr,False,False
+Astrocyte,Acot11,False,False
+Astrocyte,Acsbg1,False,False
+Astrocyte,Acsl3,True,False
+Astrocyte,Acsl6,True,True
+Astrocyte,Adgrb3,False,False
+Astrocyte,Adgrl3,True,False
+Astrocyte,Adk,True,False
+Astrocyte,Agt,False,True
+Astrocyte,Alcam,True,False
+Astrocyte,Aldoc,False,False
+Astrocyte,Angpt1,False,False
+Astrocyte,Antxr1,False,True
+Astrocyte,Apoe,False,False
+Astrocyte,Appl2,True,True
+Astrocyte,Aqp4,True,True
+Astrocyte,Arhgef12,True,True
+Astrocyte,Arhgef26,False,False
+Astrocyte,Arhgef4,False,True
+Astrocyte,Asap2,False,True
+Astrocyte,Atp13a4,False,True
+Astrocyte,Atp1a2,False,False
+Astrocyte,Atp1b2,False,True
+Astrocyte,B3galt1,False,False
+Astrocyte,Bcan,False,False
+Astrocyte,Bmpr1b,False,True
+Astrocyte,Cachd1,False,False
+Astrocyte,Cacng4,False,False
+Astrocyte,Camk2g,True,False
+Astrocyte,Car10,False,False
+Astrocyte,Cd38,False,True
+Astrocyte,Cd81,False,False
+Astrocyte,Cdh10,False,False
+Astrocyte,Cdh20,False,False
+Astrocyte,Cep85l,False,False
+Astrocyte,Chpt1,True,False
+Astrocyte,Ckb,False,True
+Astrocyte,Clu,False,False
+Astrocyte,Clybl,False,False
+Astrocyte,Cntfr,False,True
+Astrocyte,Cntn1,False,False
+Astrocyte,Cobll1,True,False
+Astrocyte,Cpq,True,False
+Astrocyte,Csgalnact1,False,False
+Astrocyte,Cst3,False,False
+Astrocyte,Ctnnd2,False,False
+Astrocyte,Cyp26b1,False,True
+Astrocyte,D030047H15Rik,False,True
+Astrocyte,Daam2,False,False
+Astrocyte,Dao,True,False
+Astrocyte,Dock1,True,False
+Astrocyte,Dock4,False,False
+Astrocyte,Dtna,True,False
+Astrocyte,Ednrb,False,False
+Astrocyte,Egfr,False,False
+Astrocyte,Emid1,False,False
+Astrocyte,Epha4,False,True
+Astrocyte,Eps15,True,False
+Astrocyte,Erbb4,True,False
+Astrocyte,Etnppl,False,True
+Astrocyte,Eva1a,False,True
+Astrocyte,Eya1,False,False
+Astrocyte,F3,False,False
+Astrocyte,Fam20a,False,False
+Astrocyte,Farp1,False,False
+Astrocyte,Fat3,False,False
+Astrocyte,Fmn2,False,False
+Astrocyte,Frmpd1,False,False
+Astrocyte,Fry,True,False
+Astrocyte,Fut9,False,False
+Astrocyte,Gabra2,False,False
+Astrocyte,Gabrb1,False,False
+Astrocyte,Galnt18,False,False
+Astrocyte,Gja1,False,True
+Astrocyte,Gjb6,True,False
+Astrocyte,Gli2,False,True
+Astrocyte,Gli3,False,False
+Astrocyte,Glis3,False,False
+Astrocyte,Glud1,False,False
+Astrocyte,Glul,False,False
+Astrocyte,Gm12394,False,False
+Astrocyte,Gm2163,False,False
+Astrocyte,Gm3764,False,False
+Astrocyte,Gm9925,False,False
+Astrocyte,Gpc5,False,False
+Astrocyte,Gpc6,False,False
+Astrocyte,Gpd2,False,True
+Astrocyte,Gpm6a,False,False
+Astrocyte,Gpm6b,True,False
+Astrocyte,Gpr37l1,False,False
+Astrocyte,Greb1l,False,False
+Astrocyte,Grid2,False,False
+Astrocyte,Grin2b,False,False
+Astrocyte,Gsap,False,False
+Astrocyte,Hacd2,False,True
+Astrocyte,Hdac8,True,False
+Astrocyte,Hepacam,False,False
+Astrocyte,Hip1,False,False
+Astrocyte,Hsd11b1,False,True
+Astrocyte,Htra1,False,False
+Astrocyte,Igsf11,False,False
+Astrocyte,Igsf8,False,False
+Astrocyte,Irak2,False,False
+Astrocyte,Itgb8,False,True
+Astrocyte,Itpkb,False,False
+Astrocyte,Kank1,False,False
+Astrocyte,Kcnn2,False,False
+Astrocyte,Lama2,True,False
+Astrocyte,Lgi1,True,True
+Astrocyte,Lhfp,False,False
+Astrocyte,Lrrc16a,False,False
+Astrocyte,Lsamp,True,False
+Astrocyte,Luzp2,False,False
+Astrocyte,Mamdc2,False,True
+Astrocyte,Map2k6,False,False
+Astrocyte,Mapk4,False,False
+Astrocyte,Mdga2,False,False
+Astrocyte,Mertk,False,False
+Astrocyte,Mgat4c,False,False
+Astrocyte,Mmd2,False,True
+Astrocyte,Mob3b,False,False
+Astrocyte,Msi2,False,False
+Astrocyte,Mt1,False,False
+Astrocyte,Mt2,False,False
+Astrocyte,Mt3,False,False
+Astrocyte,Ncam2,True,False
+Astrocyte,Nckap5,False,False
+Astrocyte,Ndrg2,True,True
+Astrocyte,Nebl,False,False
+Astrocyte,Negr1,False,False
+Astrocyte,Nell2,False,False
+Astrocyte,Nfasc,False,False
+Astrocyte,Nfia,False,False
+Astrocyte,Nfib,False,False
+Astrocyte,Nhsl1,False,False
+Astrocyte,Nlgn1,True,False
+Astrocyte,Nos1ap,False,False
+Astrocyte,Npas2,False,True
+Astrocyte,Npas3,False,False
+Astrocyte,Nrcam,True,False
+Astrocyte,Ntm,True,False
+Astrocyte,Ntrk2,True,False
+Astrocyte,Ntsr2,False,True
+Astrocyte,Nwd1,False,False
+Astrocyte,Paqr8,False,False
+Astrocyte,Pard3b,False,False
+Astrocyte,Pax3,False,False
+Astrocyte,Pcdh7,False,False
+Astrocyte,Pdgfd,False,False
+Astrocyte,Phka1,True,False
+Astrocyte,Phkg1,False,False
+Astrocyte,Pitpnc1,False,False
+Astrocyte,Pla2g7,False,False
+Astrocyte,Plcb1,True,False
+Astrocyte,Plce1,False,False
+Astrocyte,Plekha7,False,True
+Astrocyte,Plekhg1,False,False
+Astrocyte,Plpp3,False,False
+Astrocyte,Ppp2r2b,True,False
+Astrocyte,Prdx6,False,False
+Astrocyte,Prex2,False,False
+Astrocyte,Prkca,False,False
+Astrocyte,Prkd1,False,True
+Astrocyte,Prr16,False,False
+Astrocyte,Ptn,False,False
+Astrocyte,Ptprm,True,False
+Astrocyte,Ptprz1,True,False
+Astrocyte,Pygb,False,True
+Astrocyte,Qk,False,False
+Astrocyte,Rapgef3,False,True
+Astrocyte,Rfx4,False,False
+Astrocyte,Rgs20,False,False
+Astrocyte,Rgs6,False,False
+Astrocyte,Rmst,True,False
+Astrocyte,Rora,False,False
+Astrocyte,Rorb,False,False
+Astrocyte,S1pr1,False,False
+Astrocyte,Sash1,False,True
+Astrocyte,Sdc4,False,True
+Astrocyte,Sema6d,True,False
+Astrocyte,Serpine2,False,False
+Astrocyte,Sfxn5,True,False
+Astrocyte,Slc1a2,False,False
+Astrocyte,Slc1a3,False,False
+Astrocyte,Slc38a1,False,False
+Astrocyte,Slc39a12,False,False
+Astrocyte,Slc4a4,True,False
+Astrocyte,Sned1,False,False
+Astrocyte,Snta1,False,True
+Astrocyte,Sox5,False,False
+Astrocyte,Sox6,False,False
+Astrocyte,Sparcl1,False,False
+Astrocyte,Spon1,False,False
+Astrocyte,Srgap1,False,False
+Astrocyte,Ssbp2,True,False
+Astrocyte,St3gal4,False,False
+Astrocyte,Stk32a,False,False
+Astrocyte,Sulf1,True,False
+Astrocyte,Tcf7l2,False,False
+Astrocyte,Tenm4,False,False
+Astrocyte,Thrb,False,False
+Astrocyte,Tnik,True,False
+Astrocyte,Tpd52l1,False,False
+Astrocyte,Tprkb,True,True
+Astrocyte,Trpm3,True,False
+Astrocyte,Trps1,False,False
+Astrocyte,Ttyh1,True,False
+Astrocyte,Tulp3,False,False
+Astrocyte,Usp53,False,True
+Astrocyte,Vcl,False,False
+Astrocyte,Wdr17,True,False
+Astrocyte,Xylt1,False,False
+Astrocyte,Zbtb16,False,False
+Astrocyte,Zbtb20,True,False
+Astrocyte,Znrf3,False,False
+Bergmann glia,1700047M11Rik,False,False
+Bergmann glia,2020-09-04,False,False
+Bergmann glia,2610035D17Rik,False,False
+Bergmann glia,4930402H24Rik,False,False
+Bergmann glia,A2m,False,False
+Bergmann glia,Abi3bp,False,True
+Bergmann glia,Acot11,False,False
+Bergmann glia,Acsbg1,False,False
+Bergmann glia,Actr3b,False,True
+Bergmann glia,Adcy2,False,False
+Bergmann glia,Adgrl3,True,False
+Bergmann glia,Adk,True,False
+Bergmann glia,Adra1a,False,False
+Bergmann glia,Adrbk2,False,True
+Bergmann glia,Ahcyl1,False,True
+Bergmann glia,Aldoc,False,False
+Bergmann glia,Ank2,True,True
+Bergmann glia,Apoe,False,False
+Bergmann glia,Arhgap31,False,False
+Bergmann glia,Arhgef26,False,False
+Bergmann glia,Atp1a2,False,False
+Bergmann glia,Bach2,False,True
+Bergmann glia,Bcar3,False,True
+Bergmann glia,Bmpr1a,False,True
+Bergmann glia,Cables1,False,True
+Bergmann glia,Camk2g,True,False
+Bergmann glia,Cap2,False,True
+Bergmann glia,Car10,False,False
+Bergmann glia,Cdh10,False,False
+Bergmann glia,Cdh20,False,False
+Bergmann glia,Cdh22,False,False
+Bergmann glia,Cdh4,False,False
+Bergmann glia,Cep85l,False,False
+Bergmann glia,Chpt1,True,False
+Bergmann glia,Clybl,False,False
+Bergmann glia,Col23a1,False,False
+Bergmann glia,Colec12,False,False
+Bergmann glia,Cpne2,False,False
+Bergmann glia,Csgalnact1,False,False
+Bergmann glia,Cthrc1,False,True
+Bergmann glia,Ctnna3,False,False
+Bergmann glia,Ctnnd2,False,False
+Bergmann glia,Dao,True,False
+Bergmann glia,Ddah1,False,True
+Bergmann glia,Dfna5,False,False
+Bergmann glia,Dlc1,False,False
+Bergmann glia,Dock1,True,False
+Bergmann glia,Dock11,True,False
+Bergmann glia,Dtna,True,False
+Bergmann glia,Ednrb,False,False
+Bergmann glia,Elmo2,True,True
+Bergmann glia,Emid1,False,False
+Bergmann glia,Enah,False,True
+Bergmann glia,Eps15,True,False
+Bergmann glia,F3,False,False
+Bergmann glia,Fam107a,True,True
+Bergmann glia,Fam20a,False,False
+Bergmann glia,Fam213a,False,True
+Bergmann glia,Fat3,False,False
+Bergmann glia,Fbxl7,False,False
+Bergmann glia,Fmn2,False,False
+Bergmann glia,Fnbp1,True,False
+Bergmann glia,Foxo1,False,True
+Bergmann glia,Frmpd1,False,False
+Bergmann glia,Gab2,False,False
+Bergmann glia,Gabra2,False,False
+Bergmann glia,Gabra4,False,True
+Bergmann glia,Gabrb1,False,False
+Bergmann glia,Gdf10,False,True
+Bergmann glia,Gjc3,False,False
+Bergmann glia,Gli3,False,False
+Bergmann glia,Glud1,False,False
+Bergmann glia,Gm29478,False,True
+Bergmann glia,Gm3764,False,False
+Bergmann glia,Gm5089,False,True
+Bergmann glia,Gm6277,False,True
+Bergmann glia,Gm9925,False,False
+Bergmann glia,Gnb4,False,False
+Bergmann glia,Gpc6,False,False
+Bergmann glia,Gpld1,False,True
+Bergmann glia,Gpm6a,False,False
+Bergmann glia,Gpm6b,True,False
+Bergmann glia,Gpr37l1,False,False
+Bergmann glia,Greb1l,False,False
+Bergmann glia,Gria1,False,False
+Bergmann glia,Gria4,False,False
+Bergmann glia,Grid2,False,False
+Bergmann glia,Grin2b,False,False
+Bergmann glia,Gsap,False,False
+Bergmann glia,Hdac8,True,False
+Bergmann glia,Hepacam,False,False
+Bergmann glia,Hif3a,False,True
+Bergmann glia,Hip1,False,False
+Bergmann glia,Htra1,False,False
+Bergmann glia,Kcnj3,False,False
+Bergmann glia,Kcnn2,False,False
+Bergmann glia,Klhl29,False,True
+Bergmann glia,Lama2,True,False
+Bergmann glia,Ldlrad4,False,False
+Bergmann glia,Lrig1,False,True
+Bergmann glia,Lsamp,True,False
+Bergmann glia,Luzp2,False,False
+Bergmann glia,Magi2,True,False
+Bergmann glia,Man1c1,False,True
+Bergmann glia,Map2k6,False,False
+Bergmann glia,Mapk4,False,False
+Bergmann glia,Mcc,False,False
+Bergmann glia,Megf9,False,True
+Bergmann glia,Mertk,False,False
+Bergmann glia,Mfn1,False,True
+Bergmann glia,Mob3b,False,False
+Bergmann glia,Mpp6,False,False
+Bergmann glia,Msi2,False,False
+Bergmann glia,Mt1,False,False
+Bergmann glia,Mt2,False,False
+Bergmann glia,Mybpc1,True,True
+Bergmann glia,Myo16,False,False
+Bergmann glia,Nav2,False,False
+Bergmann glia,Nav3,False,False
+Bergmann glia,Ncam2,True,False
+Bergmann glia,Nckap5,False,False
+Bergmann glia,Nebl,False,False
+Bergmann glia,Negr1,False,False
+Bergmann glia,Nfia,False,False
+Bergmann glia,Nhsl1,False,False
+Bergmann glia,Nlgn1,True,False
+Bergmann glia,Npas3,False,False
+Bergmann glia,Nrcam,True,False
+Bergmann glia,Nwd1,False,False
+Bergmann glia,Ophn1,False,False
+Bergmann glia,Paqr8,False,False
+Bergmann glia,Pard3b,False,False
+Bergmann glia,Pax3,False,False
+Bergmann glia,Pbx1,True,False
+Bergmann glia,Pcdh9,False,False
+Bergmann glia,Pde7b,False,False
+Bergmann glia,Pde8b,False,False
+Bergmann glia,Pdgfd,False,False
+Bergmann glia,Phka1,True,False
+Bergmann glia,Phkg1,False,False
+Bergmann glia,Phlpp1,False,False
+Bergmann glia,Phyhipl,False,False
+Bergmann glia,Pik3r1,False,False
+Bergmann glia,Pitpnc1,False,False
+Bergmann glia,Pla2g7,False,False
+Bergmann glia,Plcb1,True,False
+Bergmann glia,Plce1,False,False
+Bergmann glia,Plpp3,False,False
+Bergmann glia,Plscr4,False,True
+Bergmann glia,Pnpla7,False,False
+Bergmann glia,Ppm1h,False,True
+Bergmann glia,Ppp2r2b,True,False
+Bergmann glia,Prdx6,False,False
+Bergmann glia,Prex1,False,False
+Bergmann glia,Prex2,False,False
+Bergmann glia,Prkg1,False,False
+Bergmann glia,Psd3,False,False
+Bergmann glia,Ptch1,False,True
+Bergmann glia,Ptprm,True,False
+Bergmann glia,Ptprz1,True,False
+Bergmann glia,Qk,False,False
+Bergmann glia,Rab34,False,True
+Bergmann glia,Rasa2,False,True
+Bergmann glia,Rbfox1,True,False
+Bergmann glia,Rfx3,False,True
+Bergmann glia,Rfx4,False,False
+Bergmann glia,Rgma,False,True
+Bergmann glia,Rgs20,False,False
+Bergmann glia,Rgs7bp,False,False
+Bergmann glia,Rora,False,False
+Bergmann glia,Rorb,False,False
+Bergmann glia,Samd4,False,True
+Bergmann glia,Sat1,True,True
+Bergmann glia,Scg3,True,True
+Bergmann glia,Sema6d,True,False
+Bergmann glia,Sfxn5,True,False
+Bergmann glia,Sgcd,False,False
+Bergmann glia,Shisa9,False,False
+Bergmann glia,Shroom3,False,False
+Bergmann glia,Slc1a2,False,False
+Bergmann glia,Slc1a3,False,False
+Bergmann glia,Slc38a1,False,False
+Bergmann glia,Slc4a4,True,False
+Bergmann glia,Slc6a1,False,False
+Bergmann glia,Smad3,False,True
+Bergmann glia,Sorbs1,True,True
+Bergmann glia,Sox5,False,False
+Bergmann glia,Sox6,False,False
+Bergmann glia,Sparc,True,False
+Bergmann glia,Sparcl1,False,False
+Bergmann glia,Spred1,False,True
+Bergmann glia,Srgap1,False,False
+Bergmann glia,Ssbp2,True,False
+Bergmann glia,St3gal4,False,False
+Bergmann glia,Stk32a,False,False
+Bergmann glia,Sulf1,True,False
+Bergmann glia,Tcf7l1,False,False
+Bergmann glia,Tcf7l2,False,False
+Bergmann glia,Tead1,False,False
+Bergmann glia,Tesk2,False,True
+Bergmann glia,Timp4,False,True
+Bergmann glia,Tmem47,False,False
+Bergmann glia,Tnc,False,True
+Bergmann glia,Tnik,True,False
+Bergmann glia,Trpm3,True,False
+Bergmann glia,Trps1,False,False
+Bergmann glia,Tsc22d3,False,False
+Bergmann glia,Tspan7,False,False
+Bergmann glia,Ttll3,False,False
+Bergmann glia,Ttyh1,True,False
+Bergmann glia,Tulp3,False,False
+Bergmann glia,Ust,False,False
+Bergmann glia,Wasf3,False,True
+Bergmann glia,Wdr17,True,False
+Bergmann glia,Whrn,False,False
+Bergmann glia,Xylt1,False,False
+Bergmann glia,Zbtb16,False,False
+Bergmann glia,Zbtb20,True,False
+Bergmann glia,Zeb2,False,False
+Bergmann glia,Zfp608,True,False
+Bergmann glia,Zhx3,False,True
+Bergmann glia,Znrf3,False,False
+Bergmann glia,Zswim5,False,True
+Choroid plexus,1500015O10Rik,False,False
+Choroid plexus,2020-09-09,False,True
+Choroid plexus,2020-09-10,False,True
+Choroid plexus,4930448N21Rik,False,False
+Choroid plexus,9330185C12Rik,False,True
+Choroid plexus,A2m,False,False
+Choroid plexus,Abca4,False,True
+Choroid plexus,Abhd2,False,False
+Choroid plexus,Acaa2,False,True
+Choroid plexus,Acad8,True,True
+Choroid plexus,Acss3,False,False
+Choroid plexus,Actn1,False,True
+Choroid plexus,Adgrv1,False,False
+Choroid plexus,Agbl4,False,False
+Choroid plexus,Ak9,False,False
+Choroid plexus,Aldh2,False,True
+Choroid plexus,Arhgap18,False,False
+Choroid plexus,Arhgap42,False,False
+Choroid plexus,Arl6ip1,False,True
+Choroid plexus,Armc2,False,False
+Choroid plexus,Arsg,False,True
+Choroid plexus,Atp2b3,False,False
+Choroid plexus,Baiap2l1,False,True
+Choroid plexus,Bmp6,False,False
+Choroid plexus,Bri3,False,True
+Choroid plexus,Cab39l,False,False
+Choroid plexus,Cachd1,False,False
+Choroid plexus,Calml4,False,False
+Choroid plexus,Car12,False,True
+Choroid plexus,Car14,True,True
+Choroid plexus,Ccbe1,False,False
+Choroid plexus,Ccdc108,False,False
+Choroid plexus,Ccdc141,False,False
+Choroid plexus,Ccdc30,False,False
+Choroid plexus,Cd63,False,True
+Choroid plexus,Cd9,False,False
+Choroid plexus,Cdc14b,False,False
+Choroid plexus,Cdkn1c,False,True
+Choroid plexus,Cep162,False,True
+Choroid plexus,Cfap44,False,False
+Choroid plexus,Cfap54,False,False
+Choroid plexus,Cfap69,False,False
+Choroid plexus,Cfap74,False,True
+Choroid plexus,Cgnl1,False,False
+Choroid plexus,Chil1,False,True
+Choroid plexus,Clic6,False,False
+Choroid plexus,Clu,False,False
+Choroid plexus,Col4a3,False,False
+Choroid plexus,Col4a4,False,True
+Choroid plexus,Col8a1,False,True
+Choroid plexus,Col8a2,False,True
+Choroid plexus,Col9a3,False,True
+Choroid plexus,Cpne2,False,False
+Choroid plexus,Csrp2,False,True
+Choroid plexus,Ctnnal1,False,False
+Choroid plexus,Ctsd,False,False
+Choroid plexus,Cx3cr1,False,False
+Choroid plexus,Dab2,True,False
+Choroid plexus,Dnah6,False,False
+Choroid plexus,Dnah9,False,False
+Choroid plexus,Drc7,False,True
+Choroid plexus,Elovl7,True,False
+Choroid plexus,Enpp2,True,False
+Choroid plexus,Eps8l2,False,True
+Choroid plexus,Esrrg,False,False
+Choroid plexus,Ezr,False,False
+Choroid plexus,F5,False,True
+Choroid plexus,Fap,False,False
+Choroid plexus,Fhad1,False,False
+Choroid plexus,Flrt2,False,False
+Choroid plexus,Folr1,False,True
+Choroid plexus,Fras1,False,True
+Choroid plexus,Frem1,False,True
+Choroid plexus,Frrs1,False,True
+Choroid plexus,Gas6,False,True
+Choroid plexus,Glis3,False,False
+Choroid plexus,Gm14964,False,False
+Choroid plexus,Gm26542,False,False
+Choroid plexus,Gm29266,False,False
+Choroid plexus,Gm29538,False,True
+Choroid plexus,Gm42722,False,False
+Choroid plexus,Gm4876,False,False
+Choroid plexus,Gmnc,False,True
+Choroid plexus,Grm8,False,False
+Choroid plexus,Gulp1,True,True
+Choroid plexus,Htr2c,False,True
+Choroid plexus,Id1,False,False
+Choroid plexus,Id3,False,False
+Choroid plexus,Ifi27,False,True
+Choroid plexus,Igf2,False,False
+Choroid plexus,Igfbp2,False,False
+Choroid plexus,Iqub,False,False
+Choroid plexus,Itpkb,False,False
+Choroid plexus,Kcne2,False,True
+Choroid plexus,Kcnh1,False,False
+Choroid plexus,Kcnj13,False,True
+Choroid plexus,Kif9,False,False
+Choroid plexus,Kl,False,True
+Choroid plexus,Krt18,False,True
+Choroid plexus,L3mbtl3,True,True
+Choroid plexus,Lamb1,False,True
+Choroid plexus,Lbp,False,True
+Choroid plexus,Lef1,False,False
+Choroid plexus,Lmx1a,False,False
+Choroid plexus,Lrriq1,False,False
+Choroid plexus,Maob,False,True
+Choroid plexus,Mdfic,False,False
+Choroid plexus,Mid1,False,True
+Choroid plexus,Mok,False,False
+Choroid plexus,Msx1,False,True
+Choroid plexus,Myo5b,False,True
+Choroid plexus,Nhsl2,False,False
+Choroid plexus,Nme5,False,False
+Choroid plexus,Notch2,False,False
+Choroid plexus,Nsg2,False,True
+Choroid plexus,Nxn,False,False
+Choroid plexus,Oca2,False,True
+Choroid plexus,Ocln,False,False
+Choroid plexus,Otx2,False,True
+Choroid plexus,Otx2os1,False,False
+Choroid plexus,Parva,False,True
+Choroid plexus,Pbxip1,False,True
+Choroid plexus,Pcbp3,False,False
+Choroid plexus,Pced1b,False,True
+Choroid plexus,Pcolce2,False,True
+Choroid plexus,Pcp4l1,False,False
+Choroid plexus,Pdzd2,False,False
+Choroid plexus,Pdzrn3,False,False
+Choroid plexus,Pifo,False,False
+Choroid plexus,Pip5k1b,True,False
+Choroid plexus,Ppfibp2,False,True
+Choroid plexus,Prdm16,False,True
+Choroid plexus,Prkcq,False,False
+Choroid plexus,Prlr,False,True
+Choroid plexus,Prtg,False,True
+Choroid plexus,Rai14,False,True
+Choroid plexus,Rbm47,False,False
+Choroid plexus,Rbp1,False,False
+Choroid plexus,Rdh5,False,True
+Choroid plexus,Sgk3,False,False
+Choroid plexus,Sgms2,False,True
+Choroid plexus,Sh3d19,False,False
+Choroid plexus,Shroom3,False,False
+Choroid plexus,Slc12a2,False,False
+Choroid plexus,Slc13a4,False,False
+Choroid plexus,Slc16a2,False,True
+Choroid plexus,Slc16a8,False,True
+Choroid plexus,Slc22a17,False,True
+Choroid plexus,Slc2a12,False,True
+Choroid plexus,Slc31a1,False,True
+Choroid plexus,Slc39a12,False,False
+Choroid plexus,Slc4a10,True,False
+Choroid plexus,Slc4a2,False,True
+Choroid plexus,Slc4a5,False,True
+Choroid plexus,Slc6a20a,False,False
+Choroid plexus,Slco1a4,False,False
+Choroid plexus,Slco1c1,False,False
+Choroid plexus,Slit2,False,True
+Choroid plexus,Sntb1,False,False
+Choroid plexus,Sntb2,False,True
+Choroid plexus,Sostdc1,False,True
+Choroid plexus,Spag16,False,False
+Choroid plexus,Spag6l,False,False
+Choroid plexus,Spata13,False,True
+Choroid plexus,Spata17,False,False
+Choroid plexus,Spef2,False,False
+Choroid plexus,Spint2,False,True
+Choroid plexus,Steap1,False,True
+Choroid plexus,Steap2,False,True
+Choroid plexus,Stim2,False,True
+Choroid plexus,Stk39,False,True
+Choroid plexus,Strip2,False,False
+Choroid plexus,Sulf1,True,False
+Choroid plexus,Tbc1d2,False,True
+Choroid plexus,Tbc1d9,False,True
+Choroid plexus,Tc2n,False,True
+Choroid plexus,Tead1,False,False
+Choroid plexus,Tgfb2,False,True
+Choroid plexus,Tgfbr2,False,False
+Choroid plexus,Tmem237,False,True
+Choroid plexus,Tmem72,False,True
+Choroid plexus,Tns1,False,False
+Choroid plexus,Tox,False,False
+Choroid plexus,Tpd52l1,False,False
+Choroid plexus,Trpm3,True,False
+Choroid plexus,Trpv4,False,True
+Choroid plexus,Tspan33,False,True
+Choroid plexus,Ttr,False,True
+Choroid plexus,Tubb4b,False,False
+Choroid plexus,Ubxn11,False,False
+Choroid plexus,Vat1l,False,False
+Choroid plexus,Vwa3a,False,False
+Choroid plexus,Wdr17,True,False
+Choroid plexus,Wdr72,False,True
+Choroid plexus,Wdr78,False,False
+Choroid plexus,Wdr86,False,True
+Choroid plexus,Wipf3,False,True
+Choroid plexus,Wls,False,False
+Choroid plexus,Wwc1,False,False
+Choroid plexus,Zfhx4,False,False
+Endothelial/mural,2020-09-04,False,False
+Endothelial/mural,2020-09-11,False,False
+Endothelial/mural,4931406P16Rik,False,True
+Endothelial/mural,9430020K01Rik,False,True
+Endothelial/mural,9530026P05Rik,False,False
+Endothelial/mural,Abcb1a,False,True
+Endothelial/mural,Abcc4,False,True
+Endothelial/mural,Abcc9,False,True
+Endothelial/mural,Abcg2,True,True
+Endothelial/mural,Abhd2,False,False
+Endothelial/mural,Ablim1,True,False
+Endothelial/mural,Ace2,False,True
+Endothelial/mural,Actb,False,False
+Endothelial/mural,Actg1,False,True
+Endothelial/mural,Acvrl1,False,True
+Endothelial/mural,Adap2,False,False
+Endothelial/mural,Adap2os,False,False
+Endothelial/mural,Adgrf5,True,True
+Endothelial/mural,Adgrl4,True,True
+Endothelial/mural,Afap1l1,False,False
+Endothelial/mural,Ahnak,False,True
+Endothelial/mural,Airn,False,False
+Endothelial/mural,Akap13,True,False
+Endothelial/mural,Ankrd50,True,True
+Endothelial/mural,Ano1,False,True
+Endothelial/mural,Ano4,True,False
+Endothelial/mural,Anxa3,False,False
+Endothelial/mural,Apbb2,True,True
+Endothelial/mural,Apoe,False,False
+Endothelial/mural,Arhgap10,True,False
+Endothelial/mural,Arhgap29,False,False
+Endothelial/mural,Arhgap31,False,False
+Endothelial/mural,Arhgap42,False,False
+Endothelial/mural,Arhgap6,False,False
+Endothelial/mural,Arhgef17,False,True
+Endothelial/mural,Arl4a,False,True
+Endothelial/mural,Art3,True,True
+Endothelial/mural,Aspn,False,True
+Endothelial/mural,Atp10a,False,True
+Endothelial/mural,Atp13a5,False,True
+Endothelial/mural,Atp1a2,False,False
+Endothelial/mural,B2m,False,True
+Endothelial/mural,Bcl2l1,True,False
+Endothelial/mural,Bicc1,False,False
+Endothelial/mural,Bmpr2,False,True
+Endothelial/mural,Bsg,False,True
+Endothelial/mural,Cacna1c,True,False
+Endothelial/mural,Cald1,True,False
+Endothelial/mural,Calm1,False,True
+Endothelial/mural,Car4,False,True
+Endothelial/mural,Cbfa2t3,False,True
+Endothelial/mural,Ccdc141,False,False
+Endothelial/mural,Ccdc85a,True,False
+Endothelial/mural,Ccnd3,False,False
+Endothelial/mural,Ccny,False,True
+Endothelial/mural,Cd34,False,True
+Endothelial/mural,Cdk6,False,True
+Endothelial/mural,Cgnl1,False,False
+Endothelial/mural,Chn1,True,False
+Endothelial/mural,Cldn5,False,True
+Endothelial/mural,Clic4,False,False
+Endothelial/mural,Clic5,False,True
+Endothelial/mural,Cobll1,True,False
+Endothelial/mural,Col4a1,False,True
+Endothelial/mural,Col4a3,False,False
+Endothelial/mural,Col4a3bp,False,True
+Endothelial/mural,Colec12,False,False
+Endothelial/mural,Cox4i2,False,True
+Endothelial/mural,Cp,True,False
+Endothelial/mural,Cped1,False,False
+Endothelial/mural,Cphx3,False,True
+Endothelial/mural,Crip2,False,False
+Endothelial/mural,Cspg4,False,False
+Endothelial/mural,Cst3,False,False
+Endothelial/mural,Ctdspl,False,False
+Endothelial/mural,Ctla2a,False,True
+Endothelial/mural,Ctnnb1,False,True
+Endothelial/mural,Cxcl12,False,False
+Endothelial/mural,Cyyr1,False,True
+Endothelial/mural,Dbp,False,True
+Endothelial/mural,Ddit4l,False,True
+Endothelial/mural,Diaph2,True,False
+Endothelial/mural,Dlc1,False,False
+Endothelial/mural,Dock6,False,False
+Endothelial/mural,Dock9,True,False
+Endothelial/mural,Dusp1,False,True
+Endothelial/mural,Dusp3,False,True
+Endothelial/mural,Ebf1,False,False
+Endothelial/mural,Ecm2,False,True
+Endothelial/mural,Ednra,False,True
+Endothelial/mural,Eef1a1,False,False
+Endothelial/mural,Efhd2,False,True
+Endothelial/mural,Egflam,False,True
+Endothelial/mural,Emcn,True,True
+Endothelial/mural,Eng,False,True
+Endothelial/mural,Eogt,False,True
+Endothelial/mural,Epas1,False,True
+Endothelial/mural,Epb41l2,False,False
+Endothelial/mural,Eps8,False,False
+Endothelial/mural,Erg,False,True
+Endothelial/mural,Esam,False,True
+Endothelial/mural,Ets1,False,True
+Endothelial/mural,Eva1b,False,True
+Endothelial/mural,Fap,False,False
+Endothelial/mural,Farp1,False,False
+Endothelial/mural,Fcgrt,True,True
+Endothelial/mural,Fermt2,True,True
+Endothelial/mural,Fli1,False,False
+Endothelial/mural,Flt1,False,True
+Endothelial/mural,Fn1,False,True
+Endothelial/mural,Fnbp1l,False,True
+Endothelial/mural,Foxp1,False,False
+Endothelial/mural,Frmd4b,False,False
+Endothelial/mural,Fry,True,False
+Endothelial/mural,Fzd6,True,True
+Endothelial/mural,Gab1,False,False
+Endothelial/mural,Gatm,False,False
+Endothelial/mural,Gcnt2,False,True
+Endothelial/mural,Ggt5,False,True
+Endothelial/mural,Gimap6,False,True
+Endothelial/mural,Gja4,False,True
+Endothelial/mural,Gjc1,False,True
+Endothelial/mural,Gm11713,False,True
+Endothelial/mural,Gm12002,False,True
+Endothelial/mural,Gm14964,False,False
+Endothelial/mural,Gm15261,False,False
+Endothelial/mural,Gm16833,False,True
+Endothelial/mural,Gm17276,False,True
+Endothelial/mural,Gm26632,False,True
+Endothelial/mural,Gm26719,False,False
+Endothelial/mural,Gm26883,False,False
+Endothelial/mural,Gm9843,False,True
+Endothelial/mural,Gnai2,False,True
+Endothelial/mural,Gnas,True,True
+Endothelial/mural,Gnb4,False,False
+Endothelial/mural,Gng2,False,False
+Endothelial/mural,Gpc3,False,True
+Endothelial/mural,Gpc6,False,False
+Endothelial/mural,Gpcpd1,True,True
+Endothelial/mural,Grb10,False,False
+Endothelial/mural,Grm3,False,False
+Endothelial/mural,Grm7,False,False
+Endothelial/mural,Gucy1a2,False,True
+Endothelial/mural,Gucy1a3,False,True
+Endothelial/mural,Gucy1b3,False,False
+Endothelial/mural,H2-D1,False,True
+Endothelial/mural,H2-K1,True,True
+Endothelial/mural,H3f3a,False,True
+Endothelial/mural,H3f3b,False,True
+Endothelial/mural,Heg1,False,True
+Endothelial/mural,Higd1b,False,True
+Endothelial/mural,Hip1,False,False
+Endothelial/mural,Hmcn1,False,True
+Endothelial/mural,Hsp90ab1,False,False
+Endothelial/mural,Hspa12b,False,True
+Endothelial/mural,Hspa8,False,True
+Endothelial/mural,Hspb1,False,True
+Endothelial/mural,Id1,False,False
+Endothelial/mural,Id3,False,False
+Endothelial/mural,Ifitm3,False,False
+Endothelial/mural,Igf1r,False,True
+Endothelial/mural,Igfbp7,False,True
+Endothelial/mural,Igsf8,False,False
+Endothelial/mural,Il34,False,False
+Endothelial/mural,Insr,False,True
+Endothelial/mural,Itga1,False,True
+Endothelial/mural,Itga6,True,True
+Endothelial/mural,Itgb1,False,True
+Endothelial/mural,Itih5,False,False
+Endothelial/mural,Itm2a,False,True
+Endothelial/mural,Itm2b,False,True
+Endothelial/mural,Itpr2,False,False
+Endothelial/mural,Jun,False,True
+Endothelial/mural,Kalrn,False,False
+Endothelial/mural,Kank3,False,True
+Endothelial/mural,Kcnj8,False,True
+Endothelial/mural,Kitl,True,False
+Endothelial/mural,Klf2,False,True
+Endothelial/mural,Klf4,False,True
+Endothelial/mural,Klhl23,False,True
+Endothelial/mural,Lama2,True,False
+Endothelial/mural,Lama4,False,False
+Endothelial/mural,Lamc1,False,False
+Endothelial/mural,Lamc3,False,False
+Endothelial/mural,Lef1,False,False
+Endothelial/mural,Limd1,False,False
+Endothelial/mural,Lims1,True,True
+Endothelial/mural,Lims2,False,False
+Endothelial/mural,Lin7a,True,False
+Endothelial/mural,Lrrc16a,False,False
+Endothelial/mural,Ly6a,True,True
+Endothelial/mural,Ly6c1,True,True
+Endothelial/mural,Ly6e,True,True
+Endothelial/mural,Mal,False,False
+Endothelial/mural,Mast4,False,False
+Endothelial/mural,Mcf2l,True,True
+Endothelial/mural,Mcl1,False,True
+Endothelial/mural,Mecom,False,True
+Endothelial/mural,Mef2c,True,False
+Endothelial/mural,Mfge8,False,True
+Endothelial/mural,Mfsd2a,False,True
+Endothelial/mural,Mgp,False,True
+Endothelial/mural,Mill2,False,False
+Endothelial/mural,Mir143hg,False,True
+Endothelial/mural,Mrc2,False,False
+Endothelial/mural,Mrvi1,False,True
+Endothelial/mural,Myh9,False,True
+Endothelial/mural,Myl12b,False,True
+Endothelial/mural,Myl6,False,True
+Endothelial/mural,Myl9,False,True
+Endothelial/mural,Mylk,False,True
+Endothelial/mural,Myo10,False,False
+Endothelial/mural,Myo1b,False,True
+Endothelial/mural,Nbl1,False,True
+Endothelial/mural,Ndrg1,False,False
+Endothelial/mural,Ndufa4l2,False,True
+Endothelial/mural,Nebl,False,False
+Endothelial/mural,Net1,False,True
+Endothelial/mural,Nfkbia,False,True
+Endothelial/mural,Nid1,False,False
+Endothelial/mural,Nostrin,False,True
+Endothelial/mural,Notch3,False,True
+Endothelial/mural,Nr2f2,False,False
+Endothelial/mural,Nrp1,False,False
+Endothelial/mural,Nxpe2,False,True
+Endothelial/mural,Ocln,False,False
+Endothelial/mural,P2ry14,False,False
+Endothelial/mural,Pald1,False,True
+Endothelial/mural,Palmd,False,True
+Endothelial/mural,Paqr5,False,True
+Endothelial/mural,Pard3b,False,False
+Endothelial/mural,Pde1a,False,False
+Endothelial/mural,Pde3a,False,False
+Endothelial/mural,Pde7b,False,False
+Endothelial/mural,Pde8b,False,False
+Endothelial/mural,Pdgfd,False,False
+Endothelial/mural,Pdgfrb,False,True
+Endothelial/mural,Pdzd2,False,False
+Endothelial/mural,Pear1,False,True
+Endothelial/mural,Pecam1,False,True
+Endothelial/mural,Pglyrp1,False,True
+Endothelial/mural,Phldb2,False,False
+Endothelial/mural,Pid1,False,False
+Endothelial/mural,Pitpnc1,False,False
+Endothelial/mural,Pla1a,False,True
+Endothelial/mural,Pla2r1,False,True
+Endothelial/mural,Plcb1,True,False
+Endothelial/mural,Plce1,False,False
+Endothelial/mural,Plcl1,False,False
+Endothelial/mural,Pld1,False,False
+Endothelial/mural,Plekhg3,False,True
+Endothelial/mural,Pltp,False,False
+Endothelial/mural,Plxdc1,False,False
+Endothelial/mural,Plxdc2,True,False
+Endothelial/mural,Plxna2,False,False
+Endothelial/mural,Podxl,False,True
+Endothelial/mural,Polk,True,True
+Endothelial/mural,Ppfibp1,True,False
+Endothelial/mural,Ppia,False,True
+Endothelial/mural,Prex2,False,False
+Endothelial/mural,Prkch,False,True
+Endothelial/mural,Prkg1,False,False
+Endothelial/mural,Prom1,True,False
+Endothelial/mural,Pten,False,True
+Endothelial/mural,Pth1r,False,True
+Endothelial/mural,Ptma,False,False
+Endothelial/mural,Ptn,False,False
+Endothelial/mural,Ptpn9,False,True
+Endothelial/mural,Ptprb,False,True
+Endothelial/mural,Ptprg,False,False
+Endothelial/mural,Ptprk,True,False
+Endothelial/mural,Ptprm,True,False
+Endothelial/mural,Ramp2,False,True
+Endothelial/mural,Rapgef2,False,True
+Endothelial/mural,Rapgef5,False,False
+Endothelial/mural,Rasal2,True,False
+Endothelial/mural,Rasgrp2,False,True
+Endothelial/mural,Rasip1,False,True
+Endothelial/mural,Rasl12,False,True
+Endothelial/mural,Rbms1,True,False
+Endothelial/mural,Rbms3,False,False
+Endothelial/mural,Rbpms,False,False
+Endothelial/mural,Rcsd1,False,False
+Endothelial/mural,Rem1,False,True
+Endothelial/mural,Rgcc,False,False
+Endothelial/mural,Rgs12,False,True
+Endothelial/mural,Rgs4,False,True
+Endothelial/mural,Rgs5,False,True
+Endothelial/mural,Rgs6,False,False
+Endothelial/mural,Rhoa,True,True
+Endothelial/mural,Rhob,False,True
+Endothelial/mural,Rhobtb1,False,False
+Endothelial/mural,Ror1,False,False
+Endothelial/mural,Rpl9-ps6,False,True
+Endothelial/mural,Rps8,False,True
+Endothelial/mural,Rundc3b,False,True
+Endothelial/mural,S1pr1,False,False
+Endothelial/mural,Sdc2,False,True
+Endothelial/mural,Sdpr,False,True
+Endothelial/mural,Sema3c,False,True
+Endothelial/mural,Sema7a,False,True
+Endothelial/mural,Sepp1,False,False
+Endothelial/mural,Serinc3,False,False
+Endothelial/mural,Sgms1,False,True
+Endothelial/mural,Slc16a12,False,False
+Endothelial/mural,Slc19a1,False,True
+Endothelial/mural,Slc1a1,False,False
+Endothelial/mural,Slc22a8,False,False
+Endothelial/mural,Slc2a1,False,True
+Endothelial/mural,Slc30a10,False,True
+Endothelial/mural,Slc38a11,False,True
+Endothelial/mural,Slc39a10,False,True
+Endothelial/mural,Slc6a20a,False,False
+Endothelial/mural,Slc6a6,False,True
+Endothelial/mural,Slc7a1,False,True
+Endothelial/mural,Slc7a5,False,True
+Endothelial/mural,Slc9a3r2,False,True
+Endothelial/mural,Slco1a4,False,False
+Endothelial/mural,Slco1c1,False,False
+Endothelial/mural,Slco3a1,False,False
+Endothelial/mural,Sntb1,False,False
+Endothelial/mural,Sorbs2,True,False
+Endothelial/mural,Sorbs2os,False,False
+Endothelial/mural,Sox5,False,False
+Endothelial/mural,Sparc,True,False
+Endothelial/mural,Sparcl1,False,False
+Endothelial/mural,Spock2,False,True
+Endothelial/mural,Sptbn1,False,False
+Endothelial/mural,Srgn,False,True
+Endothelial/mural,St3gal6,False,False
+Endothelial/mural,St5,False,False
+Endothelial/mural,St8sia4,False,True
+Endothelial/mural,Stard8,False,False
+Endothelial/mural,Ston1,False,False
+Endothelial/mural,Svil,False,False
+Endothelial/mural,Tagln2,False,True
+Endothelial/mural,Tbc1d1,False,True
+Endothelial/mural,Tbc1d4,True,False
+Endothelial/mural,Tbx15,False,False
+Endothelial/mural,Tbx2,False,True
+Endothelial/mural,Tbx3os1,False,True
+Endothelial/mural,Tek,False,True
+Endothelial/mural,Timp3,False,False
+Endothelial/mural,Tjp1,True,False
+Endothelial/mural,Tm4sf1,False,False
+Endothelial/mural,Tmod3,True,True
+Endothelial/mural,Tmsb4x,False,True
+Endothelial/mural,Tmtc2,False,False
+Endothelial/mural,Tnfaip1,False,True
+Endothelial/mural,Tns1,False,False
+Endothelial/mural,Tnxb,False,True
+Endothelial/mural,Tpt1,False,True
+Endothelial/mural,Trpc3,False,False
+Endothelial/mural,Trpc4,False,True
+Endothelial/mural,Tsc22d1,False,True
+Endothelial/mural,Tsc22d3,False,False
+Endothelial/mural,Tshz2,False,False
+Endothelial/mural,Tspan13,False,True
+Endothelial/mural,Uaca,False,False
+Endothelial/mural,Ubb,False,True
+Endothelial/mural,Ubc,False,False
+Endothelial/mural,Utrn,False,False
+Endothelial/mural,Vcl,False,False
+Endothelial/mural,Vim,False,False
+Endothelial/mural,Vtn,False,False
+Endothelial/mural,Vwa1,False,True
+Endothelial/mural,Wasf2,False,False
+Endothelial/mural,Wls,False,False
+Endothelial/mural,Xdh,False,True
+Endothelial/mural,Zak,False,True
+Endothelial/mural,Zbtb20,True,False
+Endothelial/mural,Zfand3,True,False
+Endothelial/mural,Zfhx3,False,False
+Endothelial/mural,Zfp366,False,True
+Endothelial/mural,Zic4,False,False
+Endothelial/mural,mt-Co1,False,True
+Ependymal,1300017J02Rik,False,True
+Ependymal,1500015O10Rik,False,False
+Ependymal,1700007G11Rik,False,True
+Ependymal,1700007K13Rik,False,True
+Ependymal,1700012B09Rik,False,True
+Ependymal,1700028P14Rik,False,True
+Ependymal,1700040L02Rik,False,True
+Ependymal,1700088E04Rik,False,True
+Ependymal,3300002A11Rik,False,True
+Ependymal,4833427G06Rik,False,True
+Ependymal,4932443I19Rik,False,True
+Ependymal,9530036O11Rik,False,True
+Ependymal,Acss3,False,False
+Ependymal,Adamts20,False,True
+Ependymal,Adgb,False,True
+Ependymal,Adgrv1,False,False
+Ependymal,Aebp1,False,False
+Ependymal,Agbl4,False,False
+Ependymal,Ak7,False,True
+Ependymal,Ak9,False,False
+Ependymal,Ankfn1,False,True
+Ependymal,Ankub1,False,True
+Ependymal,Anxa2,False,True
+Ependymal,Anxa5,False,True
+Ependymal,Armc2,False,False
+Ependymal,Armc3,False,True
+Ependymal,Armc4,False,True
+Ependymal,Ascc1,False,True
+Ependymal,BC051019,False,True
+Ependymal,Bbox1,False,True
+Ependymal,Calml4,False,False
+Ependymal,Ccdc108,False,False
+Ependymal,Ccdc113,False,True
+Ependymal,Ccdc146,False,True
+Ependymal,Ccdc153,False,True
+Ependymal,Ccdc162,False,True
+Ependymal,Ccdc170,False,True
+Ependymal,Ccdc180,False,True
+Ependymal,Ccdc30,False,False
+Ependymal,Ccdc39,False,True
+Ependymal,Ccdc60,False,True
+Ependymal,Cdhr3,False,True
+Ependymal,Cdkl4,False,True
+Ependymal,Cfap100,False,True
+Ependymal,Cfap126,False,True
+Ependymal,Cfap206,False,True
+Ependymal,Cfap221,False,True
+Ependymal,Cfap43,False,True
+Ependymal,Cfap44,False,False
+Ependymal,Cfap45,False,True
+Ependymal,Cfap46,False,True
+Ependymal,Cfap52,False,True
+Ependymal,Cfap54,False,False
+Ependymal,Cfap61,False,True
+Ependymal,Cfap69,False,False
+Ependymal,Cfap70,False,True
+Ependymal,Cfap77,False,True
+Ependymal,Clec3b,False,True
+Ependymal,Clu,False,False
+Ependymal,Crip2,False,False
+Ependymal,Crocc,False,True
+Ependymal,Crocc2,False,True
+Ependymal,Daw1,False,True
+Ependymal,Dbi,False,True
+Ependymal,Dnaaf3,False,True
+Ependymal,Dnah10,False,True
+Ependymal,Dnah11,False,False
+Ependymal,Dnah12,False,True
+Ependymal,Dnah2,False,True
+Ependymal,Dnah3,False,True
+Ependymal,Dnah5,False,True
+Ependymal,Dnah6,False,False
+Ependymal,Dnah7a,False,True
+Ependymal,Dnah7c,False,True
+Ependymal,Dnah9,False,False
+Ependymal,Dnaic1,False,True
+Ependymal,Dnali1,False,True
+Ependymal,Drc1,False,True
+Ependymal,Dthd1,False,True
+Ependymal,Dynlrb2,True,True
+Ependymal,Ect2l,False,True
+Ependymal,Efcab11,False,True
+Ependymal,Efhb,False,True
+Ependymal,Elof1,False,True
+Ependymal,Enkur,False,True
+Ependymal,Eno4,False,True
+Ependymal,Epb41l4a,False,True
+Ependymal,Ezr,False,False
+Ependymal,FRMPD2,False,True
+Ependymal,Fam166b,False,True
+Ependymal,Fam183b,False,True
+Ependymal,Fam216b,False,True
+Ependymal,Fbxl13,False,True
+Ependymal,Fhad1,False,False
+Ependymal,Foxj1,False,True
+Ependymal,Glis3,False,False
+Ependymal,Gm10714,False,True
+Ependymal,Gm13481,False,True
+Ependymal,Gm13830,False,True
+Ependymal,Gm14964,False,False
+Ependymal,Gm16083,False,True
+Ependymal,Gm16702,False,True
+Ependymal,Gm17135,False,True
+Ependymal,Gm29266,False,False
+Ependymal,Gm29571,False,True
+Ependymal,Gm42722,False,False
+Ependymal,Gm4876,False,False
+Ependymal,Gm7173,False,True
+Ependymal,Gm867,False,True
+Ependymal,Gm973,False,True
+Ependymal,Hspa2,False,True
+Ependymal,Hydin,False,True
+Ependymal,Ifitm3,False,False
+Ependymal,Iqca,False,True
+Ependymal,Iqcd,False,True
+Ependymal,Iqcg,False,True
+Ependymal,Iqck,False,True
+Ependymal,Iqgap2,False,False
+Ependymal,Iqub,False,False
+Ependymal,Katnal2,False,True
+Ependymal,Kif6,False,True
+Ependymal,Kif9,False,False
+Ependymal,Lmntd1,False,True
+Ependymal,Lmo4,False,False
+Ependymal,Lrrc36,False,True
+Ependymal,Lrrc43,False,True
+Ependymal,Lrrc48,False,True
+Ependymal,Lrrc51,False,True
+Ependymal,Lrrc6,False,True
+Ependymal,Lrrc71,False,True
+Ependymal,Lrrc74b,False,True
+Ependymal,Lrrc9,False,True
+Ependymal,Lrriq1,False,False
+Ependymal,Maats1,False,True
+Ependymal,Map3k19,False,True
+Ependymal,Meig1,False,True
+Ependymal,Mlc1,False,True
+Ependymal,Mlf1,False,True
+Ependymal,Mns1,False,True
+Ependymal,Mok,False,False
+Ependymal,Mt3,False,False
+Ependymal,Mycbpap,False,True
+Ependymal,Nek11,False,True
+Ependymal,Nek5,False,True
+Ependymal,Nme5,False,False
+Ependymal,Nnat,False,False
+Ependymal,Nudt4,False,True
+Ependymal,Odf3b,False,True
+Ependymal,Oscp1,False,True
+Ependymal,Pcp4l1,False,False
+Ependymal,Pifo,False,False
+Ependymal,Pltp,False,False
+Ependymal,Ppil6,False,True
+Ependymal,Ppp1r36,False,True
+Ependymal,Rarres2,True,True
+Ependymal,Rassf9,False,True
+Ependymal,Rfx2,False,True
+Ependymal,Rgs22,False,True
+Ependymal,Riiad1,False,True
+Ependymal,Rsph1,False,True
+Ependymal,Rsph10b,False,True
+Ependymal,Rsph4a,False,True
+Ependymal,Sox2,False,True
+Ependymal,Sox9,False,True
+Ependymal,Spag16,False,False
+Ependymal,Spag17,False,True
+Ependymal,Spag6l,False,False
+Ependymal,Spata17,False,False
+Ependymal,Spef2,False,False
+Ependymal,Stk33,False,True
+Ependymal,Stpg1,False,True
+Ependymal,Syt10,False,True
+Ependymal,Tctex1d4,False,True
+Ependymal,Tekt1,False,True
+Ependymal,Tm4sf1,False,False
+Ependymal,Tmem212,False,True
+Ependymal,Tmem232,False,True
+Ependymal,Tmem47,False,False
+Ependymal,Tppp3,False,True
+Ependymal,Tsnaxip1,False,True
+Ependymal,Ttc21a,False,True
+Ependymal,Ttc25,False,True
+Ependymal,Ttc29,False,True
+Ependymal,Ttll3,False,False
+Ependymal,Ttll6,False,True
+Ependymal,Ttll8,False,True
+Ependymal,Tubb4b,False,False
+Ependymal,Ubxn11,False,False
+Ependymal,Ulk4,False,True
+Ependymal,Unc5cl,False,True
+Ependymal,Vim,False,False
+Ependymal,Vit,False,True
+Ependymal,Vwa3a,False,False
+Ependymal,Wdr49,False,True
+Ependymal,Wdr63,False,True
+Ependymal,Wdr66,False,True
+Ependymal,Wdr78,False,False
+Ependymal,Wdr93,False,True
+Ependymal,Zbbx,False,True
+Ependymal,Zfp36l1,False,False
+Fibroblast,1700112E06Rik,False,False
+Fibroblast,2020-03-06,False,True
+Fibroblast,9530026P05Rik,False,False
+Fibroblast,A4galt,False,True
+Fibroblast,Acss3,False,False
+Fibroblast,Adam12,False,False
+Fibroblast,Adamts12,False,True
+Fibroblast,Add3,True,True
+Fibroblast,Aebp1,False,False
+Fibroblast,Afap1,False,True
+Fibroblast,Aff3,False,False
+Fibroblast,Agmo,False,False
+Fibroblast,Akap12,True,True
+Fibroblast,Akap13,True,False
+Fibroblast,Alcam,True,False
+Fibroblast,Aldh1a2,False,True
+Fibroblast,Ampd3,False,True
+Fibroblast,Aox3,False,True
+Fibroblast,Apod,True,False
+Fibroblast,Apoe,False,False
+Fibroblast,Arhgap18,False,False
+Fibroblast,Arhgap29,False,False
+Fibroblast,Arhgap6,False,False
+Fibroblast,Atp1a2,False,False
+Fibroblast,Bicc1,False,False
+Fibroblast,Bmp6,False,False
+Fibroblast,Bmp7,False,True
+Fibroblast,C1qtnf7,False,True
+Fibroblast,Cald1,True,False
+Fibroblast,Camk1d,False,False
+Fibroblast,Ccnd3,False,False
+Fibroblast,Celf2,False,False
+Fibroblast,Cemip,False,False
+Fibroblast,Cfh,False,False
+Fibroblast,Col1a1,False,True
+Fibroblast,Col1a2,False,True
+Fibroblast,Col23a1,False,False
+Fibroblast,Col26a1,False,True
+Fibroblast,Col4a5,False,True
+Fibroblast,Col4a6,False,False
+Fibroblast,Colec12,False,False
+Fibroblast,Cp,True,False
+Fibroblast,Cped1,False,False
+Fibroblast,Cpq,True,False
+Fibroblast,Ctdspl,False,False
+Fibroblast,Ctgf,False,True
+Fibroblast,Cxcl12,False,False
+Fibroblast,Dab2,True,False
+Fibroblast,Dcdc2a,False,True
+Fibroblast,Dcn,False,True
+Fibroblast,Dfna5,False,False
+Fibroblast,Diaph2,True,False
+Fibroblast,Dlc1,False,False
+Fibroblast,Dock6,False,False
+Fibroblast,Efemp1,True,True
+Fibroblast,Errfi1,False,True
+Fibroblast,Eya1,False,False
+Fibroblast,Eya2,False,True
+Fibroblast,Fbln1,False,True
+Fibroblast,Fbxl7,False,False
+Fibroblast,Fgfr1,False,True
+Fibroblast,Fhl2,False,True
+Fibroblast,Fibin,False,True
+Fibroblast,Fkbp5,False,False
+Fibroblast,Flrt2,False,False
+Fibroblast,Fmnl2,False,False
+Fibroblast,Foxd1,False,True
+Fibroblast,Foxp1,False,False
+Fibroblast,Fstl1,False,True
+Fibroblast,Gab2,False,False
+Fibroblast,Ghr,True,True
+Fibroblast,Gjb6,True,False
+Fibroblast,Glul,False,False
+Fibroblast,Gm14964,False,False
+Fibroblast,Gm15261,False,False
+Fibroblast,Gm26719,False,False
+Fibroblast,Gm26883,False,False
+Fibroblast,Gm27151,False,True
+Fibroblast,Gmds,False,True
+Fibroblast,Gpc6,False,False
+Fibroblast,Gsn,False,False
+Fibroblast,Gxylt2,False,True
+Fibroblast,Hlf,False,True
+Fibroblast,Igf2,False,False
+Fibroblast,Igfbp2,False,False
+Fibroblast,Igsf8,False,False
+Fibroblast,Il34,False,False
+Fibroblast,Isyna1,False,True
+Fibroblast,Itih5,False,False
+Fibroblast,Kcnk2,False,False
+Fibroblast,Kcnt2,False,False
+Fibroblast,Kdm7a,False,True
+Fibroblast,Lama1,False,False
+Fibroblast,Lama2,True,False
+Fibroblast,Lama4,False,False
+Fibroblast,Lamc1,False,False
+Fibroblast,Lamc3,False,False
+Fibroblast,Laptm4a,False,True
+Fibroblast,Ldb2,False,True
+Fibroblast,Lima1,False,False
+Fibroblast,Lmo4,False,False
+Fibroblast,Lpar1,False,False
+Fibroblast,Lrp1,False,True
+Fibroblast,Lrrk1,False,False
+Fibroblast,Maf,False,False
+Fibroblast,Mapk4,False,False
+Fibroblast,Mgat4c,False,False
+Fibroblast,Mill2,False,False
+Fibroblast,Mllt4,False,True
+Fibroblast,Mpp6,False,False
+Fibroblast,Mrc2,False,False
+Fibroblast,Mxi1,False,True
+Fibroblast,Neat1,False,False
+Fibroblast,Nedd4,False,True
+Fibroblast,Nfat5,True,True
+Fibroblast,Nid1,False,False
+Fibroblast,Nnat,False,False
+Fibroblast,Notch2,False,False
+Fibroblast,Nr2f2,False,False
+Fibroblast,Nupr1,False,True
+Fibroblast,Nxn,False,False
+Fibroblast,Pam,True,False
+Fibroblast,Pard3,False,False
+Fibroblast,Pard3b,False,False
+Fibroblast,Pcca,False,True
+Fibroblast,Pde1a,False,False
+Fibroblast,Pdgfra,False,False
+Fibroblast,Pdk1,False,True
+Fibroblast,Pdzrn3,False,False
+Fibroblast,Phlda1,False,True
+Fibroblast,Phldb2,False,False
+Fibroblast,Pid1,False,False
+Fibroblast,Pld1,False,False
+Fibroblast,Plekhh2,False,True
+Fibroblast,Plxdc2,True,False
+Fibroblast,Plxna2,False,False
+Fibroblast,Prickle1,False,False
+Fibroblast,Prkag2,False,True
+Fibroblast,Ptgds,False,False
+Fibroblast,Ptn,False,False
+Fibroblast,Ptpn13,False,False
+Fibroblast,RP23-474J16.2,False,True
+Fibroblast,Ranbp3l,False,True
+Fibroblast,Rbms1,True,False
+Fibroblast,Rbms3,False,False
+Fibroblast,Rbp1,False,False
+Fibroblast,Rbpms,False,False
+Fibroblast,Robo1,False,False
+Fibroblast,Ror1,False,False
+Fibroblast,Sdk1,False,False
+Fibroblast,Serping1,False,True
+Fibroblast,Sh3d19,False,False
+Fibroblast,Slc13a3,False,True
+Fibroblast,Slc13a4,False,False
+Fibroblast,Slc16a12,False,False
+Fibroblast,Slc1a3,False,False
+Fibroblast,Slc22a6,False,True
+Fibroblast,Slc22a8,False,False
+Fibroblast,Slc24a3,False,False
+Fibroblast,Slc38a2,False,False
+Fibroblast,Slc6a13,False,True
+Fibroblast,Slc6a20a,False,False
+Fibroblast,Slc7a11,False,True
+Fibroblast,Slc7a2,False,True
+Fibroblast,Sncaip,False,True
+Fibroblast,Sned1,False,False
+Fibroblast,Sparc,True,False
+Fibroblast,Sptbn1,False,False
+Fibroblast,St5,False,False
+Fibroblast,St6gal1,False,False
+Fibroblast,Stim1,False,True
+Fibroblast,Ston1,False,False
+Fibroblast,Sulf1,True,False
+Fibroblast,Svil,False,False
+Fibroblast,Tbx15,False,False
+Fibroblast,Tcf4,True,False
+Fibroblast,Tcf7l2,False,False
+Fibroblast,Tcte2,False,True
+Fibroblast,Tgfbr3,False,True
+Fibroblast,Timp3,False,False
+Fibroblast,Tmtc1,False,True
+Fibroblast,Tmtc4,False,True
+Fibroblast,Trpm3,True,False
+Fibroblast,Tshz2,False,False
+Fibroblast,Uaca,False,False
+Fibroblast,Ust,False,False
+Fibroblast,Utrn,False,False
+Fibroblast,Vcam1,True,False
+Fibroblast,Vim,False,False
+Fibroblast,Vtn,False,False
+Fibroblast,Wls,False,False
+Fibroblast,Wnt4,False,True
+Fibroblast,Zbtb16,False,False
+Fibroblast,Zbtb20,True,False
+Fibroblast,Zfand3,True,False
+Fibroblast,Zfhx3,False,False
+Fibroblast,Zfhx4,False,False
+Fibroblast,Zic1,False,False
+Fibroblast,Zic2,False,True
+Fibroblast,Zic4,False,False
+Golgi,2020-03-01,False,False
+Golgi,2020-03-04,False,True
+Golgi,2900055J20Rik,False,True
+Golgi,4921534H16Rik,False,True
+Golgi,4930509J09Rik,False,False
+Golgi,4930555F03Rik,False,False
+Golgi,5330434G04Rik,True,False
+Golgi,6530403H02Rik,False,False
+Golgi,9530059O14Rik,False,False
+Golgi,A230006K03Rik,False,False
+Golgi,A930011G23Rik,False,False
+Golgi,Abat,True,True
+Golgi,Ablim3,False,False
+Golgi,Acp1,False,True
+Golgi,Adamts3,False,False
+Golgi,Adamtsl1,False,True
+Golgi,Adarb1,True,False
+Golgi,Adarb2,False,False
+Golgi,Adcy2,False,False
+Golgi,Adcy8,True,False
+Golgi,Adgre5,False,True
+Golgi,Adgrl3,True,False
+Golgi,Aff2,False,False
+Golgi,Aff3,False,False
+Golgi,Agbl4,False,False
+Golgi,Ajap1,False,True
+Golgi,Alcam,True,False
+Golgi,Ank3,True,False
+Golgi,Ankrd55,False,True
+Golgi,Ano3,False,False
+Golgi,Ano4,True,False
+Golgi,Apba1,False,False
+Golgi,Arhgap26,False,False
+Golgi,Arl15,True,False
+Golgi,Asap1,True,False
+Golgi,Asic2,False,False
+Golgi,Atp1a3,False,False
+Golgi,Atp8a2,False,False
+Golgi,Atrnl1,False,False
+Golgi,Bmper,False,True
+Golgi,Btbd11,False,False
+Golgi,C1ql3,False,True
+Golgi,C530008M17Rik,False,False
+Golgi,C77370,False,True
+Golgi,Cacna1b,False,False
+Golgi,Cacna1d,False,False
+Golgi,Cacna2d3,False,False
+Golgi,Cacnb3,False,True
+Golgi,Cacng3,False,True
+Golgi,Cadps,True,False
+Golgi,Caln1,False,False
+Golgi,Ccser1,False,False
+Golgi,Cdh12,False,False
+Golgi,Cdh13,False,False
+Golgi,Cdh4,False,False
+Golgi,Celf4,True,False
+Golgi,Chl1,True,True
+Golgi,Chrm2,False,False
+Golgi,Cit,True,False
+Golgi,Clstn2,False,False
+Golgi,Cntn3,False,False
+Golgi,Cntn5,False,False
+Golgi,Cntnap2,True,False
+Golgi,Col23a1,False,False
+Golgi,Coro6,False,False
+Golgi,Crim1,False,True
+Golgi,Csmd1,False,False
+Golgi,Csmd2,False,False
+Golgi,Csmd3,True,False
+Golgi,Csrnp3,True,False
+Golgi,Cttnbp2,False,False
+Golgi,Dab1,True,False
+Golgi,Dach1,False,False
+Golgi,Dcc,False,False
+Golgi,Dgki,False,False
+Golgi,Dlgap1,True,False
+Golgi,Dlgap2,False,False
+Golgi,Dner,False,False
+Golgi,Dock10,True,False
+Golgi,Dok6,False,False
+Golgi,Dpp10,False,False
+Golgi,Dpp6,False,False
+Golgi,Dscaml1,False,False
+Golgi,Ebf3,False,False
+Golgi,Edil3,True,False
+Golgi,Efna5,False,False
+Golgi,Egfem1,False,False
+Golgi,Elavl2,True,False
+Golgi,Epha10,False,False
+Golgi,Epha3,False,False
+Golgi,Epha6,False,False
+Golgi,Ephb1,False,False
+Golgi,Ephb2,False,False
+Golgi,Erc2,True,False
+Golgi,Esrrg,False,False
+Golgi,Etl4,True,False
+Golgi,Fam65b,False,False
+Golgi,Fat3,False,False
+Golgi,Fchsd2,True,False
+Golgi,Fgf1,False,True
+Golgi,Fgf12,False,False
+Golgi,Fgf13,False,False
+Golgi,Flrt2,False,False
+Golgi,Fmn1,False,True
+Golgi,Focad,False,False
+Golgi,Frmd4a,False,False
+Golgi,Frmd4b,False,False
+Golgi,Fstl4,False,False
+Golgi,Fstl5,False,False
+Golgi,Gabra2,False,False
+Golgi,Gabrb3,False,False
+Golgi,Gabrg3,False,False
+Golgi,Gad2,False,False
+Golgi,Gm13629,False,False
+Golgi,Gm15398,False,False
+Golgi,Gm20642,False,False
+Golgi,Gm20754,False,False
+Golgi,Gm21798,False,True
+Golgi,Gm38399,False,False
+Golgi,Gpc5,False,False
+Golgi,Gpc6,False,False
+Golgi,Gpr158,False,False
+Golgi,Gria3,True,False
+Golgi,Grid1,False,False
+Golgi,Grik3,False,False
+Golgi,Grin2b,False,False
+Golgi,Grip1,False,False
+Golgi,Grm3,False,False
+Golgi,Grm5,False,False
+Golgi,Grm7,False,False
+Golgi,Grm8,False,False
+Golgi,Hcn1,False,False
+Golgi,Hecw1,False,False
+Golgi,Herc1,True,True
+Golgi,Homer2,False,False
+Golgi,Hs3st5,False,True
+Golgi,Hs6st3,False,False
+Golgi,Inpp4b,False,False
+Golgi,Iqsec1,False,False
+Golgi,Iqsec3,False,True
+Golgi,Jakmip1,False,True
+Golgi,Kcnd2,False,False
+Golgi,Kcnj6,False,False
+Golgi,Kcnk2,False,False
+Golgi,Kcnma1,True,False
+Golgi,Kcnmb2,False,True
+Golgi,Kcnn3,False,False
+Golgi,Kctd16,False,False
+Golgi,Kirrel3,False,False
+Golgi,Klf12,False,False
+Golgi,Lama1,False,False
+Golgi,Lgi2,False,True
+Golgi,Lingo2,False,False
+Golgi,Lrfn5,False,False
+Golgi,Lrp1b,True,False
+Golgi,Lrpap1,False,True
+Golgi,Lrrc7,False,False
+Golgi,Map4k3,True,False
+Golgi,Mcc,False,False
+Golgi,Mdga2,False,False
+Golgi,Meg3,True,False
+Golgi,Megf11,True,False
+Golgi,Mgat4c,False,False
+Golgi,Mgat5,False,False
+Golgi,Mgat5b,False,True
+Golgi,Mir124-2hg,False,False
+Golgi,Mirg,False,False
+Golgi,Mkx,False,False
+Golgi,Myo16,False,False
+Golgi,Myt1l,True,False
+Golgi,Nav1,False,False
+Golgi,Nckap5,False,False
+Golgi,Nebl,False,False
+Golgi,Necab1,False,True
+Golgi,Nhs,False,False
+Golgi,Nkain3,False,False
+Golgi,Nlgn1,True,False
+Golgi,Nrg1,False,False
+Golgi,Nrg3,False,False
+Golgi,Nrg3os,False,False
+Golgi,Nrxn3,True,False
+Golgi,Ntrk2,True,False
+Golgi,Nxph1,False,False
+Golgi,Nyap2,False,False
+Golgi,Olfm1,True,True
+Golgi,Oxr1,False,False
+Golgi,Pak3,False,False
+Golgi,Pax2,False,False
+Golgi,Pbx1,True,False
+Golgi,Pbx3,False,True
+Golgi,Pcdh15,False,False
+Golgi,Pcdh7,False,False
+Golgi,Pcdh9,False,False
+Golgi,Pclo,True,False
+Golgi,Pcsk2,False,False
+Golgi,Pde2a,False,True
+Golgi,Pde4d,False,False
+Golgi,Penk,False,True
+Golgi,Pex5l,True,False
+Golgi,Phf24,False,False
+Golgi,Pid1,False,False
+Golgi,Pla2g3,False,True
+Golgi,Plcl2,False,False
+Golgi,Plcxd3,False,False
+Golgi,Plekha6,False,False
+Golgi,Plxna4,False,False
+Golgi,Ppm1e,False,False
+Golgi,Ppp2r2b,True,False
+Golgi,Ptpn5,False,False
+Golgi,Ptprg,False,False
+Golgi,Ptprm,True,False
+Golgi,Ptprn2,False,False
+Golgi,Rab3b,False,True
+Golgi,Rap1gap2,False,False
+Golgi,Rasgrf1,False,False
+Golgi,Rbfox1,True,False
+Golgi,Rbms3,False,False
+Golgi,Rgl1,False,True
+Golgi,Rgs6,False,False
+Golgi,Rgs7,False,False
+Golgi,Rgs7bp,False,False
+Golgi,Rimbp2,False,True
+Golgi,Rims1,False,False
+Golgi,Rnf152,False,True
+Golgi,Robo2,True,False
+Golgi,Ryr2,False,False
+Golgi,Ryr3,False,False
+Golgi,Scn1a,True,False
+Golgi,Scn8a,True,False
+Golgi,Sema3e,False,False
+Golgi,Sema6d,True,False
+Golgi,Sez6,False,True
+Golgi,Sgcd,False,False
+Golgi,Sgcz,False,False
+Golgi,Shisa6,False,False
+Golgi,Slc24a5,False,True
+Golgi,Slc2a13,False,False
+Golgi,Slc35f1,False,False
+Golgi,Slc35f4,False,False
+Golgi,Slc44a5,False,False
+Golgi,Slc4a7,True,True
+Golgi,Slc6a5,False,False
+Golgi,Slc8a1,True,False
+Golgi,Snhg11,False,False
+Golgi,Snph,False,False
+Golgi,Sorbs2,True,False
+Golgi,Sorcs1,False,False
+Golgi,Spock1,True,False
+Golgi,Spock3,True,False
+Golgi,Syn2,False,False
+Golgi,Syn3,False,False
+Golgi,Syt1,True,False
+Golgi,Tbc1d4,True,False
+Golgi,Tenm2,False,False
+Golgi,Tenm3,False,False
+Golgi,Tenm4,False,False
+Golgi,Tfap2b,False,False
+Golgi,Thsd4,False,True
+Golgi,Tjp1,True,False
+Golgi,Tll1,False,False
+Golgi,Tll2,False,True
+Golgi,Tln2,False,False
+Golgi,Tmem91,False,True
+Golgi,Tnr,False,False
+Golgi,Traf3,False,True
+Golgi,Ube3a,True,False
+Golgi,Unc5c,False,False
+Golgi,Vwc2,False,False
+Golgi,Wbscr17,False,False
+Golgi,Wwc1,False,False
+Golgi,Xkr4,False,False
+Golgi,Xylt1,False,False
+Golgi,Zfp385b,True,False
+Golgi,Zfp804a,False,False
+Golgi,Zmat4,False,False
+Granule,1700025G04Rik,False,True
+Granule,4930578G10Rik,False,False
+Granule,6530403H02Rik,False,False
+Granule,Ablim1,True,False
+Granule,Ablim3,False,False
+Granule,Adam22,True,False
+Granule,Adamts18,False,False
+Granule,Adcy1,False,True
+Granule,Aig1,False,True
+Granule,Airn,False,False
+Granule,Als2,False,False
+Granule,Angpt1,False,False
+Granule,Ank1,False,False
+Granule,Ank3,True,False
+Granule,Ano3,False,False
+Granule,Apba1,False,False
+Granule,Arpp21,False,False
+Granule,Asic2,False,False
+Granule,Astn2,True,False
+Granule,Atp1a1,False,True
+Granule,Atp2b3,False,False
+Granule,Bend6,False,False
+Granule,Bicd1,False,True
+Granule,Brinp1,False,False
+Granule,Brinp3,False,False
+Granule,Bsn,False,True
+Granule,Btg1,False,True
+Granule,Cacna1a,False,False
+Granule,Cacna1c,True,False
+Granule,Cacna1d,False,False
+Granule,Cacna1e,False,False
+Granule,Cacna2d1,False,False
+Granule,Cacnb4,False,False
+Granule,Cadm1,True,False
+Granule,Cadm2,True,False
+Granule,Cadm3,True,True
+Granule,Cadps2,True,True
+Granule,Caln1,False,False
+Granule,Camk2d,True,False
+Granule,Camk4,False,True
+Granule,Car10,False,False
+Granule,Cbln3,False,True
+Granule,Ccser1,False,False
+Granule,Cdh18,False,False
+Granule,Cdh7,False,False
+Granule,Cdh8,True,True
+Granule,Celf4,True,False
+Granule,Cemip,False,False
+Granule,Cers6,True,True
+Granule,Chd7,True,False
+Granule,Chd9,False,False
+Granule,Chgb,False,False
+Granule,Chn2,False,False
+Granule,Chrm3,False,True
+Granule,Clstn2,False,False
+Granule,Cnksr2,False,False
+Granule,Cnksr3,False,False
+Granule,Cnr1,False,False
+Granule,Cntn6,False,False
+Granule,Cntnap2,True,False
+Granule,Cntnap4,False,False
+Granule,Cpe,False,False
+Granule,Cplx2,False,True
+Granule,Crhr1,False,True
+Granule,Crtam,False,True
+Granule,Ctnna2,True,False
+Granule,Ctnna3,False,False
+Granule,Cux1,False,True
+Granule,D430041D05Rik,False,True
+Granule,Dcc,False,False
+Granule,Dclk1,True,True
+Granule,Dgkd,False,True
+Granule,Dgkg,True,False
+Granule,Diras2,False,True
+Granule,Dlg2,True,False
+Granule,Dlgap1,True,False
+Granule,Dock4,False,False
+Granule,Dock9,True,False
+Granule,Dpf3,False,False
+Granule,Dpp10,False,False
+Granule,Dpp6,False,False
+Granule,Dscaml1,False,False
+Granule,Dst,True,False
+Granule,E530001K10Rik,False,True
+Granule,Enox1,False,False
+Granule,Epb41,True,False
+Granule,Epb41l4b,True,True
+Granule,Epha3,False,False
+Granule,Ephb1,False,False
+Granule,Eps8,False,False
+Granule,Erbb4,True,False
+Granule,Erc1,True,True
+Granule,Etv1,False,True
+Granule,Exph5,False,True
+Granule,Ext1,False,True
+Granule,Fam135b,False,False
+Granule,Fam155a,False,False
+Granule,Fat2,False,True
+Granule,Fbxw11,True,True
+Granule,Fgf12,False,False
+Granule,Fgf14,False,False
+Granule,Fnbp1,True,False
+Granule,Fstl5,False,False
+Granule,Fut8,False,True
+Granule,Fut9,False,False
+Granule,Gabbr2,False,False
+Granule,Gabra1,False,False
+Granule,Gabra6,True,True
+Granule,Gabrb2,False,False
+Granule,Gabrb3,False,False
+Granule,Gabrd,False,True
+Granule,Gabrg2,True,False
+Granule,Galnt13,False,False
+Granule,Galnt7,True,True
+Granule,Galntl6,False,False
+Granule,Gap43,False,True
+Granule,Gm15563,False,True
+Granule,Gm20696,False,True
+Granule,Gm2163,False,False
+Granule,Gm26835,False,True
+Granule,Gm26905,False,True
+Granule,Gm2694,True,True
+Granule,Gm28376,False,False
+Granule,Gm38112,False,True
+Granule,Gm42912,False,True
+Granule,Gpm6a,False,False
+Granule,Gpr158,False,False
+Granule,Gprin3,False,False
+Granule,Gria4,False,False
+Granule,Grik2,True,False
+Granule,Grin1,False,False
+Granule,Grin2a,False,True
+Granule,Grin2c,False,True
+Granule,Grk5,False,False
+Granule,Grm1,True,False
+Granule,Grm4,False,True
+Granule,Hivep2,False,True
+Granule,Homer1,False,True
+Granule,Hs6st3,False,False
+Granule,Il16,True,True
+Granule,Il1rapl1,False,False
+Granule,Inadl,False,False
+Granule,Jph1,False,True
+Granule,Kcnb2,False,False
+Granule,Kcnc1,False,False
+Granule,Kcnd2,False,False
+Granule,Kcnd3,False,False
+Granule,Kcnh1,False,False
+Granule,Kcnip4,False,False
+Granule,Kcnj12,False,True
+Granule,Kcnj3,False,False
+Granule,Kcnj6,False,False
+Granule,Kcnk10,False,True
+Granule,Kcnk12,False,True
+Granule,Kctd8,False,False
+Granule,Kif26b,False,True
+Granule,Kirrel3,False,False
+Granule,Ldlrad4,False,False
+Granule,Lhfp,False,False
+Granule,Lin7a,True,False
+Granule,Lpp,False,True
+Granule,Lrrc3b,False,True
+Granule,Lrrc4c,False,False
+Granule,Lrrtm3,False,False
+Granule,Lurap1,False,True
+Granule,Ly6h,False,False
+Granule,Maml3,False,False
+Granule,Map2,True,False
+Granule,Mapk10,True,True
+Granule,Mctp1,False,False
+Granule,Mcu,False,True
+Granule,Megf11,True,False
+Granule,Meis1,True,False
+Granule,Mgll,False,False
+Granule,Mmp24,False,True
+Granule,Mpp7,False,False
+Granule,Msra,False,False
+Granule,Mtcl1,False,False
+Granule,Mtus2,False,False
+Granule,Nav2,False,False
+Granule,Nav3,False,False
+Granule,Ncald,False,False
+Granule,Ndrg3,True,True
+Granule,Ndst3,True,False
+Granule,Neb,False,True
+Granule,Nedd4l,True,True
+Granule,Negr1,False,False
+Granule,Nell2,False,False
+Granule,Neurl1a,False,True
+Granule,Nfib,False,False
+Granule,Nhsl2,False,False
+Granule,Nmnat2,False,False
+Granule,Nr4a2,False,True
+Granule,Nrep,False,True
+Granule,Nrg2,False,True
+Granule,Nrg3,False,False
+Granule,Nrxn1,True,False
+Granule,Nrxn3,True,False
+Granule,Ntn4,False,True
+Granule,Ntng1,False,False
+Granule,Ntrk3,False,False
+Granule,Nxn,False,False
+Granule,Nyap2,False,False
+Granule,Olfm3,False,True
+Granule,Opcml,True,False
+Granule,Oprm1,False,True
+Granule,Otud7a,False,False
+Granule,Oxr1,False,False
+Granule,Pacsin1,False,False
+Granule,Pan3,True,True
+Granule,Pax6,True,True
+Granule,Pclo,True,False
+Granule,Pcsk2,False,False
+Granule,Pde10a,False,False
+Granule,Pde1c,True,False
+Granule,Pde4b,False,False
+Granule,Pde4d,False,False
+Granule,Peak1,False,True
+Granule,Phactr3,False,False
+Granule,Pik3r3,False,False
+Granule,Pip5k1b,True,False
+Granule,Pkib,False,False
+Granule,Plcb4,True,False
+Granule,Plcl2,False,False
+Granule,Plcxd3,False,False
+Granule,Pld5,False,False
+Granule,Ppfia2,True,True
+Granule,Ppp3ca,True,True
+Granule,Prkcb,True,False
+Granule,Prkce,False,False
+Granule,Prr16,False,False
+Granule,Ptchd1,False,True
+Granule,Ptprd,True,False
+Granule,Ptprg,False,False
+Granule,Ptprj,False,False
+Granule,Ptprn,False,True
+Granule,Ptprn2,False,False
+Granule,Ptprr,False,False
+Granule,Ptprt,False,False
+Granule,RP24-274B19.1,False,False
+Granule,Rab3c,True,False
+Granule,Rabgap1l,True,True
+Granule,Ralyl,True,True
+Granule,Rapgef4,True,True
+Granule,Rapgef4os1,False,True
+Granule,Rbfox1,True,False
+Granule,Rbfox3,False,True
+Granule,Reln,False,False
+Granule,Rgs7,False,False
+Granule,Rif1,True,True
+Granule,Rims1,False,False
+Granule,Rims2,False,True
+Granule,Rit2,False,False
+Granule,Rnf112,False,True
+Granule,Rock2,False,True
+Granule,Ror1,False,False
+Granule,Rps6ka1,False,True
+Granule,Rtn1,True,True
+Granule,Runx1t1,False,True
+Granule,Ryr2,False,False
+Granule,Samd12,False,False
+Granule,Scn2a1,False,False
+Granule,Sel1l3,False,True
+Granule,Sema5a,False,False
+Granule,Setbp1,False,True
+Granule,Sh3gl2,False,True
+Granule,Shf,False,True
+Granule,Sidt1,False,True
+Granule,Sik3,False,False
+Granule,Slc2a13,False,False
+Granule,Slc4a4,True,False
+Granule,Slc6a17,False,False
+Granule,Slit3,False,True
+Granule,Smg1,True,True
+Granule,Snap25,False,False
+Granule,Soga1,False,False
+Granule,Sorcs1,False,False
+Granule,Specc1,True,False
+Granule,Sphkap,True,False
+Granule,Spock1,True,False
+Granule,Spred2,True,True
+Granule,Srgap2,False,False
+Granule,Srgap3,True,True
+Granule,Srrm4,False,False
+Granule,Srrm4os,False,True
+Granule,St18,False,False
+Granule,St3gal5,False,True
+Granule,Stmn2,False,True
+Granule,Stxbp1,True,False
+Granule,Stxbp5l,True,False
+Granule,Sv2b,False,False
+Granule,Svep1,False,True
+Granule,Svop,False,True
+Granule,Syn2,False,False
+Granule,Syne1,True,True
+Granule,Syne2,False,True
+Granule,Synpr,False,False
+Granule,Syt1,True,False
+Granule,Syt4,False,True
+Granule,Syt9,False,True
+Granule,Tcf4,True,False
+Granule,Tenm1,False,True
+Granule,Thtpa,False,False
+Granule,Tiam1,False,False
+Granule,Tll1,False,False
+Granule,Tmem108,False,False
+Granule,Tmem132c,False,False
+Granule,Tmem132cos,False,True
+Granule,Tmem163,False,False
+Granule,Tmem178,False,False
+Granule,Tmem266,False,True
+Granule,Trhde,False,True
+Granule,Trim62,False,True
+Granule,Trpm3,True,False
+Granule,Tspan7,False,False
+Granule,Unc13c,False,False
+Granule,Unc5c,False,False
+Granule,Usp3,False,True
+Granule,Vat1l,False,False
+Granule,Vsnl1,False,False
+Granule,Wscd2,False,True
+Granule,Xkr6,False,True
+Granule,Zbtb20,True,False
+Granule,Zfp385b,True,False
+Granule,Zfp521,True,False
+Granule,Zfpm2,False,False
+Granule,Zfyve28,False,False
+Granule,Zic1,False,False
+Granule,Zmiz1,False,True
+MLI1,2020-03-11,False,False
+MLI1,4933413L06Rik,False,False
+MLI1,Adam11,False,True
+MLI1,Adamts2,False,False
+MLI1,Adarb2,False,False
+MLI1,Adgrb1,False,False
+MLI1,Adgrb3,False,False
+MLI1,Adgrl3,True,False
+MLI1,Ahcyl2,False,False
+MLI1,Anks1b,False,False
+MLI1,Apba2,True,False
+MLI1,Arhgef26,False,False
+MLI1,Arl15,True,False
+MLI1,Arl4c,False,False
+MLI1,Asap1,True,False
+MLI1,Asic2,False,False
+MLI1,Atp1a3,False,False
+MLI1,Atp1b1,False,False
+MLI1,Atp2b1,True,False
+MLI1,Auts2,False,False
+MLI1,Bhlhe22,False,True
+MLI1,Brinp3,False,False
+MLI1,Btbd11,False,False
+MLI1,C1qtnf4,False,False
+MLI1,Cabp1,False,False
+MLI1,Cacna1d,False,False
+MLI1,Cacna2d3,False,False
+MLI1,Cacnb2,True,False
+MLI1,Cacng2,False,False
+MLI1,Cadps,True,False
+MLI1,Camta1,True,False
+MLI1,Ccser1,False,False
+MLI1,Cdh12,False,False
+MLI1,Celf4,True,False
+MLI1,Chst9,False,True
+MLI1,Clmp,False,False
+MLI1,Clstn1,True,True
+MLI1,Clstn3,False,True
+MLI1,Cnpy1,False,True
+MLI1,Cnr1,False,False
+MLI1,Cntn3,False,False
+MLI1,Cntn4,True,False
+MLI1,Coro6,False,False
+MLI1,Cotl1,False,True
+MLI1,Csmd1,False,False
+MLI1,Csrnp3,True,False
+MLI1,Cttnbp2,False,False
+MLI1,Cyld,True,False
+MLI1,Dab1,True,False
+MLI1,Dgki,False,False
+MLI1,Dlgap1,True,False
+MLI1,Dnah11,False,False
+MLI1,Dner,False,False
+MLI1,Dock7,True,False
+MLI1,Dpf3,False,False
+MLI1,Dscam,False,False
+MLI1,Dscaml1,False,False
+MLI1,Dusp10,False,False
+MLI1,Dync1i1,True,False
+MLI1,Efna5,False,False
+MLI1,Efr3b,False,False
+MLI1,Elavl4,False,False
+MLI1,Elmod1,False,False
+MLI1,Eml5,False,False
+MLI1,Enox1,False,False
+MLI1,Ephb2,False,False
+MLI1,Erc2,True,False
+MLI1,Esrrg,False,False
+MLI1,Etl4,True,False
+MLI1,Fam155a,False,False
+MLI1,Fam49b,False,False
+MLI1,Fat3,False,False
+MLI1,Fgf13,False,False
+MLI1,Frmd3,False,False
+MLI1,Frmd4a,False,False
+MLI1,Frmpd4,False,False
+MLI1,Gabra1,False,False
+MLI1,Gabrb2,False,False
+MLI1,Gabrg2,True,False
+MLI1,Gad1,False,False
+MLI1,Gad2,False,False
+MLI1,Galnt13,False,False
+MLI1,Galnt18,False,False
+MLI1,Gbas,False,True
+MLI1,Gdpd5,False,True
+MLI1,Glce,False,False
+MLI1,Gldc,False,True
+MLI1,Gm11417,False,True
+MLI1,Gm13629,False,False
+MLI1,Gm1992,False,True
+MLI1,Gm26688,False,False
+MLI1,Gnal,False,True
+MLI1,Gpr158,False,False
+MLI1,Gria2,True,False
+MLI1,Gria3,True,False
+MLI1,Gria4,False,False
+MLI1,Grid1,False,False
+MLI1,Grid2,False,False
+MLI1,Grik3,False,False
+MLI1,Grin1,False,False
+MLI1,Grin2b,False,False
+MLI1,Grm1,True,False
+MLI1,Grm3,False,False
+MLI1,Grm8,False,False
+MLI1,Hcn1,False,False
+MLI1,Hecw1,False,False
+MLI1,Hipk2,False,True
+MLI1,Hunk,False,False
+MLI1,Il1rapl1,False,False
+MLI1,Inpp4b,False,False
+MLI1,Iqsec1,False,False
+MLI1,Kcna1,False,False
+MLI1,Kcna2,False,False
+MLI1,Kcnd3,False,False
+MLI1,Kcnip4,False,False
+MLI1,Kcnma1,True,False
+MLI1,Kcnq3,False,False
+MLI1,Kctd8,False,False
+MLI1,Kif5c,False,False
+MLI1,Kirrel3,False,False
+MLI1,Kit,False,False
+MLI1,Lhfpl3,True,False
+MLI1,Lingo2,False,False
+MLI1,Lrfn5,False,False
+MLI1,Lrp1b,True,False
+MLI1,Lrrc4c,False,False
+MLI1,Lrrc7,False,False
+MLI1,Lrrtm4,False,False
+MLI1,Lsamp,True,False
+MLI1,Luzp2,False,False
+MLI1,Lypd6,False,True
+MLI1,Macrod2,True,False
+MLI1,Malt1,False,True
+MLI1,Man2a1,False,False
+MLI1,Mb21d2,False,True
+MLI1,Mdga2,False,False
+MLI1,Med12l,True,True
+MLI1,Meg3,True,False
+MLI1,Megf10,False,True
+MLI1,Megf11,True,False
+MLI1,Mgat4c,False,False
+MLI1,Mgat5,False,False
+MLI1,Mpp7,False,False
+MLI1,Mtus2,False,False
+MLI1,Myo16,False,False
+MLI1,Myt1l,True,False
+MLI1,Nav1,False,False
+MLI1,Nkain2,False,False
+MLI1,Nlgn1,True,False
+MLI1,Nos1,False,False
+MLI1,Nos1ap,False,False
+MLI1,Npas3,False,False
+MLI1,Nrxn1,True,False
+MLI1,Nrxn3,True,False
+MLI1,Nsf,False,False
+MLI1,Ntm,True,False
+MLI1,Ntn1,False,False
+MLI1,Ntrk2,True,False
+MLI1,Nwd2,False,False
+MLI1,Osbpl10,False,False
+MLI1,P2ry14,False,False
+MLI1,Pak1,False,False
+MLI1,Pam,True,False
+MLI1,Parm1,False,False
+MLI1,Phactr2,False,False
+MLI1,Phf24,False,False
+MLI1,Pid1,False,False
+MLI1,Pkp4,True,False
+MLI1,Pla2g4e,False,False
+MLI1,Plcb1,True,False
+MLI1,Plch1,False,True
+MLI1,Pld5,False,False
+MLI1,Plxna4,False,False
+MLI1,Ppm1l,False,False
+MLI1,Prkca,False,False
+MLI1,Prkcb,True,False
+MLI1,Prkcd,True,True
+MLI1,Prkcg,False,False
+MLI1,Ptprk,True,False
+MLI1,Ptprn2,False,False
+MLI1,Ptprz1,True,False
+MLI1,Pvalb,False,False
+MLI1,Rab3c,True,False
+MLI1,Rasgrf1,False,False
+MLI1,Rbfox2,True,True
+MLI1,Rgs7,False,False
+MLI1,Rora,False,False
+MLI1,Rph3a,False,False
+MLI1,Scn1a,True,False
+MLI1,Scn8a,True,False
+MLI1,Scn9a,False,False
+MLI1,Sdk2,False,False
+MLI1,Sema3e,False,False
+MLI1,Serpini1,False,False
+MLI1,Sgcd,False,False
+MLI1,Sgcz,False,False
+MLI1,Sgk1,False,False
+MLI1,Shank2,False,False
+MLI1,Shank3,False,True
+MLI1,Shisa6,False,False
+MLI1,Sipa1l3,False,False
+MLI1,Slc12a5,False,False
+MLI1,Slc24a2,True,False
+MLI1,Slc24a3,False,False
+MLI1,Slc32a1,False,True
+MLI1,Slc4a10,True,False
+MLI1,Slc6a1,False,False
+MLI1,Slc8a1,True,False
+MLI1,Snhg11,False,False
+MLI1,Snph,False,False
+MLI1,Sntg1,True,False
+MLI1,Socs2,False,True
+MLI1,Sorbs2,True,False
+MLI1,Sorcs3,False,False
+MLI1,Spock1,True,False
+MLI1,Spock3,True,False
+MLI1,Srrm4,False,False
+MLI1,Stac2,False,False
+MLI1,Stmn3,False,False
+MLI1,Syn2,False,False
+MLI1,Syndig1,False,False
+MLI1,Syt2,False,False
+MLI1,Tbc1d4,True,False
+MLI1,Tenm2,False,False
+MLI1,Tfap2b,False,False
+MLI1,Thsd7a,False,False
+MLI1,Tmem117,False,False
+MLI1,Tmtc2,False,False
+MLI1,Tnr,False,False
+MLI1,Trim67,False,False
+MLI1,Trim9,True,False
+MLI1,Trpc5,False,False
+MLI1,Trpc7,False,False
+MLI1,Ttc3,True,False
+MLI1,Ube3a,True,False
+MLI1,Unc13c,False,False
+MLI1,Unc5c,False,False
+MLI1,Vav3,False,False
+MLI1,Wasf1,False,True
+MLI1,Wbscr17,False,False
+MLI1,Whrn,False,False
+MLI1,Wwox,False,False
+MLI1,Xkr4,False,False
+MLI1,Zcchc16,False,False
+MLI1,Zcchc18,False,False
+MLI1,Zfp423,False,False
+MLI1,Zfp521,True,False
+MLI1,Zfp804a,False,False
+MLI1,Zfpm2,False,False
+MLI1,Zfyve28,False,False
+MLI2,2020-03-11,False,False
+MLI2,4933413L06Rik,False,False
+MLI2,Adamts16,False,False
+MLI2,Adcy8,True,False
+MLI2,Adgrb1,False,False
+MLI2,Adgrb3,False,False
+MLI2,Adk,True,False
+MLI2,Afap1l2,False,False
+MLI2,Aff2,False,False
+MLI2,Ahcyl2,False,False
+MLI2,Ahi1,True,False
+MLI2,Apba2,True,False
+MLI2,Arhgap10,True,False
+MLI2,Arhgef37,False,True
+MLI2,Arl4c,False,False
+MLI2,Atp1a3,False,False
+MLI2,Atp1b1,False,False
+MLI2,Atp2b1,True,False
+MLI2,B3galt1,False,False
+MLI2,Bend6,False,False
+MLI2,Btbd11,False,False
+MLI2,C1qtnf4,False,False
+MLI2,Cabp1,False,False
+MLI2,Cacna1d,False,False
+MLI2,Cacna2d2,False,False
+MLI2,Cacna2d3,False,False
+MLI2,Cacng2,False,False
+MLI2,Cadm1,True,False
+MLI2,Cadps,True,False
+MLI2,Camk1d,False,False
+MLI2,Camta1,True,False
+MLI2,Ccser1,False,False
+MLI2,Cdh22,False,False
+MLI2,Cnr1,False,False
+MLI2,Cntn4,True,False
+MLI2,Cntn6,False,False
+MLI2,Cpe,False,False
+MLI2,Csmd1,False,False
+MLI2,Cux2,False,False
+MLI2,Cyld,True,False
+MLI2,Dab1,True,False
+MLI2,Dlg2,True,False
+MLI2,Dlg4,True,True
+MLI2,Dlgap1,True,False
+MLI2,Dlgap3,False,True
+MLI2,Dock7,True,False
+MLI2,Dpp6,False,False
+MLI2,Dscam,False,False
+MLI2,Dscaml1,False,False
+MLI2,Dusp10,False,False
+MLI2,Dync1i1,True,False
+MLI2,Efr3b,False,False
+MLI2,Eml5,False,False
+MLI2,Enox1,False,False
+MLI2,Epb41,True,False
+MLI2,Erc2,True,False
+MLI2,Esrrg,False,False
+MLI2,Fam155a,False,False
+MLI2,Fat3,False,False
+MLI2,Fgf13,False,False
+MLI2,Fgf14,False,False
+MLI2,Frmd3,False,False
+MLI2,Frmd4a,False,False
+MLI2,Frmpd4,False,False
+MLI2,Fstl4,False,False
+MLI2,Gabra1,False,False
+MLI2,Gabrg2,True,False
+MLI2,Gad1,False,False
+MLI2,Gad2,False,False
+MLI2,Gm13629,False,False
+MLI2,Gm26688,False,False
+MLI2,Gpr158,False,False
+MLI2,Gria2,True,False
+MLI2,Gria3,True,False
+MLI2,Gria4,False,False
+MLI2,Grik3,False,False
+MLI2,Grin1,False,False
+MLI2,Grin2b,False,False
+MLI2,Grin3a,False,False
+MLI2,Grm1,True,False
+MLI2,Hcn1,False,False
+MLI2,Inpp4b,False,False
+MLI2,Kcna2,False,False
+MLI2,Kcnc1,False,False
+MLI2,Kcnd3,False,False
+MLI2,Kcnip3,False,False
+MLI2,Kcnma1,True,False
+MLI2,Kcnq3,False,False
+MLI2,Kctd16,False,False
+MLI2,Kctd8,False,False
+MLI2,Kif5c,False,False
+MLI2,Kirrel3,False,False
+MLI2,Kit,False,False
+MLI2,Klf12,False,False
+MLI2,Lmo4,False,False
+MLI2,Lrrc4c,False,False
+MLI2,Lrrc7,False,False
+MLI2,Lrrtm4,False,False
+MLI2,Lrtm1,False,False
+MLI2,Lsamp,True,False
+MLI2,Luzp2,False,False
+MLI2,Ly6h,False,False
+MLI2,Macrod2,True,False
+MLI2,Mapk4,False,False
+MLI2,Mdga2,False,False
+MLI2,Mdh1,False,True
+MLI2,Me3,False,False
+MLI2,Meg3,True,False
+MLI2,Mir124a-1hg,False,False
+MLI2,Mpp7,False,False
+MLI2,Mtus2,False,False
+MLI2,Myo16,False,False
+MLI2,Myt1l,True,False
+MLI2,Nkain2,False,False
+MLI2,Nlgn1,True,False
+MLI2,Nos1,False,False
+MLI2,Nrg3,False,False
+MLI2,Nrxn1,True,False
+MLI2,Nrxn3,True,False
+MLI2,Nsf,False,False
+MLI2,Ntm,True,False
+MLI2,Ntn1,False,False
+MLI2,Ntrk2,True,False
+MLI2,Nxph1,False,False
+MLI2,Osbpl10,False,False
+MLI2,Osbpl3,False,True
+MLI2,Osbpl6,True,False
+MLI2,Pacsin1,False,False
+MLI2,Pam,True,False
+MLI2,Parm1,False,False
+MLI2,Phactr1,True,False
+MLI2,Phf24,False,False
+MLI2,Pkp4,True,False
+MLI2,Pla2g4e,False,False
+MLI2,Plcb1,True,False
+MLI2,Pld5,False,False
+MLI2,Plxna4,False,False
+MLI2,Pnkd,True,True
+MLI2,Polb,False,True
+MLI2,Ppargc1a,True,True
+MLI2,Prdm8,False,True
+MLI2,Prkca,False,False
+MLI2,Prkcb,True,False
+MLI2,Ptprn2,False,False
+MLI2,Ptprt,False,False
+MLI2,Ptprz1,True,False
+MLI2,Pvalb,False,False
+MLI2,Pvt1,True,False
+MLI2,Rab3c,True,False
+MLI2,Rasgrf1,False,False
+MLI2,Rgs7,False,False
+MLI2,Rmst,True,False
+MLI2,Rora,False,False
+MLI2,Rph3a,False,False
+MLI2,Scn1a,True,False
+MLI2,Scn9a,False,False
+MLI2,Serpini1,False,False
+MLI2,Sgcz,False,False
+MLI2,Sgk1,False,False
+MLI2,Shank1,False,False
+MLI2,Shisa6,False,False
+MLI2,Sipa1l3,False,False
+MLI2,Slc12a5,False,False
+MLI2,Slc16a11,False,False
+MLI2,Slc24a2,True,False
+MLI2,Slc24a3,False,False
+MLI2,Slc4a10,True,False
+MLI2,Slc6a1,False,False
+MLI2,Snhg11,False,False
+MLI2,Sntg1,True,False
+MLI2,Spock3,True,False
+MLI2,St8sia5,True,True
+MLI2,Stac2,False,False
+MLI2,Stard5,False,False
+MLI2,Stmn3,False,False
+MLI2,Syn2,False,False
+MLI2,Syn3,False,False
+MLI2,Syndig1,False,False
+MLI2,Syt14,False,False
+MLI2,Tfap2b,False,False
+MLI2,Tmtc2,False,False
+MLI2,Tnik,True,False
+MLI2,Tnr,False,False
+MLI2,Trim67,False,False
+MLI2,Trim9,True,False
+MLI2,Trpc5,False,False
+MLI2,Trpc7,False,False
+MLI2,Ttc3,True,False
+MLI2,Ube3a,True,False
+MLI2,Unc13c,False,False
+MLI2,Unc5c,False,False
+MLI2,Unc80,False,True
+MLI2,Wbscr17,False,False
+MLI2,Wwox,False,False
+MLI2,Xkr4,False,False
+MLI2,Zcchc16,False,False
+MLI2,Zfp423,False,False
+MLI2,Zfp521,True,False
+MLI2,Zfpm2,False,False
+MLI2,Zfyve28,False,False
+Macrophage,0610040J01Rik,False,False
+Macrophage,1700112E06Rik,False,False
+Macrophage,AI607873,False,True
+Macrophage,Abca1,False,True
+Macrophage,Abca9,False,False
+Macrophage,Adam33,False,True
+Macrophage,Adap2,False,False
+Macrophage,Adap2os,False,False
+Macrophage,Adcy7,False,True
+Macrophage,Adgre1,False,True
+Macrophage,Afap1l1,False,False
+Macrophage,Agmo,False,False
+Macrophage,Anapc15,False,True
+Macrophage,Aoah,False,True
+Macrophage,Apbb1ip,False,False
+Macrophage,Apobec1,False,True
+Macrophage,Apobec3,False,True
+Macrophage,Apoe,False,False
+Macrophage,Arhgap15,False,True
+Macrophage,Arhgap19,False,True
+Macrophage,Arhgap22,False,False
+Macrophage,Atp5o,False,False
+Macrophage,B4galt1,False,False
+Macrophage,Bank1,False,True
+Macrophage,Blnk,False,False
+Macrophage,Blvrb,False,True
+Macrophage,C1qa,False,False
+Macrophage,C1qb,False,False
+Macrophage,C1qc,False,False
+Macrophage,Cbr2,False,True
+Macrophage,Ccnd3,False,False
+Macrophage,Cd163,False,True
+Macrophage,Cd84,False,False
+Macrophage,Cd86,False,True
+Macrophage,Cfh,False,False
+Macrophage,Clcn5,True,True
+Macrophage,Colec12,False,False
+Macrophage,Cp,True,False
+Macrophage,Csf1r,False,False
+Macrophage,Ctsb,False,True
+Macrophage,Ctsc,False,False
+Macrophage,Ctss,False,False
+Macrophage,Cyth4,False,False
+Macrophage,Dab2,True,False
+Macrophage,Dapp1,False,False
+Macrophage,Dclre1c,False,True
+Macrophage,Ddx60,False,True
+Macrophage,Dennd1a,False,True
+Macrophage,Dock11,True,False
+Macrophage,Dock2,False,False
+Macrophage,Dock8,False,False
+Macrophage,Dse,False,True
+Macrophage,Egfr,False,False
+Macrophage,Ehd4,False,True
+Macrophage,Entpd1,True,False
+Macrophage,Epsti1,False,True
+Macrophage,F13a1,False,True
+Macrophage,F630028O10Rik,False,True
+Macrophage,Fam105a,False,False
+Macrophage,Fcer1g,False,False
+Macrophage,Fcgr2b,False,True
+Macrophage,Fcho2,True,True
+Macrophage,Fcrls,False,False
+Macrophage,Fermt3,False,False
+Macrophage,Fgd2,False,False
+Macrophage,Fkbp5,False,False
+Macrophage,Fli1,False,False
+Macrophage,Frmd4b,False,False
+Macrophage,Fyb,False,False
+Macrophage,Gab2,False,False
+Macrophage,Gab3,True,True
+Macrophage,Gm13247,False,False
+Macrophage,Gm2245,False,False
+Macrophage,Gm26522,False,True
+Macrophage,Gm26542,False,False
+Macrophage,Gm26740,False,False
+Macrophage,Gm43603,False,True
+Macrophage,Gm4951,False,True
+Macrophage,Gng2,False,False
+Macrophage,Gns,False,False
+Macrophage,Gpr183,False,True
+Macrophage,Hdac9,False,True
+Macrophage,Hmha1,False,False
+Macrophage,Hpgd,False,False
+Macrophage,Hpgds,False,False
+Macrophage,Igf1,False,True
+Macrophage,Ikzf1,False,False
+Macrophage,Il6ra,False,False
+Macrophage,Inpp5d,False,False
+Macrophage,Iqgap2,False,False
+Macrophage,Itsn1,True,False
+Macrophage,Kcnk13,False,False
+Macrophage,Lcp1,False,True
+Macrophage,Lgmn,False,False
+Macrophage,Lifr,True,True
+Macrophage,Lilrb4a,False,True
+Macrophage,Lrp6,False,True
+Macrophage,Ltc4s,False,True
+Macrophage,Ly86,False,False
+Macrophage,Lyn,True,False
+Macrophage,Lyve1,False,True
+Macrophage,Lyz2,False,True
+Macrophage,Maf,False,False
+Macrophage,Man2a1,False,False
+Macrophage,Mbnl1,True,False
+Macrophage,Mctp1,False,False
+Macrophage,Mdfic,False,False
+Macrophage,Mef2a,True,False
+Macrophage,Mef2c,True,False
+Macrophage,Mertk,False,False
+Macrophage,Mir142hg,False,False
+Macrophage,Mlxip,False,True
+Macrophage,Mrc1,False,True
+Macrophage,Ms4a4a,False,True
+Macrophage,Ms4a6b,False,True
+Macrophage,Ms4a6c,False,True
+Macrophage,Ms4a6d,False,True
+Macrophage,Ms4a7,False,True
+Macrophage,Myo1f,False,False
+Macrophage,Myo5a,True,True
+Macrophage,Ncf2,False,True
+Macrophage,Nckap1l,False,False
+Macrophage,Nfatc2,False,True
+Macrophage,Nfxl1,False,True
+Macrophage,Notch2,False,False
+Macrophage,Npl,False,True
+Macrophage,Nrp1,False,False
+Macrophage,Nrros,False,False
+Macrophage,Ntpcr,False,False
+Macrophage,Ophn1,False,False
+Macrophage,Osbpl9,False,True
+Macrophage,P2rx7,False,True
+Macrophage,P2ry6,False,False
+Macrophage,P3h2,False,False
+Macrophage,PISD,False,True
+Macrophage,Pid1,False,False
+Macrophage,Pik3ap1,False,False
+Macrophage,Pip4k2a,True,False
+Macrophage,Plekhg5,False,True
+Macrophage,Ptbp3,True,True
+Macrophage,Ptpn18,False,True
+Macrophage,Ptprc,False,False
+Macrophage,Ptprj,False,False
+Macrophage,Rab8b,False,True
+Macrophage,Rassf2,False,True
+Macrophage,Rbm47,False,False
+Macrophage,Rbpj,False,True
+Macrophage,Rcsd1,False,False
+Macrophage,Rftn1,False,False
+Macrophage,Rgs10,False,False
+Macrophage,Rin2,False,False
+Macrophage,Rnf150,False,True
+Macrophage,Rnf169,False,False
+Macrophage,Rreb1,False,False
+Macrophage,Rsrp1,False,True
+Macrophage,Runx1,False,False
+Macrophage,Sbf2,True,True
+Macrophage,Sepp1,False,False
+Macrophage,Serinc3,False,False
+Macrophage,Sh3kbp1,True,False
+Macrophage,Sirpa,True,False
+Macrophage,Skap2,False,False
+Macrophage,Slc16a10,False,True
+Macrophage,Slc8a1,True,False
+Macrophage,Slc9a9,False,False
+Macrophage,Slco2b1,False,False
+Macrophage,Snx2,False,True
+Macrophage,Snx24,False,True
+Macrophage,Snx29,False,False
+Macrophage,Snx5,False,True
+Macrophage,Snx8,False,True
+Macrophage,Spi1,False,False
+Macrophage,Srgap2,False,False
+Macrophage,Ssh2,False,False
+Macrophage,Stab1,False,False
+Macrophage,Stard8,False,False
+Macrophage,Swap70,False,True
+Macrophage,Syk,False,True
+Macrophage,Tbxas1,False,False
+Macrophage,Tgfbr2,False,False
+Macrophage,Tlr7,False,False
+Macrophage,Tm6sf1,True,False
+Macrophage,Tnfaip8,False,True
+Macrophage,Tnfrsf11a,False,False
+Macrophage,Tyrobp,False,True
+Macrophage,Ucp2,False,True
+Macrophage,Unc93b1,False,False
+Macrophage,Uvrag,False,True
+Macrophage,Vav3,False,False
+Macrophage,Vcam1,True,False
+Macrophage,Vrk2,False,True
+Macrophage,Wasf2,False,False
+Macrophage,Wdfy2,False,True
+Macrophage,Wdfy3,False,True
+Macrophage,Wwp1,False,True
+Macrophage,Zeb2,False,False
+Macrophage,Zfhx3,False,False
+Macrophage,Zfp36l1,False,False
+Macrophage,Zfp710,False,False
+Macrophage,Zswim6,False,False
+Microglia,0610040J01Rik,False,False
+Microglia,1700112E06Rik,False,False
+Microglia,2020-03-01,False,False
+Microglia,4933406I18Rik,False,True
+Microglia,8030442B05Rik,False,True
+Microglia,AF251705,False,True
+Microglia,AU020206,False,True
+Microglia,Abca9,False,False
+Microglia,Abhd12,False,True
+Microglia,Adap2,False,False
+Microglia,Adap2os,False,False
+Microglia,Agmo,False,False
+Microglia,Akap13,True,False
+Microglia,Ankrd44,False,False
+Microglia,Anxa3,False,False
+Microglia,Apbb1ip,False,False
+Microglia,Arhgap22,False,False
+Microglia,Asb2,False,True
+Microglia,Atp8a2,False,False
+Microglia,B4galt1,False,False
+Microglia,Basp1,False,False
+Microglia,Bin2,False,True
+Microglia,Blnk,False,False
+Microglia,Bmp2k,False,True
+Microglia,C1qa,False,False
+Microglia,C1qb,False,False
+Microglia,C1qc,False,False
+Microglia,Camk1d,False,False
+Microglia,Capn3,False,True
+Microglia,Ccnd3,False,False
+Microglia,Ccr5,False,True
+Microglia,Cd84,False,False
+Microglia,Cdh23,False,True
+Microglia,Cfh,False,False
+Microglia,Chd9,False,False
+Microglia,Csf1r,False,False
+Microglia,Csf3r,False,True
+Microglia,Csmd3,True,False
+Microglia,Cst3,False,False
+Microglia,Ctsc,False,False
+Microglia,Ctsd,False,False
+Microglia,Ctsh,False,True
+Microglia,Ctss,False,False
+Microglia,Cttnbp2nl,False,True
+Microglia,Cx3cr1,False,False
+Microglia,Cyfip1,False,True
+Microglia,Cyth4,False,False
+Microglia,Dapp1,False,False
+Microglia,Dennd4a,False,True
+Microglia,Diaph2,True,False
+Microglia,Dip2b,True,False
+Microglia,Dock10,True,False
+Microglia,Dock2,False,False
+Microglia,Dock4,False,False
+Microglia,Dock8,False,False
+Microglia,Dst,True,False
+Microglia,Elmo1,True,False
+Microglia,Entpd1,True,False
+Microglia,Epb41l2,False,False
+Microglia,F11r,False,True
+Microglia,Fam102b,False,True
+Microglia,Fam105a,False,False
+Microglia,Fam49b,False,False
+Microglia,Fcer1g,False,False
+Microglia,Fcrls,False,False
+Microglia,Fermt3,False,False
+Microglia,Fgd2,False,False
+Microglia,Fkbp5,False,False
+Microglia,Fli1,False,False
+Microglia,Fmnl3,False,True
+Microglia,Frmd4b,False,False
+Microglia,Fyb,False,False
+Microglia,Gab2,False,False
+Microglia,Gm13247,False,False
+Microglia,Gm16337,False,True
+Microglia,Gm2245,False,False
+Microglia,Gm26740,False,False
+Microglia,Gm26916,False,True
+Microglia,Gng2,False,False
+Microglia,Gns,False,False
+Microglia,Golm1,True,True
+Microglia,Gpr34,False,True
+Microglia,Gtf2h2,True,True
+Microglia,Havcr2,False,True
+Microglia,Hck,False,True
+Microglia,Heatr5a,False,False
+Microglia,Hexb,False,True
+Microglia,Hk2,False,True
+Microglia,Hmha1,False,False
+Microglia,Hpgd,False,False
+Microglia,Hpgds,False,False
+Microglia,Ifngr1,False,True
+Microglia,Ikzf1,False,False
+Microglia,Il10ra,False,True
+Microglia,Il6ra,False,False
+Microglia,Inpp5d,False,False
+Microglia,Irak2,False,False
+Microglia,Itga9,False,False
+Microglia,Itgb5,False,True
+Microglia,Ivns1abp,True,True
+Microglia,Lair1,False,True
+Microglia,Laptm5,False,True
+Microglia,Ldlrad4,False,False
+Microglia,Lgmn,False,False
+Microglia,Lhfpl2,False,True
+Microglia,Lpcat2,False,True
+Microglia,Lrch1,False,False
+Microglia,Lrrk1,False,False
+Microglia,Ly86,False,False
+Microglia,Lyn,True,False
+Microglia,Lysmd4,True,True
+Microglia,Maf,False,False
+Microglia,Mafb,False,True
+Microglia,Maml3,False,False
+Microglia,Marcks,False,False
+Microglia,Mbnl1,True,False
+Microglia,Mef2a,True,False
+Microglia,Mef2c,True,False
+Microglia,Mertk,False,False
+Microglia,Mgat4a,True,True
+Microglia,Mir142hg,False,False
+Microglia,Myo1f,False,False
+Microglia,Nav2,False,False
+Microglia,Nav3,False,False
+Microglia,Ncf1,False,True
+Microglia,Nckap1l,False,False
+Microglia,Nek7,False,True
+Microglia,Nrip1,False,True
+Microglia,Nrros,False,False
+Microglia,Ntpcr,False,False
+Microglia,Numb,True,True
+Microglia,Ophn1,False,False
+Microglia,P2ry12,False,True
+Microglia,P2ry6,False,False
+Microglia,P3h2,False,False
+Microglia,Pag1,False,True
+Microglia,Pde3b,False,True
+Microglia,Picalm,True,True
+Microglia,Pik3ap1,False,False
+Microglia,Pik3cd,False,True
+Microglia,Pik3r1,False,False
+Microglia,Pip4k2a,True,False
+Microglia,Plcg2,False,True
+Microglia,Plcl2,False,False
+Microglia,Pld1,False,False
+Microglia,Plekho1,False,True
+Microglia,Plxdc2,True,False
+Microglia,Pmepa1,False,False
+Microglia,Pnpla7,False,False
+Microglia,Pou2f2,False,True
+Microglia,Prex1,False,False
+Microglia,Ptprc,False,False
+Microglia,Ptprj,False,False
+Microglia,Rap1gds1,True,True
+Microglia,Rapgef5,False,False
+Microglia,Rasgrp3,False,False
+Microglia,Rbm47,False,False
+Microglia,Rcsd1,False,False
+Microglia,Rgs10,False,False
+Microglia,Rhobtb1,False,False
+Microglia,Rnf169,False,False
+Microglia,Rnf216,True,True
+Microglia,Rrbp1,False,True
+Microglia,Rreb1,False,False
+Microglia,Runx1,False,False
+Microglia,Selplg,False,True
+Microglia,Serinc3,False,False
+Microglia,Sh3kbp1,True,False
+Microglia,Siglech,False,True
+Microglia,Sirpa,True,False
+Microglia,Skap2,False,False
+Microglia,Slc8a1,True,False
+Microglia,Slc9a9,False,False
+Microglia,Slco2b1,False,False
+Microglia,Smap2,False,True
+Microglia,Snx29,False,False
+Microglia,Spi1,False,False
+Microglia,Srgap2,False,False
+Microglia,Ssh2,False,False
+Microglia,St3gal6,False,False
+Microglia,Stab1,False,False
+Microglia,Tanc2,False,False
+Microglia,Tbxas1,False,False
+Microglia,Tgfbr1,False,True
+Microglia,Tgfbr2,False,False
+Microglia,Tlr7,False,False
+Microglia,Tmcc3,False,False
+Microglia,Tmem119,False,True
+Microglia,Tnfrsf11a,False,False
+Microglia,Tns3,False,False
+Microglia,Trem2,False,True
+Microglia,Unc93b1,False,False
+Microglia,Vsir,False,True
+Microglia,Wasf2,False,False
+Microglia,Wnk1,True,False
+Microglia,Zeb2,False,False
+Microglia,Zfhx3,False,False
+Microglia,Zfp652,False,True
+Microglia,Zfp710,False,False
+Microglia,Zswim6,False,False
+OPC,1700047M11Rik,False,False
+OPC,1700112E06Rik,False,False
+OPC,2020-03-01,False,False
+OPC,2020-03-08,False,True
+OPC,2020-09-07,False,False
+OPC,2610035D17Rik,False,False
+OPC,2810417H13Rik,False,True
+OPC,3110035E14Rik,False,True
+OPC,4430402I18Rik,False,True
+OPC,4930402H24Rik,False,False
+OPC,4930444A19Rik,False,True
+OPC,4930509J09Rik,False,False
+OPC,9530059O14Rik,False,False
+OPC,AI854517,False,False
+OPC,Aatk,False,False
+OPC,Abhd17b,False,False
+OPC,Abhd2,False,False
+OPC,Abi1,True,True
+OPC,Ablim2,True,False
+OPC,Abr,False,False
+OPC,Abtb2,False,False
+OPC,Acsl3,True,False
+OPC,Adam12,False,False
+OPC,Adam23,False,False
+OPC,Adarb2,False,False
+OPC,Add1,True,False
+OPC,Adgrl3,True,False
+OPC,Adra1a,False,False
+OPC,Afap1l2,False,False
+OPC,Ago3,False,True
+OPC,Agpat4,False,False
+OPC,Alcam,True,False
+OPC,Alk,False,False
+OPC,Amz1,False,True
+OPC,Ankrd28,False,False
+OPC,Ankrd44,False,False
+OPC,Arhgap23,False,False
+OPC,Arhgap24,False,True
+OPC,Arhgap31,False,False
+OPC,Arhgap35,False,True
+OPC,Arhgef10,False,False
+OPC,Arhgef28,False,True
+OPC,Arpp21,False,False
+OPC,Arsb,False,True
+OPC,Asic2,False,False
+OPC,Atad2,False,True
+OPC,Atad5,True,True
+OPC,Atp6v0a2,False,True
+OPC,BC005561,False,True
+OPC,Basp1,False,False
+OPC,Bcas1,False,False
+OPC,Bcas1os2,False,True
+OPC,Bfsp2,False,True
+OPC,Bin1,True,False
+OPC,Bmp4,False,True
+OPC,Brca1,False,True
+OPC,Brinp1,False,False
+OPC,Brinp3,False,False
+OPC,Brip1,False,True
+OPC,C1ql1,False,True
+OPC,C530008M17Rik,False,False
+OPC,Cacng4,False,False
+OPC,Cadm1,True,False
+OPC,Camsap2,True,True
+OPC,Casc5,False,True
+OPC,Cask,True,True
+OPC,Ccdc134,False,True
+OPC,Ccser2,True,True
+OPC,Cd9,False,False
+OPC,Cdc37l1,False,False
+OPC,Cdc42se2,False,True
+OPC,Cdh10,False,False
+OPC,Cdh11,False,False
+OPC,Cdh13,False,False
+OPC,Cdh20,False,False
+OPC,Cdk14,False,False
+OPC,Cdk19,True,False
+OPC,Cdyl,False,False
+OPC,Cenph,False,True
+OPC,Cenpk,False,True
+OPC,Cenpp,False,True
+OPC,Cep128,False,True
+OPC,Cep192,False,True
+OPC,Cfap20,True,True
+OPC,Chd3,False,True
+OPC,Chst11,False,True
+OPC,Chst8,False,True
+OPC,Chsy3,False,True
+OPC,Cldn11,False,False
+OPC,Cldn14,False,False
+OPC,Clspn,False,True
+OPC,Cmip,False,True
+OPC,Cnksr3,False,False
+OPC,Cnp,False,False
+OPC,Cntln,False,True
+OPC,Cntn1,False,False
+OPC,Cntn4,True,False
+OPC,Cobl,False,True
+OPC,Cobll1,True,False
+OPC,Cpq,True,False
+OPC,Creb5,False,False
+OPC,Csgalnact1,False,False
+OPC,Csmd1,False,False
+OPC,Csmd2,False,False
+OPC,Csmd3,True,False
+OPC,Cspg4,False,False
+OPC,Cspg5,True,True
+OPC,Ctnna2,True,False
+OPC,Ctnnal1,False,False
+OPC,Ctnnd2,False,False
+OPC,Cyfip2,False,True
+OPC,D630045J12Rik,False,True
+OPC,D8Ertd82e,False,True
+OPC,Dcc,False,False
+OPC,Ddr1,False,False
+OPC,Dennd2a,False,True
+OPC,Dgkb,True,False
+OPC,Diaph3,False,True
+OPC,Disc1,False,True
+OPC,Dlg1,True,False
+OPC,Dmd,True,False
+OPC,Dnm2,True,True
+OPC,Dnm3,False,False
+OPC,Dock1,True,False
+OPC,Dock10,True,False
+OPC,Dock4,False,False
+OPC,Dok6,False,False
+OPC,Dpp10,False,False
+OPC,Dpyd,False,True
+OPC,Dpysl2,False,False
+OPC,Dpysl3,False,True
+OPC,Dscam,False,False
+OPC,Dscaml1,False,False
+OPC,Dst,True,False
+OPC,Dtl,False,True
+OPC,Dusp15,True,True
+OPC,E130308A19Rik,False,True
+OPC,Edil3,True,False
+OPC,Egfem1,False,False
+OPC,Elf1,False,True
+OPC,Elovl7,True,False
+OPC,Emid1,False,False
+OPC,Eml1,False,False
+OPC,Enpp2,True,False
+OPC,Enpp6,False,False
+OPC,Epb41l2,False,False
+OPC,Epha5,False,False
+OPC,Ephb1,False,False
+OPC,Epn2,False,False
+OPC,Erbb4,True,False
+OPC,Etv5,False,True
+OPC,Etv6,False,True
+OPC,Ezh2,True,True
+OPC,Fa2h,False,False
+OPC,Fam13c,False,False
+OPC,Fam19a1,False,True
+OPC,Fam19a2,False,False
+OPC,Fat3,False,False
+OPC,Fbn2,False,True
+OPC,Fchsd2,True,False
+OPC,Fign,False,False
+OPC,Fkbp5,False,False
+OPC,Fmnl2,False,False
+OPC,Fndc9,False,True
+OPC,Frmd4b,False,False
+OPC,Frmd5,False,False
+OPC,Fry,True,False
+OPC,Fryl,True,False
+OPC,Fsd1l,False,True
+OPC,Fyn,True,True
+OPC,Gab1,False,False
+OPC,Gabrg3,False,False
+OPC,Gal3st1,False,False
+OPC,Gas7,False,True
+OPC,Gfra1,False,True
+OPC,Gjc3,False,False
+OPC,Glp2r,False,True
+OPC,Gm10863,False,True
+OPC,Gm11149,False,True
+OPC,Gm13052,False,True
+OPC,Gm15398,False,False
+OPC,Gm15440,False,True
+OPC,Gm16168,False,False
+OPC,Gm20754,False,False
+OPC,Gm27247,False,True
+OPC,Gm3448,False,True
+OPC,Gm3764,False,False
+OPC,Gm38039,False,True
+OPC,Gm38304,False,True
+OPC,Gm38505,False,True
+OPC,Gm4221,True,True
+OPC,Gm42948,False,True
+OPC,Gm4876,False,False
+OPC,Gnb4,False,False
+OPC,Gng12,True,True
+OPC,Gpc5,False,False
+OPC,Gpc6,False,False
+OPC,Gpm6b,True,False
+OPC,Gpr17,False,True
+OPC,Gpt2,False,True
+OPC,Gramd3,False,True
+OPC,Gria2,True,False
+OPC,Gria4,False,False
+OPC,Grid1,False,False
+OPC,Grik2,True,False
+OPC,Grik4,False,False
+OPC,Grin3a,False,False
+OPC,Grm5,False,False
+OPC,Hat1,False,True
+OPC,Hells,False,True
+OPC,Hip1,False,False
+OPC,Hjurp,False,True
+OPC,Hunk,False,False
+OPC,Ick,False,True
+OPC,Iffo1,True,True
+OPC,Igsf11,False,False
+OPC,Il1rapl1,False,False
+OPC,Itga9,False,False
+OPC,Itgav,False,False
+OPC,Itpr2,False,False
+OPC,Jam3,False,False
+OPC,Jazf1,False,True
+OPC,Kank1,False,False
+OPC,Kazn,False,True
+OPC,Kcnb2,False,False
+OPC,Kcnd2,False,False
+OPC,Kcnh5,False,True
+OPC,Kcnh8,False,False
+OPC,Kcnip1,False,False
+OPC,Kcnip3,False,False
+OPC,Kcnq3,False,False
+OPC,Kcnq5,False,False
+OPC,Kcnt2,False,False
+OPC,Khdrbs2,False,False
+OPC,Kif19a,False,True
+OPC,Kif24,False,True
+OPC,Klf12,False,False
+OPC,Klhl2,True,False
+OPC,Klhl5,True,True
+OPC,Kndc1,False,False
+OPC,Kntc1,False,True
+OPC,Lcorl,True,True
+OPC,Lhfpl3,True,False
+OPC,Lima1,False,False
+OPC,Limd1,False,False
+OPC,Lims2,False,False
+OPC,Lmnb1,False,True
+OPC,Lpar1,False,False
+OPC,Lrch3,True,True
+OPC,Lrfn2,False,True
+OPC,Lrp1b,True,False
+OPC,Lrrc4c,False,False
+OPC,Lrrc7,False,False
+OPC,Lrrtm3,False,False
+OPC,Lrrtm4,False,False
+OPC,Lsamp,True,False
+OPC,Luzp2,False,False
+OPC,Mag,True,False
+OPC,Man1a,False,False
+OPC,Map1b,False,False
+OPC,Map2,True,False
+OPC,Map4k4,True,True
+OPC,Map7,False,False
+OPC,Mapt,True,False
+OPC,Marcks,False,False
+OPC,Matn4,False,True
+OPC,Mbp,True,False
+OPC,Mdga2,False,False
+OPC,Megf11,True,False
+OPC,Mertk,False,False
+OPC,Mgll,False,False
+OPC,Mical3,False,True
+OPC,Mitf,True,True
+OPC,Mmp16,False,False
+OPC,Mms22l,False,True
+OPC,Mob3b,False,False
+OPC,Mobp,False,False
+OPC,Mog,False,False
+OPC,Mpped2,False,False
+OPC,Mpzl1,False,True
+OPC,Myt1,True,True
+OPC,Nasp,True,True
+OPC,Nav1,False,False
+OPC,Nav3,False,False
+OPC,Ncald,False,False
+OPC,Ncam1,True,False
+OPC,Ncam2,True,False
+OPC,Ncapg2,False,True
+OPC,Nckap5,False,False
+OPC,Ndfip1,False,True
+OPC,Neto1,False,False
+OPC,Neu4,False,True
+OPC,Nfasc,False,False
+OPC,Nkain2,False,False
+OPC,Nkain3,False,False
+OPC,Nlgn1,True,False
+OPC,Nmnat2,False,False
+OPC,Nnat,False,False
+OPC,Nova1,False,True
+OPC,Npas3,False,False
+OPC,Nrcam,True,False
+OPC,Nrg1,False,False
+OPC,Nrg3,False,False
+OPC,Nrxn1,True,False
+OPC,Nrxn2,False,True
+OPC,Nxph1,False,False
+OPC,Olfm2,False,True
+OPC,Olig1,False,False
+OPC,Olig2,False,True
+OPC,Opcml,True,False
+OPC,Ophn1,False,False
+OPC,Otud7b,True,False
+OPC,Pacrg,True,False
+OPC,Pacs2,False,False
+OPC,Pak3,False,False
+OPC,Parvb,False,True
+OPC,Pcdh11x,False,False
+OPC,Pcdh15,False,False
+OPC,Pcdh17,False,True
+OPC,Pcdh7,False,False
+OPC,Pcyt2,False,True
+OPC,Pde4b,False,False
+OPC,Pde4d,False,False
+OPC,Pde7b,False,False
+OPC,Pde8b,False,False
+OPC,Pdgfra,False,False
+OPC,Pdzd2,False,False
+OPC,Pdzrn4,False,False
+OPC,Peli1,False,True
+OPC,Pfn2,False,True
+OPC,Phactr3,False,False
+OPC,Phldb1,False,False
+OPC,Phyhipl,False,False
+OPC,Pid1,False,False
+OPC,Pik3r1,False,False
+OPC,Pik3r3,False,False
+OPC,Pknox2,True,False
+OPC,Pkp4,True,False
+OPC,Plcb1,True,False
+OPC,Plcl1,False,False
+OPC,Pld1,False,False
+OPC,Plekha1,False,False
+OPC,Plekhg1,False,False
+OPC,Pllp,False,False
+OPC,Plp1,True,False
+OPC,Plpp4,False,False
+OPC,Plppr1,False,True
+OPC,Plxnb3,False,True
+OPC,Pmepa1,False,False
+OPC,Pola1,True,True
+OPC,Pole,False,True
+OPC,Ppfibp1,True,False
+OPC,Ppp1r16b,False,False
+OPC,Ppp2r2b,True,False
+OPC,Prex1,False,False
+OPC,Prickle1,False,False
+OPC,Prim2,False,True
+OPC,Prkca,False,False
+OPC,Prkcq,False,False
+OPC,Prom1,True,False
+OPC,Psd3,False,False
+OPC,Ptgfrn,False,True
+OPC,Ptk2,True,True
+OPC,Ptpn11,False,False
+OPC,Ptpre,False,True
+OPC,Ptprg,False,False
+OPC,Ptprj,False,False
+OPC,Ptpro,False,True
+OPC,Ptprt,False,False
+OPC,Ptprz1,True,False
+OPC,Qk,False,False
+OPC,Rab40c,False,True
+OPC,Rad18,False,True
+OPC,Rad51b,False,True
+OPC,Rap1a,False,False
+OPC,Rap2a,False,True
+OPC,Rapgef1,False,True
+OPC,Rasgef1b,False,True
+OPC,Rbbp8,True,True
+OPC,Reep1,False,True
+OPC,Reep5,False,True
+OPC,Rffl,False,False
+OPC,Rgcc,False,False
+OPC,Rictor,False,True
+OPC,Rin2,False,False
+OPC,Rmi2,False,True
+OPC,Rnf122,False,True
+OPC,Rnf144a,False,True
+OPC,Rnf220,True,False
+OPC,Robo1,False,False
+OPC,Rras2,False,True
+OPC,Rtn4,False,False
+OPC,Scrg1,False,True
+OPC,Sdk1,False,False
+OPC,Secisbp2l,False,True
+OPC,Sema3d,False,False
+OPC,Sema4d,False,True
+OPC,Sema5a,False,False
+OPC,Sema5b,False,True
+OPC,Sema6a,False,False
+OPC,Serinc5,False,True
+OPC,Serpine2,False,False
+OPC,Sgcd,False,False
+OPC,Sgcz,False,False
+OPC,Sh3bp4,False,True
+OPC,Sh3d19,False,False
+OPC,Sh3gl3,False,False
+OPC,Sh3rf1,False,True
+OPC,Sh3rf3,False,False
+OPC,Shisa4,False,False
+OPC,Sirt2,False,True
+OPC,Slc12a2,False,False
+OPC,Slc1a1,False,False
+OPC,Slc22a23,False,True
+OPC,Slc35f1,False,False
+OPC,Slc44a1,True,False
+OPC,Smad7,False,False
+OPC,Smurf1,False,True
+OPC,Sntg1,True,False
+OPC,Snx1,False,True
+OPC,Snx30,False,True
+OPC,Soga1,False,False
+OPC,Sorcs1,False,False
+OPC,Sorcs3,False,False
+OPC,Sox10,False,True
+OPC,Sox5,False,False
+OPC,Sox6,False,False
+OPC,Sox8,False,True
+OPC,Specc1,True,False
+OPC,Spon1,False,False
+OPC,Srcin1,False,False
+OPC,Srgap1,False,False
+OPC,St18,False,False
+OPC,Stard9,False,True
+OPC,Stk32a,False,False
+OPC,Stxbp3,False,False
+OPC,Sulf2,False,False
+OPC,Susd4,False,False
+OPC,Susd5,False,True
+OPC,Svil,False,False
+OPC,Syt16,False,True
+OPC,Sytl2,True,False
+OPC,Tanc2,False,False
+OPC,Tcf7l1,False,False
+OPC,Tcf7l2,False,False
+OPC,Thra,False,True
+OPC,Thsd7b,False,True
+OPC,Thtpa,False,False
+OPC,Tipin,True,True
+OPC,Tjap1,False,True
+OPC,Tmeff2,False,False
+OPC,Tmem108,False,False
+OPC,Tmem132b,False,True
+OPC,Tmem132d,False,False
+OPC,Tmem163,False,False
+OPC,Tmem167,False,True
+OPC,Tmpo,True,True
+OPC,Tnr,False,False
+OPC,Tns3,False,False
+OPC,Top2a,False,True
+OPC,Tox,False,False
+OPC,Tox3,False,True
+OPC,Trio,True,False
+OPC,Tspan2,False,False
+OPC,Tuba1a,False,False
+OPC,Tubb4a,False,False
+OPC,Ube2e2,True,False
+OPC,Ubl3,False,True
+OPC,Ugt8a,False,False
+OPC,Usp16,True,True
+OPC,Usp24,False,True
+OPC,Ust,False,False
+OPC,Vcan,False,True
+OPC,Vps8,True,False
+OPC,Vwc2,False,False
+OPC,Wipf1,False,True
+OPC,Xylt1,False,False
+OPC,Zbtb16,False,False
+OPC,Zbtb20,True,False
+OPC,Zcchc24,False,True
+OPC,Zdhhc14,False,False
+OPC,Zeb1,False,True
+OPC,Zeb2,False,False
+OPC,Zfp365,False,True
+OPC,Zfp367,False,True
+OPC,Zfp462,False,True
+OPC,Zfp536,False,False
+OPC,Zfp608,True,False
+OPC,Zfp638,True,True
+OPC,Zfp827,False,True
+OPC,Zgrf1,True,True
+OPC,Znrf1,False,True
+OPC,Zswim6,False,False
+Oligodendrocyte,1700047M11Rik,False,False
+Oligodendrocyte,2020-03-01,False,False
+Oligodendrocyte,2020-09-04,False,False
+Oligodendrocyte,2020-09-07,False,False
+Oligodendrocyte,2610035D17Rik,False,False
+Oligodendrocyte,4930419G24Rik,False,True
+Oligodendrocyte,5031439G07Rik,False,True
+Oligodendrocyte,A230001M10Rik,False,True
+Oligodendrocyte,A330015K06Rik,False,False
+Oligodendrocyte,Aatk,False,False
+Oligodendrocyte,Abca2,False,True
+Oligodendrocyte,Abhd17b,False,False
+Oligodendrocyte,Ablim2,True,False
+Oligodendrocyte,Acaca,True,True
+Oligodendrocyte,Actb,False,False
+Oligodendrocyte,Add1,True,False
+Oligodendrocyte,Adipor2,False,True
+Oligodendrocyte,Agap1,True,True
+Oligodendrocyte,Agmo,False,False
+Oligodendrocyte,Agpat4,False,False
+Oligodendrocyte,Ank3,True,False
+Oligodendrocyte,Ankrd28,False,False
+Oligodendrocyte,Anln,True,True
+Oligodendrocyte,Ano4,True,False
+Oligodendrocyte,Aplp1,False,True
+Oligodendrocyte,Apod,True,False
+Oligodendrocyte,App,True,False
+Oligodendrocyte,Arhgap23,False,False
+Oligodendrocyte,Arhgap39,False,True
+Oligodendrocyte,Arhgef10,False,False
+Oligodendrocyte,Aspa,False,True
+Oligodendrocyte,Atp8a1,True,True
+Oligodendrocyte,B3galt5,False,True
+Oligodendrocyte,Bcas1,False,False
+Oligodendrocyte,Bcat1,False,True
+Oligodendrocyte,Bcl2l1,True,False
+Oligodendrocyte,Bin1,True,False
+Oligodendrocyte,C530008M17Rik,False,False
+Oligodendrocyte,Cab39l,False,False
+Oligodendrocyte,Car2,False,True
+Oligodendrocyte,Carns1,False,True
+Oligodendrocyte,Ccp110,True,True
+Oligodendrocyte,Cd81,False,False
+Oligodendrocyte,Cd9,False,False
+Oligodendrocyte,Cdc37l1,False,False
+Oligodendrocyte,Cdc42bpa,True,True
+Oligodendrocyte,Cdh10,False,False
+Oligodendrocyte,Cdh19,False,True
+Oligodendrocyte,Cdh2,False,True
+Oligodendrocyte,Cdh20,False,False
+Oligodendrocyte,Cdk19,True,False
+Oligodendrocyte,Clasp2,True,True
+Oligodendrocyte,Cldn11,False,False
+Oligodendrocyte,Cldn14,False,False
+Oligodendrocyte,Clic4,False,False
+Oligodendrocyte,Clmn,True,False
+Oligodendrocyte,Cmtm5,False,True
+Oligodendrocyte,Cnp,False,False
+Oligodendrocyte,Cntn2,False,True
+Oligodendrocyte,Cntn3,False,False
+Oligodendrocyte,Cpm,False,True
+Oligodendrocyte,Cpox,False,True
+Oligodendrocyte,Creb5,False,False
+Oligodendrocyte,Cryab,True,True
+Oligodendrocyte,Csmd3,True,False
+Oligodendrocyte,Csrp1,False,True
+Oligodendrocyte,Ctnna2,True,False
+Oligodendrocyte,Ctnna3,False,False
+Oligodendrocyte,Cyp27a1,False,True
+Oligodendrocyte,D7Ertd443e,False,True
+Oligodendrocyte,Daam1,True,True
+Oligodendrocyte,Daam2,False,False
+Oligodendrocyte,Dcc,False,False
+Oligodendrocyte,Ddr1,False,False
+Oligodendrocyte,Dgki,False,False
+Oligodendrocyte,Dip2a,False,True
+Oligodendrocyte,Dip2b,True,False
+Oligodendrocyte,Dlc1,False,False
+Oligodendrocyte,Dlg1,True,False
+Oligodendrocyte,Dnm3,False,False
+Oligodendrocyte,Dock1,True,False
+Oligodendrocyte,Dock10,True,False
+Oligodendrocyte,Dock5,False,True
+Oligodendrocyte,Dock9,True,False
+Oligodendrocyte,Dpysl2,False,False
+Oligodendrocyte,Dscaml1,False,False
+Oligodendrocyte,Edil3,True,False
+Oligodendrocyte,Eef1a1,False,False
+Oligodendrocyte,Efcab14,False,True
+Oligodendrocyte,Efnb3,False,True
+Oligodendrocyte,Elmo1,True,False
+Oligodendrocyte,Elovl7,True,False
+Oligodendrocyte,Eml1,False,False
+Oligodendrocyte,Enox1,False,False
+Oligodendrocyte,Enpp2,True,False
+Oligodendrocyte,Enpp6,False,False
+Oligodendrocyte,Ephb1,False,False
+Oligodendrocyte,Epn2,False,False
+Oligodendrocyte,Erbb2ip,False,True
+Oligodendrocyte,Erbb4,True,False
+Oligodendrocyte,Ermn,False,True
+Oligodendrocyte,Exoc6b,False,False
+Oligodendrocyte,Fa2h,False,False
+Oligodendrocyte,Fam13c,False,False
+Oligodendrocyte,Fbxl5,False,True
+Oligodendrocyte,Fez1,False,True
+Oligodendrocyte,Fgfr2,True,True
+Oligodendrocyte,Fign,False,False
+Oligodendrocyte,Fmnl2,False,False
+Oligodendrocyte,Fnbp1,True,False
+Oligodendrocyte,Foxn3,False,True
+Oligodendrocyte,Frmd4b,False,False
+Oligodendrocyte,Frmd5,False,False
+Oligodendrocyte,Fryl,True,False
+Oligodendrocyte,Fth1,False,True
+Oligodendrocyte,Gab1,False,False
+Oligodendrocyte,Gal3st1,False,False
+Oligodendrocyte,Gatm,False,False
+Oligodendrocyte,Gjc3,False,False
+Oligodendrocyte,Glul,False,False
+Oligodendrocyte,Gm11437,False,True
+Oligodendrocyte,Gm16168,False,False
+Oligodendrocyte,Gm28376,False,False
+Oligodendrocyte,Gm37459,False,True
+Oligodendrocyte,Gm42413,False,True
+Oligodendrocyte,Gna12,False,True
+Oligodendrocyte,Gnao1,True,True
+Oligodendrocyte,Gpm6b,True,False
+Oligodendrocyte,Gpr37,False,True
+Oligodendrocyte,Grb14,False,True
+Oligodendrocyte,Grm3,False,False
+Oligodendrocyte,Grm7,False,False
+Oligodendrocyte,Gsn,False,False
+Oligodendrocyte,Hapln2,False,True
+Oligodendrocyte,Hcn2,False,True
+Oligodendrocyte,Hecw2,False,True
+Oligodendrocyte,Hepacam,False,False
+Oligodendrocyte,Hsp90ab1,False,False
+Oligodendrocyte,Igsf11,False,False
+Oligodendrocyte,Il1rap,False,True
+Oligodendrocyte,Il33,False,True
+Oligodendrocyte,Itgav,False,False
+Oligodendrocyte,Itpk1,False,True
+Oligodendrocyte,Itsn2,True,True
+Oligodendrocyte,Jakmip3,False,True
+Oligodendrocyte,Jam3,False,False
+Oligodendrocyte,Kcna1,False,False
+Oligodendrocyte,Kcnk13,False,False
+Oligodendrocyte,Kcnq3,False,False
+Oligodendrocyte,Kctd13,False,True
+Oligodendrocyte,Kctd3,False,True
+Oligodendrocyte,Kif13a,True,True
+Oligodendrocyte,Kif13b,False,True
+Oligodendrocyte,Kif1b,True,True
+Oligodendrocyte,Klf13,False,True
+Oligodendrocyte,Klhl2,True,False
+Oligodendrocyte,Klk6,False,True
+Oligodendrocyte,Kndc1,False,False
+Oligodendrocyte,Lamp1,False,True
+Oligodendrocyte,Lgi3,False,True
+Oligodendrocyte,Limch1,False,True
+Oligodendrocyte,Litaf,False,True
+Oligodendrocyte,Lpar1,False,False
+Oligodendrocyte,Lrp1b,True,False
+Oligodendrocyte,Mag,True,False
+Oligodendrocyte,Magi2,True,False
+Oligodendrocyte,Mal,False,False
+Oligodendrocyte,Man1a,False,False
+Oligodendrocyte,Map7,False,False
+Oligodendrocyte,Mapre2,False,True
+Oligodendrocyte,Mapt,True,False
+Oligodendrocyte,Mast4,False,False
+Oligodendrocyte,Mbnl2,False,True
+Oligodendrocyte,Mbp,True,False
+Oligodendrocyte,Mob3b,False,False
+Oligodendrocyte,Mobp,False,False
+Oligodendrocyte,Mog,False,False
+Oligodendrocyte,Mtmr2,True,True
+Oligodendrocyte,Myo18a,False,True
+Oligodendrocyte,Myo1d,False,True
+Oligodendrocyte,Myo1e,False,True
+Oligodendrocyte,Naaladl2,False,True
+Oligodendrocyte,Nbas,False,True
+Oligodendrocyte,Ncam1,True,False
+Oligodendrocyte,Ncam2,True,False
+Oligodendrocyte,Ndrg1,False,False
+Oligodendrocyte,Neat1,False,False
+Oligodendrocyte,Nfasc,False,False
+Oligodendrocyte,Ninj2,False,True
+Oligodendrocyte,Nkain1,True,True
+Oligodendrocyte,Nkain2,False,False
+Oligodendrocyte,Npas3,False,False
+Oligodendrocyte,Olig1,False,False
+Oligodendrocyte,Opalin,False,True
+Oligodendrocyte,Otud7a,False,False
+Oligodendrocyte,Otud7b,True,False
+Oligodendrocyte,Pacrg,True,False
+Oligodendrocyte,Pacs2,False,False
+Oligodendrocyte,Padi2,False,True
+Oligodendrocyte,Pak1,False,False
+Oligodendrocyte,Pak7,False,True
+Oligodendrocyte,Palm2,False,True
+Oligodendrocyte,Pard3,False,False
+Oligodendrocyte,Pcdh9,False,False
+Oligodendrocyte,Pde4b,False,False
+Oligodendrocyte,Pde8a,False,True
+Oligodendrocyte,Pex5l,True,False
+Oligodendrocyte,Phactr1,True,False
+Oligodendrocyte,Phactr4,False,True
+Oligodendrocyte,Phldb1,False,False
+Oligodendrocyte,Phlpp1,False,False
+Oligodendrocyte,Pik3c2b,False,True
+Oligodendrocyte,Pip4k2a,True,False
+Oligodendrocyte,Plcl1,False,False
+Oligodendrocyte,Plekha1,False,False
+Oligodendrocyte,Plekhg1,False,False
+Oligodendrocyte,Plekhh1,False,True
+Oligodendrocyte,Pllp,False,False
+Oligodendrocyte,Plp1,True,False
+Oligodendrocyte,Pls1,False,True
+Oligodendrocyte,Plxdc2,True,False
+Oligodendrocyte,Pmp22,False,True
+Oligodendrocyte,Polr3e,False,True
+Oligodendrocyte,Ppp1r14a,False,True
+Oligodendrocyte,Ppp1r16b,False,False
+Oligodendrocyte,Ppp2r3a,False,True
+Oligodendrocyte,Prickle1,False,False
+Oligodendrocyte,Prickle2,False,False
+Oligodendrocyte,Prr5l,False,True
+Oligodendrocyte,Pstpip2,False,True
+Oligodendrocyte,Ptgds,False,False
+Oligodendrocyte,Ptma,False,False
+Oligodendrocyte,Ptn,False,False
+Oligodendrocyte,Ptpn11,False,False
+Oligodendrocyte,Ptprd,True,False
+Oligodendrocyte,Ptprk,True,False
+Oligodendrocyte,Qdpr,False,True
+Oligodendrocyte,Qk,False,False
+Oligodendrocyte,RP23-44H21.1,False,True
+Oligodendrocyte,Rab31,False,True
+Oligodendrocyte,Rab37,False,False
+Oligodendrocyte,Ralgps1,False,True
+Oligodendrocyte,Rap1a,False,False
+Oligodendrocyte,Rasgrp3,False,False
+Oligodendrocyte,Rcan2,False,True
+Oligodendrocyte,Rcbtb1,False,True
+Oligodendrocyte,Rffl,False,False
+Oligodendrocyte,Rftn1,False,False
+Oligodendrocyte,Rnf13,False,True
+Oligodendrocyte,Rnf220,True,False
+Oligodendrocyte,Rtkn,False,True
+Oligodendrocyte,Rtn4,False,False
+Oligodendrocyte,Scd2,False,True
+Oligodendrocyte,Sec11c,True,True
+Oligodendrocyte,Sec14l5,False,True
+Oligodendrocyte,Sema6d,True,False
+Oligodendrocyte,Sepp1,False,False
+Oligodendrocyte,Serpinb1a,False,True
+Oligodendrocyte,Sez6l2,True,True
+Oligodendrocyte,Sgk1,False,False
+Oligodendrocyte,Sgk3,False,False
+Oligodendrocyte,Sh3d19,False,False
+Oligodendrocyte,Sh3gl3,False,False
+Oligodendrocyte,Sh3kbp1,True,False
+Oligodendrocyte,Shisa4,False,False
+Oligodendrocyte,Shtn1,False,True
+Oligodendrocyte,Sik3,False,False
+Oligodendrocyte,Slain1,True,True
+Oligodendrocyte,Slc12a2,False,False
+Oligodendrocyte,Slc24a2,True,False
+Oligodendrocyte,Slc25a13,False,True
+Oligodendrocyte,Slc25a27,False,True
+Oligodendrocyte,Slc38a2,False,False
+Oligodendrocyte,Slc44a1,True,False
+Oligodendrocyte,Slc48a1,False,True
+Oligodendrocyte,Slc8a1,True,False
+Oligodendrocyte,Slco3a1,False,False
+Oligodendrocyte,Smad7,False,False
+Oligodendrocyte,Sorcs1,False,False
+Oligodendrocyte,Spock1,True,False
+Oligodendrocyte,Spock3,True,False
+Oligodendrocyte,Srcin1,False,False
+Oligodendrocyte,Ssh2,False,False
+Oligodendrocyte,St18,False,False
+Oligodendrocyte,St3gal4,False,False
+Oligodendrocyte,St6gal1,False,False
+Oligodendrocyte,St6galnac3,False,True
+Oligodendrocyte,Stmn1,False,True
+Oligodendrocyte,Stmn4,True,True
+Oligodendrocyte,Stxbp3,False,False
+Oligodendrocyte,Stxbp6,False,True
+Oligodendrocyte,Sulf2,False,False
+Oligodendrocyte,Synj2,False,True
+Oligodendrocyte,Synpr,False,False
+Oligodendrocyte,Syt11,True,True
+Oligodendrocyte,Sytl2,True,False
+Oligodendrocyte,Taldo1,False,True
+Oligodendrocyte,Tbc1d5,False,True
+Oligodendrocyte,Tln2,False,False
+Oligodendrocyte,Tmcc3,False,False
+Oligodendrocyte,Tmeff1,True,True
+Oligodendrocyte,Tmeff2,False,False
+Oligodendrocyte,Tmem117,False,False
+Oligodendrocyte,Tmem178b,False,True
+Oligodendrocyte,Tmod1,False,False
+Oligodendrocyte,Tmod2,False,True
+Oligodendrocyte,Tnfaip6,False,True
+Oligodendrocyte,Traf5,False,True
+Oligodendrocyte,Trim2,False,True
+Oligodendrocyte,Tspan2,False,False
+Oligodendrocyte,Tspan9,False,True
+Oligodendrocyte,Ttll7,True,True
+Oligodendrocyte,Ttyh2,False,True
+Oligodendrocyte,Tuba1a,False,False
+Oligodendrocyte,Tubb4a,False,False
+Oligodendrocyte,Tulp4,False,True
+Oligodendrocyte,Ubc,False,False
+Oligodendrocyte,Ube2d1,False,True
+Oligodendrocyte,Ube2e2,True,False
+Oligodendrocyte,Ugt8a,False,False
+Oligodendrocyte,Usp31,False,True
+Oligodendrocyte,Usp54,False,True
+Oligodendrocyte,Vmp1,False,True
+Oligodendrocyte,Vps8,True,False
+Oligodendrocyte,Wnk1,True,False
+Oligodendrocyte,Ypel2,False,True
+Oligodendrocyte,Ywhaq,False,True
+Oligodendrocyte,Zbtb16,False,False
+Oligodendrocyte,Zdhhc20,True,True
+Oligodendrocyte,Zeb2,False,False
+Oligodendrocyte,Zfp536,False,False
+PLI,2020-03-01,False,False
+PLI,2410089E03Rik,False,True
+PLI,4930445B16Rik,False,True
+PLI,4930578G10Rik,False,False
+PLI,5330434G04Rik,True,False
+PLI,5530401A14Rik,False,True
+PLI,9330158H04Rik,False,True
+PLI,9530026P05Rik,False,False
+PLI,A230006K03Rik,False,False
+PLI,A330102I10Rik,False,False
+PLI,A930011G23Rik,False,False
+PLI,Abtb2,False,False
+PLI,Adam22,True,False
+PLI,Adamts16,False,False
+PLI,Adamts18,False,False
+PLI,Adamts2,False,False
+PLI,Adarb2,False,False
+PLI,Adcy8,True,False
+PLI,Adgrb1,False,False
+PLI,Aff2,False,False
+PLI,Agbl4,False,False
+PLI,Ahi1,True,False
+PLI,Ak5,False,False
+PLI,Alk,False,False
+PLI,Angpt1,False,False
+PLI,Ankrd24,False,True
+PLI,Apba1,False,False
+PLI,Apba2,True,False
+PLI,Arhgap6,False,False
+PLI,Asic2,False,False
+PLI,Atp1a3,False,False
+PLI,Atp1b1,False,False
+PLI,Atp8a2,False,False
+PLI,Atrnl1,False,False
+PLI,Basp1,False,False
+PLI,Bcan,False,False
+PLI,Bend6,False,False
+PLI,Btbd11,False,False
+PLI,C530008M17Rik,False,False
+PLI,Cabp1,False,False
+PLI,Cacna1b,False,False
+PLI,Cacna1d,False,False
+PLI,Cacna1e,False,False
+PLI,Cacna2d2,False,False
+PLI,Cacna2d3,False,False
+PLI,Cacng2,False,False
+PLI,Cadm1,True,False
+PLI,Cadm2,True,False
+PLI,Cadps,True,False
+PLI,Camta1,True,False
+PLI,Ccbe1,False,False
+PLI,Ccser1,False,False
+PLI,Cdh22,False,False
+PLI,Cdh7,False,False
+PLI,Celf4,True,False
+PLI,Chrm2,False,False
+PLI,Cit,True,False
+PLI,Clmp,False,False
+PLI,Cnr1,False,False
+PLI,Cntn4,True,False
+PLI,Cntn6,False,False
+PLI,Cntnap2,True,False
+PLI,Cntnap4,False,False
+PLI,Cntnap5a,False,False
+PLI,Copg2,False,True
+PLI,Csmd1,False,False
+PLI,Csmd2,False,False
+PLI,Csmd3,True,False
+PLI,Csrnp3,True,False
+PLI,Cux2,False,False
+PLI,D030068K23Rik,False,True
+PLI,Dab1,True,False
+PLI,Dcc,False,False
+PLI,Dclk2,False,True
+PLI,Dgki,False,False
+PLI,Dlgap2,False,False
+PLI,Dner,False,False
+PLI,Dok6,False,False
+PLI,Dpf3,False,False
+PLI,Dpp6,False,False
+PLI,Dscam,False,False
+PLI,Dscaml1,False,False
+PLI,Dync1i1,True,False
+PLI,Efr3b,False,False
+PLI,Elavl2,True,False
+PLI,Elavl4,False,False
+PLI,Eml5,False,False
+PLI,Epb41,True,False
+PLI,Epha10,False,False
+PLI,Epha5,False,False
+PLI,Epha6,False,False
+PLI,Ephb1,False,False
+PLI,Erc2,True,False
+PLI,Esrrg,False,False
+PLI,Etl4,True,False
+PLI,Fam155a,False,False
+PLI,Fam189a1,False,True
+PLI,Fat3,False,False
+PLI,Fgf12,False,False
+PLI,Focad,False,False
+PLI,Frmd4a,False,False
+PLI,Frmd5,False,False
+PLI,Fstl4,False,False
+PLI,Fstl5,False,False
+PLI,Gabra1,False,False
+PLI,Gabrb3,False,False
+PLI,Gabrg2,True,False
+PLI,Gad1,False,False
+PLI,Gad2,False,False
+PLI,Galnt14,False,True
+PLI,Galntl6,False,False
+PLI,Garnl3,False,False
+PLI,Gfra2,False,True
+PLI,Glce,False,False
+PLI,Gm11418,False,True
+PLI,Gm12394,False,False
+PLI,Gm13629,False,False
+PLI,Gm14342,False,True
+PLI,Gm14344,False,True
+PLI,Gm15398,False,False
+PLI,Gm20642,False,False
+PLI,Gm2163,False,False
+PLI,Gm26688,False,False
+PLI,Gm38399,False,False
+PLI,Gprin3,False,False
+PLI,Grb10,False,False
+PLI,Gria2,True,False
+PLI,Gria4,False,False
+PLI,Grid1,False,False
+PLI,Grik3,False,False
+PLI,Grik4,False,False
+PLI,Grin1,False,False
+PLI,Grin2b,False,False
+PLI,Grin3a,False,False
+PLI,Grip1,False,False
+PLI,Grm5,False,False
+PLI,Gtdc1,False,True
+PLI,Hcn1,False,False
+PLI,Hcrtr2,False,True
+PLI,Hecw1,False,False
+PLI,Hs6st3,False,False
+PLI,Igsf21,False,True
+PLI,Immp2l,False,False
+PLI,Inhba,False,True
+PLI,Inpp4b,False,False
+PLI,Itga8,False,True
+PLI,Kcnb2,False,False
+PLI,Kcnc1,False,False
+PLI,Kcnc2,False,True
+PLI,Kcnd2,False,False
+PLI,Kcnh7,False,False
+PLI,Kcnip3,False,False
+PLI,Kcnn2,False,False
+PLI,Kcnn3,False,False
+PLI,Kcnq5,False,False
+PLI,Kctd8,False,False
+PLI,Khdrbs3,False,False
+PLI,Kit,False,False
+PLI,Klf12,False,False
+PLI,Klhdc10,True,False
+PLI,Klhl1,False,True
+PLI,Lhfpl3,True,False
+PLI,Lin7a,True,False
+PLI,Lmo4,False,False
+PLI,Lrfn5,False,False
+PLI,Lrrc16a,False,False
+PLI,Lrrc4c,False,False
+PLI,Lrrc7,False,False
+PLI,Lrrtm4,False,False
+PLI,Lrtm1,False,False
+PLI,Lsamp,True,False
+PLI,Luzp2,False,False
+PLI,Ly6h,False,False
+PLI,Magi1,True,True
+PLI,Man1a,False,False
+PLI,Map1b,False,False
+PLI,Mast2,False,True
+PLI,Mdga2,False,False
+PLI,Me3,False,False
+PLI,Meg3,True,False
+PLI,Mgat4c,False,False
+PLI,Mir124-2hg,False,False
+PLI,Mirg,False,False
+PLI,Mkx,False,False
+PLI,Mmp16,False,False
+PLI,Mpp7,False,False
+PLI,Msra,False,False
+PLI,Mtus2,False,False
+PLI,Mycbp2,True,True
+PLI,Myo16,False,False
+PLI,Myt1l,True,False
+PLI,Nalcn,True,False
+PLI,Nav1,False,False
+PLI,Nav3,False,False
+PLI,Nbea,False,False
+PLI,Ncam2,True,False
+PLI,Nebl,False,False
+PLI,Neto1,False,False
+PLI,Nfib,False,False
+PLI,Nhs,False,False
+PLI,Nkain2,False,False
+PLI,Nkain3,False,False
+PLI,Nlgn1,True,False
+PLI,Npas3,False,False
+PLI,Nrg1,False,False
+PLI,Nrg3,False,False
+PLI,Nrg3os,False,False
+PLI,Nrp1,False,False
+PLI,Nrxn3,True,False
+PLI,Nsf,False,False
+PLI,Ntm,True,False
+PLI,Ntn1,False,False
+PLI,Ntng1,False,False
+PLI,Nxph1,False,False
+PLI,Opcml,True,False
+PLI,Osbpl10,False,False
+PLI,Osbpl1a,True,True
+PLI,Osbpl6,True,False
+PLI,Pacsin1,False,False
+PLI,Pacsin2,False,True
+PLI,Pak3,False,False
+PLI,Pam,True,False
+PLI,Parm1,False,False
+PLI,Pax2,False,False
+PLI,Pcdh15,False,False
+PLI,Pcdh7,False,False
+PLI,Pdzd4,False,True
+PLI,Peg3,True,True
+PLI,Pex5l,True,False
+PLI,Phactr1,True,False
+PLI,Phf24,False,False
+PLI,Pid1,False,False
+PLI,Plcl2,False,False
+PLI,Pld5,False,False
+PLI,Plekha6,False,False
+PLI,Ppm1e,False,False
+PLI,Ppm1l,False,False
+PLI,Ppp2r2b,True,False
+PLI,Prickle2,False,False
+PLI,Prkca,False,False
+PLI,Prkcb,True,False
+PLI,Prkce,False,False
+PLI,Ptchd4,False,False
+PLI,Ptpn5,False,False
+PLI,Ptprg,False,False
+PLI,Ptprn2,False,False
+PLI,Ptprt,False,False
+PLI,Ptprz1,True,False
+PLI,Pvt1,True,False
+PLI,Rap1gap2,False,False
+PLI,Rasgrf1,False,False
+PLI,Rerg,False,True
+PLI,Rgs6,False,False
+PLI,Rgs7,False,False
+PLI,Rit2,False,False
+PLI,Rmst,True,False
+PLI,Rnf157,True,False
+PLI,Robo1,False,False
+PLI,Robo2,True,False
+PLI,Rora,False,False
+PLI,Ryr2,False,False
+PLI,Scg2,False,False
+PLI,Scg5,False,True
+PLI,Scn1a,True,False
+PLI,Scn9a,False,False
+PLI,Sdk2,False,False
+PLI,Sema5a,False,False
+PLI,Sema6a,False,False
+PLI,Serpini1,False,False
+PLI,Sgk1,False,False
+PLI,Sh3rf3,False,False
+PLI,Shisa9,False,False
+PLI,Sipa1l1,False,False
+PLI,Slc12a5,False,False
+PLI,Slc16a11,False,False
+PLI,Slc24a2,True,False
+PLI,Slc24a3,False,False
+PLI,Slc35f1,False,False
+PLI,Slc44a5,False,False
+PLI,Slc4a10,True,False
+PLI,Slc6a1,False,False
+PLI,Slc6a5,False,False
+PLI,Slco3a1,False,False
+PLI,Snap91,False,False
+PLI,Snhg11,False,False
+PLI,Snph,False,False
+PLI,Snrpn,False,True
+PLI,Sntg1,True,False
+PLI,Sorbs2,True,False
+PLI,Sptbn4,False,True
+PLI,Stard5,False,False
+PLI,Stau2,False,True
+PLI,Stmn3,False,False
+PLI,Strbp,False,False
+PLI,Stxbp1,True,False
+PLI,Susd4,False,False
+PLI,Syn2,False,False
+PLI,Syn3,False,False
+PLI,Synpr,False,False
+PLI,Syt14,False,False
+PLI,Syt2,False,False
+PLI,Tanc2,False,False
+PLI,Tcf4,True,False
+PLI,Tenm2,False,False
+PLI,Tenm4,False,False
+PLI,Tfap2b,False,False
+PLI,Thrb,False,False
+PLI,Tjp1,True,False
+PLI,Tmem117,False,False
+PLI,Tmtc2,False,False
+PLI,Tnik,True,False
+PLI,Trpc5,False,False
+PLI,Ttc3,True,False
+PLI,Ube2e2,True,False
+PLI,Ube3a,True,False
+PLI,Unc5c,False,False
+PLI,Unc79,True,False
+PLI,Usp29,True,False
+PLI,Vsnl1,False,False
+PLI,Wbscr17,False,False
+PLI,Whrn,False,False
+PLI,Wwox,False,False
+PLI,Xkr4,False,False
+PLI,Zcchc16,False,False
+PLI,Zcchc18,False,False
+PLI,Zfp385b,True,False
+PLI,Zfp398,False,True
+PLI,Zfp423,False,False
+PLI,Zfp521,True,False
+PLI,Zfp536,False,False
+PLI,Zfp804a,False,False
+PLI,Zfpm2,False,False
+PLI,Zfyve28,False,False
+PLI,Zmat4,False,False
+Purkinje,0610007P14Rik,False,True
+Purkinje,1190002N15Rik,False,True
+Purkinje,2020-09-11,False,False
+Purkinje,2810432F15Rik,False,True
+Purkinje,9530059O14Rik,False,False
+Purkinje,9630028H03Rik,False,False
+Purkinje,A330015K06Rik,False,False
+Purkinje,A330050F15Rik,False,True
+Purkinje,A930029G22Rik,False,True
+Purkinje,AI854517,False,False
+Purkinje,Aatf,False,True
+Purkinje,Abhd3,False,True
+Purkinje,Ablim2,True,False
+Purkinje,Abr,False,False
+Purkinje,Adam12,False,False
+Purkinje,Adam23,False,False
+Purkinje,Adamts3,False,False
+Purkinje,Adgrb3,False,False
+Purkinje,Aff1,False,True
+Purkinje,Agbl4,False,False
+Purkinje,Agfg2,False,True
+Purkinje,Akap6,False,False
+Purkinje,Aldoc,False,False
+Purkinje,Alpk2,False,True
+Purkinje,Ank1,False,False
+Purkinje,Ankrd6,False,True
+Purkinje,Anks1b,False,False
+Purkinje,Ano6,True,True
+Purkinje,Arap1,False,True
+Purkinje,Arap2,True,True
+Purkinje,Arhgap20,False,True
+Purkinje,Arhgap26,False,False
+Purkinje,Arhgap31,False,False
+Purkinje,Arhgap32,True,True
+Purkinje,Arhgap5,False,True
+Purkinje,Arhgef33,True,True
+Purkinje,Arntl,False,True
+Purkinje,Asph,True,True
+Purkinje,Astn1,False,True
+Purkinje,Astn2,True,False
+Purkinje,Atl2,True,True
+Purkinje,Atp2a2,False,True
+Purkinje,Atp2a3,False,True
+Purkinje,Atp2b2,True,True
+Purkinje,Atp2c1,True,True
+Purkinje,Atrnl1,False,False
+Purkinje,Auts2,False,False
+Purkinje,B3galnt2,True,True
+Purkinje,B3glct,False,True
+Purkinje,Baiap2,False,True
+Purkinje,Bcar1,False,True
+Purkinje,Bcl11a,False,True
+Purkinje,Bzrap1,False,True
+Purkinje,Cacna1a,False,False
+Purkinje,Cacna1g,True,True
+Purkinje,Cacna2d2,False,False
+Purkinje,Cacnb2,True,False
+Purkinje,Cacnb4,False,False
+Purkinje,Cadps,True,False
+Purkinje,Calb1,False,True
+Purkinje,Calm2,False,True
+Purkinje,Camk2a,False,True
+Purkinje,Car7,False,True
+Purkinje,Car8,False,True
+Purkinje,Casq2,True,True
+Purkinje,Ccar1,False,True
+Purkinje,Ccdc148,False,True
+Purkinje,Ccdc64,False,True
+Purkinje,Ccdc85a,True,False
+Purkinje,Cdh11,False,False
+Purkinje,Cdh12,False,False
+Purkinje,Cdh18,False,False
+Purkinje,Cdk14,False,False
+Purkinje,Celf2,False,False
+Purkinje,Cep126,False,True
+Purkinje,Cep76,False,True
+Purkinje,Cerk,False,True
+Purkinje,Chn1,True,False
+Purkinje,Clec2l,False,True
+Purkinje,Clic6,False,False
+Purkinje,Clmn,True,False
+Purkinje,Clstn2,False,False
+Purkinje,Clvs1,True,True
+Purkinje,Cntn3,False,False
+Purkinje,Cntn4,True,False
+Purkinje,Cntn5,False,False
+Purkinje,Cntnap5a,False,False
+Purkinje,Cntnap5b,False,True
+Purkinje,Cntnap5c,False,True
+Purkinje,Col18a1,False,True
+Purkinje,Col4a2,False,True
+Purkinje,Col4a6,False,False
+Purkinje,Corin,False,True
+Purkinje,Cpeb1,False,True
+Purkinje,Cpeb4,True,True
+Purkinje,Cpne8,False,True
+Purkinje,Cpne9,False,True
+Purkinje,Cttnbp2,False,False
+Purkinje,Cux2,False,False
+Purkinje,Cyth3,False,True
+Purkinje,Dab1,True,False
+Purkinje,Dach1,False,False
+Purkinje,Dagla,False,True
+Purkinje,Dgkb,True,False
+Purkinje,Dgkg,True,False
+Purkinje,Dgkh,True,True
+Purkinje,Dgki,False,False
+Purkinje,Dgkz,False,True
+Purkinje,Dhx58os,False,True
+Purkinje,Dlg2,True,False
+Purkinje,Dlgap4,False,True
+Purkinje,Dmd,True,False
+Purkinje,Dnah6,False,False
+Purkinje,Dner,False,False
+Purkinje,Doc2b,False,True
+Purkinje,Dpp10,False,False
+Purkinje,Dscam,False,False
+Purkinje,Dync1i1,True,False
+Purkinje,Ebf1,False,False
+Purkinje,Ebf2,False,True
+Purkinje,Ebf3,False,False
+Purkinje,Eda,False,True
+Purkinje,Eepd1,False,True
+Purkinje,Efna5,False,False
+Purkinje,Efr3a,True,True
+Purkinje,Egfem1,False,False
+Purkinje,Elmo1,True,False
+Purkinje,Eml1,False,False
+Purkinje,Eml6,False,False
+Purkinje,Epha5,False,False
+Purkinje,Epha6,False,False
+Purkinje,Epha7,True,True
+Purkinje,Erc2,True,False
+Purkinje,Etl4,True,False
+Purkinje,Exoc6b,False,False
+Purkinje,Fam107b,False,True
+Purkinje,Fam117a,False,True
+Purkinje,Fam135b,False,False
+Purkinje,Fam184b,False,True
+Purkinje,Fam21,False,True
+Purkinje,Fam65b,False,False
+Purkinje,Far2,False,True
+Purkinje,Fhod3,False,False
+Purkinje,Flt3,False,True
+Purkinje,Foxp2,False,True
+Purkinje,Foxp4,False,True
+Purkinje,Frmd4a,False,False
+Purkinje,Frmd5,False,False
+Purkinje,Frmpd3,False,True
+Purkinje,Frmpd4,False,False
+Purkinje,Fstl4,False,False
+Purkinje,Gabbr2,False,False
+Purkinje,Galnt10,False,True
+Purkinje,Garnl3,False,False
+Purkinje,Gm14033,False,True
+Purkinje,Gm14372,False,True
+Purkinje,Gm15046,False,True
+Purkinje,Gm15083,False,True
+Purkinje,Gm15336,False,True
+Purkinje,Gm15337,False,True
+Purkinje,Gm15594,False,True
+Purkinje,Gm16183,False,True
+Purkinje,Gm20635,False,True
+Purkinje,Gm20647,False,True
+Purkinje,Gm26531,False,True
+Purkinje,Gm27032,False,True
+Purkinje,Gm30524,False,True
+Purkinje,Gm42439,False,True
+Purkinje,Gm44040,False,True
+Purkinje,Gm44071,False,True
+Purkinje,Gm44188,False,True
+Purkinje,Gng13,False,True
+Purkinje,Gng2,False,False
+Purkinje,Gpc6,False,False
+Purkinje,Gpr176,False,True
+Purkinje,Gpr63,False,True
+Purkinje,Gria1,False,False
+Purkinje,Gria2,True,False
+Purkinje,Gria3,True,False
+Purkinje,Grid2,False,False
+Purkinje,Grid2ip,False,True
+Purkinje,Grik1,True,True
+Purkinje,Grik4,False,False
+Purkinje,Grip1,False,False
+Purkinje,Grm1,True,False
+Purkinje,Grm7,False,False
+Purkinje,Heatr5a,False,False
+Purkinje,Hes3,False,True
+Purkinje,Homer3,False,True
+Purkinje,Hpcal1,False,True
+Purkinje,Hs6st3,False,False
+Purkinje,Hspa14,False,True
+Purkinje,Htr1b,False,True
+Purkinje,Hunk,False,False
+Purkinje,Icmt,True,True
+Purkinje,Id2,False,True
+Purkinje,Ide,False,True
+Purkinje,Ift57,True,True
+Purkinje,Il1rapl1,False,False
+Purkinje,Iltifb,False,True
+Purkinje,Immp2l,False,False
+Purkinje,Inpp4a,True,True
+Purkinje,Inpp5a,False,True
+Purkinje,Ipo5,False,True
+Purkinje,Itpka,False,True
+Purkinje,Itpr1,True,True
+Purkinje,Kalrn,False,False
+Purkinje,Kcnab1,False,True
+Purkinje,Kcnc3,False,True
+Purkinje,Kcnd3,False,False
+Purkinje,Kcnh7,False,False
+Purkinje,Kcnip1,False,False
+Purkinje,Kcnma1,True,False
+Purkinje,Kcnmb1,False,True
+Purkinje,Kcnmb4,False,True
+Purkinje,Khdrbs2,False,False
+Purkinje,Kitl,True,False
+Purkinje,Ksr2,False,True
+Purkinje,Large,False,True
+Purkinje,Lhfpl3,True,False
+Purkinje,Lhx1,False,True
+Purkinje,Lhx1os,False,True
+Purkinje,Lingo2,False,False
+Purkinje,Loxl2,False,True
+Purkinje,Lpgat1,False,True
+Purkinje,Lrch1,False,False
+Purkinje,Lrfn5,False,False
+Purkinje,Lrp8,False,False
+Purkinje,Lrp8os2,False,True
+Purkinje,Lrrfip1,True,True
+Purkinje,Lrrn2,False,True
+Purkinje,Lrrtm4,False,False
+Purkinje,Macrod2,True,False
+Purkinje,Magi2,True,False
+Purkinje,Malat1,False,True
+Purkinje,Mast4,False,False
+Purkinje,Mdga2,False,False
+Purkinje,Meg3,True,False
+Purkinje,Mei4,False,True
+Purkinje,Mir124a-1hg,False,False
+Purkinje,Mpped2,False,False
+Purkinje,Mprip,True,True
+Purkinje,Mtss1,False,True
+Purkinje,Myo10,False,False
+Purkinje,Nell1,True,True
+Purkinje,Nexn,False,True
+Purkinje,Nol4,True,True
+Purkinje,Ntm,True,False
+Purkinje,Nup93,False,True
+Purkinje,Nwd2,False,False
+Purkinje,Opcml,True,False
+Purkinje,Orai2,False,True
+Purkinje,Osbpl6,True,False
+Purkinje,Paxbp1,False,True
+Purkinje,Pcp2,False,True
+Purkinje,Pcp4,False,True
+Purkinje,Pcsk1,False,True
+Purkinje,Pcsk6,False,True
+Purkinje,Pde1c,True,False
+Purkinje,Pde5a,False,True
+Purkinje,Pde9a,True,True
+Purkinje,Pdzrn3,False,False
+Purkinje,Pdzrn4,False,False
+Purkinje,Pfkfb3,False,True
+Purkinje,Phactr2,False,False
+Purkinje,Pigk,False,True
+Purkinje,Pigs,False,True
+Purkinje,Plcb4,True,False
+Purkinje,Plcxd2,False,True
+Purkinje,Plekhd1,False,True
+Purkinje,Plxdc1,False,False
+Purkinje,Ppard,False,True
+Purkinje,Ppp1r16b,False,False
+Purkinje,Ppp1r17,False,True
+Purkinje,Ppp4r4,False,True
+Purkinje,Prkcg,False,False
+Purkinje,Prkg1,False,False
+Purkinje,Prmt8,False,True
+Purkinje,Psd2,False,True
+Purkinje,Ptchd4,False,False
+Purkinje,Ptpn13,False,False
+Purkinje,Ptpn4,True,True
+Purkinje,Ptprm,True,False
+Purkinje,Ptprr,False,False
+Purkinje,RP23-231J2.1,False,True
+Purkinje,Rasal2,True,False
+Purkinje,Rasl11b,False,True
+Purkinje,Rbms1,True,False
+Purkinje,Rbms3,False,False
+Purkinje,Rgs8,False,True
+Purkinje,Rhobtb2,False,True
+Purkinje,Rmdn3,False,True
+Purkinje,Rnf157,True,False
+Purkinje,Rnf19b,True,True
+Purkinje,Robo2,True,False
+Purkinje,Rps6ka5,False,True
+Purkinje,Rreb1,False,False
+Purkinje,Ryr1,False,True
+Purkinje,Sbk1,False,True
+Purkinje,Sema3a,False,True
+Purkinje,Serinc2,False,True
+Purkinje,Sestd1,False,True
+Purkinje,Sez6l,False,False
+Purkinje,Sgcz,False,False
+Purkinje,Sh3pxd2a,False,True
+Purkinje,Shank1,False,False
+Purkinje,Shank2,False,False
+Purkinje,Shisa6,False,False
+Purkinje,Slc1a6,False,True
+Purkinje,Slc20a1,True,True
+Purkinje,Slc23a2,True,True
+Purkinje,Slc31a2,False,True
+Purkinje,Slc35f1,False,False
+Purkinje,Slc4a10,True,False
+Purkinje,Slc9a3,False,True
+Purkinje,Snhg11,False,False
+Purkinje,Sntg1,True,False
+Purkinje,Sorcs2,False,True
+Purkinje,Sos1,False,True
+Purkinje,Sox5,False,False
+Purkinje,Sox5os4,False,True
+Purkinje,Spag5,False,True
+Purkinje,Sphkap,True,False
+Purkinje,Sptan1,True,True
+Purkinje,Sptbn2,False,True
+Purkinje,Srgap1,False,False
+Purkinje,Srgap2,False,False
+Purkinje,St6galnac5,False,False
+Purkinje,Stac,False,True
+Purkinje,Strip2,False,False
+Purkinje,Strn3,False,True
+Purkinje,Susd4,False,False
+Purkinje,Sv2c,False,True
+Purkinje,Svil,False,False
+Purkinje,Sybu,False,True
+Purkinje,Sycp1,False,True
+Purkinje,Syndig1,False,False
+Purkinje,Synpo2,False,True
+Purkinje,Syt7,False,False
+Purkinje,Tenm2,False,False
+Purkinje,Tenm3,False,False
+Purkinje,Tenm4,False,False
+Purkinje,Tex261,False,True
+Purkinje,Thsd7a,False,False
+Purkinje,Tm6sf1,True,False
+Purkinje,Tmem132c,False,False
+Purkinje,Tmem132d,False,False
+Purkinje,Tmem255a,True,True
+Purkinje,Trabd2b,False,True
+Purkinje,Trim9,True,False
+Purkinje,Trio,True,False
+Purkinje,Trpc3,False,False
+Purkinje,Ttll4,False,True
+Purkinje,Ttll5,True,True
+Purkinje,Ubash3b,False,True
+Purkinje,Ube3a,True,False
+Purkinje,Unc5d,False,False
+Purkinje,Vav3,False,False
+Purkinje,Vwa8,False,True
+Purkinje,Wdr17,True,False
+Purkinje,Ywhah,False,True
+Purkinje,Zbtb46,False,True
+Purkinje,Zdhhc14,False,False
+Purkinje,Zfand4,True,True
+Purkinje,Zfp385c,False,True
+Unipolar brush,1700024B18Rik,False,True
+Unipolar brush,2020-03-03,False,True
+Unipolar brush,3100003L05Rik,False,True
+Unipolar brush,4930555F03Rik,False,False
+Unipolar brush,4930578G10Rik,False,False
+Unipolar brush,5330434G04Rik,True,False
+Unipolar brush,A330102I10Rik,False,False
+Unipolar brush,Abr,False,False
+Unipolar brush,Abtb2,False,False
+Unipolar brush,Adarb1,True,False
+Unipolar brush,Adcy2,False,False
+Unipolar brush,Ahi1,True,False
+Unipolar brush,Ak5,False,False
+Unipolar brush,Akap6,False,False
+Unipolar brush,Akap7,False,True
+Unipolar brush,Als2,False,False
+Unipolar brush,Ank3,True,False
+Unipolar brush,Ano3,False,False
+Unipolar brush,App,True,False
+Unipolar brush,Arpp21,False,False
+Unipolar brush,Asic2,False,False
+Unipolar brush,Atp1a3,False,False
+Unipolar brush,Atp1b1,False,False
+Unipolar brush,Atp2b1,True,False
+Unipolar brush,Atp5o,False,False
+Unipolar brush,Atrnl1,False,False
+Unipolar brush,Baz2b,False,True
+Unipolar brush,Bcan,False,False
+Unipolar brush,Btbd7,False,True
+Unipolar brush,Cacna1c,True,False
+Unipolar brush,Cacna1e,False,False
+Unipolar brush,Cacna2d1,False,False
+Unipolar brush,Calb2,False,True
+Unipolar brush,Camk2d,True,False
+Unipolar brush,Ccdc85a,True,False
+Unipolar brush,Ccser1,False,False
+Unipolar brush,Cdc14b,False,False
+Unipolar brush,Cdh11,False,False
+Unipolar brush,Cdh12,False,False
+Unipolar brush,Cdh18,False,False
+Unipolar brush,Cdyl,False,False
+Unipolar brush,Celf4,True,False
+Unipolar brush,Cep112,False,True
+Unipolar brush,Cers4,False,True
+Unipolar brush,Chd7,True,False
+Unipolar brush,Chgb,False,False
+Unipolar brush,Chn2,False,False
+Unipolar brush,Cnksr2,False,False
+Unipolar brush,Cntn1,False,False
+Unipolar brush,Cntn3,False,False
+Unipolar brush,Cntnap2,True,False
+Unipolar brush,Cntnap4,False,False
+Unipolar brush,Csmd2,False,False
+Unipolar brush,Ctnna2,True,False
+Unipolar brush,Dach1,False,False
+Unipolar brush,Dcc,False,False
+Unipolar brush,Dclk3,False,True
+Unipolar brush,Dgkb,True,False
+Unipolar brush,Dgkg,True,False
+Unipolar brush,Dlg1,True,False
+Unipolar brush,Dner,False,False
+Unipolar brush,Dnm3,False,False
+Unipolar brush,Dock3,True,True
+Unipolar brush,Dok6,False,False
+Unipolar brush,Dpf3,False,False
+Unipolar brush,Dpp6,False,False
+Unipolar brush,Dscam,False,False
+Unipolar brush,Dscaml1,False,False
+Unipolar brush,Dtnb,True,True
+Unipolar brush,Dync1i1,True,False
+Unipolar brush,Efna5,False,False
+Unipolar brush,Elavl2,True,False
+Unipolar brush,Elmod1,False,False
+Unipolar brush,Elovl5,False,True
+Unipolar brush,Eml6,False,False
+Unipolar brush,Enox1,False,False
+Unipolar brush,Epha6,False,False
+Unipolar brush,Ephb1,False,False
+Unipolar brush,Eps8,False,False
+Unipolar brush,Esrrg,False,False
+Unipolar brush,Fam135b,False,False
+Unipolar brush,Fam155a,False,False
+Unipolar brush,Fam19a2,False,False
+Unipolar brush,Fam65b,False,False
+Unipolar brush,Fgf14,False,False
+Unipolar brush,Fhod3,False,False
+Unipolar brush,Fmnl2,False,False
+Unipolar brush,Frmd4b,False,False
+Unipolar brush,Gabbr2,False,False
+Unipolar brush,Gabrg2,True,False
+Unipolar brush,Glra2,False,True
+Unipolar brush,Gm13944,False,True
+Unipolar brush,Gm15577,False,True
+Unipolar brush,Gm15800,False,True
+Unipolar brush,Gm20642,False,False
+Unipolar brush,Gm2163,False,False
+Unipolar brush,Gm43376,False,True
+Unipolar brush,Gpr158,False,False
+Unipolar brush,Gria2,True,False
+Unipolar brush,Grid1,False,False
+Unipolar brush,Grk5,False,False
+Unipolar brush,Grm1,True,False
+Unipolar brush,Grm8,False,False
+Unipolar brush,Gsg1l,False,True
+Unipolar brush,Gucy1b3,False,False
+Unipolar brush,Hcn1,False,False
+Unipolar brush,Hivep3,False,True
+Unipolar brush,Homer2,False,False
+Unipolar brush,Hs3st2,False,True
+Unipolar brush,Hs3st4,False,True
+Unipolar brush,Immp2l,False,False
+Unipolar brush,Inadl,False,False
+Unipolar brush,Inpp4b,False,False
+Unipolar brush,Itsn1,True,False
+Unipolar brush,Kcnd2,False,False
+Unipolar brush,Kcnh1,False,False
+Unipolar brush,Kcnh8,False,False
+Unipolar brush,Kcnip4,False,False
+Unipolar brush,Kcnj3,False,False
+Unipolar brush,Kcnj6,False,False
+Unipolar brush,Kcnk2,False,False
+Unipolar brush,Kcnma1,True,False
+Unipolar brush,Kctd16,False,False
+Unipolar brush,Kctd8,False,False
+Unipolar brush,Khdrbs2,False,False
+Unipolar brush,Khdrbs3,False,False
+Unipolar brush,Kirrel3,False,False
+Unipolar brush,Klhdc10,True,False
+Unipolar brush,Ldlrad3,False,True
+Unipolar brush,Ldlrad4,False,False
+Unipolar brush,Lhfpl3,True,False
+Unipolar brush,Lingo2,False,False
+Unipolar brush,Lmx1a,False,False
+Unipolar brush,Lrp1b,True,False
+Unipolar brush,Lrp8,False,False
+Unipolar brush,Lrrtm4,False,False
+Unipolar brush,Map1b,False,False
+Unipolar brush,Map4k3,True,False
+Unipolar brush,Mdga1,False,True
+Unipolar brush,Me3,False,False
+Unipolar brush,Meg3,True,False
+Unipolar brush,Megf11,True,False
+Unipolar brush,Meis1,True,False
+Unipolar brush,Mgat5,False,False
+Unipolar brush,Mob3b,False,False
+Unipolar brush,Mpped2,False,False
+Unipolar brush,Msi2,False,False
+Unipolar brush,Mtcl1,False,False
+Unipolar brush,Mtus2,False,False
+Unipolar brush,Nalcn,True,False
+Unipolar brush,Nav2,False,False
+Unipolar brush,Nav3,False,False
+Unipolar brush,Nbea,False,False
+Unipolar brush,Ncam2,True,False
+Unipolar brush,Ndst3,True,False
+Unipolar brush,Negr1,False,False
+Unipolar brush,Nlgn1,True,False
+Unipolar brush,Nmt2,True,True
+Unipolar brush,Nnat,False,False
+Unipolar brush,Nrg1,False,False
+Unipolar brush,Nrg3,False,False
+Unipolar brush,Nrg3os,False,False
+Unipolar brush,Nrp2,False,True
+Unipolar brush,Nrxn1,True,False
+Unipolar brush,Ntng1,False,False
+Unipolar brush,Ntrk3,False,False
+Unipolar brush,Nwd2,False,False
+Unipolar brush,Otud7a,False,False
+Unipolar brush,Otx2os1,False,False
+Unipolar brush,Oxr1,False,False
+Unipolar brush,Pacsin1,False,False
+Unipolar brush,Park2,False,True
+Unipolar brush,Pcbp3,False,False
+Unipolar brush,Pcdh11x,False,False
+Unipolar brush,Pcdh15,False,False
+Unipolar brush,Pcdh7,False,False
+Unipolar brush,Pcsk2,False,False
+Unipolar brush,Pde10a,False,False
+Unipolar brush,Pde3a,False,False
+Unipolar brush,Pde4d,False,False
+Unipolar brush,Pdzrn4,False,False
+Unipolar brush,Pex5l,True,False
+Unipolar brush,Phactr1,True,False
+Unipolar brush,Pid1,False,False
+Unipolar brush,Pitpnc1,False,False
+Unipolar brush,Pitpnm2,False,True
+Unipolar brush,Pkib,False,False
+Unipolar brush,Pknox2,True,False
+Unipolar brush,Plcb4,True,False
+Unipolar brush,Plcl2,False,False
+Unipolar brush,Plpp4,False,False
+Unipolar brush,Ppp1r14c,False,True
+Unipolar brush,Psd3,False,False
+Unipolar brush,Ptpn3,False,True
+Unipolar brush,Ptpn5,False,False
+Unipolar brush,Ptprd,True,False
+Unipolar brush,Ptprm,True,False
+Unipolar brush,R3hdm2,True,True
+Unipolar brush,RP24-274B19.1,False,False
+Unipolar brush,Rab37,False,False
+Unipolar brush,Rasa3,False,True
+Unipolar brush,Rasgrf1,False,False
+Unipolar brush,Rbms1,True,False
+Unipolar brush,Reln,False,False
+Unipolar brush,Rgs6,False,False
+Unipolar brush,Rgs7,False,False
+Unipolar brush,Rgs7bp,False,False
+Unipolar brush,Rims1,False,False
+Unipolar brush,Rph3a,False,False
+Unipolar brush,Rufy3,False,True
+Unipolar brush,Ryr2,False,False
+Unipolar brush,Ryr3,False,False
+Unipolar brush,Samd12,False,False
+Unipolar brush,Samd3,False,True
+Unipolar brush,Scg2,False,False
+Unipolar brush,Scn2a1,False,False
+Unipolar brush,Scn8a,True,False
+Unipolar brush,Sema3d,False,False
+Unipolar brush,Sema5a,False,False
+Unipolar brush,Sesn1,False,True
+Unipolar brush,Sez6l,False,False
+Unipolar brush,Sgcd,False,False
+Unipolar brush,Sh3d19,False,False
+Unipolar brush,Shisa9,False,False
+Unipolar brush,Sipa1l1,False,False
+Unipolar brush,Slc17a7,False,True
+Unipolar brush,Slc24a2,True,False
+Unipolar brush,Slc2a13,False,False
+Unipolar brush,Slc35f4,False,False
+Unipolar brush,Slc44a5,False,False
+Unipolar brush,Slc6a17,False,False
+Unipolar brush,Slc8a1,True,False
+Unipolar brush,Slc8a3,True,True
+Unipolar brush,Smyd3,False,True
+Unipolar brush,Snap25,False,False
+Unipolar brush,Snap91,False,False
+Unipolar brush,Snca,True,True
+Unipolar brush,Snhg11,False,False
+Unipolar brush,Sntg2,False,True
+Unipolar brush,Sorbs2,True,False
+Unipolar brush,Sorbs2os,False,False
+Unipolar brush,Sorcs3,False,False
+Unipolar brush,Sorl1,False,True
+Unipolar brush,Srrm3,False,True
+Unipolar brush,St3gal4,False,False
+Unipolar brush,St6galnac5,False,False
+Unipolar brush,Strbp,False,False
+Unipolar brush,Stxbp5l,True,False
+Unipolar brush,Sulf1,True,False
+Unipolar brush,Sv2b,False,False
+Unipolar brush,Syn2,False,False
+Unipolar brush,Syt1,True,False
+Unipolar brush,Syt7,False,False
+Unipolar brush,Tanc2,False,False
+Unipolar brush,Tbc1d4,True,False
+Unipolar brush,Tenm2,False,False
+Unipolar brush,Tenm3,False,False
+Unipolar brush,Tenm4,False,False
+Unipolar brush,Thrb,False,False
+Unipolar brush,Tiam1,False,False
+Unipolar brush,Tll1,False,False
+Unipolar brush,Tmeff2,False,False
+Unipolar brush,Tmem108,False,False
+Unipolar brush,Tmem117,False,False
+Unipolar brush,Tmem178,False,False
+Unipolar brush,Tmem229b,True,True
+Unipolar brush,Tmem65,False,True
+Unipolar brush,Tmod1,False,False
+Unipolar brush,Tmtc2,False,False
+Unipolar brush,Tpbg,False,True
+Unipolar brush,Trank1,True,True
+Unipolar brush,Trp53i11,False,True
+Unipolar brush,Trpc3,False,False
+Unipolar brush,Ttc3,True,False
+Unipolar brush,Ube3a,True,False
+Unipolar brush,Unc5c,False,False
+Unipolar brush,Unc5d,False,False
+Unipolar brush,Unc79,True,False
+Unipolar brush,Usp29,True,False
+Unipolar brush,Usp46,True,True
+Unipolar brush,Utrn,False,False
+Unipolar brush,Vwc2l,False,True
+Unipolar brush,Zfp385b,True,False
+Unipolar brush,Zfp536,False,False
+Unipolar brush,Zfp804a,False,False
+Unipolar brush,Zfp804b,False,True
+Unipolar brush,Zic1,False,False

@@ -1,0 +1,32 @@
+{
+ "n_clusters": 923,
+ "n_splits": 126,
+ "c_shared_FLT_rho": 0.5222148845014019,
+ "c_disjoint_FLT_median_rho": 0.3892823973557834,
+ "c_disjoint_range": [
+  0.29312131759353044,
+  0.46202401368757423
+ ],
+ "e_shared_GC_rho_TV": 0.567686094724682,
+ "e_disjoint_GC_median_rho_TV": 0.39310204017973405,
+ "e_disjoint_range": [
+  0.3218940175036842,
+  0.45527774294081463
+ ],
+ "c_disjoint_partial_median": 0.3146744534807009,
+ "c_disjoint_partial_range": [
+  0.21269954208863404,
+  0.39024406809491147
+ ],
+ "e_disjoint_partial_median": 0.3224668006460624,
+ "e_disjoint_partial_range": [
+  0.24041563470634875,
+  0.38360240590150085
+ ],
+ "noise_only_GCsplit_vs_FLTVIV_partial_median": 0.12053902469066864,
+ "noise_only_range": [
+  0.04344845889442877,
+  0.2050639475196444
+ ],
+ "note": "Descriptive. Disjoint halves reuse the same animals across splits; no inferential claim."
+}

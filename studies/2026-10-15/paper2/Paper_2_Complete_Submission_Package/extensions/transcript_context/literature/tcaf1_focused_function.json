@@ -1,0 +1,4602 @@
+{
+  "query": "(TITLE_ABS:TCAF1 OR TITLE_ABS:FAM115A OR TITLE_ABS:\"TRPM8 channel-associated factors\")",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3ATCAF1+OR+TITLE_ABS%3AFAM115A+OR+TITLE_ABS%3A%22TRPM8+channel-associated+factors%22%29&format=json&resultType=core&pageSize=100",
+  "retrieved_date": "2026-10-15",
+  "response": {
+    "version": "6.9",
+    "hitCount": 13,
+    "request": {
+      "queryString": "(TITLE_ABS:TCAF1 OR TITLE_ABS:FAM115A OR TITLE_ABS:\"TRPM8 channel-associated factors\")",
+      "resultType": "core",
+      "cursorMark": "*",
+      "pageSize": 100,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "42437085",
+          "source": "MED",
+          "pmid": "42437085",
+          "pmcid": "PMC13355782",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13355782"
+            ]
+          },
+          "doi": "10.1016/j.bbrep.2026.102696",
+          "title": "TRP matters: a pilot study on expression of mRNA in the parotid glands and their benign tumors.",
+          "authorString": "Louis L, Wenzel G, Bozzato A, Tschernig T, Wagenpfeil S, Schick B, Wemmert S.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Louis L",
+                "lastName": "Louis",
+                "firstName": "Lukas",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Anatomy and Cell Biology, Saarland University, Kirrberger Stra\u00dfe, Homburg/Saar, 66421, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wenzel G",
+                "lastName": "Wenzel",
+                "firstName": "Gentiana",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3994-2973"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otorhinolaryngology, Saarland University, Homburg/Saar, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bozzato A",
+                "lastName": "Bozzato",
+                "firstName": "Alessandro",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9648-8834"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otorhinolaryngology, Saarland University, Homburg/Saar, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tschernig T",
+                "lastName": "Tschernig",
+                "firstName": "Thomas",
+                "initials": "T",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Anatomy and Cell Biology, Saarland University, Kirrberger Stra\u00dfe, Homburg/Saar, 66421, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wagenpfeil S",
+                "lastName": "Wagenpfeil",
+                "firstName": "Stefan",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4558-4041"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Medical Biometry, Epidemiology and Medical Informatics, Saarland University, Saarland, Saarbr\u00fccken, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Schick B",
+                "lastName": "Schick",
+                "firstName": "Bernhard",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otorhinolaryngology, Saarland University, Homburg/Saar, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wemmert S",
+                "lastName": "Wemmert",
+                "firstName": "Silke",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Otorhinolaryngology, Saarland University, Homburg/Saar, Germany."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3994-2973"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4558-4041"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9648-8834"
+              }
+            ]
+          },
+          "journalInfo": {
+            "volume": "47",
+            "journalIssueId": 4217747,
+            "dateOfPublication": "2026 Sep",
+            "monthOfPublication": 9,
+            "yearOfPublication": 2026,
+            "journal": {
+              "medlineAbbreviation": "Biochem Biophys Rep",
+              "title": "Biochemistry and biophysics reports",
+              "essn": "2405-5808",
+              "issn": "2405-5808",
+              "isoabbreviation": "Biochem Biophys Rep",
+              "nlmid": "101660999"
+            },
+            "printPublicationDate": "2026-09-01"
+          },
+          "pubYear": "2026",
+          "pageInfo": "102696",
+          "abstractText": "<h4>Purpose</h4>The transient receptor potential (TRP) channels are a group of nonselective cation channels, which play critical roles in a variety of physiological processes and are also involved in the development of various carcinomas. However, the presence of TRP channels and their role in human benign salivary gland tumors has not been investigated yet.<h4>Methods</h4>We assessed the mRNA expression of the TRP channels TRPA1, TRPC3, TRPC6, TRPM4, TRPM8 as well as the channel associated factors TCAF1 and TCAF2 in human specimens of pleomorphic adenoma (PA, n\u202f=\u202f10) and Warthin tumors (WT, n\u202f=\u202f10) of the parotid gland. The control group consisted of 5 healthy human parotid gland (PG) specimens. The analysis has been performed using qRT-PCR.<h4>Results</h4>The mRNAs of TRPM4, TRPC6, TCAF1 and TCAF2 were found in normal parotid gland tissue and even more pronounced in PA and WT. However, no mRNA of TRPA1, TRPC3 and TRPM8 could be detected in normal parotid tissue nor in WT. In contrast, TPRC3 and TRPM8 mRNA were detected in PA. In 4 out of 10\u202fPA high mRNA expression levels were found for these two genes.<h4>Conclusion</h4>Our current pilot study suggests that TRPM4, TRPC6, TCAF1 and TCAF2 are expressed in normal parotid gland tissue and partially elevated in PA as well as WT of the parotid gland. TRPC3 and TRPM8 seem to be restricted to PA and may be highly expressed in a subgroup of parotid gland PA. These findings are important for a better understanding of PA biology.",
+          "affiliation": "Institute of Anatomy and Cell Biology, Saarland University, Kirrberger Stra\u00dfe, Homburg/Saar, 66421, Germany.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Salivary glands",
+              "Pleomorphic Adenoma",
+              "Trp Channels",
+              "Warthin Tumor"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.bbrep.2026.102696"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13355782"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13355782?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2026-07-12",
+          "dateOfCreation": "2026-07-12",
+          "dateOfRevision": "2026-08-13",
+          "electronicPublicationDate": "2026-07-07",
+          "firstPublicationDate": "2026-07-07",
+          "firstIndexDate": "2026-07-12",
+          "fullTextReceivedDate": "2026-09-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38816425",
+          "source": "MED",
+          "pmid": "38816425",
+          "pmcid": "PMC11139906",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11139906"
+            ]
+          },
+          "doi": "10.1038/s41467-024-48988-6",
+          "title": "TCAF1 promotes TRPV2-mediated Ca<sup>2+</sup> release in response to cytosolic DNA to protect stressed replication forks.",
+          "authorString": "Kong L, Cheng C, Cheruiyot A, Yuan J, Yang Y, Hwang S, Foust D, Tsao N, Wilkerson E, Mosammaparast N, Major MB, Piston DW, Li S, You Z.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Kong L",
+                "lastName": "Kong",
+                "firstName": "Lingzhen",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cheng C",
+                "lastName": "Cheng",
+                "firstName": "Chen",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8992-2380"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cheruiyot A",
+                "lastName": "Cheruiyot",
+                "firstName": "Abigael",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yuan J",
+                "lastName": "Yuan",
+                "firstName": "Jiayi",
+                "initials": "J",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0007-0121-4990"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Yang Y",
+                "lastName": "Yang",
+                "firstName": "Yichan",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0002-2860-030X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hwang S",
+                "lastName": "Hwang",
+                "firstName": "Sydney",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0008-8814-4530"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Foust D",
+                "lastName": "Foust",
+                "firstName": "Daniel",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0691-9267"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tsao N",
+                "lastName": "Tsao",
+                "firstName": "Ning",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology and Immunology, Washington University in St. Louis School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wilkerson E",
+                "lastName": "Wilkerson",
+                "firstName": "Emily",
+                "initials": "E",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mosammaparast N",
+                "lastName": "Mosammaparast",
+                "firstName": "Nima",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5453-5914"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pathology and Immunology, Washington University in St. Louis School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Major MB",
+                "lastName": "Major",
+                "firstName": "Michael B",
+                "initials": "MB",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6753-8513"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Piston DW",
+                "lastName": "Piston",
+                "firstName": "David W",
+                "initials": "DW",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1200-3116"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Li S",
+                "lastName": "Li",
+                "firstName": "Shan",
+                "initials": "S",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2146-2453"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA. shan.li@zju.edu.cn."
+                    },
+                    {
+                      "affiliation": "Zhejiang Provincial Key Laboratory of Pancreatic Disease in the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, 310029, China. shan.li@zju.edu.cn."
+                    },
+                    {
+                      "affiliation": "Cancer Center, Zhejiang University, Hangzhou, Zhejiang, 310029, China. shan.li@zju.edu.cn."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "You Z",
+                "lastName": "You",
+                "firstName": "Zhongsheng",
+                "initials": "Z",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9719-8791"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA. zyou@wustl.edu."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5453-5914"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0691-9267"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1200-3116"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2146-2453"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6753-8513"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8992-2380"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9719-8791"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0612-6280"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0002-2860-030X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0007-0121-4990"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0008-8814-4530"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "related_data",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "15",
+            "journalIssueId": 3763643,
+            "dateOfPublication": "2024 May",
+            "monthOfPublication": 5,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "Nat Commun",
+              "title": "Nature communications",
+              "essn": "2041-1723",
+              "issn": "2041-1723",
+              "isoabbreviation": "Nat Commun",
+              "nlmid": "101528555"
+            },
+            "printPublicationDate": "2024-05-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "4609",
+          "abstractText": "The protection of the replication fork structure under stress conditions is essential for genome maintenance and cancer prevention. A key signaling pathway for fork protection involves TRPV2-mediated Ca<sup>2+</sup> release from the ER, which is triggered after the generation of cytosolic DNA and the activation of cGAS/STING. This results in CaMKK2/AMPK activation and subsequent Exo1 phosphorylation, which prevent aberrant fork processing, thereby ensuring genome stability. However, it remains poorly understood how the TRPV2 channel is activated by the presence of cytosolic DNA. Here, through a genome-wide CRISPR-based screen, we identify TRPM8 channel-associated factor 1 (TCAF1) as a key factor promoting TRPV2-mediated Ca<sup>2+</sup> release under replication stress or other conditions that activate cGAS/STING. Mechanistically, TCAF1 assists Ca<sup>2+</sup> release by facilitating the dissociation of STING from TRPV2, thereby relieving TRPV2 repression. Consistent with this function, TCAF1 is required for fork protection, chromosomal stability, and cell survival after replication stress.",
+          "affiliation": "Department of Cell Biology and Physiology, Washington University School of Medicine, St. Louis, MO, 63110, USA.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NIDDK NIH HHS",
+                "acronym": "DK",
+                "grantId": "R01 DK115972",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA227001",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "orderIn": 0
+              },
+              {
+                "agency": "WUSTL | Washington University School of Medicine in St. Louis",
+                "grantId": "5124",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+                "grantId": "82272984",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health & Human Services | National Institutes of Health (NIH)",
+                "grantId": "R01GM098535",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "82272984",
+                "orderIn": 0
+              },
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA193318",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIGMS NIH HHS",
+                "acronym": "GM",
+                "grantId": "R01 GM098535",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health & Human Services | National Institutes of Health (NIH)",
+                "grantId": "R01CA193318",
+                "orderIn": 0
+              },
+              {
+                "agency": "American Cancer Society",
+                "grantId": "RSG-13-212-01-DMC",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "grantId": "R01CA193318",
+                "orderIn": 0
+              },
+              {
+                "agency": "American Cancer Society (American Cancer Society, Inc.)",
+                "grantId": "RSG-13-212-01-DMC",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIDDK NIH HHS",
+                "acronym": "DK",
+                "grantId": "R01 DK123301",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "grantId": "R01GM098535",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hela Cells"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Cytosol",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "DNA Damage"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Genomic Instability"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Calcium",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Membrane Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "DNA",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "DNA Replication"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phosphorylation"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "TRPV Cation Channels",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Calcium-Calmodulin-Dependent Protein Kinase Kinase",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HEK293 Cells"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "STING Protein"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "DNA",
+                "registryNumber": "9007-49-2"
+              },
+              {
+                "name": "TRPV Cation Channels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Calcium-Calmodulin-Dependent Protein Kinase Kinase",
+                "registryNumber": "EC 2.7.11.17"
+              },
+              {
+                "name": "CAMKK2 protein, human",
+                "registryNumber": "EC 2.7.11.17"
+              },
+              {
+                "name": "Calcium",
+                "registryNumber": "SY7Q814VUP"
+              },
+              {
+                "name": "TRPM8 channel-associated factor 1 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "STING1 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "STING Protein",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41467-024-48988-6"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11139906"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11139906?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 17,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "Y",
+          "dbCrossReferenceList": {
+            "dbName": [
+              "EMBL"
+            ]
+          },
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "N",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "uniprot"
+            ]
+          },
+          "dateOfCompletion": "2024-05-30",
+          "dateOfCreation": "2024-05-30",
+          "dateOfRevision": "2026-01-27",
+          "electronicPublicationDate": "2024-05-30",
+          "firstPublicationDate": "2024-05-30",
+          "firstIndexDate": "2024-05-31",
+          "fullTextReceivedDate": "2025-02-02",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR748763",
+          "source": "PPR",
+          "doi": "10.21203/rs.3.rs-3473361/v1",
+          "title": "Identification and analysis of autophagy-related key genes in recurrent pregnancy loss based on integrative bioinformatics analysis",
+          "authorString": "Zhuo A, Huang W, Tang L, Gao M, Xie J, Wu Y, Yang M, Mao M, Nie J, Fu X.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Zhuo A",
+                "lastName": "Zhuo",
+                "firstName": "Ai-Ping",
+                "initials": "A"
+              },
+              {
+                "fullName": "Huang W",
+                "lastName": "Huang",
+                "firstName": "Wu-Jia",
+                "initials": "W"
+              },
+              {
+                "fullName": "Tang L",
+                "lastName": "Tang",
+                "firstName": "Li-Chao",
+                "initials": "L"
+              },
+              {
+                "fullName": "Gao M",
+                "lastName": "Gao",
+                "firstName": "Meng",
+                "initials": "M"
+              },
+              {
+                "fullName": "Xie J",
+                "lastName": "Xie",
+                "firstName": "Jia-Xin",
+                "initials": "J"
+              },
+              {
+                "fullName": "Wu Y",
+                "lastName": "Wu",
+                "firstName": "Yan-Hong",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Yang M",
+                "lastName": "Yang",
+                "firstName": "Ming-xin",
+                "initials": "M"
+              },
+              {
+                "fullName": "Mao M",
+                "lastName": "Mao",
+                "firstName": "Meng-Li",
+                "initials": "M"
+              },
+              {
+                "fullName": "Nie J",
+                "lastName": "Nie",
+                "firstName": "Jia",
+                "initials": "J"
+              },
+              {
+                "fullName": "Fu X",
+                "lastName": "Fu",
+                "firstName": "Xia-Fei",
+                "initials": "X"
+              }
+            ]
+          },
+          "pubYear": "2023",
+          "abstractText": "<h4>Background: </h4> Recurrent pregnancy loss (RPL) is a common gynecological and obstetric condition. However, the molecular mechanisms underlying RPL remain unclear. Studies have suggested that autophagy plays an important role in the pathogenesis of RPL. Therefore, this study aimed to identify key genes related to autophagy in RPL using bioinformatics analysis. Results  A total of 517 differentially expressed genes (DEGs) were identified with significant differences in expression between the RPL and control groups, including IRGQ , NCSTN , IRF2BP1 , TSPAN14 , PCGF1 , ZNF90 , PSIP1 , SNRPE , LOC148709 , and C2orf69 . Six autophagy-related DEGs were screened and identified as hub genes, namely FAM115A , RGS11 , TRIM59 , CENPK , GLRX , and P2RY14 , which can identify potential biomarkers for RPL. In addition, immune infiltration analysis revealed significant correlations between FAM115A , RGS11 , TRIM59 , and monocytes. In patients with RPL, the BILE ACID METABOLISM and KRAS SIGNALING DN signaling pathways were significantly upregulated, whereas FAM115A was associated with several pathways, including HALLMARK_XENOBIOTIC_METABOLISM. The RNA-binding protein (RBP)-mRNA network demonstrated a regulatory relationship between hub mRNA and its RBP, further revealing the correlation between them. Conclusions  Six key hub DEGs related to autophagy in recurrent miscarriages were identified. These may serve as potential biomarkers with differential abilities in patients with RPL, further providing a theoretical basis for the prediction and diagnosis of the condition.",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2023
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.researchsquare.com/article/rs-3473361/latest.pdf"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.21203/rs.3.rs-3473361/v1"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2023-10-29",
+          "firstPublicationDate": "2023-10-27",
+          "firstIndexDate": "2023-10-31",
+          "versionList": {
+            "version": [
+              {
+                "id": "PPR748763",
+                "source": "PPR",
+                "versionNumber": 1,
+                "firstPublishDate": "2023-10-27",
+                "pubTypeList": {
+                  "pubType": [
+                    "preprint"
+                  ]
+                },
+                "hasEvaluations": "N"
+              }
+            ]
+          },
+          "versionNumber": 1,
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "28052017",
+          "source": "MED",
+          "pmid": "28052017",
+          "pmcid": "PMC5351588",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC5351588"
+            ]
+          },
+          "doi": "10.18632/oncotarget.14391",
+          "title": "RHCG and TCAF1 promoter hypermethylation predicts biochemical recurrence in prostate cancer patients treated by radical prostatectomy.",
+          "authorString": "Strand SH, Switnicki M, Moller M, Haldrup C, Storebjerg TM, Hedegaard J, Nordentoft I, Hoyer S, Borre M, Pedersen JS, Wild PJ, Park JY, Orntoft TF, Sorensen KD.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Strand SH",
+                "lastName": "Strand",
+                "firstName": "Siri H",
+                "initials": "SH",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6596-9945"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Switnicki M",
+                "lastName": "Switnicki",
+                "firstName": "Michal",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0619-9375"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Moller M",
+                "lastName": "Moller",
+                "firstName": "Mia",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Haldrup C",
+                "lastName": "Haldrup",
+                "firstName": "Christa",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Storebjerg TM",
+                "lastName": "Storebjerg",
+                "firstName": "Tine M",
+                "initials": "TM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    },
+                    {
+                      "affiliation": "Institute of Pathology, Aarhus University Hospital, Aarhus, Denmark."
+                    },
+                    {
+                      "affiliation": "Department of Urology, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hedegaard J",
+                "lastName": "Hedegaard",
+                "firstName": "Jakob",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nordentoft I",
+                "lastName": "Nordentoft",
+                "firstName": "Iver",
+                "initials": "I",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4856-4086"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hoyer S",
+                "lastName": "Hoyer",
+                "firstName": "Soren",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Pathology, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Borre M",
+                "lastName": "Borre",
+                "firstName": "Michael",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1519-9185"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Urology, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Pedersen JS",
+                "lastName": "Pedersen",
+                "firstName": "Jakob S",
+                "initials": "JS",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7236-4001"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wild PJ",
+                "lastName": "Wild",
+                "firstName": "Peter J",
+                "initials": "PJ",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1017-3744"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Surgical Pathology, University Hospital Zurich, Zurich, Switzerland."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Park JY",
+                "lastName": "Park",
+                "firstName": "Jong Y",
+                "initials": "JY",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cancer Epidemiology, Moffitt Cancer Center, Tampa, Florida, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Orntoft TF",
+                "lastName": "Orntoft",
+                "firstName": "Torben F",
+                "initials": "TF",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sorensen KD",
+                "lastName": "Sorensen",
+                "firstName": "Karina D",
+                "initials": "KD",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4902-5490"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6596-9945"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1017-3744"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1519-9185"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4902-5490"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7236-4001"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0619-9375"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4553-245X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4856-4086"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "4",
+            "volume": "8",
+            "journalIssueId": 2523588,
+            "dateOfPublication": "2017 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2017,
+            "journal": {
+              "medlineAbbreviation": "Oncotarget",
+              "title": "Oncotarget",
+              "essn": "1949-2553",
+              "issn": "1949-2553",
+              "isoabbreviation": "Oncotarget",
+              "nlmid": "101532965"
+            },
+            "printPublicationDate": "2017-01-01"
+          },
+          "pubYear": "2017",
+          "pageInfo": "5774-5788",
+          "abstractText": "<h4>Purpose</h4>The lack of biomarkers that can distinguish aggressive from indolent prostate cancer has caused substantial overtreatment of clinically insignificant disease. Here, by genome-wide DNA methylome profiling, we sought to identify new biomarkers to improve the accuracy of prostate cancer diagnosis and prognosis.<h4>Experimental design</h4>Eight novel candidate markers, COL4A6, CYBA, TCAF1 (FAM115A), HLF, LINC01341 (LOC149134), LRRC4, PROM1, and RHCG, were selected from Illumina Infinium HumanMethylation450 BeadChip analysis of 21 tumor (T) and 21 non-malignant (NM) prostate specimens. Diagnostic potential was further investigated by methylation-specific qPCR analysis of 80 NM vs. 228 T tissue samples. Prognostic potential was assessed by Kaplan-Meier, uni- and multivariate Cox regression analysis in 203 Danish radical prostatectomy (RP) patients (cohort 1), and validated in an independent cohort of 286 RP patients from Switzerland and the U.S. (cohort 2).<h4>Results</h4>Hypermethylation of the 8 candidates was highly cancer-specific (area under the curves: 0.79-1.00). Furthermore, high methylation of the 2-gene panel RHCG-TCAF1 was predictive of biochemical recurrence (BCR) in cohort 1, independent of the established clinicopathological parameters Gleason score, pathological tumor stage, and pre-operative PSA (HR (95% confidence interval (CI)): 2.09 (1.26 - 3.46); P = 0.004), and this was successfully validated in cohort 2 (HR (95% CI): 1.81 (1.05 - 3.12); P = 0.032).<h4>Conclusion</h4>Methylation of the RHCG-TCAF1 panel adds significant independent prognostic value to established prognostic parameters for prostate cancer and thus may help to guide treatment decisions in the future. Further investigation in large independent cohorts is necessary before translation into clinical utility.",
+          "affiliation": "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NCI NIH HHS",
+                "acronym": "CA",
+                "grantId": "R01 CA128813",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prostatic Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "SU",
+                      "qualifierName": "surgery"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cation Transport Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Glycoproteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prognosis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prostatectomy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Survival Analysis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "DNA Methylation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Epigenesis, Genetic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adult"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "United States"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Denmark"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Switzerland"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Promoter Regions, Genetic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neoplasm Grading"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Biomarkers, Tumor",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "DNA methylation",
+              "Diagnosis",
+              "Prognosis",
+              "Biomarker",
+              "prostate cancer"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "RHCG protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Membrane Glycoproteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Cation Transport Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM8 channel-associated factor 1 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Biomarkers, Tumor",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=download&path%5B%5D=14391&path%5B%5D=45888"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.18632/oncotarget.14391"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5351588"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5351588?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 28,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2018-02-23",
+          "dateOfCreation": "2017-01-05",
+          "dateOfRevision": "2026-01-27",
+          "firstPublicationDate": "2017-01-01",
+          "firstIndexDate": "2017-01-05",
+          "fullTextReceivedDate": "2025-02-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "36012311",
+          "source": "MED",
+          "pmid": "36012311",
+          "pmcid": "PMC9408824",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9408824"
+            ]
+          },
+          "doi": "10.3390/ijms23169045",
+          "title": "The Association between TRP Channels Expression and Clinicopathological Characteristics of Patients with Pancreatic Adenocarcinoma.",
+          "authorString": "Chelaru NR, Chiosa A, Sorop A, Spiridon A, Cojocaru F, Domocos D, Cucu D, Popescu I, Dima SO.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Chelaru NR",
+                "lastName": "Chelaru",
+                "firstName": "Nicoleta-Raluca",
+                "initials": "NR",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chiosa A",
+                "lastName": "Chiosa",
+                "firstName": "Andrei",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sorop A",
+                "lastName": "Sorop",
+                "firstName": "Andrei",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2617-4629"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Spiridon A",
+                "lastName": "Spiridon",
+                "firstName": "Andreea",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-2593-709X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cojocaru F",
+                "lastName": "Cojocaru",
+                "firstName": "Florentina",
+                "initials": "F",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Anatomy, Animal Physiology and Biophysics, Faculty of Biology, University of Bucharest, Splaiul Independentei 91-95, 050095 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Domocos D",
+                "lastName": "Domocos",
+                "firstName": "Dan",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2574-253X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Anatomy, Animal Physiology and Biophysics, Faculty of Biology, University of Bucharest, Splaiul Independentei 91-95, 050095 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cucu D",
+                "lastName": "Cucu",
+                "firstName": "Dana",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1741-3859"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Anatomy, Animal Physiology and Biophysics, Faculty of Biology, University of Bucharest, Splaiul Independentei 91-95, 050095 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Popescu I",
+                "lastName": "Popescu",
+                "firstName": "Irinel",
+                "initials": "I",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    },
+                    {
+                      "affiliation": "Digestive Diseases and Liver Transplantation Center, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dima SO",
+                "lastName": "Dima",
+                "firstName": "Simona-Olimpia",
+                "initials": "SO",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5275-8938"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    },
+                    {
+                      "affiliation": "Digestive Diseases and Liver Transplantation Center, Fundeni Clinical Institute, 022328 Bucharest, Romania."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5275-8938"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2593-709X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-2617-4629"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1741-3859"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2574-253X"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "16",
+            "volume": "23",
+            "journalIssueId": 3412512,
+            "dateOfPublication": "2022 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2022,
+            "journal": {
+              "medlineAbbreviation": "Int J Mol Sci",
+              "title": "International journal of molecular sciences",
+              "essn": "1422-0067",
+              "issn": "1422-0067",
+              "isoabbreviation": "Int J Mol Sci",
+              "nlmid": "101092791"
+            },
+            "printPublicationDate": "2022-08-01"
+          },
+          "pubYear": "2022",
+          "pageInfo": "9045",
+          "abstractText": "Pancreatic adenocarcinoma (PDAC) has low survival rates worldwide due to its tendency to be detected late and its characteristic desmoplastic reaction, which slows the use of targeted therapies. As such, the discovery of new connections between genes and the clinicopathological parameters contribute to the search for new biomarkers or targets for therapy. Transient receptor potential (TRP) channels are promising tools for cancer therapy or markers for PDAC. Therefore, in this study, we selected several genes encoding TRP proteins previously reported in cellular models, namely, Transient Receptor Potential Cation Channel Subfamily V Member 6 (TRPV6), Transient receptor potential ankyrin 1 (TRPA1), and Transient receptor potential cation channel subfamily M (melastatin) member 8 (TRPM8), as well as the TRPM8 Channel Associated Factor 1 (TCAF1) and TRPM8 Channel Associated Factor 2 (TCAF2) proteins, as regulatory factors. We analyzed the expression levels of tumors from patients enrolled in public datasets and confirmed the results with a validation cohort of PDAC patients enrolled in the Clinical Institute Fundeni, Romania. We found significantly higher expression levels of <i>TRPA1</i>, <i>TRPM8</i>, and <i>TCAF1/F2</i> in tumoral tissues compared to normal tissues, but lower expression levels of <i>TRPV6</i>, suggesting that TRP channels have either tumor-suppressive or oncogenic roles. The expression levels were correlated with the tumoral stages and are related to the genes involved in calcium homeostasis (<i>Calbindin 1</i> or <i>S100A4</i>) or to proteins participating in metastasis (<i>PTPN1</i>). We conclude that the selected TRP proteins provide new insights in the search for targets and biomarkers needed for therapeutic strategies for PDAC treatment.",
+          "affiliation": "Center of Excellence in Translational Medicine, Fundeni Clinical Institute, 022328 Bucharest, Romania.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Romanian Ministery of Research and Innovation, CCCDI-UEFISCDI",
+                "grantId": "PD 113/2022 (PN-III-P1-1.1-PD-2021-0759)",
+                "orderIn": 0
+              },
+              {
+                "agency": "Unitatea Executiva Pentru Finantarea Invatamantului Superior a Cercetarii Dezvoltarii si Inovarii",
+                "grantId": "66PCCDI/2018",
+                "orderIn": 0
+              },
+              {
+                "agency": "Romanian Ministery of Research and Innovation, CCCDI-UEFISCDI",
+                "grantId": "66PCCDI/2018 (PN-III-P1-1.2-PCCDI-2017-0797)",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Adenocarcinoma",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Pancreatic Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Transient Receptor Potential Channels",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "TRPM Cation Channels",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "TRPV Cation Channels",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Trpm8",
+              "Trpa1",
+              "Trp Channels",
+              "Trpv6",
+              "Pdac",
+              "Tcaf1",
+              "Tcaf2"
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPV Cation Channels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Transient Receptor Potential Channels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM Cation Channels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TCAF2 protein, human",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.mdpi.com/1422-0067/23/16/9045/pdf?version=1660556243"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/ijms23169045"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9408824"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC9408824?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 10,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "dbgap",
+              "doi"
+            ]
+          },
+          "dateOfCompletion": "2022-08-29",
+          "dateOfCreation": "2022-08-26",
+          "dateOfRevision": "2025-07-28",
+          "electronicPublicationDate": "2022-08-12",
+          "firstPublicationDate": "2022-08-12",
+          "firstIndexDate": "2022-08-27",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "IND608571195",
+          "source": "AGR",
+          "title": "Application of serum peptidomics for Parkinson's disease in SNCA-A30P mice",
+          "authorString": "Yin Z, Xu G, Qi Y, Tan DM, Chen EH, Ding X, Ji RY.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Yin Z",
+                "lastName": "Yin",
+                "firstName": "Zi",
+                "initials": "Z"
+              },
+              {
+                "fullName": "Xu G",
+                "lastName": "Xu",
+                "firstName": "Guangqiong",
+                "initials": "G"
+              },
+              {
+                "fullName": "Qi Y",
+                "lastName": "Qi",
+                "firstName": "Yue",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Tan DM",
+                "lastName": "Tan",
+                "firstName": "Dong-Ming",
+                "initials": "DM"
+              },
+              {
+                "fullName": "Chen EH",
+                "lastName": "Chen",
+                "firstName": "Er-Hua",
+                "initials": "EH"
+              },
+              {
+                "fullName": "Ding X",
+                "lastName": "Ding",
+                "firstName": "Xu",
+                "initials": "X"
+              },
+              {
+                "fullName": "Ji RY",
+                "lastName": "Ji",
+                "firstName": "Run-Yuan",
+                "initials": "RY"
+              }
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "9",
+            "journalIssueId": 4092900,
+            "dateOfPublication": "2023 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2023,
+            "journal": {
+              "title": "Heliyon"
+            },
+            "printPublicationDate": "2023-12-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "Not Available",
+          "abstractText": "Intraneuronal inclusions of alpha-synuclein (\u03b1-synuclein, \u03b1-syn) are commonly found in the brain of patients with Parkinson's disease (PD). The pathogenesis of the abundant \u03b1-syn protein in the blood has been extensively studied to understand its properties better. In recent years, peptidome analysis has received increasing attention. In this study, we identified and analyzed serum peptides from wild-type (WT) and the (Thy-1)-h[A30P] alpha-synuclein transgenic mice (SNCA-A30P mice) using liquid chromatography-tandem mass spectrometry (LC-MS/MS). One thousand eight hundred fifty-six peptides from 771 proteins were analyzed. Among them, 151 peptides from 107 proteins were significantly differentially expressed. The glycoprotein VI platelet pathway (GP6) was the pathway's most significant differentially expressed signaling pathway. Cleavage sites of the differentially expressed peptides may reflect protease distribution and activity. We selected the most significantly differentially expressed peptide, VGGDPI, and found that it contained cathepsin K (Ctsk) and trypsin-1 cleavage sites, suggesting that Ctsk and trypsin-1 may be key peptidases in PD. \u03b1-syn is a protein associated with the pathogenesis of PD. mutations in several genes, including SNCA, which encodes \u03b1-syn, are associated with the development of PD. Bioinformatics analysis of the physiological pathways related to SNCA genes and apoptosis genes found the five most markedly up-regulated proteins: formin homology 2 domain-containing 1 (FHOD1), insulin receptor substrate 1(IRS1), TRPM8 channel-associated factor 1 (TCAF1), glyceraldehyde 3-phosphate dehydrogenase (GAPDH), and interleukin-16 (IL-16). Therefore, the differentially expressed peptides in the five precursor protein domains may be potential bioactive peptides associated with \u03b1-syn and apoptosis. This study provides a validated peptidomics profile of SNCA-A30P mice and identifies potentially bioactive peptides linked to \u03b1-syn and apoptosis.",
+          "language": "eng",
+          "pubModel": "Undetermined",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2025-09-08",
+          "dateOfCreation": "2025-09-08",
+          "dateOfRevision": "2024-10-06",
+          "firstPublicationDate": "2023-12-01",
+          "firstIndexDate": "2026-01-16",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "38125428",
+          "source": "MED",
+          "pmid": "38125428",
+          "pmcid": "PMC10730432",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10730432"
+            ]
+          },
+          "doi": "10.1016/j.heliyon.2023.e21125",
+          "title": "Application of serum peptidomics for Parkinson's disease in SNCA-A30P mice.",
+          "authorString": "Yin Z, Xu G, Qi Y, Tan DM, Chen EH, Ding X, Ji RY.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Yin Z",
+                "lastName": "Yin",
+                "firstName": "Zi",
+                "initials": "Z",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmacology, School of Medicine& Holistic Integrative Medicine, Nanjing University of Chinese Medicine, NanJing, 210023, Jiangsu, China."
+                    },
+                    {
+                      "affiliation": "College of Pharmacy and Traditional Chinese Medicine, Jiangsu College of Nursing, Huaian, 223003, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Xu G",
+                "lastName": "Xu",
+                "firstName": "Guangqiong",
+                "initials": "G",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Pharmaceutical Engineering, Jiangsu Food & Pharmaceutical Science College, Huaian, 223023, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Qi Y",
+                "lastName": "Qi",
+                "firstName": "Yue",
+                "initials": "Y",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Pharmaceutical Technology, Jiangsu Provincial XuZhou Pharamceutical Vocational College, XuZhou, 221000, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Tan DM",
+                "lastName": "Tan",
+                "firstName": "Dong-Ming",
+                "initials": "DM",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy and Traditional Chinese Medicine, Jiangsu College of Nursing, Huaian, 223003, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Chen EH",
+                "lastName": "Chen",
+                "firstName": "Er-Hua",
+                "initials": "EH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy and Traditional Chinese Medicine, Jiangsu College of Nursing, Huaian, 223003, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ding X",
+                "lastName": "Ding",
+                "firstName": "Xu",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "College of Pharmacy and Traditional Chinese Medicine, Jiangsu College of Nursing, Huaian, 223003, Jiangsu, China."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Ji RY",
+                "lastName": "Ji",
+                "firstName": "Run-Yuan",
+                "initials": "RY",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Analytical & Testing Center, School of Basic Medical, Nanjing Medical University, Nanjing, Jiangsu, Nanjing, Jiangsu, China."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "12",
+            "volume": "9",
+            "journalIssueId": 3674177,
+            "dateOfPublication": "2023 Dec",
+            "monthOfPublication": 12,
+            "yearOfPublication": 2023,
+            "journal": {
+              "medlineAbbreviation": "Heliyon",
+              "title": "Heliyon",
+              "essn": "2405-8440",
+              "issn": "2405-8440",
+              "isoabbreviation": "Heliyon",
+              "nlmid": "101672560"
+            },
+            "printPublicationDate": "2023-12-01"
+          },
+          "pubYear": "2023",
+          "pageInfo": "e21125",
+          "abstractText": "Intraneuronal inclusions of alpha-synuclein (\u03b1-synuclein, \u03b1-syn) are commonly found in the brain of patients with Parkinson's disease (PD). The pathogenesis of the abundant \u03b1-syn protein in the blood has been extensively studied to understand its properties better. In recent years, peptidome analysis has received increasing attention. In this study, we identified and analyzed serum peptides from wild-type (WT) and the (Thy-1)-h[A30P] alpha-synuclein transgenic mice (SNCA-A30P mice) using liquid chromatography-tandem mass spectrometry (LC-MS/MS). One thousand eight hundred fifty-six peptides from 771 proteins were analyzed. Among them, 151 peptides from 107 proteins were significantly differentially expressed. The glycoprotein VI platelet pathway (GP6) was the pathway's most significant differentially expressed signaling pathway. Cleavage sites of the differentially expressed peptides may reflect protease distribution and activity. We selected the most significantly differentially expressed peptide, VGGDPI, and found that it contained cathepsin K (Ctsk) and trypsin-1 cleavage sites, suggesting that Ctsk and trypsin-1 may be key peptidases in PD. \u03b1-syn is a protein associated with the pathogenesis of PD. mutations in several genes, including SNCA, which encodes \u03b1-syn, are associated with the development of PD. Bioinformatics analysis of the physiological pathways related to SNCA genes and apoptosis genes found the five most markedly up-regulated proteins: formin homology 2 domain-containing 1 (FHOD1), insulin receptor substrate 1(IRS1), TRPM8 channel-associated factor 1 (TCAF1), glyceraldehyde 3-phosphate dehydrogenase (GAPDH), and interleukin-16 (IL-16). Therefore, the differentially expressed peptides in the five precursor protein domains may be potential bioactive peptides associated with \u03b1-syn and apoptosis. This study provides a validated peptidomics profile of SNCA-A30P mice and identifies potentially bioactive peptides linked to \u03b1-syn and apoptosis.",
+          "affiliation": "Department of Pharmacology, School of Medicine& Holistic Integrative Medicine, Nanjing University of Chinese Medicine, NanJing, 210023, Jiangsu, China.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Southern Medical University",
+                "orderIn": 0
+              },
+              {
+                "agency": "Huai&apos;an Science and Technology Bureau",
+                "grantId": "HAB201843",
+                "orderIn": 0
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Blood",
+              "Parkinson's Disease",
+              "alpha-Synuclein",
+              "LC-MS/MS",
+              "Peptidomics",
+              "Snca-a30p"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "Unpaywall",
+                "url": "https://doi.org/10.1016/j.heliyon.2023.e21125"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.heliyon.2023.e21125"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10730432"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC10730432?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 3,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-nd",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "uniprot",
+              "doi"
+            ]
+          },
+          "dateOfCreation": "2023-12-21",
+          "dateOfRevision": "2023-12-22",
+          "electronicPublicationDate": "2023-11-14",
+          "firstPublicationDate": "2023-11-14",
+          "firstIndexDate": "2023-12-23",
+          "fullTextReceivedDate": "2024-01-03",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PMC4284223",
+          "source": "PMC",
+          "pmcid": "PMC4284223",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4284223"
+            ]
+          },
+          "doi": "10.1083/jcb.2081iti1",
+          "title": "TCAF1 puts a chill on prostate cancer",
+          "journalInfo": {
+            "issue": "1",
+            "volume": "208",
+            "journalIssueId": 2239042,
+            "dateOfPublication": "2015 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2015,
+            "journal": {
+              "medlineAbbreviation": "J Cell Biol",
+              "title": "The Journal of cell biology",
+              "essn": "1540-8140",
+              "issn": "0021-9525",
+              "isoabbreviation": "J Cell Biol",
+              "nlmid": "0375356"
+            },
+            "printPublicationDate": "2015-01-01"
+          },
+          "pubYear": "2015",
+          "pageInfo": "2-2",
+          "language": "eng",
+          "pubModel": "Undetermined",
+          "pubTypeList": {
+            "pubType": [
+              "News"
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://rupress.org/jcb/article-pdf/208/1/2/1366857/jcb_2081iti.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1083/jcb.2081iti2"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1083/jcb.2081iti3"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1083/jcb.2081iti1"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4284223/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "PubMedCentral",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4284223/pdf/?tool=EBI"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4284223"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4284223?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by-nc-sa",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2020-07-09",
+          "dateOfRevision": "2025-07-04",
+          "electronicPublicationDate": "2015-01-05",
+          "firstPublicationDate": "2015-01-05",
+          "firstIndexDate": "2015-07-06",
+          "fullTextReceivedDate": "2020-07-09",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "34433829",
+          "source": "MED",
+          "pmid": "34433829",
+          "pmcid": "PMC8387397",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC8387397"
+            ]
+          },
+          "doi": "10.1038/s41467-021-25435-4",
+          "title": "Evidence for opposing selective forces operating on human-specific duplicated TCAF genes in Neanderthals and humans.",
+          "authorString": "Hsieh P, Dang V, Vollger MR, Mao Y, Huang TH, Dishuck PC, Baker C, Cantsilieris S, Lewis AP, Munson KM, Sorensen M, Welch AE, Underwood JG, Eichler EE.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Hsieh P",
+                "lastName": "Hsieh",
+                "firstName": "PingHsun",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8294-6227"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA. hsiehph@uw.edu."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dang V",
+                "lastName": "Dang",
+                "firstName": "Vy",
+                "initials": "V",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    },
+                    {
+                      "affiliation": "Institute for Cell and Molecular Biology, University of Texas, Austin, TX, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Vollger MR",
+                "lastName": "Vollger",
+                "firstName": "Mitchell R",
+                "initials": "MR",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8651-1615"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mao Y",
+                "lastName": "Mao",
+                "firstName": "Yafei",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9648-4278"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huang TH",
+                "lastName": "Huang",
+                "firstName": "Tzu-Hsueh",
+                "initials": "TH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Dishuck PC",
+                "lastName": "Dishuck",
+                "firstName": "Philip C",
+                "initials": "PC",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2223-9787"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Baker C",
+                "lastName": "Baker",
+                "firstName": "Carl",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cantsilieris S",
+                "lastName": "Cantsilieris",
+                "firstName": "Stuart",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    },
+                    {
+                      "affiliation": "Centre for Eye Research Australia, Department of Surgery (Ophthalmology), University of Melbourne, Royal Victorian Eye and Ear Hospital, East Melbourne, VIC, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lewis AP",
+                "lastName": "Lewis",
+                "firstName": "Alexandra P",
+                "initials": "AP",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Munson KM",
+                "lastName": "Munson",
+                "firstName": "Katherine M",
+                "initials": "KM",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8413-6498"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sorensen M",
+                "lastName": "Sorensen",
+                "firstName": "Melanie",
+                "initials": "M",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1525-9707"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Welch AE",
+                "lastName": "Welch",
+                "firstName": "AnneMarie E",
+                "initials": "AE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    },
+                    {
+                      "affiliation": "The Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Underwood JG",
+                "lastName": "Underwood",
+                "firstName": "Jason G",
+                "initials": "JG",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA."
+                    },
+                    {
+                      "affiliation": "Pacific Biosciences (PacBio) of California, Incorporated, Menlo Park, CA, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Eichler EE",
+                "lastName": "Eichler",
+                "firstName": "Evan E",
+                "initials": "EE",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8246-4014"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA. eee@gs.washington.edu."
+                    },
+                    {
+                      "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. eee@gs.washington.edu."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8294-6227"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8413-6498"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1525-9707"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8246-4014"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8651-1615"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9648-4278"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2223-9787"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data",
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "12",
+            "journalIssueId": 3212001,
+            "dateOfPublication": "2021 Aug",
+            "monthOfPublication": 8,
+            "yearOfPublication": 2021,
+            "journal": {
+              "medlineAbbreviation": "Nat Commun",
+              "title": "Nature communications",
+              "essn": "2041-1723",
+              "issn": "2041-1723",
+              "isoabbreviation": "Nat Commun",
+              "nlmid": "101528555"
+            },
+            "printPublicationDate": "2021-08-01"
+          },
+          "pubYear": "2021",
+          "pageInfo": "5118",
+          "abstractText": "TRP channel-associated factor 1/2 (TCAF1/TCAF2) proteins antagonistically regulate the cold-sensor protein TRPM8 in multiple human tissues. Understanding their significance has been complicated given the locus spans a gap-ridden region with complex segmental duplications in GRCh38. Using long-read sequencing, we sequence-resolve the locus, annotate full-length TCAF models in primate genomes, and show substantial human-specific TCAF copy number variation. We identify two human super haplogroups, H4 and H5, and establish that TCAF duplications originated ~1.7 million years ago but diversified only in Homo sapiens by recurrent structural mutations. Conversely, in all archaic-hominin samples the fixation for a specific H4 haplotype without duplication is likely due to positive selection. Here, our results of TCAF copy number expansion, selection signals in hominins, and differential TCAF2 expression between haplogroups and high TCAF2 and TRPM8 expression in liver and prostate in modern-day humans imply TCAF diversification among hominins potentially in response to cold or dietary adaptations.",
+          "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA. hsiehph@uw.edu.",
+          "publicationStatus": "epublish",
+          "language": "eng",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "grantId": "R01HG002385",
+                "orderIn": 0
+              },
+              {
+                "agency": "Howard Hughes Medical Institute",
+                "grantId": "N/A",
+                "orderIn": 0
+              },
+              {
+                "agency": "Howard Hughes Medical Institute",
+                "acronym": "HHMI",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "grantId": "K99HG011041",
+                "orderIn": 0
+              },
+              {
+                "agency": "Department of Health | National Health and Medical Research Council",
+                "grantId": "1073726",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHGRI NIH HHS",
+                "acronym": "HG",
+                "grantId": "K99 HG011041",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHGRI NIH HHS",
+                "acronym": "HG",
+                "grantId": "R01 HG002385",
+                "orderIn": 0
+              },
+              {
+                "agency": "U.S. Department of Health &amp; Human Services | National Institutes of Health",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Hominidae",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Evolution, Molecular"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Phylogeny"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Gene Duplication"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Haplotypes"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Genome, Human"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Selection, Genetic"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "DNA Copy Number Variations"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neanderthals"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TCAF2 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM8 channel-associated factor 1 protein, human",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.nature.com/articles/s41467-021-25435-4.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41467-021-25435-4"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC8387397"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC8387397?pdf=render"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "PPR",
+                "id": "PPR221162",
+                "type": "Preprint in",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10002
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 22,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "biosample",
+              "pdb"
+            ]
+          },
+          "dateOfCompletion": "2021-09-24",
+          "dateOfCreation": "2021-08-26",
+          "dateOfRevision": "2021-09-24",
+          "electronicPublicationDate": "2021-08-25",
+          "firstPublicationDate": "2021-08-25",
+          "firstIndexDate": "2021-08-27",
+          "fullTextReceivedDate": "2025-02-04",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "25559186",
+          "source": "MED",
+          "pmid": "25559186",
+          "pmcid": "PMC4284226",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4284226"
+            ]
+          },
+          "doi": "10.1083/jcb.201402076",
+          "title": "TRP channel-associated factors are a novel protein family that regulates TRPM8 trafficking and activity.",
+          "authorString": "Gkika D, Lemonnier L, Shapovalov G, Gordienko D, Poux C, Bernardini M, Bokhobza A, Bidaux G, Degerny C, Verreman K, Guarmit B, Benahmed M, de Launoit Y, Bindels RJ, Fiorio Pla A, Prevarskaya N.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Gkika D",
+                "lastName": "Gkika",
+                "firstName": "Dimitra",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-8612-0836"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France dimitra.gkika@univ-lille1.fr."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lemonnier L",
+                "lastName": "Lemonnier",
+                "firstName": "Loic",
+                "initials": "L",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6200-5382"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Shapovalov G",
+                "lastName": "Shapovalov",
+                "firstName": "George",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-9702-9317"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Gordienko D",
+                "lastName": "Gordienko",
+                "firstName": "Dmitri",
+                "initials": "D",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4118-9976"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Poux C",
+                "lastName": "Poux",
+                "firstName": "C\u00e9line",
+                "initials": "C",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9379-2769"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centre national de la Recherche Scientifique (CNRS) UMR 8198 and Laboratoire de G\u00e9n\u00e9tique & Evolution des Populations V\u00e9g\u00e9tales (GEPV), Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bernardini M",
+                "lastName": "Bernardini",
+                "firstName": "Michela",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France Department of Life Science and Systems Biology, University of Torino, 10123 Torino, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bokhobza A",
+                "lastName": "Bokhobza",
+                "firstName": "Alexandre",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-7953-4328"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bidaux G",
+                "lastName": "Bidaux",
+                "firstName": "Gabriel",
+                "initials": "G",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6162-3223"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Laboratoire Biophotonique Cellulaire Fonctionnelle, Institut de Recherche Interdisciplinaire, USR3078 Centre National de la Recherche Scientifique, Parc scientifique de la Haute Borne, Villeneuve d'Ascq, F-59655 France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Degerny C",
+                "lastName": "Degerny",
+                "firstName": "Cindy",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "CNRS UMR 8161, Institut de Biologie de Lille, Universit\u00e9 de Lille-Nord de France, Institut Pasteur de Lille, 59019 Lille Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Verreman K",
+                "lastName": "Verreman",
+                "firstName": "Kathye",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "CNRS UMR 8161, Institut de Biologie de Lille, Universit\u00e9 de Lille-Nord de France, Institut Pasteur de Lille, 59019 Lille Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Guarmit B",
+                "lastName": "Guarmit",
+                "firstName": "Basma",
+                "initials": "B",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm, Institut National de la Sant\u00e9 et de la Recherche M\u00e9dicale U895, Centre M\u00e9diterran\u00e9en de M\u00e9decine Mol\u00e9culaire, H\u00f4pitall'Archet, 06204 Nice, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Benahmed M",
+                "lastName": "Benahmed",
+                "firstName": "Mohamed",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm, Institut National de la Sant\u00e9 et de la Recherche M\u00e9dicale U895, Centre M\u00e9diterran\u00e9en de M\u00e9decine Mol\u00e9culaire, H\u00f4pitall'Archet, 06204 Nice, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "de Launoit Y",
+                "lastName": "de Launoit",
+                "firstName": "Yvan",
+                "initials": "Y",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1837-9808"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "CNRS UMR 8161, Institut de Biologie de Lille, Universit\u00e9 de Lille-Nord de France, Institut Pasteur de Lille, 59019 Lille Cedex, France."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Bindels RJ",
+                "lastName": "Bindels",
+                "firstName": "Rene J M",
+                "initials": "RJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Physiology, Radboud University Nijmegen Medical Centre, 6500HB Nijmegen, Netherlands."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Fiorio Pla A",
+                "lastName": "Fiorio Pla",
+                "firstName": "Alessandra",
+                "initials": "A",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4576-1594"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France Department of Life Science and Systems Biology, University of Torino, 10123 Torino, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Prevarskaya N",
+                "lastName": "Prevarskaya",
+                "firstName": "Natalia",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-0316-197X"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6200-5382"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-7953-4328"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-8612-0836"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0001-9702-9317"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3614-0924"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4118-9976"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5935-3236"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6162-3223"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9379-2769"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-0316-197X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1837-9808"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4576-1594"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics",
+              "supporting_data",
+              "full_text",
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "1",
+            "volume": "208",
+            "journalIssueId": 2239042,
+            "dateOfPublication": "2015 Jan",
+            "monthOfPublication": 1,
+            "yearOfPublication": 2015,
+            "journal": {
+              "medlineAbbreviation": "J Cell Biol",
+              "title": "The Journal of cell biology",
+              "essn": "1540-8140",
+              "issn": "0021-9525",
+              "isoabbreviation": "J Cell Biol",
+              "nlmid": "0375356"
+            },
+            "printPublicationDate": "2015-01-01"
+          },
+          "pubYear": "2015",
+          "pageInfo": "89-107",
+          "abstractText": "TRPM8 is a cold sensor that is highly expressed in the prostate as well as in other non-temperature-sensing organs, and is regulated by downstream receptor-activated signaling pathways. However, little is known about the intracellular proteins necessary for channel function. Here, we identify two previously unknown proteins, which we have named \"TRP channel-associated factors\" (TCAFs), as new TRPM8 partner proteins, and we demonstrate that they are necessary for channel function. TCAF1 and TCAF2 both bind to the TRPM8 channel and promote its trafficking to the cell surface. However, they exert opposing effects on TRPM8 gating properties. Functional interaction of TCAF1/TRPM8 also leads to a reduction in both the speed and directionality of migration of prostate cancer cells, which is consistent with an observed loss of expression of TCAF1 in metastatic human specimens, whereas TCAF2 promotes migration. The identification of TCAFs introduces a novel mechanism for modulation of TRPM8 channel activity.",
+          "affiliation": "Inserm U1003, Equipe labellis\u00e9e par la Ligue Nationale Contre le Cancer, Universit\u00e9 des Sciences et Technologies de Lille (USTL), 59655 Villeneuve d'Ascq Cedex, France dimitra.gkika@univ-lille1.fr.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "Research Support, Non-U.S. Gov't",
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prostate",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Line, Tumor"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Mice, Inbred C57BL"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Humans"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Adenocarcinoma",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Prostatic Neoplasms",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    },
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PA",
+                      "qualifierName": "pathology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Neoplasm Invasiveness"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Proteins",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Transfection"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Signal Transduction"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cell Movement"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Ion Channel Gating"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "RNA Interference"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Amino Acid Sequence"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Binding"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Membrane Potentials"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Protein Transport"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Kinetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Molecular Sequence Data"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Middle Aged"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Male"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "TRPM Cation Channels",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "GE",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "majorTopic_YN": "Y",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "HEK293 Cells"
+              }
+            ]
+          },
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "TRPM8 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM8 protein, mouse",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM Cation Channels",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TCAF2 protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "TRPM8 channel-associated factor 1 protein, human",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://rupress.org/jcb/article-pdf/208/1/89/681099/jcb_201402076.pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1083/jcb.201402076"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4284226"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC4284226?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 84,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "Y",
+          "dbCrossReferenceList": {
+            "dbName": [
+              "INTERPRO",
+              "OMIM",
+              "UNIPROT"
+            ]
+          },
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "license": "cc by-nc-sa",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "refseq"
+            ]
+          },
+          "dateOfCompletion": "2015-03-09",
+          "dateOfCreation": "2015-01-07",
+          "dateOfRevision": "2018-11-13",
+          "firstPublicationDate": "2015-01-01",
+          "firstIndexDate": "2015-01-07",
+          "fullTextReceivedDate": "2020-07-09",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "PPR221162",
+          "source": "PPR",
+          "doi": "10.21203/rs.3.rs-77798/v1",
+          "title": "Opposing selective forces operating on human-specific duplicated TCAF genes in Neanderthals and humans",
+          "authorString": "Hsieh P, Dang V, Vollger M, Mao Y, Huang T, Dishuck P, Baker C, Cantsilieris S, Lewis A, Munson K, Scofield M, Welch A, Underwood J, Eichler E.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Hsieh P",
+                "lastName": "Hsieh",
+                "firstName": "PingHsun",
+                "initials": "P"
+              },
+              {
+                "fullName": "Dang V",
+                "lastName": "Dang",
+                "firstName": "Vy",
+                "initials": "V"
+              },
+              {
+                "fullName": "Vollger M",
+                "lastName": "Vollger",
+                "firstName": "Mitchell",
+                "initials": "M"
+              },
+              {
+                "fullName": "Mao Y",
+                "lastName": "Mao",
+                "firstName": "Yafei",
+                "initials": "Y"
+              },
+              {
+                "fullName": "Huang T",
+                "lastName": "Huang",
+                "firstName": "Tzu-Hsueh",
+                "initials": "T"
+              },
+              {
+                "fullName": "Dishuck P",
+                "lastName": "Dishuck",
+                "firstName": "Philip",
+                "initials": "P",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2223-9787"
+                }
+              },
+              {
+                "fullName": "Baker C",
+                "lastName": "Baker",
+                "firstName": "Carl",
+                "initials": "C"
+              },
+              {
+                "fullName": "Cantsilieris S",
+                "lastName": "Cantsilieris",
+                "firstName": "Stuart",
+                "initials": "S"
+              },
+              {
+                "fullName": "Lewis A",
+                "lastName": "Lewis",
+                "firstName": "Alexandra",
+                "initials": "A"
+              },
+              {
+                "fullName": "Munson K",
+                "lastName": "Munson",
+                "firstName": "Katherine",
+                "initials": "K"
+              },
+              {
+                "fullName": "Scofield M",
+                "lastName": "Scofield",
+                "firstName": "Melanie",
+                "initials": "M"
+              },
+              {
+                "fullName": "Welch A",
+                "lastName": "Welch",
+                "firstName": "AnneMarie",
+                "initials": "A"
+              },
+              {
+                "fullName": "Underwood J",
+                "lastName": "Underwood",
+                "firstName": "Jason",
+                "initials": "J"
+              },
+              {
+                "fullName": "Eichler E",
+                "lastName": "Eichler",
+                "firstName": "Evan",
+                "initials": "E"
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2223-9787"
+              }
+            ]
+          },
+          "pubYear": "2020",
+          "abstractText": "<title>Abstract</title>  <p>TRP channel-associated factor 1/2 (TCAF1/TCAF2) proteins antagonistically regulate the cold-sensor protein TRPM8 in multiple human tissues. Understanding their significance has been complicated given the locus spans a gap-ridden region with complex segmental duplications in GRCh38. Using long-read sequencing, we sequence-resolve the locus, annotate full-length <italic>TCAF</italic> models in human and nonhuman primate genomes, and show substantial human-specific <italic>TCAF</italic> copy number variation. We identify two human super haplogroups, H4 and H5, and establish that <italic>TCAF</italic> duplications originated ~1.7 million years ago but diversified only in <italic>Homo sapiens</italic> by recurrent structural mutations that altered <italic>TCAF</italic> copy number and regulation. Conversely, in all archaic-hominin samples the fixation for a specific H4 haplotype without duplication is likely due to positive selection. The significant, positive effect of H4 on <italic>TCAF2</italic> expression in modern-day humans with candidate associations for hypothyroidism, nerve compression, and diabetes suggests <italic>TCAF</italic> diversification among hominins potentially in response to cold or dietary adaptations.</p>",
+          "pubTypeList": {
+            "pubType": [
+              "Preprint"
+            ]
+          },
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2020
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "https://www.researchsquare.com/article/rs-77798/v1.pdf?c=1601602070000"
+              },
+              {
+                "availability": "Free",
+                "availabilityCode": "F",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.21203/rs.3.rs-77798/v1"
+              }
+            ]
+          },
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "source": "MED",
+                "id": "34433829",
+                "reference": "Nature communications. 2021 Aug;12(1):5118",
+                "type": "Preprint of",
+                "note": "CrossRef Pre-print loader",
+                "orderIn": 10001
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "N",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCreation": "2020-10-03",
+          "firstPublicationDate": "2020-10-01",
+          "firstIndexDate": "2020-10-10",
+          "versionList": {
+            "version": [
+              {
+                "id": "PPR221162",
+                "source": "PPR",
+                "versionNumber": 1,
+                "firstPublishDate": "2020-10-01",
+                "pubTypeList": {
+                  "pubType": [
+                    "preprint"
+                  ]
+                },
+                "hasEvaluations": "N"
+              }
+            ]
+          },
+          "versionNumber": 1,
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "37806621",
+          "source": "MED",
+          "pmid": "37806621",
+          "doi": "10.3168/jds.2023-23572",
+          "title": "Liver transcriptome profiles of dairy cows with different serum metabotypes.",
+          "authorString": "Ghaffari MH, Sadri H, Trakooljul N, Koch C, Sauerwein H.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Ghaffari MH",
+                "lastName": "Ghaffari",
+                "firstName": "M H",
+                "initials": "MH",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Animal Science, Physiology Unit, University of Bonn, 53115 Bonn, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sadri H",
+                "lastName": "Sadri",
+                "firstName": "H",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Science, Faculty of Veterinary Medicine, University of Tabriz, 516616471 Tabriz, Iran."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Trakooljul N",
+                "lastName": "Trakooljul",
+                "firstName": "N",
+                "initials": "N",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-3214-2498"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Research Institute for Farm Animal Biology (FBN), Institute for Genome Biology, 18196 Dummerstorf, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Koch C",
+                "lastName": "Koch",
+                "firstName": "C",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Educational and Research Centre for Animal Husbandry, Hofgut Neum\u00fchle, 67728 M\u00fcnchweiler an der Alsenz, Germany."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Sauerwein H",
+                "lastName": "Sauerwein",
+                "firstName": "H",
+                "initials": "H",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute of Animal Science, Physiology Unit, University of Bonn, 53115 Bonn, Germany. Electronic address: sauerwein@uni-bonn.de."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-3214-2498"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5811-3492"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "journalInfo": {
+            "issue": "3",
+            "volume": "107",
+            "journalIssueId": 3731243,
+            "dateOfPublication": "2024 Mar",
+            "monthOfPublication": 3,
+            "yearOfPublication": 2024,
+            "journal": {
+              "medlineAbbreviation": "J Dairy Sci",
+              "title": "Journal of dairy science",
+              "essn": "1525-3198",
+              "issn": "0022-0302",
+              "isoabbreviation": "J Dairy Sci",
+              "nlmid": "2985126R"
+            },
+            "printPublicationDate": "2024-03-01"
+          },
+          "pubYear": "2024",
+          "pageInfo": "1751-1765",
+          "abstractText": "In a previously established animal model, 38 multiparous Holstein cows were assigned to 2 groups fed different diets to achieve either a normal (NBCS) or high (HBCS) body condition score (BCS) and backfat thickness (BFT) until dry-off at -49 d before calving (NBCS: BCS <3.5 [3.02 \u00b1 0.24) and BFT <1.2 cm [0.92 \u00b1 0.21]; HBCS: BCS >3.75 [3.82 \u00b1 0.33] and BFT >1.4 cm [2.36 \u00b1 0.35], mean \u00b1 SD). The groups were also stratified for comparable milk yields (NBCS: 10,361 \u00b1 302 kg; HBCS: 10,315 \u00b1 437 kg; mean \u00b1 SD). The cows were then fed the same diet during the dry period and subsequent lactation, maintaining the differences in BFT and BCS throughout the study. Using the serum metabolomics data, we created a classification model that identified different metabotypes. Machine learning classifiers revealed a distinct cluster labeled HBCS-PN (HBCS predicted normal BCS) among over-conditioned cows. These cows showed higher feed intake and better energy balance than the HBCS-PH (high BCS predicted high BCS) group, while milk yield was similar. The aim of this study was to investigate the changes in the hepatic transcriptome of cows differing in serum-metabotype postpartum. We performed hepatic transcriptome analysis in cows from 3 metabolic clusters: HBCS-PH (n = 8), HBCS-PN (n = 6), and normal BCS predicted normal BCS (NBCS-PN, n = 8) on d 21 (\u00b12) postpartum. Liver tissue from cows expressed a total of 13,118 genes aligned with the bovine genome. A total of 48 differentially expressed genes (DEG; false discovery rate \u22640.1 and fold-change >1.5) were found between NBCS-PN and HBCS-PH cows, whereas 24 DEG (14 downregulated and 10 upregulated) were found between HBCS-PN and HBCS-PH cows. The downregulated DEG (n = 31) in NBCS-PN cows compared with HBCS-PH cows are involved in biosynthetic processes such as lipid, lipoprotein, and cholesterol synthesis (e.g., APOA1, MKX, RPL3L, CANT1, CHPF, FUT1, ZNF696), cell organization, biogenesis, and localization (e.g., SLC12A8, APOA1, BRME1, RPL3L, STAG3, FBXW5, TMEM120A, SLC16A5, FGF21), catabolic processes (e.g., BREH1, MIOX, APOBEC2, FBXW5, NUDT16), and response to external stimuli (e.g., APOA1, FGF21, TMEM120A, FNDC4), whereas upregulated DEG (n = 17) are related to signal transduction and cell motility (e.g., RASSF2, ASPN, SGK1, KIF7, ZEB2, MAOA, ACKR4, TCAF1), suggesting altered metabolic adaptations during lactation. Our results showed 24 DEG between HBCS-PN and HBCS-PH in the liver. The expression of SLC12A8, SLC16A5, FBXW5, OSGIN1, LAMA3, KDELR3, OR4X17, and INHBE, which are responsible for regulating cellular processes was downregulated in HBCS-PN cows compared with HBCS-PH cows. In particular, the downregulation of SLC12A8 and SLC16A5 expression in HBCS-PN cows indicates lower metabolic load and reduced need for NAD<sup>+</sup> biosynthesis to support mitochondrial respiratory processes. The upregulation of MAOA, ACKR4, KIF27, SFRP1, and CAV2 in the liver of HBCS-PN cows may indicate adaptive mechanisms to maintain normal liver function in response to increased metabolic demands from over-conditioning. These molecular differences underscore the existence of distinct metabolic types in cows and provide evidence for the role of the liver in shaping different metabolic patterns.",
+          "affiliation": "Institute of Animal Science, Physiology Unit, University of Bonn, 53115 Bonn, Germany.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Alexander von Humboldt-Stiftung",
+                "orderIn": 0
+              }
+            ]
+          },
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Liver",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Milk",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "CH",
+                      "qualifierName": "chemistry"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Animals"
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Cattle"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Postpartum Period",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "ME",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Lactation",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "majorTopic_YN": "N",
+                      "abbreviation": "PH",
+                      "qualifierName": "physiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "majorTopic_YN": "N",
+                "descriptorName": "Female"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "descriptorName": "Transcriptome"
+              }
+            ]
+          },
+          "keywordList": {
+            "keyword": [
+              "Body condition",
+              "Omics",
+              "Early Lactation",
+              "Hepatic Gene Expression"
+            ]
+          },
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Unpaywall",
+                "url": "http://www.journalofdairyscience.org/article/S0022030223007130/pdf"
+              },
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3168/jds.2023-23572"
+              }
+            ]
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "citedByCount": 8,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "hasLabsLinks": "Y",
+          "hasData": "N",
+          "license": "cc by",
+          "authMan": "N",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "N",
+          "hasTMAccessionNumbers": "N",
+          "dateOfCompletion": "2024-03-04",
+          "dateOfCreation": "2023-10-08",
+          "dateOfRevision": "2024-03-04",
+          "electronicPublicationDate": "2023-10-06",
+          "firstPublicationDate": "2023-10-06",
+          "firstIndexDate": "2023-10-09",
+          "hasEvaluations": "N"
+        },
+        {
+          "id": "28580430",
+          "source": "MED",
+          "pmid": "28580430",
+          "pmcid": "PMC5450946",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC5450946"
+            ]
+          },
+          "doi": "10.1038/s41559-016-0069",
+          "title": "The evolution and population diversity of human-specific segmental duplications.",
+          "authorString": "Dennis MY, Harshman L, Nelson BJ, Penn O, Cantsilieris S, Huddleston J, Antonacci F, Penewit K, Denman L, Raja A, Baker C, Mark K, Malig M, Janke N, Espinoza C, Stessman HAF, Nuttle X, Hoekzema K, Lindsay-Graves TA, Wilson RK, Eichler EE.",
+          "authorList": {
+            "author": [
+              {
+                "fullName": "Dennis MY",
+                "lastName": "Dennis",
+                "firstName": "Megan Y",
+                "initials": "MY",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8502-5420"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Genome Center, MIND Institute, and Department of Biochemistry & Molecular Medicine, University of California, Davis, CA 95616, USA."
+                    },
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Harshman L",
+                "lastName": "Harshman",
+                "firstName": "Lana",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nelson BJ",
+                "lastName": "Nelson",
+                "firstName": "Bradley J",
+                "initials": "BJ",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Penn O",
+                "lastName": "Penn",
+                "firstName": "Osnat",
+                "initials": "O",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Cantsilieris S",
+                "lastName": "Cantsilieris",
+                "firstName": "Stuart",
+                "initials": "S",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Huddleston J",
+                "lastName": "Huddleston",
+                "firstName": "John",
+                "initials": "J",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    },
+                    {
+                      "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Antonacci F",
+                "lastName": "Antonacci",
+                "firstName": "Francesca",
+                "initials": "F",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-5833-6186"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Dipartimento di Biologia, Universit\u00e0 degli Studi di Bari \"Aldo Moro\", Bari 70125, Italy."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Penewit K",
+                "lastName": "Penewit",
+                "firstName": "Kelsi",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Denman L",
+                "lastName": "Denman",
+                "firstName": "Laura",
+                "initials": "L",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Raja A",
+                "lastName": "Raja",
+                "firstName": "Archana",
+                "initials": "A",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    },
+                    {
+                      "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Baker C",
+                "lastName": "Baker",
+                "firstName": "Carl",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Mark K",
+                "lastName": "Mark",
+                "firstName": "Kenneth",
+                "initials": "K",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-1867-6212"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Malig M",
+                "lastName": "Malig",
+                "firstName": "Maika",
+                "initials": "M",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Janke N",
+                "lastName": "Janke",
+                "firstName": "Nicolette",
+                "initials": "N",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Espinoza C",
+                "lastName": "Espinoza",
+                "firstName": "Claudia",
+                "initials": "C",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Stessman HAF",
+                "lastName": "Stessman",
+                "firstName": "Holly A F",
+                "initials": "HAF",
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0764-3493"
+                },
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Nuttle X",
+                "lastName": "Nuttle",
+                "firstName": "Xander",
+                "initials": "X",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Hoekzema K",
+                "lastName": "Hoekzema",
+                "firstName": "Kendra",
+                "initials": "K",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Lindsay-Graves TA",
+                "lastName": "Lindsay-Graves",
+                "firstName": "Tina A",
+                "initials": "TA",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "McDonnell Genome Institute at Washington University, Washington University School of Medicine, St. Louis, MO 63108, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Wilson RK",
+                "lastName": "Wilson",
+                "firstName": "Richard K",
+                "initials": "RK",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "McDonnell Genome Institute at Washington University, Washington University School of Medicine, St. Louis, MO 63108, USA."
+                    }
+                  ]
+                }
+              },
+              {
+                "fullName": "Eichler EE",
+                "lastName": "Eichler",
+                "firstName": "Evan E",
+                "initials": "EE",
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA 98195, USA."
+                    },
+                    {
+                      "affiliation": "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0764-3493"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-5833-6186"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8502-5420"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-1867-6212"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data",
+              "related_data"
+            ]
+          },
+          "journalInfo": {
+            "issue": "3",
+            "volume": "1",
+            "journalIssueId": 2610679,
+            "dateOfPublication": "2017 ",
+            "monthOfPublication": 0,
+            "yearOfPublication": 2017,
+            "journal": {
+              "medlineAbbreviation": "Nat Ecol Evol",
+              "title": "Nature ecology & evolution",
+              "essn": "2397-334X",
+              "issn": "2397-334X",
+              "isoabbreviation": "Nat Ecol Evol",
+              "nlmid": "101698577"
+            },
+            "printPublicationDate": "2017-01-01"
+          },
+          "pubYear": "2017",
+          "pageInfo": "69",
+          "abstractText": "Segmental duplications contribute to human evolution, adaptation and genomic instability but are often poorly characterized. We investigate the evolution, genetic variation and coding potential of human-specific segmental duplications (HSDs). We identify 218 HSDs based on analysis of 322 deeply sequenced archaic and contemporary hominid genomes. We sequence 550 human and nonhuman primate genomic clones to reconstruct the evolution of the largest, most complex regions with protein-coding potential (n=80 genes/33 gene families). We show that HSDs are non-randomly organized, associate preferentially with ancestral ape duplications termed \"core duplicons\", and evolved primarily in an interspersed inverted orientation. In addition to <i>Homo sapiens</i>-specific gene expansions (e.g., <i>TCAF1/2</i>), we highlight ten gene families (e.g., <i>ARHGAP11B</i> and <i>SRGAP2C</i>) where copy number never returns to the ancestral state, there is evidence of mRNA splicing, and no common gene-disruptive mutations are observed in the general population. Such duplicates are candidates for the evolution of human-specific adaptive traits.",
+          "affiliation": "Genome Center, MIND Institute, and Department of Biochemistry & Molecular Medicine, University of California, Davis, CA 95616, USA.",
+          "publicationStatus": "ppublish",
+          "language": "eng",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "NICHD NIH HHS",
+                "acronym": "HD",
+                "grantId": "T32 HD007396",
+                "orderIn": 0
+              },
+              {
+                "agency": "NICHD NIH HHS",
+                "acronym": "HD",
+                "grantId": "U54 HD079125",
+                "orderIn": 0
+              },
+              {
+                "agency": "NINDS NIH HHS",
+                "acronym": "NS",
+                "grantId": "R00 NS083627",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHGRI NIH HHS",
+                "acronym": "HG",
+                "grantId": "R25 HG007153",
+                "orderIn": 0
+              },
+              {
+                "agency": "Howard Hughes Medical Institute",
+                "acronym": "HHMI",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHGRI NIH HHS",
+                "acronym": "HG",
+                "grantId": "R01 HG002385",
+                "orderIn": 0
+              },
+              {
+                "agency": "NIMH NIH HHS",
+                "acronym": "MH",
+                "grantId": "R01 MH101221",
+                "orderIn": 0
+              },
+              {
+                "agency": "NHGRI NIH HHS",
+                "acronym": "HG",
+                "grantId": "U41 HG007635",
+                "orderIn": 0
+              }
+            ]
+          },
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41559-016-0069"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5450946"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC5450946?pdf=render"
+              }
+            ]
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "citedByCount": 139,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "Y",
+          "dbCrossReferenceList": {
+            "dbName": [
+              "UNIPROT"
+            ]
+          },
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "hasLabsLinks": "Y",
+          "hasData": "Y",
+          "authMan": "Y",
+          "epmcAuthMan": "N",
+          "nihAuthMan": "Y",
+          "manuscriptId": "NIHMS838891",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "bioproject",
+              "omim",
+              "dbgap"
+            ]
+          },
+          "dateOfCreation": "2017-06-06",
+          "dateOfRevision": "2025-05-30",
+          "electronicPublicationDate": "2017-02-17",
+          "firstPublicationDate": "2017-02-17",
+          "firstIndexDate": "2017-06-05",
+          "fullTextReceivedDate": "2025-02-05",
+          "hasEvaluations": "N"
+        }
+      ]
+    }
+  }
+}

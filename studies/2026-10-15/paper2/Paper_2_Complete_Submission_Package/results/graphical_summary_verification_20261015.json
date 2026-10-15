@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "scope": "Pinned source values, mathematical envelope and counterexample, exported dimensions/fonts/transparency, component ZIP integrity, and finalized PPTX receipt. No biological validation claim.",
+  "values": {
+    "dimensions_mm": [
+      183,
+      90
+    ],
+    "animals": 55,
+    "cohorts": 3,
+    "launches": 2,
+    "RR23": 26,
+    "RRRM2": 19,
+    "RR10": 10,
+    "design_rank": 3,
+    "design_columns": 4,
+    "matrix": [
+      [
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "local_family": 2769,
+    "harmonic": 8.50363774780702,
+    "p_min": 4.113533525298231e-05,
+    "BY_floor_multiplier": 0.9685961712742753,
+    "k_star": 20,
+    "q_at_19": 0.05097874585654081,
+    "q_at_20": 0.04842980856371377,
+    "example_split": 7,
+    "A_calls": 0,
+    "B_calls": 23,
+    "Tcaf1_FG_A_projection": 1.1050401587715095,
+    "Tcaf1_FG_B_projection": 0.8589101288524095,
+    "aligned_candidate_pair_instances": 354,
+    "primary_transport_tests": 4,
+    "primary_transport_Holm_p": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "binary_RMS_FLT_GC_pp": 5.544172928867811,
+    "binary_RMS_GC_VIV_pp": 4.074556355222424,
+    "control_RMS_ratio_percent": 73.49259136573323,
+    "OSD525_linked_publication_count": 0,
+    "linked_record_does_not_establish_priority": true,
+    "BY_gene_associations": 47,
+    "BY_unique_clusters": 41,
+    "BY_cluster_contrast_tests": 43
+  },
+  "cluster_tests_at_minimum_p": 30,
+  "cluster_tests_above_minimum_p": 13,
+  "components": 23,
+  "visual_review": "Full PNG, PPTX preview and component contact sheet inspected; no text overlap or clipping.",
+  "canva": {
+    "url": "https://www.canva.com/design/DAHX-3F2s6M/IF-zzdjOAjAbnYCsnY4irQ/edit",
+    "page": 3,
+    "saved_status_observed": "All changes saved",
+    "original_reference_pages_retained": 2
+  },
+  "output_sha256": {
+    "figures/npj/Graphical_Summary_Optional.png": "dcdb808e4acfc3c2d7db45e03761bb3cd977a18ec6e637d500263b06a727e522",
+    "output/canva_three_tests/Three_Tests_Paper_Aligned_Canva_v5.pptx": "f7ab26ed7f9425cd3f6214842c13a1b46516325d5b9ab3296e3ea8559d63f138"
+  }
+}

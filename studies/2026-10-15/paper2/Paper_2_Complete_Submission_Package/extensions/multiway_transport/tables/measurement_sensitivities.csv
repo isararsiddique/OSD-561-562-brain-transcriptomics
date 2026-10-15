@@ -1,0 +1,4 @@
+panel,read_threshold,dominance_threshold,common_clusters,global_effect,exact_one_sided_p,exact_absolute_two_sided_p,Holm_two_secondary_sensitivities
+primary,20,0.9,281,-0.0027700391111242493,0.73625,0.521875,
+dominance95,20,0.95,180,-0.002546800246826829,0.70375,0.609375,1.0
+depth50,50,0.9,91,-0.0035780592181569515,0.7829464285714286,0.4320535714285714,1.0

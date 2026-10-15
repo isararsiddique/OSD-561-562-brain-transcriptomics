@@ -1,0 +1,457 @@
+{
+  "complete_table_exports": 50,
+  "source_copy_hashes_match": true,
+  "all_source_rows_retained": true,
+  "records": [
+    {
+      "number": 1,
+      "file": "Supplementary_Data_01_sample_provenance.csv",
+      "original_analysis_path": "results/sample_manifest.csv",
+      "scope": "129 deposited libraries; animal and design labels",
+      "data_rows": 129,
+      "columns": 17,
+      "sha256": "c858c442d09577c3f7160ff1619d6b0aed0180546e16917d9167cb6fa58dd363"
+    },
+    {
+      "number": 2,
+      "file": "Supplementary_Data_02_animal_region_provenance.csv",
+      "original_analysis_path": "results/animal_region_manifest.csv",
+      "scope": "126 collapsed animal-region observations",
+      "data_rows": 126,
+      "columns": 19,
+      "sha256": "121277cce30feed1c9399e382cb2f9845256f32c04a40b2b6df780254f70bd89"
+    },
+    {
+      "number": 3,
+      "file": "Supplementary_Data_03_metadata_conflicts.csv",
+      "original_analysis_path": "results/metadata_conflicts.csv",
+      "scope": "All recorded deposited location conflicts",
+      "data_rows": 7,
+      "columns": 18,
+      "sha256": "3f05e8bd5446c6bb2d63408d15ebd7af696f16e0a1352ffd7a94c14aa24fc2b3"
+    },
+    {
+      "number": 4,
+      "file": "Supplementary_Data_04_primary_panel_tests.csv",
+      "original_analysis_path": "results/panel_results.csv",
+      "scope": "Complete 232-test primary and sensitivity panel family",
+      "data_rows": 232,
+      "columns": 18,
+      "sha256": "1391aca219fe7730ee1e8fe1e1ba87c47069dc9e424fadf180bc4f1a2ce86d1a"
+    },
+    {
+      "number": 5,
+      "file": "Supplementary_Data_05_gradient_tests.csv",
+      "original_analysis_path": "results/gradient_results.csv",
+      "scope": "Complete 29-test gradient family",
+      "data_rows": 29,
+      "columns": 7,
+      "sha256": "dd3956946407ae151777e259293f39e64862f81583c4c116c4edd8387dbc489d"
+    },
+    {
+      "number": 6,
+      "file": "Supplementary_Data_06_regional_count_gene_tests.csv.gz",
+      "original_analysis_path": "results/count_model_gene_results.csv.gz",
+      "scope": "All regional negative-binomial gene results",
+      "data_rows": 282593,
+      "columns": 11,
+      "sha256": "199e786314240db8d8ce7b21f8a7850b45cec27d72ac70e5529389d167240f4f"
+    },
+    {
+      "number": 7,
+      "file": "Supplementary_Data_07_count_panel_agreement.csv",
+      "original_analysis_path": "results/count_model_panel_comparison.csv",
+      "scope": "All 120 panel estimator comparisons",
+      "data_rows": 120,
+      "columns": 11,
+      "sha256": "af35c5467302ea384b7fade129384eed673c8bf936971374bd7d16784c30f4bd"
+    },
+    {
+      "number": 8,
+      "file": "Supplementary_Data_08_paired_panel_tests.csv",
+      "original_analysis_path": "extensions/paired_biology/paired_panel_interactions.csv",
+      "scope": "Complete 104-test paired panel family",
+      "data_rows": 104,
+      "columns": 29,
+      "sha256": "feb469685c483df2d8b6e81a5169d2a09bd6c064598f5cd3de93455e1bc9ed07"
+    },
+    {
+      "number": 9,
+      "file": "Supplementary_Data_09_paired_gene_tests.csv.gz",
+      "original_analysis_path": "extensions/paired_biology/paired_gene_interactions_exploratory.csv.gz",
+      "scope": "Complete exported exploratory paired gene tests",
+      "data_rows": 223252,
+      "columns": 11,
+      "sha256": "2d2585747aa8ecc0731eda83961c240ae49d2a60c1a5414bcdca9304a8b710d4"
+    },
+    {
+      "number": 10,
+      "file": "Supplementary_Data_10_cross_cohort_gene_screen.csv.gz",
+      "original_analysis_path": "results/regional_gene_replication.csv.gz",
+      "scope": "Complete 54989-entry intersection-union family",
+      "data_rows": 54989,
+      "columns": 19,
+      "sha256": "ad2dfb53490dcf9ff3011eb29a1f4668a17b317b7bed4834b197f2b3daba2462"
+    },
+    {
+      "number": 11,
+      "file": "Supplementary_Data_11_ground_holdout_results.csv",
+      "original_analysis_path": "extensions/ground_holdout/holdout_split_results.csv",
+      "scope": "All 362 overlapping splits and five methods",
+      "data_rows": 1810,
+      "columns": 24,
+      "sha256": "69ca0b933d8dd3267fcfafa6def6d3d3d0a5422a128297ac652660767989e165"
+    },
+    {
+      "number": 12,
+      "file": "Supplementary_Data_12_ground_anchor_transfer.csv",
+      "original_analysis_path": "results/ground_anchor_sensitivity.csv",
+      "scope": "All 15 anchor applications and four methods",
+      "data_rows": 60,
+      "columns": 15,
+      "sha256": "482e736af50d1a5f2ac994ce638a6e18b7dcbf886372b6c4cecba45751074055"
+    },
+    {
+      "number": 13,
+      "file": "Supplementary_Data_13_operator_geometry.csv",
+      "original_analysis_path": "results/operator_geometry.csv",
+      "scope": "All 15 aligned real-data correction geometries",
+      "data_rows": 15,
+      "columns": 12,
+      "sha256": "5c96939952795bb2a04a0ddc54dc4543044a6e9ab8c0d8ea21027f4b9889a0cb"
+    },
+    {
+      "number": 14,
+      "file": "Supplementary_Data_14_joint_refit_uncertainty.csv",
+      "original_analysis_path": "results/joint_bootstrap_summary.csv",
+      "scope": "Complete joint refit summary",
+      "data_rows": 120,
+      "columns": 12,
+      "sha256": "280dbe97828334100d7172c47e2ec2217bb50c928eba94defd6a711427ba4a5d"
+    },
+    {
+      "number": 15,
+      "file": "Supplementary_Data_15_joint_refit_repetitions.csv",
+      "original_analysis_path": "results/joint_bootstrap_repetitions.csv",
+      "scope": "All retained joint bootstrap repetitions",
+      "data_rows": 60000,
+      "columns": 5,
+      "sha256": "872d4ef5cda43abd58304dabe82992613fa27b1c1830cd97c04ecc5dbae229d6"
+    },
+    {
+      "number": 16,
+      "file": "Supplementary_Data_16_primary_simulation_repetitions.csv",
+      "original_analysis_path": "results/known_truth_benchmark_repetitions.csv",
+      "scope": "All 1000 independent primary datasets and seven methods",
+      "data_rows": 7000,
+      "columns": 16,
+      "sha256": "d75ad4c8fb64dea148f5b969a7b61bd0e6b89bf6109f941aa3f7aa32d93bb56a"
+    },
+    {
+      "number": 17,
+      "file": "Supplementary_Data_17_high_gain_simulation_repetitions.csv",
+      "original_analysis_path": "extensions/mathematics_review/high_gain_benchmark_repetitions.csv",
+      "scope": "All 1600 independent stress datasets and four methods",
+      "data_rows": 6400,
+      "columns": 17,
+      "sha256": "ddb7e6e68882fd8fbde2943a260a40679d25f3b9502d3ef08ab387c2a68d568d"
+    },
+    {
+      "number": 18,
+      "file": "Supplementary_Data_18_flight_collection_panel_tests.csv",
+      "original_analysis_path": "extensions/flight_collection_interaction/panel_flight_collection_interactions.csv",
+      "scope": "Complete 32-test exploratory interaction family",
+      "data_rows": 32,
+      "columns": 22,
+      "sha256": "6993a60499622f9f37b7457e00cffb3e1f3adda672424c99880bdd92a62cd60a"
+    },
+    {
+      "number": 19,
+      "file": "Supplementary_Data_19_flight_collection_gene_tests.csv.gz",
+      "original_analysis_path": "extensions/flight_collection_interaction/gene_flight_collection_interactions_exploratory.csv.gz",
+      "scope": "All gene interactions including unavailable p-values; 72023 evaluable tests",
+      "data_rows": 72074,
+      "columns": 17,
+      "sha256": "9fb0eee561046b32ed7466e30f9a5f114cbe51871a69648a6bf5afdeb744b65a"
+    },
+    {
+      "number": 20,
+      "file": "Supplementary_Data_20_primary_gene_candidate_sensitivity.csv",
+      "original_analysis_path": "extensions/flight_collection_interaction/all_primary_NB_FDR_candidates_with_sensitivity.csv",
+      "scope": "Every primary FDR candidate including sensitivity failures",
+      "data_rows": 116,
+      "columns": 22,
+      "sha256": "6fbcf20b8dc64878257540906fd4da08cd12956e126a1d63c7e0542d81d2ce88"
+    },
+    {
+      "number": 21,
+      "file": "Supplementary_Data_21_exact_ground_complete_family.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/exact_ground_sensor_association.csv",
+      "scope": "All 18 inherited panel and comparator by region tests",
+      "data_rows": 18,
+      "columns": 12,
+      "sha256": "19e9cecc4dcf38d8541a5651b1715c6d6a0af6fdef19452536c33000fd7fe048"
+    },
+    {
+      "number": 22,
+      "file": "Supplementary_Data_22_cerebellum_exact_label_null.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/OSD-561_exact_label_null.csv",
+      "scope": "All 400 assignments and all nine comparators",
+      "data_rows": 400,
+      "columns": 12,
+      "sha256": "1adebdf366ca67403ebd43b7b46ef2fb4e27565d4881398ba0efb0d93462341d"
+    },
+    {
+      "number": 23,
+      "file": "Supplementary_Data_23_hippocampus_exact_label_null.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/OSD-562_exact_label_null.csv",
+      "scope": "All 400 assignments and all nine comparators",
+      "data_rows": 400,
+      "columns": 12,
+      "sha256": "9e48a011112fe51f8d43fb61c28956373ddad2af550dde7d7281ec125529a283"
+    },
+    {
+      "number": 24,
+      "file": "Supplementary_Data_24_saturated_age_complete_family.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/saturated_age_panel_interactions.csv",
+      "scope": "All 64 saturated-age panel estimands",
+      "data_rows": 64,
+      "columns": 11,
+      "sha256": "9d367cbf14f30780ebc68f15409bb47c3d88aa9b8847076aa94f9614449a3f74"
+    },
+    {
+      "number": 25,
+      "file": "Supplementary_Data_25_heldout_animal_prediction_errors.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/heldout_animal_prediction_errors.csv",
+      "scope": "Every retained animal and overlapping split prediction error",
+      "data_rows": 1848,
+      "columns": 7,
+      "sha256": "3b218eec51ee4770a062949295eeac201008457652722861f70362ebdbe4e8cc"
+    },
+    {
+      "number": 26,
+      "file": "Supplementary_Data_26_expression_tertile_prediction_errors.csv",
+      "original_analysis_path": "extensions/independent_audit_20261015/training_expression_tertile_prediction_errors.csv",
+      "scope": "Every training-expression tertile prediction diagnostic",
+      "data_rows": 1086,
+      "columns": 10,
+      "sha256": "0b25cbaeb2341bedd8188396ba63eda2c52641921235d3bada8b00809e4a5cb0"
+    },
+    {
+      "number": 27,
+      "file": "Supplementary_Data_27_all_deposit_count_diagnostics.csv",
+      "original_analysis_path": "extensions/real_data_structure/animal_count_qc.csv",
+      "scope": "All 126 animal-region observations in seven deposits",
+      "data_rows": 126,
+      "columns": 12,
+      "sha256": "0fcf6522da87713b524bfa88c9d6a1a67cbe1dae84bf1ad34b7c37150201ae6b"
+    },
+    {
+      "number": 28,
+      "file": "Supplementary_Data_28_all_deposit_pca_scores.csv",
+      "original_analysis_path": "extensions/real_data_structure/animal_pca_scores.csv",
+      "scope": "Every animal-region PCA score",
+      "data_rows": 126,
+      "columns": 8,
+      "sha256": "0ba526ea4e34db1d3dea2e57c5dc5a918ff7dde1b59db3b3270a141e53d8ae11"
+    },
+    {
+      "number": 29,
+      "file": "Supplementary_Data_29_complete_contrast_manifest.csv",
+      "original_analysis_path": "results/contrast_manifest.csv",
+      "scope": "Full primary and sensitivity contrast definitions",
+      "data_rows": 29,
+      "columns": 9,
+      "sha256": "ad21bca00ae41ca67b832314f9c80c89bb3db1a7af4768ace98898d225311092"
+    },
+    {
+      "number": 30,
+      "file": "Supplementary_Data_30_external_inventory.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/external_data/cohort_inventory.csv",
+      "scope": "All acquired count matrices and provenance",
+      "data_rows": 4,
+      "columns": 17,
+      "sha256": "ae5237953a1bc6589ce855fa3aae310cbe7767323d39e14a33ca84f5209e6d35"
+    },
+    {
+      "number": 31,
+      "file": "Supplementary_Data_31_external_sample_metadata.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/external_data/harmonized_metadata.csv",
+      "scope": "All 66 acquired units with primary mask",
+      "data_rows": 66,
+      "columns": 43,
+      "sha256": "1ff03d27f6be4bf0caae6ac61e95fe98ac666f2d51646dc2670bc8264a5f34b1"
+    },
+    {
+      "number": 32,
+      "file": "Supplementary_Data_32_external_pool_membership.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/external_data/sample_to_source_membership.csv",
+      "scope": "All recorded donor and library memberships",
+      "data_rows": 74,
+      "columns": 5,
+      "sha256": "d3f8a590c0d36053b604c380b0bd6c98eb8c6bc812f4f21904a11db79807ba72"
+    },
+    {
+      "number": 33,
+      "file": "Supplementary_Data_33_expanded_original_methods.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/outer_split_results.csv",
+      "scope": "All 3258 initial method by split rows",
+      "data_rows": 3258,
+      "columns": 22,
+      "sha256": "9cf25825f9fabcc4c623d8aeababbda7071ceb274c67425b1161d208df9cdb28"
+    },
+    {
+      "number": 34,
+      "file": "Supplementary_Data_34_expanded_original_unit_errors.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/outer_animal_prediction_errors.csv",
+      "scope": "All individual animal errors across overlapping splits",
+      "data_rows": 16632,
+      "columns": 6,
+      "sha256": "6469c71923ec3c6c35f1154b65d5b3c8e32b52e268074c973ad3263afd0b4f0e"
+    },
+    {
+      "number": 35,
+      "file": "Supplementary_Data_35_constrained_external_predictions.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/strengthened_outer_results.csv",
+      "scope": "All 1002 new original and external method rows",
+      "data_rows": 1002,
+      "columns": 13,
+      "sha256": "4eea5c01de221002949bd14736c87c7ccf70ca135ce3b92bf0b18e96cb389498"
+    },
+    {
+      "number": 36,
+      "file": "Supplementary_Data_36_constrained_external_unit_errors.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/strengthened_unit_errors.csv",
+      "scope": "All 2488 individual retained errors",
+      "data_rows": 2488,
+      "columns": 7,
+      "sha256": "0da92603889027e5abe080dac5b0aa7350f20516e9c7f885bd4c0fabcf483513"
+    },
+    {
+      "number": 37,
+      "file": "Supplementary_Data_37_convex_certificates.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/convex_optimality_certificates.csv",
+      "scope": "All 16084 fitted convex optimization certificates",
+      "data_rows": 16084,
+      "columns": 12,
+      "sha256": "e060e9d80721e13390ad9a650b24b798322baf389e858a13f318923445d745f7"
+    },
+    {
+      "number": 38,
+      "file": "Supplementary_Data_38_constrained_nested_selection.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/strengthened_inner_CV.csv",
+      "scope": "All nested tuning candidates",
+      "data_rows": 2130,
+      "columns": 6,
+      "sha256": "c781359fcb943af47908f12f141daf2ad6745765247f4fe515fef0d4ff3db4b0"
+    },
+    {
+      "number": 39,
+      "file": "Supplementary_Data_39_new_split_membership.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/strengthened_split_roles.csv",
+      "scope": "All original and external training/test roles",
+      "data_rows": 7144,
+      "columns": 4,
+      "sha256": "9847732365105d45d7933af46b0c703593075d4a3ce9103502c8fc15e17f9e2b"
+    },
+    {
+      "number": 40,
+      "file": "Supplementary_Data_40_matched_grid_predictions.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/matched_grid_outer_results.csv",
+      "scope": "All 852 matchedgrid comparator rows",
+      "data_rows": 852,
+      "columns": 13,
+      "sha256": "4556cd7d058668fbfb4b4735c2ae23ef6801e2073ac30cf8ea3b294750401c53"
+    },
+    {
+      "number": 41,
+      "file": "Supplementary_Data_41_fixed_penalty_objective_checks.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/method_benchmark/matched_grid_fixed_alpha_objectives.csv",
+      "scope": "All 28 representative full-space objective comparisons",
+      "data_rows": 28,
+      "columns": 12,
+      "sha256": "105e123c456c1ef05a8b5074263744bbf9301999eb2a41c31950700876c6824e"
+    },
+    {
+      "number": 42,
+      "file": "Supplementary_Data_42_count_benchmark_repetitions.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/correction_benchmark/all_repetitions.csv",
+      "scope": "All 19600 method runs over 1400 independent datasets",
+      "data_rows": 19600,
+      "columns": 18,
+      "sha256": "c179b4bbf4b2d5a424916246c3b2feefed9c071ddf1ce54d9510c700043f0951"
+    },
+    {
+      "number": 43,
+      "file": "Supplementary_Data_43_count_benchmark_calibration.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/correction_benchmark/real_count_calibration.csv",
+      "scope": "All 600 empirical count calibration genes",
+      "data_rows": 600,
+      "columns": 3,
+      "sha256": "d67a29d4a32cab3192d337910b3e4da471dc45a7f7fd86ff0325bece493fb28d"
+    },
+    {
+      "number": 44,
+      "file": "Supplementary_Data_44_expanded_biological_family.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/all_biological_effects.csv",
+      "scope": "All 1488 effect and screen rows;1047 finite probabilities",
+      "data_rows": 1488,
+      "columns": 45,
+      "sha256": "fff0217b2ae3b2f9cf259d2d5395be21f652c6052d09c169250d17fe1eeeb63c"
+    },
+    {
+      "number": 45,
+      "file": "Supplementary_Data_45_expanded_animal_omissions.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/all_animal_omissions.csv",
+      "scope": "All animal omission effects including failures",
+      "data_rows": 22113,
+      "columns": 37,
+      "sha256": "6f88d562292e171d8e77b1e911ac09301c58ddb4e1ff02e930c97653e9561f21"
+    },
+    {
+      "number": 46,
+      "file": "Supplementary_Data_46_expanded_gene_omissions.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/all_gene_omissions.csv",
+      "scope": "All gene omission effects including failures",
+      "data_rows": 11254,
+      "columns": 37,
+      "sha256": "ae85edecdb779919e5d542eb66a9c8eb63321cac46f87d0c42817c855d358e15"
+    },
+    {
+      "number": 47,
+      "file": "Supplementary_Data_47_expanded_design_support.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/design_cell_support.csv",
+      "scope": "All recorded design cells",
+      "data_rows": 341,
+      "columns": 5,
+      "sha256": "aa8a863b9ae2044df2bc0cac14422e080f718d7d4b406e5921e324fb591fc67e"
+    },
+    {
+      "number": 48,
+      "file": "Supplementary_Data_48_expanded_endpoint_availability.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/endpoint_availability.csv",
+      "scope": "All panel and marker gene availability",
+      "data_rows": 176,
+      "columns": 7,
+      "sha256": "40375fada09250b79dea49447c63f3b87e2990439f7422f0ae62fd95fe30df40"
+    },
+    {
+      "number": 49,
+      "file": "Supplementary_Data_49_expanded_direction_screen.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/harmonized_panel_direction_screen.csv",
+      "scope": "All common-gene direction screens",
+      "data_rows": 24,
+      "columns": 45,
+      "sha256": "88a3b776771fceb038573e4820727dc52de7b8ea075a70c69e1d3f2ce464091c"
+    },
+    {
+      "number": 50,
+      "file": "Supplementary_Data_50_expanded_context_differences.csv",
+      "original_analysis_path": "extensions/strengthening_20261015/biological_validation/all_cross_context_effect_differences.csv",
+      "scope": "All cross-context differences",
+      "data_rows": 80,
+      "columns": 10,
+      "sha256": "88f4b4dd4120fb077155db94470bebcdbbc4223b87eb859239ec38ea26af31d9"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "file": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_revision_2026/extensions/literature_novelty/cache/dachet_fulltext.xml",
+    "sha256": "23d5df551f5bed8792bde2d822ef2b5784faa9d0a23454fd8b3ca0aa03923e62",
+    "doi": "10.1038/s41598-021-85801-6",
+    "title": "Selective time-dependent changes in activity and cell-specific gene expression in human postmortem brain",
+    "abstract": [
+      "As a means to understand human neuropsychiatric disorders from human brain samples, we compared the transcription patterns and histological features of postmortem brain to fresh human neocortex isolated immediately following surgical removal. Compared to a number of neuropsychiatric disease-associated postmortem transcriptomes, the fresh human brain transcriptome had an entirely unique transcriptional pattern. To understand this difference, we measured genome-wide transcription as a function of time after fresh tissue removal to mimic the postmortem interval. Within a few hours, a selective reduction in the number of neuronal activity-dependent transcripts occurred with relative preservation of housekeeping genes commonly used as a reference for RNA normalization. Gene clustering indicated a rapid reduction in neuronal gene expression with a reciprocal time-dependent increase in astroglial and microglial gene expression that continued to increase for at least 24\u00a0h after tissue resection. Predicted transcriptional changes were confirmed histologically on the same tissue demonstrating that while neurons were degenerating, glial cells underwent an outgrowth of their processes. The rapid loss of neuronal genes and reciprocal expression of glial genes highlights highly dynamic transcriptional and cellular changes that occur during the postmortem interval. Understanding these time-dependent changes in gene expression in post mortem brain samples is critical for the interpretation of research studies on human brain disorders."
+    ]
+  },
+  {
+    "file": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_revision_2026/extensions/literature_novelty/cache/marsh_fulltext.xml",
+    "sha256": "3f3fccf9bc0e462c2376f75b855a4aa584313c491387ea59539f7d8b4b6cb542",
+    "doi": "10.1038/s41593-022-01022-8",
+    "title": "Dissection of artifactual and confounding glial signatures by single-cell sequencing of mouse and human brain",
+    "abstract": [
+      "A key aspect of nearly all single-cell sequencing experiments is dissociation of intact tissues into single-cell suspensions. While many protocols have been optimized for optimal cell yield, they have often overlooked the effects that dissociation can have on ex vivo gene expression. Here, we demonstrate that use of enzymatic dissociation on brain tissue induces an aberrant ex vivo gene expression signature, most prominently in microglia, which is prevalent in published literature and can substantially confound downstream analyses. To address this issue, we present a rigorously validated protocol that preserves both in vivo transcriptional profiles and cell-type diversity and yield across tissue types and species. We also identify a similar signature in postmortem human brain single-nucleus RNA-sequencing datasets, and show that this signature is induced in freshly isolated human tissue by exposure to elevated temperatures ex vivo. Together, our results provide a methodological solution for preventing artifactual gene expression changes during fresh tissue digestion and a reference for future deeper analysis of the potential confounding states present in postmortem human samples.",
+      "Marsh et al. demonstrate that enzymatic dissociation induces an aberrant ex vivo gene expression signature, most prominently in microglia, which when not addressed can substantially confound downstream analyses. They also identify a similar signature in postmortem human brain in snRNA-seq."
+    ]
+  },
+  {
+    "file": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_revision_2026/extensions/literature_novelty/cache/collection_fulltext.xml",
+    "sha256": "b733e0d91dbb410d423388167f143da0989651581ad6d19924ab5d88c5b13b9b",
+    "doi": "10.1016/j.crmeth.2022.100325",
+    "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight",
+    "abstract": [
+      "Summary Single-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) have experienced rapid development in recent years. The findings of spaceflight-based scRNA-seq and SRT investigations are likely to improve our understanding of life in space and our comprehension of gene expression in various cell systems and tissue dynamics. However, compared to their Earth-based counterparts, gene expression experiments conducted in spaceflight have not experienced the same pace of development. Out of the hundreds of spaceflight gene expression datasets available, only a few used scRNA-seq and SRT. In this perspective piece, we explore the growing importance of scRNA-seq and SRT in space biology and discuss the challenges and considerations relevant to robust experimental design to enable growth of these methods in the field.",
+      "In this perspective, Overbey et\u00a0al. summarize the current datasets available that have profiled mammalian spaceflight samples using single-cell RNA sequencing and spatially resolved transcriptomics. They also discuss special considerations needed for tissue preservation and data analysis for these sample types."
+    ]
+  },
+  {
+    "file": "/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/research/paper1_revision_2026/extensions/literature_novelty/cache/nygaard_fulltext.xml",
+    "sha256": "3f91106f08a59ca297d4a54eff9eda9e4db87ed1a02f663a55c41d6a5c70fca6",
+    "doi": "10.1093/biostatistics/kxv027",
+    "title": "Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses",
+    "abstract": [
+      "Abstract Removal of, or adjustment for, batch effects or center differences is generally required when such effects are present in data. In particular, when preparing microarray gene expression data from multiple cohorts, array platforms, or batches for later analyses, batch effects can have confounding effects, inducing spurious differences between study groups. Many methods and tools exist for removing batch effects from data. However, when study groups are not evenly distributed across batches, actual group differences may induce apparent batch differences, in which case batch adjustments may bias, usually deflate, group differences. Some tools therefore have the option of preserving the difference between study groups, e.g. using a two-way ANOVA model to simultaneously estimate both group and batch effects. Unfortunately, this approach may systematically induce incorrect group differences in downstream analyses when groups are distributed between the batches in an unbalanced manner. The scientific community seems to be largely unaware of how this approach may lead to false discoveries."
+    ]
+  }
+]

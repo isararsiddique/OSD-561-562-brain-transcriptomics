@@ -1,0 +1,2707 @@
+{
+ "built_utc": "2026-10-15T04:34:12+00:00",
+ "source_sha256": {
+  "Marsh2022_SupplTable4_MOESM6.xlsx": "5a2d804198aebfa50a6c51ee7a12802b574a70e152183ed57c5d8477e4e48305",
+  "Marsh2022_SupplTable21_MOESM23.xlsx": "a7f73161246dd6ed3bf1be8bbefd86d5f52ea70abe342902b116389dd3434b92",
+  "Hrvatin2018_SupplTable3_MOESM5.xlsx": "e6dffd83adc28590949d650fa4c5d6fcb7064532038d7ace7a2a55053f5d8764",
+  "Wu2017_TableS3_mmc4.xlsx": "16e3a751659bb7ba0060e767e4d88b52a8f925e8dafacf51931bbde2699e43a4"
+ },
+ "vandenBrink2017_SI_pdf_sha256": "8e5f2445913b8db0f1d1e93aec7bf1e5e9a89d7b8168648aaa1ee0320e700a00",
+ "signatures": {
+  "S1_Hrvatin2018_ERG_up": {
+   "genes": [
+    {
+     "symbol": "Arc",
+     "ensembl": "ENSMUSG00000022602"
+    },
+    {
+     "symbol": "Arl4d",
+     "ensembl": "ENSMUSG00000034936"
+    },
+    {
+     "symbol": "Arl5b",
+     "ensembl": "ENSMUSG00000017418"
+    },
+    {
+     "symbol": "Cdc42ep3",
+     "ensembl": "ENSMUSG00000036533"
+    },
+    {
+     "symbol": "Cdkn1a",
+     "ensembl": "ENSMUSG00000023067"
+    },
+    {
+     "symbol": "Cited2",
+     "ensembl": "ENSMUSG00000039910"
+    },
+    {
+     "symbol": "Crem",
+     "ensembl": "ENSMUSG00000063889"
+    },
+    {
+     "symbol": "Dnajb1",
+     "ensembl": "c(\"ENSMUSG00000005483\", \"ENSMUSG00000074212\")"
+    },
+    {
+     "symbol": "Dnajb5",
+     "ensembl": "ENSMUSG00000036052"
+    },
+    {
+     "symbol": "Dusp1",
+     "ensembl": "c(\"ENSMUSG00000018648\", \"ENSMUSG00000024190\")"
+    },
+    {
+     "symbol": "Dusp14",
+     "ensembl": "ENSMUSG00000018648"
+    },
+    {
+     "symbol": "Dusp6",
+     "ensembl": "ENSMUSG00000019960"
+    },
+    {
+     "symbol": "Egr1",
+     "ensembl": "ENSMUSG00000038418"
+    },
+    {
+     "symbol": "Egr2",
+     "ensembl": "ENSMUSG00000037868"
+    },
+    {
+     "symbol": "Egr4",
+     "ensembl": "ENSMUSG00000071341"
+    },
+    {
+     "symbol": "Fbxo33",
+     "ensembl": "ENSMUSG00000035329"
+    },
+    {
+     "symbol": "Fos",
+     "ensembl": "c(\"ENSMUSG00000021250\", \"ENSMUSG00000003545\", \"ENSMUSG00000029135\")"
+    },
+    {
+     "symbol": "Fosb",
+     "ensembl": "ENSMUSG00000003545"
+    },
+    {
+     "symbol": "Fosl2",
+     "ensembl": "ENSMUSG00000029135"
+    },
+    {
+     "symbol": "Frmd6",
+     "ensembl": "ENSMUSG00000048285"
+    },
+    {
+     "symbol": "Gadd45b",
+     "ensembl": "ENSMUSG00000015312"
+    },
+    {
+     "symbol": "Gadd45g",
+     "ensembl": "ENSMUSG00000021453"
+    },
+    {
+     "symbol": "Gm13889",
+     "ensembl": "ENSMUSG00000087006"
+    },
+    {
+     "symbol": "Grasp",
+     "ensembl": "ENSMUSG00000000531"
+    },
+    {
+     "symbol": "Homer1",
+     "ensembl": "ENSMUSG00000007617"
+    },
+    {
+     "symbol": "Ifrd1",
+     "ensembl": "ENSMUSG00000001627"
+    },
+    {
+     "symbol": "Irs2",
+     "ensembl": "ENSMUSG00000038894"
+    },
+    {
+     "symbol": "Junb",
+     "ensembl": "ENSMUSG00000052837"
+    },
+    {
+     "symbol": "Kdm7a",
+     "ensembl": "ENSMUSG00000042599"
+    },
+    {
+     "symbol": "Mest",
+     "ensembl": "ENSMUSG00000051855"
+    },
+    {
+     "symbol": "Midn",
+     "ensembl": "ENSMUSG00000035621"
+    },
+    {
+     "symbol": "Npas4",
+     "ensembl": "ENSMUSG00000045903"
+    },
+    {
+     "symbol": "Nr4a1",
+     "ensembl": "ENSMUSG00000023034"
+    },
+    {
+     "symbol": "Nr4a2",
+     "ensembl": "ENSMUSG00000026826"
+    },
+    {
+     "symbol": "Nr4a3",
+     "ensembl": "ENSMUSG00000028341"
+    },
+    {
+     "symbol": "Per1",
+     "ensembl": "ENSMUSG00000020893"
+    },
+    {
+     "symbol": "Phf21b",
+     "ensembl": "ENSMUSG00000016624"
+    },
+    {
+     "symbol": "Phlda1",
+     "ensembl": "ENSMUSG00000020205"
+    },
+    {
+     "symbol": "Pim1",
+     "ensembl": "ENSMUSG00000024014"
+    },
+    {
+     "symbol": "Pim3",
+     "ensembl": "ENSMUSG00000035828"
+    },
+    {
+     "symbol": "Ptgs2",
+     "ensembl": "ENSMUSG00000032487"
+    },
+    {
+     "symbol": "Sat1",
+     "ensembl": "ENSMUSG00000025283"
+    },
+    {
+     "symbol": "Scg2",
+     "ensembl": "ENSMUSG00000050711"
+    },
+    {
+     "symbol": "Spry2",
+     "ensembl": "ENSMUSG00000022114"
+    },
+    {
+     "symbol": "Stk40",
+     "ensembl": "ENSMUSG00000042608"
+    },
+    {
+     "symbol": "Tfrc",
+     "ensembl": "ENSMUSG00000022797"
+    },
+    {
+     "symbol": "Tiparp",
+     "ensembl": "ENSMUSG00000034640"
+    },
+    {
+     "symbol": "Tnfaip6",
+     "ensembl": "ENSMUSG00000053475"
+    },
+    {
+     "symbol": "Zdbf2",
+     "ensembl": "ENSMUSG00000027520"
+    },
+    {
+     "symbol": "Camk1g",
+     "ensembl": "ENSMUSG00000016179"
+    },
+    {
+     "symbol": "Gfod1",
+     "ensembl": "ENSMUSG00000051335"
+    },
+    {
+     "symbol": "Klf10",
+     "ensembl": "ENSMUSG00000037465"
+    },
+    {
+     "symbol": "Sertad1",
+     "ensembl": "ENSMUSG00000008384"
+    },
+    {
+     "symbol": "Bhlhe40",
+     "ensembl": "ENSMUSG00000030103"
+    },
+    {
+     "symbol": "Nab2",
+     "ensembl": "ENSMUSG00000025402"
+    },
+    {
+     "symbol": "Chuk",
+     "ensembl": "ENSMUSG00000025199"
+    },
+    {
+     "symbol": "Cyp51",
+     "ensembl": "ENSMUSG00000001467"
+    },
+    {
+     "symbol": "Lrrk2",
+     "ensembl": "ENSMUSG00000036273"
+    },
+    {
+     "symbol": "P4ha1",
+     "ensembl": "ENSMUSG00000019916"
+    },
+    {
+     "symbol": "Snhg3",
+     "ensembl": "ENSMUSG00000085241"
+    },
+    {
+     "symbol": "Trib1",
+     "ensembl": "ENSMUSG00000032501"
+    },
+    {
+     "symbol": "Adrb1",
+     "ensembl": "ENSMUSG00000035283"
+    },
+    {
+     "symbol": "Hivep3",
+     "ensembl": "ENSMUSG00000028634"
+    },
+    {
+     "symbol": "Sgk1",
+     "ensembl": "ENSMUSG00000019970"
+    },
+    {
+     "symbol": "Ankrd33b",
+     "ensembl": "ENSMUSG00000022237"
+    },
+    {
+     "symbol": "Gadd45a",
+     "ensembl": "ENSMUSG00000036390"
+    },
+    {
+     "symbol": "Htatsf1",
+     "ensembl": "ENSMUSG00000067873"
+    },
+    {
+     "symbol": "Ube2g1",
+     "ensembl": "ENSMUSG00000020794"
+    },
+    {
+     "symbol": "Crh",
+     "ensembl": "c(\"ENSMUSG00000049796\", \"ENSMUSG00000021680\")"
+    },
+    {
+     "symbol": "Gpd1",
+     "ensembl": "ENSMUSG00000023019"
+    },
+    {
+     "symbol": "Gtf3c1",
+     "ensembl": "ENSMUSG00000032777"
+    },
+    {
+     "symbol": "Kras",
+     "ensembl": "ENSMUSG00000030265"
+    },
+    {
+     "symbol": "Socs2",
+     "ensembl": "ENSMUSG00000020027"
+    },
+    {
+     "symbol": "Cenpb",
+     "ensembl": "ENSMUSG00000068267"
+    },
+    {
+     "symbol": "Gm28578",
+     "ensembl": "ENSMUSG00000100417"
+    },
+    {
+     "symbol": "Nrd1",
+     "ensembl": "ENSMUSG00000053510"
+    },
+    {
+     "symbol": "Plp1",
+     "ensembl": "ENSMUSG00000031425"
+    },
+    {
+     "symbol": "Prrc2a",
+     "ensembl": "ENSMUSG00000024393"
+    },
+    {
+     "symbol": "1190002N15Rik",
+     "ensembl": "ENSMUSG00000045414"
+    },
+    {
+     "symbol": "Acsl4",
+     "ensembl": "ENSMUSG00000031278"
+    },
+    {
+     "symbol": "Ccnt1",
+     "ensembl": "ENSMUSG00000011960"
+    },
+    {
+     "symbol": "Cpne8",
+     "ensembl": "ENSMUSG00000052560"
+    },
+    {
+     "symbol": "Fam150b",
+     "ensembl": "ENSMUSG00000054204"
+    },
+    {
+     "symbol": "Fam46a",
+     "ensembl": "ENSMUSG00000032265"
+    },
+    {
+     "symbol": "Glul",
+     "ensembl": "ENSMUSG00000026473"
+    },
+    {
+     "symbol": "Gpt2",
+     "ensembl": "ENSMUSG00000031700"
+    },
+    {
+     "symbol": "Kctd12",
+     "ensembl": "ENSMUSG00000098557"
+    },
+    {
+     "symbol": "Noct",
+     "ensembl": "ENSMUSG00000023087"
+    },
+    {
+     "symbol": "Ntrk3",
+     "ensembl": "ENSMUSG00000059146"
+    },
+    {
+     "symbol": "Paqr8",
+     "ensembl": "ENSMUSG00000025931"
+    },
+    {
+     "symbol": "Pcnp",
+     "ensembl": "ENSMUSG00000071533"
+    },
+    {
+     "symbol": "Prickle2",
+     "ensembl": "ENSMUSG00000030020"
+    },
+    {
+     "symbol": "Tcof1",
+     "ensembl": "ENSMUSG00000024613"
+    },
+    {
+     "symbol": "Wbp5",
+     "ensembl": "ENSMUSG00000042712"
+    },
+    {
+     "symbol": "Alcam",
+     "ensembl": "ENSMUSG00000022636"
+    },
+    {
+     "symbol": "Cpeb1",
+     "ensembl": "ENSMUSG00000025586"
+    },
+    {
+     "symbol": "Syt4",
+     "ensembl": "ENSMUSG00000024261"
+    },
+    {
+     "symbol": "Timp2",
+     "ensembl": "ENSMUSG00000017466"
+    },
+    {
+     "symbol": "Ubfd1",
+     "ensembl": "ENSMUSG00000030870"
+    },
+    {
+     "symbol": "Ctsb",
+     "ensembl": "ENSMUSG00000021939"
+    },
+    {
+     "symbol": "Elavl4",
+     "ensembl": "ENSMUSG00000028546"
+    },
+    {
+     "symbol": "Snx19",
+     "ensembl": "ENSMUSG00000031993"
+    },
+    {
+     "symbol": "Usp1",
+     "ensembl": "ENSMUSG00000028560"
+    },
+    {
+     "symbol": "Arrdc3",
+     "ensembl": "ENSMUSG00000074794"
+    },
+    {
+     "symbol": "Hspa1b",
+     "ensembl": "ENSMUSG00000090877"
+    },
+    {
+     "symbol": "Hspa5",
+     "ensembl": "ENSMUSG00000026864"
+    },
+    {
+     "symbol": "Hspa1a",
+     "ensembl": "ENSMUSG00000091971"
+    },
+    {
+     "symbol": "Mt2",
+     "ensembl": "ENSMUSG00000031762"
+    },
+    {
+     "symbol": "Ppfia1",
+     "ensembl": "ENSMUSG00000037519"
+    },
+    {
+     "symbol": "Cdr2",
+     "ensembl": "ENSMUSG00000030878"
+    },
+    {
+     "symbol": "Pex11b",
+     "ensembl": "ENSMUSG00000028102"
+    },
+    {
+     "symbol": "Ssfa2",
+     "ensembl": "ENSMUSG00000027007"
+    },
+    {
+     "symbol": "Avl9",
+     "ensembl": "ENSMUSG00000029787"
+    },
+    {
+     "symbol": "Hsph1",
+     "ensembl": "ENSMUSG00000029657"
+    },
+    {
+     "symbol": "Slc1a2",
+     "ensembl": "ENSMUSG00000005089"
+    },
+    {
+     "symbol": "Pou3f1",
+     "ensembl": "ENSMUSG00000090125"
+    },
+    {
+     "symbol": "Bambi",
+     "ensembl": "ENSMUSG00000024232"
+    },
+    {
+     "symbol": "Ccnl1",
+     "ensembl": "ENSMUSG00000027829"
+    },
+    {
+     "symbol": "Cebpb",
+     "ensembl": "ENSMUSG00000056501"
+    },
+    {
+     "symbol": "Coq10b",
+     "ensembl": "ENSMUSG00000025981"
+    },
+    {
+     "symbol": "Cyr61",
+     "ensembl": "ENSMUSG00000028195"
+    },
+    {
+     "symbol": "Dclk1",
+     "ensembl": "ENSMUSG00000027797"
+    },
+    {
+     "symbol": "Dio2",
+     "ensembl": "ENSMUSG00000007682"
+    },
+    {
+     "symbol": "Emd",
+     "ensembl": "ENSMUSG00000001964"
+    },
+    {
+     "symbol": "Gem",
+     "ensembl": "ENSMUSG00000028214"
+    },
+    {
+     "symbol": "Klf4",
+     "ensembl": "ENSMUSG00000003032"
+    },
+    {
+     "symbol": "Rgs2",
+     "ensembl": "ENSMUSG00000026360"
+    },
+    {
+     "symbol": "Tsc22d3",
+     "ensembl": "ENSMUSG00000031431"
+    },
+    {
+     "symbol": "Usp2",
+     "ensembl": "ENSMUSG00000032010"
+    },
+    {
+     "symbol": "Usp53",
+     "ensembl": "ENSMUSG00000039701"
+    },
+    {
+     "symbol": "Wdr31",
+     "ensembl": "ENSMUSG00000028391"
+    },
+    {
+     "symbol": "1810011O10Rik",
+     "ensembl": "ENSMUSG00000056313"
+    },
+    {
+     "symbol": "Acta1",
+     "ensembl": "ENSMUSG00000031972"
+    },
+    {
+     "symbol": "Actb",
+     "ensembl": "ENSMUSG00000029580"
+    },
+    {
+     "symbol": "Actg1",
+     "ensembl": "ENSMUSG00000062825"
+    },
+    {
+     "symbol": "Adamts1",
+     "ensembl": "c(\"ENSMUSG00000024299\", \"ENSMUSG00000014852\", \"ENSMUSG00000022893\")"
+    },
+    {
+     "symbol": "Akap12",
+     "ensembl": "ENSMUSG00000038587"
+    },
+    {
+     "symbol": "Apold1",
+     "ensembl": "ENSMUSG00000090698"
+    },
+    {
+     "symbol": "Atf3",
+     "ensembl": "ENSMUSG00000026628"
+    },
+    {
+     "symbol": "Atf4",
+     "ensembl": "ENSMUSG00000042406"
+    },
+    {
+     "symbol": "Azin1",
+     "ensembl": "ENSMUSG00000037458"
+    },
+    {
+     "symbol": "Bcl6b",
+     "ensembl": "ENSMUSG00000000317"
+    },
+    {
+     "symbol": "Clic4",
+     "ensembl": "ENSMUSG00000037242"
+    },
+    {
+     "symbol": "Cnn2",
+     "ensembl": "ENSMUSG00000004665"
+    },
+    {
+     "symbol": "Csrnp1",
+     "ensembl": "ENSMUSG00000032515"
+    },
+    {
+     "symbol": "Ctgf",
+     "ensembl": "ENSMUSG00000019997"
+    },
+    {
+     "symbol": "Dlc1",
+     "ensembl": "ENSMUSG00000031523"
+    },
+    {
+     "symbol": "Dnaja1",
+     "ensembl": "ENSMUSG00000028410"
+    },
+    {
+     "symbol": "Dusp8",
+     "ensembl": "ENSMUSG00000037887"
+    },
+    {
+     "symbol": "Epha2",
+     "ensembl": "ENSMUSG00000006445"
+    },
+    {
+     "symbol": "Fermt2",
+     "ensembl": "ENSMUSG00000037712"
+    },
+    {
+     "symbol": "Gpx1",
+     "ensembl": "ENSMUSG00000063856"
+    },
+    {
+     "symbol": "Hsp90aa1",
+     "ensembl": "ENSMUSG00000021270"
+    },
+    {
+     "symbol": "Hsp90ab1",
+     "ensembl": "ENSMUSG00000023944"
+    },
+    {
+     "symbol": "Hspa8",
+     "ensembl": "ENSMUSG00000015656"
+    },
+    {
+     "symbol": "Hspb1",
+     "ensembl": "ENSMUSG00000004951"
+    },
+    {
+     "symbol": "Ism1",
+     "ensembl": "ENSMUSG00000074766"
+    },
+    {
+     "symbol": "Jund",
+     "ensembl": "ENSMUSG00000071076"
+    },
+    {
+     "symbol": "Klf2",
+     "ensembl": "ENSMUSG00000055148"
+    },
+    {
+     "symbol": "Maff",
+     "ensembl": "ENSMUSG00000042622"
+    },
+    {
+     "symbol": "Mafk",
+     "ensembl": "ENSMUSG00000018143"
+    },
+    {
+     "symbol": "Myadm",
+     "ensembl": "c(\"ENSMUSG00000068566\", \"ENSMUSG00000097829\")"
+    },
+    {
+     "symbol": "Nes",
+     "ensembl": "ENSMUSG00000004891"
+    },
+    {
+     "symbol": "Picalm",
+     "ensembl": "ENSMUSG00000039361"
+    },
+    {
+     "symbol": "Plaur",
+     "ensembl": "ENSMUSG00000046223"
+    },
+    {
+     "symbol": "Ptpn12",
+     "ensembl": "ENSMUSG00000028771"
+    },
+    {
+     "symbol": "Rassf1",
+     "ensembl": "ENSMUSG00000010067"
+    },
+    {
+     "symbol": "Serpinh1",
+     "ensembl": "ENSMUSG00000070436"
+    },
+    {
+     "symbol": "Skil",
+     "ensembl": "ENSMUSG00000027660"
+    },
+    {
+     "symbol": "Srf",
+     "ensembl": "ENSMUSG00000015605"
+    },
+    {
+     "symbol": "Swap70",
+     "ensembl": "ENSMUSG00000031015"
+    },
+    {
+     "symbol": "Timp3",
+     "ensembl": "ENSMUSG00000020044"
+    },
+    {
+     "symbol": "Tnfrsf12a",
+     "ensembl": "ENSMUSG00000023905"
+    },
+    {
+     "symbol": "Tpm4",
+     "ensembl": "ENSMUSG00000031799"
+    },
+    {
+     "symbol": "Tuba1c",
+     "ensembl": "ENSMUSG00000043091"
+    },
+    {
+     "symbol": "Vasp",
+     "ensembl": "ENSMUSG00000030403"
+    },
+    {
+     "symbol": "Vcl",
+     "ensembl": "ENSMUSG00000021823"
+    },
+    {
+     "symbol": "Wdr1",
+     "ensembl": "ENSMUSG00000005103"
+    },
+    {
+     "symbol": "Zyx",
+     "ensembl": "ENSMUSG00000029860"
+    },
+    {
+     "symbol": "Mal",
+     "ensembl": "c(\"ENSMUSG00000027375\", \"ENSMUSG00000027377\")"
+    },
+    {
+     "symbol": "Mbp",
+     "ensembl": "ENSMUSG00000041607"
+    },
+    {
+     "symbol": "Myl12a",
+     "ensembl": "ENSMUSG00000024048"
+    },
+    {
+     "symbol": "Nedd9",
+     "ensembl": "ENSMUSG00000021365"
+    },
+    {
+     "symbol": "Pak1ip1",
+     "ensembl": "ENSMUSG00000038683"
+    },
+    {
+     "symbol": "Zfp36",
+     "ensembl": "ENSMUSG00000044786"
+    },
+    {
+     "symbol": "Bcl2l2",
+     "ensembl": "ENSMUSG00000089682"
+    },
+    {
+     "symbol": "Cflar",
+     "ensembl": "ENSMUSG00000026031"
+    },
+    {
+     "symbol": "Chordc1",
+     "ensembl": "ENSMUSG00000001774"
+    },
+    {
+     "symbol": "Clu",
+     "ensembl": "ENSMUSG00000022037"
+    },
+    {
+     "symbol": "Crispld2",
+     "ensembl": "ENSMUSG00000031825"
+    },
+    {
+     "symbol": "Cttnbp2nl",
+     "ensembl": "ENSMUSG00000062127"
+    },
+    {
+     "symbol": "Hopx",
+     "ensembl": "ENSMUSG00000059325"
+    },
+    {
+     "symbol": "Igfbp2",
+     "ensembl": "ENSMUSG00000039323"
+    },
+    {
+     "symbol": "Ing3",
+     "ensembl": "ENSMUSG00000029670"
+    },
+    {
+     "symbol": "Klf6",
+     "ensembl": "ENSMUSG00000000078"
+    },
+    {
+     "symbol": "Lin52",
+     "ensembl": "c(\"ENSMUSG00000085793\", \"ENSMUSG00000085793\")"
+    },
+    {
+     "symbol": "Litaf",
+     "ensembl": "ENSMUSG00000022500"
+    },
+    {
+     "symbol": "Lpar1",
+     "ensembl": "ENSMUSG00000038668"
+    },
+    {
+     "symbol": "Lrrfip1",
+     "ensembl": "ENSMUSG00000026305"
+    },
+    {
+     "symbol": "Manba",
+     "ensembl": "ENSMUSG00000028164"
+    },
+    {
+     "symbol": "Pdlim5",
+     "ensembl": "ENSMUSG00000028273"
+    },
+    {
+     "symbol": "Plxna2",
+     "ensembl": "ENSMUSG00000026640"
+    },
+    {
+     "symbol": "Pxdc1",
+     "ensembl": "ENSMUSG00000021411"
+    },
+    {
+     "symbol": "Rbm18",
+     "ensembl": "ENSMUSG00000026889"
+    },
+    {
+     "symbol": "Rnd1",
+     "ensembl": "ENSMUSG00000054855"
+    },
+    {
+     "symbol": "Slc1a3",
+     "ensembl": "ENSMUSG00000005360"
+    },
+    {
+     "symbol": "Slc20a1",
+     "ensembl": "ENSMUSG00000027397"
+    },
+    {
+     "symbol": "Slc25a25",
+     "ensembl": "ENSMUSG00000026819"
+    },
+    {
+     "symbol": "Snx18",
+     "ensembl": "ENSMUSG00000042364"
+    },
+    {
+     "symbol": "Stc1",
+     "ensembl": "ENSMUSG00000014813"
+    },
+    {
+     "symbol": "Thsd4",
+     "ensembl": "ENSMUSG00000032289"
+    },
+    {
+     "symbol": "Tmem252",
+     "ensembl": "ENSMUSG00000048572"
+    },
+    {
+     "symbol": "Ubald1",
+     "ensembl": "ENSMUSG00000039568"
+    },
+    {
+     "symbol": "Cacul1",
+     "ensembl": "ENSMUSG00000033417"
+    },
+    {
+     "symbol": "Cacybp",
+     "ensembl": "ENSMUSG00000014226"
+    },
+    {
+     "symbol": "Ccnd2",
+     "ensembl": "ENSMUSG00000000184"
+    },
+    {
+     "symbol": "Crk",
+     "ensembl": "ENSMUSG00000017776"
+    },
+    {
+     "symbol": "Fam107a",
+     "ensembl": "ENSMUSG00000021750"
+    },
+    {
+     "symbol": "Irf2bp2",
+     "ensembl": "ENSMUSG00000051495"
+    },
+    {
+     "symbol": "Kcne4",
+     "ensembl": "ENSMUSG00000047330"
+    },
+    {
+     "symbol": "Klf7",
+     "ensembl": "ENSMUSG00000025959"
+    },
+    {
+     "symbol": "Mat2a",
+     "ensembl": "c(\"ENSMUSG00000053907\", \"ENSMUSG00000104463\")"
+    },
+    {
+     "symbol": "Paxip1",
+     "ensembl": "ENSMUSG00000002221"
+    },
+    {
+     "symbol": "Phactr4",
+     "ensembl": "ENSMUSG00000066043"
+    },
+    {
+     "symbol": "Rbm7",
+     "ensembl": "ENSMUSG00000042396"
+    },
+    {
+     "symbol": "Rgcc",
+     "ensembl": "ENSMUSG00000022018"
+    },
+    {
+     "symbol": "S1pr1",
+     "ensembl": "ENSMUSG00000045092"
+    },
+    {
+     "symbol": "Sema3g",
+     "ensembl": "ENSMUSG00000021904"
+    },
+    {
+     "symbol": "Sfpq",
+     "ensembl": "ENSMUSG00000028820"
+    },
+    {
+     "symbol": "Smtn",
+     "ensembl": "ENSMUSG00000020439"
+    },
+    {
+     "symbol": "Trim16",
+     "ensembl": "ENSMUSG00000047821"
+    },
+    {
+     "symbol": "Zfp644",
+     "ensembl": "ENSMUSG00000049606"
+    },
+    {
+     "symbol": "Ssb",
+     "ensembl": "ENSMUSG00000068882"
+    },
+    {
+     "symbol": "Agfg1",
+     "ensembl": "ENSMUSG00000026159"
+    },
+    {
+     "symbol": "Btg2",
+     "ensembl": "ENSMUSG00000020423"
+    },
+    {
+     "symbol": "C5ar1",
+     "ensembl": "ENSMUSG00000049130"
+    },
+    {
+     "symbol": "Ccdc117",
+     "ensembl": "ENSMUSG00000020482"
+    },
+    {
+     "symbol": "Ccl2",
+     "ensembl": "ENSMUSG00000035385"
+    },
+    {
+     "symbol": "Ccl7",
+     "ensembl": "ENSMUSG00000035373"
+    },
+    {
+     "symbol": "Ets2",
+     "ensembl": "ENSMUSG00000022895"
+    },
+    {
+     "symbol": "Fech",
+     "ensembl": "ENSMUSG00000024588"
+    },
+    {
+     "symbol": "Fkbp4",
+     "ensembl": "ENSMUSG00000030357"
+    },
+    {
+     "symbol": "Fkbp5",
+     "ensembl": "ENSMUSG00000024222"
+    },
+    {
+     "symbol": "Fxr1",
+     "ensembl": "ENSMUSG00000027680"
+    },
+    {
+     "symbol": "Got1",
+     "ensembl": "ENSMUSG00000025190"
+    },
+    {
+     "symbol": "Id2",
+     "ensembl": "ENSMUSG00000020644"
+    },
+    {
+     "symbol": "Jdp2",
+     "ensembl": "ENSMUSG00000034271"
+    },
+    {
+     "symbol": "Kpna4",
+     "ensembl": "ENSMUSG00000027782"
+    },
+    {
+     "symbol": "Lyve1",
+     "ensembl": "ENSMUSG00000030787"
+    },
+    {
+     "symbol": "Magoh",
+     "ensembl": "ENSMUSG00000028609"
+    },
+    {
+     "symbol": "Marcksl1",
+     "ensembl": "ENSMUSG00000047945"
+    },
+    {
+     "symbol": "Mob4",
+     "ensembl": "ENSMUSG00000025979"
+    },
+    {
+     "symbol": "Sdccag3",
+     "ensembl": "ENSMUSG00000026927"
+    },
+    {
+     "symbol": "Selk",
+     "ensembl": "ENSMUSG00000042682"
+    },
+    {
+     "symbol": "Slc15a3",
+     "ensembl": "ENSMUSG00000024737"
+    },
+    {
+     "symbol": "Snap23",
+     "ensembl": "ENSMUSG00000027287"
+    },
+    {
+     "symbol": "Srp54b",
+     "ensembl": "c(\"ENSMUSG00000079108\", \"ENSMUSG00000079108\")"
+    },
+    {
+     "symbol": "Tbc1d10a",
+     "ensembl": "ENSMUSG00000034412"
+    },
+    {
+     "symbol": "Trim44",
+     "ensembl": "ENSMUSG00000027189"
+    },
+    {
+     "symbol": "Vcam1",
+     "ensembl": "ENSMUSG00000027962"
+    },
+    {
+     "symbol": "Ywhah",
+     "ensembl": "ENSMUSG00000018965"
+    },
+    {
+     "symbol": "Zfp326",
+     "ensembl": "ENSMUSG00000029290"
+    },
+    {
+     "symbol": "Bpnt1",
+     "ensembl": "ENSMUSG00000026617"
+    },
+    {
+     "symbol": "Cldn11",
+     "ensembl": "ENSMUSG00000037625"
+    },
+    {
+     "symbol": "Fam107b",
+     "ensembl": "ENSMUSG00000026655"
+    },
+    {
+     "symbol": "Odc1",
+     "ensembl": "ENSMUSG00000011179"
+    },
+    {
+     "symbol": "Pde4b",
+     "ensembl": "ENSMUSG00000028525"
+    },
+    {
+     "symbol": "Pvr",
+     "ensembl": "ENSMUSG00000040511"
+    },
+    {
+     "symbol": "Sec24d",
+     "ensembl": "ENSMUSG00000039234"
+    }
+   ],
+   "map_by": "ensembl",
+   "source": "Hrvatin et al. 2018 Nat Neurosci 21:120, Supplementary Table 3: label 'a' (early-response gene, increase; |log2FC|>1, FDR<0.05, 1 h) in >=1 of 30 cell types",
+   "role": "confirmatory"
+  },
+  "S2_Hrvatin2018_LRG_only": {
+   "genes": [
+    {
+     "symbol": "Bdnf",
+     "ensembl": "ENSMUSG00000048482"
+    },
+    {
+     "symbol": "Nefm",
+     "ensembl": "ENSMUSG00000022054"
+    },
+    {
+     "symbol": "Nptx2",
+     "ensembl": "ENSMUSG00000059991"
+    },
+    {
+     "symbol": "R3hdm1",
+     "ensembl": "ENSMUSG00000056211"
+    },
+    {
+     "symbol": "Rheb",
+     "ensembl": "ENSMUSG00000028945"
+    },
+    {
+     "symbol": "Vgf",
+     "ensembl": "ENSMUSG00000037428"
+    },
+    {
+     "symbol": "Cbln4",
+     "ensembl": "ENSMUSG00000067578"
+    },
+    {
+     "symbol": "Ina",
+     "ensembl": "ENSMUSG00000034336"
+    },
+    {
+     "symbol": "Nrn1",
+     "ensembl": "ENSMUSG00000039114"
+    },
+    {
+     "symbol": "Sox2",
+     "ensembl": "ENSMUSG00000074637"
+    },
+    {
+     "symbol": "Mt1",
+     "ensembl": "ENSMUSG00000031765"
+    },
+    {
+     "symbol": "Acad12",
+     "ensembl": "c(\"ENSMUSG00000042647\", \"ENSMUSG00000042647\")"
+    },
+    {
+     "symbol": "Adamts13",
+     "ensembl": "ENSMUSG00000014852"
+    },
+    {
+     "symbol": "Eprs",
+     "ensembl": "ENSMUSG00000026615"
+    },
+    {
+     "symbol": "Ptp4a1",
+     "ensembl": "ENSMUSG00000026064"
+    },
+    {
+     "symbol": "Tinagl1",
+     "ensembl": "ENSMUSG00000028776"
+    },
+    {
+     "symbol": "Ano6",
+     "ensembl": "ENSMUSG00000064210"
+    },
+    {
+     "symbol": "Emp1",
+     "ensembl": "ENSMUSG00000030208"
+    },
+    {
+     "symbol": "Nov",
+     "ensembl": "ENSMUSG00000037362"
+    },
+    {
+     "symbol": "Zc3h7a",
+     "ensembl": "ENSMUSG00000037965"
+    },
+    {
+     "symbol": "D030056L22Rik",
+     "ensembl": "ENSMUSG00000047044"
+    },
+    {
+     "symbol": "Klhl2",
+     "ensembl": "c(\"ENSMUSG00000031605\", \"ENSMUSG00000022750\")"
+    },
+    {
+     "symbol": "Tgfbi",
+     "ensembl": "ENSMUSG00000035493"
+    },
+    {
+     "symbol": "B230216N24Rik",
+     "ensembl": "ENSMUSG00000089706"
+    },
+    {
+     "symbol": "Cbln2",
+     "ensembl": "ENSMUSG00000024647"
+    },
+    {
+     "symbol": "Dot1l",
+     "ensembl": "ENSMUSG00000061589"
+    },
+    {
+     "symbol": "Egln1",
+     "ensembl": "ENSMUSG00000031987"
+    },
+    {
+     "symbol": "Etv5",
+     "ensembl": "ENSMUSG00000013089"
+    },
+    {
+     "symbol": "Fam19a1",
+     "ensembl": "ENSMUSG00000059187"
+    },
+    {
+     "symbol": "Fmnl1",
+     "ensembl": "ENSMUSG00000055805"
+    },
+    {
+     "symbol": "Hsd17b12",
+     "ensembl": "ENSMUSG00000027195"
+    },
+    {
+     "symbol": "Inhba",
+     "ensembl": "ENSMUSG00000041324"
+    },
+    {
+     "symbol": "Mapk4",
+     "ensembl": "ENSMUSG00000024558"
+    },
+    {
+     "symbol": "Nefl",
+     "ensembl": "ENSMUSG00000022055"
+    },
+    {
+     "symbol": "Nhp2l1",
+     "ensembl": "c(\"ENSMUSG00000063480\", \"ENSMUSG00000063480\")"
+    },
+    {
+     "symbol": "Ntrk2",
+     "ensembl": "ENSMUSG00000055254"
+    },
+    {
+     "symbol": "Penk",
+     "ensembl": "ENSMUSG00000045573"
+    },
+    {
+     "symbol": "Ppme1",
+     "ensembl": "ENSMUSG00000030718"
+    },
+    {
+     "symbol": "Sgsm1",
+     "ensembl": "ENSMUSG00000042216"
+    },
+    {
+     "symbol": "Tpt1",
+     "ensembl": "ENSMUSG00000060126"
+    },
+    {
+     "symbol": "Tsnax",
+     "ensembl": "ENSMUSG00000056820"
+    },
+    {
+     "symbol": "Pde10a",
+     "ensembl": "ENSMUSG00000023868"
+    },
+    {
+     "symbol": "Prkg2",
+     "ensembl": "ENSMUSG00000029334"
+    },
+    {
+     "symbol": "Rnd3",
+     "ensembl": "ENSMUSG00000017144"
+    },
+    {
+     "symbol": "Ier5",
+     "ensembl": "ENSMUSG00000056708"
+    },
+    {
+     "symbol": "Atxn1",
+     "ensembl": "ENSMUSG00000046876"
+    },
+    {
+     "symbol": "Iqgap2",
+     "ensembl": "ENSMUSG00000021676"
+    },
+    {
+     "symbol": "Pdlim1",
+     "ensembl": "ENSMUSG00000055044"
+    },
+    {
+     "symbol": "Car12",
+     "ensembl": "ENSMUSG00000032373"
+    },
+    {
+     "symbol": "Mapk6",
+     "ensembl": "ENSMUSG00000042688"
+    },
+    {
+     "symbol": "Nrp1",
+     "ensembl": "ENSMUSG00000025810"
+    },
+    {
+     "symbol": "Rcan2",
+     "ensembl": "ENSMUSG00000039601"
+    },
+    {
+     "symbol": "Tpbg",
+     "ensembl": "ENSMUSG00000035274"
+    },
+    {
+     "symbol": "Eno1",
+     "ensembl": "ENSMUSG00000063524"
+    },
+    {
+     "symbol": "H2-Q4",
+     "ensembl": "ENSMUSG00000035929"
+    },
+    {
+     "symbol": "Igf1",
+     "ensembl": "ENSMUSG00000020053"
+    },
+    {
+     "symbol": "Igfbp5",
+     "ensembl": "ENSMUSG00000026185"
+    },
+    {
+     "symbol": "Pam",
+     "ensembl": "ENSMUSG00000026335"
+    },
+    {
+     "symbol": "Serpine2",
+     "ensembl": "ENSMUSG00000026249"
+    },
+    {
+     "symbol": "Syn2",
+     "ensembl": "ENSMUSG00000009394"
+    },
+    {
+     "symbol": "Isy1",
+     "ensembl": "ENSMUSG00000030056"
+    },
+    {
+     "symbol": "Arih1",
+     "ensembl": "ENSMUSG00000025234"
+    },
+    {
+     "symbol": "Baiap2",
+     "ensembl": "ENSMUSG00000025372"
+    },
+    {
+     "symbol": "Bex1",
+     "ensembl": "ENSMUSG00000050071"
+    },
+    {
+     "symbol": "Cenpa",
+     "ensembl": "ENSMUSG00000029177"
+    },
+    {
+     "symbol": "Crhbp",
+     "ensembl": "ENSMUSG00000021680"
+    },
+    {
+     "symbol": "Eef1e1",
+     "ensembl": "ENSMUSG00000001707"
+    },
+    {
+     "symbol": "Elovl4",
+     "ensembl": "ENSMUSG00000032262"
+    },
+    {
+     "symbol": "Gabra4",
+     "ensembl": "ENSMUSG00000029211"
+    },
+    {
+     "symbol": "Gabrb1",
+     "ensembl": "ENSMUSG00000029212"
+    },
+    {
+     "symbol": "Gars",
+     "ensembl": "ENSMUSG00000029777"
+    },
+    {
+     "symbol": "Gphn",
+     "ensembl": "ENSMUSG00000047454"
+    },
+    {
+     "symbol": "Hcn1",
+     "ensembl": "ENSMUSG00000021730"
+    },
+    {
+     "symbol": "Hunk",
+     "ensembl": "ENSMUSG00000053414"
+    },
+    {
+     "symbol": "Itgav",
+     "ensembl": "ENSMUSG00000027087"
+    },
+    {
+     "symbol": "Mdm2",
+     "ensembl": "ENSMUSG00000020184"
+    },
+    {
+     "symbol": "Npy",
+     "ensembl": "ENSMUSG00000029819"
+    },
+    {
+     "symbol": "Osbpl3",
+     "ensembl": "ENSMUSG00000029822"
+    },
+    {
+     "symbol": "Pcdh17",
+     "ensembl": "ENSMUSG00000035566"
+    },
+    {
+     "symbol": "Rusc1",
+     "ensembl": "ENSMUSG00000041263"
+    },
+    {
+     "symbol": "Sccpdh",
+     "ensembl": "ENSMUSG00000038936"
+    },
+    {
+     "symbol": "Cxcl14",
+     "ensembl": "ENSMUSG00000021508"
+    },
+    {
+     "symbol": "Pou3f3",
+     "ensembl": "ENSMUSG00000045515"
+    },
+    {
+     "symbol": "Chp1",
+     "ensembl": "ENSMUSG00000014077"
+    },
+    {
+     "symbol": "Lgi1",
+     "ensembl": "ENSMUSG00000067242"
+    },
+    {
+     "symbol": "Llph",
+     "ensembl": "ENSMUSG00000020224"
+    },
+    {
+     "symbol": "Ngef",
+     "ensembl": "ENSMUSG00000026259"
+    },
+    {
+     "symbol": "Plppr4",
+     "ensembl": "ENSMUSG00000044667"
+    },
+    {
+     "symbol": "Sept6",
+     "ensembl": "ENSMUSG00000050379"
+    },
+    {
+     "symbol": "Nkain3",
+     "ensembl": "ENSMUSG00000055761"
+    },
+    {
+     "symbol": "Tra2a",
+     "ensembl": "ENSMUSG00000029817"
+    },
+    {
+     "symbol": "Erf",
+     "ensembl": "ENSMUSG00000040857"
+    },
+    {
+     "symbol": "S1pr2",
+     "ensembl": "ENSMUSG00000043895"
+    },
+    {
+     "symbol": "Lypla2",
+     "ensembl": "ENSMUSG00000028670"
+    },
+    {
+     "symbol": "Mvk",
+     "ensembl": "ENSMUSG00000041939"
+    },
+    {
+     "symbol": "Rfx4",
+     "ensembl": "ENSMUSG00000020037"
+    },
+    {
+     "symbol": "Angpt2",
+     "ensembl": "ENSMUSG00000031465"
+    },
+    {
+     "symbol": "Anxa2",
+     "ensembl": "ENSMUSG00000032231"
+    },
+    {
+     "symbol": "Ccnd1",
+     "ensembl": "ENSMUSG00000070348"
+    },
+    {
+     "symbol": "Mall",
+     "ensembl": "ENSMUSG00000027377"
+    },
+    {
+     "symbol": "Tuba1a",
+     "ensembl": "ENSMUSG00000072235"
+    },
+    {
+     "symbol": "Msn",
+     "ensembl": "ENSMUSG00000031207"
+    },
+    {
+     "symbol": "Adgrg1",
+     "ensembl": "ENSMUSG00000031785"
+    },
+    {
+     "symbol": "Anxa3",
+     "ensembl": "ENSMUSG00000029484"
+    },
+    {
+     "symbol": "Arpc1b",
+     "ensembl": "ENSMUSG00000029622"
+    },
+    {
+     "symbol": "Bmp2",
+     "ensembl": "ENSMUSG00000027358"
+    },
+    {
+     "symbol": "Cap2",
+     "ensembl": "ENSMUSG00000021373"
+    },
+    {
+     "symbol": "Cast",
+     "ensembl": "ENSMUSG00000021585"
+    },
+    {
+     "symbol": "Cdk17",
+     "ensembl": "ENSMUSG00000020015"
+    },
+    {
+     "symbol": "Cmip",
+     "ensembl": "ENSMUSG00000034390"
+    },
+    {
+     "symbol": "Csgalnact2",
+     "ensembl": "ENSMUSG00000042042"
+    },
+    {
+     "symbol": "Ergic1",
+     "ensembl": "ENSMUSG00000001576"
+    },
+    {
+     "symbol": "Fam114a1",
+     "ensembl": "ENSMUSG00000029185"
+    },
+    {
+     "symbol": "Lox",
+     "ensembl": "ENSMUSG00000024529"
+    },
+    {
+     "symbol": "Ltn1",
+     "ensembl": "ENSMUSG00000052299"
+    },
+    {
+     "symbol": "Ntn4",
+     "ensembl": "ENSMUSG00000020019"
+    },
+    {
+     "symbol": "Ptpn9",
+     "ensembl": "ENSMUSG00000032290"
+    },
+    {
+     "symbol": "Ret",
+     "ensembl": "ENSMUSG00000030110"
+    },
+    {
+     "symbol": "Slc10a7",
+     "ensembl": "ENSMUSG00000031684"
+    },
+    {
+     "symbol": "Slc12a2",
+     "ensembl": "ENSMUSG00000024597"
+    },
+    {
+     "symbol": "Spag9",
+     "ensembl": "ENSMUSG00000020859"
+    },
+    {
+     "symbol": "Thbd",
+     "ensembl": "ENSMUSG00000074743"
+    },
+    {
+     "symbol": "Thbs1",
+     "ensembl": "ENSMUSG00000040152"
+    },
+    {
+     "symbol": "Ackr3",
+     "ensembl": "ENSMUSG00000044337"
+    },
+    {
+     "symbol": "Cpm",
+     "ensembl": "ENSMUSG00000020183"
+    },
+    {
+     "symbol": "Ctla2b",
+     "ensembl": "ENSMUSG00000074874"
+    },
+    {
+     "symbol": "Fyn",
+     "ensembl": "ENSMUSG00000019843"
+    },
+    {
+     "symbol": "Gsk3b",
+     "ensembl": "ENSMUSG00000022812"
+    },
+    {
+     "symbol": "Mga",
+     "ensembl": "ENSMUSG00000033943"
+    },
+    {
+     "symbol": "Plcl1",
+     "ensembl": "ENSMUSG00000038349"
+    },
+    {
+     "symbol": "Pls3",
+     "ensembl": "ENSMUSG00000016382"
+    },
+    {
+     "symbol": "Rad54l2",
+     "ensembl": "ENSMUSG00000040661"
+    },
+    {
+     "symbol": "Nfxl1",
+     "ensembl": "ENSMUSG00000072889"
+    },
+    {
+     "symbol": "Ube2g2",
+     "ensembl": "ENSMUSG00000009293"
+    },
+    {
+     "symbol": "Arap2",
+     "ensembl": "ENSMUSG00000037999"
+    },
+    {
+     "symbol": "Ccl9",
+     "ensembl": "ENSMUSG00000019122"
+    },
+    {
+     "symbol": "Ctla2a",
+     "ensembl": "ENSMUSG00000044258"
+    },
+    {
+     "symbol": "Ddx26b",
+     "ensembl": "ENSMUSG00000035967"
+    },
+    {
+     "symbol": "Letmd1",
+     "ensembl": "ENSMUSG00000037353"
+    },
+    {
+     "symbol": "Man2a1",
+     "ensembl": "ENSMUSG00000024085"
+    },
+    {
+     "symbol": "Pid1",
+     "ensembl": "ENSMUSG00000045658"
+    },
+    {
+     "symbol": "Rps6ka3",
+     "ensembl": "ENSMUSG00000031309"
+    },
+    {
+     "symbol": "Tank",
+     "ensembl": "ENSMUSG00000064289"
+    },
+    {
+     "symbol": "Zfand3",
+     "ensembl": "ENSMUSG00000044477"
+    },
+    {
+     "symbol": "Dcbld2",
+     "ensembl": "ENSMUSG00000035107"
+    },
+    {
+     "symbol": "Eps8",
+     "ensembl": "ENSMUSG00000015766"
+    },
+    {
+     "symbol": "Mib1",
+     "ensembl": "ENSMUSG00000024294"
+    },
+    {
+     "symbol": "Ptk7",
+     "ensembl": "ENSMUSG00000023972"
+    },
+    {
+     "symbol": "Spp1",
+     "ensembl": "ENSMUSG00000029304"
+    },
+    {
+     "symbol": "Tmem9b",
+     "ensembl": "ENSMUSG00000031021"
+    },
+    {
+     "symbol": "Tpm2",
+     "ensembl": "ENSMUSG00000028464"
+    },
+    {
+     "symbol": "Uba5",
+     "ensembl": "ENSMUSG00000032557"
+    }
+   ],
+   "map_by": "ensembl",
+   "source": "Hrvatin 2018 Supplementary Table 3: label 'c' (late-response gene, increase, 4 h) in >=1 cell type and never 'a'",
+   "role": "time-scale control"
+  },
+  "S3_Marsh2022_exAM_allCNS": {
+   "genes": [
+    {
+     "symbol": "Fos"
+    },
+    {
+     "symbol": "Junb"
+    },
+    {
+     "symbol": "Zfp36"
+    },
+    {
+     "symbol": "Jun"
+    },
+    {
+     "symbol": "Hspa1a"
+    },
+    {
+     "symbol": "Socs3"
+    },
+    {
+     "symbol": "Rgs1"
+    },
+    {
+     "symbol": "Egr1"
+    },
+    {
+     "symbol": "Btg2"
+    },
+    {
+     "symbol": "Fosb"
+    },
+    {
+     "symbol": "Hist1h1d"
+    },
+    {
+     "symbol": "Ier5"
+    },
+    {
+     "symbol": "1500015O10Rik"
+    },
+    {
+     "symbol": "Atf3"
+    },
+    {
+     "symbol": "Hist1h2ac"
+    },
+    {
+     "symbol": "Dusp1"
+    },
+    {
+     "symbol": "Hist1h1e"
+    },
+    {
+     "symbol": "Folr1"
+    },
+    {
+     "symbol": "Serpine1"
+    }
+   ],
+   "map_by": "symbol",
+   "source": "Marsh et al. 2022 Nat Neurosci 25:306, Supplementary Table 4, column 'All CNS Cells Act. Score'",
+   "role": "confirmatory"
+  },
+  "S4_Marsh2022_exAM_myeloid": {
+   "genes": [
+    {
+     "symbol": "Rgs1"
+    },
+    {
+     "symbol": "Hist2h2aa1"
+    },
+    {
+     "symbol": "Hist1h4i"
+    },
+    {
+     "symbol": "Nfkbiz"
+    },
+    {
+     "symbol": "Klf2"
+    },
+    {
+     "symbol": "Junb"
+    },
+    {
+     "symbol": "Dusp1"
+    },
+    {
+     "symbol": "Ccl3"
+    },
+    {
+     "symbol": "Hspa1a"
+    },
+    {
+     "symbol": "Hsp90aa1"
+    },
+    {
+     "symbol": "Fos"
+    },
+    {
+     "symbol": "Hspa1b"
+    },
+    {
+     "symbol": "Jun"
+    },
+    {
+     "symbol": "Jund"
+    },
+    {
+     "symbol": "Nfkbid"
+    },
+    {
+     "symbol": "Gem"
+    },
+    {
+     "symbol": "Ccl4"
+    },
+    {
+     "symbol": "Ier5"
+    },
+    {
+     "symbol": "Txnip"
+    },
+    {
+     "symbol": "Hist1h2bc"
+    },
+    {
+     "symbol": "Zfp36"
+    },
+    {
+     "symbol": "Hist1h1c"
+    },
+    {
+     "symbol": "Egr1"
+    },
+    {
+     "symbol": "Atf3"
+    },
+    {
+     "symbol": "Rhob"
+    }
+   ],
+   "map_by": "symbol",
+   "source": "Marsh 2022 Supplementary Table 4, column 'Micro/Myeloid Shared Act. Score'",
+   "role": "confirmatory"
+  },
+  "S5_vandenBrink2017_dissociation": {
+   "genes": [
+    {
+     "symbol": "Atf3"
+    },
+    {
+     "symbol": "Dusp1"
+    },
+    {
+     "symbol": "Egr1"
+    },
+    {
+     "symbol": "Fos"
+    },
+    {
+     "symbol": "Gem"
+    },
+    {
+     "symbol": "Hsp90aa1"
+    },
+    {
+     "symbol": "Hspa1a"
+    },
+    {
+     "symbol": "Hspa1b"
+    },
+    {
+     "symbol": "Ier5"
+    },
+    {
+     "symbol": "Jun"
+    },
+    {
+     "symbol": "Junb"
+    },
+    {
+     "symbol": "Jund"
+    },
+    {
+     "symbol": "Klf2"
+    },
+    {
+     "symbol": "Nfkbiz"
+    },
+    {
+     "symbol": "Rhob"
+    },
+    {
+     "symbol": "Zfp36"
+    },
+    {
+     "symbol": "Actg1"
+    },
+    {
+     "symbol": "Btg1"
+    },
+    {
+     "symbol": "Cxcl1"
+    },
+    {
+     "symbol": "Dnajb4"
+    },
+    {
+     "symbol": "Errfi1"
+    },
+    {
+     "symbol": "H3f3b"
+    },
+    {
+     "symbol": "Hspb1"
+    },
+    {
+     "symbol": "Irf1"
+    },
+    {
+     "symbol": "Klf6"
+    },
+    {
+     "symbol": "Mir22hg"
+    },
+    {
+     "symbol": "Nfkbia"
+    },
+    {
+     "symbol": "Pcf11"
+    },
+    {
+     "symbol": "Pxdc1"
+    },
+    {
+     "symbol": "Sdc4"
+    },
+    {
+     "symbol": "Srf"
+    },
+    {
+     "symbol": "Tpm3"
+    },
+    {
+     "symbol": "Usp2"
+    },
+    {
+     "symbol": "Gadd45g"
+    },
+    {
+     "symbol": "Ankrd1"
+    },
+    {
+     "symbol": "Btg2"
+    },
+    {
+     "symbol": "Cyr61"
+    },
+    {
+     "symbol": "Fam132b"
+    },
+    {
+     "symbol": "Hipk3"
+    },
+    {
+     "symbol": "Hsph1"
+    },
+    {
+     "symbol": "Irf8"
+    },
+    {
+     "symbol": "Klf9"
+    },
+    {
+     "symbol": "Mt1"
+    },
+    {
+     "symbol": "Pde4b"
+    },
+    {
+     "symbol": "Rap1b"
+    },
+    {
+     "symbol": "Serpine1"
+    },
+    {
+     "symbol": "Srsf5"
+    },
+    {
+     "symbol": "Tppp3"
+    },
+    {
+     "symbol": "Wac"
+    },
+    {
+     "symbol": "Hspe1"
+    },
+    {
+     "symbol": "Arid5a"
+    },
+    {
+     "symbol": "Ccnl1"
+    },
+    {
+     "symbol": "Dcn"
+    },
+    {
+     "symbol": "Dusp8"
+    },
+    {
+     "symbol": "Id3"
+    },
+    {
+     "symbol": "Itpkc"
+    },
+    {
+     "symbol": "Litaf"
+    },
+    {
+     "symbol": "Mt2"
+    },
+    {
+     "symbol": "Nop58"
+    },
+    {
+     "symbol": "Per1"
+    },
+    {
+     "symbol": "Rassf1"
+    },
+    {
+     "symbol": "Skil"
+    },
+    {
+     "symbol": "Srsf7"
+    },
+    {
+     "symbol": "Tra2a"
+    },
+    {
+     "symbol": "Zc3h12a"
+    },
+    {
+     "symbol": "Ccrn4l"
+    },
+    {
+     "symbol": "Ddx3x"
+    },
+    {
+     "symbol": "Fosb"
+    },
+    {
+     "symbol": "Hsp90ab1"
+    },
+    {
+     "symbol": "Idi1"
+    },
+    {
+     "symbol": "Lmna"
+    },
+    {
+     "symbol": "Myadm"
+    },
+    {
+     "symbol": "Nppc"
+    },
+    {
+     "symbol": "Phlda1"
+    },
+    {
+     "symbol": "Slc10a6"
+    },
+    {
+     "symbol": "Stat3"
+    },
+    {
+     "symbol": "Tra2b"
+    },
+    {
+     "symbol": "Zfand5"
+    },
+    {
+     "symbol": "Kcne4"
+    },
+    {
+     "symbol": "Atf4"
+    },
+    {
+     "symbol": "Cebpb"
+    },
+    {
+     "symbol": "Ddx5"
+    },
+    {
+     "symbol": "Egr2"
+    },
+    {
+     "symbol": "Fosl2"
+    },
+    {
+     "symbol": "Ier2"
+    },
+    {
+     "symbol": "Maff"
+    },
+    {
+     "symbol": "Myc"
+    },
+    {
+     "symbol": "Nr4a1"
+    },
+    {
+     "symbol": "Pnp"
+    },
+    {
+     "symbol": "Rhoh"
+    },
+    {
+     "symbol": "Slc38a2"
+    },
+    {
+     "symbol": "Tagln2"
+    },
+    {
+     "symbol": "Trib1"
+    },
+    {
+     "symbol": "Bag3"
+    },
+    {
+     "symbol": "Cebpd"
+    },
+    {
+     "symbol": "Des"
+    },
+    {
+     "symbol": "Eif1"
+    },
+    {
+     "symbol": "Gadd45a"
+    },
+    {
+     "symbol": "Ier3"
+    },
+    {
+     "symbol": "Mafk"
+    },
+    {
+     "symbol": "Myd88"
+    },
+    {
+     "symbol": "Odc1"
+    },
+    {
+     "symbol": "Pnrc1"
+    },
+    {
+     "symbol": "Ripk1"
+    },
+    {
+     "symbol": "Slc41a1"
+    },
+    {
+     "symbol": "Tiparp"
+    },
+    {
+     "symbol": "Tubb4b"
+    },
+    {
+     "symbol": "Zfp36l1"
+    },
+    {
+     "symbol": "Bhlhe40"
+    },
+    {
+     "symbol": "Cebpg"
+    },
+    {
+     "symbol": "Dnaja1"
+    },
+    {
+     "symbol": "Eif5"
+    },
+    {
+     "symbol": "Gcc1"
+    },
+    {
+     "symbol": "Hspa5"
+    },
+    {
+     "symbol": "Ifrd1"
+    },
+    {
+     "symbol": "Mcl1"
+    },
+    {
+     "symbol": "Nckap5l"
+    },
+    {
+     "symbol": "Osgin1"
+    },
+    {
+     "symbol": "Ppp1cc"
+    },
+    {
+     "symbol": "Sat1"
+    },
+    {
+     "symbol": "Socs3"
+    },
+    {
+     "symbol": "Tnfaip3"
+    },
+    {
+     "symbol": "Tubb6"
+    },
+    {
+     "symbol": "Zfp36l2"
+    },
+    {
+     "symbol": "Brd2"
+    },
+    {
+     "symbol": "Csrnp1"
+    },
+    {
+     "symbol": "Dnajb1"
+    },
+    {
+     "symbol": "Erf"
+    },
+    {
+     "symbol": "Hspa8"
+    },
+    {
+     "symbol": "Il6"
+    },
+    {
+     "symbol": "Klf4"
+    },
+    {
+     "symbol": "Midn"
+    },
+    {
+     "symbol": "Ncoa7"
+    },
+    {
+     "symbol": "Oxnad1"
+    },
+    {
+     "symbol": "Ppp1r15a"
+    },
+    {
+     "symbol": "Sbno2"
+    },
+    {
+     "symbol": "Sqstm1"
+    },
+    {
+     "symbol": "Tnfaip6"
+    },
+    {
+     "symbol": "Ubc"
+    },
+    {
+     "symbol": "Zyx"
+    }
+   ],
+   "map_by": "symbol",
+   "source": "van den Brink et al. 2017 Nat Methods 14:935, Supplementary Methods R vector of dissociation-affected genes (140; text-extracted and identical to the copy in Marsh 2022 Supplementary Table 21)",
+   "role": "confirmatory"
+  },
+  "S6_Wu2017_IEG": {
+   "genes": [
+    {
+     "symbol": "Fos"
+    },
+    {
+     "symbol": "Fosb"
+    },
+    {
+     "symbol": "Fosl1"
+    },
+    {
+     "symbol": "Fosl2"
+    },
+    {
+     "symbol": "Jun"
+    },
+    {
+     "symbol": "Junb"
+    },
+    {
+     "symbol": "Jund"
+    },
+    {
+     "symbol": "Egr1"
+    },
+    {
+     "symbol": "Egr2"
+    },
+    {
+     "symbol": "Egr3"
+    },
+    {
+     "symbol": "Egr4"
+    },
+    {
+     "symbol": "Nr4a1"
+    },
+    {
+     "symbol": "Nr4a2"
+    },
+    {
+     "symbol": "Nr4a3"
+    },
+    {
+     "symbol": "Arc"
+    },
+    {
+     "symbol": "Homer1"
+    },
+    {
+     "symbol": "Rheb"
+    },
+    {
+     "symbol": "Rgs2"
+    },
+    {
+     "symbol": "Plk2"
+    },
+    {
+     "symbol": "Ptgs2"
+    },
+    {
+     "symbol": "Bdnf"
+    },
+    {
+     "symbol": "Inhba"
+    },
+    {
+     "symbol": "Nptx2"
+    },
+    {
+     "symbol": "Plat"
+    },
+    {
+     "symbol": "Nrn1"
+    },
+    {
+     "symbol": "Myc"
+    },
+    {
+     "symbol": "Dusp1"
+    },
+    {
+     "symbol": "Dusp5"
+    },
+    {
+     "symbol": "Dusp6"
+    },
+    {
+     "symbol": "Pcdh8"
+    },
+    {
+     "symbol": "Cyr61"
+    },
+    {
+     "symbol": "Gadd45b"
+    },
+    {
+     "symbol": "Trib1"
+    },
+    {
+     "symbol": "Gem"
+    },
+    {
+     "symbol": "Btg2"
+    },
+    {
+     "symbol": "Ier2"
+    },
+    {
+     "symbol": "Npas4"
+    },
+    {
+     "symbol": "Rasd1"
+    },
+    {
+     "symbol": "Crem"
+    },
+    {
+     "symbol": "Mbnl2"
+    },
+    {
+     "symbol": "Arf4"
+    },
+    {
+     "symbol": "Gadd45g"
+    },
+    {
+     "symbol": "Arih1"
+    },
+    {
+     "symbol": "Nup98"
+    },
+    {
+     "symbol": "Ppp1r15a"
+    },
+    {
+     "symbol": "Fbxo33"
+    },
+    {
+     "symbol": "Per1"
+    },
+    {
+     "symbol": "Per2"
+    },
+    {
+     "symbol": "Maff"
+    },
+    {
+     "symbol": "Zfp36"
+    },
+    {
+     "symbol": "Srf"
+    },
+    {
+     "symbol": "Mcl1"
+    },
+    {
+     "symbol": "Ctgf"
+    },
+    {
+     "symbol": "Il6"
+    },
+    {
+     "symbol": "Atf3"
+    },
+    {
+     "symbol": "Rcan1"
+    },
+    {
+     "symbol": "Ncoa7"
+    },
+    {
+     "symbol": "Cxcl2"
+    },
+    {
+     "symbol": "Bhlhe40"
+    },
+    {
+     "symbol": "Slc2a3"
+    },
+    {
+     "symbol": "Nfkbia"
+    },
+    {
+     "symbol": "Ier3"
+    },
+    {
+     "symbol": "Sgk1"
+    },
+    {
+     "symbol": "Klf6"
+    },
+    {
+     "symbol": "Klf10"
+    },
+    {
+     "symbol": "Nfkbiz"
+    },
+    {
+     "symbol": "Flg"
+    },
+    {
+     "symbol": "Gbp2b"
+    },
+    {
+     "symbol": "Tnfaip3"
+    },
+    {
+     "symbol": "Cebpd"
+    },
+    {
+     "symbol": "Hbegf"
+    },
+    {
+     "symbol": "Ldlr"
+    },
+    {
+     "symbol": "Tsc22d1"
+    },
+    {
+     "symbol": "F3"
+    },
+    {
+     "symbol": "Ccl2"
+    },
+    {
+     "symbol": "Csrnp1"
+    },
+    {
+     "symbol": "Pmaip1"
+    },
+    {
+     "symbol": "Zfp36l2"
+    },
+    {
+     "symbol": "Plau"
+    },
+    {
+     "symbol": "Ccl5"
+    },
+    {
+     "symbol": "Saa3"
+    },
+    {
+     "symbol": "Ifnb1"
+    },
+    {
+     "symbol": "Tnf"
+    },
+    {
+     "symbol": "Irf1"
+    },
+    {
+     "symbol": "Cd83"
+    },
+    {
+     "symbol": "Map3k8"
+    },
+    {
+     "symbol": "Socs3"
+    },
+    {
+     "symbol": "Csf2"
+    },
+    {
+     "symbol": "Il1a"
+    },
+    {
+     "symbol": "Cxcl1"
+    },
+    {
+     "symbol": "Il12b"
+    },
+    {
+     "symbol": "Il1b"
+    },
+    {
+     "symbol": "Sod2"
+    },
+    {
+     "symbol": "Pim1"
+    },
+    {
+     "symbol": "Peli1"
+    },
+    {
+     "symbol": "Tlr2"
+    },
+    {
+     "symbol": "Ccl3"
+    },
+    {
+     "symbol": "Noct"
+    },
+    {
+     "symbol": "Bcl3"
+    },
+    {
+     "symbol": "Ifit2"
+    },
+    {
+     "symbol": "Icam1"
+    },
+    {
+     "symbol": "Ifit1"
+    },
+    {
+     "symbol": "Tnfsf9"
+    },
+    {
+     "symbol": "Ccrl2"
+    },
+    {
+     "symbol": "Cxcl10"
+    },
+    {
+     "symbol": "Gbp2"
+    },
+    {
+     "symbol": "Il10"
+    },
+    {
+     "symbol": "Clec4e"
+    },
+    {
+     "symbol": "Acod1"
+    },
+    {
+     "symbol": "Mmp13"
+    },
+    {
+     "symbol": "Cxcl11"
+    },
+    {
+     "symbol": "Il23a"
+    },
+    {
+     "symbol": "Arhgef3"
+    },
+    {
+     "symbol": "Serpine1"
+    },
+    {
+     "symbol": "Traf1"
+    },
+    {
+     "symbol": "Vcam1"
+    },
+    {
+     "symbol": "Ackr4"
+    },
+    {
+     "symbol": "Marcksl1"
+    },
+    {
+     "symbol": "Nfkbid"
+    },
+    {
+     "symbol": "Ikbke"
+    },
+    {
+     "symbol": "Ccl12"
+    },
+    {
+     "symbol": "Ifit3"
+    },
+    {
+     "symbol": "Cebpb"
+    },
+    {
+     "symbol": "Zfp36l1"
+    },
+    {
+     "symbol": "Txnip"
+    },
+    {
+     "symbol": "Nfib"
+    },
+    {
+     "symbol": "Hes1"
+    },
+    {
+     "symbol": "Pias1"
+    },
+    {
+     "symbol": "Klf2"
+    },
+    {
+     "symbol": "Cd69"
+    },
+    {
+     "symbol": "Dusp2"
+    },
+    {
+     "symbol": "Wee1"
+    },
+    {
+     "symbol": "Thbs1"
+    },
+    {
+     "symbol": "Sik1"
+    },
+    {
+     "symbol": "Gdf15"
+    },
+    {
+     "symbol": "Ier5"
+    },
+    {
+     "symbol": "Rgs1"
+    },
+    {
+     "symbol": "Id2"
+    },
+    {
+     "symbol": "Apold1"
+    }
+   ],
+   "map_by": "symbol",
+   "source": "Wu et al. 2017 Neuron 96:313, Table S3 (mmc4) 'List of IEGs'",
+   "role": "confirmatory"
+  }
+ }
+}

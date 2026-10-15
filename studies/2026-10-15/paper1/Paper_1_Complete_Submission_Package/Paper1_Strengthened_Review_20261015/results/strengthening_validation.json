@@ -1,0 +1,4755 @@
+{
+  "passed": true,
+  "n_checks": 1187,
+  "failed": [],
+  "checks": [
+    {
+      "name": "66 acquired units,64 primary units",
+      "passed": true
+    },
+    {
+      "name": "Primary accession units40,6,8,10",
+      "passed": true
+    },
+    {
+      "name": "Primary units46animals18pools",
+      "passed": true
+    },
+    {
+      "name": "No duplicate acquired expression unit",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 count columns match metadata",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 integer nonnegative counts",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 count columns match metadata",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 integer nonnegative counts",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 count columns match metadata",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 integer nonnegative counts",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 count columns match metadata",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 integer nonnegative counts",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-202/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-202/isa_assay_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-202/isa_sample_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-202/metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-202/study_protocols.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-352/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-352/isa_assay_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-352/isa_sample_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-352/metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-352/study_protocols.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-374/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-374/isa_assay_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-374/isa_sample_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-374/metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-374/study_protocols.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-611/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-611/isa_assay_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-611/isa_sample_records.json",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-611/metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Acquisition source hash OSD-611/study_protocols.json",
+      "passed": true
+    },
+    {
+      "name": "1002new outer rows retained",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split8 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split8 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split9 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split9 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split10 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split10 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split11 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split11 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split12 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split12 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split13 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split13 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split14 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split14 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split15 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split15 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split16 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split16 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split17 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split17 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split18 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split18 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split19 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split19 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split20 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split20 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split21 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split21 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split22 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split22 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split23 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split23 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split24 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split24 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split25 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split25 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split26 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split26 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split27 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split27 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split28 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split28 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split29 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split29 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split30 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split30 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split31 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split31 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split32 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split32 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split33 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split33 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split34 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split34 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split35 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split35 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split36 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split36 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split37 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split37 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split38 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split38 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split39 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-202 split39 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-352 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-374 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split8 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split8 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split9 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split9 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split10 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split10 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split11 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split11 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split12 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split12 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split13 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split13 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split14 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split14 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split15 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split15 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split16 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split16 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split17 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split17 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split18 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split18 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split19 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split19 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split20 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split20 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split21 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split21 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split22 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split22 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split23 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split23 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split24 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split24 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split25 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split25 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split26 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split26 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split27 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split27 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split28 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split28 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split29 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split29 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split30 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split30 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split31 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split31 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split32 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split32 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split33 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split33 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split34 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split34 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split35 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split35 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split36 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split36 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split37 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split37 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split38 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split38 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split39 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split39 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split40 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split40 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split41 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split41 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split42 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split42 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split43 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split43 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split44 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split44 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split45 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split45 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split46 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split46 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split47 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split47 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split48 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split48 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split49 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split49 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split50 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split50 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split51 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split51 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split52 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split52 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split53 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split53 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split54 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split54 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split55 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split55 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split56 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split56 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split57 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split57 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split58 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split58 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split59 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split59 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split60 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split60 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split61 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split61 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split62 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split62 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split63 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split63 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split64 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split64 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split65 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split65 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split66 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split66 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split67 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split67 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split68 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split68 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split69 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split69 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split70 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split70 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split71 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split71 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split72 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split72 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split73 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split73 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split74 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split74 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split75 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split75 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split76 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split76 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split77 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split77 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split78 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split78 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split79 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split79 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split80 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split80 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split81 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split81 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split82 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split82 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split83 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split83 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split84 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split84 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split85 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split85 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split86 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split86 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split87 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split87 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split88 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split88 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split89 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split89 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split90 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split90 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split91 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split91 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split92 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split92 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split93 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split93 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split94 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split94 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split95 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split95 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split96 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split96 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split97 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split97 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split98 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split98 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split99 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split99 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split100 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split100 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split101 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split101 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split102 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split102 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split103 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split103 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split104 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split104 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split105 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split105 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split106 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split106 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split107 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split107 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split108 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split108 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split109 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split109 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split110 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split110 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split111 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split111 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split112 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split112 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split113 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split113 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split114 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split114 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split115 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split115 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split116 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split116 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split117 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split117 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split118 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split118 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split119 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split119 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split120 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split120 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split121 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split121 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split122 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split122 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split123 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split123 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split124 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split124 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split125 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split125 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split126 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split126 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split127 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split127 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split128 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split128 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split129 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split129 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split130 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split130 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split131 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split131 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split132 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split132 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split133 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split133 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split134 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split134 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split135 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split135 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split136 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split136 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split137 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split137 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split138 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split138 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split139 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split139 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split140 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split140 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split141 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split141 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split142 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split142 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split143 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split143 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split144 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split144 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split145 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split145 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split146 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split146 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split147 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split147 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split148 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split148 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split149 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split149 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split150 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split150 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split151 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split151 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split152 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split152 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split153 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split153 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split154 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split154 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split155 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split155 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split156 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split156 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split157 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split157 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split158 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split158 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split159 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split159 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split160 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split160 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split161 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split161 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split162 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split162 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split163 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split163 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split164 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split164 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split165 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split165 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split166 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split166 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split167 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split167 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split168 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split168 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split169 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split169 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split170 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split170 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split171 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split171 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split172 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split172 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split173 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split173 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split174 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split174 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split175 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split175 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split176 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split176 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split177 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split177 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split178 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split178 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split179 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split179 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split180 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split180 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split181 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split181 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split182 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split182 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split183 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split183 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split184 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split184 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split185 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split185 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split186 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split186 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split187 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split187 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split188 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split188 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split189 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split189 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split190 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split190 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split191 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split191 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split192 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split192 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split193 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split193 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split194 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split194 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split195 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split195 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split196 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split196 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split197 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split197 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split198 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split198 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split199 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-525 split199 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split8 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split8 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split9 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split9 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split10 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split10 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split11 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split11 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split12 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split12 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split13 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split13 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split14 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split14 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split15 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split15 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split16 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split16 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split17 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split17 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split18 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split18 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split19 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split19 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split20 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split20 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split21 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split21 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split22 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split22 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split23 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split23 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split24 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split24 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split25 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split25 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split26 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split26 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split27 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split27 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split28 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split28 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split29 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split29 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split30 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split30 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split31 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split31 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split32 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split32 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split33 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split33 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split34 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split34 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split35 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split35 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split36 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split36 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split37 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split37 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split38 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split38 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split39 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split39 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split40 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split40 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split41 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split41 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split42 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split42 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split43 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split43 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split44 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split44 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split45 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split45 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split46 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split46 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split47 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split47 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split48 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split48 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split49 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split49 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split50 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split50 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split51 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split51 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split52 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split52 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split53 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split53 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split54 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split54 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split55 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split55 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split56 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split56 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split57 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split57 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split58 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split58 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split59 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split59 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split60 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split60 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split61 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split61 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split62 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split62 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split63 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split63 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split64 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split64 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split65 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split65 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split66 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split66 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split67 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split67 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split68 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split68 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split69 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split69 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split70 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split70 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split71 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split71 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split72 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split72 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split73 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split73 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split74 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split74 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split75 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split75 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split76 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split76 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split77 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split77 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split78 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split78 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split79 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split79 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split80 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-561 split80 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split8 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split8 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split9 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split9 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split10 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split10 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split11 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split11 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split12 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split12 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split13 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split13 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split14 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split14 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split15 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split15 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split16 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split16 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split17 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split17 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split18 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split18 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split19 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split19 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split20 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split20 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split21 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split21 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split22 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split22 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split23 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split23 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split24 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split24 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split25 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split25 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split26 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split26 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split27 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split27 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split28 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split28 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split29 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split29 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split30 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split30 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split31 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split31 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split32 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split32 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split33 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split33 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split34 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split34 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split35 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split35 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split36 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split36 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split37 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split37 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split38 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split38 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split39 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split39 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split40 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split40 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split41 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split41 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split42 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split42 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split43 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split43 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split44 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split44 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split45 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split45 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split46 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split46 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split47 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split47 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split48 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split48 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split49 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split49 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split50 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split50 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split51 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split51 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split52 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split52 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split53 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split53 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split54 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split54 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split55 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split55 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split56 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split56 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split57 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split57 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split58 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split58 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split59 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split59 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split60 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split60 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split61 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split61 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split62 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split62 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split63 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split63 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split64 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split64 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split65 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split65 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split66 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split66 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split67 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split67 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split68 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split68 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split69 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split69 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split70 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split70 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split71 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split71 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split72 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split72 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split73 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split73 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split74 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split74 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split75 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split75 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split76 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split76 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split77 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split77 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split78 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split78 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split79 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split79 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split80 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-562 split80 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split0 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split0 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split1 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split1 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split2 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split2 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split3 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split3 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split4 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split4 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split5 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split5 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split6 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split6 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split7 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split7 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split8 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split8 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split9 disjoint complete roles",
+      "passed": true
+    },
+    {
+      "name": "OSD-611 split9 one minimum inner choice",
+      "passed": true
+    },
+    {
+      "name": "64external uniqueheldout units",
+      "passed": true
+    },
+    {
+      "name": "Every MSEratio directly agreeswith SSE",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/PCR_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/PLS2_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/existing_grid_CV_scalar fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/gain2_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/intercept_age_baseline fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/original_score fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/risk_CV_anchored_loading fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/score_gain2 fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/PCR_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/PLS2_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/existing_grid_CV_scalar fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/gain2_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/intercept_age_baseline fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/original_score fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/risk_CV_anchored_loading fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/score_gain2 fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/PCR_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/PLS2_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/existing_grid_CV_scalar fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/gain2_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/intercept_age_baseline fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/original_score fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/risk_CV_anchored_loading fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/score_gain2 fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-525/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-561/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-562/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/PCR_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/PLS2_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/existing_grid_CV_scalar fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/gain2_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/intercept_age_baseline fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/original_score fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/risk_CV_anchored_loading fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/score_gain2 fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/spectral_constrained_ridge_CV fullsummarymean",
+      "passed": true
+    },
+    {
+      "name": "16084certified finite convex fits",
+      "passed": true
+    },
+    {
+      "name": "All convex optimality tolerances satisfied",
+      "passed": true
+    },
+    {
+      "name": "All new constrained outer gains satisfy bound",
+      "passed": true
+    },
+    {
+      "name": "96independentfullcoefficient checks pass",
+      "passed": true
+    },
+    {
+      "name": "852matchedgridrows426splitspreserved",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-202/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-352/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-374/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-525/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-525/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-561/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-561/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-562/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-562/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/matched_grid_gain2_clipped_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "OSD-611/matched_grid_ridge_CV matchedsummary",
+      "passed": true
+    },
+    {
+      "name": "28fixedalphafullobjectivechecks",
+      "passed": true
+    },
+    {
+      "name": "1400independentcountdatasets14methodseach",
+      "passed": true
+    },
+    {
+      "name": "All19600methodstatusesexplicitandPASS",
+      "passed": true
+    },
+    {
+      "name": "600realcountcalibrationgenesretained",
+      "passed": true
+    },
+    {
+      "name": "Simulatedconstrainedoperatorgainsbounded",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "balanced_stable/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "biological_null/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_batch_dispersion/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_changed_loading/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_sensor_biology/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "correlated_stable/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/8/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/PCA_covariate_k1 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/RUVg_covariate_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/RUVg_matrix_k1_oracle_controls completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/ground_cap2 completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/ground_constrained_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/ground_cv_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/ground_ridge_CV completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/ground_score completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/known_batch_OLS completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/neuroCombat_EB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/neuroCombat_EB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/neuroCombat_noEB completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/neuroCombat_noEB_batch_aware completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "strongly_correlated_stable/24/raw completeMCmeans",
+      "passed": true
+    },
+    {
+      "name": "Comparator sourcehash neuroCombat_0_2_12_source.py",
+      "passed": true
+    },
+    {
+      "name": "Comparator sourcehash RUVg_primary_source.R",
+      "passed": true
+    },
+    {
+      "name": "1488biologicalrows1047finiteprobabilities",
+      "passed": true
+    },
+    {
+      "name": "Independentrecomputecompletebiological bh",
+      "passed": true
+    },
+    {
+      "name": "Independentrecomputecompletebiological by",
+      "passed": true
+    },
+    {
+      "name": "1337independentbiologicalcheckspass",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/gene_annotation.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/EXPLORATORY_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-561_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-561_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-562_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-562_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-563_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-563_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-564_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-564_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-612_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-612_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-613_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-613_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-525_counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash inputs/OSD-525_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/run_biological_validation.py",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/prepare_external_metadata.py",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/external_data/OSD-202/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-202_standardized_metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-202_source_metadata_snapshot.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/external_data/OSD-352/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-352_standardized_metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-352_source_metadata_snapshot.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/external_data/OSD-374/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-374_standardized_metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-374_source_metadata_snapshot.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/external_data/OSD-611/counts.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-611_standardized_metadata.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/OSD-611_source_metadata_snapshot.csv",
+      "passed": true
+    },
+    {
+      "name": "Biologicalsourcehash extensions/strengthening_20261015/biological_validation/EXTERNAL_DESIGN_AMENDMENT_AT_ANALYSIS.md",
+      "passed": true
+    }
+  ]
+}

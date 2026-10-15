@@ -1,0 +1,5068 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2040899,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              23
+            ]
+          ],
+          "date-time": "2023-08-23T04:37:22Z",
+          "timestamp": 1692765442287
+        },
+        "reference-count": 0,
+        "publisher": "US Geological Survey",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.3133/b1518",
+        "type": "report",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2018-08-20T11:51:52Z",
+          "timestamp": 1534765912000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Space Oblique Mercator projection mathematical development"
+        ],
+        "prefix": "10.3133",
+        "member": "1689",
+        "published-online": {
+          "date-parts": [
+            [
+              1981
+            ]
+          ]
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              22
+            ]
+          ],
+          "date-time": "2023-08-22T15:16:40Z",
+          "timestamp": 1692717400000
+        },
+        "score": 25.001886,
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.usgs.gov/publication/b1518"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1981
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.3133/b1518",
+        "published": {
+          "date-parts": [
+            [
+              1981
+            ]
+          ]
+        }
+      },
+      {
+        "institution": [
+          {
+            "name": "bioRxiv"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2026-01-15T19:44:30Z",
+          "timestamp": 1768506270403,
+          "version": "3.49.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              12
+            ]
+          ]
+        },
+        "group-title": "Bioinformatics",
+        "reference-count": 41,
+        "publisher": "openRxiv",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>All tissue-based gene expression studies are impacted by biological and technical sources of variation. Numerous methods are used to normalize and batch correct these datasets. A more accurate understanding of all causes of variation could further optimize these approaches. We used 17,282 samples from 49 tissues in the Genotype Tissue Expression (GTEx) dataset (v8) to investigate patterns and causes of expression variation. Transcript expression was normalized to Z-scores and only the most variable 2% of transcripts were evaluated and clustered based on co-expression patterns. Clustered gene sets were solved to different biological or technical causes related to metadata elements and histologic images. We identified 522 variable transcript clusters (median 11 per tissue) across the samples. Of these, 64% were confidently explained, 15% were likely explained, 7% were low confidence explanations and 14% had no clear cause. Common causes included sex, sequencing contamination, immunoglobulin diversity, and compositional tissue differences. Less common biological causes included death interval (Hardy score), muscle atrophy, diabetes status, and menopause. Technical causes included brain pH and harvesting differences. Many of the causes of variation in bulk tissue expression were identifiable in the Tabula Sapiens dataset of single cell expression. This is the largest exploration of the underlying sources of tissue expression variation. It uncovered expected and unexpected causes of variable gene expression. These identified sources of variation will inform which metadata to acquire with tissue harvesting and can be used to improve normalization, batch correction, and analysis of both bulk and single cell RNA-seq data.</jats:p>",
+        "DOI": "10.1101/2023.03.09.531935",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2023-03-12T18:40:16Z",
+          "timestamp": 1678646416000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Patterns of unwanted biological and technical expression variation across 49 human tissues"
+        ],
+        "prefix": "10.64898",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1995-3317",
+            "authenticated-orcid": false,
+            "given": "Tim O.",
+            "family": "Nieuwenhuis",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2340-5444",
+            "authenticated-orcid": false,
+            "given": "Hunter H.",
+            "family": "Giles",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2473-0943",
+            "authenticated-orcid": false,
+            "given": "Matthew N.",
+            "family": "McCall",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7112-7389",
+            "authenticated-orcid": false,
+            "given": "Marc K.",
+            "family": "Halushka",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "54368",
+        "reference": [
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.1",
+            "doi-asserted-by": "crossref",
+            "first-page": "843",
+            "DOI": "10.3389/fimmu.2020.00843",
+            "article-title": "Serum Amyloid A1 (SAA1) Revisited: Restricted Leukocyte-Activating Properties of Homogeneous SAA1",
+            "volume": "11",
+            "year": "2020",
+            "journal-title": "Frontiers in immunology"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/75556"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1074/jbc.M708844200"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Brehm ZP , Sherina V , Rosenberg AZ , Halushka MK , McCall MN . 2022. Considerations for Deconvolution: A Case Study with GTEx Coronary Artery TissueBs.ioRxiv https://doi.org/10.1101/2022.05.17.492324.",
+            "DOI": "10.1101/2022.05.17.492324"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nbt.4096"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1073/pnas.0812904106"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.7",
+            "doi-asserted-by": "crossref",
+            "first-page": "861",
+            "DOI": "10.1016/j.csbj.2020.03.026",
+            "article-title": "A comparison of methods accounting for batch effects in differential expression analysis of UMI count based single cell RNA sequencing",
+            "volume": "18",
+            "year": "2020",
+            "journal-title": "Comput Struct Biotechnol J"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1089/107999001750169871"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature24277"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1128/MCB.25.2.699-705.2005"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.11",
+            "doi-asserted-by": "crossref",
+            "first-page": "955",
+            "DOI": "10.1038/s41467-020-14561-0",
+            "article-title": "Cellular deconvolution of GTEx tissues powers discovery of disease and cell-type associated regulatory variants",
+            "volume": "11",
+            "year": "2020",
+            "journal-title": "Nature communications"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.12",
+            "doi-asserted-by": "crossref",
+            "first-page": "490",
+            "DOI": "10.1038/s41467-017-02772-x",
+            "article-title": "The effects of death and post-mortem cold ischemia on human tissue transcriptomes",
+            "volume": "9",
+            "year": "2018",
+            "journal-title": "Nature communications"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkaa1113"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.14",
+            "unstructured": "Gulhar R , Ashraf MA , Jialal I . 2022. Physiology, Acute Phase Reactants. ISntatPearls , Treasure Island (FL)."
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/biostatistics/kxj037"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/bts034"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.17",
+            "doi-asserted-by": "crossref",
+            "first-page": "9",
+            "DOI": "10.1186/s13395-019-0194-1",
+            "article-title": "RNA-sequencing reveals altered skeletal muscle contraction, E3 ligases, autophagy, apoptosis, and chaperone expression in patients with critical illness myopathy",
+            "volume": "9",
+            "year": "2019",
+            "journal-title": "Skeletal muscle"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s13059-014-0550-8"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.19",
+            "doi-asserted-by": "crossref",
+            "first-page": "5482",
+            "DOI": "10.1016/j.cell.2021.09.014",
+            "article-title": "Atlas of clinically distinct cell states and ecosystems across human solid tumors",
+            "volume": "184",
+            "year": "2021",
+            "journal-title": "Cell"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2174/1389200043335397"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.21",
+            "doi-asserted-by": "crossref",
+            "first-page": "3126",
+            "DOI": "10.1038/s41467-020-16857-7",
+            "article-title": "Profiling immunoglobulin repertoires across multiple human tissues using RNA sequencing",
+            "volume": "11",
+            "year": "2020",
+            "journal-title": "Nature communications"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.22",
+            "doi-asserted-by": "crossref",
+            "first-page": "624",
+            "DOI": "10.1016/j.ajhg.2016.07.007",
+            "article-title": "Complex Sources of Variation in Tissue Expression Data: Analysis of the GTEx Lung TranscriptomeA",
+            "volume": "99",
+            "year": "2016",
+            "journal-title": "merican journal of human genetics"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/sj.onc.1209373"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.24",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0378-5122(95)00985-X"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.25",
+            "unstructured": "Megill C , Martin B , Weaver C , Bell S , Prins L , Badajoz S , McCandless B , Pisco AO , Kinsella M , Griffin F et al. 2021. cellxgene: a performant, scalable exploration platform for high dimensional sparse matrices. bioRxiv doi:https://www.biorxiv.org/content/10.1101/2021.04.05.438318v1: https://www.biorxiv.org/content/10.1101/2021.1104.1105.438318v438311."
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1210",
+            "DOI": "10.12688/f1000research.26771.1",
+            "article-title": "HPAStainR: a Bioconductor and Shiny app to query protein expression patterns in the Human Protein Atlas",
+            "volume": "9",
+            "year": "2020",
+            "journal-title": "F1000Research"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.27",
+            "doi-asserted-by": "crossref",
+            "first-page": "21549",
+            "DOI": "10.1038/s41598-021-00943-x",
+            "article-title": "Tissue, age, sex, and disease patterns of matrisome expression in GTEx transcriptome data",
+            "volume": "11",
+            "year": "2021",
+            "journal-title": "Scientific reports"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.28",
+            "doi-asserted-by": "crossref",
+            "first-page": "1933",
+            "DOI": "10.1038/s41467-020-15821-9",
+            "article-title": "Consistent RNA sequencing contamination in GTEx and other data sets",
+            "volume": "11",
+            "year": "2020",
+            "journal-title": "Nature communications"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/science.abo1984"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkv007"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btp616"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.32",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Saha A , Battle A . 2018. False positives in trans-eQTL and co-expression analyses arising from RNA-sequencing alignment errors. F1000Research7 : 1860.",
+            "DOI": "10.12688/f1000research.17145.1"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1083/jcb.200603161"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.34",
+            "doi-asserted-by": "crossref",
+            "first-page": "268",
+            "DOI": "10.1186/s12859-019-2855-9",
+            "article-title": "Batch correction evaluation framework using a-priori gene-gene associations: applied to the GTEx dataset",
+            "volume": "20",
+            "year": "2019",
+            "journal-title": "BMC Bioinformatics"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.35",
+            "doi-asserted-by": "crossref",
+            "first-page": "500",
+            "DOI": "10.1038/nprot.2011.457",
+            "article-title": "Using probabilistic estimation of expression residuals (PEER) to obtain increased power and interpretability of gene expression analyses",
+            "volume": "7",
+            "year": "2012",
+            "journal-title": "Nature protocols"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1365-2567.2012.03608.x"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkaa1074"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41586-018-0590-4"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.39",
+            "unstructured": "Tabula Sapiens C , Jones RC , Karkanias J , Krasnow MA , Pisco AO , Quake SR , Salzman J , Yosef N , Bulthaup B , Brown P , et al. 2022. The Tabula Sapiens: A multiple-organ, single-cell transcriptomic atlas of humans. Science 376: eabl4896."
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.40",
+            "doi-asserted-by": "crossref",
+            "first-page": "201",
+            "DOI": "10.1038/s41392-020-00303-7",
+            "article-title": "Chitinase-3 like-protein-1 function and its role in diseases",
+            "volume": "5",
+            "year": "2020",
+            "journal-title": "Signal Transduct Target Ther"
+          },
+          {
+            "key": "2023031604150607000_2023.03.09.531935v1.41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nrneurol.2009.75"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.09.531935",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2026-01-15T04:23:27Z",
+          "timestamp": 1768451007000
+        },
+        "score": 24.757751,
+        "resource": {
+          "primary": {
+            "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.09.531935"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              12
+            ]
+          ]
+        },
+        "references-count": 41,
+        "URL": "https://doi.org/10.1101/2023.03.09.531935",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              12
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              5
+            ]
+          ],
+          "date-time": "2025-04-05T04:03:13Z",
+          "timestamp": 1743825793139,
+          "version": "3.40.3"
+        },
+        "reference-count": 1,
+        "publisher": "Radiopaedia.org",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.53347/rid-44313",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2021-10-25T08:46:31Z",
+          "timestamp": 1635151591000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Lumbar spine: annotated oblique projection"
+        ],
+        "prefix": "10.53347",
+        "author": [
+          {
+            "given": "Samir",
+            "family": "Benoudina",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "30861",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "doi-asserted-by": "publisher",
+            "unstructured": "Mellado JM, Larrosa R, Mart\u00edn J et-al. MDCT of variations and anomalies of the neural arch and its processes: part 1--pedicles, pars interarticularis, laminae, and spinous process. AJR Am J Roentgenol. 2011;197 (1): W104-13.",
+            "key": "ref1",
+            "DOI": "10.2214/AJR.10.5803"
+          }
+        ],
+        "container-title": [
+          "Radiopaedia.org"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2025-04-04T04:32:06Z",
+          "timestamp": 1743741126000
+        },
+        "score": 24.19204,
+        "resource": {
+          "primary": {
+            "URL": "https://radiopaedia.org/cases/44313"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              17
+            ]
+          ]
+        },
+        "references-count": 1,
+        "URL": "https://doi.org/10.53347/rid-44313",
+        "archive": [
+          "Internet Archive"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2026-09-29T13:09:33Z",
+          "timestamp": 1790687373240,
+          "version": "4.1.0"
+        },
+        "reference-count": 36,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "S8",
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "BMC Genomics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1186/s12864-016-3065-8",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2016-10-25T09:39:44Z",
+          "timestamp": 1477388384000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 61,
+        "title": [
+          "Removal of unwanted variation reveals novel patterns of gene expression linked to sleep homeostasis in murine cortex"
+        ],
+        "prefix": "10.1186",
+        "volume": "17",
+        "author": [
+          {
+            "given": "Jason R.",
+            "family": "Gerstner",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "John N.",
+            "family": "Koberstein",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Adam J.",
+            "family": "Watson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nikolai",
+            "family": "Zapero",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Davide",
+            "family": "Risso",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Terence P.",
+            "family": "Speed",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcos G.",
+            "family": "Frank",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lucia",
+            "family": "Peixoto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              10,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "2",
+            "key": "3065_CR1",
+            "first-page": "155",
+            "volume": "22",
+            "author": "P Franken",
+            "year": "1999",
+            "unstructured": "Franken P, Malafosse A, Tafti M. Genetic determinants of sleep regulation in inbred mice. Sleep. 1999;22(2):155\u201369.",
+            "journal-title": "Sleep"
+          },
+          {
+            "issue": "50",
+            "key": "3065_CR2",
+            "doi-asserted-by": "crossref",
+            "first-page": "20090",
+            "DOI": "10.1073/pnas.0710131104",
+            "volume": "104",
+            "author": "S Maret",
+            "year": "2007",
+            "unstructured": "Maret S, Dorsaz S, Gurcel L, Pradervand S, Petit B, Pfister C, Hagenbuchle O, O\u2019Hara BF, Franken P, Tafti M. Homer1a is a core brain molecular correlate of sleep loss. Proc Natl Acad Sci U S A. 2007;104(50):20090\u20135.",
+            "journal-title": "Proc Natl Acad Sci U S A"
+          },
+          {
+            "issue": "3",
+            "key": "3065_CR3",
+            "doi-asserted-by": "crossref",
+            "first-page": "441",
+            "DOI": "10.1152/physiolgenomics.00275.2006",
+            "volume": "31",
+            "author": "M Mackiewicz",
+            "year": "2007",
+            "unstructured": "Mackiewicz M, Shockley KR, Romer MA, Galante RJ, Zimmerman JE, Naidoo N, Baldwin DA, Jensen ST, Churchill GA, Pack AI. Macromolecule biosynthesis: a key function of sleep. Physiol Genomics. 2007;31(3):441\u201357.",
+            "journal-title": "Physiol Genomics"
+          },
+          {
+            "issue": "16",
+            "key": "3065_CR4",
+            "doi-asserted-by": "crossref",
+            "first-page": "7664",
+            "DOI": "10.1093/nar/gkv736",
+            "volume": "43",
+            "author": "L Peixoto",
+            "year": "2015",
+            "unstructured": "Peixoto L, Risso D, Poplawski SG, Wimmer ME, Speed TP, Wood MA, Abel T. How data analysis affects power, reproducibility and biological insight of RNA-seq studies in complex datasets. Nucleic Acids Res. 2015;43(16):7664\u201374.",
+            "journal-title": "Nucleic Acids Res"
+          },
+          {
+            "issue": "9",
+            "key": "3065_CR5",
+            "doi-asserted-by": "crossref",
+            "first-page": "896",
+            "DOI": "10.1038/nbt.2931",
+            "volume": "32",
+            "author": "D Risso",
+            "year": "2014",
+            "unstructured": "Risso D, Ngai J, Speed TP, Dudoit S. Normalization of RNA-seq data using factor analysis of control genes or samples. Nat Biotechnol. 2014;32(9):896\u2013902.",
+            "journal-title": "Nat Biotechnol"
+          },
+          {
+            "issue": "3",
+            "key": "3065_CR6",
+            "doi-asserted-by": "crossref",
+            "first-page": "539",
+            "DOI": "10.1093/biostatistics/kxr034",
+            "volume": "13",
+            "author": "JA Gagnon-Bartsch",
+            "year": "2012",
+            "unstructured": "Gagnon-Bartsch JA, Speed TP. Using control genes to correct for unwanted variation in microarray data. Biostatistics (Oxford, England). 2012;13(3):539\u201352.",
+            "journal-title": "Biostatistics (Oxford, England)"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR7",
+            "doi-asserted-by": "crossref",
+            "first-page": "16",
+            "DOI": "10.1093/biostatistics/kxv026",
+            "volume": "17",
+            "author": "L Jacob",
+            "year": "2016",
+            "unstructured": "Jacob L, Gagnon-Bartsch JA, Speed TP. Correcting gene expression data when neither the unwanted variation nor the factor of interest are observed. Biostatistics. 2016;17(1):16\u201328.",
+            "journal-title": "Biostatistics"
+          },
+          {
+            "issue": "20",
+            "key": "3065_CR8",
+            "doi-asserted-by": "crossref",
+            "first-page": "981",
+            "DOI": "10.1152/physiolgenomics.00084.2012",
+            "volume": "44",
+            "author": "CG Vecsey",
+            "year": "2012",
+            "unstructured": "Vecsey CG, Peixoto L, Choi JH, Wimmer M, Jaganath D, Hernandez PJ, Blackwell J, Meda K, Park AJ, Hannenhalli S, et al. Genomic analysis of sleep deprivation reveals translational regulation in the hippocampus. Physiol Genomics. 2012;44(20):981\u201391.",
+            "journal-title": "Physiol Genomics"
+          },
+          {
+            "issue": "2",
+            "key": "3065_CR9",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1093/bioinformatics/19.2.185",
+            "volume": "19",
+            "author": "BM Bolstad",
+            "year": "2003",
+            "unstructured": "Bolstad BM, Irizarry RA, Astrand M, Speed TP. A comparison of normalization methods for high density oligonucleotide array data based on variance and bias. Bioinformatics. 2003;19(2):185\u201393.",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "8",
+            "key": "3065_CR10",
+            "doi-asserted-by": "crossref",
+            "first-page": "2610",
+            "DOI": "10.1523/JNEUROSCI.21-08-02610.2001",
+            "volume": "21",
+            "author": "P Franken",
+            "year": "2001",
+            "unstructured": "Franken P, Chollet D, Tafti M. The homeostatic regulation of sleep need is under genetic control. J Neurosci. 2001;21(8):2610\u201321.",
+            "journal-title": "J Neurosci"
+          },
+          {
+            "issue": "6",
+            "key": "3065_CR11",
+            "doi-asserted-by": "crossref",
+            "first-page": "717",
+            "DOI": "10.1016/j.molcel.2009.01.026",
+            "volume": "33",
+            "author": "CM Clemson",
+            "year": "2009",
+            "unstructured": "Clemson CM, Hutchinson JN, Sara SA, Ensminger AW, Fox AH, Chess A, Lawrence JB. An architectural role for a nuclear noncoding RNA: NEAT1 RNA is essential for the structure of paraspeckles. Mol Cell. 2009;33(6):717\u201326.",
+            "journal-title": "Mol Cell"
+          },
+          {
+            "issue": "3",
+            "key": "3065_CR12",
+            "doi-asserted-by": "crossref",
+            "first-page": "427",
+            "DOI": "10.1152/physiolgenomics.00205.2009",
+            "volume": "42",
+            "author": "H Wang",
+            "year": "2010",
+            "unstructured": "Wang H, Liu Y, Briesemann M, Yan J. Computational analysis of gene regulation in animal sleep deprivation. Physiol Genomics. 2010;42(3):427\u201336.",
+            "journal-title": "Physiol Genomics"
+          },
+          {
+            "issue": "4 Pt 2",
+            "key": "3065_CR13",
+            "first-page": "R1127",
+            "volume": "275",
+            "author": "P Franken",
+            "year": "1998",
+            "unstructured": "Franken P, Malafosse A, Tafti M. Genetic variation in EEG activity during sleep in inbred mice. Am J Physiol. 1998;275(4 Pt 2):R1127\u201337.",
+            "journal-title": "Am J Physiol"
+          },
+          {
+            "issue": "2",
+            "key": "3065_CR14",
+            "doi-asserted-by": "crossref",
+            "first-page": "593",
+            "DOI": "10.1016/j.neuroscience.2005.08.059",
+            "volume": "137",
+            "author": "A Terao",
+            "year": "2006",
+            "unstructured": "Terao A, Wisor JP, Peyron C, Apte-Deshpande A, Wurts SW, Edgar DM, Kilduff TS. Gene expression in the rat brain during sleep deprivation and recovery sleep: an Affymetrix GeneChip study. Neuroscience. 2006;137(2):593\u2013605.",
+            "journal-title": "Neuroscience"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR15",
+            "doi-asserted-by": "crossref",
+            "first-page": "35",
+            "DOI": "10.1016/S0896-6273(03)00814-6",
+            "volume": "41",
+            "author": "C Cirelli",
+            "year": "2004",
+            "unstructured": "Cirelli C, Gutierrez CM, Tononi G. Extensive and divergent effects of sleep and wakefulness on brain gene expression. Neuron. 2004;41(1):35\u201343.",
+            "journal-title": "Neuron"
+          },
+          {
+            "issue": "5",
+            "key": "3065_CR16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1150",
+            "DOI": "10.1111/j.1471-4159.2004.02952.x",
+            "volume": "92",
+            "author": "N Naidoo",
+            "year": "2005",
+            "unstructured": "Naidoo N, Giang W, Galante RJ, Pack AI. Sleep deprivation induces the unfolded protein response in mouse cerebral cortex. J Neurochem. 2005;92(5):1150\u20137.",
+            "journal-title": "J Neurochem"
+          },
+          {
+            "key": "3065_CR17",
+            "doi-asserted-by": "crossref",
+            "first-page": "165",
+            "DOI": "10.3389/fnins.2010.00165",
+            "volume": "4",
+            "author": "CL Thompson",
+            "year": "2010",
+            "unstructured": "Thompson CL, Wisor JP, Lee CK, Pathak SD, Gerashchenko D, Smith KA, Fischer SR, Kuan CL, Sunkin SM, Ng LL, et al. Molecular and anatomical signatures of sleep deprivation in the mouse brain. Front Neurosci. 2010;4:165.",
+            "journal-title": "Front Neurosci"
+          },
+          {
+            "issue": "4",
+            "key": "3065_CR18",
+            "doi-asserted-by": "crossref",
+            "first-page": "395",
+            "DOI": "10.1093/sleep/28.4.395",
+            "volume": "28",
+            "author": "A Laposky",
+            "year": "2005",
+            "unstructured": "Laposky A, Easton A, Dugovic C, Walisser J, Bradfield C, Turek F. Deletion of the mammalian circadian clock gene BMAL1/Mop3 alters baseline sleep architecture and the response to sleep deprivation. Sleep. 2005;28(4):395\u2013409.",
+            "journal-title": "Sleep"
+          },
+          {
+            "issue": "28",
+            "key": "3065_CR19",
+            "doi-asserted-by": "crossref",
+            "first-page": "7193",
+            "DOI": "10.1523/JNEUROSCI.1150-08.2008",
+            "volume": "28",
+            "author": "JP Wisor",
+            "year": "2008",
+            "unstructured": "Wisor JP, Pasumarthi RK, Gerashchenko D, Thompson CL, Pathak S, Sancar A, Franken P, Lein ES, Kilduff TS. Sleep deprivation effects on circadian clock gene expression in the cerebral cortex parallel electroencephalographic differences among mouse strains. J Neurosci. 2008;28(28):7193\u2013201.",
+            "journal-title": "J Neurosci"
+          },
+          {
+            "issue": "9",
+            "key": "3065_CR20",
+            "doi-asserted-by": "crossref",
+            "first-page": "1820",
+            "DOI": "10.1111/j.1460-9568.2009.06723.x",
+            "volume": "29",
+            "author": "P Franken",
+            "year": "2009",
+            "unstructured": "Franken P, Dijk DJ. Circadian clock genes and sleep homeostasis. Eur J Neurosci. 2009;29(9):1820\u20139.",
+            "journal-title": "Eur J Neurosci"
+          },
+          {
+            "key": "3065_CR21",
+            "doi-asserted-by": "crossref",
+            "first-page": "87",
+            "DOI": "10.1186/1471-2202-8-87",
+            "volume": "8",
+            "author": "P Franken",
+            "year": "2007",
+            "unstructured": "Franken P, Thomason R, Heller HC, O\u2019Hara BF. A non-circadian role for clock-genes in sleep homeostasis: a strain comparison. BMC Neurosci. 2007;8:87.",
+            "journal-title": "BMC Neurosci"
+          },
+          {
+            "issue": "6",
+            "key": "3065_CR22",
+            "doi-asserted-by": "crossref",
+            "first-page": "1099",
+            "DOI": "10.1046/j.1460-9568.2002.02156.x",
+            "volume": "16",
+            "author": "C Kopp",
+            "year": "2002",
+            "unstructured": "Kopp C, Albrecht U, Zheng B, Tobler I. Homeostatic sleep regulation is preserved in mPer1 and mPer2 mutant mice. Eur J Neurosci. 2002;16(6):1099\u2013106.",
+            "journal-title": "Eur J Neurosci"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR23",
+            "doi-asserted-by": "crossref",
+            "first-page": "R47",
+            "DOI": "10.1152/ajpregu.00138.2004",
+            "volume": "287",
+            "author": "PJ Shiromani",
+            "year": "2004",
+            "unstructured": "Shiromani PJ, Xu M, Winston EM, Shiromani SN, Gerashchenko D, Weaver DR. Sleep rhythmicity and homeostasis in mice with targeted disruption of mPeriod genes. Am J Physiol Regul Integr Comp Physiol. 2004;287(1):R47\u201357.",
+            "journal-title": "Am J Physiol Regul Integr Comp Physiol"
+          },
+          {
+            "issue": "4",
+            "key": "3065_CR24",
+            "doi-asserted-by": "crossref",
+            "first-page": "e35174",
+            "DOI": "10.1371/journal.pone.0035174",
+            "volume": "7",
+            "author": "N Naidoo",
+            "year": "2012",
+            "unstructured": "Naidoo N, Ferber M, Galante RJ, McShane B, Hu JH, Zimmerman J, Maislin G, Cater J, Wyner A, Worley P, et al. Role of homer proteins in the maintenance of sleep-wake states. PLoS One. 2012;7(4):e35174.",
+            "journal-title": "PLoS One"
+          },
+          {
+            "issue": "Suppl5",
+            "key": "3065_CR25",
+            "doi-asserted-by": "crossref",
+            "first-page": "S5",
+            "DOI": "10.1186/1471-2164-16-S5-S5",
+            "volume": "16",
+            "author": "L Peixoto",
+            "year": "2015",
+            "unstructured": "Peixoto L, Wimmer ME, Poplawski SG, Tudor JC, Kenworthy CA, Liu S, Mizuno K, Garcia BA, Zhang NR, Giese KP, et al. Memory acquisition and retrieval impact different epigenetic processes that regulate gene expression. BMC Genomics. 2015;16(Suppl5):S5.",
+            "journal-title": "BMC Genomics"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR26",
+            "doi-asserted-by": "crossref",
+            "first-page": "264",
+            "DOI": "10.1523/JNEUROSCI.4178-07.2008",
+            "volume": "28",
+            "author": "JD Cahoy",
+            "year": "2008",
+            "unstructured": "Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL, Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA, et al. A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci. 2008;28(1):264\u201378.",
+            "journal-title": "J Neurosci"
+          },
+          {
+            "issue": "3",
+            "key": "3065_CR27",
+            "first-page": "335",
+            "volume": "35",
+            "author": "V Bachmann",
+            "year": "2012",
+            "unstructured": "Bachmann V, Klein C, Bodenmann S, Sch\u00e4fer N, Berger W, Brugger P, Landolt H-P. The BDNF Val66Met polymorphism modulates sleep intensity: EEG frequency- and state-specificity. Sleep. 2012;35(3):335\u201344.",
+            "journal-title": "Sleep"
+          },
+          {
+            "issue": "10",
+            "key": "3065_CR28",
+            "doi-asserted-by": "crossref",
+            "first-page": "e26622",
+            "DOI": "10.1371/journal.pone.0026622",
+            "volume": "6",
+            "author": "V Mongrain",
+            "year": "2011",
+            "unstructured": "Mongrain V, La Spada F, Curie T, Franken P. Sleep loss reduces the DNA-binding of BMAL1, CLOCK, and NPAS2 to specific clock genes in the mouse cerebral cortex. PLoS One. 2011;6(10):e26622.",
+            "journal-title": "PLoS One"
+          },
+          {
+            "issue": "24",
+            "key": "3065_CR29",
+            "doi-asserted-by": "crossref",
+            "first-page": "9974",
+            "DOI": "10.1073/pnas.1221381110",
+            "volume": "110",
+            "author": "J Helou El",
+            "year": "2013",
+            "unstructured": "El Helou J, Belanger-Nelson E, Freyburger M, Dorsaz S, Curie T, La Spada F, Gaudreault PO, Beaumont E, Pouliot P, Lesage F, et al. Neuroligin-1 links neuronal activity to sleep-wake regulation. Proc Natl Acad Sci U S A. 2013;110(24):9974\u20139.",
+            "journal-title": "Proc Natl Acad Sci U S A"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR30",
+            "doi-asserted-by": "crossref",
+            "first-page": "169",
+            "DOI": "10.1091/mbc.E13-09-0558",
+            "volume": "25",
+            "author": "T Hirose",
+            "year": "2014",
+            "unstructured": "Hirose T, Virnicchi G, Tanigawa A, Naganuma T, Li R, Kimura H, Yokoi T, Nakagawa S, Benard M, Fox AH, et al. NEAT1 long noncoding RNA regulates transcription via protein sequestration within subnuclear bodies. Mol Biol Cell. 2014;25(1):169\u201383.",
+            "journal-title": "Mol Biol Cell"
+          },
+          {
+            "issue": "18",
+            "key": "3065_CR31",
+            "doi-asserted-by": "crossref",
+            "first-page": "3027",
+            "DOI": "10.1007/s00018-012-0973-x",
+            "volume": "69",
+            "author": "S Nakagawa",
+            "year": "2012",
+            "unstructured": "Nakagawa S, Hirose T. Paraspeckle nuclear bodies\u2014useful uselessness? Cell Mol Life Sci. 2012;69(18):3027\u201336.",
+            "journal-title": "Cell Mol Life Sci"
+          },
+          {
+            "issue": "9",
+            "key": "3065_CR32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1147",
+            "DOI": "10.1093/sleep/33.9.1147",
+            "volume": "33",
+            "author": "V Mongrain",
+            "year": "2010",
+            "unstructured": "Mongrain V, Hernandez SA, Pradervand S, Dorsaz S, Curie T, Hagiwara G, Gip P, Heller HC, Franken P. Separating the contribution of glucocorticoids and wakefulness to the molecular and electrophysiological correlates of sleep homeostasis. Sleep. 2010;33(9):1147\u201357.",
+            "journal-title": "Sleep"
+          },
+          {
+            "issue": "36",
+            "key": "3065_CR33",
+            "doi-asserted-by": "crossref",
+            "first-page": "14288",
+            "DOI": "10.1523/JNEUROSCI.5102-12.2013",
+            "volume": "33",
+            "author": "M Bellesi",
+            "year": "2013",
+            "unstructured": "Bellesi M, Pfister-Genskow M, Maret S, Keles S, Tononi G, Cirelli C. Effects of sleep and wake on oligodendrocytes and their precursors. J Neurosci. 2013;33(36):14288\u2013300.",
+            "journal-title": "J Neurosci"
+          },
+          {
+            "key": "3065_CR34",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.1186/s12915-015-0176-7",
+            "volume": "13",
+            "author": "M Bellesi",
+            "year": "2015",
+            "unstructured": "Bellesi M, de Vivo L, Tononi G, Cirelli C. Effects of sleep and wake on astrocytes: clues from molecular and ultrastructural studies. BMC Biol. 2015;13:66.",
+            "journal-title": "BMC Biol"
+          },
+          {
+            "issue": "3",
+            "key": "3065_CR35",
+            "doi-asserted-by": "crossref",
+            "first-page": "R199",
+            "DOI": "10.1152/ajpregu.00422.2014",
+            "volume": "308",
+            "author": "AJ Watson",
+            "year": "2015",
+            "unstructured": "Watson AJ, Henson K, Dorsey SG, Frank MG. The truncated TrkB receptor influences mammalian sleep. Am J Physiol Regul Integr Comp Physiol. 2015;308(3):R199\u2013207.",
+            "journal-title": "Am J Physiol Regul Integr Comp Physiol"
+          },
+          {
+            "issue": "1",
+            "key": "3065_CR36",
+            "doi-asserted-by": "crossref",
+            "first-page": "289",
+            "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+            "volume": "57",
+            "author": "Y Benjamini",
+            "year": "1995",
+            "unstructured": "Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J R Stat Soc Ser B Methodol. 1995;57(1):289\u2013300.",
+            "journal-title": "J R Stat Soc Ser B Methodol"
+          }
+        ],
+        "container-title": [
+          "BMC Genomics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1186/s12864-016-3065-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              20
+            ]
+          ],
+          "date-time": "2024-06-20T04:57:58Z",
+          "timestamp": 1718859478000
+        },
+        "score": 23.885418,
+        "resource": {
+          "primary": {
+            "URL": "http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3065-8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "references-count": 36,
+        "journal-issue": {
+          "issue": "S8",
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "3065"
+        ],
+        "URL": "https://doi.org/10.1186/s12864-016-3065-8",
+        "ISSN": [
+          "1471-2164"
+        ],
+        "issn-type": [
+          {
+            "value": "1471-2164",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "article-number": "727"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2025-03-12T04:25:42Z",
+          "timestamp": 1741753542312,
+          "version": "3.38.0"
+        },
+        "reference-count": 1,
+        "publisher": "Radiopaedia.org",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.53347/rid-28221",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2021-10-21T01:53:53Z",
+          "timestamp": 1634781233000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "20\u00b0 oblique projection"
+        ],
+        "prefix": "10.53347",
+        "author": [
+          {
+            "given": "Avni",
+            "family": "Skandhan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Murphy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yusra",
+            "family": "Sheikh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "30861",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "unstructured": "Valerie Andolina, Shelly Lill\u00e9. Mammographic Imaging. (2011) ISBN: 9781605470313 -",
+            "key": "ref1"
+          }
+        ],
+        "container-title": [
+          "Radiopaedia.org"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2025-03-11T08:02:57Z",
+          "timestamp": 1741680177000
+        },
+        "score": 23.427242,
+        "resource": {
+          "primary": {
+            "URL": "https://radiopaedia.org/articles/28221"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        },
+        "references-count": 1,
+        "URL": "https://doi.org/10.53347/rid-28221",
+        "archive": [
+          "Internet Archive"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2024-09-10T08:11:45Z",
+          "timestamp": 1725955905867
+        },
+        "edition-number": "0",
+        "reference-count": 0,
+        "publisher": "Routledge",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9780080967691"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              13
+            ]
+          ]
+        },
+        "DOI": "10.4324/9780080967691-13",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2020-12-21T05:45:11Z",
+          "timestamp": 1608529511000
+        },
+        "page": "83-90",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Oblique Projection"
+        ],
+        "prefix": "10.4324",
+        "member": "301",
+        "container-title": [
+          "Geometric and Engineering Drawing 3E"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              21
+            ]
+          ],
+          "date-time": "2020-12-21T05:45:17Z",
+          "timestamp": 1608529517000
+        },
+        "score": 23.299887,
+        "resource": {
+          "primary": {
+            "URL": "https://www.taylorfrancis.com/books/9781136439667/chapters/10.4324/9780080967691-13"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              13
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780080967691"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.4324/9780080967691-13",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2025-10-29T03:30:31Z",
+          "timestamp": 1761708631617
+        },
+        "reference-count": 10,
+        "publisher": "China Science Publishing & Media Ltd.",
+        "issue": "3",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Electronics &amp; Information Technology"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              3,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.3724/sp.j.1146.2006.01263",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2011-03-11T06:51:39Z",
+          "timestamp": 1299826299000
+        },
+        "page": "585-588",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "title": [
+          "Oblique Projection-Based Beamforming Algorithm"
+        ],
+        "prefix": "10.3724",
+        "volume": "30",
+        "author": [
+          {
+            "given": "Xiao-fei",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Da-zhuan",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "2026",
+        "reference": [
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-1"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-2"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-3",
+            "doi-asserted-by": "publisher",
+            "author": "McCloud M L",
+            "DOI": "10.1109/TAP.2002.805244"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-4",
+            "doi-asserted-by": "publisher",
+            "author": "Fredrick J D",
+            "DOI": "10.1109/TMTT.2002.805150"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-5",
+            "author": "Carlson B D"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-6"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-7",
+            "doi-asserted-by": "publisher",
+            "author": "Van Veen B D and Buckley K M",
+            "DOI": "10.1109/53.665"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-8"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-9",
+            "doi-asserted-by": "publisher",
+            "author": "Yu Xiang and Tong Lang",
+            "DOI": "10.1109/78.969515"
+          },
+          {
+            "key": "10.3724/SP.J.1146.2006.01263-10",
+            "doi-asserted-by": "publisher",
+            "author": "Behrens R T and Scharf L L",
+            "DOI": "10.1109/78.286957"
+          }
+        ],
+        "container-title": [
+          "Journal of Electronics &amp; Information Technology"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://jeit.ac.cn/article/exportPdf?id=cd6b418f-547b-42dc-964b-a742ddbae49c",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              24
+            ]
+          ],
+          "date-time": "2022-02-24T08:47:18Z",
+          "timestamp": 1645692438000
+        },
+        "score": 23.158714,
+        "resource": {
+          "primary": {
+            "URL": "http://jeit.ie.ac.cn/CN/10.3724/SP.J.1146.2006.01263"
+          }
+        },
+        "subtitle": [
+          "Oblique Projection-Based Beamforming Algorithm"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              3,
+              1
+            ]
+          ]
+        },
+        "references-count": 10,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                3,
+                20
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.3724/sp.j.1146.2006.01263",
+        "ISSN": [
+          "1009-5896"
+        ],
+        "issn-type": [
+          {
+            "value": "1009-5896",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              3,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2025-03-12T04:25:43Z",
+          "timestamp": 1741753543214,
+          "version": "3.38.0"
+        },
+        "reference-count": 1,
+        "publisher": "Radiopaedia.org",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.53347/rid-28222",
+        "type": "reference-entry",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              21
+            ]
+          ],
+          "date-time": "2021-10-21T01:53:54Z",
+          "timestamp": 1634781234000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Inferomedial superolateral oblique projection"
+        ],
+        "prefix": "10.53347",
+        "author": [
+          {
+            "given": "Avni",
+            "family": "Skandhan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Murphy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Craig",
+            "family": "Hacking",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "30861",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref1",
+            "unstructured": "Mammographic Imaging. Lippincott Williams &amp; Wilkins. (2011) ISBN:1605470317."
+          }
+        ],
+        "container-title": [
+          "Radiopaedia.org"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2025-03-11T08:05:00Z",
+          "timestamp": 1741680300000
+        },
+        "score": 23.096668,
+        "resource": {
+          "primary": {
+            "URL": "https://radiopaedia.org/articles/28222"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        },
+        "references-count": 1,
+        "URL": "https://doi.org/10.53347/rid-28222",
+        "archive": [
+          "Internet Archive"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2024-09-03T23:02:46Z",
+          "timestamp": 1725404566693
+        },
+        "reference-count": 6,
+        "publisher": "IEEE",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005
+            ]
+          ]
+        },
+        "DOI": "10.1109/eumc.2005.1610059",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2006,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2006-04-06T20:21:22Z",
+          "timestamp": 1144354882000
+        },
+        "page": "4 pp.-852",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Oblique-oblique projection in TLM-MOR for high-Q structures"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "D.",
+            "family": "Lukashevich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Russer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-59629-2_17"
+          },
+          {
+            "key": "2",
+            "first-page": "371",
+            "article-title": "Reduced Order Modeling in TLM",
+            "author": "lukashevich",
+            "year": "2003",
+            "journal-title": "Proceedings of ACES 2003"
+          },
+          {
+            "key": "1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MWSYM.2003.1212566"
+          },
+          {
+            "key": "6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/20.996175"
+          },
+          {
+            "key": "5",
+            "article-title": "Simplification of the Nonsymmetric Lanczos Process and a New Algorithm for Hemitian Indefinite Liniar Systems",
+            "author": "freund",
+            "year": "1995",
+            "journal-title": "Numerical Analysis"
+          },
+          {
+            "key": "4",
+            "article-title": "The Algebraic Eigenvalue Problem",
+            "author": "wilkinson",
+            "year": "0",
+            "journal-title": "Monographs on Numerical Analysis"
+          }
+        ],
+        "event": {
+          "name": "2005 European Microwave Conference",
+          "start": {
+            "date-parts": [
+              [
+                2005,
+                10,
+                4
+              ]
+            ]
+          },
+          "location": "Paris, France",
+          "end": {
+            "date-parts": [
+              [
+                2005,
+                10,
+                6
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2005 European Microwave Conference"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/10686/33799/01610059.pdf?arnumber=1610059",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2017-03-15T12:34:34Z",
+          "timestamp": 1489581274000
+        },
+        "score": 23.033611,
+        "resource": {
+          "primary": {
+            "URL": "http://ieeexplore.ieee.org/document/1610059/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005
+            ]
+          ]
+        },
+        "references-count": 6,
+        "URL": "https://doi.org/10.1109/eumc.2005.1610059",
+        "published": {
+          "date-parts": [
+            [
+              2005
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2025-10-27T20:51:35Z",
+          "timestamp": 1761598295308,
+          "version": "build-2065373602"
+        },
+        "reference-count": 34,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Gene Expression Patterns"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.gep.2021.119166",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2021-01-13T23:08:21Z",
+          "timestamp": 1610579301000
+        },
+        "page": "119166",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "special_numbering": "C",
+        "title": [
+          "Prediction of future gene expression profile by analyzing its past variation pattern"
+        ],
+        "prefix": "10.1016",
+        "volume": "39",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6565-5097",
+            "authenticated-orcid": false,
+            "given": "Parinaz",
+            "family": "Eskandarian",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jamshid",
+            "family": "Bagherzadeh Mohasefi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Habibollah",
+            "family": "Pirnejad",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zahra",
+            "family": "Niazkhani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.gep.2021.119166_bib1",
+            "series-title": "Presented at 11th Annual Graduate Research Symposium",
+            "article-title": "A versatile stochastic model for stem cell growth",
+            "author": "Arif",
+            "year": "2012"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib2",
+            "series-title": "\"Vector Autoregressive (VAR) Models and Causality Tests\", Applied Econometrics",
+            "first-page": "319",
+            "author": "Asteriou",
+            "year": "2011"
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.gep.2021.119166_bib3",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1371/journal.pone.0180944",
+            "article-title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+            "volume": "12",
+            "author": "Bao",
+            "year": "2017",
+            "journal-title": "PloS One"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib4",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1038/s41420-019-0215-1",
+            "article-title": "Extracellular annexin-A1 promotes myeloid/granulocytic differentiation of hematopoietic stem/progenitor cells via the Ca2+/MAPK signalling transduction pathway",
+            "volume": "5",
+            "author": "Barbosa",
+            "year": "2019",
+            "journal-title": "Cell Death Discovery"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.gep.2021.119166_bib5",
+            "article-title": "Time-course data prediction for repeatedly measured gene expression",
+            "volume": "12",
+            "author": "Bhattacharjee",
+            "year": "2019",
+            "journal-title": "Int. J. Biomath. (IJB)"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.gep.2021.119166_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1016/j.jocs.2010.12.007",
+            "article-title": "March). Twitter mood predicts the stock market",
+            "volume": "2",
+            "author": "Bollen",
+            "year": "2011",
+            "journal-title": "Journal of computational science"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.gep.2021.119166_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "403",
+            "DOI": "10.1038/nmeth.4182",
+            "article-title": "Prospective identification of hematopoietic lineage choice by deep learning",
+            "volume": "14",
+            "author": "Buggenthin",
+            "year": "2017",
+            "journal-title": "Nat. Methods"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "426",
+            "DOI": "10.1016/j.exphem.2010.02.012",
+            "article-title": "Comparison between an artificial neural network and logistic regression in predicting acute graft-vs-host disease after unrelated donor hematopoietic stem cell transplantation in thalassemia patients",
+            "volume": "38",
+            "author": "Caocci",
+            "year": "2010",
+            "journal-title": "Exp. Hematol."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.gep.2021.119166_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "961",
+            "DOI": "10.1016/S0893-6080(05)80092-9",
+            "article-title": "Forecasting the behavior of multivariate time series using neural networks",
+            "volume": "5",
+            "author": "Chakraborty",
+            "year": "1992",
+            "journal-title": "Neural Network."
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.gep.2021.119166_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "1832",
+            "DOI": "10.1093/bioinformatics/btw074",
+            "article-title": "Gene expression inference with deep learning",
+            "volume": "32",
+            "author": "Chen",
+            "year": "2016",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib11",
+            "series-title": "Proc. UrbCom\u201917, Halifax",
+            "article-title": "Deep stacked bidirectional and unidirectional LSTM recurrent neural network for network-wide traffic speed prediction",
+            "author": "Cui",
+            "year": "2017"
+          },
+          {
+            "year": "2017",
+            "series-title": "R2N2: residual recurrent neural networks for multivariate time series forecasting",
+            "author": "Goel",
+            "key": "10.1016/j.gep.2021.119166_bib12"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib13",
+            "series-title": "Proc. 2013 IEEE International Conference on Acoustics, Speech and Signal Processing",
+            "article-title": "Speech recognition with deep recurrent neural networks",
+            "author": "Graves",
+            "year": "2013"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.gep.2021.119166_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "24",
+            "DOI": "10.1016/j.stem.2011.06.002",
+            "article-title": "Cell fate potential of human pluripotent stem cells is encoded by histone modifications",
+            "volume": "9",
+            "author": "Hong",
+            "year": "2011",
+            "journal-title": "Cell Stem Cell"
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.gep.2021.119166_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "1182",
+            "DOI": "10.1093/bioinformatics/bts096",
+            "article-title": "R/DWD: distance-weighted discrimination for classification, visualization and batch adjustment",
+            "volume": "28",
+            "author": "Huang",
+            "year": "2012",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.gep.2021.119166_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "94",
+            "DOI": "10.4236/sgre.2016.73006",
+            "article-title": "Neural network for estimating daily global solar radiation using temperature, humidity and pressure as unique climatic input variables",
+            "volume": "7",
+            "author": "Jimenez",
+            "year": "2016",
+            "journal-title": "Smart Grid Renew. Energy"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.gep.2021.119166_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "166",
+            "DOI": "10.1016/j.stem.2018.04.014",
+            "article-title": "Single-cell transcriptomics meets lineage tracing",
+            "volume": "23",
+            "author": "Kester",
+            "year": "2018",
+            "journal-title": "Cell Stem Cell"
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.gep.2021.119166_bib18",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1371/journal.pone.0144029",
+            "article-title": "A combination of culture conditions and gene expression analysis can Be used to investigate and predict hES cell differentiation potential towards male gonadal cells",
+            "volume": "10",
+            "author": "Kjartansd\u00f3ttir",
+            "year": "2015",
+            "journal-title": "PloS One"
+          },
+          {
+            "year": "2018",
+            "series-title": "EA-LSTM: evolutionary attention-based LSTM for time series prediction",
+            "author": "Li",
+            "key": "10.1016/j.gep.2021.119166_bib19"
+          },
+          {
+            "year": "2018",
+            "series-title": "Layer Trajectory LSTM",
+            "author": "Li",
+            "key": "10.1016/j.gep.2021.119166_bib20"
+          },
+          {
+            "year": "1990",
+            "series-title": "Time Series Techniques for Economists",
+            "author": "Mills",
+            "key": "10.1016/j.gep.2021.119166_bib21"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.gep.2021.119166_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "63",
+            "DOI": "10.1007/s11047-014-9468-z",
+            "article-title": "March). Principled simulation of cell proliferation dynamics using the CoSMoS approach",
+            "volume": "14",
+            "author": "Polack",
+            "year": "2015",
+            "journal-title": "Nat. Comput."
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib23",
+            "series-title": "Proc. The Twenty-Sixth International Joint Conference on Artificial Intelligence (IJCAI-17)",
+            "first-page": "2627",
+            "article-title": "A dual-stage attention-based recurrent neural network for time series prediction",
+            "author": "Qin",
+            "year": "2017"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib24",
+            "series-title": "Proc. The 5th Annual ACM Web Science Conference",
+            "first-page": "336",
+            "article-title": "Modeling movements in oil, gold, forex and market indices using search volume index and twitter sentiments",
+            "author": "Rao",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/j.gep.2021.119166_bib25",
+            "article-title": "Forecasting cell fate during antibiotic exposure using stochastic gene expression",
+            "volume": "2",
+            "author": "Rossi",
+            "year": "2019",
+            "journal-title": "Communications Biology"
+          },
+          {
+            "issue": "12",
+            "key": "10.1016/j.gep.2021.119166_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1916",
+            "DOI": "10.1182/bloodadvances.2019000039",
+            "article-title": "In vivo dynamics of human hematopoietic stem cells: novel concepts and future directions",
+            "volume": "3",
+            "author": "Scala",
+            "year": "2019",
+            "journal-title": "Blood Adv"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.gep.2021.119166_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "640",
+            "DOI": "10.1002/wsbm.86",
+            "article-title": "Hematopoietic stem cell: self-renewal versus differentiation",
+            "volume": "2",
+            "author": "Seita",
+            "year": "2010",
+            "journal-title": "Wiley Interdiscip Rev Syst Biol Med"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.gep.2021.119166_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "1154",
+            "DOI": "10.1093/bioinformatics/btn083",
+            "article-title": "Merging two gene-expression studies via cross-platform normalization",
+            "volume": "24",
+            "author": "Shabalin",
+            "year": "2008",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "year": "2012",
+            "series-title": "Training Recurrent Neural Networks",
+            "author": "Sutskever",
+            "key": "10.1016/j.gep.2021.119166_bib29"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.gep.2021.119166_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "348",
+            "DOI": "10.1016/j.energy.2010.10.032",
+            "article-title": "Optimization of an artificial neural network dedicated to the multivariate forecasting of daily global radiation",
+            "volume": "36",
+            "author": "Voyant",
+            "year": "2011",
+            "journal-title": "Energy"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.gep.2021.119166_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "389",
+            "DOI": "10.3390/microarrays4030389",
+            "article-title": "Microarray meta-analysis and cross-platform normalization: integrative genomics for robust biomarker discovery",
+            "volume": "4",
+            "author": "Walsh",
+            "year": "2015",
+            "journal-title": "Microarrays"
+          },
+          {
+            "issue": "10",
+            "key": "10.1016/j.gep.2021.119166_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1550",
+            "DOI": "10.1109/5.58337",
+            "article-title": "\u201cBackpropagation through time: what it does and how to do it\u201d, in proc",
+            "volume": "78",
+            "author": "Werbos",
+            "year": "1990",
+            "journal-title": "the IEEE"
+          },
+          {
+            "issue": "8",
+            "key": "10.1016/j.gep.2021.119166_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "2042",
+            "DOI": "10.1111/trf.13666",
+            "article-title": "Decision-tree algorithm for optimized hematopoietic progenitor cell-based predictions in peripheral blood stem cell mobilization",
+            "volume": "56",
+            "author": "Wu",
+            "year": "2016",
+            "journal-title": "Transfusion"
+          },
+          {
+            "issue": "24",
+            "key": "10.1016/j.gep.2021.119166_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "1884",
+            "DOI": "10.1089/scd.2016.0099",
+            "article-title": "Prediction of differentiation tendency toward Hepatocytes from gene expression in undifferentiated human pluripotent stem cells",
+            "volume": "25",
+            "author": "Yanagihara",
+            "year": "2016",
+            "journal-title": "Stem Cell. Dev."
+          }
+        ],
+        "container-title": [
+          "Gene Expression Patterns"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1567133X21000016?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1567133X21000016?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              27
+            ]
+          ],
+          "date-time": "2025-10-27T14:26:48Z",
+          "timestamp": 1761575208000
+        },
+        "score": 22.832945,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1567133X21000016"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "references-count": 34,
+        "alternative-id": [
+          "S1567133X21000016"
+        ],
+        "URL": "https://doi.org/10.1016/j.gep.2021.119166",
+        "ISSN": [
+          "1567-133X"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1567-133X"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Prediction of future gene expression profile by analyzing its past variation pattern",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Gene Expression Patterns",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.gep.2021.119166",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "\u00a9 2021 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "119166"
+      },
+      {
+        "institution": [
+          {
+            "name": "bioRxiv"
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2026-01-15T14:53:05Z",
+          "timestamp": 1768488785282,
+          "version": "3.49.0"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              11
+            ]
+          ]
+        },
+        "group-title": "Genomics",
+        "reference-count": 100,
+        "publisher": "openRxiv",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  2,
+                  11
+                ]
+              ],
+              "date-time": "2020-02-11T00:00:00Z",
+              "timestamp": 1581379200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              11
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  For most biological processes, organisms must respond to extrinsic cues, while maintaining essential gene expression programs. Although studied extensively in single cells, it is still unclear how variation is controlled in multicellular organisms. Here, we used a machine-learning approach to identify genomic features that are predictive of genes with high versus low variation in their expression across individuals, using bulk data to remove stochastic cell-to-cell variation. Using embryonic gene expression across 75\n                  <jats:italic>Drosophila</jats:italic>\n                  isogenic lines, we identify features predictive of expression variation, while controlling for expression level. Genes with low variation fall into two classes, indicating they employ different mechanisms to maintain a robust expression. In contrast, genes with high variation seem to lack both types of stabilizing mechanisms. Applying the framework to human tissues from GTEx revealed similar predictive features, indicating that promoter architecture is an ancient mechanism to control expression variation. Remarkably, expression variation features could also predict differential expression upon stress in both\n                  <jats:italic>Drosophila</jats:italic>\n                  and human. Differential gene expression signatures may therefore be partially explained by genetically encoded gene-specific features, unrelated to the studied treatment.\n                </jats:p>",
+        "DOI": "10.1101/2020.02.10.942276",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2020-02-12T01:25:11Z",
+          "timestamp": 1581470711000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "Predictive features of gene expression variation reveal a mechanistic link between expression variation and differential expression"
+        ],
+        "prefix": "10.64898",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8598-1079",
+            "authenticated-orcid": false,
+            "given": "Olga M.",
+            "family": "Sigalova",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Amirreza",
+            "family": "Shaeiri",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Mattia",
+            "family": "Forneris",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Eileen E.M.",
+            "family": "Furlong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8324-4040",
+            "authenticated-orcid": false,
+            "given": "Judith B",
+            "family": "Zaugg",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "54368",
+        "reference": [
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Alemu, Elfalem Y , Joseph W Carl Jr , H\u00e9 Ctor , Corrada Bravo , and Sridhar Hannenhalli . 2014. \u201cDeterminants of Expression Variability.\u201d https://doi.org/10.1093/nar/gkt1364.",
+            "DOI": "10.1093/nar/gkt1364"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/bty127"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/gb-2010-11-10-r106"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btu638"
+          },
+          {
+            "issue": "2",
+            "key": "2024080319325367000_2020.02.10.942276v1.5",
+            "first-page": "136",
+            "article-title": "Genome-Wide Assessment of Sequence-Intrinsic Enhancer Responsiveness at Single-Base-Pair Resolution",
+            "volume": "35",
+            "year": "2016",
+            "journal-title": "Nature Biotechnology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkp335"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.7",
+            "first-page": "7",
+            "article-title": "Methods for Analyzing Deep Sequencing Expression Data: Constructing the Human and Mouse Promoterome with DeepCAGE Data",
+            "volume": "10",
+            "year": "2009",
+            "journal-title": "Genome Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ng2071"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cell.2015.11.018"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ng1616"
+          },
+          {
+            "issue": "6",
+            "key": "2024080319325367000_2020.02.10.942276v1.11",
+            "first-page": "1",
+            "article-title": "Mixtools: An R Package for Analyzing Finite Mixture Models",
+            "volume": "32",
+            "year": "2009",
+            "journal-title": "Journal of Statistical Software"
+          },
+          {
+            "issue": "170",
+            "key": "2024080319325367000_2020.02.10.942276v1.12",
+            "first-page": "1",
+            "article-title": "Mlr: Machine Learning in R",
+            "volume": "17",
+            "year": "2016",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.molcel.2006.11.003"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.14",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Boettiger, Alistair N , and Michael Levine . 2009. \u201cSynchronous and Stochastic Patterns of Gene Activation in the Drosophila Embryo.\u201d https://doi.org/10.1126/science.1173976.",
+            "DOI": "10.1126/science.1173976"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btu170"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gky1120"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Cannav\u00f2, Enrico , Nils Koelling , Dermot Harnett , David Garfield , Francesco P Casale , Lucia Ciglar , Hilary E Gustafson , et al. 2016. \u201cGenetic Variants Regulating Expression Levels and Isoform Diversity during Embryogenesis.\u201d Nature. https://doi.org/10.1038/nature20802.",
+            "DOI": "10.1038/nature20802"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pbio.1001528"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ng1789"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.20",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chen, Linan , Jason G Dumelie , Xiao Li , Matthew Hk Cheng , Zhiyong Yang , John D Laver , Najeeb U Siddiqui , et al. 2014. \u201cGlobal Regulation of MRNA Translation and Stability in the Early Drosophila Embryo by the Smaug RNA-Binding Protein.\u201d https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053848/pdf/gb-2014-15-1-r4.pdf.",
+            "DOI": "10.1186/gb-2014-15-1-r4"
+          },
+          {
+            "issue": "2",
+            "key": "2024080319325367000_2020.02.10.942276v1.21",
+            "doi-asserted-by": "crossref",
+            "first-page": "e15",
+            "DOI": "10.1371/journal.pcbi.0030015",
+            "article-title": "Robustness Can Evolve Gradually in Complex Regulatory Gene Networks with Varying Topology",
+            "volume": "3",
+            "year": "2007",
+            "journal-title": "PLoS Computational Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.22",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Crow, Megan , Nathaniel Lim , Sara Ballouz , Paul Pavlidis , and Jesse Gillis . 2019. \u201cPredictability of Human Differential Gene Expression\u201d 116 (13). https://doi.org/10.1073/pnas.1802973116.",
+            "DOI": "10.1073/pnas.1802973116"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gky1113"
+          },
+          {
+            "issue": "1",
+            "key": "2024080319325367000_2020.02.10.942276v1.24",
+            "first-page": "139",
+            "article-title": "Maximum Likelihood from Incomplete Data via the EM Algorithm A",
+            "volume": "46",
+            "year": "1979",
+            "journal-title": "Journal of Applied Mechanics, Transactions ASME"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkq844"
+          },
+          {
+            "issue": "8",
+            "key": "2024080319325367000_2020.02.10.942276v1.26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1184",
+            "DOI": "10.1038/nprot.2009.97",
+            "article-title": "Mapping Identifiers for the Integration of Genomic Datasets with the R/Bioconductor Package BiomaRt",
+            "volume": "4",
+            "year": "2009",
+            "journal-title": "Nature Protocols"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0092-8674(89)90183-9"
+          },
+          {
+            "issue": "September",
+            "key": "2024080319325367000_2020.02.10.942276v1.28",
+            "first-page": "536",
+            "article-title": "Challenges in Measuring and Understanding Biological Noise",
+            "volume": "20",
+            "year": "2019",
+            "journal-title": "Nature Reviews Genetics"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Eling, Nils , Arianne C. Richard , Sylvia Richardson , John C. Marioni , and Catalina A. Vallejos . 2018. \u201cCorrecting the Mean-Variance Dependency for Differential Variability Testing Using Single-Cell RNA Sequencing Data.\u201d Cell Systems, August. https://doi.org/10.1016/J.CELS.2018.06.011.",
+            "DOI": "10.1016/j.cels.2018.06.011"
+          },
+          {
+            "issue": "12",
+            "key": "2024080319325367000_2020.02.10.942276v1.30",
+            "doi-asserted-by": "crossref",
+            "first-page": "2478",
+            "DOI": "10.1038/nprot.2017.124",
+            "article-title": "Chromatin-State Discovery and Genome Annotation with ChromHMM",
+            "volume": "12",
+            "year": "2017",
+            "journal-title": "Nature Protocols"
+          },
+          {
+            "issue": "5",
+            "key": "2024080319325367000_2020.02.10.942276v1.31",
+            "doi-asserted-by": "crossref",
+            "first-page": "471",
+            "DOI": "10.1016/j.cels.2017.10.003",
+            "article-title": "Systematic Analysis of the Determinants of Gene Expression Noise in Embryonic Stem Cells",
+            "volume": "5",
+            "year": "2017",
+            "journal-title": "Cell Systems"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.32",
+            "doi-asserted-by": "crossref",
+            "unstructured": "F\u00e9lix, Marie-Anne , and Michalis Barkoulas . 2015. \u201cPervasive Robustness in Biological Systems.\u201d Nature Publishing Group 16. https://doi.org/10.1038/nrg3949.",
+            "DOI": "10.1038/nrg3949"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cell.2010.09.009"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.34",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Foreman, Robert , and Roy Wollman . 2019. \u201cMammalian Gene Expression Variability Is Explained by Underlying Cell State.\u201d https://doi.org/10.1101/626424.",
+            "DOI": "10.1101/626424"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature13182"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1371/journal.pbio.0020137"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.37",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Gerber, Andr\u00e9 P , Stefan Luschnig , Mark A Krasnow , Patrick O Brown , Daniel Herschlag , and Christine Guthrie . 2006. \u201cGenome-Wide Identification of MRNAs Associated with the Translational Regulator PUMILIO in Drosophila Melanogaster.\u201d https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1400586/pdf/zpq4487.pdf.",
+            "DOI": "10.1073/pnas.0509260103"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ng.2653"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.39",
+            "first-page": "8",
+            "article-title": "CAGEr: Precise TSS Data Retrieval and High-Resolution Promoterome Mining for Integrative Analyses",
+            "volume": "43",
+            "year": "2015",
+            "journal-title": "Nucleic Acids Research"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.40",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Haberle, Vanja , and Alexander Stark . 2018. \u201cEukaryotic Core Promoters and the Functional Basis of Transcription Initiation.\u201d Nature Reviews Molecular Cell Biology, June, 1. https://doi.org/10.1038/s41580-018-0028-8.",
+            "DOI": "10.1038/s41580-018-0028-8"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gky1095"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.42",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hammonds, Ann S , Christopher A Bristow , William W Fisher , Richard Weiszmann , Siqi Wu , Volker Hartenstein , Manolis Kellis , Bin Yu , Erwin Frise , and Susan E Celniker . 2013. \u201cSpatial Expression of Transcription Factors in Drosophila Embryonic Organ Development.\u201d https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053779/pdf/gb-2013-14-12-r140.pdf.",
+            "DOI": "10.1186/gb-2013-14-12-r140"
+          },
+          {
+            "issue": "8",
+            "key": "2024080319325367000_2020.02.10.942276v1.43",
+            "doi-asserted-by": "crossref",
+            "first-page": "2719",
+            "DOI": "10.1534/g3.117.041277",
+            "article-title": "Evaluation and Design of Genome-Wide CRISPR/SpCas9 Knockout Screens",
+            "volume": "7",
+            "year": "2017",
+            "journal-title": "G3: Genes, Genomes, Genetics"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1101/gr.112466.110"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.45",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hu, Yanhui , Ian Flockhart , Arunachalam Vinayagam , Clemens Bergwitz , Bonnie Berger , Norbert Perrimon , and Stephanie E. Mohr . 2011. \u201cAn Integrative Approach to Ortholog Prediction for Disease-Focused and Other Functional Studies.\u201d BMC Bioinformatics 12. https://doi.org/10.1186/1471-2105-12-357.",
+            "DOI": "10.1186/1471-2105-12-357"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.46",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1242/dev.035139"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.47",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1101/gr.171546.113"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.48",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Junion, Guillaume , Mikhail Spivakov , Charles Girardot , Martina Braun , E Hilary Gustafson , Ewan Birney , and Eileen E M Furlong . 2012. \u201cA Transcription Factor Collective Defines Cardiac Cell Fate and Reflects Lineage History.\u201d https://doi.org/10.1016/j.cell.2012.01.030.",
+            "DOI": "10.1016/j.cell.2012.01.030"
+          },
+          {
+            "issue": "1",
+            "key": "2024080319325367000_2020.02.10.942276v1.49",
+            "doi-asserted-by": "crossref",
+            "first-page": "27",
+            "DOI": "10.1186/1471-2148-11-27",
+            "article-title": "Proportionality between Variances in Gene Expression Induced by Noise and Mutation: Consequence of Evolutionary Robustness",
+            "volume": "11",
+            "year": "2011",
+            "journal-title": "BMC Evolutionary Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.50",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kedlian, Veronika R , Handan Melike Donertas , and Janet M Thornton . 2019. \u201cThe Variability of Expression of Many Genes and Most Functional Pathways Is Observed to Increase with Age in Brain Transcriptome Data.\u201d https://doi.org/10.1101/526491.",
+            "DOI": "10.1101/526491"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.51",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1101/gr.229102. Article published online before print in May 2002"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.52",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkx1126"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gky1141"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.54",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkt1181"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.55",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1534/genetics.117.300657"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.56",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kursa, Miron B , and Witold R Rudnicki . 2010. \u201cFeature Selection with the Boruta Package.\u201d JSS Journal of Statistical Software. Vol. 36. http://www.jstatsoft.org/.",
+            "DOI": "10.18637/jss.v036.i11"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.57",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Kvon, Evgeny Z , Tomas Kazmar , Gerald Stampfel , J Omar Y\u00e1\u00f1ez-Cuna , Michaela Pagani , Katharina Schernhuber , Barry J Dickson , and Alexander Stark . 2014. \u201cGenome-Scale Functional Characterization of Drosophila Developmental Enhancers in Vivo.\u201d Nature 512. https://doi.org/10.1038/nature13395.",
+            "DOI": "10.1038/nature13395"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.58",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41586-018-0836-1"
+          },
+          {
+            "issue": "8",
+            "key": "2024080319325367000_2020.02.10.942276v1.59",
+            "doi-asserted-by": "crossref",
+            "first-page": "e1003118",
+            "DOI": "10.1371/journal.pcbi.1003118",
+            "article-title": "Software for Computing and Annotating Genomic Ranges.\u201d Edited by Andreas Prlic",
+            "volume": "9",
+            "year": "2013",
+            "journal-title": "PLoS Computational Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.60",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/msb.2008.11"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.61",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nrg3163"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.62",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btp352"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.63",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btp698"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.64",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Lippert, Christoph , Francesco Paolo Casale , Barbara Rakitsch , and Oliver Stegle . 2014. \u201cLIMIX: Genetic Analysis of Multiple Traits.\u201d BioRxiv, May, 003905. https://doi.org/10.1101/003905.",
+            "DOI": "10.1101/003905"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.65",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Liu, Jialin , Michael Frochaux , Vincent Gardeux , Bart Deplancke , and Marc Robinson- Rechavi . 2019. \u201cSelection against Expression Noise Explains the Origin of the Hourglass Pattern of Evo-Devo.\u201d BioRxiv, 700997. https://doi.org/10.1101/700997.",
+            "DOI": "10.1101/700997"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.66",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/s13059-014-0572-2"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.67",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Love, M. I. , Simon Anders , and Wolfgang Huber . 2014. Differential Analysis of Count Data - the DESeq2 Package. Genome Biology. Vol. 15. https://doi.org/110.1186/s13059-014-0550-8.",
+            "DOI": "10.1186/s13059-014-0550-8"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.68",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature10811"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.69",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Macneil, Lesley T , and Albertha J M Walhout . 2011. \u201cGene Regulatory Networks and the Role of Robustness and Stochasticity in the Control of Gene Expression.\u201d https://doi.org/10.1101/gr.097378.109.",
+            "DOI": "10.1101/gr.97378.109"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.70",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature14244"
+          },
+          {
+            "issue": "1",
+            "key": "2024080319325367000_2020.02.10.942276v1.71",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1186/s13059-018-1461-x",
+            "article-title": "CpG Island Composition Differences Are a Source of Gene Expression Noise Indicative of Promoter Responsiveness",
+            "volume": "19",
+            "year": "2018",
+            "journal-title": "Genome Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.72",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/1471-2164-16-S13-S8"
+          },
+          {
+            "issue": "6090",
+            "key": "2024080319325367000_2020.02.10.942276v1.73",
+            "first-page": "100",
+            "article-title": "An Abundance of Rare Functional Variants in 202 Drug Target Genes Sequenced in 14,002 People",
+            "volume": "337",
+            "year": "2015",
+            "journal-title": "Science"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.74",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkl608"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.75",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/gb-2002-3-12-research0087"
+          },
+          {
+            "issue": "17",
+            "key": "2024080319325367000_2020.02.10.942276v1.76",
+            "doi-asserted-by": "crossref",
+            "first-page": "1562",
+            "DOI": "10.1016/j.cub.2010.07.043",
+            "article-title": "Shadow Enhancers Foster Robustness of Drosophila Gastrulation",
+            "volume": "20",
+            "year": "2010",
+            "journal-title": "Current Biology : CB"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.77",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/bioinformatics/btq033"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.78",
+            "unstructured": "R Development Core Team. 2013. \u201cA Language and Environment for Statistical Computing.\u201d R Foundation for Statistical Computing. http://www.r-project.org."
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.79",
+            "first-page": "7",
+            "article-title": "Motif Composition, Conservation and Condition-Specificity of Single and Alternative Transcription Start Sites in the Drosophila Genome",
+            "volume": "10",
+            "year": "2009",
+            "journal-title": "Genome Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.80",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cell.2008.09.050"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.81",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ram\u00edrez, Fidel , Vivek Bhardwaj , Laura Arrigoni , Kin Chung Lam , Bj\u00f6rn A Gr\u00fcning , Jos\u00e9 Villaveces , Bianca Habermann , Asifa Akhtar , and Thomas Manke . 2018. \u201cHigh-Resolution TADs Reveal DNA Sequences Underlying Genome Organization in Flies.\u201d https://doi.org/10.1038/s41467-017-02525-w.",
+            "DOI": "10.1101/115063"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.82",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkx456"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.83",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1126/science.1105891"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.84",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ravarani, Charles N J , Guilhem Chalancon , Michal Breker , Natalia Sanchez De Groot , and M Madan Babu . 2015. \u201cAffinity and Competition for TBP Are Molecular Determinants of Gene Expression Noise.\u201d https://doi.org/10.1038/ncomms10417.",
+            "DOI": "10.1038/ncomms10417"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.85",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/nature12311"
+          },
+          {
+            "issue": "12",
+            "key": "2024080319325367000_2020.02.10.942276v1.86",
+            "first-page": "e1002585",
+            "article-title": "Single-Cell-Based Analysis Highlights a Surge in Cell-to-Cell Molecular Variability Preceding Irreversible Commitment in a Differentiation Process",
+            "volume": "14",
+            "year": "2016",
+            "journal-title": "Edited by Sarah A. Teichmann. PLOS Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.87",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Saunders, Abbie , Leighton J Core , Catherine Sutcliffe , John T Lis , and Hilary L Ashe . 2013. \u201cExtensive Polymerase Pausing during Drosophila Axis Patterning Enables High-Level and Pliable Transcription.\u201d https://doi.org/10.1101/gad.215459.113.",
+            "DOI": "10.1101/gad.215459.113"
+          },
+          {
+            "issue": "6230",
+            "key": "2024080319325367000_2020.02.10.942276v1.88",
+            "doi-asserted-by": "crossref",
+            "first-page": "128",
+            "DOI": "10.1126/science.aaa1738",
+            "article-title": "Gene Expression. MicroRNA Control of Protein Expression Noise",
+            "volume": "348",
+            "year": "2015",
+            "journal-title": "Science (New York, N.Y.)"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.89",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Schmiedel, J\u00f6rn M , Debora S Marks , Ben Lehner , and Nils Bl\u00fcthgen . 2018. \u201cNoise Control Is a Primary Function of MicroRNAs and Post-Transcriptional Regulation.\u201d https://doi.org/10.1101/168641.",
+            "DOI": "10.1101/168641"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.90",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Schor, Ignacio E , Jacob F Degner , Dermot Harnett , Enrico Cannav\u00f2 , Francesco P Casale , Heejung Shim , David A Garfield , et al. 2017. \u201cPromoter Shape Varies across Populations and Affects Promoter Evolution and Expression Noise.\u201d Nature Publishing Group 49. https://doi.org/10.1038/ng.3791.",
+            "DOI": "10.1038/ng.3791"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.91",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1186/gb-2002-3-2-reviews0003"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.92",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/hmg/ddx424"
+          },
+          {
+            "issue": "1",
+            "key": "2024080319325367000_2020.02.10.942276v1.93",
+            "first-page": "10",
+            "article-title": "Genome-Wide Map of Human and Mouse Transcription Factor Binding Sites Aggregated from ChIP-Seq Data",
+            "volume": "11",
+            "year": "2018",
+            "journal-title": "BMC Research Notes"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.94",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/150563a0"
+          },
+          {
+            "issue": "6",
+            "key": "2024080319325367000_2020.02.10.942276v1.95",
+            "first-page": "1431",
+            "volume": "158",
+            "year": "2015",
+            "journal-title": "Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.96",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1093/nar/gkx1037"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.97",
+            "unstructured": "Wright, Marvin N , and Andreas Ziegler . 2015. \u201cRanger: A Fast Implementation of Random Forests for High Dimensional Data in C++ and R.\u201d https://arxiv.org/pdf/1508.04409.pdf."
+          },
+          {
+            "issue": "5",
+            "key": "2024080319325367000_2020.02.10.942276v1.98",
+            "doi-asserted-by": "crossref",
+            "first-page": "284",
+            "DOI": "10.1089/omi.2011.0118",
+            "article-title": "ClusterProfiler: An R Package for Comparing Biological Themes among Gene Clusters",
+            "volume": "16",
+            "year": "2012",
+            "journal-title": "OMICS A Journal of Integrative Biology"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.99",
+            "doi-asserted-by": "crossref",
+            "first-page": "17995",
+            "DOI": "10.1038/srep17995",
+            "article-title": "Increased Variability of Genomic Transcription in Schizophrenia",
+            "volume": "5",
+            "year": "2015",
+            "journal-title": "Scientific Reports"
+          },
+          {
+            "key": "2024080319325367000_2020.02.10.942276v1.100",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zinzen, Robert P , Charles Girardot , Julien Gagneur , Martina Braun , and Eileen E M Furlong . 2009. \u201cCombinatorial Binding Predicts Spatio-Temporal Cis-Regulatory Activity.\u201d Nature 461. https://doi.org/10.1038/nature08531.",
+            "DOI": "10.1038/nature08531"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.02.10.942276",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2026-01-15T00:00:17Z",
+          "timestamp": 1768435217000
+        },
+        "score": 22.75462,
+        "resource": {
+          "primary": {
+            "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.02.10.942276"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              11
+            ]
+          ]
+        },
+        "references-count": 100,
+        "URL": "https://doi.org/10.1101/2020.02.10.942276",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              11
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2024-09-06T14:14:28Z",
+          "timestamp": 1725632068385
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 0,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783642644665"
+          },
+          {
+            "type": "electronic",
+            "value": "9783642605840"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-642-60584-0_8",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              9
+            ]
+          ],
+          "date-time": "2011-11-09T15:25:57Z",
+          "timestamp": 1320852357000
+        },
+        "page": "157-170",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Oblique Mercator Projection"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Maarten",
+            "family": "Hooijberg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "container-title": [
+          "Practical Geodesy"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-60584-0_8.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2021-05-06T11:49:49Z",
+          "timestamp": 1620301789000
+        },
+        "score": 22.72034,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-642-60584-0_8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783642644665",
+          "9783642605840"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-3-642-60584-0_8",
+        "published": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ],
+          "date-time": "2026-06-30T21:03:51Z",
+          "timestamp": 1782853431688,
+          "version": "3.54.5"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        },
+        "reference-count": 0,
+        "publisher": "Wiley",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  9,
+                  25
+                ]
+              ],
+              "date-time": "2024-09-25T00:00:00Z",
+              "timestamp": 1727222400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>Map projections transform the Earth's curved surface into a plane and are thus crucial for mapping and geospatial analysis. However, projections inevitably introduce distortion and the conventional approach is to select a suitable,\u00a0 predefined map projection for the mapped region.\u00a0Unfortunately, the available projections are limited in variety and can be difficult to evaluate effectively.</jats:p>\n                <jats:p>We propose an alternative approach: rather than selecting from a predefined set of projections, we introduce an algorithm that optimizes a single projection for a given data set: Data-Optimized Oblique Mercator (DOOM). At its core is the Hotine oblique Mercator projection, featuring a flexible set of adjustable parameters and a universal implementation in GIS platforms and related software. DOOM utilizes the well-established optimization algorithms Levenberg-Marquardt, Adamax, and BFGS, to optimize the projection parameters, minimizing distortion in the mapping of geospatial data.</jats:p>\n                <jats:p>\n                  The algorithm supports various objective functions (e.g., L\n                  <jats:sup>1</jats:sup>\n                  - and L\n                  <jats:sup>2</jats:sup>\n                  -norms, minmax) and can be extended to incorporate data weighting. The methodology is validated through several case studies, highlighting its adaptability across diverse applications.\u00a0 Additionally, we introduce a GIS plugin to streamline the use of optimized projection parameters, enhancing accessibility for the geospatial community.\n                </jats:p>",
+        "DOI": "10.22541/au.172729879.99875355/v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T17:13:27Z",
+          "timestamp": 1727284407000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "The Data-Optimized Oblique Mercator Projection"
+        ],
+        "prefix": "10.22541",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3735-9562",
+            "authenticated-orcid": false,
+            "given": "Sebastian von",
+            "family": "Specht",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Malte J",
+            "family": "Ziebarth",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "link": [
+          {
+            "URL": "https://www.authorea.com/doi/pdf/10.22541/au.172729879.99875355/v1",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ],
+          "date-time": "2026-06-30T20:09:48Z",
+          "timestamp": 1782850188000
+        },
+        "score": 22.67384,
+        "resource": {
+          "primary": {
+            "URL": "https://www.authorea.com/doi/full/10.22541/au.172729879.99875355/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.22541/au.172729879.99875355/v1",
+        "relation": {
+          "is-preprint-of": [
+            {
+              "id-type": "doi",
+              "id": "10.1109/JSTARS.2025.3542802",
+              "asserted-by": "subject"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        },
+        "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2024-07-02T07:39:28Z",
+          "timestamp": 1719905968255
+        },
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2008,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2008-05-01T00:00:00Z",
+              "timestamp": 1209600000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2016-10-12T00:00:00Z",
+              "timestamp": 1476230400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 3086,
+            "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Molecular Therapy"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1016/s1525-0016(16)39451-5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              25
+            ]
+          ],
+          "date-time": "2017-01-25T22:20:04Z",
+          "timestamp": 1485382804000
+        },
+        "page": "S19-S20",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "special_numbering": "S1",
+        "title": [
+          "48. MicroRNA-Regulated Transgene Expression System Reduces Unwanted Side Effects in Adenovirus Vector-Mediated Suicide Gene Therapy"
+        ],
+        "prefix": "10.1016",
+        "volume": "16",
+        "member": "78",
+        "container-title": [
+          "Molecular Therapy"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1525001616394515?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1525001616394515?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2018-09-04T17:21:57Z",
+          "timestamp": 1536081717000
+        },
+        "score": 22.656624,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1525001616394515"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "S1525001616394515"
+        ],
+        "URL": "https://doi.org/10.1016/s1525-0016(16)39451-5",
+        "ISSN": [
+          "1525-0016"
+        ],
+        "issn-type": [
+          {
+            "value": "1525-0016",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2024-04-29T19:42:01Z",
+          "timestamp": 1714419721968
+        },
+        "reference-count": 0,
+        "publisher": "Elsevier",
+        "isbn-type": [
+          {
+            "value": "9780080967684",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "DOI": "10.1016/b978-0-08-096768-4.00006-1",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              9,
+              3
+            ]
+          ],
+          "date-time": "2010-09-03T09:11:40Z",
+          "timestamp": 1283505100000
+        },
+        "page": "67-74",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Oblique Projection"
+        ],
+        "prefix": "10.1016",
+        "author": [
+          {
+            "given": "K.",
+            "family": "Morling",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "container-title": [
+          "Geometric and Engineering Drawing"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2018-12-08T08:27:21Z",
+          "timestamp": 1544257641000
+        },
+        "score": 22.596607,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780080967684000061"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780080967684"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1016/b978-0-08-096768-4.00006-1",
+        "published": {
+          "date-parts": [
+            [
+              2010
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T12:44:06Z",
+          "timestamp": 1725799446971
+        },
+        "publisher-location": "Berlin, Heidelberg",
+        "reference-count": 0,
+        "publisher": "Springer Berlin Heidelberg",
+        "isbn-type": [
+          {
+            "type": "print",
+            "value": "9783642417139"
+          },
+          {
+            "type": "electronic",
+            "value": "9783642417146"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "DOI": "10.1007/978-3-642-41714-6_150037",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2014-08-24T02:01:37Z",
+          "timestamp": 1408845697000
+        },
+        "page": "923-923",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "oblique Mercator projection"
+        ],
+        "prefix": "10.1007",
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ]
+        },
+        "container-title": [
+          "Dictionary Geotechnical Engineering/W\u00f6rterbuch GeoTechnik"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-41714-6_150037",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2014-08-24T02:01:55Z",
+          "timestamp": 1408845715000
+        },
+        "score": 22.492882,
+        "resource": {
+          "primary": {
+            "URL": "http://link.springer.com/10.1007/978-3-642-41714-6_150037"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783642417139",
+          "9783642417146"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1007/978-3-642-41714-6_150037",
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              31
+            ]
+          ],
+          "date-time": "2025-12-31T18:24:38Z",
+          "timestamp": 1767205478391,
+          "version": "build-2238731810"
+        },
+        "reference-count": 0,
+        "publisher": "Portico",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "GGG"
+        ],
+        "DOI": "10.4137/ggg.s14286",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              25
+            ]
+          ],
+          "date-time": "2014-05-25T16:27:06Z",
+          "timestamp": 1401035226000
+        },
+        "page": "1",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Recent Advances in Studying of Copy Number Variation and Gene Expression"
+        ],
+        "prefix": "10.3730",
+        "author": [
+          {
+            "given": "George",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lingyang",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kevin",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "1320",
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Gene Expression to Genetical Genomics"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2019-01-02T14:53:46Z",
+          "timestamp": 1546440826000
+        },
+        "score": 22.215483,
+        "resource": {
+          "primary": {
+            "URL": "http://access.portico.org/stable?au=phw17wtzhz7"
+          },
+          "secondary": [
+            {
+              "URL": "http://triggered.stanford.clockss.org/ServeContent?url=http%3A%2F%2Finsights.sagepub.com%2Frecent-advances-in-studying-of-copy-number-variation-and-gene-expressi-article-a4217",
+              "label": "CLOCKSS_STANFORD"
+            },
+            {
+              "URL": "http://triggered.edina.clockss.org/ServeContent?url=http%3A%2F%2Finsights.sagepub.com%2Frecent-advances-in-studying-of-copy-number-variation-and-gene-expressi-article-a4217",
+              "label": "CLOCKSS_EDINA"
+            },
+            {
+              "URL": "http://triggered.stanford.clockss.org/ServeContent?url=http%3A%2F%2Finsights.sagepub.com%2Frecent-advances-in-studying-of-copy-number-variation-and-gene-expressi-article-a4217",
+              "label": "CLOCKSS_SU"
+            }
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        },
+        "references-count": 0,
+        "aliases": [
+          "10.4137/gegg.s14286"
+        ],
+        "URL": "https://doi.org/10.4137/ggg.s14286",
+        "ISSN": [
+          "1179-5697"
+        ],
+        "issn-type": [
+          {
+            "value": "1179-5697",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              29
+            ]
+          ],
+          "date-time": "2026-09-29T16:38:51Z",
+          "timestamp": 1790699931029,
+          "version": "4.1.0"
+        },
+        "reference-count": 19,
+        "publisher": "Oxford University Press (OUP)",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  13
+                ]
+              ],
+              "date-time": "2016-10-13T00:00:00Z",
+              "timestamp": 1476316800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 423,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Australian National Health and Medical\n              Research Council Program",
+            "award": [
+              "SU2C-AACR-DT0409"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "SU2C-AACR-DT0409"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Australian National Health and Medical\n              Research Council Program",
+            "award": [
+              "APP1054618"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "APP1054618"
+                ]
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/100000002",
+            "name": "NIH",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100000002",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>When dealing with large scale gene expression studies, observations are commonly contaminated by sources of unwanted variation such as platforms or batches. Not taking this unwanted variation into account when analyzing the data can lead to spurious associations and to missing important signals. When the analysis is unsupervised, e.g. when the goal is to cluster the samples or to build a corrected version of the dataset\u2014as opposed to the study of an observed factor of interest\u2014taking unwanted variation into account can become a difficult task. The factors driving unwanted variation may be correlated with the unobserved factor of interest, so that correcting for the former can remove the latter if not done carefully. We show how negative control genes and replicate samples can be used to estimate unwanted variation in gene expression, and discuss how this information can be used to correct the expression data. The proposed methods are then evaluated on synthetic data and three gene expression datasets. They generally manage to remove unwanted variation without losing the signal of interest and compare favorably to state-of-the-art corrections. All proposed methods are implemented in the bioconductor package RUVnormalize.</jats:p>",
+        "DOI": "10.1093/biostatistics/kxv026",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2015-08-18T20:59:34Z",
+          "timestamp": 1439931574000
+        },
+        "page": "16-28",
+        "source": "Crossref",
+        "is-referenced-by-count": 84,
+        "title": [
+          "Correcting gene expression data when neither the unwanted variation nor the\n          factor of interest are observed"
+        ],
+        "prefix": "10.1093",
+        "volume": "17",
+        "author": [
+          {
+            "given": "Laurent",
+            "family": "Jacob",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Laboratoire de Biom\u00e9trie et Biologie \u00c9volutive, Universit\u00e9 de Lyon, Universit\u00e9 Lyon 1, CNRS, UMR, 5558 Lyon, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Johann A.",
+            "family": "Gagnon-Bartsch",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics, University of California, Berkeley, CA 974720, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Terence P.",
+            "family": "Speed",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Statistics, University of California, Berkeley, CA 974720, USA and Division of Bioinformatics, Walter and Eliza Hall Institute of Medical Research, Melbourne 3052, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "286",
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              17
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "18",
+            "key": "2019073010001687400_KXV026C1",
+            "doi-asserted-by": "crossref",
+            "first-page": "10101",
+            "DOI": "10.1073/pnas.97.18.10101",
+            "article-title": "Singular value decomposition for genome-wide\n            expression data processing and modeling",
+            "volume": "97",
+            "author": "Alter",
+            "year": "2000",
+            "journal-title": "PNAS"
+          },
+          {
+            "issue": "1",
+            "key": "2019073010001687400_KXV026C2",
+            "doi-asserted-by": "crossref",
+            "first-page": "105",
+            "DOI": "10.1093/bioinformatics/btg385",
+            "article-title": "Adjustment of systematic microarray data biases",
+            "volume": "20",
+            "author": "Benito",
+            "year": "2004",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "key": "2019073010001687400_KXV026C3",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1093/bioinformatics/19.2.185",
+            "article-title": "A\n            comparison of normalization methods for high density",
+            "volume": "19",
+            "author": "Bolstad",
+            "year": "2003",
+            "journal-title": "Bioinformatics"
+          },
+          {
+            "issue": "7216",
+            "key": "2019073010001687400_KXV026C4",
+            "doi-asserted-by": "crossref",
+            "first-page": "1061",
+            "DOI": "10.1038/nature07385",
+            "article-title": "Comprehensive genomic\n            characterization defines human glioblastoma genes and core pathways",
+            "volume": "455",
+            "year": "2008",
+            "journal-title": "Nature"
+          },
+          {
+            "issue": "7",
+            "key": "2019073010001687400_KXV026C5",
+            "doi-asserted-by": "crossref",
+            "first-page": "3606",
+            "DOI": "10.1021/ac502439y",
+            "article-title": "Statistical methods for handling unwanted variation in metabolomics\n            data",
+            "volume": "87",
+            "author": "De Livera",
+            "year": "2015",
+            "journal-title": "Analytical\n            Chemistry"
+          },
+          {
+            "key": "2019073010001687400_KXV026C6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1017/CBO9781139165495",
+            "volume-title": "Statistical Models: Theory And\n            Practice",
+            "author": "Freedman",
+            "year": "2005"
+          },
+          {
+            "key": "2019073010001687400_KXV026C7",
+            "author": "Gagnon-Bartsch",
+            "year": "2013"
+          },
+          {
+            "issue": "3",
+            "key": "2019073010001687400_KXV026C8",
+            "doi-asserted-by": "crossref",
+            "first-page": "539",
+            "DOI": "10.1093/biostatistics/kxr034",
+            "article-title": "Using\n            control genes to correct for unwanted variation in microarray data",
+            "volume": "13",
+            "author": "Gagnon-Bartsch",
+            "year": "2012",
+            "journal-title": "Biostatistics"
+          },
+          {
+            "key": "2019073010001687400_KXV026C9",
+            "doi-asserted-by": "crossref",
+            "first-page": "322",
+            "DOI": "10.1093/biomet/28.3-4.321",
+            "article-title": "Relation between two sets of\n            variates",
+            "volume": "28",
+            "author": "Hotelling",
+            "year": "1936",
+            "journal-title": "Biometrika"
+          },
+          {
+            "key": "2019073010001687400_KXV026C10",
+            "author": "Jacob",
+            "year": "2014"
+          },
+          {
+            "key": "2019073010001687400_KXV026C11",
+            "article-title": "A\n            blueprint for managing microarray technical variations and data processing in the large\n            randomized MINDACT trial",
+            "author": "Jacob",
+            "year": "2015"
+          },
+          {
+            "issue": "8",
+            "key": "2019073010001687400_KXV026C12",
+            "doi-asserted-by": "crossref",
+            "first-page": "118",
+            "DOI": "10.1093/biostatistics/kxj037",
+            "article-title": "Adjusting batch effects in microarray expression\n            data using empirical bayes methods",
+            "volume": "1",
+            "author": "Johnson",
+            "year": "2007",
+            "journal-title": "Biostatistics"
+          },
+          {
+            "issue": "4",
+            "key": "2019073010001687400_KXV026C13",
+            "doi-asserted-by": "crossref",
+            "first-page": "1909",
+            "DOI": "10.1534/genetics.108.094201",
+            "article-title": "Accurate discovery of expression quantitative trait\n            loci under confounding from spurious and genuine regulatory hotspots",
+            "volume": "180",
+            "author": "Kang",
+            "year": "2008",
+            "journal-title": "Genetics"
+          },
+          {
+            "issue": "9",
+            "key": "2019073010001687400_KXV026C14",
+            "doi-asserted-by": "crossref",
+            "first-page": "1724",
+            "DOI": "10.1371/journal.pgen.0030161",
+            "article-title": "Capturing heterogeneity in gene expression studies by surrogate variable\n            analysis",
+            "volume": "3",
+            "author": "Leek",
+            "year": "2007",
+            "journal-title": "PLoS\n            Genetics"
+          },
+          {
+            "issue": "48",
+            "key": "2019073010001687400_KXV026C15",
+            "doi-asserted-by": "crossref",
+            "first-page": "18718",
+            "DOI": "10.1073/pnas.0808709105",
+            "article-title": "A\n            general framework for multiple testing dependence",
+            "volume": "105",
+            "author": "Leek",
+            "year": "2008",
+            "journal-title": "PNAS"
+          },
+          {
+            "issue": "38",
+            "key": "2019073010001687400_KXV026C16",
+            "doi-asserted-by": "crossref",
+            "first-page": "16465",
+            "DOI": "10.1073/pnas.1002425107",
+            "article-title": "Correction for hidden confounders in the genetic\n            analysis of gene expression",
+            "volume": "107",
+            "author": "Listgarten",
+            "year": "2010",
+            "journal-title": "PNAS"
+          },
+          {
+            "key": "2019073010001687400_KXV026C17",
+            "first-page": "19",
+            "article-title": "Online learning for matrix factorization and sparse\n            coding",
+            "volume": "11",
+            "author": "Mairal",
+            "year": "2010",
+            "journal-title": "Journal of Machine Learning\n            Research"
+          },
+          {
+            "issue": "9",
+            "key": "2019073010001687400_KXV026C18",
+            "doi-asserted-by": "crossref",
+            "first-page": "896",
+            "DOI": "10.1038/nbt.2931",
+            "article-title": "Normalization of RNA-seq data using factor analysis\n            of control genes or samples",
+            "volume": "32",
+            "author": "Risso",
+            "year": "2014",
+            "journal-title": "Nature\n            Biotechnology"
+          },
+          {
+            "issue": "2",
+            "key": "2019073010001687400_KXV026C19",
+            "doi-asserted-by": "crossref",
+            "first-page": "373",
+            "DOI": "10.1038/sj.npp.1300337",
+            "article-title": "Gender-specific gene expression in\n            post-mortem human brain: localization to sex chromosomes",
+            "volume": "29",
+            "author": "Vawter",
+            "year": "2004",
+            "journal-title": "Neuropsychopharmacology"
+          }
+        ],
+        "container-title": [
+          "Biostatistics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://academic.oup.com/biostatistics/article-pdf/17/1/16/29017672/kxv026.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              19
+            ]
+          ],
+          "date-time": "2019-09-19T17:40:34Z",
+          "timestamp": 1568914834000
+        },
+        "score": 22.1974,
+        "resource": {
+          "primary": {
+            "URL": "https://academic.oup.com/biostatistics/article/17/1/16/1744198"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              17
+            ]
+          ]
+        },
+        "references-count": 19,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2015,
+                8,
+                17
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.1093/biostatistics/kxv026",
+        "ISSN": [
+          "1465-4644",
+          "1468-4357"
+        ],
+        "issn-type": [
+          {
+            "value": "1465-4644",
+            "type": "print"
+          },
+          {
+            "value": "1468-4357",
+            "type": "electronic"
+          }
+        ],
+        "published-other": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              21
+            ]
+          ],
+          "date-time": "2026-05-21T19:45:19Z",
+          "timestamp": 1779392719616,
+          "version": "3.53.1"
+        },
+        "reference-count": 0,
+        "publisher": "eLife Sciences Publications, Ltd",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  3,
+                  4
+                ]
+              ],
+              "date-time": "2018-03-04T00:00:00Z",
+              "timestamp": 1520121600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": []
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.7554/elife.35471.061",
+        "type": "peer-review",
+        "created": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              26
+            ]
+          ],
+          "date-time": "2018-07-26T02:00:12Z",
+          "timestamp": 1532570412000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Decision letter: Genetics of trans-regulatory variation in gene expression"
+        ],
+        "prefix": "10.7554",
+        "member": "4374",
+        "review": {
+          "type": "editor-report",
+          "stage": "pre-publication"
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              25
+            ]
+          ],
+          "date-time": "2024-04-25T21:44:57Z",
+          "timestamp": 1714081497000
+        },
+        "score": 22.100285,
+        "resource": {
+          "primary": {
+            "URL": "https://elifesciences.org/articles/35471v2/peer-reviews"
+          }
+        },
+        "editor": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7619-0048",
+            "authenticated-orcid": true,
+            "given": "Patricia J",
+            "family": "Wittkopp",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Michigan",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "editor"
+              }
+            ]
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              4
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.7554/elife.35471.061",
+        "relation": {
+          "is-review-of": [
+            {
+              "id-type": "doi",
+              "id": "10.7554/eLife.35471",
+              "asserted-by": "subject"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              12
+            ]
+          ],
+          "date-time": "2024-09-12T03:32:18Z",
+          "timestamp": 1726111938094
+        },
+        "edition-number": "0",
+        "reference-count": 0,
+        "publisher": "CRC Press",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9780429167409"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              30
+            ]
+          ]
+        },
+        "DOI": "10.1201/b13283-87",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              23
+            ]
+          ],
+          "date-time": "2020-12-23T03:25:06Z",
+          "timestamp": 1608693906000
+        },
+        "page": "188-189",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Shoulder Joint \u2013 Lateral Oblique \u2018Y\u2019 Projection"
+        ],
+        "prefix": "10.1201",
+        "member": "301",
+        "container-title": [
+          "Clark's Pocket Handbook for Radiographers"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              23
+            ]
+          ],
+          "date-time": "2020-12-23T03:26:14Z",
+          "timestamp": 1608693974000
+        },
+        "score": 22.079853,
+        "resource": {
+          "primary": {
+            "URL": "https://www.taylorfrancis.com/books/9781444166521/chapters/10.1201/b13283-87"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              30
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780429167409"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.1201/b13283-87",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              4,
+              30
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": "oblique projection unwanted variation gene expression"
+    }
+  }
+}

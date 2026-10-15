@@ -1,0 +1,74 @@
+{
+  "title": "Three-arm analysis of RR23 cerebellar RNA junction usage reveals differences between habitat and vivarium controls",
+  "planned_content_pages": 12,
+  "feature_definitions": 5724,
+  "measured_events": 5249,
+  "event_family": 17172,
+  "global_rows": [
+    {
+      "contrast": "FLT_minus_GC",
+      "features": 5249,
+      "mean_squared_contrast": 0.003073785346519,
+      "RMS_contrast_pp": 5.544172928867811,
+      "unbiased_squared_distance": 0.0022627798548538,
+      "exact_p": 4.113533525298231e-05,
+      "allocations": 48620,
+      "n_group_a": 9,
+      "n_group_b": 9,
+      "Holm_three_global_tests": 0.0001234060057589
+    },
+    {
+      "contrast": "GC_minus_VIV",
+      "features": 5249,
+      "mean_squared_contrast": 0.0016602009491883,
+      "RMS_contrast_pp": 4.074556355222424,
+      "unbiased_squared_distance": 0.000678115333214,
+      "exact_p": 0.002221308103661,
+      "allocations": 24310,
+      "n_group_a": 9,
+      "n_group_b": 8,
+      "Holm_three_global_tests": 0.0027972027972027
+    },
+    {
+      "contrast": "FLT_minus_VIV",
+      "features": 5249,
+      "mean_squared_contrast": 0.0014550021492462,
+      "RMS_contrast_pp": 3.814449041796566,
+      "unbiased_squared_distance": 0.0004755749921899,
+      "exact_p": 0.0013986013986013,
+      "allocations": 24310,
+      "n_group_a": 9,
+      "n_group_b": 8,
+      "Holm_three_global_tests": 0.0027972027972027
+    }
+  ],
+  "event_rows": [
+    {
+      "contrast": "FLT_minus_GC",
+      "measured": 5249,
+      "q05_joint3M": 451,
+      "q05_joint_and5pp": 400,
+      "q05_BY_joint": 0,
+      "q05_within": 740
+    },
+    {
+      "contrast": "FLT_minus_VIV",
+      "measured": 5249,
+      "q05_joint3M": 43,
+      "q05_joint_and5pp": 34,
+      "q05_BY_joint": 0,
+      "q05_within": 0
+    },
+    {
+      "contrast": "GC_minus_VIV",
+      "measured": 5249,
+      "q05_joint3M": 38,
+      "q05_joint_and5pp": 35,
+      "q05_BY_joint": 0,
+      "q05_within": 0
+    }
+  ],
+  "primary_pdf": "output/pdf/PAPER_2_BETA.pdf",
+  "verification_checks": 28,
+  "figures": 5
+}

@@ -1,0 +1,23 @@
+Figure 11 | A design calculator for local discovery in small exact-permutation spaceflight cohorts.
+(a) Minimum size k* of any non-empty Benjamini-Yekutieli discovery list at 0.05 (a block of k*
+tests tied at the exact two-sided p floor 2/C(2n,n) suffices), as a function of balanced
+design size, for four family sizes m. k* = ceil(m H_m / (R alpha)) with R = C(2n-1,n-1)
+mirror-reduced allocation levels; it depends only on the design and the family size, never on
+effect size, depth or biology. Crosses mark cells where k* exceeds m, so BY can reject nothing
+whatever the effects are. Star: this cohort (nine versus nine, m = 2,769, k* = 20). The dashed
+line is k* = 1, the condition for one isolated cluster to be reportable, first met at twelve
+animals per group for m = 2,769 (ten under Holm). (b-d) Monte Carlo power at the cohort's own
+calibration, with S = 80 designated cluster effects of 17.4 pp total variation among 923
+clusters corrected inside m = 2,769; 400 replicates per design cell, exact enumeration of all
+allocations for n <= 10 and 480,000 random balanced allocations including the observed one at
+n = 12 and 15 (a budget exceeding the 470,932 allocations below which no single test can clear
+BY at this family size). Lines are the calibrated scenario (Dirichlet-multinomial overdispersion
+theta = 0.017, median 140 selected-alternative reads per animal-cluster); shaded bands span
+theta 0.010-0.028 and depth 70-280 reads. (b) Probability of at least one BY discovery; grey
+dots are the full theta x depth grid at n = 9 and 10, which falls inside the band. (c) Per-effect
+power, with the two off-centre effect sizes shown separately; a 10 pp effect does not reach 50%
+power anywhere up to fifteen animals per group. (d) Expected number of BY discoveries on a log
+scale, annotated with k* at each design size; the dotted line is the mean realized true-effect
+count. The calculator uses a parametric count model with independent clusters and a single
+contrast: the thresholds in (a) are exact and hold under arbitrary dependence, the power
+estimates in (b-d) do not, and neither supports any biological claim.

@@ -1,0 +1,62 @@
+[
+  {
+    "filename": "equation_1",
+    "width_inches": 5.697916666666667,
+    "latex": "A_p=I-vv^T,\\quad s=w^TY_0,\\quad\\gamma=\\frac{Y_0s^T}{ss^T},\\quad A_s=I-\\gamma w^T.\\tag{1}"
+  },
+  {
+    "filename": "equation_2",
+    "width_inches": 5.322916666666667,
+    "latex": "A_s^2=A_s,\\quad w^TA_s=0,\\quad\\|A_s\\|_2=\\|\\gamma\\|_2=\\sqrt{1+\\|h\\|_2^2}.\\tag{2}"
+  },
+  {
+    "filename": "equation_3",
+    "width_inches": 5.8125,
+    "latex": "c=\\min\\left\\{1,\\frac{\\sqrt{L^2-1}}{\\|h\\|_2}\\right\\},\\quad\\gamma_L=w+ch,\\quad A_L=I-\\gamma_L w^T.\\tag{3}"
+  },
+  {
+    "filename": "equation_4",
+    "width_inches": 5.28125,
+    "latex": "\\lambda_{\\max}(A_L\\Sigma A_L^T)\\le L^2\\lambda_{\\max}(\\Sigma),\\quad\\|A_Lb-b\\|_2\\le L|w^Tb|.\\tag{4}"
+  },
+  {
+    "filename": "equation_5",
+    "width_inches": 6.09375,
+    "latex": "\\beta=b+\\delta u\\quad\\Longrightarrow\\quad A_L\\beta-b=-\\gamma_L(w^Tb)+\\delta\\{u-\\gamma_L(w^Tu)\\}.\\tag{10}"
+  },
+  {
+    "filename": "equation_6",
+    "width_inches": 3.4895833333333335,
+    "latex": "\\mathbb E\\|\\widehat\\gamma\\|^2=1+\\frac{G-1}{r-2},\\qquad r>2.\\tag{11}"
+  },
+  {
+    "filename": "equation_7",
+    "width_inches": 4.75,
+    "latex": "\\operatorname{Var}(\\|\\widehat\\gamma\\|^2)=\\frac{2(G-1)(G+r-3)}{(r-2)^2(r-4)},\\qquad r>4.\\tag{12}"
+  },
+  {
+    "filename": "equation_8",
+    "width_inches": 4.65625,
+    "latex": "\\operatorname{Energy\\ removal}(S)=100\\left[1-\\frac{\\sum_{g\\in S}(\\beta_g^{*})^2}{\\sum_{g\\in S}\\beta_g^2}\\right].\\tag{5}"
+  },
+  {
+    "filename": "equation_9",
+    "width_inches": 4.697916666666667,
+    "latex": "C^*=\\underset{\\|C\\|_2\\le\\sqrt{L^2-1}}{\\arg\\min}\\left\\{\\frac{\\|Y-SC\\|_F^2}{2n}+\\frac{\\alpha}{2}\\|DC\\|_F^2\\right\\}.\\tag{6}"
+  },
+  {
+    "filename": "equation_10",
+    "width_inches": 6.635416666666667,
+    "latex": "A=\\begin{pmatrix}0&0\\\\-C^T&I_q\\end{pmatrix},\\quad A^2=A,\\quad E_sA=0,\\quad\\|A\\|_2=\\sqrt{1+\\|C\\|_2^2}\\le L.\\tag{7}"
+  },
+  {
+    "filename": "equation_11",
+    "width_inches": 2.6041666666666665,
+    "latex": "\\|Ab-b\\|_2\\le L\\|E_sb\\|_2.\\tag{8}"
+  },
+  {
+    "filename": "equation_12",
+    "width_inches": 5.885416666666667,
+    "latex": "\\operatorname{gap}(T)=\\langle\\nabla f(T),T\\rangle+\\sqrt{L^2-1}\\|\\nabla f(T)\\|_*\\ge f(T)-f(T^*).\\tag{9}"
+  }
+]

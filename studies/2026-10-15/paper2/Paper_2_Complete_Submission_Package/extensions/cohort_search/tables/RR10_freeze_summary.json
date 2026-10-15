@@ -1,0 +1,30 @@
+{
+  "accession": "OSD-563",
+  "label": "RR10 distinct-animal same-launch transport cohort",
+  "mission": "RR-10",
+  "launch": "SpaceX-21 shared with RR23",
+  "shape": [
+    590325,
+    10
+  ],
+  "n_flt": 5,
+  "n_gc": 5,
+  "publisher_md5_verified_star_files": 10,
+  "all_columns_independently_reconstructed": true,
+  "source_name_and_RFID_overlap_with_RR23": 0,
+  "sex": "Female",
+  "strain": "B6129SF2/J",
+  "genotype": "Wild Type",
+  "age_at_launch_weeks": "14-15",
+  "shared_marker_injections": [
+    "Alizarin Red",
+    "Calcein",
+    "BrdU"
+  ],
+  "causal_limit": "Exposure perfectly aliased with euthanasia date (FLT 2021-01-02; GC 2021-01-05) and dissection date (FLT 2021-05-12; GC 2021-05-14).",
+  "gene_family_outcomes_examined": false,
+  "filters": "STAR unique reads; annotated=1; motif1..6; strand1/2; overhang>=8; chr1..19,X,Y,MT",
+  "matrix_sha256": "19e7d229db71263a26e877d5f15b71e429b9eb0911dc370111837260aacc1078",
+  "metadata_sha256": "190cb4867fa8d22c3f0138fbe8f3cc4fad6c59b2c53e2b70cef54e1e0f9ca522",
+  "statistical_resolution": "5+5 animals: 252 unrestricted assignments, one-sided min p 1/252; two-sided absolute statistic min p at least 2/252; no 923-test Holm discovery attainable."
+}

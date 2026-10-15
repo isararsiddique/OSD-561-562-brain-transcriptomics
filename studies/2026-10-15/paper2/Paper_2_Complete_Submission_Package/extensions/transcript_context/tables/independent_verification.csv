@@ -1,0 +1,23 @@
+check,passed,detail
+immutable frozen GTF hash,True,
+publisher MD5 and SHA processing_info_GLbulkRNAseq.zip,True,
+publisher MD5 and SHA software_versions_GLbulkRNAseq.md,True,
+publisher reference and STAR names,True,reference names verified; FASTA sequences not reconstructed
+whole-gene frozen scope counts,True,2381 genes / 404117 feature records
+every exact transcript membership and endpoint classification,True,20267 memberships for 7626 needed junctions
+every transcript exon/CDS/phase/UTR summary,True,21785 transcripts
+all923 exact common-gene intersections and matching gates,True,293 clusters have every alternative matched; others remain in analysis
+all41 original corrected cluster flags preserved,True,
+all3239 binary common-gene annotations,True,
+all1983 genes including blank names retained,True,
+all47 original corrected gene flags preserved,True,
+all3248 multiway junctions and1199 unmatched retained,True,2049 exact matches; STAR annotated flag is a different criterion
+three coding transcripts same coordinates/phase/CCDS,True,
+205 retained-intron biotype without CDS,True,
+coding transcript measured boundaries are5primeUTR,True,
+all matching Tc af1 transcripts retained,True,206 retained-intron and208 CDS-not-defined are not ignored
+all78 Tc af1 animal-alternative counts/fractions,True,
+all26 total and conditional long/short fractions,True,
+all three arm empirical count/fraction summaries,True,
+every available annotated Tc af1 intron count,True,15 introns ×26 animals
+companion junction in everyanimal20to169reads,True,

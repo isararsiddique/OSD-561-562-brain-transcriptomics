@@ -1,0 +1,111 @@
+[
+  {
+    "name": "submission_guidelines",
+    "requested_url": "https://www.nature.com/npjmgrav/for-authors-and-referees/submission-guidelines",
+    "retrieved_url": "https://www.nature.com/npjmgrav/for-authors-and-referees/submission-guidelines",
+    "http_status": 200,
+    "sha256": "38f01eec3650cf5a8e4d52de2d733ebe6a960f41345a55160d11fe8f1ed4d0be",
+    "bytes": 177129,
+    "utc_body_saved": "2026-10-14T23:50:17.735837+00:00",
+    "retrieval_note": "HTTP fetch completed and HTML saved; first parsing step failed from missing bs4, then HTML was parsed with the standard library. Original redirect destination/timing was not retained; stable requested URL and body-save timestamp reported."
+  },
+  {
+    "name": "author_info",
+    "requested_url": "https://www.nature.com/npjmgrav/for-authors-and-referees",
+    "retrieved_url": "https://www.nature.com/npjmgrav/for-authors-and-referees",
+    "http_status": 200,
+    "sha256": "fd1370a1c7c88f211f26ff566fd9b4503d4d46bc90d1652e6145315d0fe578f4",
+    "bytes": 125235,
+    "utc_body_saved": "2026-10-14T23:50:17.921734+00:00",
+    "retrieval_note": "HTTP fetch completed and HTML saved; first parsing step failed from missing bs4, then HTML was parsed with the standard library. Original redirect destination/timing was not retained; stable requested URL and body-save timestamp reported."
+  },
+  {
+    "name": "journal_home",
+    "requested_url": "https://www.nature.com/npjmgrav/",
+    "retrieved_url": "https://www.nature.com/npjmgrav/",
+    "http_status": 200,
+    "sha256": "677d26afe36b334a87da842ac8df4a4c33e727ebb5ac22ab26f32c72b457cf30",
+    "bytes": 221430,
+    "utc_body_saved": "2026-10-14T23:50:17.546636+00:00",
+    "retrieval_note": "HTTP fetch completed and HTML saved; first parsing step failed from missing bs4, then HTML was parsed with the standard library. Original redirect destination/timing was not retained; stable requested URL and body-save timestamp reported."
+  },
+  {
+    "name": "formatting",
+    "requested_url": "https://www.nature.com/npjmgrav/for-authors-and-referees/formatting-guide",
+    "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+  },
+  {
+    "name": "policies",
+    "requested_url": "https://www.nature.com/npjmgrav/editorial-policies",
+    "retrieved_url": "https://www.nature.com/npjmgrav/editorial-policies",
+    "http_status": 200,
+    "sha256": "65d051cca5da80f230e54b949567ddc7087f0c8d8359ac3aa4f16d8a602f2ee6",
+    "bytes": 130529,
+    "utc_body_saved": "2026-10-14T23:50:17.592788+00:00",
+    "retrieval_note": "HTTP fetch completed and HTML saved; first parsing step failed from missing bs4, then HTML was parsed with the standard library. Original redirect destination/timing was not retained; stable requested URL and body-save timestamp reported."
+  },
+  {
+    "name": "holley2022",
+    "requested_url": "https://www.nature.com/articles/s41526-022-00217-4",
+    "retrieved_url": "https://www.nature.com/articles/s41526-022-00217-4",
+    "http_status": 200,
+    "sha256": "f795b1399fa0241734828d3246f0bf1cafa9bdaea1a5909c5d607f00cbe55f2a",
+    "bytes": 554878,
+    "utc_body_saved": "2026-10-14T23:50:19.078403+00:00",
+    "retrieval_note": "HTTP fetch completed and HTML saved; first parsing step failed from missing bs4, then HTML was parsed with the standard library. Original redirect destination/timing was not retained; stable requested URL and body-save timestamp reported."
+  },
+  {
+    "name": "content_types",
+    "requested_url": "https://www.nature.com/npjmgrav/content-types",
+    "final_url": "https://www.nature.com/npjmgrav/content-types?error=cookies_not_supported&code=ff8f1874-a4a0-4f22-ac4f-09e24ecee455",
+    "status": 200,
+    "utc_retrieved": "2026-10-14T23:51:15.941381+00:00",
+    "bytes": 148095,
+    "sha256": "91b637f9f6fe7f5cd1071d081867c55ec9fd0f92c1df05af14c68b5a1650b478"
+  },
+  {
+    "name": "journal_information",
+    "requested_url": "https://www.nature.com/npjmgrav/journal-information",
+    "final_url": "https://www.nature.com/npjmgrav/journal-information?error=cookies_not_supported&code=20384407-1628-4c79-a59f-59f4db071285",
+    "status": 200,
+    "utc_retrieved": "2026-10-14T23:51:15.491807+00:00",
+    "bytes": 121050,
+    "sha256": "3def576a2797ebd4ddefcd46f311383e988966fa38b53c97d94ee5ab54d0d983"
+  },
+  {
+    "name": "reporting_policy",
+    "requested_url": "https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards",
+    "final_url": "https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards?error=cookies_not_supported&code=45a2eea0-be65-459d-b47d-29133d437343",
+    "status": 200,
+    "utc_retrieved": "2026-10-14T23:51:15.950524+00:00",
+    "bytes": 155570,
+    "sha256": "4b144f4ca440915df386ed002cb80525da67536219b4f07422c516cc342d244d"
+  },
+  {
+    "name": "jimenez2026",
+    "requested_url": "https://www.nature.com/articles/s41526-026-00639-4",
+    "final_url": "https://www.nature.com/articles/s41526-026-00639-4?error=cookies_not_supported&code=96131e45-344c-49dc-89dc-a5f30f3eff44",
+    "status": 200,
+    "utc_retrieved": "2026-10-14T23:52:02.990762+00:00",
+    "bytes": 243904,
+    "sha256": "dbb8686b07157f472e0bb07f05ee8672746bc487fc09b5b9301af4ae5989d450"
+  },
+  {
+    "name": "ai_policy",
+    "requested_url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "final_url": "https://www.nature.com/nature-portfolio/editorial-policies/ai?error=cookies_not_supported&code=b1d75d90-f805-4a3e-86cc-84f7a8c70405",
+    "status": 200,
+    "utc_retrieved": "2026-10-14T23:52:02.610226+00:00",
+    "bytes": 116097,
+    "sha256": "191cbe6d6854c72abb9e2c60f2179b5269336a97092e9dc4edc83c0c3ff700a0"
+  },
+  {
+    "name": "sleep_ruv2016",
+    "requested_url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3065-8",
+    "status": 200,
+    "final_url": "https://link.springer.com/article/10.1186/s12864-016-3065-8?error=cookies_not_supported&code=77d44edb-0121-4097-9b71-50493d784a18",
+    "utc_retrieved": "2026-10-14T23:53:47.529879+00:00",
+    "bytes": 460327,
+    "sha256": "a150e1bb86b383f3a62963f0e0f9e80188a89dea78c5650330518b90bc6a5aa2"
+  }
+]

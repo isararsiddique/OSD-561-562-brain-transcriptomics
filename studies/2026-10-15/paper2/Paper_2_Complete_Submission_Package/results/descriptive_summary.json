@@ -1,0 +1,8 @@
+{
+  "PCA_PC1_variance_fraction": 0.1604382008996087,
+  "PCA_PC2_variance_fraction": 0.07305985393891841,
+  "PCA_feature_count": 5249,
+  "PCA_animal_count": 26,
+  "leave_one_out_rows": 52,
+  "interpretation": "PCA uses the complete primary measured panel without event significance selection. Leave-one-out ranges are descriptive and are not confidence intervals or new hypothesis tests."
+}
