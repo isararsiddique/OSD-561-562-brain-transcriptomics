@@ -1,0 +1,5 @@
+analyte mouse_symbol  n_flight  n_ground  detected_above_LOD_samples  log2_effect  welch_p  exact_p                                             status  q_full_151_exact  q_full_151_welch
+    FOS          Fos         6         6                          12     0.250784 0.324771 0.335498 tested_at_least_6_samples_above_negative_probe_LOD               1.0               1.0
+   AIF1         Aif1         6         6                           0          NaN 1.000000 1.000000                           not_in_assay_or_unmapped               1.0               1.0
+   JUNB         Junb         6         6                           0          NaN 1.000000 1.000000                           not_in_assay_or_unmapped               1.0               1.0
+ PYCARD       Pycard         6         6                           0          NaN 1.000000 1.000000                         below_fixed_detection_gate               1.0               1.0

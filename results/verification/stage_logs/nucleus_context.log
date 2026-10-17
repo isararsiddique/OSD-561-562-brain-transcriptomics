@@ -1,0 +1,15 @@
+Pseudobulk (143, 25) nuclei 21178
+{
+  "n_nuclei_with_author_annotations": 21178,
+  "n_bio_origin_groups": 5,
+  "n_flight_animals": 3,
+  "n_ground_animals": 2,
+  "minimum_nuclei_per_donor_celltype": 20,
+  "n_primary_mouse_symbols_in_H5": 143,
+  "n_exact_tested_entries": 429,
+  "n_q05": 0,
+  "H5_sha256": "cc0b84373b6cd8e80d59e3a8b104211cae2188710e26062a072f2656b85d7acf",
+  "metadata_sha256": "2c81e72ceb18d459aec3dcedbcac3f9bbb0f74e8ff241270787b8e41e1c5aea0",
+  "source_note": "H5 in NASA OSD-352 file inventory; author metadata extracted from deposited multiomics metadata ZIP. Do not equate bio_origin codes with publication F1/F2/F3 labels without an explicit map.",
+  "interpretation": "Separate RR-3 cell-type context; no BuOE arm. Nuclei do not increase the five-animal exposure n."
+}

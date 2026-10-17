@@ -1,0 +1,10 @@
+{'unique_mouse_member_in_MGI_orthology_class': 141, 'multiple_mouse_members_in_MGI_orthology_class': 6, 'unique_one_to_one_current_Ensembl_ortholog': 2, 'no_mouse_member_in_MGI_report': 2}
+analyte human_symbol  mouse_candidates
+  ALDH1      ALDH1A1   Aldh1a1;Aldh1a7
+  CXCL2        CXCL2 Cxcl1;Cxcl2;Cxcl3
+  CXCL8        CXCL8                  
+   HBA1         HBA2     Hba-a1;Hba-a2
+   IL22         IL22        Il22;Il22b
+    LPA          LPA                  
+  NLRP1        NLRP1     Nlrp1a;Nlrp1b
+   SAA1         SAA1    Saa1;Saa2;Saa3

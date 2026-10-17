@@ -1,0 +1,10 @@
+CATEGORY FULL FAMILY q<.05 0
+{
+  "n_paired_animals": 24,
+  "n_genes": 127,
+  "omnibus_mean_squared_regional_flight_effect": 0.15407011793925682,
+  "permutations": 19999,
+  "seed": 20261016,
+  "pvalue": 0.568,
+  "interpretation": "Secondary conditional association; shared animals, no independent replication."
+}

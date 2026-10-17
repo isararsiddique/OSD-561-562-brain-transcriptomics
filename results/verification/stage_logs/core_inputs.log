@@ -1,0 +1,15 @@
+NASA source retrieval {'sources/OSD-561_files.json': 'retrieved', 'sources/OSD-352_meta.json': 'retrieved', 'sources/OSD-562_meta.json': 'retrieved', 'sources/OSD-682_meta.json': 'retrieved', 'sources/OSD-698_meta.json': 'retrieved', 'sources/OSD-685_meta.json': 'retrieved', 'sources/OSD-699_meta.json': 'retrieved', 'sources/OSD-561_meta.json': 'retrieved', 'sources/OSD-562_files.json': 'retrieved', 'sources/OSD-352_files.json': 'retrieved'}
+MGI primary mapping {'unique_mouse_member_in_MGI_orthology_class': 141, 'multiple_mouse_members_in_MGI_orthology_class': 8, 'no_mouse_member_in_MGI_report': 2}
+Prepared OSD-561 (57186, 26) {'FLT_ISS_T_12': 5, 'FLT_ISS_T_29': 4, 'FLT_LAR_29': 3, 'GC_ISS_T_29': 3, 'GC_ISS_T_12': 3, 'GC_LAR_29': 3, 'GC_LAR_12': 3, 'FLT_LAR_12': 2}
+Prepared OSD-562 (57186, 27) {'FLT_ISS_T_29': 5, 'FLT_ISS_T_12': 4, 'FLT_LAR_29': 3, 'FLT_LAR_12': 3, 'GC_ISS_T_29': 3, 'GC_ISS_T_12': 3, 'GC_LAR_29': 3, 'GC_LAR_12': 3}
+{
+  "libraries": 53,
+  "unique_animal_sources": 29,
+  "paired_animal_sources": 24,
+  "location_conflicts": 7,
+  "primary_mapping_counts": {
+    "unique_mouse_member_in_MGI_orthology_class": 141,
+    "multiple_mouse_members_in_MGI_orthology_class": 8,
+    "no_mouse_member_in_MGI_report": 2
+  }
+}

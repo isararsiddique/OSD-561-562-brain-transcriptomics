@@ -1,0 +1,37 @@
+              QC                            region_difference analyte mouse_symbol  n_paired_donors    effect   pvalue          error_model                              status  q_full_453_family
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.250439 0.279599         ordinary_OLS paired_region_by_flight_association           0.703658
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.250439 0.343906                HC3_t paired_region_by_flight_association           0.880167
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.250439 0.222222 exact_age_stratified paired_region_by_flight_association           0.610101
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.390671 0.146598         ordinary_OLS paired_region_by_flight_association           0.442726
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.390671 0.112501                HC3_t paired_region_by_flight_association           0.486092
+  published_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.390671 0.111111 exact_age_stratified paired_region_by_flight_association           0.375622
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.998738 0.002278         ordinary_OLS paired_region_by_flight_association           0.032757
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.998738 0.006256                HC3_t paired_region_by_flight_association           0.096067
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.998738 0.055556 exact_age_stratified paired_region_by_flight_association           0.249175
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.217364 0.001651         ordinary_OLS paired_region_by_flight_association           0.027701
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.217364 0.004621                HC3_t paired_region_by_flight_association           0.083546
+  published_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.217364 0.055556 exact_age_stratified paired_region_by_flight_association           0.249175
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.737132 0.003654         ordinary_OLS paired_region_by_flight_association           0.038490
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.737132 0.021645                HC3_t paired_region_by_flight_association           0.171499
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.737132 0.055556 exact_age_stratified paired_region_by_flight_association           0.249175
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.851488 0.002601         ordinary_OLS paired_region_by_flight_association           0.032757
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.851488 0.012696                HC3_t paired_region_by_flight_association           0.136938
+  published_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.851488 0.055556 exact_age_stratified paired_region_by_flight_association           0.249175
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.273646 0.155618         ordinary_OLS paired_region_by_flight_association           0.429847
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.273646 0.207415                HC3_t paired_region_by_flight_association           0.610810
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus    AIF1         Aif1                7 -0.273646 0.222222 exact_age_stratified paired_region_by_flight_association           0.538324
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.356622 0.189234         ordinary_OLS paired_region_by_flight_association           0.471005
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.356622 0.171675                HC3_t paired_region_by_flight_association           0.551550
+alternative_gate Myeloid_Cerebellum minus Myeloid_Hippocampus  PYCARD       Pycard                7 -0.356622 0.222222 exact_age_stratified paired_region_by_flight_association           0.538324
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.938542 0.001909         ordinary_OLS paired_region_by_flight_association           0.027071
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.938542 0.005298                HC3_t paired_region_by_flight_association           0.073172
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus    AIF1         Aif1                8 -0.938542 0.055556 exact_age_stratified paired_region_by_flight_association           0.202957
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.139781 0.002249         ordinary_OLS paired_region_by_flight_association           0.027071
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.139781 0.006181                HC3_t paired_region_by_flight_association           0.073172
+alternative_gate  Myeloid_Forebrain minus Myeloid_Hippocampus  PYCARD       Pycard                8 -1.139781 0.055556 exact_age_stratified paired_region_by_flight_association           0.202957
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.674459 0.005400         ordinary_OLS paired_region_by_flight_association           0.038224
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.674459 0.029778                HC3_t paired_region_by_flight_association           0.181210
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum    AIF1         Aif1                7 -0.674459 0.055556 exact_age_stratified paired_region_by_flight_association           0.202957
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.797962 0.002229         ordinary_OLS paired_region_by_flight_association           0.027071
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.797962 0.013550                HC3_t paired_region_by_flight_association           0.104035
+alternative_gate   Myeloid_Forebrain minus Myeloid_Cerebellum  PYCARD       Pycard                7 -0.797962 0.055556 exact_age_stratified paired_region_by_flight_association           0.202957

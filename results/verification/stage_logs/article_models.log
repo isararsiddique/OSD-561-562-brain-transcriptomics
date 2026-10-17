@@ -1,0 +1,18 @@
+Myeloid_Cerebellum article_5pct_gate 7 donors, model available: TRUE 
+Myeloid_Forebrain article_5pct_gate 8 donors, model available: TRUE 
+Myeloid_Hippocampus article_5pct_gate 8 donors, model available: TRUE 
+Non-myeloid_Cerebellum article_5pct_gate 7 donors, model available: TRUE 
+Non-myeloid_Forebrain article_5pct_gate 7 donors, model available: TRUE 
+Non-myeloid_Hippocampus article_5pct_gate 2 donors, model available: FALSE 
+, ,  = FALSE
+
+                   method
+QC                  edgeR_QL limma_voom
+  article_5pct_gate     3389       3395
+
+, ,  = TRUE
+
+                   method
+QC                  edgeR_QL limma_voom
+  article_5pct_gate      235        229
+

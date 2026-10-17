@@ -1,0 +1,11 @@
+FIT 561 rounded_RSEM (26, 20048) {'FLT_ISS_T_12': 5, 'FLT_ISS_T_29': 4, 'FLT_LAR_29': 3, 'GC_ISS_T_29': 3, 'GC_ISS_T_12': 3, 'GC_LAR_29': 3, 'GC_LAR_12': 3, 'FLT_LAR_12': 2}
+CONTRAST 561 rounded_RSEM flight_ISS_T_age12 2994
+CONTRAST 561 rounded_RSEM flight_ISS_T_age29 0
+CONTRAST 561 rounded_RSEM flight_LAR_age12 0
+CONTRAST 561 rounded_RSEM flight_LAR_age29 0
+FIT 562 rounded_RSEM (27, 19672) {'FLT_ISS_T_29': 5, 'FLT_ISS_T_12': 4, 'FLT_LAR_29': 3, 'FLT_LAR_12': 3, 'GC_ISS_T_29': 3, 'GC_ISS_T_12': 3, 'GC_LAR_29': 3, 'GC_LAR_12': 3}
+CONTRAST 562 rounded_RSEM flight_ISS_T_age12 0
+CONTRAST 562 rounded_RSEM flight_ISS_T_age29 0
+CONTRAST 562 rounded_RSEM flight_LAR_age12 1
+CONTRAST 562 rounded_RSEM flight_LAR_age29 0
+PRIMARY FULL FAMILY 4228 q<.05 17

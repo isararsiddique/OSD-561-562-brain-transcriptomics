@@ -1,0 +1,35 @@
+OSD      flight  age 
+OSD-613  FLT     12.0    4
+                 29.0    5
+         GC      12.0    5
+                 29.0    4
+[
+  {
+    "OSD": "OSD-612",
+    "n_animals": 9,
+    "overlap_with_original_region_animals": 9,
+    "overlapping_source_names": [
+      "RR-10_FL-01",
+      "RR-10_FL-03",
+      "RR-10_FL-05",
+      "RR-10_FL-07",
+      "RR-10_GC-01",
+      "RR-10_GC-03",
+      "RR-10_GC-05",
+      "RR-10_GC-07",
+      "RR-10_GC-09"
+    ],
+    "independence": "same RR10 animals, new cerebral-region measurement",
+    "new_mice_added": 0,
+    "source": "Exact primary ISA Source Name identity, no ordinal-ID guessing"
+  },
+  {
+    "OSD": "OSD-613",
+    "n_animals": 18,
+    "overlap_with_original_region_animals": 0,
+    "overlapping_source_names": [],
+    "independence": "different RRRM2 animals, same mission/cohort and different region",
+    "new_mice_added": 18,
+    "source": "Exact primary ISA Source Name identity, no ordinal-ID guessing"
+  }
+]

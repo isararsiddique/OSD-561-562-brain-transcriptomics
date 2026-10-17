@@ -1,0 +1,34 @@
+Myeloid_Cerebellum published_gate 7 donors, model available: TRUE 
+Myeloid_Forebrain published_gate 8 donors, model available: TRUE 
+Myeloid_Hippocampus published_gate 8 donors, model available: TRUE 
+Non-myeloid_Cerebellum published_gate 8 donors, model available: TRUE 
+Non-myeloid_Forebrain published_gate 8 donors, model available: TRUE 
+Non-myeloid_Hippocampus published_gate 8 donors, model available: TRUE 
+Myeloid_Cerebellum alternative_gate 7 donors, model available: TRUE 
+Myeloid_Forebrain alternative_gate 8 donors, model available: TRUE 
+Myeloid_Hippocampus alternative_gate 8 donors, model available: TRUE 
+Non-myeloid_Cerebellum alternative_gate 8 donors, model available: TRUE 
+Non-myeloid_Forebrain alternative_gate 8 donors, model available: TRUE 
+Non-myeloid_Hippocampus alternative_gate 8 donors, model available: TRUE 
+Myeloid_Cerebellum marker_positive_gate 7 donors, model available: TRUE 
+Myeloid_Forebrain marker_positive_gate 8 donors, model available: TRUE 
+Myeloid_Hippocampus marker_positive_gate 8 donors, model available: TRUE 
+Non-myeloid_Cerebellum marker_positive_gate 0 donors, model available: FALSE 
+Non-myeloid_Forebrain marker_positive_gate 0 donors, model available: FALSE 
+Non-myeloid_Hippocampus marker_positive_gate 0 donors, model available: FALSE 
+, ,  = FALSE
+
+                      method
+QC                     edgeR_QL limma_voom
+  alternative_gate         3398       3400
+  marker_positive_gate     3418       3404
+  published_gate           3356       3360
+
+, ,  = TRUE
+
+                      method
+QC                     edgeR_QL limma_voom
+  alternative_gate          226        224
+  marker_positive_gate      206        220
+  published_gate            268        264
+

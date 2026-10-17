@@ -1,0 +1,207 @@
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947894 Myeloid_Cerebellum GC_Mouse2 4190 4013
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947895 Myeloid_Cerebellum GC_Mouse3 6837 6470
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947896 Myeloid_Cerebellum GC_Mouse4 4259 3685
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947897 Myeloid_Cerebellum FLT_Mouse1 2266 1927
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947898 Myeloid_Cerebellum FLT_Mouse2 4768 4095
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947899 Myeloid_Cerebellum FLT_Mouse3 2412 2044
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947900 Myeloid_Cerebellum FLT_Mouse4 2424 2183
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947901 Myeloid_Forebrain GC_Mouse1 2520 2504
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947902 Myeloid_Forebrain GC_Mouse2 2692 2670
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947903 Myeloid_Forebrain GC_Mouse3 1545 1533
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947904 Myeloid_Forebrain GC_Mouse4 2245 2232
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947905 Myeloid_Forebrain FLT_Mouse1 2539 2484
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947906 Myeloid_Forebrain FLT_Mouse2 4324 4237
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947907 Myeloid_Forebrain FLT_Mouse3 3153 3110
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947908 Myeloid_Forebrain FLT_Mouse4 4018 3982
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947909 Myeloid_Hippocampus GC_Mouse1 5097 4658
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947910 Myeloid_Hippocampus GC_Mouse2 4950 4792
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947911 Myeloid_Hippocampus GC_Mouse3 6902 6506
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947912 Myeloid_Hippocampus GC_Mouse4 4306 3718
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947913 Myeloid_Hippocampus FLT_Mouse1 1612 1501
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947914 Myeloid_Hippocampus FLT_Mouse2 1410 1289
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947915 Myeloid_Hippocampus FLT_Mouse3 2176 2109
+pipeline/stages/extended/sorted_marker_sensitivity.py:16: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(p,'rb') as f:X=mmread(f).tocsc()
+GSM8947916 Myeloid_Hippocampus FLT_Mouse4 1787 1484

@@ -1,0 +1,24 @@
+K= 4  state= 1  available= TRUE  minimum cells= 61 
+K= 4  state= 2  available= FALSE  minimum cells= 30 
+K= 4  state= 3  available= TRUE  minimum cells= 148 
+K= 4  state= 4  available= FALSE  minimum cells= 6 
+K= 6  state= 1  available= FALSE  minimum cells= 31 
+K= 6  state= 2  available= FALSE  minimum cells= 3 
+K= 6  state= 3  available= TRUE  minimum cells= 171 
+K= 6  state= 4  available= FALSE  minimum cells= 27 
+K= 6  state= 5  available= FALSE  minimum cells= 1 
+K= 6  state= 6  available= FALSE  minimum cells= 5 
+, ,  = FALSE
+
+   method
+K   edgeR_QL limma_voom
+  4     2278       2311
+  6     3570       3567
+
+, ,  = TRUE
+
+   method
+K   edgeR_QL limma_voom
+  4      138        105
+  6       54         57
+

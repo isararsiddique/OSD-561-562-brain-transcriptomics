@@ -1,0 +1,55 @@
+pipeline/stages/extended/prepare_sorted_cells.py:54: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  with gzip.open(paths['matrix.mtx.gz'],'rb') as f:X=mmread(f).tocsc()
+GSM8947894 Myeloid_Cerebellum GC_Mouse2 5880 4190
+GSM8947895 Myeloid_Cerebellum GC_Mouse3 7844 6837
+GSM8947896 Myeloid_Cerebellum GC_Mouse4 5465 4259
+GSM8947897 Myeloid_Cerebellum FLT_Mouse1 3536 2266
+GSM8947898 Myeloid_Cerebellum FLT_Mouse2 6845 4768
+GSM8947899 Myeloid_Cerebellum FLT_Mouse3 3650 2412
+GSM8947900 Myeloid_Cerebellum FLT_Mouse4 3229 2424
+GSM8947901 Myeloid_Forebrain GC_Mouse1 3452 2520
+GSM8947902 Myeloid_Forebrain GC_Mouse2 3823 2692
+GSM8947903 Myeloid_Forebrain GC_Mouse3 2191 1545
+GSM8947904 Myeloid_Forebrain GC_Mouse4 3036 2245
+GSM8947905 Myeloid_Forebrain FLT_Mouse1 3257 2539
+GSM8947906 Myeloid_Forebrain FLT_Mouse2 5580 4324
+GSM8947907 Myeloid_Forebrain FLT_Mouse3 3786 3153
+GSM8947908 Myeloid_Forebrain FLT_Mouse4 5271 4018
+GSM8947909 Myeloid_Hippocampus GC_Mouse1 5954 5097
+GSM8947910 Myeloid_Hippocampus GC_Mouse2 5462 4950
+GSM8947911 Myeloid_Hippocampus GC_Mouse3 7627 6902
+GSM8947912 Myeloid_Hippocampus GC_Mouse4 5330 4306
+GSM8947913 Myeloid_Hippocampus FLT_Mouse1 2308 1612
+GSM8947914 Myeloid_Hippocampus FLT_Mouse2 2873 1410
+GSM8947915 Myeloid_Hippocampus FLT_Mouse3 2772 2176
+GSM8947916 Myeloid_Hippocampus FLT_Mouse4 3378 1787
+GSM8947917 Non-myeloid_Hippocampus GC_Mouse1 2095 1441
+GSM8947918 Non-myeloid_Hippocampus GC_Mouse2 5000 2996
+GSM8947919 Non-myeloid_Hippocampus GC_Mouse3 2049 1274
+GSM8947920 Non-myeloid_Hippocampus GC_Mouse4 1846 1202
+GSM8947921 Non-myeloid_Hippocampus FLT_Mouse1 451 280
+GSM8947922 Non-myeloid_Hippocampus FLT_Mouse2 413 238
+GSM8947923 Non-myeloid_Hippocampus FLT_Mouse3 705 501
+GSM8947924 Non-myeloid_Hippocampus FLT_Mouse4 3685 2799
+GSM8947925 Non-myeloid_Cerebellum GC_Mouse1 2513 2216
+GSM8947926 Non-myeloid_Cerebellum GC_Mouse2 1989 1604
+GSM8947927 Non-myeloid_Cerebellum GC_Mouse3 578 360
+GSM8947928 Non-myeloid_Cerebellum GC_Mouse4 1746 1375
+GSM8947929 Non-myeloid_Cerebellum FLT_Mouse1 1095 869
+GSM8947930 Non-myeloid_Cerebellum FLT_Mouse2 1278 976
+GSM8947931 Non-myeloid_Cerebellum FLT_Mouse3 1164 878
+GSM8947932 Non-myeloid_Cerebellum FLT_Mouse4 1177 902
+GSM8947933 Non-myeloid_Forebrain GC_Mouse1 4956 4744
+GSM8947934 Non-myeloid_Forebrain GC_Mouse2 8494 8190
+GSM8947935 Non-myeloid_Forebrain GC_Mouse3 3734 3406
+GSM8947936 Non-myeloid_Forebrain GC_Mouse4 3003 2561
+GSM8947937 Non-myeloid_Forebrain FLT_Mouse1 2246 1783
+GSM8947938 Non-myeloid_Forebrain FLT_Mouse2 1679 1339
+GSM8947939 Non-myeloid_Forebrain FLT_Mouse3 449 330
+GSM8947940 Non-myeloid_Forebrain FLT_Mouse4 1852 1388

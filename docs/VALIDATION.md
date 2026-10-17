@@ -37,6 +37,8 @@ The workflow was visually inspected, with clear question–data/method–evidenc
 
 The repository integrity check validates published artifact hashes, script hashes, local Markdown/image links, all 303 source records, absence of assay/model objects and GitHub per-file size limits. It is available with `python tools/verify_repository.py` and runs in the repository CI with the safeguard tests.
 
+[All 62 executed stage logs](../results/verification/stage_logs/) are included with portable paths for inspection.
+
 ## Practical limits
 
 The full scientific execution was tested on macOS arm64 using Python 3.12, R 4.5.3, limma 3.66.0 and edgeR 4.8.2. Linux/macOS/WSL instructions use configurable paths and standard dependencies, but a complete Linux or Windows run was not directly tested. Repository CI checks standard-library safeguards and publication integrity; it does not rerun the entire biological analysis.

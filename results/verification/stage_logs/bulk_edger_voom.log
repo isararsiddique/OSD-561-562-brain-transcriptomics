@@ -1,0 +1,22 @@
+OSD-561 21368 26 genes/samples
+OSD-562 20928 27 genes/samples
+OSD-352 19067 6 genes/samples
+OSD-563 21179 10 genes/samples
+OSD-564 21200 10 genes/samples
+OSD352_l2_CNS_neurons 14385 5 genes/samples
+OSD352_l2_CNS_glia 9609 5 genes/samples
+OSD352_l2_Immune_cells 1394 5 genes/samples
+OSD352_l3_Astroependymal_cells 7264 5 genes/samples
+OSD352_l3_Oligodendrocytes 6277 5 genes/samples
+                
+method           FALSE TRUE
+  edgeR_QL_TMM    4218   10
+  limma_voom_TMM  4228    0
+                
+method           FALSE TRUE
+  edgeR_QL_TMM     452    1
+  limma_voom_TMM   453    0
+                
+method           FALSE
+  edgeR_QL_TMM     755
+  limma_voom_TMM   755

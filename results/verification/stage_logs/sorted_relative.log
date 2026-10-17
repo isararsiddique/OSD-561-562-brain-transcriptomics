@@ -1,0 +1,24 @@
+Marker-relative HC3 hits 53
+Cell-depth HC3 hits 75
+ error_model    effect    ci_low   ci_high   pvalue status            tissue analyte mouse_symbol            contrast  n_donors  q_full_1812_family
+ordinary_OLS  0.693682  0.551112  0.836252 0.000174 tested Myeloid_Forebrain    AIM2         Aim2 flight_balanced_age         8            0.008510
+       HC3_t  0.693682  0.492058  0.895307 0.000671 tested Myeloid_Forebrain    AIM2         Aim2 flight_balanced_age         8            0.029649
+ordinary_OLS -0.999037 -1.203387 -0.794687 0.000171 tested Myeloid_Forebrain    AIF1         Aif1 flight_balanced_age         8            0.008510
+       HC3_t -0.999037 -1.288031 -0.710042 0.000659 tested Myeloid_Forebrain    AIF1         Aif1 flight_balanced_age         8            0.029649
+ordinary_OLS -1.016333 -1.328432 -0.704233 0.000829 tested Myeloid_Forebrain   NINJ1        Ninj1 flight_balanced_age         8            0.019768
+       HC3_t -1.016333 -1.457708 -0.574957 0.003073 tested Myeloid_Forebrain   NINJ1        Ninj1 flight_balanced_age         8            0.069605
+ordinary_OLS -1.177465 -1.415490 -0.939440 0.000163 tested Myeloid_Forebrain  PYCARD       Pycard flight_balanced_age         8            0.008510
+       HC3_t -1.177465 -1.514083 -0.840847 0.000629 tested Myeloid_Forebrain  PYCARD       Pycard flight_balanced_age         8            0.029649
+error_model    effect    ci_low   ci_high   pvalue status            tissue analyte mouse_symbol                       endpoint  n_donors  q_full_1359_family
+      HC3_t  0.034704  0.023209  0.046199 0.001108 tested Myeloid_Forebrain    AIM2         Aim2 expected_detection_at_500_UMIs         8            0.028063
+      HC3_t  0.292083  0.180465  0.403701 0.001906 tested Myeloid_Forebrain    AIM2         Aim2     mean_cell_log2_CP10k_plus1         8            0.038095
+      HC3_t  0.091278  0.026358  0.156198 0.017487 tested Myeloid_Forebrain    AIM2         Aim2         raw_detection_fraction         8            0.176032
+      HC3_t -0.135772 -0.179399 -0.092145 0.000987 tested Myeloid_Forebrain    AIF1         Aif1 expected_detection_at_500_UMIs         8            0.027364
+      HC3_t -1.013683 -1.288810 -0.738557 0.000515 tested Myeloid_Forebrain    AIF1         Aif1     mean_cell_log2_CP10k_plus1         8            0.024119
+      HC3_t -0.240942 -0.326031 -0.155852 0.001415 tested Myeloid_Forebrain    AIF1         Aif1         raw_detection_fraction         8            0.032582
+      HC3_t -0.012655 -0.019549 -0.005760 0.007002 tested Myeloid_Forebrain   NINJ1        Ninj1 expected_detection_at_500_UMIs         8            0.105780
+      HC3_t -0.170194 -0.234707 -0.105681 0.001849 tested Myeloid_Forebrain   NINJ1        Ninj1     mean_cell_log2_CP10k_plus1         8            0.037500
+      HC3_t -0.087254 -0.112381 -0.062128 0.000647 tested Myeloid_Forebrain   NINJ1        Ninj1         raw_detection_fraction         8            0.024424
+      HC3_t -0.034701 -0.050388 -0.019013 0.003564 tested Myeloid_Forebrain  PYCARD       Pycard expected_detection_at_500_UMIs         8            0.059809
+      HC3_t -0.415887 -0.516432 -0.315343 0.000328 tested Myeloid_Forebrain  PYCARD       Pycard     mean_cell_log2_CP10k_plus1         8            0.020876
+      HC3_t -0.192038 -0.213454 -0.170623 0.000015 tested Myeloid_Forebrain  PYCARD       Pycard         raw_detection_fraction         8            0.013479

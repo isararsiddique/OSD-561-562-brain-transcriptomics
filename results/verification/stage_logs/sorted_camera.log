@@ -1,0 +1,11 @@
+Myeloid_Cerebellum complete
+Myeloid_Forebrain complete
+Myeloid_Hippocampus complete
+Non-myeloid_Cerebellum complete
+Non-myeloid_Forebrain complete
+Non-myeloid_Hippocampus complete
+                   
+correlation_model   FALSE TRUE
+  conservative_0.10  1200    0
+  default_0.01        991  209
+  estimated          1200    0

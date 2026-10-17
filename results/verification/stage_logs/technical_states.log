@@ -1,0 +1,35 @@
+pipeline/stages/deep/prepare_expression_states.py:41: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  x = mmread(f).tocsc()
+GSM8947901 2520 retained
+GSM8947902 2692 retained
+GSM8947903 1545 retained
+GSM8947904 2245 retained
+GSM8947905 2539 retained
+GSM8947906 4324 retained
+GSM8947907 3153 retained
+GSM8947908 4018 retained
+{
+  "dataset": "GSE295428 / RR8 myeloid-enriched forebrain",
+  "n_mice": 8,
+  "n_cells": 23036,
+  "training_cells": 12000,
+  "maximum_training_cells_per_mouse": 1500,
+  "n_nonpanel_variable_features": 2000,
+  "PCA_components": 30,
+  "PCA_explained_variance_fraction": 0.10434007985575094,
+  "K_values": [
+    4,
+    6
+  ],
+  "selection": "Non-panel, non-mitochondrial, non-ribosomal genes; mean-bin dispersion ranking of balanced training cells; no exposure or age label used",
+  "QC": "Same primary 200-2500 feature and <=50% mitochondrial gate as completed analysis",
+  "inference": "Post-result exploratory; eight mice, not cells, are exposure replicates; state learning uses the same eight mice",
+  "remaining_confound": "Flight and ground dissections occurred on different days; group and day are perfectly confounded",
+  "technical_sensitivity": "Regressed log10 cell UMI and mitochondrial fraction from PCs using balanced training cells, no exposure labels. Post-result sensitivity; may also remove biological RNA-content variation."
+}

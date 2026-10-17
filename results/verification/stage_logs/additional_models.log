@@ -1,0 +1,16 @@
+OSD- 525   26 mice,  19685 filtered genes
+OSD- 457   24 mice,  16086 filtered genes
+, ,  = FALSE
+
+         method
+OSD       edgeR_QL limma_voom
+  OSD-457      601        601
+  OSD-525      443        436
+
+, ,  = TRUE
+
+         method
+OSD       edgeR_QL limma_voom
+  OSD-457        3          3
+  OSD-525       10         17
+

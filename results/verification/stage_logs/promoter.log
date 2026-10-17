@@ -1,0 +1,13 @@
+analyte mouse_symbol    cell_type  promoter_peak_count  ATAC_log2CPM_effect  RNA_log2CPM_effect  ATAC_exact_p  RNA_ATAC_spearman                         status  q_panel_three_celltypes
+    FOS          Fos  CNS neurons                    3            -0.346123           -1.697958           0.2           0.900000 five_donor_descriptive_context                      1.0
+   AIF1         Aif1  CNS neurons                    1             0.821432            0.944611           0.2           0.600000 five_donor_descriptive_context                      1.0
+   JUNB         Junb  CNS neurons                    3            -0.118163           -0.422664           0.4          -0.200000 five_donor_descriptive_context                      1.0
+ PYCARD       Pycard  CNS neurons                    2             0.406673            0.740113           0.7          -0.100000 five_donor_descriptive_context                      1.0
+    FOS          Fos     CNS glia                    3            -0.096863           -0.275590           0.9           0.200000 five_donor_descriptive_context                      1.0
+   AIF1         Aif1     CNS glia                    1             0.445044            0.000000           0.6                NaN five_donor_descriptive_context                      1.0
+   JUNB         Junb     CNS glia                    3             0.112876           -0.433908           0.4          -0.300000 five_donor_descriptive_context                      1.0
+ PYCARD       Pycard     CNS glia                    2            -0.007309            1.044491           1.0           0.000000 five_donor_descriptive_context                      1.0
+    FOS          Fos Immune cells                    3             0.091857            0.000000           0.7                NaN five_donor_descriptive_context                      1.0
+   AIF1         Aif1 Immune cells                    1            -0.888162            1.939078           0.1           0.051299 five_donor_descriptive_context                      1.0
+   JUNB         Junb Immune cells                    3             0.204383           -1.793379           0.1          -0.100000 five_donor_descriptive_context                      1.0
+ PYCARD       Pycard Immune cells                    2            -0.217357            0.221435           0.5          -0.102598 five_donor_descriptive_context                      1.0

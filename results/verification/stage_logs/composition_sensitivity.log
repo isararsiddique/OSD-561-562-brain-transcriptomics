@@ -1,0 +1,49 @@
+/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+  return self.resid / sigma / np.sqrt(1 - hii)
+/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+  return self.resid / sigma / np.sqrt(1 - hii)
+/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+  return self.resid / sigma / np.sqrt(1 - hii)
+/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+  return self.resid / sigma / np.sqrt(1 - hii)
+  study     method            normalization       error_model analyte mouse_symbol   pvalue   effect  LOO_effect_min  LOO_effect_max  max_Cooks_distance                            status  q_full_302_family
+OSD-561       NNLS                      CPM      ordinary_OLS    IRF1         Irf1 0.000114 1.273298        1.229526        1.518241            1.749542 secondary_conditional_association           0.034390
+OSD-561       NNLS                      CPM HC3_t_residual_df    IRF1         Irf1 0.004391 1.273298        1.229526        1.518241            1.749542 secondary_conditional_association           0.120564
+OSD-561       NNLS                      CPM      ordinary_OLS    NOS3         Nos3 0.000567 4.043292        3.264482        4.181211            0.893218 secondary_conditional_association           0.038284
+OSD-561       NNLS                      CPM HC3_t_residual_df    NOS3         Nos3 0.004057 4.043292        3.264482        4.181211            0.893218 secondary_conditional_association           0.120564
+OSD-561       NNLS                      CPM      ordinary_OLS    SOD1         Sod1 0.000318 2.160776        2.037777        2.698491            1.906667 secondary_conditional_association           0.038284
+OSD-561       NNLS                      CPM HC3_t_residual_df    SOD1         Sod1 0.012240 2.160776        2.037777        2.698491            1.906667 secondary_conditional_association           0.231021
+OSD-561       NNLS                      CPM      ordinary_OLS   SPHK2        Sphk2 0.000388 2.410154        2.252534        2.470603            0.804426 secondary_conditional_association           0.038284
+OSD-561       NNLS                      CPM HC3_t_residual_df   SPHK2        Sphk2 0.000103 2.410154        2.252534        2.470603            0.804426 secondary_conditional_association           0.015494
+OSD-561       NNLS                      CPM      ordinary_OLS    UCP2         Ucp2 0.000634 2.418526        1.494275        2.534975            3.351368 secondary_conditional_association           0.038284
+OSD-561       NNLS                      CPM HC3_t_residual_df    UCP2         Ucp2 0.051448 2.418526        1.494275        2.534975            3.351368 secondary_conditional_association           0.554903
+OSD-561       NNLS DESeq2_normalized_counts      ordinary_OLS    IRF1         Irf1 0.750624 0.090073       -0.023581        0.978344            4.380083 secondary_conditional_association           1.000000
+OSD-561       NNLS DESeq2_normalized_counts HC3_t_residual_df    IRF1         Irf1 0.924989 0.090073       -0.023581        0.978344            4.380083 secondary_conditional_association           1.000000
+OSD-561       NNLS DESeq2_normalized_counts      ordinary_OLS    NOS3         Nos3 0.001712 3.891303        2.655049        4.075573            1.500393 secondary_conditional_association           0.110652
+OSD-561       NNLS DESeq2_normalized_counts HC3_t_residual_df    NOS3         Nos3 0.027707 3.891303        2.655049        4.075573            1.500393 secondary_conditional_association           0.492206
+OSD-561       NNLS DESeq2_normalized_counts      ordinary_OLS    SOD1         Sod1 0.271038 0.449280        0.204596        1.712255            4.827867 secondary_conditional_association           0.724366
+OSD-561       NNLS DESeq2_normalized_counts HC3_t_residual_df    SOD1         Sod1 0.741939 0.449280        0.204596        1.712255            4.827867 secondary_conditional_association           1.000000
+OSD-561       NNLS DESeq2_normalized_counts      ordinary_OLS   SPHK2        Sphk2 0.020357 0.893373        0.766485        1.417355            1.540394 secondary_conditional_association           0.328122
+OSD-561       NNLS DESeq2_normalized_counts HC3_t_residual_df   SPHK2        Sphk2 0.170553 0.893373        0.766485        1.417355            1.540394 secondary_conditional_association           1.000000
+OSD-561       NNLS DESeq2_normalized_counts      ordinary_OLS    UCP2         Ucp2 0.059752 0.901076        0.574398        1.041086            0.357625 secondary_conditional_association           0.487703
+OSD-561       NNLS DESeq2_normalized_counts HC3_t_residual_df    UCP2         Ucp2 0.069052 0.901076        0.574398        1.041086            0.357625 secondary_conditional_association           0.796820
+OSD-561 ridge_NNLS                      CPM      ordinary_OLS    IRF1         Irf1 0.000137 1.270911        1.228355        1.500291            1.424190 secondary_conditional_association           0.034159
+OSD-561 ridge_NNLS                      CPM HC3_t_residual_df    IRF1         Irf1 0.003567 1.270911        1.228355        1.500291            1.424190 secondary_conditional_association           0.112061
+OSD-561 ridge_NNLS                      CPM      ordinary_OLS    NOS3         Nos3 0.000634 4.083559        3.315850        4.218594            0.810524 secondary_conditional_association           0.038321
+OSD-561 ridge_NNLS                      CPM HC3_t_residual_df    NOS3         Nos3 0.003711 4.083559        3.315850        4.218594            0.810524 secondary_conditional_association           0.112061
+OSD-561 ridge_NNLS                      CPM      ordinary_OLS    SOD1         Sod1 0.000348 2.189796        2.060298        2.858459            2.762757 secondary_conditional_association           0.034159
+OSD-561 ridge_NNLS                      CPM HC3_t_residual_df    SOD1         Sod1 0.024650 2.189796        2.060298        2.858459            2.762757 secondary_conditional_association           0.354490
+OSD-561 ridge_NNLS                      CPM      ordinary_OLS   SPHK2        Sphk2 0.000394 2.431429        2.269827        2.491988            0.749033 secondary_conditional_association           0.034159
+OSD-561 ridge_NNLS                      CPM HC3_t_residual_df   SPHK2        Sphk2 0.000056 2.431429        2.269827        2.491988            0.749033 secondary_conditional_association           0.016945
+OSD-561 ridge_NNLS                      CPM      ordinary_OLS    UCP2         Ucp2 0.000452 2.461104        1.671247        2.568540            2.729385 secondary_conditional_association           0.034159
+OSD-561 ridge_NNLS                      CPM HC3_t_residual_df    UCP2         Ucp2 0.029658 2.461104        1.671247        2.568540            2.729385 secondary_conditional_association           0.373199
+OSD-561 ridge_NNLS DESeq2_normalized_counts      ordinary_OLS    IRF1         Irf1 0.791628 0.074835       -0.032956        0.959662            4.335082 secondary_conditional_association           1.000000
+OSD-561 ridge_NNLS DESeq2_normalized_counts HC3_t_residual_df    IRF1         Irf1 0.937440 0.074835       -0.032956        0.959662            4.335082 secondary_conditional_association           1.000000
+OSD-561 ridge_NNLS DESeq2_normalized_counts      ordinary_OLS    NOS3         Nos3 0.001778 3.941651        2.725264        4.122356            1.391927 secondary_conditional_association           0.111809
+OSD-561 ridge_NNLS DESeq2_normalized_counts HC3_t_residual_df    NOS3         Nos3 0.025296 3.941651        2.725264        4.122356            1.391927 secondary_conditional_association           0.449811
+OSD-561 ridge_NNLS DESeq2_normalized_counts      ordinary_OLS    SOD1         Sod1 0.264460 0.465066        0.222606        1.885910            5.882317 secondary_conditional_association           0.708948
+OSD-561 ridge_NNLS DESeq2_normalized_counts HC3_t_residual_df    SOD1         Sod1 0.760538 0.465066        0.222606        1.885910            5.882317 secondary_conditional_association           1.000000
+OSD-561 ridge_NNLS DESeq2_normalized_counts      ordinary_OLS   SPHK2        Sphk2 0.020339 0.903984        0.769709        1.516551            2.056598 secondary_conditional_association           0.341247
+OSD-561 ridge_NNLS DESeq2_normalized_counts HC3_t_residual_df   SPHK2        Sphk2 0.218823 0.903984        0.769709        1.516551            2.056598 secondary_conditional_association           1.000000
+OSD-561 ridge_NNLS DESeq2_normalized_counts      ordinary_OLS    UCP2         Ucp2 0.050989 0.933900        0.774273        1.065653            0.336161 secondary_conditional_association           0.464824
+OSD-561 ridge_NNLS DESeq2_normalized_counts HC3_t_residual_df    UCP2         Ucp2 0.016114 0.933900        0.774273        1.065653            0.336161 secondary_conditional_association           0.381575

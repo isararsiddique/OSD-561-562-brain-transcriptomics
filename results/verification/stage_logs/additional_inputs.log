@@ -1,0 +1,38 @@
+OSD      flight  genotype
+OSD-457  FLT     Nrf2KO      6
+                 WT          6
+         GC      Nrf2KO      6
+                 WT          6
+OSD-525  FLT     WT          9
+         GC      WT          9
+         VIV     WT          8
+[
+  {
+    "OSD": "OSD-525",
+    "input_rows": 57278,
+    "input_libraries": 29,
+    "selected_tissue_libraries": 29,
+    "independent_animals": 26,
+    "retained_mouse_gene_rows": 57186,
+    "excluded_nonmouse_ERCC_or_other_rows": 92,
+    "integer_counts_verified": true,
+    "technical_replicates_summed": true,
+    "all_retained_counts_conserved": true,
+    "unique_primary_ISA_sample_links": true,
+    "source_SHA256": "171296ddbe8db08c709bd666c14f771ca452a6648d8ace60fd5bdc905c28a1ae"
+  },
+  {
+    "OSD": "OSD-457",
+    "input_rows": 57186,
+    "input_libraries": 192,
+    "selected_tissue_libraries": 24,
+    "independent_animals": 24,
+    "retained_mouse_gene_rows": 57186,
+    "excluded_nonmouse_ERCC_or_other_rows": 0,
+    "integer_counts_verified": true,
+    "technical_replicates_summed": true,
+    "all_retained_counts_conserved": true,
+    "unique_primary_ISA_sample_links": true,
+    "source_SHA256": "83d767cf348cf7feefdacde85431ee26523895e1c67cb4b7437e3636543d9da9"
+  }
+]
