@@ -1,0 +1,135 @@
+{
+  "tables": [
+    {
+      "table": "core/tables/bulk_panel_complete.csv",
+      "rows": 4228,
+      "columns": 24,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/spatial_panel_complete.csv",
+      "rows": 4228,
+      "columns": 25,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/bulk_secondary_age_interactions.csv",
+      "rows": 604,
+      "columns": 8,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/bulk_count_source_sensitivity.csv",
+      "rows": 1208,
+      "columns": 29,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/OSD-352_panel_celltype_exact_tests.csv",
+      "rows": 755,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/bulk_method_comparison_panel.csv",
+      "rows": 8456,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/independent_bulk_panel.csv",
+      "rows": 906,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/celltype_pseudobulk_panel.csv",
+      "rows": 1510,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/Visium_donor_flight_tests.csv",
+      "rows": 201,
+      "columns": 6,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/sorted_cell_panel_complete.csv",
+      "rows": 21744,
+      "columns": 13,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/pathway_CAMERA_complete.csv",
+      "rows": 5400,
+      "columns": 12,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/additional_panel_all_regions.csv",
+      "rows": 3624,
+      "columns": 15,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/terminal_region_panel_complete.csv",
+      "rows": 1510,
+      "columns": 12,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/article_5pct_panel_complete.csv",
+      "rows": 7248,
+      "columns": 13,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/state_panel_complete.csv",
+      "rows": 12080,
+      "columns": 15,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/state_composition_complete_tests.csv",
+      "rows": 3624,
+      "columns": 14,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/forebrain_all_eight_QC_method_consensus.csv",
+      "rows": 151,
+      "columns": 7,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/additional_mouse_deletion_expanded_complete.csv.gz",
+      "rows": 181200,
+      "columns": 16,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    }
+  ],
+  "tables_compared": 18,
+  "rows_compared": 258677,
+  "rtol": 1e-08,
+  "atol": 1e-10,
+  "passed": true
+}

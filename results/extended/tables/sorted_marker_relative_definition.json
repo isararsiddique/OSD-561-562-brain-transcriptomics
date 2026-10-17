@@ -1,0 +1,13 @@
+{
+  "anchors": [
+    "Csf1r",
+    "Tmem119",
+    "P2ry12",
+    "Hexb",
+    "Sall1"
+  ],
+  "response": "log2(target pseudobulk count+0.5) - mean(log2(anchor pseudobulk count+0.5))",
+  "scope": "Relative transcript stoichiometry to biological myeloid denominators, not absolute per-cell expression or validated housekeeping normalization",
+  "design": "four age/exposure groups; all151 targets x3 myeloid regions x4 contrasts per error model",
+  "exposure_unit": "mouse"
+}

@@ -1,0 +1,3 @@
+study,set,contrast,n_flight,n_ground,n_covered_genes,singscore_effect,exact_p,n_exact_labels,family,q_full_family
+OSD-352,HALLMARK_INTERFERON_ALPHA_RESPONSE,flight_vs_ground,3,3,86,-0.0133362656822469,0.3,20,independent_150,0.8535489667565138
+OSD-563,HALLMARK_INTERFERON_ALPHA_RESPONSE,flight_vs_ground,5,5,90,-0.0089475819410856,0.3015873015873015,252,independent_150,0.8535489667565138

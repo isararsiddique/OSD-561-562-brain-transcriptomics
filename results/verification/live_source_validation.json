@@ -1,0 +1,55 @@
+{
+  "tested_files": [
+    {
+      "path": "project/OSD-682-685-698-699-brain-spatial/data/geo/GSE239336_CA_GeneExpression_Q3norm.txt.gz",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239336/suppl/GSE239336_CA_GeneExpression_Q3norm.txt.gz",
+      "bytes": 500629,
+      "sha256": "c713e8b264be7cdb2d33ed8bc3b6f37d79f3ba177b788e91ef358ca46fc71c87",
+      "method": "download"
+    },
+    {
+      "path": "project/data/OSD-561/GLDS-556_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+      "source_url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-561/download?source=datamanager&file=GLDS-556_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+      "bytes": 5062174,
+      "sha256": "be6872234401a09fc64a9f9348bedd39c1cc7ee751bfb28da4bd302a6c4fb528",
+      "method": "download"
+    },
+    {
+      "path": "project/research/brain_integrative_2026/data/OSD-352/multiomics_brain_metadata_all_cells.csv",
+      "source_url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_SpatialTranscriptomics_multiomics_final_objects_metadata.zip",
+      "bytes": 8923760,
+      "sha256": "2c81e72ceb18d459aec3dcedbcac3f9bbb0f74e8ff241270787b8e41e1c5aea0",
+      "method": "deflate_range"
+    },
+    {
+      "path": "sources/core/GSE239336_CA_GeneExpression_Q3norm.txt.gz.download",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239336/suppl/GSE239336_CA_GeneExpression_Q3norm.txt.gz",
+      "bytes": 500629,
+      "sha256": "c713e8b264be7cdb2d33ed8bc3b6f37d79f3ba177b788e91ef358ca46fc71c87",
+      "method": "copy"
+    },
+    {
+      "path": "sources/extended/GSE295428_sorted_cells/GSM8947894_Myeloid_Cerebellum-HC_1_10-Mouse_2-Pool_1_barcodes.tsv.gz",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8947nnn/GSM8947894/suppl/GSM8947894_Myeloid_Cerebellum-HC_1_10-Mouse_2-Pool_1_barcodes.tsv.gz",
+      "bytes": 30832,
+      "sha256": "15767635d341d78b5c54c2d27b758eb09b56780417d56f2b7b1269a907703726",
+      "method": "download"
+    },
+    {
+      "path": "sources/extended/mh.all.v2025.1.Mm.symbols.gmt",
+      "source_url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Mm/mh.all.v2025.1.Mm.symbols.gmt",
+      "bytes": 48008,
+      "sha256": "2909a73db35f66a538267fa88dd8260e864a5c8d84d3c49c5262fa6bdb6e0805",
+      "method": "download"
+    },
+    {
+      "path": "sources/extended/visium_data/Sample_158_A1/tissue_positions_list.csv",
+      "source_url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_SpatialTranscriptomics_visium_data.zip",
+      "bytes": 189282,
+      "sha256": "aaa380a6a80ef3d1c7687f5f40c1e16b98e13b933ea42286ed502e50a10bb75c",
+      "method": "zip_member"
+    }
+  ],
+  "passed": 7,
+  "note": "Representative public-source downloads, not an assertion that all remote endpoints were retested live."
+}

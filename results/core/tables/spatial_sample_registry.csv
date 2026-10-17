@@ -1,0 +1,49 @@
+roi,study,region,flight,BuOE,slide,inference_unit
+FLT_TX_2 | 002 | Full ROI,OSD-682,CA1,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 006 | Full ROI,OSD-682,CA1,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 010 | Full ROI,OSD-682,CA1,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 002 | Full ROI,OSD-682,CA1,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 006 | Full ROI,OSD-682,CA1,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 010 | Full ROI,OSD-682,CA1,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 002 | Full ROI,OSD-682,CA1,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 006 | Full ROI,OSD-682,CA1,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 010 | Full ROI,OSD-682,CA1,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 001 | Full ROI,OSD-682,CA1,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 005 | Full ROI,OSD-682,CA1,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 009 | Full ROI,OSD-682,CA1,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 001 | Full ROI,OSD-685,Dentate gyrus,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 005 | Full ROI,OSD-685,Dentate gyrus,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 009 | Full ROI,OSD-685,Dentate gyrus,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 003 | Full ROI,OSD-685,Dentate gyrus,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 007 | Full ROI,OSD-685,Dentate gyrus,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 011 | Full ROI,OSD-685,Dentate gyrus,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 001 | Full ROI,OSD-685,Dentate gyrus,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 005 | Full ROI,OSD-685,Dentate gyrus,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 009 | Full ROI,OSD-685,Dentate gyrus,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 002 | Full ROI,OSD-685,Dentate gyrus,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 006 | Full ROI,OSD-685,Dentate gyrus,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 010 | Full ROI,OSD-685,Dentate gyrus,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 003 | Full ROI,OSD-698,Frontal cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 007 | Full ROI,OSD-698,Frontal cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 011 | Full ROI,OSD-698,Frontal cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 001 | Full ROI,OSD-698,Frontal cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 005 | Full ROI,OSD-698,Frontal cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 009 | Full ROI,OSD-698,Frontal cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 003 | Full ROI,OSD-698,Frontal cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 007 | Full ROI,OSD-698,Frontal cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 011 | Full ROI,OSD-698,Frontal cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 003 | Full ROI,OSD-698,Frontal cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 007 | Full ROI,OSD-698,Frontal cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 011 | Full ROI,OSD-698,Frontal cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 004 | Full ROI,OSD-699,Cerebral cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 008 | Full ROI,OSD-699,Cerebral cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+FLT_TX_2 | 012 | Full ROI,OSD-699,Cerebral cortex,1.0,1.0,FLT_TX_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 004 | Full ROI,OSD-699,Cerebral cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 008 | Full ROI,OSD-699,Cerebral cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_SAL_2 | 012 | Full ROI,OSD-699,Cerebral cortex,0.0,0.0,GC_SAL_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 004 | Full ROI,OSD-699,Cerebral cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 008 | Full ROI,OSD-699,Cerebral cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+GC_TX_2 | 012 | Full ROI,OSD-699,Cerebral cortex,0.0,1.0,GC_TX_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 004 | Full ROI,OSD-699,Cerebral cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 008 | Full ROI,OSD-699,Cerebral cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved
+FLT_SAL_2 | 012 | Full ROI,OSD-699,Cerebral cortex,1.0,0.0,FLT_SAL_2,section/ROI; animal provenance unresolved

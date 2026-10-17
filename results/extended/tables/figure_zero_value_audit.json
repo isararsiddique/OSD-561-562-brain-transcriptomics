@@ -1,0 +1,389 @@
+{
+  "checks": 91,
+  "passed": 91,
+  "details": [
+    {
+      "check": "Figure 2 DESeq2 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 DESeq2 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 DESeq2 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 DESeq2 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 edgeR QL complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 edgeR QL finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 edgeR QL independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 edgeR QL documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 limma/voom complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 limma/voom finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 limma/voom independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 limma/voom documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 AIF1 DESeq2 displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 AIF1 edgeR QL displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 AIF1 limma/voom displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 PYCARD DESeq2 displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 PYCARD edgeR QL displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 PYCARD limma/voom displayed values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk default_0.01 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk default_0.01 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk default_0.01 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk default_0.01 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk conservative_0.10 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk conservative_0.10 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk conservative_0.10 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk conservative_0.10 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk estimated complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk estimated finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk estimated independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk estimated documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk default_0.01 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk default_0.01 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk default_0.01 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk default_0.01 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk conservative_0.10 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk conservative_0.10 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk conservative_0.10 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk conservative_0.10 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk estimated complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk estimated finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk estimated independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk estimated documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types default_0.01 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types default_0.01 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types default_0.01 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types default_0.01 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types conservative_0.10 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types conservative_0.10 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types conservative_0.10 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types conservative_0.10 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types estimated complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types estimated finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types estimated independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types estimated documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations default_0.01 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations default_0.01 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations default_0.01 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations default_0.01 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations conservative_0.10 complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations conservative_0.10 finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations conservative_0.10 independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations conservative_0.10 documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations estimated complete family",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations estimated finite stored q-values",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations estimated independently recalculated BH",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations estimated documented discovery count",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-352 default_0.01 displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-352 conservative_0.10 displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-352 estimated displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-563 default_0.01 displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-563 conservative_0.10 displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-563 estimated displayed q",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 DESeq2 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 edgeR QL every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 2 limma/voom every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk conservative_0.10 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk default_0.01 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Core bulk estimated every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk conservative_0.10 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk default_0.01 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 Independent bulk estimated every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types conservative_0.10 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types default_0.01 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR3 cell types estimated every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations conservative_0.10 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations default_0.01 every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 RR8 enriched populations estimated every ranked evidence point",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-352 individual animals and mean effect",
+      "passes": true
+    },
+    {
+      "check": "Figure 6 OSD-563 individual animals and mean effect",
+      "passes": true
+    },
+    {
+      "check": "CAMERA degrees of freedom use actual sample and design sizes",
+      "passes": true
+    },
+    {
+      "check": "Correlation plot retains one index contrast per study and set",
+      "passes": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "core/tables/bulk_panel_complete.csv",
+      "sha256": "cb250f318068d40006a54d36ca5ec84a852977b9ae420dc3916cc1a798d7cb0b"
+    },
+    {
+      "path": "extended/tables/bulk_method_comparison_panel.csv",
+      "sha256": "4f4ff09830cfe77f6f4065971e598d03ae9333d8671bb442c962cae4f0f3680f"
+    },
+    {
+      "path": "extended/tables/pathway_CAMERA_complete.csv",
+      "sha256": "a6fc4182db296a459aeff1581e337ecb9576832c41b185797a336971ddb9b761"
+    },
+    {
+      "path": "extended/tables/sorted_pathway_CAMERA_complete.csv",
+      "sha256": "c0e8b9bfde4d9b13e0dab0809a38417974a6d5198b18786402c5618915576a0b"
+    }
+  ],
+  "interpretation": "Zero counts are verified no-q<0.05 results in complete planned families. Unavailable hypotheses retain p=1; no expression value was imputed for plotting."
+}

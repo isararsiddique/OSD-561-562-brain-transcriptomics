@@ -1,0 +1,15 @@
+study,count_mode,contrast,kind,n_animals,n_filtered_endogenous_genes,n_finite_p,n_genome_q05
+OSD-561,STAR,flight_ISS_T_age12,flight,26,21368,21362,3562
+OSD-561,STAR,flight_ISS_T_age29,flight,26,21368,21362,0
+OSD-561,STAR,flight_LAR_age12,flight,26,21368,21362,0
+OSD-561,STAR,flight_LAR_age29,flight,26,21368,21362,0
+OSD-561,STAR,age_GC_ISS_T,age,26,21368,21362,14
+OSD-561,STAR,age_GC_LAR,age,26,21368,21362,0
+OSD-561,STAR,cohort_GC_age12,cohort,26,21368,21362,11
+OSD-561,STAR,cohort_GC_age29,cohort,26,21368,21362,2
+OSD-561,STAR,age_FLT_ISS_T,age,26,21368,21362,102
+OSD-561,STAR,age_FLT_LAR,age,26,21368,21362,0
+OSD-561,STAR,cohort_FLT_age12,cohort,26,21368,21362,58
+OSD-561,STAR,cohort_FLT_age29,cohort,26,21368,21362,13
+OSD-561,STAR,flight_by_cohort_age12,interaction,26,21368,21362,45
+OSD-561,STAR,flight_by_cohort_age29,interaction,26,21368,21362,1

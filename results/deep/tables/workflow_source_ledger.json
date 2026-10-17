@@ -1,0 +1,18 @@
+{
+  "figure": "extended/figures/figure1_illustrated_study_workflow",
+  "sources": [
+    "../core/tables/verified_panel_mapping.csv",
+    "../core/tables/bulk_sample_registry.csv",
+    "tables/sorted_cell_preparation_summary.json",
+    "tables/multiome_aggregation_summary.json",
+    "tables/Visium_section_registry.csv",
+    "../deep/tables/additional_mouse_registry.csv",
+    "../deep/tables/state_panel_complete.csv",
+    "../deep/tables/additional_panel_all_regions.csv",
+    "../deep/tables/additional_mouse_deletion_expanded_focus.csv",
+    "../deep/tables/terminal_region_mouse_registry.csv",
+    "../deep/tables/article_GEO_QC_discrepancy.json"
+  ],
+  "script": "pipeline/stages/deep/workflow_figure.py",
+  "independent_units": "Mice; cells, sections and technical libraries do not add exposure replicates"
+}

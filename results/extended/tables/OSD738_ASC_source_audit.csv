@@ -1,0 +1,21 @@
+Sample Name,Group,asc_relative_density,unit.1,ASC,ASC_source_matches_submitted_workbook,ASC_orders_of_magnitude_QC_flag
+M6,Vivarium ,1.009311143,arbitrary_units,1.009311142705807,True,False
+M7,Vivarium ,4.923870352,arbitrary_units,4.9238703520170315,True,False
+M8,Vivarium ,60147.66399,arbitrary_units,60147.6639942497,True,True
+M9,Vivarium ,4.78199776,arbitrary_units,4.78199775990225,True,False
+M10,Vivarium ,1.984371847,arbitrary_units,1.984371846902397,True,False
+M16,Ground ,7.552466873,arbitrary_units,7.5524668734141525,True,False
+M17,Ground ,2.965712698,arbitrary_units,2.9657126979716586,True,False
+M18,Ground ,46884.6631,arbitrary_units,46884.66310296129,True,True
+M19,Ground ,6.540772231,arbitrary_units,6.540772230615184,True,False
+M20,Ground ,3.830381454,arbitrary_units,3.830381454372861,True,False
+M26,Basal,6.091393681,arbitrary_units,6.09139368094592,True,False
+M27,Basal,1.081004798,arbitrary_units,1.0810047981936213,True,False
+M28,Basal,37061.93993,arbitrary_units,37061.93992903008,True,True
+M29,Basal,0.692967801,arbitrary_units,0.6929678007290401,True,False
+M30,Basal,0.42003074,arbitrary_units,0.4200307400207947,True,False
+M36,Flight,2.732289661,arbitrary_units,2.7322896605992835,True,False
+M37,Flight,3.494513972,arbitrary_units,3.4945139722269842,True,False
+M38,Flight,72997.24278,arbitrary_units,72997.24278309243,True,True
+M39,Flight,1.923375176,arbitrary_units,1.9233751756894295,True,False
+M40,Flight,0.501262805,arbitrary_units,0.5012628048410886,True,False

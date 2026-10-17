@@ -1,402 +1,142 @@
-# Spaceflight Transcriptomics of the Mouse Brain — OSD-561 & OSD-562
+# Context-dependent innate-immune RNA responses in spaceflight mouse brain
 
-**Latest two-study analysis release (15 October 2026):** [collection protocol, correction gain and cerebellar junction transport](studies/2026-10-15/README.md). Separate study guides explain what was done, how the analyses work, how to reproduce them and what the results support. The release includes complete source scripts, methods, small results and figures, NASA dataset links and checksummed provenance. Input datasets and large generated outputs remain in the study archives. Zenodo DOIs are reserved, with publication pending at release preparation. The historical OSD-561/562 analysis below is preserved; use the new guides for the current papers.
+**An animal-level reanalysis of a corrected CNS gene panel across NASA OSDR bulk, enriched-cell, RNA/ATAC and spatial datasets.**
 
-A reproducible, full-data re-analysis of two NASA Open Science Data Repository
-(OSDR) bulk RNA-seq datasets from the RRRM-2 mission, focused on the cerebellum
-and hippocampus, using the project's CNS target panel.
+[Data and direct downloads](data/README.md) · [Methods](docs/METHODS.md) · [Findings and interpretation](docs/FINDINGS.md) · [All figures and captions](docs/FIGURES.md) · [Reproduce the study](pipeline/README.md) · [Validation](docs/VALIDATION.md) · [References](docs/REFERENCES.md)
 
-> **Scope — this README covers OSD-561 and OSD-562 only.** The
-> spatial-transcriptomics study (OSD-682, 685, 698, 699) is a **separate
-> analysis** with its own README in
-> [`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial).
-> The two studies are never pooled and their results are not compared here.
-> See [Separate spatial study](#separate-spatial-study-osd-682685698699).
+## Abstract
 
-> The shared target panel is in
-> [`config/cns_targets_mouse_symbols.txt`](config/cns_targets_mouse_symbols.txt)
-> (148 mouse symbols), with the mapping audit in
-> [`config/cns_targets_mapped.csv`](config/cns_targets_mapped.csv). It is a CNS
-> injury / neuroinflammation / neurovascular panel — **not** an EV panel. See
-> [CNS target panel](#cns-target-panel).
+Spaceflight brain transcriptomes can reflect changes in captured cell populations, cellular transcription, collection conditions and control selection. We reanalyzed a supplied panel of 151 human analytes, mapped to 143 unique primary mouse symbols, using deposited count matrices and verified animal identities. Whole-genome models precede panel extraction; complete testing families, unavailable estimates and sensitivity failures are retained. Analyses include the original six OSD accessions, independent bulk cohorts, RR8 enriched populations, RR3 RNA/ATAC and Visium, additional control/genotype contrasts, and mouse-deletion refits.
 
-> Every unique comparison in the differential-expression tables is analysed and
-> categorised (Spaceflight / Age / Environment / Confounded) — not just the
-> spaceflight contrasts — and every downloaded table is used.
+The clearest additional-cohort result is higher cerebellar **AIM2 RNA in RR23 flight versus habitat-ground mice**, corrected in both count engines and every one-mouse-deletion fit. That association is unconfirmed against vivarium controls. In RR8 enriched forebrain, 44 distinct panel genes pass correction across eight method/QC combinations, including an opposing AIM2/PYCARD RNA pattern. These combinations reuse eight mice, and exposure is confounded with processing day. Primary expression-state models support lower PYCARD, while a technical K=6 sensitivity fails correction. Spatial localization is demonstrable, but corrected spatial exposure, conservative pathway and Nrf2-interaction evidence remains unconfirmed.
 
-<p align="center">
-  <img src="results/graphical_abstract/graphical_abstract.png" alt="Graphical abstract" width="720">
-</p>
+The contribution is a transparent analysis of **where associations survive and where their interpretation changes**. The results prioritize a sensor/adaptor RNA hypothesis; they do not demonstrate inflammasome activity, EV cargo, protection or a causal mechanism.
 
----
+## Objective and biological questions
 
-## Overview
+Determine whether CNS target RNA differences associated with spaceflight are consistent with transcriptional remodeling, altered captured-cell mixtures, or sample handling, and assess how well they transfer across tissue regions and control definitions.
 
-This repository takes the GeneLab-processed bulk RNA-seq tables for two brain
-regions flown on the ISS, and produces a complete, honest analysis:
+1. Which sensor, adaptor and execution transcripts change together or in opposing directions?
+2. Do associations persist after RNA-mixture, expression-state and sequencing-depth checks?
+3. Does support transfer across cohorts, brain regions, habitat/vivarium controls and Nrf2 genotypes?
+4. Do spatial localization and promoter accessibility provide compatible context?
+5. Which conclusions survive complete-family correction, alternative engines and animal-level sensitivity tests?
 
-- **Global structure** — PCA on variance-stabilised counts (all samples, all genes).
-- **Differential expression** — every unique group comparison in the DE tables,
-  categorised by which experimental factor differs.
-- **Focus-gene panel** — an EV-biogenesis + neuroinflammation gene set tracked
-  across all clean contrasts.
-- **Quality control** — sequencing depth, genes detected, and count-table
-  concordance, built from the raw (RSEM) and normalized count tables.
+## Study workflow
 
-All figures are journal-styled (Arial, embedded fonts, no overlapping labels) and
-composed into eight multi-panel figures. All results are exported to CSV and a
-single Excel workbook.
+![Figure 1. Verified sources, biological units, five evidence branches and proposed functional validation.](results/extended/figures/figure1_illustrated_study_workflow.png)
 
-## Key result
+**Figure 1.** Verified accessions and animal identities feed five question–analysis–evidence branches. The final laboratory validation lane is proposed work. Technical libraries, cells, spots, sections and repeated methods do not increase the number of exposure animals. [PDF](results/extended/figures/figure1_illustrated_study_workflow.pdf) · [Editable SVG](results/extended/figures/figure1_illustrated_study_workflow.svg)
 
-The dominant axis of transcriptional change is **not** the Flight-vs-Ground
-(Spaceflight) contrast. When all comparisons are analysed, the **On-ISS vs
-On-Earth (Environment)** axis drives far more differential expression, while the
-clean spaceflight effect is small.
+## Data and experimental units
 
-| Region | Spaceflight (Flight vs Ground) | Environment (On ISS vs On Earth) |
+| Branch | Accessions | Verified scope | Main qualification |
+|---|---|---|---|
+| Original bulk | OSD-561/562 | 53 libraries, 29 mice, 24 mice with paired cerebellum/hippocampus | Terminal preservation differs by exposure group |
+| Original GeoMx | OSD-682/685/698/699; GSE239336 | Four regions, 48 ROIs | Animal links unresolved; slide/group confounding |
+| RR3 multimodal | OSD-352 | 21,178 nuclei from five RNA/ATAC donors; 29,839 Visium spots in 12 sections from six mice; six bulk mice | Assays and technical sections share biological units |
+| RR10/RR9 context | OSD-563/564; OSD-536 | 10 paired-region RR10 mice; 12 RR9 nCounter mice | Different regions, missions and assay coverage |
+| RR8 enriched populations | OSD-927–932; GSE295428 | 47 libraries, eight shared mice; 122,084 cells under the GEO gate | Enrichment is not a pure cell type; processing day is confounded |
+| Additional bulk | OSD-525/457/613 | 26 RR23, 24 MHU-3 and 18 different RRRM-2 mice | 68 additional different mice; mission independence is not implied |
+| Added cerebral region | OSD-612 | Nine measured RR10 mice, already represented elsewhere | Adds a region, not nine independent mice; one ISA sample lacks counts |
+| Protein-source context | OSD-738 | 20 submitted ASC records, including four extreme values | Source-scale audit; not pooled with RNA |
+
+The [data page](data/README.md) lists every accession, primary source and direct file download. Assay matrices are downloaded locally and excluded from the current Git tree. The supplied target definition and frozen public metadata/orthology records are included for reproducibility.
+
+## Main findings
+
+| Finding | Quantitative evidence | Interpretation |
 |---|---|---|
-| Cerebellum (OSD-561) | 2–6 DEGs | **41** (36 down, 5 up) |
-| Hippocampus (OSD-562) | 1–2 DEGs | **42** (22 up, 20 down) |
+| RR23 AIM2, flight versus habitat-ground | log2FC +0.741, q=0.0146 (voom); +0.733, q=0.0108 (edgeR); corrected in 26/26 deletions per engine | Stable to individual-mouse influence within this comparator |
+| RR23 AIM2, flight versus vivarium | log2FC +0.208/+0.174; q=0.843/0.898 | Control-dependent support; no general flight elevation claim |
+| RR8 forebrain panel | 44 distinct genes corrected in all eight engine/QC combinations | Computational robustness in the same eight mice |
+| RR8 article 5% QC | AIM2 +0.571; PYCARD −1.256; AIF1 −1.092 (voom) | Opposing RNA directions survive stricter mitochondrial filtering |
+| Primary RR8 within-state PYCARD | K=4: −0.867/−0.893; K=6: −1.192/−1.187 (voom/edgeR) | Shared-state support is exploratory; technical K=6 is uncorrected |
+| MHU-3 SLC1A3, WT flight | log2FC −0.214; q=0.0172/0.0207 | Glial RNA association; Nrf2 interaction is unconfirmed |
+| Original bulk methods | 17/10/0 corrected contrasts among 4,228 tests (DESeq2/edgeR/voom) | Only two DESeq2 discoveries are flight contrasts; method sensitivity matters |
+| Spatial and pathway checks | Local Visium structure; zero corrected exact spatial exposure tests; conservative CAMERA results uncorrected | Localization and permissive pathway findings do not establish an exposure mechanism |
 
-The largest gene counts come from **confounded** contrasts (up to 1,081 DEGs in
-cerebellum) that mix two or more factors; these are reported for completeness but
-are flagged as not cleanly interpretable. Thresholds: FDR < 0.05 and
-|log2 fold change| ≥ 1.
+Full families and unavailable targets are retained in the [result tables](results/README.md). The extended additional-cohort family has 1,812 tests per engine. RR8 families have 3,624 tests per engine/QC. Focused figures are post-analysis illustrations of those complete families.
 
-<p align="center">
-  <img src="results/figures/panels/Figure2_DEG_landscape.png" alt="DEG landscape across all contrasts" width="820">
-</p>
+### Control selection changes the biological story
 
-## Datasets
+![Figure 9. Additional cohorts, control contrasts, genotype contrasts and mouse-deletion fits.](results/deep/figures/figure9_additional_cohort_validation.png)
 
-| OSD | GLDS | Region | Samples | Genes measured |
-|---|---|---|---|---|
-| [OSD-561](https://osdr.nasa.gov/bio/repo/data/studies/OSD-561) | GLDS-556 | Cerebellum | 26 | 26,005 |
-| [OSD-562](https://osdr.nasa.gov/bio/repo/data/studies/OSD-562) | GLDS-557 | Hippocampus | 27 | 26,067 |
-| Combined | — | Cb + HPC | 53 | 24,769 shared |
+**Figure 9.** Each donor point represents one mouse. RR23 habitat, flight and vivarium groups contain 9/9/8 mice. AIM2 is positive and corrected versus habitat-ground in both engines and all deletions, but not versus vivarium. PYCARD versus vivarium does not pass the expanded correction family. MHU-3 includes all 24 deposited mice, six per genotype/exposure group; the genotype interaction does not establish protection. Deletion ranges show influence, not confidence intervals. [PDF](results/deep/figures/figure9_additional_cohort_validation.pdf)
 
-Design factors per sample: **age** (12 vs 29 week), **treatment**
-(Ground Control vs Space Flight), and **environment / collection condition**
-(On Earth vs On ISS). Cohort composition (combined): 29 Space Flight / 24 Ground
-Control, 27 old / 26 young, 30 ISS-terminal / 23 live-animal-return.
+### Stricter cell QC supports a forebrain RNA pattern
 
-Only the small GeneLab-processed tables are used (a few MB each) — **not** the
-raw FASTQ/BAM (hundreds of GB) and **not** the spatial-transcriptomics layer.
+![Figure 10. Regional transfer and the article-defined mitochondrial QC sensitivity.](results/deep/figures/figure10_regional_and_QC_validation.png)
+
+**Figure 10.** The separately tested article gate retains 62,351 cells across all 47 libraries, compared with 122,084 under the GEO gate. Lower AIF1/PYCARD and higher AIM2 persist in enriched forebrain. Regional transfer is incomplete; OSD-612 and OSD-613 PYCARD effects do not pass correction. Neither additional cell filtering nor additional regions resolves the RR8 processing-day confound. [PDF](results/deep/figures/figure10_regional_and_QC_validation.pdf)
+
+### State comparisons narrow the interpretation
+
+![Figure 8. Exposure-blind expression states, donor coverage and technical sensitivity.](results/deep/figures/figure8_expression_state_validation.png)
+
+**Figure 8.** Non-panel PCA/K-means states are learned without age/exposure labels. Donor coverage determines eligibility. Lower PYCARD remains corrected in primary shared K=4/K=6 states, but the eligible technical K=6 model is uncorrected (q=0.280/0.147). Equal-composition tests are sparse or unavailable and do not confirm causal mediation. State learning and testing use the same eight mice. [PDF](results/deep/figures/figure8_expression_state_validation.pdf)
+
+### Effect agreement and q-value distributions replace misleading empty bars
+
+![Figure 2. Bulk effect estimates, complete q-value distributions and whole-genome density.](results/extended/figures/figure2_method_agreement.png)
+
+**Figure 2.** DESeq2 and voom effects are highly concordant for the displayed whole-genome contrast (Spearman 0.92), while complete-family discovery counts differ. Agreement in direction is not agreement in uncertainty. Ranked curves display all 4,228 q-values per method; zero voom discoveries remains a verified result. White hexbin space means no observations in that bin. [PDF](results/extended/figures/figure2_method_agreement.pdf)
+
+### Spatial structure and pathway assumptions have separate meanings
+
+![Figure 5. Verified Visium coordinates and separate mouse-level exposure tests.](results/extended/figures/figure5_Visium_localization.png)
+
+**Figure 5.** There are 883 corrected gene-by-section localization tests across 12 sections, not 883 independent genes or flight discoveries. Exact six-mouse exposure tests have zero corrected discoveries. The spatial images describe localization on verified coordinates; they do not establish flight-induced localization. [PDF](results/extended/figures/figure5_Visium_localization.pdf)
+
+![Figure 6. Estimated intergene correlations, full pathway evidence distributions and animal scores.](results/extended/figures/figure6_pathway_correlation_sensitivity.png)
+
+**Figure 6.** All 50 Hallmark sets remain in the planned branch-specific families. CAMERA support at fixed correlation 0.01 disappears under fixed 0.10 and estimated-correlation specifications. Estimated CAMERA also changes the residual degrees of freedom. Exact mouse-level pathway scores do not confirm corrected pathway effects. [PDF](results/extended/figures/figure6_pathway_correlation_sensitivity.pdf)
+
+## Contribution and relationship to prior studies
+
+The five contribution axes are **biological question, measurement/contrast, method, statistical evidence, and cellular/mission specificity**. The added contribution is the corrected-panel analysis of opposing RNA directions, control-dependent transfer, all-mouse influence, explicit QC discrepancies, and limits of captured-state/spatial interpretation. The algorithms and multimodal assays are established methods.
+
+Masarapu et al. already integrated RR3 single-cell, accessibility and spatial data; Grandke et al. analyzed the RR8 study; Roy et al. measured inflammasome-related proteins; Kremsky et al. studied the antioxidant intervention; Suzuki/Uruno et al. studied Nrf2 spaceflight biology. This repository does not claim first-ever transcriptomics, multimodal integration, inflammasome change or Nrf2 brain analysis. See the [five-axis comparison](docs/CONTRIBUTION.md) and [primary references](docs/REFERENCES.md).
+
+## Reproduce from a fresh checkout
+
+Install the pinned Python/R environment as described in [pipeline/README.md](pipeline/README.md), then run:
+
+```sh
+python run_pipeline.py download-inputs --destination pipeline_inputs
+python run_pipeline.py check --inputs pipeline_inputs
+python run_pipeline.py run --inputs pipeline_inputs --output pipeline_results --threads 4
+```
+
+The single entry point runs **62 ordered stages**, fits deposited counts, builds figures and performs independent checks. Downloads use primary source URLs, expected lengths and SHA256 hashes. ZIP members also receive CRC32 checks. Once inputs are acquired, the default full analysis runs without network access. Inputs total approximately 1.69 GB; this is deposited-matrix analysis rather than raw FASTQ alignment. Use at least 16 GB RAM and several GB of free space.
+
+Recorded validation includes **931 independent numerical checks, 303 input checks, 19 PDF checks and agreement of 18 complete tables totaling 258,677 rows** with the earlier analysis. Full execution was tested on macOS arm64; cross-platform exact equality has not been tested. [Validation details](docs/VALIDATION.md)
 
 ## Repository structure
 
-```
-.
-├── README.md
-├── Makefile                      # one-command pipeline
-├── requirements.txt              # pinned dependencies (Python 3.12)
-├── config/
-│   ├── focus_genes.txt           # panel used for the figures currently in results/
-│   ├── cns_targets_mouse_symbols.txt   # finalised CNS panel, 147 mouse symbols
-│   └── cns_targets_mapped.csv          # human ENSID -> mouse ortholog audit trail
-├── OSD-682-685-698-699-brain-spatial/     # companion GeoMx DSP analysis
-├── scripts/
-│   ├── download_data.py          # fetch GeneLab tables from NASA OSDR
-│   ├── analyze.py                # PCA, spaceflight volcanoes, focus heatmaps, contrast helpers
-│   ├── analyze_full.py           # DEG landscape, all clean-contrast volcanoes, focus log2FC, QC
-│   ├── export_results.py         # all result tables -> CSV + Excel
-│   ├── make_panels.py            # compose multi-panel figures
-│   └── dataset_summary.py        # dataset overview (md + json)
-├── data/                         # gitignored — regenerate with download_data.py (~196 MB)
-│   ├── OSD-561/
-│   └── OSD-562/
-└── results/
-    ├── figures/
-    │   ├── panels/               # Figure1–Figure8 (PDF + PNG) — the main deliverables
-    │   └── *.pdf / *.png         # individual source figures
-    ├── tables/
-    │   ├── OSD-561_562_results.xlsx   # consolidated workbook (all summary sheets)
-    │   ├── all_contrasts_DEG_summary.csv
-    │   ├── dataset_summary.{md,json}
-    │   └── csv/                  # per-table CSVs (large DE_*.csv are gitignored)
-    └── graphical_abstract/
-        ├── graphical_abstract.svg
-        └── graphical_abstract.png
+```text
+run_pipeline.py                 Single analysis/acquisition entry point
+pipeline/                       Ordered Python/R stages, environment and tests
+data/                           Data page, direct URLs, hashes, study definitions
+  reference/                    Frozen public metadata and panel/orthology records
+docs/                           Paper-style methods, findings, captions and comparison
+results/                        Derived outputs only
+  core/{tables,figures}/        Original bulk/GeoMx and foundational audits
+  extended/{tables,figures}/    Integrated figures 1–7 and earlier validation
+  deep/{tables,figures}/        Additional cohorts, states, QC; figures 8–10
+  deep/technical_state_tables/ Technical-PC sensitivity results
+  verification/                Executed checks and environment records
+  publication_manifest.json    Hashes of published result artifacts
+pipeline_inputs/                Downloaded locally; ignored by Git
+pipeline_results/               Regenerated locally; ignored by Git
 ```
 
-## Requirements
+## Interpretation and next experiment
 
-- Python 3.12 (tested on 3.12.13)
-- Dependencies pinned in [`requirements.txt`](requirements.txt): pandas, numpy,
-  matplotlib, seaborn, scikit-learn, scipy, adjustText, openpyxl.
+The supported working hypothesis is **context-dependent divergence between innate-immune sensor and adaptor/execution RNA**, with altered mixtures and sample handling remaining alternatives. A matched-handling study in independently identified myeloid cells should measure multiplex RNA, ASC assembly, caspase/cytokine activity and membrane rupture before perturbation/rescue experiments. These tests are proposed, not completed.
 
-## Quick start
+Zeros, unavailable effects, regional failures and unsuccessful sensitivity tests are retained. Nominal 95% intervals are distinct from complete-family q-values. RNA abundance is not protein activation or EV cargo. [Limitations and validation plan](docs/LIMITATIONS.md)
 
-```bash
-# 1. Environment + dependencies
-make setup                      # creates .venv and installs requirements.txt
+Repository maintained by [Isarar Siddique](https://github.com/isararsiddique). Cite this repository together with the original data publications; [CITATION.cff](CITATION.cff) records the repository citation.
 
-# 2. Download the GeneLab tables from NASA OSDR (~196 MB)
-make data
-
-# 3. Run everything: analysis -> panels -> tables -> summary
-make all
-```
-
-Prefer to run the steps yourself:
-
-```bash
-python3 -m venv .venv
-./.venv/bin/pip install -r requirements.txt
-./.venv/bin/python scripts/download_data.py
-./.venv/bin/python scripts/analyze.py
-./.venv/bin/python scripts/analyze_full.py
-./.venv/bin/python scripts/make_panels.py
-./.venv/bin/python scripts/export_results.py
-./.venv/bin/python scripts/dataset_summary.py
-```
-
-## Figures
-
-All panels live in [`results/figures/panels/`](results/figures/panels) as PDF
-(print) and PNG (preview). Individual source figures are in
-[`results/figures/`](results/figures).
-
-### Figure 1 — Principal component analysis
-
-<p align="center">
-  <img src="results/figures/panels/Figure1_PCA.png" alt="Figure 1: PCA" width="80%">
-</p>
-
-PCA on variance-stabilised counts. Combined datasets separate first by brain
-region (PC1 = 49.7%); within each region, samples separate by collection
-condition more than by flight treatment.
-
-### Figure 2 — Differential-expression landscape (all contrasts)
-
-<p align="center">
-  <img src="results/figures/panels/Figure2_DEG_landscape.png" alt="Figure 2: DEG landscape" width="100%">
-</p>
-
-DEG counts for all 31 unique contrasts per region (symlog scale, coloured by
-category). The Environment (On ISS vs On Earth) and confounded contrasts carry
-almost all of the signal; clean Flight-vs-Ground effects are small.
-
-### Figure 3 — Volcano plots: Spaceflight (Flight vs Ground)
-
-<p align="center">
-  <img src="results/figures/panels/Figure3_Volcanoes_Spaceflight.png" alt="Figure 3: Spaceflight volcanoes" width="92%">
-</p>
-
-All five age- and condition-matched Flight-vs-Ground comparisons.
-
-### Figure 4 — Volcano plots: Age (Old vs Young)
-
-<p align="center">
-  <img src="results/figures/panels/Figure4_Volcanoes_Age.png" alt="Figure 4: Age volcanoes" width="92%">
-</p>
-
-All five matched 29-week-vs-12-week comparisons.
-
-### Figure 5 — Volcano plots: Environment (On ISS vs On Earth)
-
-<p align="center">
-  <img src="results/figures/panels/Figure5_Volcanoes_Environment.png" alt="Figure 5: Environment volcanoes" width="72%">
-</p>
-
-All four matched On-ISS-vs-On-Earth comparisons — the largest clean effects.
-
-### Figure 6 — Focus-gene log2 fold-change matrix
-
-<p align="center">
-  <img src="results/figures/panels/Figure6_FocusGene_log2FC.png" alt="Figure 6: Focus-gene log2FC" width="100%">
-</p>
-
-EV / neuroinflammation focus panel across every clean contrast, per region.
-
-### Figure 7 — Focus-gene heat maps
-
-<p align="center">
-  <img src="results/figures/panels/Figure7_FocusGene_heatmaps.png" alt="Figure 7: Focus-gene heatmaps" width="82%">
-</p>
-
-Focus-gene VST z-scores for the combined cohort and each region.
-
-### Figure 8 — Quality control
-
-<p align="center">
-  <img src="results/figures/panels/Figure8_QC.png" alt="Figure 8: QC" width="100%">
-</p>
-
-Library size and genes detected per sample (from RSEM raw counts), and
-VST-vs-Normalized count concordance (r ≈ 0.97).
-
-## Result tables
-
-`results/tables/OSD-561_562_results.xlsx` collects every summary table; the same
-tables are also written as CSVs under `results/tables/csv/`.
-
-| Table | Description |
-|---|---|
-| `cohort_summary` | Sample and gene counts per study and combined |
-| `sample_metadata` | Every sample with region, treatment, age, environment, animal ID |
-| `PCA_coordinates` / `PCA_variance` | PC1/PC2 per sample; variance explained |
-| `DEG_summary_all` | DEG counts for all 31 unique contrasts, tagged by category |
-| `significant_DEGs_all` | Gene-level significant DEGs across every contrast |
-| `focus_gene_stats_all` | log2FC / p / adj-p for the focus panel across every contrast |
-| `focus_log2FC_matrix` | Focus genes × clean single-factor contrasts |
-
-Full gene-level DE for every contrast is written to
-`results/tables/csv/DE_all_contrasts_long.csv` plus one `DE_<study>_<contrast>.csv`
-per comparison. These are large (~200 MB total) and regenerable, so they are
-gitignored — run `export_results.py` to rebuild them.
-
-## What "all the data" means here
-
-| Data | Used |
-|---|---|
-| All 53 samples | Yes |
-| All measured genes (~26k per study; 24,769 shared) | Yes |
-| All 62 DE columns → 31 unique comparisons (reverse duplicates collapsed) | Yes |
-| VST, differential_expression, RSEM (raw), Normalized count tables | Yes |
-| SampleTable / contrasts files | Information reconstructed from column and sample names |
-| Raw FASTQ / BAM (hundreds of GB) | No — GeneLab-processed tables used instead |
-| Spatial-transcriptomics layer | No |
-
-## Analysis details
-
-- **Counts.** PCA and heatmaps use variance-stabilised (VST) counts on the top
-  variable genes. QC concordance compares VST against log2(Normalized + 1).
-- **Contrasts.** GeneLab's precomputed DESeq2 statistics are read directly. Each
-  `Log2fc_(A)v(B)` column is parsed; reverse-direction duplicates (A-vs-B and
-  B-vs-A) are collapsed. A comparison is *clean* when exactly one design factor
-  differs (Spaceflight, Age, or Environment) and *confounded* otherwise.
-- **Orientation.** Clean contrasts are oriented consistently: Space Flight − Ground
-  Control, 29 week − 12 week, On ISS − On Earth (positive = up in the first term).
-- **DEG calling.** FDR < 0.05 and |log2FC| ≥ 1.
-
-## Limitations
-
-- This is a **secondary re-analysis** of GeneLab's precomputed DESeq2 results; no
-  re-alignment or re-modelling from raw reads is performed.
-- The focus figures currently in `results/` were generated from the **placeholder**
-  panel in `config/focus_genes.txt` (Cd9, Cd63, Cd81, Pdcd6ip, Tsg101, Nfkb1, Il1b,
-  Tnf, Gfap, Aif1). The finalised panel is now available as
-  `config/cns_targets_mouse_symbols.txt` — see
-  [CNS target panel](#cns-target-panel) for how to switch to it and what
-  changes.
-- **Confounded** contrasts are included for completeness but are not directly
-  interpretable because more than one factor differs.
-- The "On ISS" vs "On Earth" factor reflects the collection/housing condition as
-  encoded by GeneLab; its biological interpretation should be made in context.
-
-## CNS target panel
-
-The finalised target list for the CNS-injury / EV manuscript — 150 analytes with
-human Ensembl gene IDs — has been mapped onto mouse gene symbols and is available
-here:
-
-| File | Contents |
-|---|---|
-| [`config/cns_targets_mouse_symbols.txt`](config/cns_targets_mouse_symbols.txt) | 148 mouse symbols, one per line, ready to drop in as `focus_genes.txt` |
-| [`config/cns_targets_mapped.csv`](config/cns_targets_mapped.csv) | Full audit trail: analyte → ENSID → human symbol → mouse ortholog, with orthology type, functional category and corrections |
-
-Mapping was done through the Ensembl REST API and Compara orthology rather than by
-title-casing symbols, because that shortcut breaks for this panel: human `CXCL8`
-has no mouse ortholog at all, and `CXCL2` and `CASZ1` also fail to resolve
-one-to-one. The generating script is
-[`OSD-682-685-698-699-brain-spatial/scripts/map_targets.py`](OSD-682-685-698-699-brain-spatial/scripts/map_targets.py).
-
-### Six corrections to the source spreadsheet
-
-Resolving every ENSID against Ensembl found six rows whose gene ID points to a
-gene unrelated to its analyte label. Four are core CNS-injury biomarkers, so
-analysing them as supplied would have reported the wrong gene under a recognised
-biomarker name. Each correction was verified against Ensembl:
-
-| Analyte | Supplied ENSID | Actually resolves to | Corrected to | Intended gene |
-|---|---|---|---|---|
-| Iba1 | `ENSG00000153406` | NMRAL1 | `ENSG00000204472` | **AIF1** |
-| Neurogranin | `ENSG00000101191` | DIDO1 | `ENSG00000154146` | **NRGN** |
-| SBDP (SNTF) | `ENSG00000077279` | DCX | `ENSG00000197694` | **SPTAN1** |
-| Serum amyloid alpha (SAA) | `ENSG00000154803` | FLCN | `ENSG00000173432` | **SAA1** |
-| APC-CC1 | `ENSG00000135982` | *(no gene)* | `ENSG00000134982` | **APC** |
-| PYCARD | `ENSG00000103483` | *(no gene)* | `ENSG00000103490` | **PYCARD** |
-
-The last two look like transposed digits. **These are worth fixing in the source
-spreadsheet**, since the same list will be reused across the programme — in the
-companion spatial analysis, neurogranin turned out to be one of only three genes
-reaching significance, and it would have been missed entirely under the supplied ID.
-
-A further 13 labels differ from their Ensembl symbol but point to the correct gene
-and were left as supplied (`Amyloid-beta` → APP, `GLT-1` → SLC1A2, `ICE` → CASP1,
-`Tau` → MAPT, `TDP43` → TARDBP, `NfL` → NEFL, `ICAM`/`VCAM` → ICAM1/VCAM1, and
-similar). All are flagged in the mapping CSV.
-
-### Switching this project to the finalised panel
-
-The figures and tables currently in `results/` were built from the placeholder
-panel, so they will not change until the pipeline is re-run:
-
-```bash
-cp config/cns_targets_mouse_symbols.txt config/focus_genes.txt
-make analyze panels tables summary
-```
-
-Expect a larger focus panel (147 symbols rather than 10), so
-`Figure6_FocusGene_log2FC` and `Figure7_FocusGene_heatmaps` will grow
-substantially. Coverage should be high here: unlike the targeted GeoMx assay in
-the companion analysis, these bulk RNA-seq datasets measure ~26,000 genes.
-
-One statistical opportunity worth taking while re-running: because this panel is
-**pre-specified**, FDR can legitimately be controlled within the panel rather than
-across all ~26,000 genes. In the companion analysis that single change was the
-difference between zero findings and eight. See
-[`analyze_targets.py`](OSD-682-685-698-699-brain-spatial/scripts/analyze_targets.py)
-for the implementation.
-
-## Separate spatial study: OSD-682/685/698/699
-
-The spatial-transcriptomics arm of the programme — OSD-682, OSD-685, OSD-698 and
-OSD-699 — is a **separate analysis** in
-[`OSD-682-685-698-699-brain-spatial/`](OSD-682-685-698-699-brain-spatial), with
-its own methods, results and conclusions in
-[its own README](OSD-682-685-698-699-brain-spatial/README.md).
-
-The two are kept apart deliberately. They are different assays (GeneLab bulk
-RNA-seq here, NanoString GeoMx DSP there), with different sample sizes,
-different statistical power, different normalisation, and different data sources.
-Their results are not directly comparable and are not pooled anywhere. The only
-thing they share is the CNS target panel above.
-
-Nothing else in this README refers to that study.
-
-## Reproducibility
-
-Pinned to Python 3.12.13 with the exact package versions in `requirements.txt`.
-Figures use fixed random seeds where relevant and embedded fonts (matplotlib
-`pdf.fonttype 42`).
-
-## Authors
-
-**Isarar Siddique** — [@isararsiddique](https://github.com/isararsiddique) ·
-<siddisrar786@gmail.com>
-
-To cite this repository:
-
-```
-Siddique, I. Spaceflight Transcriptomics of the Mouse Brain: OSD-561, OSD-562,
-OSD-682, OSD-685, OSD-698 and OSD-699. GitHub repository.
-https://github.com/isararsiddique/OSD-561-562-brain-transcriptomics
-```
-
-## Data availability and attribution
-
-Input data are from the NASA Open Science Data Repository (OSDR / GeneLab):
-[OSD-561](https://osdr.nasa.gov/bio/repo/data/studies/OSD-561) and
-[OSD-562](https://osdr.nasa.gov/bio/repo/data/studies/OSD-562). OSDR data are
-openly available; please cite the repository and the original data contributors
-when reusing. This repository redistributes **no** raw data — it downloads the
-processed tables on demand via `scripts/download_data.py`.
-
-## License
-
-No license is set yet. The analysis code in this repository may be released under
-a permissive license of your choice (e.g. MIT); the underlying OSDR data remain
-subject to NASA's open-data terms. Add a `LICENSE` file before publishing.
+This active tree supersedes the older paper packages; their commits remain available in Git history. [History and scope](docs/HISTORY.md)

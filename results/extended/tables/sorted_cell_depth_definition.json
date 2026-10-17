@@ -1,0 +1,12 @@
+{
+  "rarefaction_UMIs": 500,
+  "method": "Analytical expectation: 1 - choose(N-k,500)/choose(N,500); primary-QC cells with N>=500",
+  "exposure_unit": "Mouse, never individual cell",
+  "endpoints": [
+    "raw_detection_fraction",
+    "mean_cell_log2_CP10k_plus1",
+    "expected_detection_at_500_UMIs"
+  ],
+  "families": "All 151 targets x 3 myeloid populations x 3 endpoints = 1359 per donor error specification",
+  "scope": "Depth sensitivity on the same biological samples; does not remove cell-state mixtures, ambient RNA, dissociation or day confounding."
+}

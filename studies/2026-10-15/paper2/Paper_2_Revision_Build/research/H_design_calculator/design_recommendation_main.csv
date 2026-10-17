@@ -1,6 +1,0 @@
-scenario,n_attainable_single_BY,n_attainable_single_Holm,k_star_at_9v9,n_grid_prob_any_ge_95,n_interp_prob_any_ge_95,interp_any95_crosses_kstar_step,n_grid_per_effect_power_ge_50,n_interp_per_effect_power_ge_50,interp_power50_crosses_kstar_step,n_grid_per_effect_power_ge_80,n_interp_per_effect_power_ge_80,interp_power80_crosses_kstar_step,per_effect_power_at_9v9,expected_discoveries_at_9v9,permutation_budget_R_min
-"TV 17.4 pp, favourable (theta 0.01, depth 280)",12,10,20,9,8.9,True,9,8.6,True,9,8.9,True,0.8667348329925018,57.5575,470932
-"TV 17.4 pp, calibrated (theta 0.017, depth 140)",12,10,20,10,9.1,True,10,9.3,True,12,11.2,True,0.40175631174533477,26.6925,470932
-"TV 17.4 pp, adverse (theta 0.028, depth 70)",12,10,20,12,11.0,True,12,12.0,True,,,,0.0007578053955744165,0.05,470932
-"TV 10 pp, calibrated theta/depth",12,10,20,12,11.9,True,,,,,,,0.0,0.0,470932
-"TV 25 pp, calibrated theta/depth",12,10,20,9,8.9,True,9,8.6,True,9,8.9,True,0.8878679750223015,50.0225,470932

@@ -1,0 +1,10 @@
+{
+  "assembly": "GRCm38/mm10",
+  "annotation": "Ensembl release102",
+  "window": "Gene TSS +/- 2000 bp, every overlapping peak summed once per gene",
+  "mapped_panel_genes_with_peaks": 119,
+  "planned_family": 453,
+  "exact_labels": 10,
+  "q05": 0,
+  "scope": "Same five RR3 donor groups for RNA and ATAC. Accessibility is not inflammasome activation. Overlap establishes promoter proximity, not gene regulation or causal links."
+}

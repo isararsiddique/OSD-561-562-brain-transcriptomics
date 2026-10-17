@@ -1,4 +1,0 @@
-tissue,n_genes,n_contrasts,direction_concordant,nominal_max_p05,BH_FDR05,BY_FDR05,minimum_replication_p
-cerebellum,18048,3,5047,3,0,0,0.0218235172114674
-hippocampus,17759,3,5001,0,0,0,0.0759516981416137
-left_cerebral_hemisphere,19182,2,9884,554,0,0,1.4480648551816811e-05

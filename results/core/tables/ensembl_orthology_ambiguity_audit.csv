@@ -1,0 +1,5 @@
+human_ensembl,mouse_id,mouse_symbol,type,high_confidence,source_url
+ENSG00000165092,ENSMUSG00000024747,Aldh1a7,ortholog_one2many,,https://rest.ensembl.org/homology/id/human/ENSG00000165092?target_species=mus_musculus&type=orthologues&sequence=none
+ENSG00000165092,ENSMUSG00000053279,Aldh1a1,ortholog_one2many,,https://rest.ensembl.org/homology/id/human/ENSG00000165092?target_species=mus_musculus&type=orthologues&sequence=none
+ENSG00000108691,ENSMUSG00000035385,Ccl2,ortholog_one2one,,https://rest.ensembl.org/homology/id/human/ENSG00000108691?target_species=mus_musculus&type=orthologues&sequence=none
+ENSG00000108688,ENSMUSG00000035373,Ccl7,ortholog_one2one,,https://rest.ensembl.org/homology/id/human/ENSG00000108688?target_species=mus_musculus&type=orthologues&sequence=none

@@ -1,0 +1,48 @@
+sample,donor,tissue,title,flight,age,batch,sex,strain
+GSM8947894,GC_Mouse2,Myeloid_Cerebellum,"Myeloid Cerebellum, HC, Mouse 2",GC,8,Pool 1,female,BALB/cAnNTac
+GSM8947895,GC_Mouse3,Myeloid_Cerebellum,"Myeloid Cerebellum, HC, Mouse 3",GC,3,Pool 1,female,BALB/cAnNTac
+GSM8947896,GC_Mouse4,Myeloid_Cerebellum,"Myeloid Cerebellum, HC, Mouse 4",GC,8,Pool 1,female,BALB/cAnNTac
+GSM8947897,FLT_Mouse1,Myeloid_Cerebellum,"Myeloid Cerebellum, LAR, Mouse 1",FLT,3,Pool 1,female,BALB/cAnNTac
+GSM8947898,FLT_Mouse2,Myeloid_Cerebellum,"Myeloid Cerebellum, LAR, Mouse 2",FLT,8,Pool 1,female,BALB/cAnNTac
+GSM8947899,FLT_Mouse3,Myeloid_Cerebellum,"Myeloid Cerebellum, LAR, Mouse 3",FLT,3,Pool 1,female,BALB/cAnNTac
+GSM8947900,FLT_Mouse4,Myeloid_Cerebellum,"Myeloid Cerebellum, LAR, Mouse 4",FLT,8,Pool 1,female,BALB/cAnNTac
+GSM8947901,GC_Mouse1,Myeloid_Forebrain,"Myeloid Forebrain, HC, Mouse 1",GC,3,Pool 1,female,BALB/cAnNTac
+GSM8947902,GC_Mouse2,Myeloid_Forebrain,"Myeloid Forebrain, HC, Mouse 2",GC,8,Pool 1,female,BALB/cAnNTac
+GSM8947903,GC_Mouse3,Myeloid_Forebrain,"Myeloid Forebrain, HC, Mouse 3",GC,3,Pool 1,female,BALB/cAnNTac
+GSM8947904,GC_Mouse4,Myeloid_Forebrain,"Myeloid Forebrain, HC, Mouse 4",GC,8,Pool 1,female,BALB/cAnNTac
+GSM8947905,FLT_Mouse1,Myeloid_Forebrain,"Myeloid Forebrain, LAR, Mouse 1",FLT,3,Pool 1,female,BALB/cAnNTac
+GSM8947906,FLT_Mouse2,Myeloid_Forebrain,"Myeloid Forebrain, LAR, Mouse 2",FLT,8,Pool 1,female,BALB/cAnNTac
+GSM8947907,FLT_Mouse3,Myeloid_Forebrain,"Myeloid Forebrain, LAR, Mouse 3",FLT,3,Pool 1,female,BALB/cAnNTac
+GSM8947908,FLT_Mouse4,Myeloid_Forebrain,"Myeloid Forebrain, LAR, Mouse 4",FLT,8,Pool 1,female,BALB/cAnNTac
+GSM8947909,GC_Mouse1,Myeloid_Hippocampus,"Myeloid Hippocampus, HC, Mouse 1",GC,3,Pool 2,female,BALB/cAnNTac
+GSM8947910,GC_Mouse2,Myeloid_Hippocampus,"Myeloid Hippocampus, HC, Mouse 2",GC,8,Pool 2,female,BALB/cAnNTac
+GSM8947911,GC_Mouse3,Myeloid_Hippocampus,"Myeloid Hippocampus, HC, Mouse 3",GC,3,Pool 2,female,BALB/cAnNTac
+GSM8947912,GC_Mouse4,Myeloid_Hippocampus,"Myeloid Hippocampus, HC, Mouse 4",GC,8,Pool 2,female,BALB/cAnNTac
+GSM8947913,FLT_Mouse1,Myeloid_Hippocampus,"Myeloid Hippocampus, LAR, Mouse 1",FLT,3,Pool 2,female,BALB/cAnNTac
+GSM8947914,FLT_Mouse2,Myeloid_Hippocampus,"Myeloid Hippocampus, LAR, Mouse 2",FLT,8,Pool 2,female,BALB/cAnNTac
+GSM8947915,FLT_Mouse3,Myeloid_Hippocampus,"Myeloid Hippocampus, LAR, Mouse 3",FLT,3,Pool 2,female,BALB/cAnNTac
+GSM8947916,FLT_Mouse4,Myeloid_Hippocampus,"Myeloid Hippocampus, LAR, Mouse 4",FLT,8,Pool 2,female,BALB/cAnNTac
+GSM8947917,GC_Mouse1,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, HC, Mouse 1",GC,3,Pool 3,female,BALB/cAnNTac
+GSM8947918,GC_Mouse2,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, HC, Mouse 2",GC,8,Pool 3,female,BALB/cAnNTac
+GSM8947919,GC_Mouse3,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, HC, Mouse 3",GC,3,Pool 3,female,BALB/cAnNTac
+GSM8947920,GC_Mouse4,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, HC, Mouse 4",GC,8,Pool 3,female,BALB/cAnNTac
+GSM8947921,FLT_Mouse1,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, LAR, Mouse 1",FLT,3,Pool 3,female,BALB/cAnNTac
+GSM8947922,FLT_Mouse2,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, LAR, Mouse 2",FLT,8,Pool 3,female,BALB/cAnNTac
+GSM8947923,FLT_Mouse3,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, LAR, Mouse 3",FLT,3,Pool 3,female,BALB/cAnNTac
+GSM8947924,FLT_Mouse4,Non-myeloid_Hippocampus,"Non, meyloid Hippocampus, LAR, Mouse 4",FLT,8,Pool 3,female,BALB/cAnNTac
+GSM8947925,GC_Mouse1,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, HC, Mouse 1",GC,3,Pool 3,female,BALB/cAnNTac
+GSM8947926,GC_Mouse2,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, HC, Mouse 2",GC,8,Pool 3,female,BALB/cAnNTac
+GSM8947927,GC_Mouse3,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, HC, Mouse 3",GC,3,Pool 3,female,BALB/cAnNTac
+GSM8947928,GC_Mouse4,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, HC, Mouse 4",GC,8,Pool 3,female,BALB/cAnNTac
+GSM8947929,FLT_Mouse1,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, LAR, Mouse 1",FLT,3,Pool 3,female,BALB/cAnNTac
+GSM8947930,FLT_Mouse2,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, LAR, Mouse 2",FLT,8,Pool 3,female,BALB/cAnNTac
+GSM8947931,FLT_Mouse3,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, LAR, Mouse 3",FLT,3,Pool 3,female,BALB/cAnNTac
+GSM8947932,FLT_Mouse4,Non-myeloid_Cerebellum,"Non, myeloid Cerebellum, LAR, Mouse 4",FLT,8,Pool 3,female,BALB/cAnNTac
+GSM8947933,GC_Mouse1,Non-myeloid_Forebrain,"Non, myeloid Forebrain, HC, Mouse 1",GC,3,Pool 2,female,BALB/cAnNTac
+GSM8947934,GC_Mouse2,Non-myeloid_Forebrain,"Non, myeloid Forebrain, HC, Mouse 2",GC,8,Pool 2,female,BALB/cAnNTac
+GSM8947935,GC_Mouse3,Non-myeloid_Forebrain,"Non, myeloid Forebrain, HC, Mouse 3",GC,3,Pool 2,female,BALB/cAnNTac
+GSM8947936,GC_Mouse4,Non-myeloid_Forebrain,"Non, myeloid Forebrain, HC, Mouse 4",GC,8,Pool 2,female,BALB/cAnNTac
+GSM8947937,FLT_Mouse1,Non-myeloid_Forebrain,"Non, myeloid Forebrain, LAR, Mouse 1",FLT,3,Pool 2,female,BALB/cAnNTac
+GSM8947938,FLT_Mouse2,Non-myeloid_Forebrain,"Non, myeloid Forebrain, LAR, Mouse 2",FLT,8,Pool 2,female,BALB/cAnNTac
+GSM8947939,FLT_Mouse3,Non-myeloid_Forebrain,"Non, myeloid Forebrain, LAR, Mouse 3",FLT,3,Pool 2,female,BALB/cAnNTac
+GSM8947940,FLT_Mouse4,Non-myeloid_Forebrain,"Non, myeloid Forebrain, LAR, Mouse 4",FLT,8,Pool 2,female,BALB/cAnNTac

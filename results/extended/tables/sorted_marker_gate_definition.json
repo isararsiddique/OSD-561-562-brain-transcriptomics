@@ -1,0 +1,12 @@
+{
+  "marker_genes": [
+    "Csf1r",
+    "Tmem119",
+    "P2ry12",
+    "Hexb",
+    "Sall1"
+  ],
+  "all_excluded_from_151_CNS_panel": true,
+  "gate": "At least two of five marker genes detected within the published QC gate; restrict original FACS Myeloid libraries.",
+  "role": "Post-result sensitivity analysis, not a validated microglial annotation. Marker regulation or capture can affect selection. Does not prove pure cells or causal within-cell regulation."
+}

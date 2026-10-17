@@ -1,0 +1,25 @@
+{
+  "assay": "nCounter Mouse Neuroinflammation panel",
+  "endogenous_probes": 757,
+  "HK_probes": 13,
+  "all_samples_positive_HK_used": [
+    "Aars",
+    "Ccdc127",
+    "Cnot10",
+    "Csnk2a2",
+    "Fam104a",
+    "Gusb",
+    "Lars",
+    "Mto1",
+    "Supt7l",
+    "Tada2b",
+    "Tbp",
+    "Xpnpep1"
+  ],
+  "normalization": "Positive-control geometric mean, then all nonzero-housekeeping geometric mean. This is transparent reanalysis, not an exact nSolver reproduction; publication selected HK subset unspecified.",
+  "fixed_gate": "Raw count > sample negative-probe mean+2SD in >=6/12 samples",
+  "exact_labels": 924,
+  "tested_CNS_targets": 31,
+  "exact_q05": 0,
+  "note": "RR9 male right caudal hemibrain (mid- and hindbrain, publication Methods) post-return data; different sex, region and timing from core study."
+}

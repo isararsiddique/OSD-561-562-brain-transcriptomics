@@ -1,0 +1,91 @@
+[
+  {
+    "figure": "figure1_illustrated_study_workflow",
+    "tables": [
+      "../core/tables/verified_panel_mapping.csv",
+      "../core/tables/bulk_sample_registry.csv",
+      "tables/sorted_cell_preparation_summary.json",
+      "tables/multiome_aggregation_summary.json",
+      "tables/Visium_section_registry.csv",
+      "../deep/tables/additional_mouse_registry.csv",
+      "../deep/tables/state_panel_complete.csv",
+      "../deep/tables/additional_panel_all_regions.csv",
+      "../deep/tables/additional_mouse_deletion_expanded_focus.csv",
+      "../deep/tables/terminal_region_mouse_registry.csv",
+      "../deep/tables/article_GEO_QC_discrepancy.json"
+    ],
+    "authoring_script": "pipeline/stages/deep/workflow_figure.py"
+  },
+  {
+    "figure": "figure2_method_agreement",
+    "tables": [
+      "bulk_method_comparison_panel.csv",
+      "../core/tables/bulk_panel_complete.csv",
+      "../core/tables/OSD-561_STAR_flight_ISS_T_age12_genome.csv.gz",
+      "OSD-561_voom_flight_ISS_T_age12_genome.csv.gz",
+      "figure2_method_counts.csv",
+      "figure2_displayed_effects.csv",
+      "figure2_genome_display_summary.json",
+      "bulk_ranked_evidence.csv"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  },
+  {
+    "figure": "figure3_composition_and_identifiability",
+    "tables": [
+      "deconvolution_held_donor_validation.csv",
+      "bulk_RNA_fraction_estimates.csv",
+      "composition_adjusted_young_terminal_panel.csv"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  },
+  {
+    "figure": "figure4_RNA_ATAC_context",
+    "tables": [
+      "RNA_ATAC_promoter_context.csv",
+      "RNA_ATAC_donor_values.csv",
+      "panel_promoter_peak_links.csv",
+      "sorted_cell_panel_complete.csv",
+      "sorted_marker_gate_definition.json"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  },
+  {
+    "figure": "figure5_Visium_localization",
+    "tables": [
+      "Visium_section_registry.csv",
+      "Visium_spatial_structure_tests.csv",
+      "Visium_donor_mean_scores.csv",
+      "Visium_donor_flight_tests.csv",
+      "prepared/Visium_lead_gene_spots.csv.gz"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  },
+  {
+    "figure": "figure6_pathway_correlation_sensitivity",
+    "tables": [
+      "pathway_CAMERA_complete.csv",
+      "pathway_animal_exact_tests.csv",
+      "sorted_pathway_CAMERA_complete.csv",
+      "sorted_pathway_exact_tests.csv",
+      "figure6_CAMERA_count_grid.csv",
+      "figure6_example_q_values.csv",
+      "pathway_ranked_evidence.csv",
+      "pathway_unique_correlation_estimates.csv",
+      "figure6_interferon_donor_scores.csv",
+      "figure6_interferon_animal_tests.csv",
+      "pathway_camera_degrees_of_freedom.csv"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  },
+  {
+    "figure": "figureS1_independent_complete_panel",
+    "tables": [
+      "independent_bulk_panel.csv",
+      "OSD536_panel_results.csv",
+      "sorted_cell_panel_complete.csv",
+      "../core/tables/verified_panel_mapping.csv"
+    ],
+    "authoring_script": "pipeline/stages/extended/make_figures.py"
+  }
+]

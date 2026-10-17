@@ -1,0 +1,4 @@
+method_1,method_2,shared_estimable_contrasts,effect_Spearman,same_effect_direction_fraction
+DESeq2,edgeR QL,3584,0.968258398809352,0.9408482142857143
+DESeq2,limma/voom,3584,0.8937567190774695,0.9037388392857143
+edgeR QL,limma/voom,3584,0.9179114266242944,0.9260602678571429

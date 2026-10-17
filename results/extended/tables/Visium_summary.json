@@ -1,0 +1,12 @@
+{
+  "sections": 12,
+  "animals": 6,
+  "flight_animals": 3,
+  "ground_animals": 3,
+  "technical_sections_per_animal": 2,
+  "spots": 29839,
+  "spatial_permutations_per_section": 499,
+  "spatial_gene_q05": 883,
+  "flight_gene_q05": 0,
+  "note": "Spatial structure and donor flight effects are separate hypotheses. No named anatomical compartment assigned without histological/author annotation. Spots and technical sections never inflate exposure n."
+}

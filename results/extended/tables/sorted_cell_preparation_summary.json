@@ -1,0 +1,19 @@
+{
+  "GEO": "GSE295428",
+  "sample_libraries": 47,
+  "unique_donor_labels": 8,
+  "brain_tissue_populations": {
+    "Myeloid_Forebrain": 8,
+    "Myeloid_Hippocampus": 8,
+    "Non-myeloid_Hippocampus": 8,
+    "Non-myeloid_Cerebellum": 8,
+    "Non-myeloid_Forebrain": 8,
+    "Myeloid_Cerebellum": 7
+  },
+  "input_barcodes": 156746,
+  "retained_cells": 122084,
+  "main_QC": "GEO-record feature/mitochondrial gate: 200-2500 features, <=50% mitochondrial counts. Samples require >=50 retained cells for exposure fitting.",
+  "sensitivity_QC": "200-6000 features, <=20% mitochondrial counts. Predeclared alternative, not selected by result.",
+  "processing_scope": "Independent QC and pseudobulk from current attached Cell Ranger gene matrices. No claim of exact author SoupX/DoubletFinder/Seurat reproduction; postprocessing status of attachments not established. FACS labels represent enriched populations, not a proven pure microglial subtype.",
+  "sample_identity": "Current GEO title, characteristics and sample supplementary filenames; Use verified deposited sample identities. Shared mouse labels across tissues remain eight exposure donors."
+}

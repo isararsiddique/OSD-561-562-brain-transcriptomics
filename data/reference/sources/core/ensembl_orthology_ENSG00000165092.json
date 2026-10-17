@@ -1,0 +1,57 @@
+{
+ "data": [
+  {
+   "id": "ENSG00000165092",
+   "homologies": [
+    {
+     "dn_ds": null,
+     "type": "ortholog_one2many",
+     "method_link_type": "ENSEMBL_ORTHOLOGUES",
+     "source": {
+      "species": "homo_sapiens",
+      "perc_id": 84.4311,
+      "taxon_id": 9606,
+      "id": "ENSG00000165092",
+      "protein_id": "ENSP00000297785",
+      "perc_pos": 91.2176,
+      "cigar_line": "501M"
+     },
+     "taxonomy_level": "Amniota",
+     "target": {
+      "taxon_id": 10090,
+      "perc_id": 84.4311,
+      "species": "mus_musculus",
+      "perc_pos": 91.2176,
+      "cigar_line": "501M",
+      "protein_id": "ENSMUSP00000025656",
+      "id": "ENSMUSG00000024747"
+     }
+    },
+    {
+     "dn_ds": null,
+     "type": "ortholog_one2many",
+     "method_link_type": "ENSEMBL_ORTHOLOGUES",
+     "source": {
+      "protein_id": "ENSP00000297785",
+      "id": "ENSG00000165092",
+      "perc_pos": 94.4112,
+      "cigar_line": "501M",
+      "taxon_id": 9606,
+      "species": "homo_sapiens",
+      "perc_id": 87.0259
+     },
+     "taxonomy_level": "Amniota",
+     "target": {
+      "id": "ENSMUSG00000053279",
+      "protein_id": "ENSMUSP00000084918",
+      "cigar_line": "501M",
+      "perc_pos": 94.4112,
+      "perc_id": 87.0259,
+      "species": "mus_musculus",
+      "taxon_id": 10090
+     }
+    }
+   ]
+  }
+ ]
+}

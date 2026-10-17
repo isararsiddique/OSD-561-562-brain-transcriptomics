@@ -1,7 +1,0 @@
-animal,expected_from_Source_Name,OSD561_cerebellum,OSD562_hippocampus,same_RFID,same_euthanasia_date,age,verdict
-RRRM-2_FL_ISS_10,On ISS,On ISS,On Earth,True,True,12,deposits contradict each other for the same animal
-RRRM-2_FL_ISS_12,On ISS,On Earth,On ISS,True,True,29,deposits contradict each other for the same animal
-RRRM-2_FL_ISS_13,On ISS,On Earth,On ISS,True,True,29,deposits contradict each other for the same animal
-RRRM-2_FL_ISS_15,On ISS,On Earth,On ISS,True,True,29,deposits contradict each other for the same animal
-RRRM-2_FL_ISS_18,On ISS,On Earth,On Earth,True,True,29,both deposits disagree with Source Name
-RRRM-2_HGC_ISS_20,On Earth,On Earth,On ISS,True,True,29,deposits contradict each other for the same animal

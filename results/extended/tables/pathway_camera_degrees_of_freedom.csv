@@ -1,0 +1,17 @@
+"unit","n_samples","design_rank","n_genes","fixed_correlation_df","estimated_correlation_df"
+"OSD-352",6,2,19067,19065,4
+"OSD-561",26,8,21368,21366,18
+"OSD-562",27,8,20928,20926,19
+"OSD-563",10,2,21179,21177,8
+"OSD-564",10,2,21200,21198,8
+"OSD352_l2_CNS_glia",5,2,9609,9607,3
+"OSD352_l2_CNS_neurons",5,2,14385,14383,3
+"OSD352_l2_Immune_cells",5,2,1394,1392,3
+"OSD352_l3_Astroependymal_cells",5,2,7264,7262,3
+"OSD352_l3_Oligodendrocytes",5,2,6277,6275,3
+"Myeloid_Cerebellum",7,4,13915,13913,3
+"Myeloid_Forebrain",8,4,12429,12427,4
+"Myeloid_Hippocampus",8,4,13258,13256,4
+"Non-myeloid_Cerebellum",8,4,12066,12064,4
+"Non-myeloid_Forebrain",8,4,14444,14442,4
+"Non-myeloid_Hippocampus",8,4,11625,11623,4

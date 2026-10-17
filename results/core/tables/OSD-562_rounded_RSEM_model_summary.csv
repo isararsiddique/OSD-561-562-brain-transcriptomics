@@ -1,0 +1,5 @@
+study,count_mode,contrast,kind,n_animals,n_filtered_endogenous_genes,n_finite_p,n_genome_q05
+OSD-562,rounded_RSEM,flight_ISS_T_age12,flight,27,19672,19669,0
+OSD-562,rounded_RSEM,flight_ISS_T_age29,flight,27,19672,19669,0
+OSD-562,rounded_RSEM,flight_LAR_age12,flight,27,19672,19669,1
+OSD-562,rounded_RSEM,flight_LAR_age29,flight,27,19672,19669,0

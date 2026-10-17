@@ -1,0 +1,17 @@
+Analysis,Specification,Planned tests,q < 0.05,Minimum q
+Original bulk / DESeq2,,4228,17,3.48013e-06
+Original GeoMx,,4228,0,0.20092
+Bulk method comparison,"('edgeR_QL_TMM',)",4228,10,0.0261817
+Bulk method comparison,"('limma_voom_TMM',)",4228,0,0.0799437
+Independent bulk,"('edgeR_QL_TMM',)",453,1,0.0452009
+Independent bulk,"('limma_voom_TMM',)",453,0,0.307083
+RR8 enriched populations,"('alternative_gate', 'edgeR_QL')",3624,226,1.38133e-06
+RR8 enriched populations,"('alternative_gate', 'limma_voom')",3624,224,5.63634e-08
+RR8 enriched populations,"('marker_positive_gate', 'edgeR_QL')",3624,206,1.524e-07
+RR8 enriched populations,"('marker_positive_gate', 'limma_voom')",3624,220,3.09548e-09
+RR8 enriched populations,"('published_gate', 'edgeR_QL')",3624,268,2.03161e-07
+RR8 enriched populations,"('published_gate', 'limma_voom')",3624,264,3.28131e-09
+Additional and regional bulk,"('edgeR_QL',)",1812,10,0.000221043
+Additional and regional bulk,"('limma_voom',)",1812,9,0.000118036
+Article 5% mitochondrial gate,"('edgeR_QL',)",3624,235,1.29403e-07
+Article 5% mitochondrial gate,"('limma_voom',)",3624,229,3.37575e-09

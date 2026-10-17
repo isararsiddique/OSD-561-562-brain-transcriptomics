@@ -1,6 +1,0 @@
-{
-  "n_checks": 190,
-  "n_passed": 190,
-  "all_passed": true,
-  "scope": "Independent scalar likelihood, SciPy distribution, finite difference scores, direct covariance inverse and complete selected permutation counts; all output family corrections and input hashes."
-}

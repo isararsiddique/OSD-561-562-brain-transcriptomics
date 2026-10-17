@@ -1,0 +1,13 @@
+{
+  "tables": [
+    "sorted_leave_one_mouse_effects.csv",
+    "sorted_cell_panel_complete.csv",
+    "sorted_marker_relative_tests.csv",
+    "sorted_cell_depth_tests.csv"
+  ],
+  "selection": "Four forebrain genes displayed after full-panel tests; no reduced four-gene correction",
+  "reference_family": 1812,
+  "depth_family": 1359,
+  "font": "Arial",
+  "scope": "Deletion stability, relative RNA and standardized detection on the same eight donors; no additional biological replication."
+}

@@ -1,0 +1,381 @@
+[
+  {
+    "path": "core/figures/fig01_design_and_QC.pdf",
+    "sha256": "1bfb24eb3a58702f57e252495590734b28d02f248977c06bd8705fdf944740bd",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/DKYPDF+DejaVuSans-Bold",
+        "embedded_bytes": 10300
+      },
+      {
+        "name": "/BXGIAP+DejaVuSans",
+        "embedded_bytes": 14300
+      },
+      {
+        "name": "/DEOWHK+DejaVuSans",
+        "embedded_bytes": 3984
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/fig02_complete_bulk_panel.pdf",
+    "sha256": "8abac74e67547b3c4a97d61c238eadfa9eeef42aaf9833ab8cded73e66eab128",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/DXTHMW+DejaVuSans-Bold",
+        "embedded_bytes": 11504
+      },
+      {
+        "name": "/ECSWBS+DejaVuSans-Bold",
+        "embedded_bytes": 4304
+      },
+      {
+        "name": "/FCLLSH+DejaVuSans",
+        "embedded_bytes": 18440
+      },
+      {
+        "name": "/CUEZEE+DejaVuSans",
+        "embedded_bytes": 4024
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/fig03_AIF1_PYCARD.pdf",
+    "sha256": "5ff7a60c1d767ec4ea0375aae8eaef87f229f5916a4d0ff91fa8c3dbe9885a90",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/CDQAHZ+DejaVuSans-Bold",
+        "embedded_bytes": 11400
+      },
+      {
+        "name": "/CCQZNR+DejaVuSans-Bold",
+        "embedded_bytes": 4260
+      },
+      {
+        "name": "/GXJFEW+DejaVuSans",
+        "embedded_bytes": 16804
+      },
+      {
+        "name": "/EKJKAO+DejaVuSans",
+        "embedded_bytes": 3808
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/fig04_collection_context_and_pairing.pdf",
+    "sha256": "e16aa982e81dc98e34df80940c1ff580f10e368ebdc32f0df03e04044ed59899",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/GIMTBL+DejaVuSans-Bold",
+        "embedded_bytes": 11200
+      },
+      {
+        "name": "/MIIJMU+DejaVuSans",
+        "embedded_bytes": 17496
+      },
+      {
+        "name": "/DGDLOF+DejaVuSans",
+        "embedded_bytes": 4176
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/fig05_spatial_factorial_uncertainty.pdf",
+    "sha256": "649ed0cee7574553850552147191e131344ed9f8084ceff0d29306d7e59a5c93",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/BJUKSX+DejaVuSans-Bold",
+        "embedded_bytes": 9152
+      },
+      {
+        "name": "/ECSWBS+DejaVuSans-Bold",
+        "embedded_bytes": 4304
+      },
+      {
+        "name": "/CPLKSR+DejaVuSans",
+        "embedded_bytes": 19496
+      },
+      {
+        "name": "/DGDLOF+DejaVuSans",
+        "embedded_bytes": 4176
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/fig06_RR3_celltype_context.pdf",
+    "sha256": "e8e77adfabbd688c8f0ae03966b4e6b951d15c77995855e543273bb102bcb03a",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/GNUAFJ+DejaVuSans-Bold",
+        "embedded_bytes": 9036
+      },
+      {
+        "name": "/FYLVOC+DejaVuSans",
+        "embedded_bytes": 14428
+      },
+      {
+        "name": "/CPUQYB+DejaVuSans",
+        "embedded_bytes": 3844
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/figS01_complete_spatial_panel.pdf",
+    "sha256": "9c081d592684a27be7bbbb035b369c61d1af55fd7edfe67adb061f54352efe96",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/FATYKT+DejaVuSans-Bold",
+        "embedded_bytes": 11084
+      },
+      {
+        "name": "/ECSWBS+DejaVuSans-Bold",
+        "embedded_bytes": 4304
+      },
+      {
+        "name": "/FCLLSH+DejaVuSans",
+        "embedded_bytes": 18440
+      },
+      {
+        "name": "/CUEZEE+DejaVuSans",
+        "embedded_bytes": 4024
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "core/figures/figS02_five_views.pdf",
+    "sha256": "be544dc01ce069dc6287cedc8fe91fd9d328902130d388619c0715550e1af17e",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/UKLAOT+DejaVuSans-Bold",
+        "embedded_bytes": 10196
+      },
+      {
+        "name": "/BWTZEE+DejaVuSans",
+        "embedded_bytes": 14400
+      },
+      {
+        "name": "/CPUQYB+DejaVuSans",
+        "embedded_bytes": 3844
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": false
+  },
+  {
+    "path": "extended/figures/figure1_illustrated_study_workflow.pdf",
+    "sha256": "051be7a37568b2e267e0643a1b5e8fe3126e22fd0242e397b7464b5ee8494206",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/BCDCXR+Arial-BoldMT",
+        "embedded_bytes": 31628
+      },
+      {
+        "name": "/CEBAPN+Arial-BoldMT",
+        "embedded_bytes": 13760
+      },
+      {
+        "name": "/DZSXGJ+ArialMT",
+        "embedded_bytes": 42784
+      },
+      {
+        "name": "/FGDCBM+ArialMT",
+        "embedded_bytes": 12132
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure2_method_agreement.pdf",
+    "sha256": "d90bb8e173cf26a857500ff279796b5222e8cc1c4832af0a9d36acee07ea1da6",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/DQGBEF+Arial-BoldMT",
+        "embedded_bytes": 25708
+      },
+      {
+        "name": "/EYCOJK+ArialMT",
+        "embedded_bytes": 36812
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure3_composition_and_identifiability.pdf",
+    "sha256": "4902ff34c39d6f7476c330138956ba6c83cb832edd962f29c865a9b97b723af7",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/EPKNRG+Arial-BoldMT",
+        "embedded_bytes": 24872
+      },
+      {
+        "name": "/CIYUUV+ArialMT",
+        "embedded_bytes": 35160
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure4_RNA_ATAC_context.pdf",
+    "sha256": "db954eccb6e0895e7cffc5e08d3e7b97e2138e66df98baf0ee287e88bdc4feee",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/CGXIEZ+Arial-BoldMT",
+        "embedded_bytes": 25748
+      },
+      {
+        "name": "/DWEROQ+ArialMT",
+        "embedded_bytes": 36216
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure5_Visium_localization.pdf",
+    "sha256": "0e72ff5cc15c07b752fec9937f5f98ca243f09683b69a9eb62f6a99303557379",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/CEUWKR+Arial-BoldMT",
+        "embedded_bytes": 20212
+      },
+      {
+        "name": "/FMTQPM+ArialMT",
+        "embedded_bytes": 36180
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure6_pathway_correlation_sensitivity.pdf",
+    "sha256": "2fc4dc1f06cb1dfbcda39bae83a4da558aac1ce5ce0ec67a798d477029baca31",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/FKZMDA+Arial-BoldMT",
+        "embedded_bytes": 27516
+      },
+      {
+        "name": "/CVILYO+ArialMT",
+        "embedded_bytes": 37032
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figure7_mouse_and_depth_validation.pdf",
+    "sha256": "3ad9c3f3dd38a0da0afa853addc62244831001c7c4774f86fac8b2c8122cade9",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/HAORLT+Arial-BoldMT",
+        "embedded_bytes": 25804
+      },
+      {
+        "name": "/EOLETC+ArialMT",
+        "embedded_bytes": 38608
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "extended/figures/figureS1_independent_complete_panel.pdf",
+    "sha256": "1c9a8f0ac57fe4534676fd796f6ba152e0a9252ae780d2efce3b89b2a33c7d1c",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/FTGAZR+ArialMT",
+        "embedded_bytes": 41648
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "deep/figures/figure10_regional_and_QC_validation.pdf",
+    "sha256": "d6d033ddc933ef61e7e395aa25112999fd3cf91094ffa591fda70a4f0a878f11",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/IOPVIE+Arial-BoldMT",
+        "embedded_bytes": 26408
+      },
+      {
+        "name": "/TOUWHM+ArialMT",
+        "embedded_bytes": 40308
+      },
+      {
+        "name": "/DWECEJ+ArialMT",
+        "embedded_bytes": 12228
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "deep/figures/figure8_expression_state_validation.pdf",
+    "sha256": "34887acc88cf75b45bd012b0d37fc2a76b6075b6a2f470bf6c05c0e621dcd9db",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/OSDKOW+Arial-BoldMT",
+        "embedded_bytes": 26100
+      },
+      {
+        "name": "/HERTPW+ArialMT",
+        "embedded_bytes": 40636
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  },
+  {
+    "path": "deep/figures/figure9_additional_cohort_validation.pdf",
+    "sha256": "a5e29bd492746a1e2bd08063c1b80020e94d77834d30806083e742cde208eace",
+    "pages": 1,
+    "fonts": [
+      {
+        "name": "/FDCPZP+Arial-BoldMT",
+        "embedded_bytes": 27788
+      },
+      {
+        "name": "/BYRJAS+ArialMT",
+        "embedded_bytes": 40584
+      }
+    ],
+    "text_within_page": true,
+    "black_integrated_heading": true
+  }
+]

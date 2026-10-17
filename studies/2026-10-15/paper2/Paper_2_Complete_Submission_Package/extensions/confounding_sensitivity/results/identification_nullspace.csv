@@ -1,5 +1,0 @@
-column,null_vector,coefficient_set_1,coefficient_set_2
-intercept,0,1.0,1.0
-flight_indicator,1,2.0,9.0
-ground_indicator,0,3.0,3.0
-early_date_indicator,-1,4.0,-3.0

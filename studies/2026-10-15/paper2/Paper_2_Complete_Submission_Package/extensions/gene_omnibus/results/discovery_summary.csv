@@ -1,4 +1,0 @@
-contrast,tested_genes,measured_events,joint_BH_q_lt_0_05,joint_BY_q_lt_0_05,within_BH_q_lt_0_05,within_BY_q_lt_0_05,minimum_joint_BY_q,median_gene_rms_pp
-FLT_minus_GC,1983,3239,294,47,431,163,0.048256987825990624,3.2416007665129087
-GC_minus_VIV,1983,3239,35,0,0,0,0.0673686661729176,2.465228770320959
-FLT_minus_VIV,1983,3239,35,0,6,0,0.05531898604442827,2.389810223272285

@@ -1,0 +1,4 @@
+method,planned_family_size,missing_adjusted_p_values,corrected_contrasts
+DESeq2,4228,0,17
+edgeR QL,4228,0,10
+limma/voom,4228,0,0

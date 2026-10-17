@@ -1,0 +1,61 @@
+[
+  {
+    "study": "OSD-561",
+    "source_group_n": {
+      "FLT_ISS_T_12": 5,
+      "FLT_ISS_T_29": 4,
+      "FLT_LAR_12": 2,
+      "FLT_LAR_29": 3,
+      "GC_ISS_T_12": 3,
+      "GC_ISS_T_29": 3,
+      "GC_LAR_12": 3,
+      "GC_LAR_29": 3
+    },
+    "location_flight_group_n": {
+      "FLT_LAR_29": 7,
+      "FLT_ISS_T_12": 5,
+      "GC_ISS_T_29": 3,
+      "GC_ISS_T_12": 3,
+      "GC_LAR_29": 3,
+      "GC_LAR_12": 3,
+      "FLT_LAR_12": 2
+    },
+    "n_location_conflicts": 4,
+    "source_design_rank": 8,
+    "location_design_rank": 7,
+    "young_terminal_lead_conflicts": 0,
+    "strain_values": [
+      "C57BL/6NTac"
+    ]
+  },
+  {
+    "study": "OSD-562",
+    "source_group_n": {
+      "FLT_ISS_T_12": 4,
+      "FLT_ISS_T_29": 5,
+      "FLT_LAR_12": 3,
+      "FLT_LAR_29": 3,
+      "GC_ISS_T_12": 3,
+      "GC_ISS_T_29": 3,
+      "GC_LAR_12": 3,
+      "GC_LAR_29": 3
+    },
+    "location_flight_group_n": {
+      "FLT_ISS_T_29": 4,
+      "FLT_LAR_29": 4,
+      "FLT_LAR_12": 4,
+      "FLT_ISS_T_12": 3,
+      "GC_ISS_T_29": 3,
+      "GC_ISS_T_12": 3,
+      "GC_LAR_29": 3,
+      "GC_LAR_12": 3
+    },
+    "n_location_conflicts": 3,
+    "source_design_rank": 8,
+    "location_design_rank": 8,
+    "young_terminal_lead_conflicts": 1,
+    "strain_values": [
+      "C57BL/6NTac"
+    ]
+  }
+]

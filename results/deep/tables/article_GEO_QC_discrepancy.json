@@ -1,0 +1,11 @@
+{
+  "article_source": "https://doi.org/10.1038/s41467-026-68737-1",
+  "article_methods": "Cells removed at <200 or >2500 detected features, or >5% mitochondrial RNA",
+  "GEO_source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295428",
+  "GEO_processing": "Threshold says >50% mitochondrial RNA",
+  "primary_analysis": "Completed primary gate follows deposited GEO processing statement; it is not an exact reproduction of article Methods",
+  "new_sensitivity": "200-2500 features, <=5% mitochondrial UMI; current attached Cell Ranger matrices, no claim to reproduce SoupX or DoubletFinder",
+  "n_libraries": 47,
+  "n_mice": 8,
+  "n_retained_cells": 62351
+}

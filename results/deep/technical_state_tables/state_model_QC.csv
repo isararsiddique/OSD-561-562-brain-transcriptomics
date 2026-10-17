@@ -1,0 +1,11 @@
+"K","state","model_available","min_cells_per_mouse","n_mice","n_filtered_genes","design_rank","residual_df"
+4,1,TRUE,61,8,10068,4,4
+4,2,FALSE,30,8,0,NA,NA
+4,3,TRUE,148,8,9030,4,4
+4,4,FALSE,6,8,0,NA,NA
+6,1,FALSE,31,8,0,NA,NA
+6,2,FALSE,3,8,0,NA,NA
+6,3,TRUE,171,8,9673,4,4
+6,4,FALSE,27,8,0,NA,NA
+6,5,FALSE,1,8,0,NA,NA
+6,6,FALSE,5,8,0,NA,NA

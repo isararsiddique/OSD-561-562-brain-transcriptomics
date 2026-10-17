@@ -1,42 +1,14 @@
-# ---- Python ----
+# Assay inputs and regenerated outputs are acquired locally.
+pipeline_inputs/
+pipeline_results/
+*.partial
+*.part
 .venv/
+.renv/
 __pycache__/
 *.py[cod]
-*.egg-info/
-.ipynb_checkpoints/
-
-# ---- OS / editor ----
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# ---- Raw input data (regenerate with: python scripts/download_data.py) ----
-# ~196 MB of GeneLab-processed tables downloaded from NASA OSDR; not versioned.
-data/
-
-# ---- Large, regenerable result tables (rebuild with export_results.py) ----
-# Full gene-level DE for every contrast: ~98 MB combined + 31 per-contrast files.
-# GitHub rejects files >100 MB; these are derived and easy to regenerate.
-results/tables/csv/DE_*.csv
-
-# Kept in git: figures, summary tables, and the consolidated Excel workbook.
-
-# Reproduction data and complete Zenodo archives remain local.
-.local-reproduction/
-studies/**/inputs/
-studies/**/datasets/
-studies/**/*.npz
-studies/**/*.gz
-studies/**/*.zip
-studies/**/*.tab
-studies/**/*.gtf
-studies/**/*.gff
-
-# Credentials are never part of an analysis release.
-*.pem
-*.key
-id_rsa
-id_ed25519
-.env
-.env.*
+.Rhistory
+.RData
+.pipeline.lock
+*.zip

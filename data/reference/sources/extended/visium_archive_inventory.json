@@ -1,0 +1,998 @@
+{
+  "url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_SpatialTranscriptomics_visium_data.zip",
+  "bytes": 252413999,
+  "members": [
+    {
+      "file": "visium_data/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 0,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/._visium_data",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 74,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_B1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 309,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_159_B1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 397,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_A1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 646,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_159_A1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 734,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_A1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 983,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_158_A1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 1071,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/.DS_Store",
+      "size": 12292,
+      "compressed_size": 1058,
+      "CRC": 2250989822,
+      "offset": 1320,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/._.DS_Store",
+      "size": 120,
+      "compressed_size": 53,
+      "CRC": 952141835,
+      "offset": 2477,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_B1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 2640,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_158_B1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 2728,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_B1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 2977,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_304_B1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 3065,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_A1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 3314,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_304_A1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 3402,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_D1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 3651,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_159_D1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 3739,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_D1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 3988,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_158_D1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 4076,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_C1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 4325,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_304_C1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 4413,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_C1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 4662,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_158_C1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 4750,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_D1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 4999,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_304_D1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 5087,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_C1/",
+      "size": 0,
+      "compressed_size": 0,
+      "CRC": 0,
+      "offset": 5336,
+      "compression": 0
+    },
+    {
+      "file": "__MACOSX/visium_data/._Sample_159_C1",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 5424,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_B1/tissue_hires_image.png",
+      "size": 8922916,
+      "compressed_size": 8925171,
+      "CRC": 3672565789,
+      "offset": 5673,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_B1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 8930970,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_B1/tissue_positions_list.csv",
+      "size": 189090,
+      "compressed_size": 64124,
+      "CRC": 1172471196,
+      "offset": 8931242,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_B1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 8995495,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_B1/scalefactors_json.json",
+      "size": 167,
+      "compressed_size": 115,
+      "CRC": 392181305,
+      "offset": 8995770,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_B1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 8996011,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_B1/filtered_feature_bc_matrix.h5",
+      "size": 14199705,
+      "compressed_size": 14031399,
+      "CRC": 2025117087,
+      "offset": 8996283,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_B1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 23027815,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_A1/tissue_hires_image.png",
+      "size": 8226812,
+      "compressed_size": 8228832,
+      "CRC": 2275527648,
+      "offset": 23028094,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_A1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 31257052,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_A1/tissue_positions_list.csv",
+      "size": 189257,
+      "compressed_size": 62409,
+      "CRC": 3082751435,
+      "offset": 31257324,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_A1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 31319862,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_A1/scalefactors_json.json",
+      "size": 166,
+      "compressed_size": 114,
+      "CRC": 3085484186,
+      "offset": 31320137,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_A1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 31320377,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_A1/filtered_feature_bc_matrix.h5",
+      "size": 19741065,
+      "compressed_size": 19470958,
+      "CRC": 406311156,
+      "offset": 31320649,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_A1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 50791740,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_A1/tissue_hires_image.png",
+      "size": 8017755,
+      "compressed_size": 8019220,
+      "CRC": 1313107112,
+      "offset": 50792019,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_A1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 58811365,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_A1/tissue_positions_list.csv",
+      "size": 189282,
+      "compressed_size": 59959,
+      "CRC": 4178984000,
+      "offset": 58811637,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_A1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 58871725,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_A1/scalefactors_json.json",
+      "size": 167,
+      "compressed_size": 115,
+      "CRC": 2681158985,
+      "offset": 58872000,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_A1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 58872241,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_A1/filtered_feature_bc_matrix.h5",
+      "size": 4180825,
+      "compressed_size": 4092464,
+      "CRC": 3423818475,
+      "offset": 58872513,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_A1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 62965110,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_B1/tissue_hires_image.png",
+      "size": 7512254,
+      "compressed_size": 7513496,
+      "CRC": 1051418342,
+      "offset": 62965389,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_B1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 70479011,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_B1/tissue_positions_list.csv",
+      "size": 189179,
+      "compressed_size": 60765,
+      "CRC": 2415910217,
+      "offset": 70479283,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_B1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 70540177,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_B1/scalefactors_json.json",
+      "size": 166,
+      "compressed_size": 114,
+      "CRC": 1857271836,
+      "offset": 70540452,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_B1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 70540692,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_B1/filtered_feature_bc_matrix.h5",
+      "size": 6936447,
+      "compressed_size": 6845447,
+      "CRC": 862231505,
+      "offset": 70540964,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_B1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 77386544,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_B1/tissue_hires_image.png",
+      "size": 9421586,
+      "compressed_size": 9423530,
+      "CRC": 753709282,
+      "offset": 77386823,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_B1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 86810479,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_B1/tissue_positions_list.csv",
+      "size": 193408,
+      "compressed_size": 67733,
+      "CRC": 1684558150,
+      "offset": 86810751,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_B1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 86878613,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_B1/scalefactors_json.json",
+      "size": 165,
+      "compressed_size": 113,
+      "CRC": 2441497623,
+      "offset": 86878888,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_B1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 86879127,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_B1/filtered_feature_bc_matrix.h5",
+      "size": 9791637,
+      "compressed_size": 9652233,
+      "CRC": 3932522325,
+      "offset": 86879399,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_B1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 96531765,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_A1/tissue_hires_image.png",
+      "size": 9757830,
+      "compressed_size": 9760165,
+      "CRC": 2732487513,
+      "offset": 96532044,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_A1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 106292335,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_A1/tissue_positions_list.csv",
+      "size": 193305,
+      "compressed_size": 69127,
+      "CRC": 2308662075,
+      "offset": 106292607,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_A1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 106361863,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_A1/scalefactors_json.json",
+      "size": 163,
+      "compressed_size": 112,
+      "CRC": 3508726713,
+      "offset": 106362138,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_A1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 106362376,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_A1/filtered_feature_bc_matrix.h5",
+      "size": 9557412,
+      "compressed_size": 9418442,
+      "CRC": 2285675372,
+      "offset": 106362648,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_A1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 115781223,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_D1/tissue_hires_image.png",
+      "size": 7550863,
+      "compressed_size": 7552140,
+      "CRC": 1566183134,
+      "offset": 115781502,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_D1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 123333768,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_D1/tissue_positions_list.csv",
+      "size": 189218,
+      "compressed_size": 62553,
+      "CRC": 1190700098,
+      "offset": 123334040,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_D1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 123396722,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_D1/scalefactors_json.json",
+      "size": 165,
+      "compressed_size": 114,
+      "CRC": 2104411303,
+      "offset": 123396997,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_D1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 123397237,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_D1/filtered_feature_bc_matrix.h5",
+      "size": 14434578,
+      "compressed_size": 14254341,
+      "CRC": 662718291,
+      "offset": 123397509,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_D1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 137651983,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_D1/tissue_hires_image.png",
+      "size": 8901347,
+      "compressed_size": 8903228,
+      "CRC": 770884891,
+      "offset": 137652262,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_D1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 146555616,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_D1/tissue_positions_list.csv",
+      "size": 189179,
+      "compressed_size": 59776,
+      "CRC": 3919612312,
+      "offset": 146555888,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_D1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 146615793,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_D1/scalefactors_json.json",
+      "size": 166,
+      "compressed_size": 115,
+      "CRC": 2210327561,
+      "offset": 146616068,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_D1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 146616309,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_D1/filtered_feature_bc_matrix.h5",
+      "size": 21990209,
+      "compressed_size": 21680145,
+      "CRC": 3263392430,
+      "offset": 146616581,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_D1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 168296859,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_C1/tissue_hires_image.png",
+      "size": 6249555,
+      "compressed_size": 6250629,
+      "CRC": 3261835166,
+      "offset": 168297138,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_C1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 174547893,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_C1/tissue_positions_list.csv",
+      "size": 193220,
+      "compressed_size": 68513,
+      "CRC": 137845287,
+      "offset": 174548165,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_C1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 174616807,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_C1/scalefactors_json.json",
+      "size": 164,
+      "compressed_size": 113,
+      "CRC": 4277594901,
+      "offset": 174617082,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_C1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 174617321,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_C1/filtered_feature_bc_matrix.h5",
+      "size": 6134411,
+      "compressed_size": 6049799,
+      "CRC": 1587935249,
+      "offset": 174617593,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_C1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 180667525,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_C1/tissue_hires_image.png",
+      "size": 8721985,
+      "compressed_size": 8723785,
+      "CRC": 3054284198,
+      "offset": 180667804,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_C1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 189391715,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_C1/tissue_positions_list.csv",
+      "size": 189218,
+      "compressed_size": 60219,
+      "CRC": 3852466885,
+      "offset": 189391987,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_C1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 189452335,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_C1/scalefactors_json.json",
+      "size": 167,
+      "compressed_size": 115,
+      "CRC": 3674392331,
+      "offset": 189452610,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_C1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 189452851,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_158_C1/filtered_feature_bc_matrix.h5",
+      "size": 23446609,
+      "compressed_size": 23110702,
+      "CRC": 3912228535,
+      "offset": 189453123,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_158_C1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 212563958,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_D1/tissue_hires_image.png",
+      "size": 6595637,
+      "compressed_size": 6596812,
+      "CRC": 3122562625,
+      "offset": 212564237,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_D1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 219161175,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_D1/tissue_positions_list.csv",
+      "size": 193241,
+      "compressed_size": 67032,
+      "CRC": 3541968511,
+      "offset": 219161447,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_D1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 219228608,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_D1/scalefactors_json.json",
+      "size": 164,
+      "compressed_size": 113,
+      "CRC": 3400029046,
+      "offset": 219228883,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_D1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 219229122,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_304_D1/filtered_feature_bc_matrix.h5",
+      "size": 5568573,
+      "compressed_size": 5476304,
+      "CRC": 863593497,
+      "offset": 219229394,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_304_D1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 224705831,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_C1/tissue_hires_image.png",
+      "size": 8833622,
+      "compressed_size": 8835362,
+      "CRC": 588170579,
+      "offset": 224706110,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_C1/._tissue_hires_image.png",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 233541598,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_C1/tissue_positions_list.csv",
+      "size": 189033,
+      "compressed_size": 62809,
+      "CRC": 4185090798,
+      "offset": 233541870,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_C1/._tissue_positions_list.csv",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 233604808,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_C1/scalefactors_json.json",
+      "size": 166,
+      "compressed_size": 113,
+      "CRC": 3316082806,
+      "offset": 233605083,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_C1/._scalefactors_json.json",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 233605322,
+      "compression": 8
+    },
+    {
+      "file": "visium_data/Sample_159_C1/filtered_feature_bc_matrix.h5",
+      "size": 19070922,
+      "compressed_size": 18792092,
+      "CRC": 3512285847,
+      "offset": 233605594,
+      "compression": 8
+    },
+    {
+      "file": "__MACOSX/visium_data/Sample_159_C1/._filtered_feature_bc_matrix.h5",
+      "size": 212,
+      "compressed_size": 135,
+      "CRC": 2038458236,
+      "offset": 252397819,
+      "compression": 8
+    }
+  ]
+}

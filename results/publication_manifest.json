@@ -1,0 +1,3197 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-17",
+  "scope": "Derived results, figures, documentation indexes and executed verification; no primary assay matrices or prepared model objects. Paths are relative to the repository root.",
+  "files": [
+    {
+      "path": "results/ANALYSIS_REPORT.md",
+      "bytes": 7462,
+      "sha256": "1cbdd267b4b254d6add28dbf676a03cce9357c3afb92733cd7d97be3dae3b366"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 2431,
+      "sha256": "903b1fc173772e6425053ed1a5cbcd63b8c97bd110941ea55d2124d1daed695f"
+    },
+    {
+      "path": "results/core/README.md",
+      "bytes": 10926,
+      "sha256": "4a238cab7d71eae8511405f5591b9f2d182a826a5717df7ff30c9f0e85441c6b"
+    },
+    {
+      "path": "results/core/figures/CAPTIONS.md",
+      "bytes": 2784,
+      "sha256": "fd007f9128c50ccf99f76871ff38c9bbffa250b5f6a91889cb1ab20d14f7c7ea"
+    },
+    {
+      "path": "results/core/figures/fig01_design_and_QC.pdf",
+      "bytes": 37433,
+      "sha256": "1bfb24eb3a58702f57e252495590734b28d02f248977c06bd8705fdf944740bd"
+    },
+    {
+      "path": "results/core/figures/fig01_design_and_QC.png",
+      "bytes": 187084,
+      "sha256": "49cd57cc97d47e37a13e467f1d10641874208076cb918182abb1a945ea890a4c"
+    },
+    {
+      "path": "results/core/figures/fig02_complete_bulk_panel.pdf",
+      "bytes": 68223,
+      "sha256": "8abac74e67547b3c4a97d61c238eadfa9eeef42aaf9833ab8cded73e66eab128"
+    },
+    {
+      "path": "results/core/figures/fig02_complete_bulk_panel.png",
+      "bytes": 386685,
+      "sha256": "39bde76d9dda6c5883ddb9ef61b358504f8dffde336455eaa742f669b5a1b8d6"
+    },
+    {
+      "path": "results/core/figures/fig03_AIF1_PYCARD.pdf",
+      "bytes": 40313,
+      "sha256": "5ff7a60c1d767ec4ea0375aae8eaef87f229f5916a4d0ff91fa8c3dbe9885a90"
+    },
+    {
+      "path": "results/core/figures/fig03_AIF1_PYCARD.png",
+      "bytes": 165239,
+      "sha256": "2958d88143f95c588052c5c0bfeeae5e2ab3d4ec1e7d97e8abb0cc94c66159c1"
+    },
+    {
+      "path": "results/core/figures/fig04_collection_context_and_pairing.pdf",
+      "bytes": 41678,
+      "sha256": "e16aa982e81dc98e34df80940c1ff580f10e368ebdc32f0df03e04044ed59899"
+    },
+    {
+      "path": "results/core/figures/fig04_collection_context_and_pairing.png",
+      "bytes": 183665,
+      "sha256": "ddd914e155cf1dc21092e9332e8e975f3dfd4f12a6367b9d7397456b0b9130a8"
+    },
+    {
+      "path": "results/core/figures/fig05_spatial_factorial_uncertainty.pdf",
+      "bytes": 41143,
+      "sha256": "649ed0cee7574553850552147191e131344ed9f8084ceff0d29306d7e59a5c93"
+    },
+    {
+      "path": "results/core/figures/fig05_spatial_factorial_uncertainty.png",
+      "bytes": 208377,
+      "sha256": "bb421d708640825418e778611d3e51c32c0ff5290227027eeac4d0f39e1d3407"
+    },
+    {
+      "path": "results/core/figures/fig06_RR3_celltype_context.pdf",
+      "bytes": 41659,
+      "sha256": "e8e77adfabbd688c8f0ae03966b4e6b951d15c77995855e543273bb102bcb03a"
+    },
+    {
+      "path": "results/core/figures/fig06_RR3_celltype_context.png",
+      "bytes": 175683,
+      "sha256": "3ce3770f9e248fd358ed244c413a213a43ef8f363785c510bd2d3d3ea083a6a3"
+    },
+    {
+      "path": "results/core/figures/figS01_complete_spatial_panel.pdf",
+      "bytes": 64420,
+      "sha256": "9c081d592684a27be7bbbb035b369c61d1af55fd7edfe67adb061f54352efe96"
+    },
+    {
+      "path": "results/core/figures/figS01_complete_spatial_panel.png",
+      "bytes": 385659,
+      "sha256": "e5dc6b5233f92da492a3e29fef8d73ba158fabdaf018229b24dd4bc813a49eca"
+    },
+    {
+      "path": "results/core/figures/figS02_five_views.pdf",
+      "bytes": 46064,
+      "sha256": "be544dc01ce069dc6287cedc8fe91fd9d328902130d388619c0715550e1af17e"
+    },
+    {
+      "path": "results/core/figures/figS02_five_views.png",
+      "bytes": 302621,
+      "sha256": "f51bdc511b93161a86f06ddb9127ea92648b99b9d9a5a5c5b802ed7acdbe221b"
+    },
+    {
+      "path": "results/core/tables/OSD-352_context_summary.json",
+      "bytes": 758,
+      "sha256": "7bcd03053b5b10e6ae9ae4b8a6f53c669c7bc958e30aa13aa5d5810e3a5d32c1"
+    },
+    {
+      "path": "results/core/tables/OSD-352_panel_celltype_context.csv",
+      "bytes": 224867,
+      "sha256": "0d32316a9926687cefe56b9466fa0b2dd3918d743428fb85c4f366a1a030784b"
+    },
+    {
+      "path": "results/core/tables/OSD-352_panel_celltype_exact_tests.csv",
+      "bytes": 83646,
+      "sha256": "b6d0449b287d819433316f0c2cad38cb6ff5c05f9a1366ed4eb8fd76af156b3b"
+    },
+    {
+      "path": "results/core/tables/OSD-352_pseudobulk_registry.csv",
+      "bytes": 1525,
+      "sha256": "a2a44523c91bbf1b478ece48dbb1f1d57ddde0ac672bd0bb7c35512f8ac503ac"
+    },
+    {
+      "path": "results/core/tables/OSD-561_QC_PCA.csv",
+      "bytes": 2001,
+      "sha256": "0639b631573f405dfa73bcdd995eef3457514f8e5e7c38376e825c9d24810499"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 1808293,
+      "sha256": "e112597cd2695822f04c51301a6bf137f93c52c0d04fcca5d9b3679d211bfea2"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_age_FLT_LAR_genome.csv.gz",
+      "bytes": 1455476,
+      "sha256": "2ae02fb712e175be91cd0c7b8db663a797450d6ea373f1370f85fab58aa7e2f7"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 1801877,
+      "sha256": "c331ee3ba096c3b7e3db93162c5df9096f0962cab5caeca751f67d32a9802b07"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_age_GC_LAR_genome.csv.gz",
+      "bytes": 1456995,
+      "sha256": "c51457ec416f46bbbbd23c875a16692544b686137357116dde1fb8078c09e5fe"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 1805129,
+      "sha256": "8784377f2510eef4cc174ee1627857d824d6442298325142eaf7981f416dc828"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1759012,
+      "sha256": "594113cecd2de45adf622591dfe8209805ac5098173eb9ea2518780c0a5a60e4"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1796374,
+      "sha256": "085995c48379f6e9421bfbe54140a2d306b4e3df9ff58678704f9dd0f6adb4bc"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_cohort_GC_age29_genome.csv.gz",
+      "bytes": 1457209,
+      "sha256": "41c33e8937d02cbf94ec647f2da7786933f173580ad873fdb9f8c36d8c0a69de"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1837844,
+      "sha256": "3d53b05f0131f9a069acb67badb6fe36941436b2a6b0cb9b860008c4be114cbf"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 1463343,
+      "sha256": "bcc616a206991d14d220b7b7bbff36f9753d5f842ea9c0296aebca0931a6da26"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1456205,
+      "sha256": "173ea42f9ae50cbb6cd1fc1309977b8b2172e955c5ba0581619e1e35dc72b202"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_LAR_age29_genome.csv.gz",
+      "bytes": 1456088,
+      "sha256": "711148c41ab7627a32fd353ab9b33936c056b9847a7e726f3e46663949e71743"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1813231,
+      "sha256": "b02998090c4d20ddc3153213216dc6073ac3eb89163d3c3bba08df4abf293875"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 1455838,
+      "sha256": "7e9a66f57411b047d92527c3c49aec72b29d9c08c5b552f54d6fffcc78eee9ec"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_model_summary.csv",
+      "bytes": 853,
+      "sha256": "f1e326d6061c64b6ce1baedd123ba1a620b4e83481e42a10a2a5ad3da362d4d0"
+    },
+    {
+      "path": "results/core/tables/OSD-561_STAR_panel.csv",
+      "bytes": 580438,
+      "sha256": "9db4aa72ee365a4f1fe3ebe71a9ba45310b758787dab43d9d974a4cf46589aa7"
+    },
+    {
+      "path": "results/core/tables/OSD-561_excluded_controls.csv",
+      "bytes": 1522,
+      "sha256": "3529659e303834fdb00453c88e66b67da78200865dba004116d769cf527404ad"
+    },
+    {
+      "path": "results/core/tables/OSD-561_flight_by_age_ISS_T_secondary_genome.csv.gz",
+      "bytes": 1617108,
+      "sha256": "ca99a959aa5947ef806a3e8f3a7c5a0d779f3b4d868dfb93f2cb85bd4e256415"
+    },
+    {
+      "path": "results/core/tables/OSD-561_flight_by_age_LAR_secondary_genome.csv.gz",
+      "bytes": 1450645,
+      "sha256": "25a47369e376b2507d819dccfa43dc0a66784ee71ea55e2953bc540f992ccda6"
+    },
+    {
+      "path": "results/core/tables/OSD-561_omnibus_null_ISS_T_age12.csv",
+      "bytes": 1078,
+      "sha256": "1e28914d4d257e7035db1ce9cd2795c9938d0903f74fa2da408980ca7e1eb342"
+    },
+    {
+      "path": "results/core/tables/OSD-561_omnibus_null_ISS_T_age29.csv",
+      "bytes": 684,
+      "sha256": "3524b88cd903e46cc8251d923b95279ac58a2d2c6d15275e935640ff5c831e6e"
+    },
+    {
+      "path": "results/core/tables/OSD-561_omnibus_null_LAR_age12.csv",
+      "bytes": 210,
+      "sha256": "0e9f32d6333e24ab83c801a091d08f11b33a1c0f7935465420632ca50ddfbb4a"
+    },
+    {
+      "path": "results/core/tables/OSD-561_omnibus_null_LAR_age29.csv",
+      "bytes": 409,
+      "sha256": "428bf58029494a94d50dbc685ad99edf279d095ea24dcd71ad490b134872c988"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1741894,
+      "sha256": "384a27eebb2d2ef1f0a04ce2a32efee246b2dc3366168ed0d4e1d39f97017d4b"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 1392741,
+      "sha256": "90f7c6741417f4750001b068f2c46822c11f60ba893c929bfd5f5a2cabdf1bdd"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1384486,
+      "sha256": "46fd7d9c053b412dfce5f94a38f5fa25879b2992c7a4e98e4bee66a9bf9f0b11"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_flight_LAR_age29_genome.csv.gz",
+      "bytes": 1401473,
+      "sha256": "07cf892b6f1d6a011ed0bb568dcb5f598b21577dacf63318f90117b27401631f"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_model_summary.csv",
+      "bytes": 348,
+      "sha256": "8463a25c5d1c70155868102ead81cbf4d063bc47a783c2050dd0ba67af04c1b6"
+    },
+    {
+      "path": "results/core/tables/OSD-561_rounded_RSEM_panel.csv",
+      "bytes": 170362,
+      "sha256": "44ccdc40d72bd5ad93c443a5312bb84f1d30bd733298b4a93e0b914a2f840966"
+    },
+    {
+      "path": "results/core/tables/OSD-561_sample_metadata.csv",
+      "bytes": 40620,
+      "sha256": "d58624a4b818cc66f643d425786b44425213f202cef2af5dc287848436cb6dd5"
+    },
+    {
+      "path": "results/core/tables/OSD-561_size_factors.csv",
+      "bytes": 1190,
+      "sha256": "bd8ae9219adbb730947b05d342a76fe1b7acf5d963e55a557790867ef47e5f01"
+    },
+    {
+      "path": "results/core/tables/OSD-562_QC_PCA.csv",
+      "bytes": 2107,
+      "sha256": "47823840d8381aa58f675d51057ddb4cf6acfdb786f0684c57953f475c2c7b04"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 1606337,
+      "sha256": "f31cf77f8501d25d9ad3ef90cbeb3310290077c06d1f2363b20eb71517895a17"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_age_FLT_LAR_genome.csv.gz",
+      "bytes": 1632417,
+      "sha256": "0e7c2316ee19bd22d6387e47b7476f08e46350c75d7993d5b6a32a48f46b351b"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 1434758,
+      "sha256": "b3b666618c43ebd85e46470c9a8cc57ebcc4bd418458b5b3983bed5364628c36"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_age_GC_LAR_genome.csv.gz",
+      "bytes": 1433957,
+      "sha256": "50c2bdf5b292bd64750f9da02f911ff96829532972798e889638bbd22b0bbf97"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 1473186,
+      "sha256": "f978d56772e479507bee958e31689a6841a75098aa909eb0651e0368e4b41e55"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1798750,
+      "sha256": "c75927924146c938b7b2e4b03f40b7346c55b4de9e3ca56ec1b7f0024df0cac8"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1794934,
+      "sha256": "da88034a2a95a1b3e1f97330e82ade2a69364cfb0c7ea94069c2eade55c660c9"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_cohort_GC_age29_genome.csv.gz",
+      "bytes": 1789985,
+      "sha256": "26a24240875734f78add26695744f8084cbba0fb6efb5c591dd24c5a9eae449b"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1467662,
+      "sha256": "72f8563d04dee5e6ff9f593bfa6505e101f6358301db33beea9c7ddedf77c9d5"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 1436538,
+      "sha256": "50f35acc41f000c76b843d7c8b73434b16ff679e9613f1b35fa8da68b439ac1f"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1754952,
+      "sha256": "899349969fbcd9c335a9f151eed8d9016ab66ccbdd0802811d7c890a272efec5"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_LAR_age29_genome.csv.gz",
+      "bytes": 1433547,
+      "sha256": "05173781d7ced856ee7b3e0d9588b96137fa75c7587fdde04ccdd502dcc3db0d"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1728155,
+      "sha256": "79118bccb6946d00db621ae4e4a84e5b8fc22a33a914dce6dcc16cea0a4bdc44"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 1432281,
+      "sha256": "d63feafbbe7ea6cf012750efba77353475d9d179ed6fbe3b767443e053dc9e24"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_model_summary.csv",
+      "bytes": 852,
+      "sha256": "1c99468ee2cfeb780e6ee4fe05cc9d95c471f3572002a2d1baf4a960b594b5da"
+    },
+    {
+      "path": "results/core/tables/OSD-562_STAR_panel.csv",
+      "bytes": 584186,
+      "sha256": "d612db55b5d08d271acb442c545221034c0df866cff4864a35482cb4e6962c13"
+    },
+    {
+      "path": "results/core/tables/OSD-562_excluded_controls.csv",
+      "bytes": 1524,
+      "sha256": "d33d6f5e7ca35dfa2467d01b722f19191fcf5adc7b38937292a401d679f0c0b1"
+    },
+    {
+      "path": "results/core/tables/OSD-562_flight_by_age_ISS_T_secondary_genome.csv.gz",
+      "bytes": 1430270,
+      "sha256": "d438159499202d9a775c9065a180af3c86e9aa6afeafb16894cdf36a88cfc9a8"
+    },
+    {
+      "path": "results/core/tables/OSD-562_flight_by_age_LAR_secondary_genome.csv.gz",
+      "bytes": 1564081,
+      "sha256": "74ccb24427141d428298fdf14a43075c0f5fa9c437748d7bbdd65c9331daf93d"
+    },
+    {
+      "path": "results/core/tables/OSD-562_omnibus_null_ISS_T_age12.csv",
+      "bytes": 684,
+      "sha256": "fcf3449cfa38088b039976df39bfd5d4137a90c33c4239a8b950740294ed9f73"
+    },
+    {
+      "path": "results/core/tables/OSD-562_omnibus_null_ISS_T_age29.csv",
+      "bytes": 1091,
+      "sha256": "55512f39460d639cf93120d8496197e5631e3f017d3f706278d06bc686680836"
+    },
+    {
+      "path": "results/core/tables/OSD-562_omnibus_null_LAR_age12.csv",
+      "bytes": 403,
+      "sha256": "21f1f15581ec5e9bd4afcf9591e37240e97533c33a7d7ca9bab8a0085c729cfe"
+    },
+    {
+      "path": "results/core/tables/OSD-562_omnibus_null_LAR_age29.csv",
+      "bytes": 405,
+      "sha256": "5d8a02d7d49f3af0fd8eee2abf479f2430fdde6bf82e517aaf721d9d1e628d12"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1393600,
+      "sha256": "5e15d72d3e035dfad045402aff268f31fe9d5d1ee9e6dd3ffd9405a6ff8aa819"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 1384540,
+      "sha256": "8e4fa17fc77e453c6a35dfd64657f06a00a5edaeb396a055f4412dd9e5d4b2ed"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1673229,
+      "sha256": "89f11fa27e7ee7a9aca22886eff836a02a21f308046b9c69ab2fd78850751257"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_flight_LAR_age29_genome.csv.gz",
+      "bytes": 1365381,
+      "sha256": "00fa745205c997f5a23fbf9781d00cdce4eec3b17439c7f2ea8ba415b24ddc16"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_model_summary.csv",
+      "bytes": 345,
+      "sha256": "bb4d90ababd4aadca19ec132b43d77c7d0dfa6d7e42d89e3cc6d35a5ee54dde7"
+    },
+    {
+      "path": "results/core/tables/OSD-562_rounded_RSEM_panel.csv",
+      "bytes": 171703,
+      "sha256": "4ae4d9112aacfe9b763fcb3242e6920f6b0f8b3e2d87a7ea7d52dcc764c3fc27"
+    },
+    {
+      "path": "results/core/tables/OSD-562_sample_metadata.csv",
+      "bytes": 40550,
+      "sha256": "fc992807ed7b037454a50a9e640a173bb4193e07cf1c9e56f752cdb4d8844498"
+    },
+    {
+      "path": "results/core/tables/OSD-562_size_factors.csv",
+      "bytes": 1259,
+      "sha256": "b53366b092e02e9d0fce4725aaa48ad717e8463fca2ddfc559148455739a0b93"
+    },
+    {
+      "path": "results/core/tables/OSD-682_BuOE_balanced_main_genome.csv.gz",
+      "bytes": 869515,
+      "sha256": "b4d23e66f0aeb89dc8696b4ed756e944642559878700450a899b6fff2a0d14fe"
+    },
+    {
+      "path": "results/core/tables/OSD-682_BuOE_in_flight_genome.csv.gz",
+      "bytes": 854456,
+      "sha256": "c0b41ff0407e0d52f34e204cdae777c12f56bd1f8b39e462f983fe665b8e1f67"
+    },
+    {
+      "path": "results/core/tables/OSD-682_BuOE_in_ground_genome.csv.gz",
+      "bytes": 882371,
+      "sha256": "65dfdeb85350d2fa2e87fcf3560e5902b1ee300caf1c9a0ea4a6928b63aa29fe"
+    },
+    {
+      "path": "results/core/tables/OSD-682_flight_balanced_main_genome.csv.gz",
+      "bytes": 942765,
+      "sha256": "8e1a9d19528066445fb84ab0ff143c3beddd58866f329fcc6ce0158471cb4411"
+    },
+    {
+      "path": "results/core/tables/OSD-682_flight_by_BuOE_interaction_genome.csv.gz",
+      "bytes": 886229,
+      "sha256": "9dccd4c9d44c251b2e16ea9362bbe181e2de5cb749e80e01630108161474792b"
+    },
+    {
+      "path": "results/core/tables/OSD-682_flight_in_BuOE_genome.csv.gz",
+      "bytes": 926477,
+      "sha256": "af4cbdced84e0386711a714b9caa6365aa99bd93bf9a68412db68cba28277ad7"
+    },
+    {
+      "path": "results/core/tables/OSD-682_flight_in_saline_genome.csv.gz",
+      "bytes": 912489,
+      "sha256": "b85ab8edf0fd78277a3345784cb792d9c04430b62d866f76f84b21feca22240d"
+    },
+    {
+      "path": "results/core/tables/OSD-685_BuOE_balanced_main_genome.csv.gz",
+      "bytes": 888132,
+      "sha256": "73099dca0af4ed8090e0e7a9eb9fa8eb9cc8923214df4ea28e56d2f67c7ca286"
+    },
+    {
+      "path": "results/core/tables/OSD-685_BuOE_in_flight_genome.csv.gz",
+      "bytes": 914431,
+      "sha256": "4d30e4fa040db3e09f95d1a5d3f58bc23de74feadcca2e66b6ce2674826d3b18"
+    },
+    {
+      "path": "results/core/tables/OSD-685_BuOE_in_ground_genome.csv.gz",
+      "bytes": 889380,
+      "sha256": "8ff46f4d1a8322822466ee4c8cad88217f919b3091d3f790193a38e75ef9f86c"
+    },
+    {
+      "path": "results/core/tables/OSD-685_flight_balanced_main_genome.csv.gz",
+      "bytes": 953666,
+      "sha256": "5981793e22d3b97aa9679206636fbbc335eb37dfacee70f24bedcdf245d2d745"
+    },
+    {
+      "path": "results/core/tables/OSD-685_flight_by_BuOE_interaction_genome.csv.gz",
+      "bytes": 917807,
+      "sha256": "723234c15f0e7ce7f855605cd4eaa7522e347346ee1cf532e823601288b75d44"
+    },
+    {
+      "path": "results/core/tables/OSD-685_flight_in_BuOE_genome.csv.gz",
+      "bytes": 948477,
+      "sha256": "3340cf99f22a84f008c424ccd0a6ac74d010a4ced066389d3462b28bb9c6ed01"
+    },
+    {
+      "path": "results/core/tables/OSD-685_flight_in_saline_genome.csv.gz",
+      "bytes": 925756,
+      "sha256": "84af17e272e98cc13770432daec9213aee08c9b857c2da8ba0acf674a56a421f"
+    },
+    {
+      "path": "results/core/tables/OSD-698_BuOE_balanced_main_genome.csv.gz",
+      "bytes": 946569,
+      "sha256": "909e9359af2f5f847d33b29958aa71bddf947a47250d99f670c79ad3a1f60a4f"
+    },
+    {
+      "path": "results/core/tables/OSD-698_BuOE_in_flight_genome.csv.gz",
+      "bytes": 937886,
+      "sha256": "93b254050e2e4fbda09b4b98681ef4d2f44e259751753143226750642a7ae19d"
+    },
+    {
+      "path": "results/core/tables/OSD-698_BuOE_in_ground_genome.csv.gz",
+      "bytes": 898541,
+      "sha256": "88e889cb234fa164848a3d84c51f8e57688e6561c4aec126ccf26e50c5fbc964"
+    },
+    {
+      "path": "results/core/tables/OSD-698_flight_balanced_main_genome.csv.gz",
+      "bytes": 935966,
+      "sha256": "d2ab0eb5b98ab64637ac0b3465fffc2a85ae101692d183c7ec2f2599b12f151e"
+    },
+    {
+      "path": "results/core/tables/OSD-698_flight_by_BuOE_interaction_genome.csv.gz",
+      "bytes": 896178,
+      "sha256": "285dd35a3da8bb9c4baed57875d2cf0ea486277e9a440c198cdc034470f6a05f"
+    },
+    {
+      "path": "results/core/tables/OSD-698_flight_in_BuOE_genome.csv.gz",
+      "bytes": 931285,
+      "sha256": "3270394a7eb87bc9684fa3f841be3589e6c13858cb46c82c224ac1c1bb1cb349"
+    },
+    {
+      "path": "results/core/tables/OSD-698_flight_in_saline_genome.csv.gz",
+      "bytes": 889674,
+      "sha256": "f762f9b63796fed99870270553bd8235a49af028e6c91f937227ca6716b9a8bd"
+    },
+    {
+      "path": "results/core/tables/OSD-699_BuOE_balanced_main_genome.csv.gz",
+      "bytes": 861369,
+      "sha256": "106c23f4b20d71a513cc953da8c74ddfd35dfff2d2ae30fbe8e5845d887f7542"
+    },
+    {
+      "path": "results/core/tables/OSD-699_BuOE_in_flight_genome.csv.gz",
+      "bytes": 896087,
+      "sha256": "aaa47e158865b671496c4d285c36147551be3747d445f167dd46a9b962c61bc2"
+    },
+    {
+      "path": "results/core/tables/OSD-699_BuOE_in_ground_genome.csv.gz",
+      "bytes": 853684,
+      "sha256": "ffcfda742e035803b6a17a138e3b859ffbbabcf096a3dc2b9c0747399efc0a8b"
+    },
+    {
+      "path": "results/core/tables/OSD-699_flight_balanced_main_genome.csv.gz",
+      "bytes": 926914,
+      "sha256": "8e34da881a14663d139b65ddafa4daa6ec8d464e746f89e9e8e24640fa4816a3"
+    },
+    {
+      "path": "results/core/tables/OSD-699_flight_by_BuOE_interaction_genome.csv.gz",
+      "bytes": 872330,
+      "sha256": "deeaface7a05ad552b19797e35dd22b71b61a22b0bbe965acba98e013ac1ef7d"
+    },
+    {
+      "path": "results/core/tables/OSD-699_flight_in_BuOE_genome.csv.gz",
+      "bytes": 923330,
+      "sha256": "4f1627f38313946a42473dcf573f5edd1822a90a6b28073b00eb31fa0d9796a8"
+    },
+    {
+      "path": "results/core/tables/OSD-699_flight_in_saline_genome.csv.gz",
+      "bytes": 865323,
+      "sha256": "8b6f461f5640c17bf513eb0a07ce81e16465f41b274467ee8fa93e9083ff5352"
+    },
+    {
+      "path": "results/core/tables/bulk_animal_links.csv",
+      "bytes": 1013,
+      "sha256": "7a4e79e17e586afa00e69251078f6b87543b754fd76fed9f2f8107b1cfb72e55"
+    },
+    {
+      "path": "results/core/tables/bulk_category_animal_scores.csv",
+      "bytes": 65313,
+      "sha256": "bbd16188b320dd0b4f36031a8ee226c37cbd0abbd7caeafea614f8331334874d"
+    },
+    {
+      "path": "results/core/tables/bulk_category_exact_tests.csv",
+      "bytes": 8476,
+      "sha256": "a757cd98139b88b9d6208f6be154b570ef3d4ee690b90b089cb3c99499c21498"
+    },
+    {
+      "path": "results/core/tables/bulk_count_source_sensitivity.csv",
+      "bytes": 451662,
+      "sha256": "01b7ae21dec38d91bfe1e93e1ee4ee10f41290418c525573a0bb189af4b0dca1"
+    },
+    {
+      "path": "results/core/tables/bulk_flight_leave_one_out.csv",
+      "bytes": 102288,
+      "sha256": "34dd55a8a5769bd8e3f649200bcc4a3fd4c53db2c64493881a40ef39ac4d8ea0"
+    },
+    {
+      "path": "results/core/tables/bulk_gene_exact_sensitivity.csv",
+      "bytes": 130838,
+      "sha256": "3cc759cbe6fc309f992ee0cba1843bbaacdfc98dc650bdb66a0680ca5d02f351"
+    },
+    {
+      "path": "results/core/tables/bulk_metadata_conflicts.csv",
+      "bytes": 11549,
+      "sha256": "d1e895eb756727f218fa779479f8d625b6d2776ad260630de9620fcfeb86c4fc"
+    },
+    {
+      "path": "results/core/tables/bulk_panel_complete.csv",
+      "bytes": 1347490,
+      "sha256": "cb250f318068d40006a54d36ca5ec84a852977b9ae420dc3916cc1a798d7cb0b"
+    },
+    {
+      "path": "results/core/tables/bulk_panel_primary_q05.csv",
+      "bytes": 6805,
+      "sha256": "98c140680d7ef3ca7a131cf673e4f5ca4b28399bc93ee865a167ab2eecd3bf86"
+    },
+    {
+      "path": "results/core/tables/bulk_sample_registry.csv",
+      "bytes": 79381,
+      "sha256": "42a57e6d1fb0e384b4e6e3a6943cd904ddd72d4059fa7437fa5ff8b71bd10539"
+    },
+    {
+      "path": "results/core/tables/bulk_secondary_age_interactions.csv",
+      "bytes": 56740,
+      "sha256": "629e5417fcaaafa03fb858939dd6ebc0e5b75d2d97f5c21ea17691df602b79f9"
+    },
+    {
+      "path": "results/core/tables/ensembl_orthology_ambiguity_audit.csv",
+      "bytes": 780,
+      "sha256": "042e682374f543b319ab9931a175dd043528e3030cd5ac07d3750d98a276d91c"
+    },
+    {
+      "path": "results/core/tables/figure_source_ledger.csv",
+      "bytes": 3108,
+      "sha256": "3193525bb27c346f74b136802970a78ec546c8010d9d4ae54fe5529c709bcc16"
+    },
+    {
+      "path": "results/core/tables/five_view_source_data.csv",
+      "bytes": 55063,
+      "sha256": "70192d2e28bf15f0f36c5c954218092b84d4beff875536e14894b489484387bc"
+    },
+    {
+      "path": "results/core/tables/fresh_primary_input_verification.csv",
+      "bytes": 2386,
+      "sha256": "d867ec952ff3493f72b728ac69cd4c788f6a8a4ebc92224313559de699b3752e"
+    },
+    {
+      "path": "results/core/tables/metadata_specification_audit.json",
+      "bytes": 1293,
+      "sha256": "ca5ed7cf5f9e40c526e9c65e3ef0e461f031fd6d0a5982ec97d468c74fe077aa"
+    },
+    {
+      "path": "results/core/tables/paired_region_flight_associations.csv",
+      "bytes": 11087,
+      "sha256": "78a88832bc0d76f98f6ba0f19e4f21a7559fb04b8787768e2fe0cfd3f37dc30b"
+    },
+    {
+      "path": "results/core/tables/paired_region_omnibus.json",
+      "bytes": 283,
+      "sha256": "e2c2a7596139faf79d5a9a5ba171f3a2d49de5134f92578dad901cd9e97e2d89"
+    },
+    {
+      "path": "results/core/tables/paired_region_omnibus_null.csv",
+      "bytes": 394114,
+      "sha256": "b978da0934c9e159a0b8ec5dc49fed482740629419d42a5c42600eec2893e13f"
+    },
+    {
+      "path": "results/core/tables/primary_checksum_verification.csv",
+      "bytes": 474,
+      "sha256": "6c93086c1e70ecf94cd44230e7f80a22c4ef0671610b093cba0a8e4b26b3a550"
+    },
+    {
+      "path": "results/core/tables/primary_retrieval_log.csv",
+      "bytes": 947,
+      "sha256": "8dd997f3eb6298c3e6bc37d75c8a78115d6942eda6956e0b81b4474b7302ff04"
+    },
+    {
+      "path": "results/core/tables/spatial_genome_summary.csv",
+      "bytes": 1000,
+      "sha256": "bfff334d87e92f1e16ff4f41c8d4b489d3d376bb55c3d70d8744382557b0cf39"
+    },
+    {
+      "path": "results/core/tables/spatial_panel_complete.csv",
+      "bytes": 1436651,
+      "sha256": "f88122a51d1c7c1a172979628f62615563d5781b645d17ed270ecd3327a1f2ac"
+    },
+    {
+      "path": "results/core/tables/spatial_sample_registry.csv",
+      "bytes": 5102,
+      "sha256": "a79f5f6481239e73f30e11d6fb588b116fc5860453c73af4c70c3f95af4a2a61"
+    },
+    {
+      "path": "results/core/tables/spatial_welch_sensitivity.csv",
+      "bytes": 412188,
+      "sha256": "074303ea635c3a4dbf223a42f970079cc7013e1d00aba91b4859703235876f7d"
+    },
+    {
+      "path": "results/core/tables/verification_checks.json",
+      "bytes": 6475,
+      "sha256": "d16752e52fb8c632ac3a74256e6fc009e9dfb9ed19e33128e047c7143656387c"
+    },
+    {
+      "path": "results/core/tables/verified_panel_mapping.csv",
+      "bytes": 30825,
+      "sha256": "993db288cc886d0c8b38c4a8123f7a34a0ab92c1640f72f07894ae19189414ea"
+    },
+    {
+      "path": "results/deep/README.md",
+      "bytes": 19440,
+      "sha256": "5d6959a51110435b5f2efb4703be1b08c2a5be09efa87748253e88cfd34fffe4"
+    },
+    {
+      "path": "results/deep/figures/figure10_regional_and_QC_validation.pdf",
+      "bytes": 65858,
+      "sha256": "d6d033ddc933ef61e7e395aa25112999fd3cf91094ffa591fda70a4f0a878f11"
+    },
+    {
+      "path": "results/deep/figures/figure10_regional_and_QC_validation.png",
+      "bytes": 308892,
+      "sha256": "c2abe64154bc69ccd762264ce20157b0d5598eda59bbdf512c3eb52c02826757"
+    },
+    {
+      "path": "results/deep/figures/figure10_regional_and_QC_validation.svg",
+      "bytes": 41708,
+      "sha256": "6a875ad4791ace146d9afaa37ab14acbf5e55dc6ffdc539d801c834084a6eb26"
+    },
+    {
+      "path": "results/deep/figures/figure8_expression_state_validation.pdf",
+      "bytes": 64565,
+      "sha256": "34887acc88cf75b45bd012b0d37fc2a76b6075b6a2f470bf6c05c0e621dcd9db"
+    },
+    {
+      "path": "results/deep/figures/figure8_expression_state_validation.png",
+      "bytes": 404711,
+      "sha256": "c34aa61d3338c4940ef85ce16caa70701c2d20afe6a47fe8c8ed18194b4ea2c3"
+    },
+    {
+      "path": "results/deep/figures/figure8_expression_state_validation.svg",
+      "bytes": 76050,
+      "sha256": "05a4ca73c928cc05a684fd0d8f4008960d94fbc57efe6a97d36f0e23151a1969"
+    },
+    {
+      "path": "results/deep/figures/figure9_additional_cohort_validation.pdf",
+      "bytes": 83076,
+      "sha256": "a5e29bd492746a1e2bd08063c1b80020e94d77834d30806083e742cde208eace"
+    },
+    {
+      "path": "results/deep/figures/figure9_additional_cohort_validation.png",
+      "bytes": 389579,
+      "sha256": "2d72282711fd33caa095a26893f636f5b20cac7dab401f9eb4a36106ece8476d"
+    },
+    {
+      "path": "results/deep/figures/figure9_additional_cohort_validation.svg",
+      "bytes": 101897,
+      "sha256": "5ea3148745510dc949b117609c77f486200913a7939d9b0da8a622845a35b446"
+    },
+    {
+      "path": "results/deep/figures/figureS3_additional_complete_panel.png",
+      "bytes": 535990,
+      "sha256": "c0d32079c06fc0c0ffe433c7ad619304d24c6616d7eba98d6aa59e2b5c4ddbb4"
+    },
+    {
+      "path": "results/deep/figures/figureS3_additional_complete_panel.svg",
+      "bytes": 165909,
+      "sha256": "ef6c1a01a5ad08edcf5c2537c5874f7a28a5e1746d4a642154c47589d9ce3674"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_edgeR_QL_flight_Nrf2KO_genome.csv.gz",
+      "bytes": 857238,
+      "sha256": "de3b0327248a9676545abdf28ded8a12822a500f241e230a29f53b753a9d2e67"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_edgeR_QL_flight_WT_genome.csv.gz",
+      "bytes": 801636,
+      "sha256": "4a39fdb1bacd5b3160c90d316a31f7289a404f58d6826de4d6cc57a6a0b838ee"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_edgeR_QL_flight_balanced_genotype_genome.csv.gz",
+      "bytes": 875172,
+      "sha256": "047c116ce3c428bf7216f1a56668eba8e052334d4a7bf6a40bd402a3c56008aa"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_edgeR_QL_flight_by_Nrf2KO_genome.csv.gz",
+      "bytes": 801236,
+      "sha256": "a8b3daaf7761a3784768e33f292914d9bfe3a25f224a02339e7c0f736bce81e7"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_limma_voom_flight_Nrf2KO_genome.csv.gz",
+      "bytes": 1213194,
+      "sha256": "09e905118908e1cd7ebf23b92f592db5feabe56f0ccf6032af67c57cd5157451"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_limma_voom_flight_WT_genome.csv.gz",
+      "bytes": 1148567,
+      "sha256": "01c5e4028a005a1b31be7b092a58d988af1b3acfe1e7a5338d5d0446329d10d0"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_limma_voom_flight_balanced_genotype_genome.csv.gz",
+      "bytes": 1236680,
+      "sha256": "1016a76fbc32d42b4a119e8667c0e182060af25ddaca8072ae4409ad612eed8a"
+    },
+    {
+      "path": "results/deep/tables/OSD-457_limma_voom_flight_by_Nrf2KO_genome.csv.gz",
+      "bytes": 1142330,
+      "sha256": "56dcb7704519a951ff0d7cfb001002e4c8767f1761b186ba80930946a129427d"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_edgeR_QL_flight_vs_habitat_ground_genome.csv.gz",
+      "bytes": 1100729,
+      "sha256": "2b2429703a3daac31d405ceccac48db96abab1acd86296e4a9ac504394be7baf"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_edgeR_QL_flight_vs_vivarium_genome.csv.gz",
+      "bytes": 1083517,
+      "sha256": "f9736d50286c82f38fa16c3f0d3bd221d6e5adc3aec43724652a562ff95bbccc"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_edgeR_QL_habitat_ground_vs_vivarium_genome.csv.gz",
+      "bytes": 1092248,
+      "sha256": "d20bd5a4d51611485335f1a9819dccc539141dc82ba1e38b059c6e11945174bf"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_limma_voom_flight_vs_habitat_ground_genome.csv.gz",
+      "bytes": 1537278,
+      "sha256": "6466aece298ac8e9f213cce7b39f19be1522b88576e7f34939c93b56bf587fbf"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_limma_voom_flight_vs_vivarium_genome.csv.gz",
+      "bytes": 1516593,
+      "sha256": "c96627e22e651a60e9385843644f0ac640c4f9858c6c85081a1ed51fb57a6bd8"
+    },
+    {
+      "path": "results/deep/tables/OSD-525_limma_voom_habitat_ground_vs_vivarium_genome.csv.gz",
+      "bytes": 1525713,
+      "sha256": "8c553c70cb003527cfeffbde56b8469757130ec82e6f210cec08a2e7b0ead5b7"
+    },
+    {
+      "path": "results/deep/tables/OSD-612_edgeR_QL_flight_vs_ground_genome.csv.gz",
+      "bytes": 1177279,
+      "sha256": "033d629268bed9e14cf060cbd3baebdd5c30264d049026be14338a74685087fa"
+    },
+    {
+      "path": "results/deep/tables/OSD-612_limma_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 1642112,
+      "sha256": "113f3f2b4ad5312a937b9bcd7edd217863cd3e27912ce4c2378eb1319bd8a77f"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_edgeR_QL_flight_age12_genome.csv.gz",
+      "bytes": 1169601,
+      "sha256": "5264987c1e92b0801b44b33bc2b1bc2b6212fee407bb6482901fa248efd697cf"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_edgeR_QL_flight_age29_genome.csv.gz",
+      "bytes": 1038231,
+      "sha256": "7450fb076b63a4ecde7cd05503bb6530882feb9dd160068eb26546ee5c6cacba"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 1168137,
+      "sha256": "f009c8c665ec6457ff36502f6fc765acb76909552c4f20308db8842e797ac284"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 1036327,
+      "sha256": "7dd47b603a2ac8bcf8dbb1aa378acf4cc2fe8489c2b109373eaecdf0ecd5c856"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_limma_voom_flight_age12_genome.csv.gz",
+      "bytes": 1631269,
+      "sha256": "8bbf0d9720a5c646e6aa9ceb70dfd584a8c4b884203297c361a54bf464111ac3"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_limma_voom_flight_age29_genome.csv.gz",
+      "bytes": 1475010,
+      "sha256": "919b490e51bab029347837f462f3e67173d0966739a69f750071d3f2d794a212"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 1632880,
+      "sha256": "0fbe0e9245502e1350ce02ff4f0801befc9ea699b09c094b443170f282d870ff"
+    },
+    {
+      "path": "results/deep/tables/OSD-613_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 1472780,
+      "sha256": "1bd7f661e085edc8cd70bd02aba318b753248a253dbde4cc0929ed0e0611ccc0"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 718049,
+      "sha256": "47306f1e601a9818a784d1240d3cddaa9482c2b18c56554c7290f4a9c7df57fd"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 720280,
+      "sha256": "28261c2fa9085ef4bbf77eb475d9120040971b455db65b9195ed7175bed472f3"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 723228,
+      "sha256": "d2027d1197bbaab7edc72f5853d5819d09182b0cdc23c40ffe84025facf5d44a"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 633720,
+      "sha256": "431bda5c82319ed6debc7bbd1e87f3650cc0d73dd92399d78cee625880fd55ae"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 788933,
+      "sha256": "7a1e76678bfda278aa542560ca7f05384c9e2890f58d1b986e5e1de3a6f62360"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 791408,
+      "sha256": "ca7a5fe560716e9cdffeb4edbd2aac31defc21390439c661d9bd64a6d06ce0e9"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 793696,
+      "sha256": "e3bb89737cbf390bf256279b39ad5adeb3740f4539509b74e1598fe9081d1f3c"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 698339,
+      "sha256": "2ec93ee3edb19492d13d61aec3481331fb9f57530dbe5e81f9e06a35ecba7a16"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 692642,
+      "sha256": "1bfecfb1e1ddfc79dd08f0127b5ca9f11184a2aa494e115c0ebe624f4a346841"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 694342,
+      "sha256": "76b6f94e33af4d1485668008a458a1ced8708ba53c872545bb2ecceea815bbe7"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 699610,
+      "sha256": "e2cfc3b0edddc89b71afc5822df7c88924b1a4fe9322d11d3962c9ff3e48487e"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 638827,
+      "sha256": "7b5079865c5dfa9f958563ceedfbbccf2e6b01e7876dc10def06d952a2ec0426"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 756941,
+      "sha256": "ec41b5e1d3f5156a1ec59619e6179ce2b763596663a5df3ad70418789b731a75"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 758508,
+      "sha256": "6e34a849f3a70a25777e89918176c76a1eec8d67cf97d2f1c243a4c86bb62275"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 761203,
+      "sha256": "a9d1431d296a63a1175ece7d6f6ccc28a14b51bddaec65d530dddb7659824715"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Forebrain_article_5pct_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 694632,
+      "sha256": "df75dccd965e3a03f4de9a2c7dfcc28d6e866fffdad61d3bf39ea0d72b29724d"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 694414,
+      "sha256": "631c1c61f71c26c588063e7bc12b81620ba59a508328fa0b3a3de9dd9255a388"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 693139,
+      "sha256": "8f6f02b6e7b6025a5895943df986d4b2d75d85ee0a5ebb6d76bde259206815ca"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 698228,
+      "sha256": "3f6ce5281531ec7cf9d3ca4e7e165671887538f21b2f0ed28ee8f4c8dd5dff46"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 612253,
+      "sha256": "aba1ec69965012e1a1bcd292ae55bae25822d3e623c7f51b463b4303bf51f969"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 762608,
+      "sha256": "c655eb7a8d2f19d9329e752e937a8d38552e80ec1d965aa74f157f4af237a0dd"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 761926,
+      "sha256": "be906bd537761018479cfbe18dce4bbe6d6b6f27daf5f1c49befa055d3fda9ad"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 766300,
+      "sha256": "5a3eeb3ad3a3cbf7961c4f1e7e683aff65fd1344949d22df760e3820d4d28bd6"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Myeloid_Hippocampus_article_5pct_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 665395,
+      "sha256": "09d347ddb7eb8a8234bc2f80d8c7290dc96b1bdf805bf64c32696faf351c8e8e"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 202307,
+      "sha256": "0909b2918c68490eba3688326ea5b43c7024946018e844d117c726c67ad27af0"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 206739,
+      "sha256": "a884de88df096a428de8a6c9e0e49789a8225644e9fb4d2e1098d0a969b4face"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 210439,
+      "sha256": "0451953b457f70d40f0fd99b4cd8b9fadaf6e56e96dc022e762aacdf09afa8c2"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 194017,
+      "sha256": "30a8a8ea346c6adbd4950e9e5adb94f67faa907d913624357aebbf49c6d521bb"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 220910,
+      "sha256": "140e48871f55eb28eaff81c691d7c9712ced05fe358e044470d1d5d6825c4cc6"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 227552,
+      "sha256": "aaec724959b7768f9a9560df16c7f9eaedb6c52cf0ce5b1be95212feb27d2cc6"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 230795,
+      "sha256": "358616fea1f776dccde0a5f32e3f4973e616456efc9d3041ce27909dd3f012cb"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Cerebellum_article_5pct_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 213451,
+      "sha256": "a8d876863137f3ebb849160a117b34dfbe39a246da18b31f1a69e101e86de35c"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 303825,
+      "sha256": "45470effc34cb6c171c2118a127bbc852651f90e43897a3a024ec5d6c46054d2"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 297283,
+      "sha256": "3e1c71d0098833fcd8fba645f485c3a0ca3f156151f53a8b0a16a18b5aacb9b6"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 289153,
+      "sha256": "e154a90c2a9165a05c93eb42792845af265913e996a5494d611b6eab43b34b10"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 306795,
+      "sha256": "24c24dfd22d2f26523309494ad2a72d1f3b28b9bdb8be42ee88c97800047e077"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 333600,
+      "sha256": "77463afc023e84bf5906d497cb98a4f9d97f482d8b9a9c0a6252e1b648ad718b"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 320467,
+      "sha256": "6d7dd7bcf603f2456211ec5102d90185aa5e7fd2fe9448805b84b784a7eb743b"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 317793,
+      "sha256": "a10b514b4814867d1c0e50504ffc5133d86c97e9d945967484303028aed5d483"
+    },
+    {
+      "path": "results/deep/tables/Sorted_Non_myeloid_Forebrain_article_5pct_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 330325,
+      "sha256": "8d0fb9e64eb6d089fbcf7a375ee673f5752dbc10e913123670223ba0da817c6b"
+    },
+    {
+      "path": "results/deep/tables/additional_count_preparation_audit.json",
+      "bytes": 986,
+      "sha256": "02bc7c30513408881b69b558123fa08349de02dc2a62d8c67cffce10ad8c7b96"
+    },
+    {
+      "path": "results/deep/tables/additional_model_QC.csv",
+      "bytes": 197,
+      "sha256": "89128d8e157966b1f8caa4222307015419a74c15ea9cc71416f710f6c5dd455b"
+    },
+    {
+      "path": "results/deep/tables/additional_mouse_deletion_complete.csv.gz",
+      "bytes": 2225912,
+      "sha256": "67e47dc732fcabda062408bab11c6bede57dacd3df3ea5212320648fc376acdf"
+    },
+    {
+      "path": "results/deep/tables/additional_mouse_deletion_expanded_complete.csv.gz",
+      "bytes": 5020926,
+      "sha256": "0763b451d60a20cda875c0d090d5f3e3a8d31ce8e152273ba04eba3e761b8eb6"
+    },
+    {
+      "path": "results/deep/tables/additional_mouse_deletion_expanded_focus.csv",
+      "bytes": 239534,
+      "sha256": "29821493b59dbf320d809095f430496fcf1a4f46f192b1d5d33a327190ecd81a"
+    },
+    {
+      "path": "results/deep/tables/additional_mouse_deletion_focus.csv",
+      "bytes": 228884,
+      "sha256": "c1e53f56cfd89a80c61ee61549b771a615a4cdd7240ad121cfcf2ba026297b91"
+    },
+    {
+      "path": "results/deep/tables/additional_mouse_registry.csv",
+      "bytes": 6596,
+      "sha256": "0bd20a98f1ca8206b32830b24a228b21a6b4d73c051b43aeb0e859c9cd54d01e"
+    },
+    {
+      "path": "results/deep/tables/additional_panel_all_regions.csv",
+      "bytes": 467967,
+      "sha256": "a234f2748ec91a7b34933ae08b4486427453f9397181cc1ede854f876f562dff"
+    },
+    {
+      "path": "results/deep/tables/additional_panel_complete.csv",
+      "bytes": 281674,
+      "sha256": "6724292274673d9f0cdf1c5a1f4c3bd3999134692fa5e5307681fa43772a3292"
+    },
+    {
+      "path": "results/deep/tables/article_5pct_model_summary.csv",
+      "bytes": 568,
+      "sha256": "abb32bbd364e0f993914f4bf6ce0b7bac8d643099f165aa825b3f350f8a5ae60"
+    },
+    {
+      "path": "results/deep/tables/article_5pct_mouse_QC.csv",
+      "bytes": 2855,
+      "sha256": "1d457fabb5de3f35111a565b92ea1044dd2c21bdf30f4886e2ac177342bfe16d"
+    },
+    {
+      "path": "results/deep/tables/article_5pct_panel_complete.csv",
+      "bytes": 1000611,
+      "sha256": "96029965c0274e2dbf327037fa575f64963bdca99c854f8143655111644c882a"
+    },
+    {
+      "path": "results/deep/tables/article_GEO_QC_discrepancy.json",
+      "bytes": 667,
+      "sha256": "743cb294760c03c5b7878287d76c9f9739bba63ce1dc35d29b7b4c405e736ff1"
+    },
+    {
+      "path": "results/deep/tables/deep_figure_source_ledger.json",
+      "bytes": 1461,
+      "sha256": "92a5cdd7d52283b5017e1227c75123558898bb227fa4c76db1cfd29a5938aca3"
+    },
+    {
+      "path": "results/deep/tables/deep_verification.json",
+      "bytes": 83181,
+      "sha256": "0bb53f9d318061c78f40cc7e4705c0886c437b48eab032f3f6317062c45ba651"
+    },
+    {
+      "path": "results/deep/tables/figure10_displayed_effects.csv",
+      "bytes": 3822,
+      "sha256": "53cf0681954b8a04882e6d281df9616a4ca58ec7806995c16527e4381cc8e627"
+    },
+    {
+      "path": "results/deep/tables/figure10_displayed_mouse_values.csv",
+      "bytes": 914,
+      "sha256": "d286c4de39a47733cedb8705551d1a3c3ab58279fd495f20825f1cf568649947"
+    },
+    {
+      "path": "results/deep/tables/figure8_displayed_count_effects.csv",
+      "bytes": 768,
+      "sha256": "e87d528ab757854b4946211fe3ab4f74fa236f00431063880965703e37adae6a"
+    },
+    {
+      "path": "results/deep/tables/figure9_displayed_contrasts.csv",
+      "bytes": 1056,
+      "sha256": "84d046f9adf8c038f43009fadf844348ae259a2d55c6d69efa4758b154e69d0d"
+    },
+    {
+      "path": "results/deep/tables/figure9_displayed_mouse_values.csv",
+      "bytes": 3714,
+      "sha256": "5a00a179a0d5d49cede81be94ed7c9a3fb88f3e8db1d35be7ed565602f61ca95"
+    },
+    {
+      "path": "results/deep/tables/figureS3_displayed_complete_effects.csv",
+      "bytes": 275639,
+      "sha256": "714b3cb6c61bb2942f8f1854928051c701aa93244f0a9943a3a367da7baa9ef6"
+    },
+    {
+      "path": "results/deep/tables/forebrain_all_eight_QC_method_consensus.csv",
+      "bytes": 8176,
+      "sha256": "4645786c8e17c9ac54bf26767a9431f040a4c0fb6596a4266e2ce24cab47f00c"
+    },
+    {
+      "path": "results/deep/tables/reported_additional_focus_results.csv",
+      "bytes": 17943,
+      "sha256": "58a57873968cc72b85e357a8e6e2c2f74e7428b01d33e379120c77122bd26338"
+    },
+    {
+      "path": "results/deep/tables/reported_expanded_deletion_summary.csv",
+      "bytes": 6930,
+      "sha256": "d56e2280245a69ffc54ae90f133319376610cb89204c39f4ec304d2b3a362009"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 563107,
+      "sha256": "42ce07e61eb8fc435235e3b41848664d318dc7cbb4163a90426588954248ab54"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 562278,
+      "sha256": "00a1dacc7ba31c0ac211423352aa03f075567f93f85e3c7146cad98af5aa129b"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 567190,
+      "sha256": "45c7a25e29d93b8aa63e92257a006129f8206fbf2bb92e1b8fb47822250e6c24"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 529775,
+      "sha256": "70b4c099642aaf409dc0ebd2d80c5b83d76fd75e29c6e5b6c773ac32bd712a89"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 778331,
+      "sha256": "74d68121efeef3eef6f758c7b9f8eb145c5d95599e30418d4e521709bdf36584"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 777619,
+      "sha256": "740f41a79c2618a80494ab6a14fcff4cfae90db5af0d1524bf7e408166dd39f0"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 782387,
+      "sha256": "62bf53da7f33032e319155c1af24a198d7f902e74d3a581719db4468aeac08b4"
+    },
+    {
+      "path": "results/deep/tables/state_K4_S1_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 742559,
+      "sha256": "5e5160aeb1f089c0baf3862e1c6413dae6377175c6813887de79e27640f456b4"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 313439,
+      "sha256": "389fb52d665bfd5be5be18b6dbc329f2d07a7a4637c9837cb7018799b4e79359"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 312695,
+      "sha256": "f612d09694a702f39128a8816962bab455cf1a1fef1e52a76f9a2569515fbd84"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 315455,
+      "sha256": "c1cce0a47632719778f03aef9b112e1b5022bc8c6fb013952661b3c61870103c"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 305880,
+      "sha256": "5f136a519382bb853cd4c395c66feec4df2bc1ea9263b8ef56bb1510b341cd51"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 434322,
+      "sha256": "0d17bfc442df5338d298cebdc3ae05a37136f55fd559dc99c77b20eea83cdc71"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 434647,
+      "sha256": "a5b6a80801578d0c41b9f793ab0fd3a50c5ca20ddb397fe54d12929103cb7346"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 437287,
+      "sha256": "a84ab6f48c6e2fc48eb074219c2a9d3e21bae0f9f3e0e08500ed0c5ef8e2d901"
+    },
+    {
+      "path": "results/deep/tables/state_K6_S1_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 425573,
+      "sha256": "44bdaeef8a00ba85c9ccb757a779070c3a1a0a502be4da843c6e09331af6bc44"
+    },
+    {
+      "path": "results/deep/tables/state_algorithm_seed_stability.csv",
+      "bytes": 346,
+      "sha256": "b4e0b5dc4f60667b9fc59c75d6c6c80e87d9a7422b41f71a18775f7ab3ccecae"
+    },
+    {
+      "path": "results/deep/tables/state_composition_complete_tests.csv",
+      "bytes": 549395,
+      "sha256": "186ebbee6ac95337e8114f40f0135d33d9e3b902d604dea12eaaa31fa163b198"
+    },
+    {
+      "path": "results/deep/tables/state_composition_coverage.json",
+      "bytes": 695,
+      "sha256": "0433f1eb5a842f3d6ed6f2bdeb439a7da47e050bcc71ff76f3597e06cbd47119"
+    },
+    {
+      "path": "results/deep/tables/state_composition_mouse_values.csv",
+      "bytes": 348429,
+      "sha256": "c809cb39604464c044ad5eea3312fbaa98cfdb0d4c6ecb4f3c7f9c0055b80853"
+    },
+    {
+      "path": "results/deep/tables/state_context_markers.csv",
+      "bytes": 61042,
+      "sha256": "812bd90b78c6bf90e3774c71df5faac9091723bac5160d18bb67c3fe33030990"
+    },
+    {
+      "path": "results/deep/tables/state_model_QC.csv",
+      "bytes": 336,
+      "sha256": "4b201317d6ea7d52e14c820447b91d03776840ab1c35383474696ebf39e7aeba"
+    },
+    {
+      "path": "results/deep/tables/state_mouse_QC.csv",
+      "bytes": 9256,
+      "sha256": "9d27b131a51b1049b16b8be308969feead4621ce1d5e515d525e0e1634a3e19b"
+    },
+    {
+      "path": "results/deep/tables/state_nonpanel_variable_features.csv",
+      "bytes": 279621,
+      "sha256": "7687dff032352193247b985b169f08fedeee3453fa6bd32ee85859a36c30f07e"
+    },
+    {
+      "path": "results/deep/tables/state_panel_complete.csv",
+      "bytes": 1331901,
+      "sha256": "5802a43664de477505ea5f9789e4fb69b44244b56d84311a43fc95b060268a51"
+    },
+    {
+      "path": "results/deep/tables/state_preparation_summary.json",
+      "bytes": 6794,
+      "sha256": "d85259a1837a59a8b21a9f5a0aae7895263c648e7e1d47126ce95e82d516e26b"
+    },
+    {
+      "path": "results/deep/tables/state_proportion_mouse_tests.csv",
+      "bytes": 7130,
+      "sha256": "6424d7325ebdcbc632f9b8c67146de5766727af3a7cb874aceea42af399a5ab2"
+    },
+    {
+      "path": "results/deep/tables/state_target_mouse_expression.csv",
+      "bytes": 654327,
+      "sha256": "0cd1fb240199b42f440401460b13850affe5fc5f947de3224817c40366f2a59e"
+    },
+    {
+      "path": "results/deep/tables/terminal_region_animal_independence.json",
+      "bytes": 836,
+      "sha256": "778cd43315c6a15c4602c0e35b94ae4430b676bed4881f05ff58d5a96d14faf2"
+    },
+    {
+      "path": "results/deep/tables/terminal_region_missing_bulk_samples.csv",
+      "bytes": 135,
+      "sha256": "fd7304ab1c4cbb8e548bf4b3a6440633dce3d5eb669934e45eceedb43d1187e5"
+    },
+    {
+      "path": "results/deep/tables/terminal_region_model_QC.csv",
+      "bytes": 108,
+      "sha256": "57717f0c6b2f33c86b4c9bf7f8b890006d43af19d6fd1229348617e7fd8b1743"
+    },
+    {
+      "path": "results/deep/tables/terminal_region_mouse_registry.csv",
+      "bytes": 2044,
+      "sha256": "0e3bd33cc3dacde0c6be106ce52a66954696f948e9919d57e1a17f63bd826ade"
+    },
+    {
+      "path": "results/deep/tables/terminal_region_panel_complete.csv",
+      "bytes": 194606,
+      "sha256": "fa73bada31e79df52174d7c171192f91ba58c251e3b8c5403bb23df331369af8"
+    },
+    {
+      "path": "results/deep/tables/workflow_source_ledger.json",
+      "bytes": 815,
+      "sha256": "cc0c265a0362acb6f9dc1fe32a6dbf47f4aefaa6495f0af2fe7900f58d4d5e86"
+    },
+    {
+      "path": "results/deep/technical_state_tables/PCA_technical_regression_coefficients.csv",
+      "bytes": 1962,
+      "sha256": "63bdf7bb1b8334adaace8f3f62128cd0f26a32d410c3dd2ff0c1dee1902cff6c"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 575889,
+      "sha256": "7edce6d54364c38f7b5b07f431bc06b4618c569ef48ad74912755df7d159faa7"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 574389,
+      "sha256": "f8b679fb3afab348145d90f58564cc338ae1da3c88fe96205035a2866a7e8f4e"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 578751,
+      "sha256": "284bedbff988ec91c0d58434ee3ff642ba614f9d9dd155bf4e4f4add5a2ea488"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 543435,
+      "sha256": "3888dfed93e8696911926765c5aa33a341a2228d9fb1a5f21a22a2d0db8ef6a9"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 794465,
+      "sha256": "1c07a7dd4e0531bff431849dabf99ca2f13559bd9640665e23953822d3df4844"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 793362,
+      "sha256": "3e22358b8462063bbdd217dc02b1de04156f92666ff61d7eaa9e854a62c71fcb"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 797792,
+      "sha256": "efbc172f62aaece01f30f6a1c799126f0f103328f837e7cdc8296aa81c250e16"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S1_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 769857,
+      "sha256": "d929ad809a2f61543a1c56843abeeaf5de565891c02fda1b826456af524a2db8"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 514467,
+      "sha256": "f8aaba84aaec37c827ffe318b395ee7ff0733860e0b33d6ddaa7fdee389633bd"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 515674,
+      "sha256": "3f8b1fafe0e5d3472362d0fe77eeeb14d3fefe2afa58dbae55e5886610b53618"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 519024,
+      "sha256": "07fb5dab250ffeda6d0fc6629ba7e8435858a5d926d759263528d9b6bdc4e72d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 458606,
+      "sha256": "efa36a995381cd2b5e1a5c8b8e902e8d7571304c10fdff0e8e8fd225d4e99404"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 714012,
+      "sha256": "156be461fad6e6f5f5b7717d6f567ebfcff936472d9379d9d73d3564fd38b45d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 715110,
+      "sha256": "e693f0cb2d9e0a1594c3a9f5ad770759e5c48d4a5c086a3697cdaaba0e929eba"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 718917,
+      "sha256": "2580a1112f0470b57a3de51497f5d7fc99d399ee4aeb072c097b0fbe534e1e17"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K4_S3_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 649015,
+      "sha256": "d23c766c3d69b6fb0e7804bd5ad008d701410f486483683b8fdff735e72de2bb"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 553288,
+      "sha256": "1c79152972a2508bc13d114a3210dd3773d67cb2138cd7c1101a940524462b27"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 552356,
+      "sha256": "6476587f2ed85e388d94d57ae5f51f9785b10defd133015a4500614d7fa42dcf"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 556503,
+      "sha256": "3c6148158c8c6d3d3ca3bd5518ec470063031a3c9c946f6cf23e3a38555a19d6"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 522659,
+      "sha256": "c9049c417c3e7e5042ac85784ea2e7214f287606f56a3fd05325908a42f88565"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 765974,
+      "sha256": "7325dc9d2186d21b6dd236ade0ef9d35a4dfb38d048c2257ee29e5d7aab4092d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 765253,
+      "sha256": "53f2efcc389026e2b66e3df718e38265fb4a28a905b3ebd94faccd3364c07d2a"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 769828,
+      "sha256": "8965d01ed524f67963a65e5a98eb1e65c726c21f3c26fc0f8f0898d355407760"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_K6_S3_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 732169,
+      "sha256": "925ce6345957e76cdec551a575faf7e36f798ed81d8fe6473c7395e09d77544d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_algorithm_seed_stability.csv",
+      "bytes": 346,
+      "sha256": "e8ac3a290842a0dadba55f4ab05c3c3e41d1ddecdd556a157d809914b4680dd1"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_composition_complete_tests.csv",
+      "bytes": 596632,
+      "sha256": "0bc93ea8d2b3ada8e24dcc176fc31abc705c1db48d4324db68049bb417b633ca"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_composition_coverage.json",
+      "bytes": 741,
+      "sha256": "7a2dc6963499bc92babd2004d193c51c48cea26a691eb5d3e391e9c4c96f944e"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_composition_mouse_values.csv",
+      "bytes": 418347,
+      "sha256": "d62f4d46af69956f0b0927e79c19a13b37a56bd4880122efc6ab08615e9692ce"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_context_markers.csv",
+      "bytes": 61058,
+      "sha256": "4d0d80cc4af337e59fcccbb56abef426b654439051b1d57df5fbf10d5d232d32"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_model_QC.csv",
+      "bytes": 337,
+      "sha256": "c074b347274d5e4018c08d8590492c5e7e964fd75b098e66a9be4f60270827a1"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_mouse_QC.csv",
+      "bytes": 9250,
+      "sha256": "ae9d855bbd656d68e6c4cc80551d063aad2cd4555d03758104b22dd9ee15b906"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_nonpanel_variable_features.csv",
+      "bytes": 279621,
+      "sha256": "7687dff032352193247b985b169f08fedeee3453fa6bd32ee85859a36c30f07e"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_panel_complete.csv",
+      "bytes": 1342599,
+      "sha256": "91de32d4123015e6df738cc0a3c46f9af9112490324c0260af9838b1a374afd9"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_preparation_summary.json",
+      "bytes": 6918,
+      "sha256": "fd012f2324e239d6f99f6dc7fb1f74dacc1b7b6f672bbd34aed47c495080fc2d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_proportion_mouse_tests.csv",
+      "bytes": 7141,
+      "sha256": "dd3432e72e79750f300c08f97163ff65f3dfc9ecbe66076fbf65af2f4d1eac8d"
+    },
+    {
+      "path": "results/deep/technical_state_tables/state_target_mouse_expression.csv",
+      "bytes": 656944,
+      "sha256": "05c184472e5eb39679bb84ad646bd86ff8ee106109eeb25a034a23d15395906b"
+    },
+    {
+      "path": "results/extended/README.md",
+      "bytes": 36312,
+      "sha256": "6c0fe8a5f85c723e61dc9181e790cad5b3eaa0fec9b2291475b1a5adef5a2e55"
+    },
+    {
+      "path": "results/extended/figures/figure1_illustrated_study_workflow.pdf",
+      "bytes": 78647,
+      "sha256": "051be7a37568b2e267e0643a1b5e8fe3126e22fd0242e397b7464b5ee8494206"
+    },
+    {
+      "path": "results/extended/figures/figure1_illustrated_study_workflow.png",
+      "bytes": 661051,
+      "sha256": "059327c3d53c74ed03d433ca217d5daedcd2b466e72c3768aee08c1b98174536"
+    },
+    {
+      "path": "results/extended/figures/figure1_illustrated_study_workflow.svg",
+      "bytes": 27470,
+      "sha256": "82d7ffc5af6f4d7666c59db6ddf0dda8f8da20708ab33e51c503be437b79e55e"
+    },
+    {
+      "path": "results/extended/figures/figure2_method_agreement.pdf",
+      "bytes": 62538,
+      "sha256": "d90bb8e173cf26a857500ff279796b5222e8cc1c4832af0a9d36acee07ea1da6"
+    },
+    {
+      "path": "results/extended/figures/figure2_method_agreement.png",
+      "bytes": 324919,
+      "sha256": "dcedd4955bc9639b1187115566a4bffdae2bfc589f6523a026e94d9acb6a0a3e"
+    },
+    {
+      "path": "results/extended/figures/figure2_method_agreement.svg",
+      "bytes": 173758,
+      "sha256": "579ae635a9d11dfdb8577f3f112dbd70857b017fab0d72f3c3f7bacf172060fe"
+    },
+    {
+      "path": "results/extended/figures/figure3_composition_and_identifiability.pdf",
+      "bytes": 56104,
+      "sha256": "4902ff34c39d6f7476c330138956ba6c83cb832edd962f29c865a9b97b723af7"
+    },
+    {
+      "path": "results/extended/figures/figure3_composition_and_identifiability.png",
+      "bytes": 210471,
+      "sha256": "6c5cc4e98dfbb52ba0b9e452e8c4a94eac157207fd942f2f46a66591265ab0c8"
+    },
+    {
+      "path": "results/extended/figures/figure3_composition_and_identifiability.svg",
+      "bytes": 96546,
+      "sha256": "2f95855f290a56281d43a45d0aa5424fecd80b34ea6ca6bcf13056dd68b3b23d"
+    },
+    {
+      "path": "results/extended/figures/figure4_RNA_ATAC_context.pdf",
+      "bytes": 60324,
+      "sha256": "db954eccb6e0895e7cffc5e08d3e7b97e2138e66df98baf0ee287e88bdc4feee"
+    },
+    {
+      "path": "results/extended/figures/figure4_RNA_ATAC_context.png",
+      "bytes": 378037,
+      "sha256": "87654c4796f245f63ed89dc2ba2de03060d234a6ba8f93235064138dfea4e1b9"
+    },
+    {
+      "path": "results/extended/figures/figure4_RNA_ATAC_context.svg",
+      "bytes": 109983,
+      "sha256": "0f4b448c66b9f3549d689140a0e76947078da6a43bdedb0eba39bec7bdff98f9"
+    },
+    {
+      "path": "results/extended/figures/figure5_Visium_localization.pdf",
+      "bytes": 262308,
+      "sha256": "0e72ff5cc15c07b752fec9937f5f98ca243f09683b69a9eb62f6a99303557379"
+    },
+    {
+      "path": "results/extended/figures/figure5_Visium_localization.png",
+      "bytes": 577405,
+      "sha256": "1080d7aec10d3f8c7b9bdc4adfd1dffc6f1143ac591f8eb470bbf40a7b1efd44"
+    },
+    {
+      "path": "results/extended/figures/figure5_Visium_localization.svg",
+      "bytes": 2000797,
+      "sha256": "adaa3fcb6519c06b4e8ca0828d69af1ed592967e361d5b80b6677cb2716b200f"
+    },
+    {
+      "path": "results/extended/figures/figure6_pathway_correlation_sensitivity.pdf",
+      "bytes": 73941,
+      "sha256": "2fc4dc1f06cb1dfbcda39bae83a4da558aac1ce5ce0ec67a798d477029baca31"
+    },
+    {
+      "path": "results/extended/figures/figure6_pathway_correlation_sensitivity.png",
+      "bytes": 418917,
+      "sha256": "eb286ff2f382b6ba40396fa1a751cb774774f29802100ad45b8d66341ab2bf69"
+    },
+    {
+      "path": "results/extended/figures/figure6_pathway_correlation_sensitivity.svg",
+      "bytes": 201448,
+      "sha256": "2d44c3eb76fdebcdb18663557f50b68a654092910bf044a90a3011930f835011"
+    },
+    {
+      "path": "results/extended/figures/figure7_mouse_and_depth_validation.pdf",
+      "bytes": 53003,
+      "sha256": "3ad9c3f3dd38a0da0afa853addc62244831001c7c4774f86fac8b2c8122cade9"
+    },
+    {
+      "path": "results/extended/figures/figure7_mouse_and_depth_validation.png",
+      "bytes": 188448,
+      "sha256": "cd639f8236b9dc6c5db4451ecc4b057f75388ae43fc3d741cf0085739cf89734"
+    },
+    {
+      "path": "results/extended/figures/figure7_mouse_and_depth_validation.svg",
+      "bytes": 37388,
+      "sha256": "587da03469cff4eb8c4a104a5f602348e84747d1b74315930b13c5672eed581c"
+    },
+    {
+      "path": "results/extended/figures/figure7_source_ledger.json",
+      "bytes": 489,
+      "sha256": "c01620495957543b8f51bc66a9593e8a442143521a700520a058e4fe3f9203e3"
+    },
+    {
+      "path": "results/extended/figures/figureS1_independent_complete_panel.pdf",
+      "bytes": 66843,
+      "sha256": "1c9a8f0ac57fe4534676fd796f6ba152e0a9252ae780d2efce3b89b2a33c7d1c"
+    },
+    {
+      "path": "results/extended/figures/figureS1_independent_complete_panel.png",
+      "bytes": 484031,
+      "sha256": "3a5e3c4239c1d0d96238b0c2d7a4ae618013787db9da43d2546aa0ad3c27d709"
+    },
+    {
+      "path": "results/extended/figures/figureS1_independent_complete_panel.svg",
+      "bytes": 127589,
+      "sha256": "83956dd3dc53c6d9b4175128d18ee333f8037c6ea70c789088c33863764ffa20"
+    },
+    {
+      "path": "results/extended/figures/figureS2_innate_immune_program.png",
+      "bytes": 366893,
+      "sha256": "e54fe5824c40823abc2468b97ded78ab35ccb32a2b91e4134f1e65c386d336d1"
+    },
+    {
+      "path": "results/extended/figures/figureS2_innate_immune_program.svg",
+      "bytes": 64126,
+      "sha256": "74dfb070ac4a9e0be141a9d1b8287a0488fd071a128998dfe897ffedba7d9316"
+    },
+    {
+      "path": "results/extended/figures/figureS2_source_ledger.json",
+      "bytes": 298,
+      "sha256": "8db0719762c7ac79451e2949dccc1de02bc3e3d7e47d280a6a946daf33008e6e"
+    },
+    {
+      "path": "results/extended/figures/figure_source_ledger.json",
+      "bytes": 3165,
+      "sha256": "2124799bde9abc412879273ec878bf641ee5e2dce3d9e474fa7c57a3675d9ef0"
+    },
+    {
+      "path": "results/extended/figures/illustration_provenance.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_current_characteristics_audit.csv",
+      "bytes": 2425,
+      "sha256": "c55bc3dfaeb13b2635ad224e1618e2f4b423de7b13d9c5e557ad17331d0e70be"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_current_sample_registry.csv",
+      "bytes": 5324,
+      "sha256": "6e8862f5376934af681cce621df0c13b4187c7646a034e8acea05f23acc8c262"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_label_audit_summary.json",
+      "bytes": 856,
+      "sha256": "0d59e5a2446a822381c35c74d38f82769a04060ffcc4b428f52b1f41b7df5d59"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_sample_vs_countfile_labels.csv",
+      "bytes": 14859,
+      "sha256": "f3e608894964ed65e09de943c7d60ab40af59ad8a10835800159b3222b028543"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_sorted_cell_QC.csv",
+      "bytes": 7942,
+      "sha256": "db62398b4627044f75c29231c31845d5f618491b1e5c5c70d1dd8fa7593beb7f"
+    },
+    {
+      "path": "results/extended/tables/GSE295428_unknown_brain_file_exclusions.csv",
+      "bytes": 41,
+      "sha256": "8c744993f63c9dcbc52e8302ec307a43eebaacd664e19c54bc171f16e8604850"
+    },
+    {
+      "path": "results/extended/tables/OSD-352_TMM_factors.csv",
+      "bytes": 293,
+      "sha256": "cfa0e8e2dfe45bd5af442f82e79bc39ef1e2e546d27b8012ac04f9eb45b6a631"
+    },
+    {
+      "path": "results/extended/tables/OSD-352_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 823356,
+      "sha256": "fbee6f7a8d6d93dbae43d390e694de65e35ffdc19e368b73eb2f4dfa6f7ff3f1"
+    },
+    {
+      "path": "results/extended/tables/OSD-352_metadata.csv",
+      "bytes": 10335,
+      "sha256": "64875bcd476c3f29b9d68816f8a9548a63c17fa511b429ddaa90725f031da828"
+    },
+    {
+      "path": "results/extended/tables/OSD-352_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 905767,
+      "sha256": "f39b4ffe4a45593f3682360d45d4126e91c7b63728a82632c80b2e5eb4ca2cea"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_TMM_factors.csv",
+      "bytes": 1457,
+      "sha256": "4abccb224ed3870b09f8b08e2c4f40a4d7e327e7938fe015dc4e2287373ee9a4"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 1048711,
+      "sha256": "c0bb8bbba3cc531c724d0c7f9f7cc01c4580b59b9245bce28229de80cfb933ff"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_age_FLT_LAR_genome.csv.gz",
+      "bytes": 901915,
+      "sha256": "e63ce6a721af46a46953a1e4df6eff4191aa9fd20f3522b348edd460db2ee2d0"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 1042475,
+      "sha256": "7d61d745435f6ae17feb52fa59d558315e12460b259a15a79126607c5410205f"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_age_GC_LAR_genome.csv.gz",
+      "bytes": 902152,
+      "sha256": "938b72c1cf4bee491d617f8f082eaabf5649f6c2b2871c0d5f0555a13cb78a54"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 1043378,
+      "sha256": "1ba692e35320145523778c30114edabafb49853ea8c671a8745f86de8de9dc1e"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1030689,
+      "sha256": "0a7b0f8299739ef225d59737f160ac86b541be795adc2dd8ee36b21b8e3f1376"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1042382,
+      "sha256": "e06de88152330d3ecbdf53d174c2781fa1dd548d1fac9b6efa995d59df2fc295"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_cohort_GC_age29_genome.csv.gz",
+      "bytes": 921743,
+      "sha256": "b4d4cc4f81dbf1b3112ec02f45961f3cb700ea94843efd9933480ff117db2632"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1059799,
+      "sha256": "32b9de1213df5227f14ab87a51fb582c620b36e36d2e1f6376f81d6b4c584a1e"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 904901,
+      "sha256": "e3108f43e82a12595d2a47918a991a9286dcf2971605b65c128c2123a95aa422"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_LAR_age12_genome.csv.gz",
+      "bytes": 902222,
+      "sha256": "f35728d59c213eff4de12189783fa1613587e4d83455c95a3c3303b8440f097b"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_LAR_age29_genome.csv.gz",
+      "bytes": 921098,
+      "sha256": "a49cb80245ff8d189ecafd68f6ec7bff8597c7c5436f9199d610b6e35b65c406"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1044848,
+      "sha256": "b95c74c9d465f088186ab91fddf2a1f8b44eae1ed34ff336f8ee7d058d58a074"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_edgeR_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 919893,
+      "sha256": "99d2a4a74836841d1116ae1a3b7df352817e4c3a914b1f2d24a387585560cb0c"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 1164596,
+      "sha256": "d8400bc35dace979460b8bf3569cad94be9fccef2a7f70f86e3f56910ab1cba4"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_age_FLT_LAR_genome.csv.gz",
+      "bytes": 1007243,
+      "sha256": "ef2fbd42e9593821f50b3275069f10d31f49b6c1e13b45d2de4c3024adc64cc5"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 1156954,
+      "sha256": "e3daaee8dd391a977464a669362ce5e920f22d2233574eff953df2a71111ce89"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_age_GC_LAR_genome.csv.gz",
+      "bytes": 1008869,
+      "sha256": "dfbd1b9f8f3222e964a988435230c68df752dfe729cb92f67867ea26e9f2a4f7"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 1160495,
+      "sha256": "a59bd8b81a18bf333db4e8f530c141b7d061192e8affeaa1e2b04e5a49867bdf"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1143214,
+      "sha256": "2b2b73b2d496cc512e2624620fa8c9ce4c6af08f35bc6564450788335574cb66"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1158970,
+      "sha256": "8e339b3728c48d5a820ddddfd412eea3538783aa34a41b936b4aae407ca59bb1"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_cohort_GC_age29_genome.csv.gz",
+      "bytes": 1008936,
+      "sha256": "64f6712a8d8d4656f456e0bc0084296b1f0617caf806e3c15ba6924a4b85599e"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 1176534,
+      "sha256": "9b661d3f900927c4e48fd734d75118920760767246fa2ac69f83053bc3573a90"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 1027656,
+      "sha256": "e7fc7086687116c1477db035715740359a610a471e995277800decf33c8fba02"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1007468,
+      "sha256": "83862d1955cbd54e382a161c66facd08062d5d98f081709a097044aea3ecd85c"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_LAR_age29_genome.csv.gz",
+      "bytes": 1010012,
+      "sha256": "b022fc05b4937fa3bc763410622048e0dd636c77881dd3ed23595df93a5c2401"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1160955,
+      "sha256": "6b72a419669ffe7d153ba15208a8e9e0318e28271d214004d0bb618751416549"
+    },
+    {
+      "path": "results/extended/tables/OSD-561_voom_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 1006045,
+      "sha256": "eab60f6430af36a54f6a31f68380a22d0442f7bd9aa81d6d8509e18304b9bc4d"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_TMM_factors.csv",
+      "bytes": 1535,
+      "sha256": "3fae2cb76eaba0a4905c082cba2ce3c6614920adc712d9accf148db2c3c92eff"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 956000,
+      "sha256": "1ff60eb4406c27afb8855b85a1587f5a50dd2e377559bffac781fc1a475b228a"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_age_FLT_LAR_genome.csv.gz",
+      "bytes": 993706,
+      "sha256": "5feaee693d794474a4da5ae975a5e442fae1e6b30b6aa782f5c063435bd915fd"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 902763,
+      "sha256": "664a417076588ade45a55d2b5e4d340030501b9830668ca9f9c7f472c440b526"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_age_GC_LAR_genome.csv.gz",
+      "bytes": 902956,
+      "sha256": "16445c80030db9ac0317d42a7247bcd3ef848a58a5f62cae0d551fbef3aaead1"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 914372,
+      "sha256": "67256465561c881bf2c00ff65cbe3db3242903dd93a173d70586af8106af2e97"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1034612,
+      "sha256": "bed7bead784d0aeb9b16ecc73de3c1e1a1f9695df46b6f797928c769bd82bbb5"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1032448,
+      "sha256": "fe1e6161c98a64da085b961faecbd6f2d262b9409f6e8f64607139739bb27ce0"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_cohort_GC_age29_genome.csv.gz",
+      "bytes": 1030655,
+      "sha256": "e2ee244dfc387ac1c0a5dc3f9917101ef5edd3efed505590c77bbadf36e55536"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 905835,
+      "sha256": "b2c03344d8fd7a7d19cf57ba63b0b475fa0caacc5deb0133c55917b647f4e5c6"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 882907,
+      "sha256": "3b2ae2ff3f4387205eba27909c6f8eb40ce27a9b650aedf44a6900778295d2d0"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1018004,
+      "sha256": "73805a0f8e9edfef71e5a26628e8dbc67b7ca33e14394ad3c029588f78f3504f"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_LAR_age29_genome.csv.gz",
+      "bytes": 900806,
+      "sha256": "5742b3a90c1dd13ede3832a9a26c636e00f9f0151f74e428f40554f4ce07eeac"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1007392,
+      "sha256": "f4b2df5bab0731a03809423f07dace363f021278eacb2e61aa7b46708ad3ebe1"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_edgeR_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 903320,
+      "sha256": "aa8ae0fe8f7a240ab4b66b793313b7e48d8c276bbccce6d4387d56fcbdc474b3"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_age_FLT_ISS_T_genome.csv.gz",
+      "bytes": 1072210,
+      "sha256": "0542aee264bc6258cace5072277b17f187af0d26f5d6e27b100ce0eeeedaa39f"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_age_FLT_LAR_genome.csv.gz",
+      "bytes": 1084431,
+      "sha256": "0c351cdd2b356459a7b6746eb2215e9005a292d3a554db2df7405ea7f6f7d0ec"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_age_GC_ISS_T_genome.csv.gz",
+      "bytes": 988606,
+      "sha256": "3f11fc4a505e65abeeaf163b54689ece0c34ddaba7b240fe7ccbd71377f44bf1"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_age_GC_LAR_genome.csv.gz",
+      "bytes": 989832,
+      "sha256": "6b1ff1bfa5af476fba80fbd6b9448d8f1f4a91d450f4d0a77c75792f4d545c92"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_cohort_FLT_age12_genome.csv.gz",
+      "bytes": 992953,
+      "sha256": "a6a878639841173f43dba7a38abe310e52a3bffeb21fa9011efabaaed04fa3a0"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_cohort_FLT_age29_genome.csv.gz",
+      "bytes": 1152203,
+      "sha256": "0cb934ce330d1233d249e520a7fdcda21e4ea4331352ba56dd2f719b927a958a"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_cohort_GC_age12_genome.csv.gz",
+      "bytes": 1148689,
+      "sha256": "68161871151a5d5b35ee1b470c9728ae970d328469801aebf598035e26db9e98"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_cohort_GC_age29_genome.csv.gz",
+      "bytes": 1146769,
+      "sha256": "b0a429e57a9682a25e4fdb47b402bda54d9aa08d9becfa1f04b14c54f4ed9853"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_ISS_T_age12_genome.csv.gz",
+      "bytes": 998239,
+      "sha256": "3fbd90103f9646b07d3a4fa3cd8434d09a459c31eeb9995d55d1df4128f92fe5"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_ISS_T_age29_genome.csv.gz",
+      "bytes": 990655,
+      "sha256": "77a498bd67c9862257d39053064fbb5a53edee02c22c5f52f6403231552ef1af"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_LAR_age12_genome.csv.gz",
+      "bytes": 1126456,
+      "sha256": "d963ebf49122a42bbb671a986bca3786b53b1cc4f2fc273291390943e95cc25c"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_LAR_age29_genome.csv.gz",
+      "bytes": 988977,
+      "sha256": "33c0b44999b8dcf1d9cab4f25cdfdf56de2668407baed3359560c18501115be6"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_by_cohort_age12_genome.csv.gz",
+      "bytes": 1110599,
+      "sha256": "2dd4586278bbe2f83ac73b992f4b07de56a0bf86f89ab052ba5b160fde17594d"
+    },
+    {
+      "path": "results/extended/tables/OSD-562_voom_flight_by_cohort_age29_genome.csv.gz",
+      "bytes": 987116,
+      "sha256": "34d2a783dc4aee5b4e7c28757d263ece7e5bdd51d41869dd507879deb2db339b"
+    },
+    {
+      "path": "results/extended/tables/OSD-563_TMM_factors.csv",
+      "bytes": 494,
+      "sha256": "eb5d0cbc565c046ef4f5f6d911882bd0f364bde03771ed094e296fa5495a6b2b"
+    },
+    {
+      "path": "results/extended/tables/OSD-563_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 913812,
+      "sha256": "caabe3f57b3c93f9b2e21e7e414774af07b65c5549bf15348ce45d175417f32f"
+    },
+    {
+      "path": "results/extended/tables/OSD-563_metadata.csv",
+      "bytes": 17844,
+      "sha256": "d49f2a533742886f58f315a6780d0057b3f447b876e341d88f49993ce2d21e73"
+    },
+    {
+      "path": "results/extended/tables/OSD-563_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 1004290,
+      "sha256": "d5bb77bf9330c58fb4da48556e91f1df4029dcf2e3205428a00a345405758310"
+    },
+    {
+      "path": "results/extended/tables/OSD-564_TMM_factors.csv",
+      "bytes": 506,
+      "sha256": "f2ff21dd3429f32f50674ef735aaeb21542bf548e1f097434ed2f8f3f9e6160d"
+    },
+    {
+      "path": "results/extended/tables/OSD-564_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 1045187,
+      "sha256": "2840df80c122aa514b00e65ea1ea67fa7e1d789af25f02604633ed8980206cc0"
+    },
+    {
+      "path": "results/extended/tables/OSD-564_metadata.csv",
+      "bytes": 17642,
+      "sha256": "e296de8a8848f71ba6daa8708f9c7adada44c4ca4a788e40083123140fbe3a53"
+    },
+    {
+      "path": "results/extended/tables/OSD-564_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 1159112,
+      "sha256": "7d9656b2991432c6793573e2d2ae7838bfce49f6ccb5ddc3c57dd80fc92574c9"
+    },
+    {
+      "path": "results/extended/tables/OSD352_feature_registry.csv.gz",
+      "bytes": 1889492,
+      "sha256": "849bcbe9120156b36db20ee2ca9fff585eae025c733254570a108646f4074c5e"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_glia_TMM_factors.csv",
+      "bytes": 246,
+      "sha256": "d1b8734b4d0fc0adf305fb86247bc067bb682f17f9362818a842e604e5d15b09"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_glia_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 436081,
+      "sha256": "9c19818b0fb0285ed1a9da5793743904c8364f1c65afddc5b74ba0ec21a11961"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_glia_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 481656,
+      "sha256": "194202276f8cc7db020e1dc5ff2ba3daed2e0574057a999dbdd585808ad811bb"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_neurons_TMM_factors.csv",
+      "bytes": 264,
+      "sha256": "411ab0c4a889cb75db93253714e056aea5455a67f69c43260f6f934831f15c50"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_neurons_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 715463,
+      "sha256": "af17dbcea6b349028afb896ea1d92e6b209e8124bcf86da3894cdb79680a9a45"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_CNS_neurons_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 792149,
+      "sha256": "7c833c7a566a51202b92d364117ed2df00cb1e44919ca445c50821697f411704"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_Immune_cells_TMM_factors.csv",
+      "bytes": 260,
+      "sha256": "8a5b8da50be1edc6c8899f6a16f96aafa777ad97a980746ffd294e367c948c0f"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_Immune_cells_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 62226,
+      "sha256": "440b122f44cd5ae246e8b35a9ba31b024858bcb990c8ccd6c9f8a4dc3ea1a021"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_Immune_cells_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 68971,
+      "sha256": "1d8232df939fd39d27f059c8f04c083b70a37821ddd847b18f82c72239586f0f"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l2_registry.csv",
+      "bytes": 1733,
+      "sha256": "4bb955b69504475d57551a90c610c0b61fedc53554df69172521664fa1418e4e"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Astroependymal_cells_TMM_factors.csv",
+      "bytes": 304,
+      "sha256": "836e9a417865ef3f936a643c119b515da971813a80dd568f550af174d9f71fcc"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Astroependymal_cells_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 337316,
+      "sha256": "3f3b7faf090094d48cbc721016c4b1e14a438c68055d3999a8b4a81be09c0363"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Astroependymal_cells_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 374827,
+      "sha256": "1314d97b0d9bbd6f879d307eb758ece3dba082e47b568d07359482b647f67cdc"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Oligodendrocytes_TMM_factors.csv",
+      "bytes": 285,
+      "sha256": "6b73fa66e80ad63afdb9ddea39ea17467a0368c658103989a76766e4d0e2e66f"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Oligodendrocytes_edgeR_flight_vs_ground_genome.csv.gz",
+      "bytes": 280026,
+      "sha256": "ff18c5cf0c2d6e49ed484671e4ed6627b77d487b611ac0bb08f67dc4d0636323"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_Oligodendrocytes_voom_flight_vs_ground_genome.csv.gz",
+      "bytes": 306763,
+      "sha256": "9be6a05d16364330d983cbbf05e6f9d075beb4d2eb62bf0735e276359a063066"
+    },
+    {
+      "path": "results/extended/tables/OSD352_l3_registry.csv",
+      "bytes": 4097,
+      "sha256": "431e23079b92d074c36e5b81ec0cacd130a646deebd3d79bef77b9b3182bab08"
+    },
+    {
+      "path": "results/extended/tables/OSD536_analysis_summary.json",
+      "bytes": 819,
+      "sha256": "c58818959b9467f509fa54986d7f2e56e184ed7bf37833f0d4f96d80a091a648"
+    },
+    {
+      "path": "results/extended/tables/OSD536_nCounter_QC.csv",
+      "bytes": 1382,
+      "sha256": "8e81f98668023655af95f59d94c215b1cbac9db82d35521957afffc336f678cc"
+    },
+    {
+      "path": "results/extended/tables/OSD536_panel_results.csv",
+      "bytes": 11510,
+      "sha256": "68ef43c72bf292d692b946e1cf1f1a312d451d21a335237de097425b9baebd84"
+    },
+    {
+      "path": "results/extended/tables/OSD738_ASC_source_audit.csv",
+      "bytes": 1491,
+      "sha256": "dd4c35724ad42ead3eccb6280a6fb1e4a314b5444600624920c23dcd3043740c"
+    },
+    {
+      "path": "results/extended/tables/OSD738_protein_source_audit.json",
+      "bytes": 843,
+      "sha256": "be49406cffbac9173f6e2fdb48b86582922fd6b9245d7d59f3a3f549dfb0aca4"
+    },
+    {
+      "path": "results/extended/tables/RNA_ATAC_donor_values.csv",
+      "bytes": 120000,
+      "sha256": "7ed5d4b29b6cf2d40d4f8b381b81cb4bd7609bf4f6ba72d5291c37213f915ed5"
+    },
+    {
+      "path": "results/extended/tables/RNA_ATAC_promoter_context.csv",
+      "bytes": 46686,
+      "sha256": "1c5257cf50f8ad4ac70d60c03dbaea14b21f25910331f10190fa998e85db4283"
+    },
+    {
+      "path": "results/extended/tables/RR8_NASA_GEO_library_links.csv",
+      "bytes": 2949,
+      "sha256": "7d8b3eabfc92b34e9e6e4f519b029a299f984b6b083cba11f4adb0db62b11602"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 838178,
+      "sha256": "ea758471dadc74f94d6bf1cd0c3985c257822d39431677a59804df0f0d0c391b"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 840261,
+      "sha256": "6b992a9cfdc479d5c09de36fadea10770bc188232e371b92cb4ce44049eea23a"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 844057,
+      "sha256": "ac4e4f9bd5dcd1c17a07003917787fca11a5ee76588bb56dc680bdf1b7edbec2"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 742337,
+      "sha256": "077ff7de71b480859ebd0162f759dcc244510ac639ef9cf81b5d3725820e8778"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 919957,
+      "sha256": "13ad97e00e2e9c1519ae7ce325c9b1dbf3687797afd84c23cb11475230690026"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 922083,
+      "sha256": "91b2fdddf2a8c8e028b6cd8148b1dc3ee0eff1d8e591466d4d315e9e1f896c40"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 925469,
+      "sha256": "630b723efea901c9793248ce5128266e72b68a7a86a381d542055268df3ae0f3"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 809555,
+      "sha256": "03967a54062b026ff50fab1a5be37b255269e8fb6e344649332b6a0f33aa038f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 734103,
+      "sha256": "be20dc105f9a4a43c9e4c97aac6254c54cc1dffa8c0169b0983612798c71df61"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 736259,
+      "sha256": "88f8a0f1bdde070d240f7e79b05f3d6ead625fd19d1dea00854ebd112a2e6a88"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 739411,
+      "sha256": "1364ecc9cf9d0f8f3a49377bc942c602c793bbec07cd54a634a539c940a83d61"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 649291,
+      "sha256": "9380bd9e3b46fc2a79d4c2c3d82caab84838180dbdb487436e39d07e9e57acd0"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 806491,
+      "sha256": "8a7abd8815fd87670477db122ac9d919a8b30677bbf2d5aa090882dd23f52a23"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 809130,
+      "sha256": "fa75aa3c621aa9691692ef1ec1c1b1338fcc6f418682e38a93e54f71dbb57fbc"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 811399,
+      "sha256": "6fec745e695d220448b82e768f2aa3ccdc542fcece47bf8a60b03674c89475a6"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_marker_positive_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 710010,
+      "sha256": "16d3cc2eead5572a527ad7412dc2ddee5b3b414618192ec8b3c551ec94375e02"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 779581,
+      "sha256": "5adac4055008503c709c013f74959e4695ceab8066bc14d3862caa60e0da5ee7"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 781729,
+      "sha256": "339e06dec3f1639efae3b50c141c10b0278db10bea4aaab23193c9063ce58675"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 785483,
+      "sha256": "1fde55e7783a4326c4ff86acc40ee57d0be2568a639b78d41fe55c3bea8ddb20"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 690247,
+      "sha256": "e9eb91b23ae43033436b41cb87f84981f90f1977360e1a0abb00b15e87f3012c"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 856687,
+      "sha256": "a8b6c04d8ad7d9fe7be7ad2a12ccc4d972b1e39acc49133fcca0c356e6bc487c"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 859109,
+      "sha256": "88943d1a524af6eacd5853a64f2e6e35afacfad2414a32bd799441e261b8e804"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 861950,
+      "sha256": "211f801fc55f012541c255884d88366492d5c4b2152017fee2d8ec48c2fbe5df"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Cerebellum_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 757719,
+      "sha256": "342e75bf45c16877bc79811dde62551747fc66cda70016584cfd06ba119470fb"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 761642,
+      "sha256": "cf4083b276ac693b40c71f5cb5fd4af04998c54a3f4849d333288286d5b445f6"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 762825,
+      "sha256": "e578d8ecaf85b34e23327375c3be18ba06d9ab51c791da245d8c1731c501795d"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 768486,
+      "sha256": "0c6d22b6d1c8a401d3a39337ed933f900fdef79a65f5e53229e49307037eb156"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 697801,
+      "sha256": "fb9c4fc1730cadb85715f1dc63805a3807472503a36979bab1884b13bf8f4388"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 831297,
+      "sha256": "39ae022b484b590ec55484a404f947ffb816f4e7c212b13146393ff369efdc65"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 832534,
+      "sha256": "b9c70e0b07671da6a577a1bfcfc0439ca9a43a02a8781a897c0e84366ebdf439"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 835876,
+      "sha256": "14984c4ea45355a168f762b54077060c4e14de4c0e545b2dfd85dcc27dba3a4e"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 753896,
+      "sha256": "4917f03235c5712e3aedc6ae3291b294baff172e6813f1acae25dc2691e25c56"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 707529,
+      "sha256": "f1e9707f3b6050193c91b3526f232072ac0e51481788dbfdb0cc9a5d9b68ac6f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 709154,
+      "sha256": "4bc8cf5c36081569fc137ad903fa72fe7564fc590b89f497a3a660d881e9bf2f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 714685,
+      "sha256": "2d4f22ef151d2a0e9225d8da10e753c55fa61cdcd4df3e9cdbd63b9a9c2e9e27"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 656975,
+      "sha256": "7d95f99588df368e58146ea5feedcf6870f3b1fd122df173fd4f1675be695b35"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 773166,
+      "sha256": "f8a23883a90d0f95e75060418b55ddfca7978350bd8df127a9ed729b2dbc4c2a"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 774925,
+      "sha256": "549340cd574086e004dbf470e4f56a436c3941db98a7fab59521e70864170034"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 777560,
+      "sha256": "b0ec14ebd3be3f98fd243d5a13cd4679f1c22668a0be0e5cd2b0af0554c29c6b"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_marker_positive_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 714166,
+      "sha256": "63bb6fe75b3930fe36a39e7ad31745eb9a67f02b5c9340d04476cd7210e730cf"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 711263,
+      "sha256": "9e912fd4158d571b83c6de9d1c2df2b6a5bbc6d539d7006d92680dba87c9f27e"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 712665,
+      "sha256": "6f416867cc5c7a5b2ec94782c28e420907bd4112e6964ced62e2cb8ecc4de3d1"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 717704,
+      "sha256": "70eda426e83b9fe9473dc5620ece40ba94d87a92770e9d2b8849be1d7827df5a"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 658931,
+      "sha256": "c9d2f1ccae3c00ce72084aab7f83b199459627be6686a98d2ea721574be9ef72"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 777396,
+      "sha256": "085fbd29de6927c6b7cbb5e5faf1e476edca063a4b7a35a9e658dda563b35403"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 778533,
+      "sha256": "1c1f9d87154a432d3eae9c0cd00dec8b2cbf5d2069f4431a196f2a27be975bfa"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 781496,
+      "sha256": "51e40b4dff696a80f5be0c3a848f7a3c40ad57a9cb5b2d73acfd94f0bc81d397"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Forebrain_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 715901,
+      "sha256": "4cd63440d8edc3e828f3c83d263e1837ddbd6160c12d8eaa7b22265a8c496f9f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 783545,
+      "sha256": "b1c25a2a7d2145f15a118cfc3251c1b07212280e63de22f6358f0a75128012bf"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 783563,
+      "sha256": "54dfb1b37bc407646d0f6b6a7439d56f39169aa978bf60a0b96df1cef01127cd"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 788366,
+      "sha256": "6613523f5a76864a32af0925779a9d8c38a3ee159ed753e5d4e2a360c95b8754"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 692815,
+      "sha256": "4132a1c410f8c36dc27f5101b2b89fd6c761a48c270956b1721c6ffe6100482a"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 860858,
+      "sha256": "475448262c322d844fe33ec018184c1979c01fc99eaa35eba656263ed868225c"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 860395,
+      "sha256": "02e8b48853b8bedf6e2c51d920515f1c4d8734e7203c5a2781fd7f7e4edee9c9"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 865101,
+      "sha256": "2d5ff578f7a015fa880ab790616f46f966654ff4ceaf53201e91f77ba621c599"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 752839,
+      "sha256": "29a6da30bc5f8e0502b6b6fdc518c5c153ef78b301e2e1ede053dd33121010d4"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 698498,
+      "sha256": "e68603637d0ba7f9f385307926e8da0e701b7cc5de04999407693c846b7191bd"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 697719,
+      "sha256": "7a2e9f4151598ea25098e755387d8348ce9bd5c8ac05535061a6ee0d7424d02e"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 702419,
+      "sha256": "c994f3277038b0b28094437923e3a5304639e20cb30600b2e21e5f75ce785ff2"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 615994,
+      "sha256": "44a824e7d009de9b91e92421b2b91b5009b58a4f0f38924b3a2091bb590f02b5"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 767644,
+      "sha256": "88feb9f8c32af8507dcbc8e371749dd7d8d41c9a63d8f3a12c38dc7cb88b5c72"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 766956,
+      "sha256": "1185db264ca72adbf3fd5e4d91259978b93759adcc8e5209412bffaebedaa451"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 770918,
+      "sha256": "dbe3a057e15c2b8571ce4dca9072d71d0769ed58e6b1d9e0169828a33bbf047d"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_marker_positive_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 670291,
+      "sha256": "61a38bd34a8c568c1621920df873ae266840918b629380f1a6fcbed15b62dd23"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 742694,
+      "sha256": "8ff8b56a8d746898d1e32aac3cfb2335ca30459043fea8b17a3a17671b4b3fa8"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 742232,
+      "sha256": "549ca1a855d3d28a047c83e304f4a41985e32ae61d720601d40e086db2e50bc1"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 747011,
+      "sha256": "6e46621e05db4114215560ba1faee0fbd42e300827301d993413fef6e7a2c3b0"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 670519,
+      "sha256": "0ced34895d599de4e604384c4acf2b571babc38ef8bbfaf2b735a9358223eef8"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 816184,
+      "sha256": "6b696fc748dabedce5d19bb60e3f9df616ae429e5c3abfc2278fa280f4d95810"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 815682,
+      "sha256": "f88ab8f677e65e02c84def09795a25ccf3d126511eb72936b5267fccfb26c1b2"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 820495,
+      "sha256": "ad076bacb0d8e38dec6888d432056878a95a68844452bfb531b9637fdd2e776e"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Myeloid_Hippocampus_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 722342,
+      "sha256": "f31200b3bc338fe3e13367889755512a666a0967f81db79da6899e090d7275b9"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 716559,
+      "sha256": "6c3a7d63e2072c1eb7a287fbabf488a05b34f5868da4fab3ae1f04badb4d1665"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 721269,
+      "sha256": "3c681eab1b7fccd0df19092702f436575deb3b2e6ede84bc5228cfbd16c5acaa"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 724856,
+      "sha256": "d14ffe4dae837dac499e20630b9b18e63c8d84b75282d3eb632d1d2f8ff22691"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 641353,
+      "sha256": "0f5d6ff527a981deb21d931b4241001489300146dc6abdc0ceed7172974f52f0"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 787002,
+      "sha256": "e89d99b47e688ce3ca523394abd6508c25c236fdb6dd6aa2df4f9d1856ead266"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 792847,
+      "sha256": "51fee239608eeb941efaeb05744f2b0275c2f5e250a89dc679d565417915ab89"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 796870,
+      "sha256": "99d9e1d6862c041f81db06fc5084b00732070083d3b97f7bbb727502fa6b734a"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 695355,
+      "sha256": "6488920bf0a70b840462203fe8ca0f2aee7a782585fb7af61e29096b43584ef6"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 665345,
+      "sha256": "0f6072d96eab82a1b45254872e249f6ca9237cb430e5c3a0399fc55c418b6988"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 672868,
+      "sha256": "942ab790434dcb556740373f407254bbe1d6eb4bbe40cbbdb027c0ec19b5a518"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 675307,
+      "sha256": "43d15acf87cd23e918eec8751b527d4393a3996e441f8181a50acbe7e7ace841"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 596800,
+      "sha256": "217911be769e9954112c54a83195295b37e05699821a061c320ea78b8a8cce3d"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 730288,
+      "sha256": "cfff955132431b53e3f10924764b116e7bd7e06f1669d0bc9a6433e3c81067bc"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 740185,
+      "sha256": "1f8f4805bd5264a024dce14d7787166197242e4a79c1d42efdd92a2988ee44a8"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 742156,
+      "sha256": "d1ff341986205f136b03fc8c7e6250e349b3e51d5b95c851dc667cde430e5415"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Cerebellum_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 647255,
+      "sha256": "bbe49bd0d9489b48ff2aa76387df183760f4b77164ce920ed6edc01d99d953dd"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 826834,
+      "sha256": "17a16a50757d6f711e6ab9689ba674cc3d1111981b7fac6d0d01b0c30ca3e8b6"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 795711,
+      "sha256": "b2fd9c7a5d5eaf41571a50ca11ebf68d6173a5b6eb82640695d4f7adece99d07"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 829345,
+      "sha256": "1038eaf7b5e735fcc5b693fa6eac080cac266d3dfd666a63221a7ad361fc3efb"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 797912,
+      "sha256": "41d3afc4bd3f86f5b853e679f68935fc23151b8cb84919ed7aca8dcc324e9b65"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 904739,
+      "sha256": "d9fcea99249c12f0109dd9ac7622051473ff248fdef3b0ab2bfddd8163b5be3b"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 872513,
+      "sha256": "d6f0544a3d2674930bab23d8cc627ba5887364c5af0db77cc7d960fed3530f06"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 909890,
+      "sha256": "7ed8be3982d73f5c3bda8b8c51d083eb6b7408ae2a942f5020ccab275f0247dd"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 861462,
+      "sha256": "11f8be404c262270d303ee2cd6584ae51f84eeeb5fce8357244f38eab5ed4084"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 796958,
+      "sha256": "6b6c95203e219b0668a98660aacde75cc091b82cbf665938ccfb7ac6b6c682e2"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 792534,
+      "sha256": "bf93e0e90ec5b1c7221571bebcd591e4a7a921f9e83525a31eca971d90a695fa"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 799744,
+      "sha256": "49227d0e62f57b5f55d730365df592abe0e40fd8ae0c11ca56647577a199b620"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 784025,
+      "sha256": "270111fc62f9082c85ed4934c8a73fe519fbf6d767a2f92d5cb4deb74226d57c"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 874133,
+      "sha256": "8fe6078ef6569c10ddb1e358557d34f77d0544c72313e902b80f70a47cad40e0"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 875186,
+      "sha256": "296165011f60525ddb2cf590274b75671d9f113f7acd9399d420873687cca937"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 879206,
+      "sha256": "714a707103472cb6ca3b1f64ddbd04da945137f97eed46793c1091f17d72fec6"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Forebrain_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 858112,
+      "sha256": "f0608ef37941ae6ef949fca07825ab2b7d768dbc5e77ba459cb5c9ede40730e2"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 732978,
+      "sha256": "2e381f63781311a28bf70bee976ef4a129bc1d5b3d233e2da2b05f0f47a452a9"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 746142,
+      "sha256": "18a99d2f7ef1d4b3fce6c4030c1c6ade710618da3d36327a39290661bc522d0e"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 749905,
+      "sha256": "b42584383e3b87c27aca97bed41e58b7dd9a7bb3388201bb716536f77d98fff9"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 664233,
+      "sha256": "cadd16cfe717c83f6494c6ff73c23299532831233addf9e70fb1be42044281b9"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 803270,
+      "sha256": "e9a5606460e45cb8de9edc22686e3dbfa5630d11c91756b4f6173cff11a8cfcd"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 819198,
+      "sha256": "5beedbff57dfc9f6ff28ca55b80afe5a7b2c08714d8c5925059b861c1de9c79f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 823189,
+      "sha256": "b348d0a4e1fb638d0396ba46459d2db0970664437d25f3e379c691b1bee52458"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_alternative_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 724242,
+      "sha256": "10be2216a6522484ccec749ee539d27e103662196d9ff6a2881fd9925ff97e0f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_edgeR_QL_flight_age3_genome.csv.gz",
+      "bytes": 646100,
+      "sha256": "f9d1825f3199a310d0b2a7886e1de7d5a0c1b47eeee8f133cb392f5bfb6b32e1"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_edgeR_QL_flight_age8_genome.csv.gz",
+      "bytes": 647008,
+      "sha256": "6542a2958af9f1d0aee0d5af95a0ebd9b3690f7a2cdb18c19ad7336866762c6b"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_edgeR_QL_flight_balanced_age_genome.csv.gz",
+      "bytes": 650143,
+      "sha256": "9ced7f0c285eca365b390b69b65fd7f7d415bb8dc84b78c7f50de2d10190d43f"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_edgeR_QL_flight_by_age_genome.csv.gz",
+      "bytes": 630228,
+      "sha256": "9e448af1ba3af10785dce16fe726b494b478feb6b1bae5022e1e31666dcf7de0"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_limma_voom_flight_age3_genome.csv.gz",
+      "bytes": 709872,
+      "sha256": "1dfadf4cfeb5fce36aff718f4874453b176871609937e0018cf77453c16fb915"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_limma_voom_flight_age8_genome.csv.gz",
+      "bytes": 713410,
+      "sha256": "ce0df9c1ee9c882ece6287daaca3579d4dc384cc0692df4ed9f1d5a5a2a7b5c4"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_limma_voom_flight_balanced_age_genome.csv.gz",
+      "bytes": 714612,
+      "sha256": "e16e605d270b09509caf68ea719057e5f16a9b8cb24067545a359a1eff4ee929"
+    },
+    {
+      "path": "results/extended/tables/Sorted_Non_myeloid_Hippocampus_published_gate_limma_voom_flight_by_age_genome.csv.gz",
+      "bytes": 696219,
+      "sha256": "3cfe095ff560b7608c8167022f74f5a123d7c931137bcc640593cab3b1f44267"
+    },
+    {
+      "path": "results/extended/tables/Visium_donor_flight_tests.csv",
+      "bytes": 12084,
+      "sha256": "a2d11ed33c88b99ab499887261e8dfacca4e5d31fd6af1a4218cdbe3df1d104f"
+    },
+    {
+      "path": "results/extended/tables/Visium_donor_mean_scores.csv",
+      "bytes": 101289,
+      "sha256": "ef9dca93b99fcfc75f99d384cfd0eae3359de9156f8d5ce706dda3a3e4c5f7e0"
+    },
+    {
+      "path": "results/extended/tables/Visium_section_registry.csv",
+      "bytes": 1216,
+      "sha256": "bc4ca346ba2485d3f65a4d2c1e63c60d12eead2227aca66eb28c182acf72f825"
+    },
+    {
+      "path": "results/extended/tables/Visium_spatial_structure_tests.csv",
+      "bytes": 367098,
+      "sha256": "52cf50bd69b1251f6dc54e2b4fc2da6695e03ea6e7937f64689b252ca4c96b17"
+    },
+    {
+      "path": "results/extended/tables/Visium_summary.json",
+      "bytes": 449,
+      "sha256": "57aaf47ac0aabd02a7b7be85c342d9345ad8f093f0e707b6de3d50552e29f450"
+    },
+    {
+      "path": "results/extended/tables/adjusted_panel_normalization_HC3_LOO.csv",
+      "bytes": 450815,
+      "sha256": "535b580ae2083d84844de29bf56c766a593ec1fb3cdf0257f6fca2e1856522e6"
+    },
+    {
+      "path": "results/extended/tables/bulk_RNA_fraction_estimates.csv",
+      "bytes": 79513,
+      "sha256": "dcd7f4acaf78e83aed980618207869a57531733b4f0f66c12f31af3a36fa7c0e"
+    },
+    {
+      "path": "results/extended/tables/bulk_effect_agreement_summary.csv",
+      "bytes": 274,
+      "sha256": "5fe477763358d801c8481dcfbbf391d6ced6d3f7af9618c5efb1996f30e458cc"
+    },
+    {
+      "path": "results/extended/tables/bulk_evidence_distribution_summary.csv",
+      "bytes": 419,
+      "sha256": "0523bcabba9965a3a002eff78cdc02830def52f79aec22c9993607b4d383bbfd"
+    },
+    {
+      "path": "results/extended/tables/bulk_method_comparison_panel.csv",
+      "bytes": 1080718,
+      "sha256": "4f4ff09830cfe77f6f4065971e598d03ae9333d8671bb442c962cae4f0f3680f"
+    },
+    {
+      "path": "results/extended/tables/bulk_ranked_evidence.csv",
+      "bytes": 380172,
+      "sha256": "158a4bc9618e07e3f6982e8b055781e4725688f628e7ed1da79bddc9a3bbba63"
+    },
+    {
+      "path": "results/extended/tables/captured_nucleus_composition_exact.csv",
+      "bytes": 279,
+      "sha256": "8bebebdf79eb2e6ad3ab2bfde2849a52720b5addc2fc2427b37210b74d0a0036"
+    },
+    {
+      "path": "results/extended/tables/captured_nucleus_fractions.csv",
+      "bytes": 617,
+      "sha256": "fbbb0e799dfb7fcaea1f81379cc77563d7c0af8bd1c1dad6fdc54bc710eb0b92"
+    },
+    {
+      "path": "results/extended/tables/celltype_pseudobulk_panel.csv",
+      "bytes": 187139,
+      "sha256": "968bc252553b352a02088153898f7893a9b2cb58e2797fc71b5318845f1ae19f"
+    },
+    {
+      "path": "results/extended/tables/composition_adjusted_young_terminal_panel.csv",
+      "bytes": 114988,
+      "sha256": "2b34d44ba424edaf43fcdaa1fa4e3dece413156f90ee5af0d17b2444f6bdb345"
+    },
+    {
+      "path": "results/extended/tables/composition_summary.json",
+      "bytes": 596,
+      "sha256": "7da6f5b8816b975ab3dbf9baefc9524abb6e468ff3e190590d87a0e8af283721"
+    },
+    {
+      "path": "results/extended/tables/deconvolution_held_donor_validation.csv",
+      "bytes": 421682,
+      "sha256": "da1823481e72edb9f7e8d1e61b28f1f86a0439b8a34b9f0a4adfbcc37a180bf9"
+    },
+    {
+      "path": "results/extended/tables/deconvolution_signature_genes.csv",
+      "bytes": 2653,
+      "sha256": "c6eafaeacbf513bea647aef6f63e0fb7dd49655a155c2dc312fbe914ac0cf940"
+    },
+    {
+      "path": "results/extended/tables/deconvolution_validation_summary.csv",
+      "bytes": 861,
+      "sha256": "3fd2a77d63410215d8c115a4bc2bfc74d3865ad786ea59839665d42e41963a56"
+    },
+    {
+      "path": "results/extended/tables/figure2_displayed_effects.csv",
+      "bytes": 360,
+      "sha256": "d1928f436862d0e64a5ff31f13df184f0637be86279124cdb80391ba6076dd67"
+    },
+    {
+      "path": "results/extended/tables/figure2_genome_display_summary.json",
+      "bytes": 244,
+      "sha256": "3cfbfb82b39258a48880f84cb32ba09f5a5dd89771140dd4737484c2390591be"
+    },
+    {
+      "path": "results/extended/tables/figure2_method_counts.csv",
+      "bytes": 129,
+      "sha256": "a8242597eaa475d75a5eceb25c199cbd9c6bcff9cb86b60878a1fa317f363179"
+    },
+    {
+      "path": "results/extended/tables/figure6_CAMERA_count_grid.csv",
+      "bytes": 564,
+      "sha256": "d3f253344abdb65a32621a553b37f6046cf8bae2c644c767af80b6fa1ac71307"
+    },
+    {
+      "path": "results/extended/tables/figure6_example_q_values.csv",
+      "bytes": 416,
+      "sha256": "ad62c9fd21872c7b042c1c33c9a103f8ab768503aef1b382d7f9a2b1513bc653"
+    },
+    {
+      "path": "results/extended/tables/figure6_interferon_animal_tests.csv",
+      "bytes": 388,
+      "sha256": "2c57f2b7979e16b760c2d777d28e92ff05c0d0c20b84e9bbdb9169aa6c6ca8b2"
+    },
+    {
+      "path": "results/extended/tables/figure6_interferon_donor_scores.csv",
+      "bytes": 1610,
+      "sha256": "59d3ee256e7c79d8c473e232988c97baa3caddb4a750536d0c1da77c47908b99"
+    },
+    {
+      "path": "results/extended/tables/figure_zero_value_audit.json",
+      "bytes": 10842,
+      "sha256": "764643f84e42db9f79ab45df25137cd87c9c60db1bb5e79ecee5f29d1f7e32f2"
+    },
+    {
+      "path": "results/extended/tables/independent_bulk_panel.csv",
+      "bytes": 114558,
+      "sha256": "c6da2d35f2738e35dfd4fd45391e7b91dd8692e8788e3ac72ee773ddaab33267"
+    },
+    {
+      "path": "results/extended/tables/interferon_CAMERA_assumption_diagnostic.csv",
+      "bytes": 1965,
+      "sha256": "97cb990c90e222f13630da956e4fae211f506cfd94214a498b4229ddd5a23707"
+    },
+    {
+      "path": "results/extended/tables/multiome_aggregation_summary.json",
+      "bytes": 449,
+      "sha256": "343ecade3ff484e7078e15059d1501160ee7b195482cdee4d98356328154dab8"
+    },
+    {
+      "path": "results/extended/tables/panel_promoter_peak_links.csv",
+      "bytes": 17618,
+      "sha256": "c2f42c2ab893f3f29e87fa97d9a033f92270840ddf83a99127b49e61d500159a"
+    },
+    {
+      "path": "results/extended/tables/pathway_CAMERA_complete.csv",
+      "bytes": 1057931,
+      "sha256": "a6fc4182db296a459aeff1581e337ecb9576832c41b185797a336971ddb9b761"
+    },
+    {
+      "path": "results/extended/tables/pathway_animal_exact_tests.csv",
+      "bytes": 98245,
+      "sha256": "95cf9a13c69124b976c565be3ee65d75bb259eba4380ee3b3d0efa7f3d52ba88"
+    },
+    {
+      "path": "results/extended/tables/pathway_camera_degrees_of_freedom.csv",
+      "bytes": 699,
+      "sha256": "ee2ce7f8b4cd3c20044851b448cd09c735b900d54532bf12265cd319ea9f7b7d"
+    },
+    {
+      "path": "results/extended/tables/pathway_evidence_distribution_summary.csv",
+      "bytes": 1053,
+      "sha256": "c10ffccb4d2c8ab93f5f81f1b6658620f9ed305d13af8cda5fe837a5a084a7f1"
+    },
+    {
+      "path": "results/extended/tables/pathway_ranked_evidence.csv",
+      "bytes": 642108,
+      "sha256": "5d9761b6fe1add5c51dcbef50a035282953bac46dfa112a1b175eaafce6ea19c"
+    },
+    {
+      "path": "results/extended/tables/pathway_singscore_values.csv",
+      "bytes": 532496,
+      "sha256": "934c40f08af7d2ab49a4705b187f9775dff1ec2bae7b7f6b0d3836ae513ba861"
+    },
+    {
+      "path": "results/extended/tables/pathway_unique_correlation_estimates.csv",
+      "bytes": 130808,
+      "sha256": "48a8c7b854a67d4a2e8b1c6cdd62e392457644c4a19ca0516925b9c0e26863db"
+    },
+    {
+      "path": "results/extended/tables/promoter_context_summary.json",
+      "bytes": 431,
+      "sha256": "812b8e86ecc0e9ae627abb32072a8a6317a23cb0a87f37aada8240a74947cfe1"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_depth_QC.csv",
+      "bytes": 2201,
+      "sha256": "8dd39635d9b5af376314617d87642e5cf3cd2e44c4a0631288f0ed36d7867a63"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_depth_definition.json",
+      "bytes": 561,
+      "sha256": "9770f79f06545ad3645cd2c63771bb906d7c8b3850567500fe3fe8a0e82cf761"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_depth_donor_endpoints.csv",
+      "bytes": 1108207,
+      "sha256": "4999e038d4e375980ee19cbd5a12c48678235c4b78490783b2732cfe754ef33a"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_depth_tests.csv",
+      "bytes": 393246,
+      "sha256": "12573055b221da98de299b79c921e950846ca4dec453bc335a3b4680d909fe49"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_exact_tests.csv",
+      "bytes": 778188,
+      "sha256": "3edcd077c1ccbca5ce610eb855914a27c6639abf2ba8bb2d2400e8b2a9446870"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_model_summary.csv",
+      "bytes": 1519,
+      "sha256": "c5453c7649405feaecc02c8c4c40e0c1dabfac5385c53aa2ba3f6154b12b41ab"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_panel_complete.csv",
+      "bytes": 3080970,
+      "sha256": "6a568a86cac75cbffbdb8f8cfe3e1c23c0adc6212bbcd9812fbcb5bbcdbe86bc"
+    },
+    {
+      "path": "results/extended/tables/sorted_cell_preparation_summary.json",
+      "bytes": 1143,
+      "sha256": "6617c52bf9e31a5126ea7be93e2b6f645b69673adbce5a6d4a9e6651b8f54c7d"
+    },
+    {
+      "path": "results/extended/tables/sorted_forebrain_complete_panel_sensitivity_consensus.csv",
+      "bytes": 7126,
+      "sha256": "f4a305e7f6fa2209d83ea7edb82347f49fff176525876189c7a5cb81b3a61cb1"
+    },
+    {
+      "path": "results/extended/tables/sorted_leave_one_mouse_effects.csv",
+      "bytes": 630292,
+      "sha256": "1fca6767613d11ead88d1b41a329f4fb9a0c4c9282ba27fd7c4f6f023456168d"
+    },
+    {
+      "path": "results/extended/tables/sorted_leave_one_mouse_models.csv",
+      "bytes": 1149,
+      "sha256": "332687d4d5a7b3cd95fbd6a9fc45a96dfc935734b6d7f644f951b209b85d584d"
+    },
+    {
+      "path": "results/extended/tables/sorted_marker_gate_definition.json",
+      "bytes": 461,
+      "sha256": "53a8992b69b8ff9677bcfba5108a839dc8412bb8ce5930b05e9dd284596fb6a0"
+    },
+    {
+      "path": "results/extended/tables/sorted_marker_relative_definition.json",
+      "bytes": 470,
+      "sha256": "8d88add0ff850ec6b1e355e49cc9396396aa6f92fae84f0e6819f595a21f7b4f"
+    },
+    {
+      "path": "results/extended/tables/sorted_marker_relative_donor_values.csv",
+      "bytes": 162475,
+      "sha256": "fc8b615390d13ea16d8f6d7c1ff45634f9c94a51a78fdd3261cf0d12ce584ac0"
+    },
+    {
+      "path": "results/extended/tables/sorted_marker_relative_tests.csv",
+      "bytes": 463672,
+      "sha256": "559d2d9918b2862a29ea56ad290d4c9058b094938939a7aa5aee87be104e5320"
+    },
+    {
+      "path": "results/extended/tables/sorted_myeloid_marker_context.csv",
+      "bytes": 44659,
+      "sha256": "c557554db8e4b278691e56076306edae365e5342816b77c33edfdabcebd5f7c0"
+    },
+    {
+      "path": "results/extended/tables/sorted_paired_region_interactions.csv",
+      "bytes": 412097,
+      "sha256": "d986e1cebc6cc9304d9e78d679292e71324addcec77f8406aa8485429915de7f"
+    },
+    {
+      "path": "results/extended/tables/sorted_pathway_CAMERA_complete.csv",
+      "bytes": 575970,
+      "sha256": "c0e8b9bfde4d9b13e0dab0809a38417974a6d5198b18786402c5618915576a0b"
+    },
+    {
+      "path": "results/extended/tables/sorted_pathway_donor_scores.csv",
+      "bytes": 224994,
+      "sha256": "c8aad6c76467241f0e3e3204c0f5e2999c8ea7797b503a9dcdb1cbb6dcfc5f1b"
+    },
+    {
+      "path": "results/extended/tables/sorted_pathway_exact_tests.csv",
+      "bytes": 160331,
+      "sha256": "75109c11e697ebf1d11249621b4d59ef6856c76ae1c50b485f00dcec566c2a05"
+    },
+    {
+      "path": "results/extended/tables/sorted_target_donor_expression.csv",
+      "bytes": 923397,
+      "sha256": "d4600b805b903b7d35a1a748b5087115764072c5d7d328158bea585d0a68458d"
+    },
+    {
+      "path": "results/extended/tables/validation_checksum_verification.csv",
+      "bytes": 521,
+      "sha256": "3cf6c20837dbc1d602223d3528c9cebd383ad81b3e77605cae65cda93b84a186"
+    },
+    {
+      "path": "results/extended/tables/validation_sample_registry.csv",
+      "bytes": 43357,
+      "sha256": "7e7da9e753697cea5a920f3e70386250de571a9b29c56c0a4f927aba1ac26b03"
+    },
+    {
+      "path": "results/extended/tables/verification_checks.csv",
+      "bytes": 6940,
+      "sha256": "c5c767b91ec5e5a0a8c6336dbfd06cc97053c5bce438cf85de5601f603420e03"
+    },
+    {
+      "path": "results/extended/tables/verification_summary.json",
+      "bytes": 51,
+      "sha256": "861404166fa4a450f15695898bcec6e18562c3a7df13dafe9f2253b3863328b6"
+    },
+    {
+      "path": "results/verification/analysis_family_summary.csv",
+      "bytes": 1122,
+      "sha256": "415024899b2bfaffc3dffc647ddb7b333ebe21bca3b4e55f6f5a4ae611dcc39a"
+    },
+    {
+      "path": "results/verification/environment.json",
+      "bytes": 1838,
+      "sha256": "1d30b1298826ea7488f101f417093a51ebb3865e005aee7e8684d2006941f376"
+    },
+    {
+      "path": "results/verification/figure_file_checks.json",
+      "bytes": 9494,
+      "sha256": "768f072997dd6305d0f9efc73f7da7ca9f7386be4a2eaaabaf7e1b1eb42844b8"
+    },
+    {
+      "path": "results/verification/live_source_validation.json",
+      "bytes": 2904,
+      "sha256": "16a05b0cd00a685874550af44ba1877b50f26b5728dc74f092408cd03b442a2c"
+    },
+    {
+      "path": "results/verification/portable_pipeline_validation.json",
+      "bytes": 3635,
+      "sha256": "48a87341c582c2b9947486dae3c865884dae7d75a0bd23da66b13ff40666f039"
+    },
+    {
+      "path": "results/verification/portable_result_comparison.json",
+      "bytes": 3711,
+      "sha256": "4857b4d99a479d6daea04221ce09e101ccbbc9e9674fbe334062c88331df4e4e"
+    },
+    {
+      "path": "results/verification/publication_run_summary.json",
+      "bytes": 2414,
+      "sha256": "1d69101a5b1c7a04d0a5acea62fd32b93ab45870ca6c1eaa0e447043b41b6b94"
+    }
+  ]
+}

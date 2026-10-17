@@ -1,0 +1,756 @@
+analyte,mouse_symbol,category,cell_type,n_flight_animals,n_ground_animals,log2_CPM_effect,exact_p,test_status,q_external_full_family
+ABO,Abo,Coagulation / vascular,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ABO,Abo,Coagulation / vascular,CNS neurons,3,2,-0.2062716484715568,0.4,five_animal_exact_context_test,1.0
+ABO,Abo,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ABO,Abo,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ABO,Abo,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ACE,Ace,Coagulation / vascular,CNS glia,3,2,0.4165140316167717,0.5,five_animal_exact_context_test,1.0
+ACE,Ace,Coagulation / vascular,CNS neurons,3,2,0.2741949656978513,0.6,five_animal_exact_context_test,1.0
+ACE,Ace,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ACE,Ace,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ACE,Ace,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ACVRL1,Acvrl1,Coagulation / vascular,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ACVRL1,Acvrl1,Coagulation / vascular,CNS neurons,3,2,-0.012298734932940703,1.0,five_animal_exact_context_test,1.0
+ACVRL1,Acvrl1,Coagulation / vascular,Immune cells,3,2,-2.0537450975068126,0.5,five_animal_exact_context_test,1.0
+ACVRL1,Acvrl1,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ACVRL1,Acvrl1,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ADH1B,Adh1,Oxidative stress / metabolism,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ADH1B,Adh1,Oxidative stress / metabolism,CNS neurons,3,2,0.03803489024970149,1.0,five_animal_exact_context_test,1.0
+ADH1B,Adh1,Oxidative stress / metabolism,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ADH1B,Adh1,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ADH1B,Adh1,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ADORA1,Adora1,Neuronal / synaptic,CNS glia,3,2,-0.39485702309525106,0.1,five_animal_exact_context_test,1.0
+ADORA1,Adora1,Neuronal / synaptic,CNS neurons,3,2,-0.7721929797757445,0.3,five_animal_exact_context_test,1.0
+ADORA1,Adora1,Neuronal / synaptic,Immune cells,3,2,-0.2769741697060428,1.0,five_animal_exact_context_test,1.0
+ADORA1,Adora1,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ADORA1,Adora1,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AGER,Ager,Blood-brain barrier / endothelial,CNS glia,3,2,-0.5910319213074076,0.4,five_animal_exact_context_test,1.0
+AGER,Ager,Blood-brain barrier / endothelial,CNS neurons,3,2,0.31551841610227693,0.9,five_animal_exact_context_test,1.0
+AGER,Ager,Blood-brain barrier / endothelial,Immune cells,3,2,-2.328939668234008,0.4,five_animal_exact_context_test,1.0
+AGER,Ager,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AGER,Ager,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AIM2,Aim2,Neuroinflammation / cytokine,CNS glia,3,2,-0.21305616118491466,0.9,five_animal_exact_context_test,1.0
+AIM2,Aim2,Neuroinflammation / cytokine,CNS neurons,3,2,-0.4895505549662871,0.2,five_animal_exact_context_test,1.0
+AIM2,Aim2,Neuroinflammation / cytokine,Immune cells,3,2,-0.25779848367756575,0.6,five_animal_exact_context_test,1.0
+AIM2,Aim2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AIM2,Aim2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALB,Alb,Coagulation / vascular,CNS glia,3,2,0.307511012907295,1.0,five_animal_exact_context_test,1.0
+ALB,Alb,Coagulation / vascular,CNS neurons,3,2,0.39335824383489004,0.2,five_animal_exact_context_test,1.0
+ALB,Alb,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ALB,Alb,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALB,Alb,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALDH1,,Oxidative stress / metabolism,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+ALDH1,,Oxidative stress / metabolism,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+ALDH1,,Oxidative stress / metabolism,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+ALDH1,,Oxidative stress / metabolism,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+ALDH1,,Oxidative stress / metabolism,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+ALOX5,Alox5,Glial / myelin,CNS glia,3,2,-0.7052022161969521,0.4,five_animal_exact_context_test,1.0
+ALOX5,Alox5,Glial / myelin,CNS neurons,3,2,-0.17628237056774032,0.8,five_animal_exact_context_test,1.0
+ALOX5,Alox5,Glial / myelin,Immune cells,3,2,-0.5224674785718664,0.5,five_animal_exact_context_test,1.0
+ALOX5,Alox5,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALOX5,Alox5,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALOX5AP,Alox5ap,Glial / myelin,CNS glia,3,2,-0.2942494295281324,0.7,five_animal_exact_context_test,1.0
+ALOX5AP,Alox5ap,Glial / myelin,CNS neurons,3,2,0.43980300767663755,0.4,five_animal_exact_context_test,1.0
+ALOX5AP,Alox5ap,Glial / myelin,Immune cells,3,2,0.6439439541004583,0.4,five_animal_exact_context_test,1.0
+ALOX5AP,Alox5ap,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ALOX5AP,Alox5ap,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Amyloid-beta,App,Injury biomarker,CNS glia,3,2,-0.23780899081833695,0.5,five_animal_exact_context_test,1.0
+Amyloid-beta,App,Injury biomarker,CNS neurons,3,2,-0.153593929073077,0.1,five_animal_exact_context_test,1.0
+Amyloid-beta,App,Injury biomarker,Immune cells,3,2,-1.2563545702995746,0.3,five_animal_exact_context_test,1.0
+Amyloid-beta,App,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Amyloid-beta,App,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ANK2,Ank2,Neuronal / synaptic,CNS glia,3,2,-0.36101592470494204,0.3,five_animal_exact_context_test,1.0
+ANK2,Ank2,Neuronal / synaptic,CNS neurons,3,2,0.060949518505282185,0.5,five_animal_exact_context_test,1.0
+ANK2,Ank2,Neuronal / synaptic,Immune cells,3,2,-0.4879874083645461,0.2,five_animal_exact_context_test,1.0
+ANK2,Ank2,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ANK2,Ank2,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+APC,Apc,Transcription / chromatin / other,CNS glia,3,2,0.17113050568443455,0.5,five_animal_exact_context_test,1.0
+APC,Apc,Transcription / chromatin / other,CNS neurons,3,2,0.13236111510291515,0.4,five_animal_exact_context_test,1.0
+APC,Apc,Transcription / chromatin / other,Immune cells,3,2,0.10629182035198248,0.7,five_animal_exact_context_test,1.0
+APC,Apc,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+APC,Apc,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+APOA1,Apoa1,Coagulation / vascular,CNS glia,3,2,0.8374966711981858,0.5,five_animal_exact_context_test,1.0
+APOA1,Apoa1,Coagulation / vascular,CNS neurons,3,2,0.39907157302097973,0.5,five_animal_exact_context_test,1.0
+APOA1,Apoa1,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+APOA1,Apoa1,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+APOA1,Apoa1,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ATF3,Atf3,Neuronal / synaptic,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+ATF3,Atf3,Neuronal / synaptic,CNS neurons,3,2,-0.9912460448798136,0.1,five_animal_exact_context_test,1.0
+ATF3,Atf3,Neuronal / synaptic,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+ATF3,Atf3,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ATF3,Atf3,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ATP1A2,Atp1a2,Blood-brain barrier / endothelial,CNS glia,3,2,-0.20090496106579891,0.4,five_animal_exact_context_test,1.0
+ATP1A2,Atp1a2,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.9690813507769334,0.5,five_animal_exact_context_test,1.0
+ATP1A2,Atp1a2,Blood-brain barrier / endothelial,Immune cells,3,2,1.4620016793066477,0.6,five_animal_exact_context_test,1.0
+ATP1A2,Atp1a2,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ATP1A2,Atp1a2,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+C3,C3,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+C3,C3,Neuroinflammation / cytokine,CNS neurons,3,2,-0.1022279628949012,0.4,five_animal_exact_context_test,1.0
+C3,C3,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+C3,C3,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+C3,C3,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CACNA1C,Cacna1c,Neuronal / synaptic,CNS glia,3,2,-0.16543127102122757,0.7,five_animal_exact_context_test,1.0
+CACNA1C,Cacna1c,Neuronal / synaptic,CNS neurons,3,2,0.018172856226698286,0.9,five_animal_exact_context_test,1.0
+CACNA1C,Cacna1c,Neuronal / synaptic,Immune cells,3,2,-1.9583052683686217,0.6,five_animal_exact_context_test,1.0
+CACNA1C,Cacna1c,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CACNA1C,Cacna1c,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CAMK2A,Camk2a,Neuronal / synaptic,CNS glia,3,2,-0.36008810809765257,0.6,five_animal_exact_context_test,1.0
+CAMK2A,Camk2a,Neuronal / synaptic,CNS neurons,3,2,1.6821135053547493,0.1,five_animal_exact_context_test,1.0
+CAMK2A,Camk2a,Neuronal / synaptic,Immune cells,3,2,0.09760248162010754,1.0,five_animal_exact_context_test,1.0
+CAMK2A,Camk2a,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CAMK2A,Camk2a,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CAMK2B,Camk2b,Neuronal / synaptic,CNS glia,3,2,-0.5514278534303898,0.7,five_animal_exact_context_test,1.0
+CAMK2B,Camk2b,Neuronal / synaptic,CNS neurons,3,2,-0.23492059751645655,0.6,five_animal_exact_context_test,1.0
+CAMK2B,Camk2b,Neuronal / synaptic,Immune cells,3,2,-0.008446072908594893,1.0,five_animal_exact_context_test,1.0
+CAMK2B,Camk2b,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CAMK2B,Camk2b,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CASZ1,Casz1,Transcription / chromatin / other,CNS glia,3,2,0.21604080212505683,0.8,five_animal_exact_context_test,1.0
+CASZ1,Casz1,Transcription / chromatin / other,CNS neurons,3,2,0.3743284856349507,0.3,five_animal_exact_context_test,1.0
+CASZ1,Casz1,Transcription / chromatin / other,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+CASZ1,Casz1,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CASZ1,Casz1,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCL2,Ccl2,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCL2,Ccl2,Neuroinflammation / cytokine,CNS neurons,3,2,0.053341932336203594,1.0,five_animal_exact_context_test,1.0
+CCL2,Ccl2,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCL2,Ccl2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCL2,Ccl2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCL7,Ccl7,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCL7,Ccl7,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCL7,Ccl7,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCL7,Ccl7,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCL7,Ccl7,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCR2,Ccr2,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CCR2,Ccr2,Neuroinflammation / cytokine,CNS neurons,3,2,0.15946085028195245,0.4,five_animal_exact_context_test,1.0
+CCR2,Ccr2,Neuroinflammation / cytokine,Immune cells,3,2,3.4207495666124337,0.4,five_animal_exact_context_test,1.0
+CCR2,Ccr2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CCR2,Ccr2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CDH5,Cdh5,Blood-brain barrier / endothelial,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+CDH5,Cdh5,Blood-brain barrier / endothelial,CNS neurons,3,2,0.02783178051064686,0.8,five_animal_exact_context_test,1.0
+CDH5,Cdh5,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CDH5,Cdh5,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CDH5,Cdh5,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CDK6,Cdk6,Transcription / chromatin / other,CNS glia,3,2,-0.31673363298923407,0.8,five_animal_exact_context_test,1.0
+CDK6,Cdk6,Transcription / chromatin / other,CNS neurons,3,2,0.6093517921293694,0.3,five_animal_exact_context_test,1.0
+CDK6,Cdk6,Transcription / chromatin / other,Immune cells,3,2,-0.3076569503997941,0.6,five_animal_exact_context_test,1.0
+CDK6,Cdk6,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CDK6,Cdk6,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CLDN5,Cldn5,Blood-brain barrier / endothelial,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CLDN5,Cldn5,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.1022279628949012,0.4,five_animal_exact_context_test,1.0
+CLDN5,Cldn5,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CLDN5,Cldn5,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CLDN5,Cldn5,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCL10,Cxcl10,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCL10,Cxcl10,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCL10,Cxcl10,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCL10,Cxcl10,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCL10,Cxcl10,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCL2,,Neuroinflammation / cytokine,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL2,,Neuroinflammation / cytokine,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL2,,Neuroinflammation / cytokine,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL2,,Neuroinflammation / cytokine,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL2,,Neuroinflammation / cytokine,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL8,,Neuroinflammation / cytokine,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL8,,Neuroinflammation / cytokine,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL8,,Neuroinflammation / cytokine,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL8,,Neuroinflammation / cytokine,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCL8,,Neuroinflammation / cytokine,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+CXCR2,Cxcr2,Neuroinflammation / cytokine,CNS glia,3,2,0.7708694250090905,0.5,five_animal_exact_context_test,1.0
+CXCR2,Cxcr2,Neuroinflammation / cytokine,CNS neurons,3,2,-0.3810075109829407,0.3,five_animal_exact_context_test,1.0
+CXCR2,Cxcr2,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCR2,Cxcr2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCR2,Cxcr2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCR3,Cxcr3,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCR3,Cxcr3,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCR3,Cxcr3,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+CXCR3,Cxcr3,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CXCR3,Cxcr3,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CYBB,Cybb,Glial / myelin,CNS glia,3,2,-0.35067703116828286,0.4,five_animal_exact_context_test,1.0
+CYBB,Cybb,Glial / myelin,CNS neurons,3,2,0.2936110272672059,0.5,five_animal_exact_context_test,1.0
+CYBB,Cybb,Glial / myelin,Immune cells,3,2,1.401856296894227,0.8,five_animal_exact_context_test,1.0
+CYBB,Cybb,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+CYBB,Cybb,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+EDN1,Edn1,Blood-brain barrier / endothelial,CNS glia,3,2,-0.3309660272424162,0.6,five_animal_exact_context_test,1.0
+EDN1,Edn1,Blood-brain barrier / endothelial,CNS neurons,3,2,0.19406714244745815,0.2,five_animal_exact_context_test,1.0
+EDN1,Edn1,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+EDN1,Edn1,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+EDN1,Edn1,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+EDNRA,Ednra,Blood-brain barrier / endothelial,CNS glia,3,2,-0.14921182274726608,0.8,five_animal_exact_context_test,1.0
+EDNRA,Ednra,Blood-brain barrier / endothelial,CNS neurons,3,2,0.18490550195238475,0.8,five_animal_exact_context_test,1.0
+EDNRA,Ednra,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+EDNRA,Ednra,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+EDNRA,Ednra,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F2,F2,Coagulation / vascular,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+F2,F2,Coagulation / vascular,CNS neurons,3,2,-0.2813263275035636,0.5,five_animal_exact_context_test,1.0
+F2,F2,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+F2,F2,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F2,F2,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F3,F3,Coagulation / vascular,CNS glia,3,2,0.34483806697554176,0.4,five_animal_exact_context_test,1.0
+F3,F3,Coagulation / vascular,CNS neurons,3,2,0.12904853356862223,1.0,five_animal_exact_context_test,1.0
+F3,F3,Coagulation / vascular,Immune cells,3,2,1.2425838017879447,1.0,five_animal_exact_context_test,1.0
+F3,F3,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F3,F3,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F5,F5,Coagulation / vascular,CNS glia,3,2,-0.02472113854814717,1.0,five_animal_exact_context_test,1.0
+F5,F5,Coagulation / vascular,CNS neurons,3,2,-0.07019548260085656,0.8,five_animal_exact_context_test,1.0
+F5,F5,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+F5,F5,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+F5,F5,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGA,Fga,Coagulation / vascular,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+FGA,Fga,Coagulation / vascular,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FGA,Fga,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FGA,Fga,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGA,Fga,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGF2,Fgf2,Neuronal / synaptic,CNS glia,3,2,0.24696893714278945,0.8,five_animal_exact_context_test,1.0
+FGF2,Fgf2,Neuronal / synaptic,CNS neurons,3,2,0.6716937516754987,0.1,five_animal_exact_context_test,1.0
+FGF2,Fgf2,Neuronal / synaptic,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+FGF2,Fgf2,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGF2,Fgf2,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGF21,Fgf21,Oxidative stress / metabolism,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FGF21,Fgf21,Oxidative stress / metabolism,CNS neurons,3,2,0.019393375917259096,1.0,five_animal_exact_context_test,1.0
+FGF21,Fgf21,Oxidative stress / metabolism,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FGF21,Fgf21,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FGF21,Fgf21,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FOS,Fos,Neuronal / synaptic,CNS glia,3,2,-0.2755901677973709,0.7,five_animal_exact_context_test,1.0
+FOS,Fos,Neuronal / synaptic,CNS neurons,3,2,-1.6979582168677585,0.3,five_animal_exact_context_test,1.0
+FOS,Fos,Neuronal / synaptic,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FOS,Fos,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FOS,Fos,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FOXF2,Foxf2,Blood-brain barrier / endothelial,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FOXF2,Foxf2,Blood-brain barrier / endothelial,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FOXF2,Foxf2,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+FOXF2,Foxf2,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+FOXF2,Foxf2,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GABRA6,Gabra6,Neuronal / synaptic,CNS glia,3,2,-0.5610014098397444,0.4,five_animal_exact_context_test,1.0
+GABRA6,Gabra6,Neuronal / synaptic,CNS neurons,3,2,-1.342488802473663,0.3,five_animal_exact_context_test,1.0
+GABRA6,Gabra6,Neuronal / synaptic,Immune cells,3,2,-2.5040545167282042,0.6,five_animal_exact_context_test,1.0
+GABRA6,Gabra6,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GABRA6,Gabra6,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GFAP,Gfap,Glial / myelin,CNS glia,3,2,0.33532463448172045,0.9,five_animal_exact_context_test,1.0
+GFAP,Gfap,Glial / myelin,CNS neurons,3,2,-0.5633128620107342,0.2,five_animal_exact_context_test,1.0
+GFAP,Gfap,Glial / myelin,Immune cells,3,2,-0.7477235264122526,1.0,five_animal_exact_context_test,1.0
+GFAP,Gfap,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GFAP,Gfap,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GLT-1,Slc1a2,Glial / myelin,CNS glia,3,2,0.8287468083715268,0.1,five_animal_exact_context_test,1.0
+GLT-1,Slc1a2,Glial / myelin,CNS neurons,3,2,0.9764901625470666,0.3,five_animal_exact_context_test,1.0
+GLT-1,Slc1a2,Glial / myelin,Immune cells,3,2,-0.9503585262651715,0.1,five_animal_exact_context_test,1.0
+GLT-1,Slc1a2,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GLT-1,Slc1a2,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GPR17,Gpr17,Glial / myelin,CNS glia,3,2,0.5334204354838504,1.0,five_animal_exact_context_test,1.0
+GPR17,Gpr17,Glial / myelin,CNS neurons,3,2,0.1027470666836929,0.9,five_animal_exact_context_test,1.0
+GPR17,Gpr17,Glial / myelin,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+GPR17,Gpr17,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GPR17,Gpr17,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GRIA1,Gria1,Neuronal / synaptic,CNS glia,3,2,-0.5335086085524559,0.2,five_animal_exact_context_test,1.0
+GRIA1,Gria1,Neuronal / synaptic,CNS neurons,3,2,1.4479421359628315,0.1,five_animal_exact_context_test,1.0
+GRIA1,Gria1,Neuronal / synaptic,Immune cells,3,2,2.2930043213591595,0.4,five_animal_exact_context_test,1.0
+GRIA1,Gria1,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GRIA1,Gria1,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GRIN1,Grin1,Neuronal / synaptic,CNS glia,3,2,-0.6482254771937823,0.2,five_animal_exact_context_test,1.0
+GRIN1,Grin1,Neuronal / synaptic,CNS neurons,3,2,0.08141615677786618,0.8,five_animal_exact_context_test,1.0
+GRIN1,Grin1,Neuronal / synaptic,Immune cells,3,2,-2.6913268981914418,0.4,five_animal_exact_context_test,1.0
+GRIN1,Grin1,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GRIN1,Grin1,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GSDMD,Gsdmd,Inflammasome / pyroptosis,CNS glia,3,2,1.10489548190168,0.4,five_animal_exact_context_test,1.0
+GSDMD,Gsdmd,Inflammasome / pyroptosis,CNS neurons,3,2,0.3138682728187613,0.4,five_animal_exact_context_test,1.0
+GSDMD,Gsdmd,Inflammasome / pyroptosis,Immune cells,3,2,-0.8024265157232149,0.4,five_animal_exact_context_test,1.0
+GSDMD,Gsdmd,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+GSDMD,Gsdmd,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HBA1,,Coagulation / vascular,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+HBA1,,Coagulation / vascular,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+HBA1,,Coagulation / vascular,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+HBA1,,Coagulation / vascular,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+HBA1,,Coagulation / vascular,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+HDAC9,Hdac9,Transcription / chromatin / other,CNS glia,3,2,0.7938163465986179,0.1,five_animal_exact_context_test,1.0
+HDAC9,Hdac9,Transcription / chromatin / other,CNS neurons,3,2,0.3788867019140749,0.5,five_animal_exact_context_test,1.0
+HDAC9,Hdac9,Transcription / chromatin / other,Immune cells,3,2,-0.28016730547048674,0.2,five_animal_exact_context_test,1.0
+HDAC9,Hdac9,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HDAC9,Hdac9,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HMGB1,Hmgb1,Neuroinflammation / cytokine,CNS glia,3,2,-0.23328979296872188,0.4,five_animal_exact_context_test,1.0
+HMGB1,Hmgb1,Neuroinflammation / cytokine,CNS neurons,3,2,-0.12575902156959717,0.6,five_animal_exact_context_test,1.0
+HMGB1,Hmgb1,Neuroinflammation / cytokine,Immune cells,3,2,0.7932533929056502,0.7,five_animal_exact_context_test,1.0
+HMGB1,Hmgb1,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HMGB1,Hmgb1,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HSPD1,Hspd1,Injury biomarker,CNS glia,3,2,-0.6737817257565002,0.3,five_animal_exact_context_test,1.0
+HSPD1,Hspd1,Injury biomarker,CNS neurons,3,2,-0.5459479685152804,0.1,five_animal_exact_context_test,1.0
+HSPD1,Hspd1,Injury biomarker,Immune cells,3,2,-0.635525773723745,0.1,five_animal_exact_context_test,1.0
+HSPD1,Hspd1,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HSPD1,Hspd1,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HTR4,Htr4,Neuronal / synaptic,CNS glia,3,2,-0.697712864293079,0.4,five_animal_exact_context_test,1.0
+HTR4,Htr4,Neuronal / synaptic,CNS neurons,3,2,0.8011025373457148,0.1,five_animal_exact_context_test,1.0
+HTR4,Htr4,Neuronal / synaptic,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+HTR4,Htr4,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+HTR4,Htr4,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AIF1,Aif1,Glial / myelin,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+AIF1,Aif1,Glial / myelin,CNS neurons,3,2,0.9446106016128569,0.1,five_animal_exact_context_test,1.0
+AIF1,Aif1,Glial / myelin,Immune cells,3,2,1.9390783594309209,0.6,five_animal_exact_context_test,1.0
+AIF1,Aif1,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+AIF1,Aif1,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ICAM,Icam1,Blood-brain barrier / endothelial,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+ICAM,Icam1,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.08553071434435813,0.4,five_animal_exact_context_test,1.0
+ICAM,Icam1,Blood-brain barrier / endothelial,Immune cells,3,2,-0.32584769462891483,0.8,five_animal_exact_context_test,1.0
+ICAM,Icam1,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ICAM,Icam1,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ICE,Casp1,Inflammasome / pyroptosis,CNS glia,3,2,-0.3730859753777884,0.9,five_animal_exact_context_test,1.0
+ICE,Casp1,Inflammasome / pyroptosis,CNS neurons,3,2,0.22914668058135312,0.5,five_animal_exact_context_test,1.0
+ICE,Casp1,Inflammasome / pyroptosis,Immune cells,3,2,0.5656615286727131,0.2,five_animal_exact_context_test,1.0
+ICE,Casp1,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ICE,Casp1,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IGF1,Igf1,Neuronal / synaptic,CNS glia,3,2,-0.6449264606964152,0.3,five_animal_exact_context_test,1.0
+IGF1,Igf1,Neuronal / synaptic,CNS neurons,3,2,1.2696166027023943,0.2,five_animal_exact_context_test,1.0
+IGF1,Igf1,Neuronal / synaptic,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+IGF1,Igf1,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IGF1,Igf1,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-17,Il17a,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL-17,Il17a,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL-17,Il17a,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL-17,Il17a,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-17,Il17a,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-18,Il18,Neuroinflammation / cytokine,CNS glia,3,2,0.6779349621165975,0.1,five_animal_exact_context_test,1.0
+IL-18,Il18,Neuroinflammation / cytokine,CNS neurons,3,2,0.4631380071162563,0.3,five_animal_exact_context_test,1.0
+IL-18,Il18,Neuroinflammation / cytokine,Immune cells,3,2,-0.6147281259608031,0.2,five_animal_exact_context_test,1.0
+IL-18,Il18,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-18,Il18,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-1alpha,Il1a,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL-1alpha,Il1a,Neuroinflammation / cytokine,CNS neurons,3,2,-0.1022279628949012,0.4,five_animal_exact_context_test,1.0
+IL-1alpha,Il1a,Neuroinflammation / cytokine,Immune cells,3,2,-1.2480428496097962,0.9,five_animal_exact_context_test,1.0
+IL-1alpha,Il1a,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL-1alpha,Il1a,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL11,Il11,Neuroinflammation / cytokine,CNS glia,3,2,-0.47179272470017375,0.5,five_animal_exact_context_test,1.0
+IL11,Il11,Neuroinflammation / cytokine,CNS neurons,3,2,-0.8226242734749258,0.3,five_animal_exact_context_test,1.0
+IL11,Il11,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL11,Il11,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL11,Il11,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL1B,Il1b,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL1B,Il1b,Neuroinflammation / cytokine,CNS neurons,3,2,0.31046630977919426,0.7,five_animal_exact_context_test,1.0
+IL1B,Il1b,Neuroinflammation / cytokine,Immune cells,3,2,-1.543232570719495,0.7,five_animal_exact_context_test,1.0
+IL1B,Il1b,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL1B,Il1b,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL1RN,Il1rn,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL1RN,Il1rn,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL1RN,Il1rn,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL1RN,Il1rn,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL1RN,Il1rn,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL22,,Neuroinflammation / cytokine,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+IL22,,Neuroinflammation / cytokine,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+IL22,,Neuroinflammation / cytokine,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+IL22,,Neuroinflammation / cytokine,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+IL22,,Neuroinflammation / cytokine,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+IL6,Il6,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL6,Il6,Neuroinflammation / cytokine,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+IL6,Il6,Neuroinflammation / cytokine,Immune cells,3,2,1.9054894919849863,1.0,five_animal_exact_context_test,1.0
+IL6,Il6,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL6,Il6,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL6RA,Il6ra,Neuroinflammation / cytokine,CNS glia,3,2,0.5615954495280899,0.7,five_animal_exact_context_test,1.0
+IL6RA,Il6ra,Neuroinflammation / cytokine,CNS neurons,3,2,0.8440943578875887,0.3,five_animal_exact_context_test,1.0
+IL6RA,Il6ra,Neuroinflammation / cytokine,Immune cells,3,2,0.7870429372107761,0.3,five_animal_exact_context_test,1.0
+IL6RA,Il6ra,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL6RA,Il6ra,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL6ST,Il6st,Neuroinflammation / cytokine,CNS glia,3,2,-0.293701608918175,0.4,five_animal_exact_context_test,1.0
+IL6ST,Il6st,Neuroinflammation / cytokine,CNS neurons,3,2,-0.35899166709838237,0.2,five_animal_exact_context_test,1.0
+IL6ST,Il6st,Neuroinflammation / cytokine,Immune cells,3,2,0.5122748859883126,0.6,five_animal_exact_context_test,1.0
+IL6ST,Il6st,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IL6ST,Il6st,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IRF1,Irf1,Neuroinflammation / cytokine,CNS glia,3,2,-0.39124178274295307,0.9,five_animal_exact_context_test,1.0
+IRF1,Irf1,Neuroinflammation / cytokine,CNS neurons,3,2,0.9067501957088375,0.2,five_animal_exact_context_test,1.0
+IRF1,Irf1,Neuroinflammation / cytokine,Immune cells,3,2,1.3558979978930499,1.0,five_animal_exact_context_test,1.0
+IRF1,Irf1,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+IRF1,Irf1,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGA2B,Itga2b,Blood-brain barrier / endothelial,CNS glia,3,2,-0.2946412547862274,0.5,five_animal_exact_context_test,1.0
+ITGA2B,Itga2b,Blood-brain barrier / endothelial,CNS neurons,3,2,0.3036513972984689,0.6,five_animal_exact_context_test,1.0
+ITGA2B,Itga2b,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+ITGA2B,Itga2b,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGA2B,Itga2b,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGAV,Itgav,Blood-brain barrier / endothelial,CNS glia,3,2,-0.060355611718788005,1.0,five_animal_exact_context_test,1.0
+ITGAV,Itgav,Blood-brain barrier / endothelial,CNS neurons,3,2,0.5322012831646168,0.1,five_animal_exact_context_test,1.0
+ITGAV,Itgav,Blood-brain barrier / endothelial,Immune cells,3,2,0.9481486082607589,0.3,five_animal_exact_context_test,1.0
+ITGAV,Itgav,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGAV,Itgav,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGB3,Itgb3,Blood-brain barrier / endothelial,CNS glia,3,2,-1.112808536131538,0.4,five_animal_exact_context_test,1.0
+ITGB3,Itgb3,Blood-brain barrier / endothelial,CNS neurons,3,2,0.48735453498374903,0.3,five_animal_exact_context_test,1.0
+ITGB3,Itgb3,Blood-brain barrier / endothelial,Immune cells,3,2,1.1569500142705764,0.8,five_animal_exact_context_test,1.0
+ITGB3,Itgb3,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ITGB3,Itgb3,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+JUNB,Junb,Neuronal / synaptic,CNS glia,3,2,-0.4339083298005961,0.7,five_animal_exact_context_test,1.0
+JUNB,Junb,Neuronal / synaptic,CNS neurons,3,2,-0.4226641155374202,0.9,five_animal_exact_context_test,1.0
+JUNB,Junb,Neuronal / synaptic,Immune cells,3,2,-1.793379070824876,0.7,five_animal_exact_context_test,1.0
+JUNB,Junb,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+JUNB,Junb,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+KCNK3,Kcnk3,Blood-brain barrier / endothelial,CNS glia,3,2,-0.7632458851555968,0.8,five_animal_exact_context_test,1.0
+KCNK3,Kcnk3,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.9636728541712962,0.2,five_animal_exact_context_test,1.0
+KCNK3,Kcnk3,Blood-brain barrier / endothelial,Immune cells,3,2,0.7734463498651718,0.8,five_animal_exact_context_test,1.0
+KCNK3,Kcnk3,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+KCNK3,Kcnk3,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+KDM5D,Kdm5d,Transcription / chromatin / other,CNS glia,3,2,-0.8691436758507566,0.2,five_animal_exact_context_test,1.0
+KDM5D,Kdm5d,Transcription / chromatin / other,CNS neurons,3,2,-0.2335148456039295,0.6,five_animal_exact_context_test,1.0
+KDM5D,Kdm5d,Transcription / chromatin / other,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+KDM5D,Kdm5d,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+KDM5D,Kdm5d,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+L1CAM,L1cam,Neuronal / synaptic,CNS glia,3,2,-0.38901853776286943,0.6,five_animal_exact_context_test,1.0
+L1CAM,L1cam,Neuronal / synaptic,CNS neurons,3,2,-0.11523095726044641,0.1,five_animal_exact_context_test,1.0
+L1CAM,L1cam,Neuronal / synaptic,Immune cells,3,2,1.5574165543293708,1.0,five_animal_exact_context_test,1.0
+L1CAM,L1cam,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+L1CAM,L1cam,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+LPA,,Coagulation / vascular,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+LPA,,Coagulation / vascular,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+LPA,,Coagulation / vascular,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+LPA,,Coagulation / vascular,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+LPA,,Coagulation / vascular,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+LRCH1,Lrch1,Transcription / chromatin / other,CNS glia,3,2,0.2471156745636227,0.5,five_animal_exact_context_test,1.0
+LRCH1,Lrch1,Transcription / chromatin / other,CNS neurons,3,2,0.05691033682718594,0.7,five_animal_exact_context_test,1.0
+LRCH1,Lrch1,Transcription / chromatin / other,Immune cells,3,2,0.18696036466933919,0.5,five_animal_exact_context_test,1.0
+LRCH1,Lrch1,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+LRCH1,Lrch1,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MAP2,Map2,Neuronal / synaptic,CNS glia,3,2,-0.0648182752887756,0.7,five_animal_exact_context_test,1.0
+MAP2,Map2,Neuronal / synaptic,CNS neurons,3,2,-0.09599955302246954,0.6,five_animal_exact_context_test,1.0
+MAP2,Map2,Neuronal / synaptic,Immune cells,3,2,-1.9117360715058007,0.7,five_animal_exact_context_test,1.0
+MAP2,Map2,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MAP2,Map2,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MBP,Mbp,Glial / myelin,CNS glia,3,2,-0.14812104503630152,1.0,five_animal_exact_context_test,1.0
+MBP,Mbp,Glial / myelin,CNS neurons,3,2,-0.38666728572939224,0.4,five_animal_exact_context_test,1.0
+MBP,Mbp,Glial / myelin,Immune cells,3,2,-0.2486895184618465,0.7,five_animal_exact_context_test,1.0
+MBP,Mbp,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MBP,Mbp,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP12,Mmp12,Blood-brain barrier / endothelial,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+MMP12,Mmp12,Blood-brain barrier / endothelial,CNS neurons,3,2,0.019393375917259096,1.0,five_animal_exact_context_test,1.0
+MMP12,Mmp12,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+MMP12,Mmp12,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP12,Mmp12,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP2,Mmp2,Blood-brain barrier / endothelial,CNS glia,3,2,-0.8282332127517074,0.4,five_animal_exact_context_test,1.0
+MMP2,Mmp2,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.2927843501782495,0.1,five_animal_exact_context_test,1.0
+MMP2,Mmp2,Blood-brain barrier / endothelial,Immune cells,3,2,1.8170018193386284,0.7,five_animal_exact_context_test,1.0
+MMP2,Mmp2,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP2,Mmp2,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP9,Mmp9,Blood-brain barrier / endothelial,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+MMP9,Mmp9,Blood-brain barrier / endothelial,CNS neurons,3,2,0.23842670115915454,0.3,five_animal_exact_context_test,1.0
+MMP9,Mmp9,Blood-brain barrier / endothelial,Immune cells,3,2,1.2425838017879447,1.0,five_animal_exact_context_test,1.0
+MMP9,Mmp9,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MMP9,Mmp9,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MTHFR,Mthfr,Coagulation / vascular,CNS glia,3,2,-0.7391951493864424,0.3,five_animal_exact_context_test,1.0
+MTHFR,Mthfr,Coagulation / vascular,CNS neurons,3,2,-0.00923424649699367,1.0,five_animal_exact_context_test,1.0
+MTHFR,Mthfr,Coagulation / vascular,Immune cells,3,2,0.33120030177475446,0.4,five_animal_exact_context_test,1.0
+MTHFR,Mthfr,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MTHFR,Mthfr,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MYD88,Myd88,Neuroinflammation / cytokine,CNS glia,3,2,0.6587793281666555,0.1,five_animal_exact_context_test,1.0
+MYD88,Myd88,Neuroinflammation / cytokine,CNS neurons,3,2,-0.46632565763695466,0.3,five_animal_exact_context_test,1.0
+MYD88,Myd88,Neuroinflammation / cytokine,Immune cells,3,2,3.255890130659459,0.4,five_animal_exact_context_test,1.0
+MYD88,Myd88,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+MYD88,Myd88,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Neurofilament Light (NfL),Nefl,Injury biomarker,CNS glia,3,2,-1.3920978838512947,0.1,five_animal_exact_context_test,1.0
+Neurofilament Light (NfL),Nefl,Injury biomarker,CNS neurons,3,2,-0.8972164659099366,0.1,five_animal_exact_context_test,1.0
+Neurofilament Light (NfL),Nefl,Injury biomarker,Immune cells,3,2,1.0504205195712149,1.0,five_animal_exact_context_test,1.0
+Neurofilament Light (NfL),Nefl,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Neurofilament Light (NfL),Nefl,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Neurogranin,Nrgn,Neuronal / synaptic,CNS glia,3,2,-0.5457040740638082,0.2,five_animal_exact_context_test,1.0
+Neurogranin,Nrgn,Neuronal / synaptic,CNS neurons,3,2,0.8912217374835718,0.2,five_animal_exact_context_test,1.0
+Neurogranin,Nrgn,Neuronal / synaptic,Immune cells,3,2,2.156648194021978,0.2,five_animal_exact_context_test,1.0
+Neurogranin,Nrgn,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Neurogranin,Nrgn,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NFKB1,Nfkb1,Neuroinflammation / cytokine,CNS glia,3,2,0.1507631041047759,0.4,five_animal_exact_context_test,1.0
+NFKB1,Nfkb1,Neuroinflammation / cytokine,CNS neurons,3,2,0.17407070398793767,0.3,five_animal_exact_context_test,1.0
+NFKB1,Nfkb1,Neuroinflammation / cytokine,Immune cells,3,2,-0.013886845996587738,1.0,five_animal_exact_context_test,1.0
+NFKB1,Nfkb1,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NFKB1,Nfkb1,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NFKB2,Nfkb2,Neuroinflammation / cytokine,CNS glia,3,2,-0.31145452934933227,0.7,five_animal_exact_context_test,1.0
+NFKB2,Nfkb2,Neuroinflammation / cytokine,CNS neurons,3,2,-0.5726657488720495,0.6,five_animal_exact_context_test,1.0
+NFKB2,Nfkb2,Neuroinflammation / cytokine,Immune cells,3,2,-2.0230497474807723,0.4,five_animal_exact_context_test,1.0
+NFKB2,Nfkb2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NFKB2,Nfkb2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NGF,Ngf,Neuronal / synaptic,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NGF,Ngf,Neuronal / synaptic,CNS neurons,3,2,0.9748923172861073,0.2,five_animal_exact_context_test,1.0
+NGF,Ngf,Neuronal / synaptic,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NGF,Ngf,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NGF,Ngf,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NINJ1,Ninj1,Inflammasome / pyroptosis,CNS glia,3,2,-0.5082637636329095,0.6,five_animal_exact_context_test,1.0
+NINJ1,Ninj1,Inflammasome / pyroptosis,CNS neurons,3,2,-0.8253257770990956,0.2,five_animal_exact_context_test,1.0
+NINJ1,Ninj1,Inflammasome / pyroptosis,Immune cells,3,2,0.8007501961289281,0.8,five_animal_exact_context_test,1.0
+NINJ1,Ninj1,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NINJ1,Ninj1,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NKX2-5,Nkx2-5,Transcription / chromatin / other,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NKX2-5,Nkx2-5,Transcription / chromatin / other,CNS neurons,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NKX2-5,Nkx2-5,Transcription / chromatin / other,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NKX2-5,Nkx2-5,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NKX2-5,Nkx2-5,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRC4,Nlrc4,Inflammasome / pyroptosis,CNS glia,3,2,-0.9063884556334338,0.1,five_animal_exact_context_test,1.0
+NLRC4,Nlrc4,Inflammasome / pyroptosis,CNS neurons,3,2,-0.15391428550213737,1.0,five_animal_exact_context_test,1.0
+NLRC4,Nlrc4,Inflammasome / pyroptosis,Immune cells,3,2,-0.7804659456928276,0.7,five_animal_exact_context_test,1.0
+NLRC4,Nlrc4,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRC4,Nlrc4,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRP1,,Inflammasome / pyroptosis,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+NLRP1,,Inflammasome / pyroptosis,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+NLRP1,,Inflammasome / pyroptosis,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+NLRP1,,Inflammasome / pyroptosis,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+NLRP1,,Inflammasome / pyroptosis,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+NLRP2,Nlrp2,Inflammasome / pyroptosis,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NLRP2,Nlrp2,Inflammasome / pyroptosis,CNS neurons,3,2,0.019393375917259096,1.0,five_animal_exact_context_test,1.0
+NLRP2,Nlrp2,Inflammasome / pyroptosis,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NLRP2,Nlrp2,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRP2,Nlrp2,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRP3,Nlrp3,Inflammasome / pyroptosis,CNS glia,3,2,0.2967824917792752,1.0,five_animal_exact_context_test,1.0
+NLRP3,Nlrp3,Inflammasome / pyroptosis,CNS neurons,3,2,-0.2256650243888159,0.4,five_animal_exact_context_test,1.0
+NLRP3,Nlrp3,Inflammasome / pyroptosis,Immune cells,3,2,-0.6593424634552756,0.4,five_animal_exact_context_test,1.0
+NLRP3,Nlrp3,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NLRP3,Nlrp3,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NOS2,Nos2,Oxidative stress / metabolism,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NOS2,Nos2,Oxidative stress / metabolism,CNS neurons,3,2,0.03803489024970149,1.0,five_animal_exact_context_test,1.0
+NOS2,Nos2,Oxidative stress / metabolism,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NOS2,Nos2,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NOS2,Nos2,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NOS3,Nos3,Blood-brain barrier / endothelial,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NOS3,Nos3,Blood-brain barrier / endothelial,CNS neurons,3,2,0.020907053610273563,0.7,five_animal_exact_context_test,1.0
+NOS3,Nos3,Blood-brain barrier / endothelial,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NOS3,Nos3,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NOS3,Nos3,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NPY,Npy,Neuronal / synaptic,CNS glia,3,2,-1.5252315667381495,0.2,five_animal_exact_context_test,1.0
+NPY,Npy,Neuronal / synaptic,CNS neurons,3,2,2.127057857186763,0.1,five_animal_exact_context_test,1.0
+NPY,Npy,Neuronal / synaptic,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+NPY,Npy,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+NPY,Npy,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PAOX,Paox,Oxidative stress / metabolism,CNS glia,3,2,-0.7887938114546331,0.5,five_animal_exact_context_test,1.0
+PAOX,Paox,Oxidative stress / metabolism,CNS neurons,3,2,0.08492144789561618,0.7,five_animal_exact_context_test,1.0
+PAOX,Paox,Oxidative stress / metabolism,Immune cells,3,2,3.4207495666124337,0.4,five_animal_exact_context_test,1.0
+PAOX,Paox,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PAOX,Paox,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PDE3A,Pde3a,Coagulation / vascular,CNS glia,3,2,-0.5818076325583927,0.5,five_animal_exact_context_test,1.0
+PDE3A,Pde3a,Coagulation / vascular,CNS neurons,3,2,-0.6797309610689473,0.2,five_animal_exact_context_test,1.0
+PDE3A,Pde3a,Coagulation / vascular,Immune cells,3,2,-0.6196536523964007,1.0,five_animal_exact_context_test,1.0
+PDE3A,Pde3a,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PDE3A,Pde3a,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PECAM1,Pecam1,Blood-brain barrier / endothelial,CNS glia,3,2,0.20262691087781937,0.6,five_animal_exact_context_test,1.0
+PECAM1,Pecam1,Blood-brain barrier / endothelial,CNS neurons,3,2,0.09595343329948625,1.0,five_animal_exact_context_test,1.0
+PECAM1,Pecam1,Blood-brain barrier / endothelial,Immune cells,3,2,0.2699545738783873,1.0,five_animal_exact_context_test,1.0
+PECAM1,Pecam1,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PECAM1,Pecam1,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PITX2,Pitx2,Transcription / chromatin / other,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+PITX2,Pitx2,Transcription / chromatin / other,CNS neurons,3,2,0.3493422611554217,0.6,five_animal_exact_context_test,1.0
+PITX2,Pitx2,Transcription / chromatin / other,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+PITX2,Pitx2,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PITX2,Pitx2,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLA2G7,Pla2g7,Coagulation / vascular,CNS glia,3,2,-0.676125652380354,0.3,five_animal_exact_context_test,1.0
+PLA2G7,Pla2g7,Coagulation / vascular,CNS neurons,3,2,-0.8577483852627963,0.1,five_animal_exact_context_test,1.0
+PLA2G7,Pla2g7,Coagulation / vascular,Immune cells,3,2,-0.3430279349275054,0.9,five_animal_exact_context_test,1.0
+PLA2G7,Pla2g7,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLA2G7,Pla2g7,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLAT,Plat,Coagulation / vascular,CNS glia,3,2,-0.7517666031161769,0.7,five_animal_exact_context_test,1.0
+PLAT,Plat,Coagulation / vascular,CNS neurons,3,2,-0.3942855915227632,0.3,five_animal_exact_context_test,1.0
+PLAT,Plat,Coagulation / vascular,Immune cells,3,2,-0.2769741697060428,1.0,five_animal_exact_context_test,1.0
+PLAT,Plat,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLAT,Plat,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLAU,Plau,Coagulation / vascular,CNS glia,3,2,0.4789418244649726,1.0,five_animal_exact_context_test,1.0
+PLAU,Plau,Coagulation / vascular,CNS neurons,3,2,0.16466009723716057,0.7,five_animal_exact_context_test,1.0
+PLAU,Plau,Coagulation / vascular,Immune cells,3,2,1.5412297296769244,1.0,five_animal_exact_context_test,1.0
+PLAU,Plau,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLAU,Plau,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLD1,Pld1,Oxidative stress / metabolism,CNS glia,3,2,-2.2600300746411506e-05,1.0,five_animal_exact_context_test,1.0
+PLD1,Pld1,Oxidative stress / metabolism,CNS neurons,3,2,0.20046170644393202,0.8,five_animal_exact_context_test,1.0
+PLD1,Pld1,Oxidative stress / metabolism,Immune cells,3,2,0.7840891917697839,0.1,five_animal_exact_context_test,1.0
+PLD1,Pld1,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PLD1,Pld1,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PRKAA2,Prkaa2,Oxidative stress / metabolism,CNS glia,3,2,-0.2212999413689145,0.6,five_animal_exact_context_test,1.0
+PRKAA2,Prkaa2,Oxidative stress / metabolism,CNS neurons,3,2,0.15407797118020916,0.2,five_animal_exact_context_test,1.0
+PRKAA2,Prkaa2,Oxidative stress / metabolism,Immune cells,3,2,-1.7469494268140195,0.7,five_animal_exact_context_test,1.0
+PRKAA2,Prkaa2,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PRKAA2,Prkaa2,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PROC,Proc,Coagulation / vascular,CNS glia,3,2,-0.28352090840011257,0.7,five_animal_exact_context_test,1.0
+PROC,Proc,Coagulation / vascular,CNS neurons,3,2,-0.1022279628949012,0.4,five_animal_exact_context_test,1.0
+PROC,Proc,Coagulation / vascular,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+PROC,Proc,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PROC,Proc,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PRPF8,Prpf8,Transcription / chromatin / other,CNS glia,3,2,0.0857089958313546,0.4,five_animal_exact_context_test,1.0
+PRPF8,Prpf8,Transcription / chromatin / other,CNS neurons,3,2,-0.45607653761835554,0.4,five_animal_exact_context_test,1.0
+PRPF8,Prpf8,Transcription / chromatin / other,Immune cells,3,2,-1.569265087750336,0.8,five_animal_exact_context_test,1.0
+PRPF8,Prpf8,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PRPF8,Prpf8,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PTGS2,Ptgs2,Neuroinflammation / cytokine,CNS glia,3,2,0.49357347777513055,1.0,five_animal_exact_context_test,1.0
+PTGS2,Ptgs2,Neuroinflammation / cytokine,CNS neurons,3,2,1.455944810203055,0.1,five_animal_exact_context_test,1.0
+PTGS2,Ptgs2,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+PTGS2,Ptgs2,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PTGS2,Ptgs2,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PYCARD,Pycard,Inflammasome / pyroptosis,CNS glia,3,2,1.0444907125972502,0.1,five_animal_exact_context_test,1.0
+PYCARD,Pycard,Inflammasome / pyroptosis,CNS neurons,3,2,0.7401126572617023,0.3,five_animal_exact_context_test,1.0
+PYCARD,Pycard,Inflammasome / pyroptosis,Immune cells,3,2,0.22143494025876365,1.0,five_animal_exact_context_test,1.0
+PYCARD,Pycard,Inflammasome / pyroptosis,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+PYCARD,Pycard,Inflammasome / pyroptosis,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+RELA,Rela,Neuroinflammation / cytokine,CNS glia,3,2,-0.45808284410834865,0.3,five_animal_exact_context_test,1.0
+RELA,Rela,Neuroinflammation / cytokine,CNS neurons,3,2,-0.06049363110462913,1.0,five_animal_exact_context_test,1.0
+RELA,Rela,Neuroinflammation / cytokine,Immune cells,3,2,-1.6115381672099085,0.1,five_animal_exact_context_test,1.0
+RELA,Rela,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+RELA,Rela,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+RGS7,Rgs7,Neuronal / synaptic,CNS glia,3,2,0.41645940422973027,0.3,five_animal_exact_context_test,1.0
+RGS7,Rgs7,Neuronal / synaptic,CNS neurons,3,2,-0.14132889522760728,0.3,five_animal_exact_context_test,1.0
+RGS7,Rgs7,Neuronal / synaptic,Immune cells,3,2,-2.191890518248835,0.6,five_animal_exact_context_test,1.0
+RGS7,Rgs7,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+RGS7,Rgs7,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+S100A5,S100a5,Glial / myelin,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+S100A5,S100a5,Glial / myelin,CNS neurons,3,2,-0.1022279628949012,0.4,five_animal_exact_context_test,1.0
+S100A5,S100a5,Glial / myelin,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+S100A5,S100a5,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+S100A5,S100a5,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+S100B,S100b,Glial / myelin,CNS glia,3,2,-0.6956664398984787,0.3,five_animal_exact_context_test,1.0
+S100B,S100b,Glial / myelin,CNS neurons,3,2,-1.3909334696323978,0.1,five_animal_exact_context_test,1.0
+S100B,S100b,Glial / myelin,Immune cells,3,2,-4.3519894157147805,0.1,five_animal_exact_context_test,1.0
+S100B,S100b,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+S100B,S100b,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+DCX,Dcx,Neurogenesis / cytoskeletal,CNS glia,3,2,0.20679620563324375,0.9,five_animal_exact_context_test,1.0
+DCX,Dcx,Neurogenesis / cytoskeletal,CNS neurons,3,2,0.8312543924073523,0.2,five_animal_exact_context_test,1.0
+DCX,Dcx,Neurogenesis / cytoskeletal,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+DCX,Dcx,Neurogenesis / cytoskeletal,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+DCX,Dcx,Neurogenesis / cytoskeletal,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SERPINE1,Serpine1,Coagulation / vascular,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+SERPINE1,Serpine1,Coagulation / vascular,CNS neurons,3,2,-0.12099649310017249,0.5,five_animal_exact_context_test,1.0
+SERPINE1,Serpine1,Coagulation / vascular,Immune cells,3,2,1.8507582732687422,0.4,five_animal_exact_context_test,1.0
+SERPINE1,Serpine1,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SERPINE1,Serpine1,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SERPINH1,Serpinh1,Injury biomarker,CNS glia,3,2,-1.0775900715276694,0.7,five_animal_exact_context_test,1.0
+SERPINH1,Serpinh1,Injury biomarker,CNS neurons,3,2,-0.7098070797669314,0.1,five_animal_exact_context_test,1.0
+SERPINH1,Serpinh1,Injury biomarker,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+SERPINH1,Serpinh1,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SERPINH1,Serpinh1,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SAA1,,Injury biomarker,CNS glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+SAA1,,Injury biomarker,CNS neurons,0,0,,1.0,mapping_or_gene_unavailable,1.0
+SAA1,,Injury biomarker,Immune cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+SAA1,,Injury biomarker,Neural crest-like glia,0,0,,1.0,mapping_or_gene_unavailable,1.0
+SAA1,,Injury biomarker,Vascular cells,0,0,,1.0,mapping_or_gene_unavailable,1.0
+SH2B3,Sh2b3,Coagulation / vascular,CNS glia,3,2,0.6550355255925178,0.3,five_animal_exact_context_test,1.0
+SH2B3,Sh2b3,Coagulation / vascular,CNS neurons,3,2,-0.640555646144807,0.6,five_animal_exact_context_test,1.0
+SH2B3,Sh2b3,Coagulation / vascular,Immune cells,3,2,0.4820267729355807,0.2,five_animal_exact_context_test,1.0
+SH2B3,Sh2b3,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SH2B3,Sh2b3,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SH3PXD2A,Sh3pxd2a,Transcription / chromatin / other,CNS glia,3,2,0.7462284515540618,0.5,five_animal_exact_context_test,1.0
+SH3PXD2A,Sh3pxd2a,Transcription / chromatin / other,CNS neurons,3,2,0.6914500679143885,0.3,five_animal_exact_context_test,1.0
+SH3PXD2A,Sh3pxd2a,Transcription / chromatin / other,Immune cells,3,2,1.0877928583743053,0.5,five_animal_exact_context_test,1.0
+SH3PXD2A,Sh3pxd2a,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SH3PXD2A,Sh3pxd2a,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SIRT1,Sirt1,Oxidative stress / metabolism,CNS glia,3,2,0.0027498428980594625,1.0,five_animal_exact_context_test,1.0
+SIRT1,Sirt1,Oxidative stress / metabolism,CNS neurons,3,2,-0.48150215372606553,0.2,five_animal_exact_context_test,1.0
+SIRT1,Sirt1,Oxidative stress / metabolism,Immune cells,3,2,2.156648194021978,0.2,five_animal_exact_context_test,1.0
+SIRT1,Sirt1,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SIRT1,Sirt1,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SLC17A7,Slc17a7,Neuronal / synaptic,CNS glia,3,2,-1.537984877029221,0.2,five_animal_exact_context_test,1.0
+SLC17A7,Slc17a7,Neuronal / synaptic,CNS neurons,3,2,-0.4830086207335036,0.1,five_animal_exact_context_test,1.0
+SLC17A7,Slc17a7,Neuronal / synaptic,Immune cells,3,2,0.10695775583969835,1.0,five_animal_exact_context_test,1.0
+SLC17A7,Slc17a7,Neuronal / synaptic,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SLC17A7,Slc17a7,Neuronal / synaptic,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SLC1A3,Slc1a3,Glial / myelin,CNS glia,3,2,-0.014198727665721833,1.0,five_animal_exact_context_test,1.0
+SLC1A3,Slc1a3,Glial / myelin,CNS neurons,3,2,-0.3281956848761114,0.7,five_animal_exact_context_test,1.0
+SLC1A3,Slc1a3,Glial / myelin,Immune cells,3,2,-0.08106496854261636,1.0,five_animal_exact_context_test,1.0
+SLC1A3,Slc1a3,Glial / myelin,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SLC1A3,Slc1a3,Glial / myelin,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SMOX,Smox,Oxidative stress / metabolism,CNS glia,3,2,0.1155370123845314,0.7,five_animal_exact_context_test,1.0
+SMOX,Smox,Oxidative stress / metabolism,CNS neurons,3,2,-0.28416891835432834,0.1,five_animal_exact_context_test,1.0
+SMOX,Smox,Oxidative stress / metabolism,Immune cells,3,2,0.9219145653141156,0.3,five_animal_exact_context_test,1.0
+SMOX,Smox,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SMOX,Smox,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SOD1,Sod1,Oxidative stress / metabolism,CNS glia,3,2,0.17114220283137627,0.7,five_animal_exact_context_test,1.0
+SOD1,Sod1,Oxidative stress / metabolism,CNS neurons,3,2,-0.6891249382162865,0.1,five_animal_exact_context_test,1.0
+SOD1,Sod1,Oxidative stress / metabolism,Immune cells,3,2,-0.7877099385570838,0.7,five_animal_exact_context_test,1.0
+SOD1,Sod1,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SOD1,Sod1,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SOD2,Sod2,Oxidative stress / metabolism,CNS glia,3,2,-0.3189363686391369,0.1,five_animal_exact_context_test,1.0
+SOD2,Sod2,Oxidative stress / metabolism,CNS neurons,3,2,-0.07191221388733293,0.7,five_animal_exact_context_test,1.0
+SOD2,Sod2,Oxidative stress / metabolism,Immune cells,3,2,-1.2283998181780689,0.7,five_animal_exact_context_test,1.0
+SOD2,Sod2,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SOD2,Sod2,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SPHK2,Sphk2,Oxidative stress / metabolism,CNS glia,3,2,-0.30981364267789946,0.7,five_animal_exact_context_test,1.0
+SPHK2,Sphk2,Oxidative stress / metabolism,CNS neurons,3,2,-0.6103664068042085,0.1,five_animal_exact_context_test,1.0
+SPHK2,Sphk2,Oxidative stress / metabolism,Immune cells,3,2,-0.9726292279095574,0.7,five_animal_exact_context_test,1.0
+SPHK2,Sphk2,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SPHK2,Sphk2,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+STAT3,Stat3,Neuroinflammation / cytokine,CNS glia,3,2,0.12438112889048103,0.3,five_animal_exact_context_test,1.0
+STAT3,Stat3,Neuroinflammation / cytokine,CNS neurons,3,2,0.03501714534240907,0.9,five_animal_exact_context_test,1.0
+STAT3,Stat3,Neuroinflammation / cytokine,Immune cells,3,2,-0.40105265655387345,0.5,five_animal_exact_context_test,1.0
+STAT3,Stat3,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+STAT3,Stat3,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Tau,Mapt,Injury biomarker,CNS glia,3,2,-0.049672648627607785,1.0,five_animal_exact_context_test,1.0
+Tau,Mapt,Injury biomarker,CNS neurons,3,2,-0.00903666450895102,1.0,five_animal_exact_context_test,1.0
+Tau,Mapt,Injury biomarker,Immune cells,3,2,-1.1879571121728887,0.6,five_animal_exact_context_test,1.0
+Tau,Mapt,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+Tau,Mapt,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TBX3,Tbx3,Transcription / chromatin / other,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+TBX3,Tbx3,Transcription / chromatin / other,CNS neurons,3,2,0.0966631907995185,0.7,five_animal_exact_context_test,1.0
+TBX3,Tbx3,Transcription / chromatin / other,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+TBX3,Tbx3,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TBX3,Tbx3,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TDP43,Tardbp,Injury biomarker,CNS glia,3,2,0.2167226006452223,0.2,five_animal_exact_context_test,1.0
+TDP43,Tardbp,Injury biomarker,CNS neurons,3,2,-0.28931799977894634,0.2,five_animal_exact_context_test,1.0
+TDP43,Tardbp,Injury biomarker,Immune cells,3,2,0.1057936644471118,0.7,five_animal_exact_context_test,1.0
+TDP43,Tardbp,Injury biomarker,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TDP43,Tardbp,Injury biomarker,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TGFB1,Tgfb1,Neuroinflammation / cytokine,CNS glia,3,2,0.790935048447681,0.4,five_animal_exact_context_test,1.0
+TGFB1,Tgfb1,Neuroinflammation / cytokine,CNS neurons,3,2,-0.35635242146109025,0.1,five_animal_exact_context_test,1.0
+TGFB1,Tgfb1,Neuroinflammation / cytokine,Immune cells,3,2,0.0001648964717659851,1.0,five_animal_exact_context_test,1.0
+TGFB1,Tgfb1,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TGFB1,Tgfb1,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TJP1,Tjp1,Blood-brain barrier / endothelial,CNS glia,3,2,0.07501285080007314,0.7,five_animal_exact_context_test,1.0
+TJP1,Tjp1,Blood-brain barrier / endothelial,CNS neurons,3,2,0.4787943346119494,0.2,five_animal_exact_context_test,1.0
+TJP1,Tjp1,Blood-brain barrier / endothelial,Immune cells,3,2,0.09338219554933502,0.8,five_animal_exact_context_test,1.0
+TJP1,Tjp1,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TJP1,Tjp1,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TLR4,Tlr4,Neuroinflammation / cytokine,CNS glia,3,2,0.10808083934748636,0.7,five_animal_exact_context_test,1.0
+TLR4,Tlr4,Neuroinflammation / cytokine,CNS neurons,3,2,0.41204103567897477,0.2,five_animal_exact_context_test,1.0
+TLR4,Tlr4,Neuroinflammation / cytokine,Immune cells,3,2,-2.801452332396471,0.5,five_animal_exact_context_test,1.0
+TLR4,Tlr4,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TLR4,Tlr4,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TNF,Tnf,Neuroinflammation / cytokine,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+TNF,Tnf,Neuroinflammation / cytokine,CNS neurons,3,2,0.055980671543015996,1.0,five_animal_exact_context_test,1.0
+TNF,Tnf,Neuroinflammation / cytokine,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+TNF,Tnf,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TNF,Tnf,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TNFAIP6,Tnfaip6,Neuroinflammation / cytokine,CNS glia,3,2,-0.5207630962544894,0.4,five_animal_exact_context_test,1.0
+TNFAIP6,Tnfaip6,Neuroinflammation / cytokine,CNS neurons,3,2,-0.1898571850809252,0.8,five_animal_exact_context_test,1.0
+TNFAIP6,Tnfaip6,Neuroinflammation / cytokine,Immune cells,3,2,-2.354622883581182,0.7,five_animal_exact_context_test,1.0
+TNFAIP6,Tnfaip6,Neuroinflammation / cytokine,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TNFAIP6,Tnfaip6,Neuroinflammation / cytokine,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TSPAN2,Tspan2,Transcription / chromatin / other,CNS glia,3,2,0.25477177977232657,0.6,five_animal_exact_context_test,1.0
+TSPAN2,Tspan2,Transcription / chromatin / other,CNS neurons,3,2,0.419650715859758,0.4,five_animal_exact_context_test,1.0
+TSPAN2,Tspan2,Transcription / chromatin / other,Immune cells,3,2,-1.0684333037161793,0.7,five_animal_exact_context_test,1.0
+TSPAN2,Tspan2,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+TSPAN2,Tspan2,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+UCHL1,Uchl1,Neurogenesis / cytoskeletal,CNS glia,3,2,-0.5394887435521758,0.4,five_animal_exact_context_test,1.0
+UCHL1,Uchl1,Neurogenesis / cytoskeletal,CNS neurons,3,2,0.15642077874264526,0.6,five_animal_exact_context_test,1.0
+UCHL1,Uchl1,Neurogenesis / cytoskeletal,Immune cells,3,2,3.1224458714986802,0.4,five_animal_exact_context_test,1.0
+UCHL1,Uchl1,Neurogenesis / cytoskeletal,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+UCHL1,Uchl1,Neurogenesis / cytoskeletal,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+UCP2,Ucp2,Oxidative stress / metabolism,CNS glia,3,2,0.10776219722412161,0.9,five_animal_exact_context_test,1.0
+UCP2,Ucp2,Oxidative stress / metabolism,CNS neurons,3,2,-0.4520942938878574,0.2,five_animal_exact_context_test,1.0
+UCP2,Ucp2,Oxidative stress / metabolism,Immune cells,3,2,0.43283500527618557,0.7,five_animal_exact_context_test,1.0
+UCP2,Ucp2,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+UCP2,Ucp2,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VCAM,Vcam1,Blood-brain barrier / endothelial,CNS glia,3,2,0.45123581039703353,0.7,five_animal_exact_context_test,1.0
+VCAM,Vcam1,Blood-brain barrier / endothelial,CNS neurons,3,2,-0.0007294289539797605,1.0,five_animal_exact_context_test,1.0
+VCAM,Vcam1,Blood-brain barrier / endothelial,Immune cells,3,2,-1.528165516204473,0.7,five_animal_exact_context_test,1.0
+VCAM,Vcam1,Blood-brain barrier / endothelial,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VCAM,Vcam1,Blood-brain barrier / endothelial,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VDR,Vdr,Oxidative stress / metabolism,CNS glia,3,2,-0.585622767450644,0.4,five_animal_exact_context_test,1.0
+VDR,Vdr,Oxidative stress / metabolism,CNS neurons,3,2,0.23291007650976048,0.4,five_animal_exact_context_test,1.0
+VDR,Vdr,Oxidative stress / metabolism,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+VDR,Vdr,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VDR,Vdr,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VKORC1,Vkorc1,Coagulation / vascular,CNS glia,3,2,-1.2416039970430783,0.2,five_animal_exact_context_test,1.0
+VKORC1,Vkorc1,Coagulation / vascular,CNS neurons,3,2,-0.6078704929847323,0.3,five_animal_exact_context_test,1.0
+VKORC1,Vkorc1,Coagulation / vascular,Immune cells,3,2,-0.03593534687484867,1.0,five_animal_exact_context_test,1.0
+VKORC1,Vkorc1,Coagulation / vascular,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+VKORC1,Vkorc1,Coagulation / vascular,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+WNT2B,Wnt2b,Transcription / chromatin / other,CNS glia,3,2,0.03425457018187905,1.0,five_animal_exact_context_test,1.0
+WNT2B,Wnt2b,Transcription / chromatin / other,CNS neurons,3,2,0.10545998140226542,0.8,five_animal_exact_context_test,1.0
+WNT2B,Wnt2b,Transcription / chromatin / other,Immune cells,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+WNT2B,Wnt2b,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+WNT2B,Wnt2b,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+XDH,Xdh,Oxidative stress / metabolism,CNS glia,3,2,0.0,1.0,five_animal_exact_context_test,1.0
+XDH,Xdh,Oxidative stress / metabolism,CNS neurons,3,2,0.13579948968596378,1.0,five_animal_exact_context_test,1.0
+XDH,Xdh,Oxidative stress / metabolism,Immune cells,3,2,-0.07320521898616894,1.0,five_animal_exact_context_test,1.0
+XDH,Xdh,Oxidative stress / metabolism,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+XDH,Xdh,Oxidative stress / metabolism,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ZCCHC14,Zcchc14,Transcription / chromatin / other,CNS glia,3,2,0.19816899653816122,0.5,five_animal_exact_context_test,1.0
+ZCCHC14,Zcchc14,Transcription / chromatin / other,CNS neurons,3,2,-0.05680771620992697,0.5,five_animal_exact_context_test,1.0
+ZCCHC14,Zcchc14,Transcription / chromatin / other,Immune cells,3,2,2.6671501782100573,0.4,five_animal_exact_context_test,1.0
+ZCCHC14,Zcchc14,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ZCCHC14,Zcchc14,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ZFHX3,Zfhx3,Transcription / chromatin / other,CNS glia,3,2,0.5547026452700239,0.4,five_animal_exact_context_test,1.0
+ZFHX3,Zfhx3,Transcription / chromatin / other,CNS neurons,3,2,0.18783428694603632,0.5,five_animal_exact_context_test,1.0
+ZFHX3,Zfhx3,Transcription / chromatin / other,Immune cells,3,2,0.2462130297398204,0.6,five_animal_exact_context_test,1.0
+ZFHX3,Zfhx3,Transcription / chromatin / other,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+ZFHX3,Zfhx3,Transcription / chromatin / other,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SPTAN1,Sptan1,Neurogenesis / cytoskeletal,CNS glia,3,2,0.055980227384537784,0.7,five_animal_exact_context_test,1.0
+SPTAN1,Sptan1,Neurogenesis / cytoskeletal,CNS neurons,3,2,-0.03618978468941236,0.7,five_animal_exact_context_test,1.0
+SPTAN1,Sptan1,Neurogenesis / cytoskeletal,Immune cells,3,2,-0.293551653662945,0.7,five_animal_exact_context_test,1.0
+SPTAN1,Sptan1,Neurogenesis / cytoskeletal,Neural crest-like glia,2,2,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0
+SPTAN1,Sptan1,Neurogenesis / cytoskeletal,Vascular cells,2,1,,1.0,insufficient_nuclei_per_animal_for_fixed_gate,1.0

@@ -1,0 +1,300 @@
+{
+  "scripts": [
+    {
+      "path": "pipeline/__init__.py",
+      "sha256": "a5bb18f65ac1691e57eb9b232c2cfbc2fad2004cdacc0ce99273ce21b60dbff3"
+    },
+    {
+      "path": "pipeline/acquire.py",
+      "sha256": "fc8a09068c8fd41b8797a11893b2825dc7c4369063ab011cb654df7a9f4f5fa7"
+    },
+    {
+      "path": "pipeline/build_result_tables.py",
+      "sha256": "744446cbe7937b55b821ebf02f2c3619e142dbd5fda712887c5c091e16553b1f"
+    },
+    {
+      "path": "pipeline/build_summary.py",
+      "sha256": "9789b4719a22ef0e02af41fa9f2bb70bc57bca52ea39c15fb2d13e9ad284768f"
+    },
+    {
+      "path": "pipeline/bundle.py",
+      "sha256": "0abd3fa4576e2fd7d1c0b745d37dfe14d90eaae873432bc3066d04c122d5e435"
+    },
+    {
+      "path": "pipeline/check_figures.py",
+      "sha256": "aeb5cdc12df0dfaa1ef6490a3fa285bee2f97422d34867fae7caa01b9739da27"
+    },
+    {
+      "path": "pipeline/check_panel.py",
+      "sha256": "2e95892944a122a7bfe63adb8aabbdc923b58b0e926d44ffd5ec29b7b7f9796f"
+    },
+    {
+      "path": "pipeline/install_R.R",
+      "sha256": "3939aa1544f86230515b4177282bdad6982c2475841b4ceed59c6807b3e366af"
+    },
+    {
+      "path": "pipeline/paths.py",
+      "sha256": "f471f9d6b693a4ce0b3c3440b9f0aaa5603c54c168b71164acb79adb2e87ebb3"
+    },
+    {
+      "path": "pipeline/runner.py",
+      "sha256": "f010e3641327179d27b487ac19953f6b8fba2a58e4b2dc6aee994b83866aed7d"
+    },
+    {
+      "path": "pipeline/stages/__init__.py",
+      "sha256": "058416ff565732213c528ba8c5ac8183ecc740cde0856e71d4ab3cd4e5361337"
+    },
+    {
+      "path": "pipeline/stages/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pipeline/stages/core/category_tests.py",
+      "sha256": "ad75aece1a5994b75b6b0be80dc6841c0f11471a03dd3d71869f3052fa0d537d"
+    },
+    {
+      "path": "pipeline/stages/core/fit_bulk.py",
+      "sha256": "a89981d59803c41cea11d84fd5227d40ea26366cd98a12cfc059514007b6a6a6"
+    },
+    {
+      "path": "pipeline/stages/core/fit_spatial.py",
+      "sha256": "0e91e3cfc704ae72b3014425b2f7da09412d1f213b05074dfaf95a6d5120ac85"
+    },
+    {
+      "path": "pipeline/stages/core/gene_exact_sensitivity.py",
+      "sha256": "23adff8864bbeae99b048978d2776ee94c5cec7458132652faac73a53690d3db"
+    },
+    {
+      "path": "pipeline/stages/core/make_figures.py",
+      "sha256": "e1d3d4c66d017a8989a788743e92bdcb38dd5ade9a6b170f455dc434cb924e55"
+    },
+    {
+      "path": "pipeline/stages/core/prepare_inputs.py",
+      "sha256": "227f765ee6e90cdcdb8eeb1f06c44b7dc6881ba8c2f4558713e2519422f34f49"
+    },
+    {
+      "path": "pipeline/stages/core/refine_mapping.py",
+      "sha256": "ae19b5dae2d501023f2fdf0f1fd52e7fac8d248ca593258ebcaa0543a0e8cf4e"
+    },
+    {
+      "path": "pipeline/stages/core/secondary_checks.py",
+      "sha256": "b648f125065a26460e6fe82d3038718e3036439c633f91c76535043671ecdc36"
+    },
+    {
+      "path": "pipeline/stages/core/single_nucleus_context.py",
+      "sha256": "a528019365fb7c50620b757cb9a26e0af4d7d6fa647cdc7d7c90857ad3beefc8"
+    },
+    {
+      "path": "pipeline/stages/core/verify_deposited_inputs.py",
+      "sha256": "1f0431f9f934206007d2580277c496d67e67aff57b4ca9c475f9455989491b49"
+    },
+    {
+      "path": "pipeline/stages/core/verify_results.py",
+      "sha256": "46df1a7dbebcbfceae08ada24283bd75da9526637f83f35b585fa0bbd68dedfb"
+    },
+    {
+      "path": "pipeline/stages/deep/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pipeline/stages/deep/analyze_additional_cohorts.R",
+      "sha256": "c4abb6d94a7f8cee0a6c5cfd37fb621597dd70c4aa513910d44d486f9eb90b52"
+    },
+    {
+      "path": "pipeline/stages/deep/analyze_article_QC.R",
+      "sha256": "beec4b786bf5e2b059d60e6f9a1433486e6f6cb3c3ba3b1697c7bf38052ff7e9"
+    },
+    {
+      "path": "pipeline/stages/deep/analyze_expression_states.R",
+      "sha256": "67405da4a7d110535785efb124b294a4e6416c9ed47cf5f56a3cd885c5ca353e"
+    },
+    {
+      "path": "pipeline/stages/deep/analyze_mouse_state_composition.py",
+      "sha256": "66ee1a74be93a23b4d61a150d1cb5f92ca2dd2d3bd81c5377f9a5a7a69100490"
+    },
+    {
+      "path": "pipeline/stages/deep/analyze_terminal_regions.R",
+      "sha256": "04ee7756fd7630d04c188c170a821a6dd42455acbf350edefbeb59c56df40641"
+    },
+    {
+      "path": "pipeline/stages/deep/expand_validation_family.py",
+      "sha256": "76199d4dd7e5595935148fd4874aa61901568a73d546764a2a09659b061d78dc"
+    },
+    {
+      "path": "pipeline/stages/deep/make_deep_figures.py",
+      "sha256": "1c9505817130f52ae6f5bcf405ad62dc803cac16b6ffa2df68cb0d1dd33f55a2"
+    },
+    {
+      "path": "pipeline/stages/deep/prepare_additional_cohorts.py",
+      "sha256": "f702c16920d220c530fcca5891c7b0caae26eb2ca9245812ad53d208358593c9"
+    },
+    {
+      "path": "pipeline/stages/deep/prepare_article_QC.py",
+      "sha256": "e2f34d61d4666fab34116d3e79383202c47c642758c1ad9f3d5eec8181600b0e"
+    },
+    {
+      "path": "pipeline/stages/deep/prepare_expression_states.py",
+      "sha256": "cbcd62707fcb47225d2ae6bf31094e06196e5bce252f17b30caa95edbd04dc81"
+    },
+    {
+      "path": "pipeline/stages/deep/prepare_terminal_regions.py",
+      "sha256": "e7d9c2c0fdff4399eca151b3ede52cad8efbb94dd975a1745701533cb86d33b1"
+    },
+    {
+      "path": "pipeline/stages/deep/validate_additional_mouse_deletions.R",
+      "sha256": "600402cce680f45213ff0121f174e596c16f9c1c74b7f23ef36f788de100ee04"
+    },
+    {
+      "path": "pipeline/stages/deep/verify_deep_analysis.py",
+      "sha256": "de095f6e2fa1ada3a49a1816812570963984955db6ef44835b614201941b5e27"
+    },
+    {
+      "path": "pipeline/stages/deep/workflow_figure.py",
+      "sha256": "d2c3d7bf9815b8ca5d6697f1f076edf14386836c343f9aad2d7afbd941cd0992"
+    },
+    {
+      "path": "pipeline/stages/extended/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pipeline/stages/extended/adjustment_sensitivity.py",
+      "sha256": "f75534a663fa24aa23e8bbd16949ab76025855941c4a6190e5482c492657bcb5"
+    },
+    {
+      "path": "pipeline/stages/extended/aggregate_multiome.py",
+      "sha256": "6253fa1840fafe4153fd5cc84853d06ce775c9ce9e1551c29e09510f9aba0f38"
+    },
+    {
+      "path": "pipeline/stages/extended/analyze_RR9_panel.py",
+      "sha256": "d6c1cf1a519a81f8cfecdb723559ec5171557b30d1b42fb67c271207d5cb319c"
+    },
+    {
+      "path": "pipeline/stages/extended/analyze_evidence_distributions.py",
+      "sha256": "0136f5c0bf749b2674ef109614f7f300ecdf0bd0054efe1d08bf49a598e9c7e3"
+    },
+    {
+      "path": "pipeline/stages/extended/analyze_sorted_cells.R",
+      "sha256": "e041f81e6961126a4a06f8cae45646def652c0b7c8d35b4531a1d24dc1bca5a0"
+    },
+    {
+      "path": "pipeline/stages/extended/analyze_visium.py",
+      "sha256": "7bbc1ae3ece65a4e4a54d0c836f0cb78a044a202a8a6d0ddc3224492ac1d5999"
+    },
+    {
+      "path": "pipeline/stages/extended/audit_RR8_NASA_accessions.py",
+      "sha256": "a9657dcaec187b91183f54ea36bd8f59f5ad5cac3bec5f78995a6ac0aec627df"
+    },
+    {
+      "path": "pipeline/stages/extended/audit_additional_cell_labels.py",
+      "sha256": "80e5b711fa584f01ff3898460236c743b74017dc1c391c6b1540d65f97ab1162"
+    },
+    {
+      "path": "pipeline/stages/extended/audit_camera_assumptions.R",
+      "sha256": "89ddc38d5db57fbcb78781376879b1c1e6850e5b5ad49b90fe234f41baa3b24b"
+    },
+    {
+      "path": "pipeline/stages/extended/audit_protein_sources.py",
+      "sha256": "3fb37496bc3dd52d4607b48e0920a9b9cc1ed749f36d58b8b5f8e130dc978d80"
+    },
+    {
+      "path": "pipeline/stages/extended/compare_expression_methods.R",
+      "sha256": "e9ba5e88bc611aab7e6e3b1fa9dddc58f0a02c603e006b0d8782c88679aee249"
+    },
+    {
+      "path": "pipeline/stages/extended/composition_models.py",
+      "sha256": "4f60c56ce2cf501a5a2e65f064df96a6de35b80f6cf7729e310d233dc5c83f3e"
+    },
+    {
+      "path": "pipeline/stages/extended/extract_visium_inputs.py",
+      "sha256": "2e2aac08baf83ca9fa21d2161b228686847469d38f989ce77b8a561cda44d2b5"
+    },
+    {
+      "path": "pipeline/stages/extended/infer_additional_validation.py",
+      "sha256": "54e1e89d9c2afa385cf6c7712fc02ad2426e296d0db215e9da40951edf25509c"
+    },
+    {
+      "path": "pipeline/stages/extended/make_figures.py",
+      "sha256": "e5441a805fac6a85c5ce07c7378429e0aea66e6369dbced7d25eeae764987726"
+    },
+    {
+      "path": "pipeline/stages/extended/make_mechanistic_figure.py",
+      "sha256": "8b879a956d8bb79f29d76a8d88174e27914adb660a1f1abbb0b1a0fd53067d16"
+    },
+    {
+      "path": "pipeline/stages/extended/make_validation_figure.py",
+      "sha256": "de62ca152648ef848611dedd6c2a3b8c4d61eef7467b07093b959a706b396b06"
+    },
+    {
+      "path": "pipeline/stages/extended/pathway_animal_tests.py",
+      "sha256": "4b72f0b72009d804c75ac9a3fc77808221800b583bdad48177855f941d7ef4da"
+    },
+    {
+      "path": "pipeline/stages/extended/pathway_camera.R",
+      "sha256": "28f9b72c209d87a21b6fb57fcdc92943677935f4e540de839e9cc38f64ff2df2"
+    },
+    {
+      "path": "pipeline/stages/extended/prepare_sorted_cells.py",
+      "sha256": "34ed4d4913c903841b6039cb9e82b4a5afed933a29f67d21cbda2ace531fa6a1"
+    },
+    {
+      "path": "pipeline/stages/extended/prepare_validation.py",
+      "sha256": "0336cdd935ae3b7e380808d0a7c063a9841a84aaea887eb6fa94aec631911d11"
+    },
+    {
+      "path": "pipeline/stages/extended/promoter_context.py",
+      "sha256": "19db6766f626ab257d56f16bee666499c85834d90671068b52a303c6263eab2f"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_cell_depth_endpoints.py",
+      "sha256": "575a84a81ad8fb4f42f45c254777e1a82684cf56b9e00044af13ee4b5132455b"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_exact_and_pairing.py",
+      "sha256": "b14f84fdfa6aca69f0f504a11828d2e21aac165185135e2360304d21ce2ec4df"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_leave_one_mouse.R",
+      "sha256": "5873508b18433d7bca7ef93d1960ea4977410611ab60fda87c64c0e351c738e0"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_marker_sensitivity.py",
+      "sha256": "6c28c967481e90e0e54c18d484612b37e944e16483bd3cc22bf9375bdb77480f"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_pathway_camera.R",
+      "sha256": "4fa4299d88f33e2ccddbcd3c00e3dcd1658e0db2b5702c3bd71491e9a5d8796d"
+    },
+    {
+      "path": "pipeline/stages/extended/sorted_pathway_exact.py",
+      "sha256": "e787071f5af1823c61aae28d485972aae82f16470df67dbde5eb442665902d71"
+    },
+    {
+      "path": "pipeline/stages/extended/verify_extension.py",
+      "sha256": "37e6113fef84e98c2169d5eef8f324657016e6224185ed8b5d23871914833787"
+    },
+    {
+      "path": "pipeline/stages/extended/verify_figure_values.py",
+      "sha256": "67e85bc0d075e92b3d3074bada80639da371420abbdbccaca4c12eb034ae9350"
+    },
+    {
+      "path": "pipeline/steps.py",
+      "sha256": "eb35da0c8bc82e97d268dba8f7e4271384ed60ec8eff6489f166ee0ed622c98a"
+    },
+    {
+      "path": "pipeline/tests/test_acquisition.py",
+      "sha256": "ade6c39e5478736f5d4a9fd607a63ef1a1f602e044db1f62234e6931ba555fd9"
+    },
+    {
+      "path": "pipeline/tests/test_input_integrity.py",
+      "sha256": "23fe55782f584ea62d802f454afbf109d71c86564a3214fbd9f325ee8d194c98"
+    },
+    {
+      "path": "run_pipeline.py",
+      "sha256": "286f4c7bff89865b59dd7b3f4764ff38746963e258703055a8990848faefbb35"
+    },
+    {
+      "path": "tools/verify_repository.py",
+      "sha256": "ece8276e6644d6bc74bf303814d8da1bba1c1d7f3979af1011957d5b35fdce0c"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-# Electronic Supplementary Data
-
-INDEX.csv maps 50 numbered complete-table exports to the original analysis paths, row/column dimensions and SHA-256 hashes. Compressed CSV files contain large gene tables; decompress them for a journal portal that requires plain CSV. These are byte-identical copies, with no discovery-only filtering or revised multiplicity families. The full results/ and extensions/ trees also retain constituent genes, normalization, design support, omitted-case diagnostics, software protocols and additional intermediate tables.
-
-Overlapping holdouts are not independent animal samples. Simulated repetitions are generated datasets, not real animals. Exact-label families, primary panel families, paired families and exploratory interaction families are separately declared in Methods. Missing probabilities remain unavailable. This folder is an upload convenience for the electronic data referenced in the Article and Supplementary Table S1; reproduction uses the original paths.

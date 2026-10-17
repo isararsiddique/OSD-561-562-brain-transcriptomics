@@ -1,0 +1,13 @@
+{
+  "archive_url": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-352/download?source=datamanager&file=GLDS-352_SpatialTranscriptomics_multiomics_final_objects_metadata.zip",
+  "archive_expected_bytes": 3930772005,
+  "member": "multiomics_final_objects_metadata/multiomics_brain_metadata_all_cells.csv",
+  "member_bytes": 8923760,
+  "compressed_range": [
+    3928075655,
+    3930770783
+  ],
+  "member_crc32": 1730577061,
+  "sha256": "2c81e72ceb18d459aec3dcedbcac3f9bbb0f74e8ff241270787b8e41e1c5aea0",
+  "retrieval": "HTTP byte ranges; member length and ZIP CRC32 verified"
+}

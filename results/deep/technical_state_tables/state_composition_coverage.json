@@ -1,0 +1,23 @@
+[
+  {
+    "K": 4,
+    "all_states_observed_in_each_mouse": true,
+    "all_states_have_50_cells_in_each_mouse": false,
+    "minimum_state_mouse_cells": 6,
+    "common_support_states": [
+      1,
+      3
+    ],
+    "uniform_all_state_interpretation": "Sparse-state exploratory sensitivity; requires >=1 observed cell in every mouse/state. Not reliable subtype adjustment."
+  },
+  {
+    "K": 6,
+    "all_states_observed_in_each_mouse": true,
+    "all_states_have_50_cells_in_each_mouse": false,
+    "minimum_state_mouse_cells": 1,
+    "common_support_states": [
+      3
+    ],
+    "uniform_all_state_interpretation": "Sparse-state exploratory sensitivity; requires >=1 observed cell in every mouse/state. Not reliable subtype adjustment."
+  }
+]

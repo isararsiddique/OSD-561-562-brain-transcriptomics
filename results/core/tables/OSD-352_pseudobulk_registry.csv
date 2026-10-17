@@ -1,0 +1,26 @@
+bio_origin,cell_type,n_nuclei,flight_status,total_RNA_UMIs,column
+CF1_B,CNS glia,953,flight,1171478,CF1_B|CNS glia
+CF1_B,CNS neurons,6929,flight,24300402,CF1_B|CNS neurons
+CF1_B,Immune cells,81,flight,81643,CF1_B|Immune cells
+CF1_B,Neural crest-like glia,194,flight,291812,CF1_B|Neural crest-like glia
+CF1_B,Vascular cells,126,flight,132743,CF1_B|Vascular cells
+CF2_B,CNS glia,210,flight,557338,CF2_B|CNS glia
+CF2_B,CNS neurons,510,flight,1312167,CF2_B|CNS neurons
+CF2_B,Immune cells,25,flight,38774,CF2_B|Immune cells
+CF2_B,Neural crest-like glia,12,flight,50618,CF2_B|Neural crest-like glia
+CF2_B,Vascular cells,8,flight,21655,CF2_B|Vascular cells
+CF7_B,CNS glia,581,flight,1116769,CF7_B|CNS glia
+CF7_B,CNS neurons,3142,flight,8524632,CF7_B|CNS neurons
+CF7_B,Immune cells,109,flight,126834,CF7_B|Immune cells
+CF7_B,Neural crest-like glia,61,flight,200615,CF7_B|Neural crest-like glia
+CF7_B,Vascular cells,25,flight,53615,CF7_B|Vascular cells
+CG8_B,CNS glia,619,ground,1597367,CG8_B|CNS glia
+CG8_B,CNS neurons,3827,ground,7943662,CG8_B|CNS neurons
+CG8_B,Immune cells,36,ground,64435,CG8_B|Immune cells
+CG8_B,Neural crest-like glia,20,ground,73395,CG8_B|Neural crest-like glia
+CG8_B,Vascular cells,28,ground,64044,CG8_B|Vascular cells
+CG9_B,CNS glia,372,ground,788015,CG9_B|CNS glia
+CG9_B,CNS neurons,3243,ground,5445137,CG9_B|CNS neurons
+CG9_B,Immune cells,31,ground,41247,CG9_B|Immune cells
+CG9_B,Neural crest-like glia,20,ground,65701,CG9_B|Neural crest-like glia
+CG9_B,Vascular cells,16,ground,37137,CG9_B|Vascular cells

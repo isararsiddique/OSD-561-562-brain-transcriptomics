@@ -1,0 +1,6 @@
+cell_type,flight_minus_ground_fraction,exact_p,q_five_types
+CNS glia,0.06044657348036307,0.5,0.5
+CNS neurons,-0.09441214461526992,0.2,0.25
+Immune cells,0.015243194943238496,0.2,0.25
+Neural crest-like glia,0.01330221525285017,0.1,0.25
+Vascular cells,0.005420160938818192,0.2,0.25

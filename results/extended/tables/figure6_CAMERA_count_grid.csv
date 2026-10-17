@@ -1,0 +1,13 @@
+branch,correlation_model,planned_family_size,missing_adjusted_p_values,corrected_contrasts
+Core bulk,default_0.01,1400,0,156
+Core bulk,conservative_0.10,1400,0,0
+Core bulk,estimated,1400,0,0
+Independent bulk,default_0.01,150,0,30
+Independent bulk,conservative_0.10,150,0,0
+Independent bulk,estimated,150,0,0
+RR3 cell types,default_0.01,250,0,15
+RR3 cell types,conservative_0.10,250,0,0
+RR3 cell types,estimated,250,0,0
+RR8 enriched populations,default_0.01,1200,0,209
+RR8 enriched populations,conservative_0.10,1200,0,0
+RR8 enriched populations,estimated,1200,0,0

@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-17",
+  "completed_stages": 62,
+  "input_checks": 303,
+  "numerical_checks": {
+    "core": 56,
+    "extension": 134,
+    "figure_values": 91,
+    "deep": 650
+  },
+  "total_numerical_checks": 931,
+  "PDF_checks": 19,
+  "unit_guard_tests": 8,
+  "live_source_files_checked": 7,
+  "comparison_tables": 18,
+  "comparison_rows": 258677,
+  "stage_seconds": {
+    "core_inputs": 9.74,
+    "orthology": 0.25,
+    "check_panel": 0.15,
+    "primary_source_identity": 0.25,
+    "bulk_deseq2": 42.47,
+    "bulk_rsem_sensitivity": 20.04,
+    "geomx": 5.88,
+    "core_sensitivities": 5.18,
+    "category_exact": 1.12,
+    "gene_exact": 0.71,
+    "nucleus_context": 6.51,
+    "independent_inputs": 1.17,
+    "multiome": 13.08,
+    "bulk_edger_voom": 30.75,
+    "reference_mixtures": 3.0,
+    "composition_sensitivity": 2.61,
+    "promoter": 3.68,
+    "pathway_camera": 35.43,
+    "pathway_exact": 1.94,
+    "rr9_ncounter": 0.54,
+    "protein_source_audit": 0.15,
+    "visium_inputs": 0.11,
+    "visium": 25.37,
+    "sorted_identity": 0.26,
+    "sorted_qc": 10.01,
+    "sorted_accessions": 0.25,
+    "sorted_marker_qc": 5.98,
+    "sorted_models": 36.78,
+    "sorted_exact_pairing": 5.43,
+    "sorted_camera": 13.38,
+    "sorted_pathway_exact": 0.96,
+    "sorted_mouse_deletions": 22.52,
+    "sorted_depth": 18.02,
+    "sorted_relative": 2.43,
+    "camera_assumptions": 1.22,
+    "continuous_evidence": 0.74,
+    "additional_inputs": 3.27,
+    "additional_models": 8.49,
+    "additional_mouse_deletions": 101.33,
+    "regional_inputs": 1.1,
+    "regional_models": 7.58,
+    "expanded_families": 1.77,
+    "expression_states": 21.5,
+    "state_models": 6.39,
+    "state_composition": 7.87,
+    "technical_states": 20.1,
+    "technical_state_models": 8.53,
+    "technical_composition": 9.14,
+    "article_qc": 6.85,
+    "article_models": 9.2,
+    "result_tables": 0.23,
+    "core_figures": 5.02,
+    "integrated_figures": 4.67,
+    "immune_figure": 0.67,
+    "mouse_validation_figure": 0.66,
+    "deep_figures": 3.29,
+    "verify_core": 1.4,
+    "verify_extension": 1.39,
+    "verify_figure_values": 0.53,
+    "verify_deep": 6.04,
+    "report": 0.22,
+    "figure_files": 5.23
+  },
+  "host": "macOS arm64",
+  "cross_platform_full_execution_tested": false,
+  "source_metadata_change": "One generated download ledger now uses relative paths; assay bytes and biological inputs match the recorded original snapshot.",
+  "historical_tables_compared": [
+    {
+      "table": "core/tables/bulk_panel_complete.csv",
+      "rows": 4228,
+      "columns": 24,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/spatial_panel_complete.csv",
+      "rows": 4228,
+      "columns": 25,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/bulk_secondary_age_interactions.csv",
+      "rows": 604,
+      "columns": 8,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/bulk_count_source_sensitivity.csv",
+      "rows": 1208,
+      "columns": 29,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "core/tables/OSD-352_panel_celltype_exact_tests.csv",
+      "rows": 755,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/bulk_method_comparison_panel.csv",
+      "rows": 8456,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/independent_bulk_panel.csv",
+      "rows": 906,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/celltype_pseudobulk_panel.csv",
+      "rows": 1510,
+      "columns": 10,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/Visium_donor_flight_tests.csv",
+      "rows": 201,
+      "columns": 6,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/sorted_cell_panel_complete.csv",
+      "rows": 21744,
+      "columns": 13,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "extended/tables/pathway_CAMERA_complete.csv",
+      "rows": 5400,
+      "columns": 12,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/additional_panel_all_regions.csv",
+      "rows": 3624,
+      "columns": 15,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/terminal_region_panel_complete.csv",
+      "rows": 1510,
+      "columns": 12,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/article_5pct_panel_complete.csv",
+      "rows": 7248,
+      "columns": 13,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/state_panel_complete.csv",
+      "rows": 12080,
+      "columns": 15,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/state_composition_complete_tests.csv",
+      "rows": 3624,
+      "columns": 14,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/forebrain_all_eight_QC_method_consensus.csv",
+      "rows": 151,
+      "columns": 7,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    },
+    {
+      "table": "deep/tables/additional_mouse_deletion_expanded_complete.csv.gz",
+      "rows": 181200,
+      "columns": 16,
+      "matches_historical_analysis": true,
+      "matches_publication_run": true
+    }
+  ]
+}

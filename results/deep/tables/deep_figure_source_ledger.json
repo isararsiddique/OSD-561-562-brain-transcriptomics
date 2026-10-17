@@ -1,0 +1,44 @@
+[
+  {
+    "figure": "figure8_expression_state_validation",
+    "sources": [
+      "tables/state_mouse_QC.csv",
+      "tables/state_panel_complete.csv",
+      "tables/state_composition_complete_tests.csv",
+      "depth_sensitivity/tables/state_mouse_QC.csv",
+      "depth_sensitivity/tables/state_panel_complete.csv"
+    ],
+    "script": "pipeline/stages/deep/make_deep_figures.py"
+  },
+  {
+    "figure": "figure9_additional_cohort_validation",
+    "sources": [
+      "tables/additional_panel_all_regions.csv",
+      "tables/additional_mouse_registry.csv",
+      "prepared/OSD-525_voom_logCPM.csv.gz",
+      "prepared/OSD-457_voom_logCPM.csv.gz",
+      "tables/additional_mouse_deletion_expanded_focus.csv"
+    ],
+    "script": "pipeline/stages/deep/make_deep_figures.py"
+  },
+  {
+    "figure": "figureS3_additional_complete_panel",
+    "sources": [
+      "tables/additional_panel_all_regions.csv",
+      "../core/tables/verified_panel_mapping.csv"
+    ],
+    "script": "pipeline/stages/deep/make_deep_figures.py"
+  },
+  {
+    "figure": "figure10_regional_and_QC_validation",
+    "sources": [
+      "tables/additional_panel_all_regions.csv",
+      "tables/terminal_region_mouse_registry.csv",
+      "prepared/OSD-613_voom_logCPM.csv.gz",
+      "tables/article_5pct_panel_complete.csv",
+      "tables/article_GEO_QC_discrepancy.json",
+      "../extended/tables/sorted_cell_panel_complete.csv"
+    ],
+    "script": "pipeline/stages/deep/make_deep_figures.py"
+  }
+]

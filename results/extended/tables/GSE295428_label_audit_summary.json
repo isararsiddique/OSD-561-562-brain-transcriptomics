@@ -1,0 +1,9 @@
+{
+  "source_URL": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295428&targ=gsm&form=text&view=brief",
+  "brain_related_sample_files": 47,
+  "label_mismatches": 0,
+  "unknown_labeled_brain_file_exclusions": 0,
+  "current_series_annotation_correction": "GEO series carries 2026-04-22 notice assigning unreliable subset tissue/age/treatment to unknown. All analyzed brain libraries retain known matching current characteristics; no unknown-labeled samples were included.",
+  "label_normalization": "Remove punctuation/case and correct explicit textual meyloid/myeloid typo; never change mouse or exposure labels.",
+  "decision": "Fresh sample attachments agree with fresh GEO metadata. The cached review sample listing was inconsistent with these current records and is not used. Proceed with current attachments and group-qualified donor labels."
+}

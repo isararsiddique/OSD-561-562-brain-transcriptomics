@@ -1,0 +1,10 @@
+{
+  "paired_finite_gene_effects": 21368,
+  "inside_display_window": 20954,
+  "outside_display_window": 414,
+  "display_axis_limits": [
+    -4,
+    4
+  ],
+  "white_bin_meaning": "No observations in the bin; not a missing gene-effect estimate."
+}

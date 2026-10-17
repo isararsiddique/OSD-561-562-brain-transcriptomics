@@ -1,0 +1,38 @@
+[
+  {
+    "path": "deep/sources/OSD-612_metadata_OSD-612-ISA.zip",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-612/download?source=datamanager&file=OSD-612_metadata_OSD-612-ISA.zip",
+    "bytes": 93272,
+    "SHA256": "db147899c629a5b622d28465069097eff6eac0938d96408cf6c1f46f4183ed2f"
+  },
+  {
+    "path": "deep/sources/GLDS-588_rna_seq_bulkRNASeq_v2_runsheet.csv",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-612/download?source=datamanager&file=GLDS-588_rna_seq_bulkRNASeq_v2_runsheet.csv",
+    "bytes": 3384,
+    "SHA256": "1f7ec13b60a048f7ffe0e1e890218fe7421b716cafea72d108dd9e5b29ed709a"
+  },
+  {
+    "path": "deep/sources/GLDS-588_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-612/download?source=datamanager&file=GLDS-588_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "bytes": 2611167,
+    "SHA256": "bdde84a4d1e91a0311c7188f67bfe6a754e3fd2e21337c95d95f91b73eae061f"
+  },
+  {
+    "path": "deep/sources/OSD-613_metadata_OSD-613-ISA.zip",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-613/download?source=datamanager&file=OSD-613_metadata_OSD-613-ISA.zip",
+    "bytes": 146807,
+    "SHA256": "4005232d642099823f88f3a349c7c5ceb0653d186ede82245e78855b915e5c80"
+  },
+  {
+    "path": "deep/sources/GLDS-589_rna_seq_bulkRNASeq_v2_runsheet.csv",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-613/download?source=datamanager&file=GLDS-589_rna_seq_bulkRNASeq_v2_runsheet.csv",
+    "bytes": 7579,
+    "SHA256": "b2767319e802b65a7aa44dddc0e6435f7a2cef868ad80761471682ac81b5fcdf"
+  },
+  {
+    "path": "deep/sources/GLDS-589_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "URL": "https://osdr.nasa.gov/geode-py/ws/studies/OSD-613/download?source=datamanager&file=GLDS-589_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+    "bytes": 4035574,
+    "SHA256": "062e8117c8cd7d171f423d03ff8dc5e0b9a60793d2931691c29d682a971f9be9"
+  }
+]

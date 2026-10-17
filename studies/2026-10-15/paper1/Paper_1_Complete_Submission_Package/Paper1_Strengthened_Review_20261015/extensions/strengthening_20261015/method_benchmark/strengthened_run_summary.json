@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "n_outer_rows": 1002,
-  "n_independent_cohort_units": 64,
-  "n_certified_fits": 16084,
-  "all_convex_fits_converged": true,
-  "max_relative_gap": 9.999952169947178e-08,
-  "elapsed_seconds": 131.15170001983643
-}

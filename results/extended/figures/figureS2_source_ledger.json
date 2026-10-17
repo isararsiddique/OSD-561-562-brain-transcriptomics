@@ -1,0 +1,12 @@
+{
+  "tables": [
+    "sorted_cell_panel_complete.csv",
+    "sorted_target_donor_expression.csv"
+  ],
+  "full_inference_family": 3624,
+  "selection": "Post-result biological illustration; no new p-values or independent replication from repeated methods/QC.",
+  "formats": [
+    "PNG",
+    "SVG"
+  ]
+}

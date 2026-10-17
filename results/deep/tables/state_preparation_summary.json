@@ -1,0 +1,141 @@
+{
+  "dataset": "GSE295428 / RR8 myeloid-enriched forebrain",
+  "n_mice": 8,
+  "n_cells": 23036,
+  "training_cells": 12000,
+  "maximum_training_cells_per_mouse": 1500,
+  "n_nonpanel_variable_features": 2000,
+  "PCA_components": 30,
+  "PCA_explained_variance_fraction": 0.10434007985575094,
+  "K_values": [
+    4,
+    6
+  ],
+  "selection": "Non-panel, non-mitochondrial, non-ribosomal genes; mean-bin dispersion ranking of balanced training cells; no exposure or age label used",
+  "QC": "Same primary 200-2500 feature and <=50% mitochondrial gate as completed analysis",
+  "inference": "Post-result exploratory; eight mice, not cells, are exposure replicates; state learning uses the same eight mice",
+  "remaining_confound": "Flight and ground dissections occurred on different days; group and day are perfectly confounded",
+  "technical_sensitivity": "Primary normalized-expression PCA without technical regression",
+  "raw_input_hashes": [
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947901_Myeloid_Forebrain-HC_1_11-Mouse_1-Pool_1_matrix.mtx.gz",
+      "bytes": 27746552,
+      "sha256": "c567e21ffceecdd0cd56644f79c82a3f03e975234a0b87a3fc0a01fc3ac6f8e1"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947901_Myeloid_Forebrain-HC_1_11-Mouse_1-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "016cb3ea73334a443dca7ad4eed69aa0e9d5c7628d3aaf3e155fcb32a5731625"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947901_Myeloid_Forebrain-HC_1_11-Mouse_1-Pool_1_barcodes.tsv.gz",
+      "bytes": 18736,
+      "sha256": "684a76d6ed5a2b7d93e281f7851d01f8463d8aa73e2f110f269cfae7d464d6ea"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947902_Myeloid_Forebrain-HC_1_11-Mouse_2-Pool_1_matrix.mtx.gz",
+      "bytes": 30803160,
+      "sha256": "9494cdbf5e2751c59a19f590aa19648a23fad0936e26f520661ba892aa36be20"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947902_Myeloid_Forebrain-HC_1_11-Mouse_2-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "f48c3e38ae581529469d0e7db651c08111652b3257d058f17f8227b6bbcee4ab"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947902_Myeloid_Forebrain-HC_1_11-Mouse_2-Pool_1_barcodes.tsv.gz",
+      "bytes": 20608,
+      "sha256": "10fe59dcd8162f7a4b2b80875e6eb0ea5942e77406dee33c28a7797ce52e2093"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947903_Myeloid_Forebrain-HC_1_11-Mouse_3-Pool_1_matrix.mtx.gz",
+      "bytes": 18572309,
+      "sha256": "ea9fd18d01a79731c186ea68c61ef95c42f890eff4ee1593f9be71a4ab450817"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947903_Myeloid_Forebrain-HC_1_11-Mouse_3-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "9d62b3e9d509e93e8946f62fcd30c9f00f7c4a226a7e56053d197761adaab4d0"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947903_Myeloid_Forebrain-HC_1_11-Mouse_3-Pool_1_barcodes.tsv.gz",
+      "bytes": 12242,
+      "sha256": "74e8113aa76b14333aa216afc0602b945554ddaa2bbd8ba2518946b049fc71c8"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947904_Myeloid_Forebrain-HC_1_11-Mouse_4-Pool_1_matrix.mtx.gz",
+      "bytes": 22027058,
+      "sha256": "55f377755aace98bc216b1034d653531491e0b93f54718fc59299100a6fb2ed5"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947904_Myeloid_Forebrain-HC_1_11-Mouse_4-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "75b06eedad22e471a86464ab8ad9b9db6e7e4cd8b7b6231433e8080ea5a08e37"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947904_Myeloid_Forebrain-HC_1_11-Mouse_4-Pool_1_barcodes.tsv.gz",
+      "bytes": 16596,
+      "sha256": "a9262796f4505e046af22c747e4b875a524968493a126c5244d88091f418b5fb"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947905_Myeloid_Forebrain-LAR_2_1-Mouse_1-Pool_1_matrix.mtx.gz",
+      "bytes": 23734444,
+      "sha256": "a1ae4a8f81507153a372a16710f4ff208b3f3da8bfbe71a6ac1a418895c37a0b"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947905_Myeloid_Forebrain-LAR_2_1-Mouse_1-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "717b13dc0c9872f0a3112ae9df54725c39d38ff082bf4772828487caa5354315"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947905_Myeloid_Forebrain-LAR_2_1-Mouse_1-Pool_1_barcodes.tsv.gz",
+      "bytes": 17785,
+      "sha256": "04a2d99ea0ff6b77ad6ca37d47a6137317b046ae49d1dbbd6f3ee34ed6acf919"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947906_Myeloid_Forebrain-LAR_2_1-Mouse_2-Pool_1_matrix.mtx.gz",
+      "bytes": 41543609,
+      "sha256": "a1d63db7a7c84ebd85f6846f09af90207d79518f9cd64ab6a1d38a11f8d40298"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947906_Myeloid_Forebrain-LAR_2_1-Mouse_2-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "1eb6f58330fb473185ae2bc244dbadc0bb84113153678418a71f4022722a4195"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947906_Myeloid_Forebrain-LAR_2_1-Mouse_2-Pool_1_barcodes.tsv.gz",
+      "bytes": 29395,
+      "sha256": "5af3da5dec9f58292e87b6b5f9ea7b6b32b7f9c822ba44b9d883a940fa8d2156"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947907_Myeloid_Forebrain-LAR_2_1-Mouse_3-Pool_1_matrix.mtx.gz",
+      "bytes": 24871373,
+      "sha256": "8cbd7099b302f30d08767aa46a9e0c98be35b359fb22e11d889274139d353aee"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947907_Myeloid_Forebrain-LAR_2_1-Mouse_3-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "63bd0d3f472f81c96687f3f25dd419e42b741568e725e9573e97cca6e6ba3998"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947907_Myeloid_Forebrain-LAR_2_1-Mouse_3-Pool_1_barcodes.tsv.gz",
+      "bytes": 20458,
+      "sha256": "dbddd5fb63f4453c64a651942f2f51ab2a560bef4d729d05f8a61ef14f9fa857"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947908_Myeloid_Forebrain-LAR_2_1-Mouse_4-Pool_1_matrix.mtx.gz",
+      "bytes": 39649037,
+      "sha256": "a5b918a4b4b13c409c4325d1b251d5667408664056bdfcc2b78971d44d1d5852"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947908_Myeloid_Forebrain-LAR_2_1-Mouse_4-Pool_1_features.tsv.gz",
+      "bytes": 290896,
+      "sha256": "2214ebd7ce62f2da7c9c32258ee7422b0f86212c98555b9ab20969b64429dcf6"
+    },
+    {
+      "path": "extended/sources/GSE295428_sorted_cells/GSM8947908_Myeloid_Forebrain-LAR_2_1-Mouse_4-Pool_1_barcodes.tsv.gz",
+      "bytes": 27861,
+      "sha256": "0d3b92261617833accbe5225103c947ccc0089772b78996c05ef78a614977bfd"
+    }
+  ]
+}
