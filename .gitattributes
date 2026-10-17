@@ -6,6 +6,6 @@
 *.R text eol=lf
 *.md text eol=lf
 # Keep checksum-recorded metadata and generated exports byte faithful.
-data/reference/** -whitespace
+data/reference/** -text -whitespace
 data/SOURCE_FILES.tsv -whitespace
-results/** -whitespace
+results/** -text -whitespace
