@@ -294,7 +294,7 @@
     },
     {
       "path": "tools/verify_repository.py",
-      "sha256": "ece8276e6644d6bc74bf303814d8da1bba1c1d7f3979af1011957d5b35fdce0c"
+      "sha256": "e7af14e3611c4c1a1b096dbb88edad82494acb391a2dff81b05281e9837e8436"
     }
   ]
 }

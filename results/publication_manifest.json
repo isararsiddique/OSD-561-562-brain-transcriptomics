@@ -3250,8 +3250,8 @@
     },
     {
       "path": "results/verification/stage_logs/composition_sensitivity.log",
-      "bytes": 9478,
-      "sha256": "9a046093664e9af93e7ffff8ce6902217d988938ed55df6e6048b68c6071cde3"
+      "bytes": 9106,
+      "sha256": "fc850f703a0059fbd7d514e620825d11658217369ed1c9cdd708af713cc41cd7"
     },
     {
       "path": "results/verification/stage_logs/continuous_evidence.log",

@@ -1,10 +1,10 @@
-/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+python/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
   return self.resid / sigma / np.sqrt(1 - hii)
-/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+python/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
   return self.resid / sigma / np.sqrt(1 - hii)
-/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+python/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
   return self.resid / sigma / np.sqrt(1 - hii)
-/Users/zain/Downloads/OSD-561-562-brain-transcriptomics-main/analysis_20261016/.venv/lib/python3.12/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
+python/site-packages/statsmodels/stats/outliers_influence.py:961: RuntimeWarning: invalid value encountered in divide
   return self.resid / sigma / np.sqrt(1 - hii)
   study     method            normalization       error_model analyte mouse_symbol   pvalue   effect  LOO_effect_min  LOO_effect_max  max_Cooks_distance                            status  q_full_302_family
 OSD-561       NNLS                      CPM      ordinary_OLS    IRF1         Irf1 0.000114 1.273298        1.229526        1.518241            1.749542 secondary_conditional_association           0.034390

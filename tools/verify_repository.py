@@ -45,7 +45,7 @@ def main():
         if not p.is_file() or '.git' in p.parts:continue
         assert p.stat().st_size < 100*1024*1024,f'GitHub file-size limit: {p}'
         assert p.suffix.lower() not in {'.h5','.mtx','.fastq','.bam','.rds','.pkl'},f'Assay/model object: {p}'
-        if p.suffix in {'.py','.R','.md','.json','.csv','.tsv','.txt','.svg','.yml'}:
+        if p.suffix in {'.py','.R','.md','.json','.csv','.tsv','.txt','.svg','.yml','.log'}:
             text=p.read_text()
             assert not re.search(r'/(?:Users|private/tmp|tmp/OSDR)(?:/|$)',text),f'Workstation path: {p}'
     print(json.dumps({'published_artifact_hashes':len(manifest['files']),
